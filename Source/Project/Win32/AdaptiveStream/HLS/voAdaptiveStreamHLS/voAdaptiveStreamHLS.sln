@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voAdaptiveStreamHLS", "voAdaptiveStreamHLS.vcproj", "{D2E9DE78-7988-4199-9E8E-FC9B118F4480}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voHLSParserLib", "..\voHLSParserLib\voHLSParserLib.vcproj", "{2A85ECFA-755A-44D4-936C-9C55BF573309}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Pocket PC 2003 (ARMV4) = Debug|Pocket PC 2003 (ARMV4)
+		Debug|Win32 = Debug|Win32
+		Release|Pocket PC 2003 (ARMV4) = Release|Pocket PC 2003 (ARMV4)
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2E9DE78-7988-4199-9E8E-FC9B118F4480}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{D2E9DE78-7988-4199-9E8E-FC9B118F4480}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug|Pocket PC 2003 (ARMV4)
+		{D2E9DE78-7988-4199-9E8E-FC9B118F4480}.Debug|Pocket PC 2003 (ARMV4).Deploy.0 = Debug|Pocket PC 2003 (ARMV4)
+		{D2E9DE78-7988-4199-9E8E-FC9B118F4480}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2E9DE78-7988-4199-9E8E-FC9B118F4480}.Debug|Win32.Build.0 = Debug|Win32
+		{D2E9DE78-7988-4199-9E8E-FC9B118F4480}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{D2E9DE78-7988-4199-9E8E-FC9B118F4480}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release|Pocket PC 2003 (ARMV4)
+		{D2E9DE78-7988-4199-9E8E-FC9B118F4480}.Release|Pocket PC 2003 (ARMV4).Deploy.0 = Release|Pocket PC 2003 (ARMV4)
+		{D2E9DE78-7988-4199-9E8E-FC9B118F4480}.Release|Win32.ActiveCfg = Release|Win32
+		{D2E9DE78-7988-4199-9E8E-FC9B118F4480}.Release|Win32.Build.0 = Release|Win32
+		{2A85ECFA-755A-44D4-936C-9C55BF573309}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Win32
+		{2A85ECFA-755A-44D4-936C-9C55BF573309}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A85ECFA-755A-44D4-936C-9C55BF573309}.Debug|Win32.Build.0 = Debug|Win32
+		{2A85ECFA-755A-44D4-936C-9C55BF573309}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Win32
+		{2A85ECFA-755A-44D4-936C-9C55BF573309}.Release|Win32.ActiveCfg = Release|Win32
+		{2A85ECFA-755A-44D4-936C-9C55BF573309}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

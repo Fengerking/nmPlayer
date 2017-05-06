@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[G722Encdll.vcproj]
+SCC_Aux_Path = "\\Server\Development\SourceSafe\Codec\ITU_T_G7"
+SCC_Project_Name = "$/G722.1/Encoder/prj/G722Encdll", VPAAAAAA

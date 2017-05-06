@@ -1,0 +1,4 @@
+LIBRARY	voSubtitleParser.dll
+
+EXPORTS
+			voGetSubTitleParserAPI       PRIVATE

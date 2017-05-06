@@ -1,0 +1,64 @@
+/*
+============================================================================
+ Name		: RealFileReader.mmp
+ Author	  : 
+ Copyright   : VisualOn Coryright 2003 - 2010.
+ Description : This is the project specification file for RealFileReader.
+============================================================================
+*/
+
+TARGET		  	voRealFR.dll
+TARGETTYPE	  	dll
+UID			 	0x1000008d 0xEA6B1CE7
+
+MACRO           _RM_READER
+MACRO           __arm
+
+USERINCLUDE	 	..\..\..\..\..\Common
+USERINCLUDE	 	..\..\..\..\..\Include
+USERINCLUDE	 	..\..\..\..\File\Common
+USERINCLUDE	 	..\..\..\..\File\RM
+SYSTEMINCLUDE   \epoc32\include
+SYSTEMINCLUDE   \epoc32\include\libc
+
+SOURCEPATH	  	..\..\..\..\..\Common
+SOURCE		  	SymbianDllMain.cpp
+SOURCE		  	CvoBaseObject.cpp
+SOURCE		  	voCMutex.cpp
+SOURCE		  	cmnFile.cpp
+SOURCE			cmnMemory.c
+
+SOURCEPATH	  	..\..\..\..\File\Common
+SOURCE		  	CvoBaseMemOpr.cpp
+SOURCE		  	CvoBaseFileOpr.cpp
+SOURCE		  	CvoFileParser.cpp
+SOURCE		  	CMemPool.cpp
+SOURCE		  	fCodec.c
+SOURCE		  	CGFileChunk.cpp
+SOURCE		  	CGBuffer.cpp
+SOURCE		  	CBaseTrack.cpp
+SOURCE		  	CBaseStreamFileIndex.cpp
+SOURCE		  	CBaseStreamFileTrack.cpp
+SOURCE		  	CBaseStreamFileReader.cpp
+SOURCE		  	CBaseReader.cpp
+SOURCE		  	CvoBaseDrmCallback.cpp
+SOURCE		  	voFileReader.cpp
+
+
+SOURCEPATH	  	..\..\..\..\File\RM
+SOURCE		  	CRealAudioTrack.cpp
+SOURCE		  	CRealParser.cpp
+SOURCE		  	CRealReader.cpp
+SOURCE		  	CRealTrack.cpp
+SOURCE		  	CRealVideoTrack.cpp
+
+
+DEFFILE 		..\eabi\voRealFR.DEF
+
+LIBRARY		 	euser.lib
+LIBRARY		 	estlib.lib
+
+#ifdef ENABLE_ABIV2_MODE
+  DEBUGGABLE_UDEBONLY
+#endif
+

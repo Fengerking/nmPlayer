@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C47768B1519BF7C0068748A /* libvoH264Enc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C47768A1519BF7C0068748A /* libvoH264Enc.a */; };
+		3CFFA3781513086D009B3276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFFA3771513086D009B3276 /* UIKit.framework */; };
+		3CFFA37A1513086D009B3276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFFA3791513086D009B3276 /* Foundation.framework */; };
+		3CFFA37C1513086D009B3276 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFFA37B1513086D009B3276 /* CoreGraphics.framework */; };
+		3CFFA3821513086D009B3276 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CFFA3801513086D009B3276 /* InfoPlist.strings */; };
+		3CFFA3841513086D009B3276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFFA3831513086D009B3276 /* main.m */; };
+		3CFFA3881513086D009B3276 /* voH264EncAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFFA3871513086D009B3276 /* voH264EncAppDelegate.m */; };
+		3CFFA38B1513086D009B3276 /* voH264EncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFFA38A1513086D009B3276 /* voH264EncViewController.m */; };
+		3CFFA38E1513086D009B3276 /* voH264EncViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CFFA38C1513086D009B3276 /* voH264EncViewController_iPhone.xib */; };
+		3CFFA3911513086D009B3276 /* voH264EncViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CFFA38F1513086D009B3276 /* voH264EncViewController_iPad.xib */; };
+		3CFFA39C15130D5A009B3276 /* voH264EncSample.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CFFA39B15130D5A009B3276 /* voH264EncSample.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C47768A1519BF7C0068748A /* libvoH264Enc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvoH264Enc.a; path = ../../../../build/ios/apple/v7/libvoH264Enc.a; sourceTree = "<group>"; };
+		3CFFA3731513086D009B3276 /* voH264EncSampleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voH264EncSampleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFFA3771513086D009B3276 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3CFFA3791513086D009B3276 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CFFA37B1513086D009B3276 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3CFFA37F1513086D009B3276 /* voH264EncSampleDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "voH264EncSampleDemo-Info.plist"; sourceTree = "<group>"; };
+		3CFFA3811513086D009B3276 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CFFA3831513086D009B3276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CFFA3851513086D009B3276 /* voH264EncSampleDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "voH264EncSampleDemo-Prefix.pch"; sourceTree = "<group>"; };
+		3CFFA3861513086D009B3276 /* voH264EncAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = voH264EncAppDelegate.h; sourceTree = "<group>"; };
+		3CFFA3871513086D009B3276 /* voH264EncAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = voH264EncAppDelegate.m; sourceTree = "<group>"; };
+		3CFFA3891513086D009B3276 /* voH264EncViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = voH264EncViewController.h; sourceTree = "<group>"; };
+		3CFFA38A1513086D009B3276 /* voH264EncViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = voH264EncViewController.m; sourceTree = "<group>"; };
+		3CFFA38D1513086D009B3276 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/voH264EncViewController_iPhone.xib; sourceTree = "<group>"; };
+		3CFFA3901513086D009B3276 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/voH264EncViewController_iPad.xib; sourceTree = "<group>"; };
+		3CFFA39A15130D3B009B3276 /* voH264EncSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voH264EncSample.h; path = ../../voH264EncSample.h; sourceTree = "<group>"; };
+		3CFFA39B15130D5A009B3276 /* voH264EncSample.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voH264EncSample.c; path = ../../../../../../../../SampleCode/voH264EncSample.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CFFA3701513086D009B3276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFFA3781513086D009B3276 /* UIKit.framework in Frameworks */,
+				3CFFA37A1513086D009B3276 /* Foundation.framework in Frameworks */,
+				3CFFA37C1513086D009B3276 /* CoreGraphics.framework in Frameworks */,
+				3C47768B1519BF7C0068748A /* libvoH264Enc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CFFA3681513086D009B3276 = {
+			isa = PBXGroup;
+			children = (
+				3CFFA37D1513086D009B3276 /* voH264EncSampleDemo */,
+				3CFFA3761513086D009B3276 /* Frameworks */,
+				3CFFA3741513086D009B3276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CFFA3741513086D009B3276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CFFA3731513086D009B3276 /* voH264EncSampleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CFFA3761513086D009B3276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CFFA3771513086D009B3276 /* UIKit.framework */,
+				3CFFA3791513086D009B3276 /* Foundation.framework */,
+				3CFFA37B1513086D009B3276 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CFFA37D1513086D009B3276 /* voH264EncSampleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3CFFA39B15130D5A009B3276 /* voH264EncSample.c */,
+				3CFFA39A15130D3B009B3276 /* voH264EncSample.h */,
+				3CFFA39915130D29009B3276 /* v6 */,
+				3CFFA39815130D20009B3276 /* v7 */,
+				3CFFA39715130D0D009B3276 /* i386 */,
+				3CFFA3861513086D009B3276 /* voH264EncAppDelegate.h */,
+				3CFFA3871513086D009B3276 /* voH264EncAppDelegate.m */,
+				3CFFA3891513086D009B3276 /* voH264EncViewController.h */,
+				3CFFA38A1513086D009B3276 /* voH264EncViewController.m */,
+				3CFFA38C1513086D009B3276 /* voH264EncViewController_iPhone.xib */,
+				3CFFA38F1513086D009B3276 /* voH264EncViewController_iPad.xib */,
+				3CFFA37E1513086D009B3276 /* Supporting Files */,
+			);
+			path = voH264EncSampleDemo;
+			sourceTree = "<group>";
+		};
+		3CFFA37E1513086D009B3276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CFFA37F1513086D009B3276 /* voH264EncSampleDemo-Info.plist */,
+				3CFFA3801513086D009B3276 /* InfoPlist.strings */,
+				3CFFA3831513086D009B3276 /* main.m */,
+				3CFFA3851513086D009B3276 /* voH264EncSampleDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CFFA39715130D0D009B3276 /* i386 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = i386;
+			sourceTree = "<group>";
+		};
+		3CFFA39815130D20009B3276 /* v7 */ = {
+			isa = PBXGroup;
+			children = (
+				3C47768A1519BF7C0068748A /* libvoH264Enc.a */,
+			);
+			name = v7;
+			sourceTree = "<group>";
+		};
+		3CFFA39915130D29009B3276 /* v6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = v6;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CFFA3721513086D009B3276 /* voH264EncSampleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFFA3941513086D009B3276 /* Build configuration list for PBXNativeTarget "voH264EncSampleDemo" */;
+			buildPhases = (
+				3CFFA36F1513086D009B3276 /* Sources */,
+				3CFFA3701513086D009B3276 /* Frameworks */,
+				3CFFA3711513086D009B3276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voH264EncSampleDemo;
+			productName = voH264EncSampleDemo;
+			productReference = 3CFFA3731513086D009B3276 /* voH264EncSampleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CFFA36A1513086D009B3276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3CFFA36D1513086D009B3276 /* Build configuration list for PBXProject "voH264EncSampleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CFFA3681513086D009B3276;
+			productRefGroup = 3CFFA3741513086D009B3276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CFFA3721513086D009B3276 /* voH264EncSampleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CFFA3711513086D009B3276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFFA3821513086D009B3276 /* InfoPlist.strings in Resources */,
+				3CFFA38E1513086D009B3276 /* voH264EncViewController_iPhone.xib in Resources */,
+				3CFFA3911513086D009B3276 /* voH264EncViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CFFA36F1513086D009B3276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFFA3841513086D009B3276 /* main.m in Sources */,
+				3CFFA3881513086D009B3276 /* voH264EncAppDelegate.m in Sources */,
+				3CFFA38B1513086D009B3276 /* voH264EncViewController.m in Sources */,
+				3CFFA39C15130D5A009B3276 /* voH264EncSample.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CFFA3801513086D009B3276 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFFA3811513086D009B3276 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3CFFA38C1513086D009B3276 /* voH264EncViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFFA38D1513086D009B3276 /* en */,
+			);
+			name = voH264EncViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		3CFFA38F1513086D009B3276 /* voH264EncViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFFA3901513086D009B3276 /* en */,
+			);
+			name = voH264EncViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CFFA3921513086D009B3276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CFFA3931513086D009B3276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CFFA3951513086D009B3276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "voH264EncSampleDemo/voH264EncSampleDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = _IOS;
+				HEADER_SEARCH_PATHS = "../../../../../../../Include/**";
+				INFOPLIST_FILE = "voH264EncSampleDemo/voH264EncSampleDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../build/ios/apple/v7\"/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3CFFA3961513086D009B3276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "voH264EncSampleDemo/voH264EncSampleDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = _IOS;
+				HEADER_SEARCH_PATHS = "../../../../../../../Include/**";
+				INFOPLIST_FILE = "voH264EncSampleDemo/voH264EncSampleDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../build/ios/apple/v7\"/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CFFA36D1513086D009B3276 /* Build configuration list for PBXProject "voH264EncSampleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFFA3921513086D009B3276 /* Debug */,
+				3CFFA3931513086D009B3276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFFA3941513086D009B3276 /* Build configuration list for PBXNativeTarget "voH264EncSampleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFFA3951513086D009B3276 /* Debug */,
+				3CFFA3961513086D009B3276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CFFA36A1513086D009B3276 /* Project object */;
+}

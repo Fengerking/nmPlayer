@@ -1,0 +1,73 @@
+voHDMIStateCheckDemo 说明
+
+\voHDMIStateCheckDemo\libs\voOSHDMICheck.jar
+说明：实现检测HDMI接口状态的包
+使用方法：
+		1.将voOSHDMICheck.jar包添加到引用库路径中
+		2.创建voOSHDMIStateCheck类的实例。eg.m_HDMIStateCheck = new voOSHDMIStateCheck(this);VoHDMIStateCheckDemoActivity.java第31行
+		3.设置HDMI状态变化的事件侦听。eg.m_HDMIStateCheck.setOnHDMIStateChangeListener(this);VoHDMIStateCheckDemoActivity.java第34行
+		4.重写HDMI状态变化的事件侦听接口函数，分别对HDMISTATE_INITED、HDMISTATE_CONNECT和HDMISTATE_DISCONNECT事件作出处理。见VoHDMIStateCheckDemoActivity.java第49-65行
+		5.调用restart函数防止反复onCreate造成重复创建。见VoHDMIStateCheckDemoActivity.java第25-28行
+		6.释放资源。eg.m_HDMIStateCheck.Release();见VoHDMIStateCheckDemoActivity.java第43行
+
+接口函数说明：
+	//query hdmi connect state
+	//[in]-void
+	//[out]-boolean:true-hdmi connected;false-hdmi disconnnected or before initial finished;
+	//attention: This function can only be used after initial finish
+	//           initial finish:nID in onHDMIStateChangeEvent is HDMISTATE_INITED
+	public boolean isHDMIConnected();
+	
+	//set hdmi state change event listener
+	//[in]-listener
+	//[out]-void
+	public void setOnHDMIStateChangeListener(onHDMIStateChangeListener listener);
+	
+	//for samsung
+	//recreate handle and broadcast receiver
+	//[in]-Context
+	public void restart(Context c);
+	
+	//check hdmi support state
+	//[in]-void
+	//[out]-boolean:true-support hdmi;false-do not support hdmi;
+	public boolean isSupported();
+	
+	//release broadcast bind
+	public void Release();
+	
+特别说明：
+三星的机器在插拔HDMI接口的时候会重新调用activity的onCreate函数。程序需要对此进行判断，当检测到并非初次调用时，需要使用restart()函数来代替重新创建HDMIStateCheck实例。VoHDMIStateCheckDemoActivity.java第24-27行
+	
+HDMI状态变化的事件：
+	public static final int HDMISTATE_INITED;
+	public static final int HDMISTATE_CONNECT;
+	public static final int HDMISTATE_DISCONNECT;
+
+
+\voHDMIStateCheckDemo\src\com\visualon\demo\VoHDMIStateCheckDemoActivity.java
+说明：测试界面
+ 
+ 
+\voHDMIStateCheckDemo\src\com\visualon\OSMPHDMICheck\voOSHDMIStateCheck.java
+说明：实现检测HDMI接口状态的类
+\voHDMIStateCheckDemo\src\com\visualon\OSMPHDMICheck\voOSHDMIDeviceType.java
+说明：支持的设备类型枚举
+\voHDMIStateCheckDemo\src\com\visualon\OSMPHDMICheck\voOSHDMIBroadcastReceiver.java
+说明：HDMI接口状态改变广播接收类
+\voHDMIStateCheckDemo\src\com\visualon\OSMPHDMICheck\voOSHDMIBroadcastAction.java
+说明：HDMI接口状态改变广播字符串信息类
+
+
+当前支持的设备：
+Samsung GT-P7510-Android 3.0.1
+Motorola MZ606-Android 3.1
+Motorola XT928-Android 2.3.6
+Motorola XT883-Android 2.3.4
+Sony Ericsson LT18i-Android 2.3.4
+LG LG-P920-Android 2.2.2
+Sony LT26i-Android 2.3.7
+Motorola  Xoom-Android 4.0.4
+SHARP SH8298U-Android 2.3.3 内核版本2.6.35.7-perf\r\nnbproj@TG742307 #2
+ASUS Transformer Prime TF201-Android 4.0.3 内核版本2.6.39.4-00003-g2108187\r\nandroid@Mercury #1
+Acer A510-Android 4.0.3 映像文件版本：Acer_AV041_A510_D1112291_WW_GEN1 版本号：Acer_AV041_A510_0.000.02_WW_GEN1

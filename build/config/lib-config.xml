@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8" ?><xml>
+  <node>
+    <id>27409</id>
+    <name>Common API's AES128DRM</name>
+    <mid>0x0a310000</mid>
+    <file>voDRMCommonAES128</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/DRM/VisualOn/AES128_CommonAPI/Project/ndk/v6/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/DRM/VisualOn/AES128_CommonAPI/Project/iOS/v7/Makefile</item><item>Source/DRM/VisualOn/AES128_CommonAPI/Project/iOS/i386/Makefile</item><item>Source/DRM/VisualOn/AES128_CommonAPI/Project/Windows/AES128_CommonAPI.vcproj:Win32</item><item>Source/DRM/VisualOn/AES128_CommonAPI/Project/Windows/AES128_CommonAPI.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/DRM/VisualOn/AES128_CommonAPI/Project/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>366</id>
+    <name>AAC Audio Decoder</name>
+    <mid>0x02210000</mid>
+    <file>voAACDec</file>
+    <rd>Jonathon Xiong</rd>
+    <rd-mail>xiong_songya@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\AAC\DECODER\ndk\v6\jni\Android.mk</item><item>Codec\Audio\AAC\DECODER\ndk\v7\jni\Android.mk</item><item>Codec\Audio\AAC\DECODER\eclair\v6\Makefile</item><item>Codec\Audio\AAC\DECODER\eclair\v7\Makefile</item><item>Codec\Audio\AAC\DECODER\iOS\v7\Makefile</item><item>Codec\Audio\AAC\DECODER\iOS\simulator\Makefile</item><item>Codec\Audio\AAC\DECODER\sample\Test_AACDec\Test_AACDec.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\AAC\DECODER\sample\Test_AACDec\Test_AACDec.sln:Relarmv6|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item><item>Codec\Audio\AAC\DECODER\MacOS\X86\Makefile</item><item>TODO</item><item>Codec\Audio\AAC\DECODER\ndk\x86\jni\Android.mk</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>4978</id>
+    <name>AAC Encoder</name>
+    <mid>0x03210000</mid>
+    <file>voAACEnc</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\AAC\ENCODER\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\AAC\ENCODER\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\AAC\ENCODER\build\eclair\v6\Makefile</item><item>Codec\Audio\AAC\ENCODER\build\eclair\v7\Makefile</item></make>
+  </node>
+  <node>
+    <id>642</id>
+    <name>AC3 Decoder</name>
+    <mid>0x022C0000</mid>
+    <file>voAC3Dec</file>
+    <rd>Jonathon Xiong</rd>
+    <rd-mail>xiong_songya@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\AC3\DECODER\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\AC3\DECODER\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\AC3\DECODER\build\Eclair\v6\Makefile</item><item>Codec\Audio\AC3\DECODER\build\Eclair\v7\Makefile</item><item>Codec\Audio\AC3\DECODER\build\iOS\v7\Makefile</item><item>Codec\Audio\AC3\DECODER\build\iOS\simulator\Makefile</item><item>Codec\Audio\AC3\DECODER\prj\voAC3DecTest\voAC3DecTest.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\AC3\DECODER\prj\voAC3DecTest\voAC3DecTest.sln:armv6Release|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item><item>TODO</item><item>TODO</item><item>Codec\Audio\AC3\DECODER\build\ndk\x86\jni\Android.mk</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>16207</id>
+    <name>Adaptive Streaming Controller</name>
+    <mid>0x00150000</mid>
+    <file>voAdaptiveStreamController</file>
+    <rd>Ferry Zhang</rd>
+    <rd-mail>zhang_xin@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>Source/AdaptiveStreaming/Controller/Project/Linux/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source\Project\iOS\\LiveSource\AdaptiveStream\Controller\v7\</item><item>Source\Project\iOS\\LiveSource\AdaptiveStream\Controller\i386\</item><item>Source/AdaptiveStreaming/Controller/Project/Win32/ControllerDll/ControllerDll/ControllerDll.vcproj:Win32</item><item>Source/AdaptiveStreaming/Controller/Project/Win32/ControllerDll/ControllerDll/ControllerDll.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>Source\AdaptiveStreaming\Controller\Project\MacOS\x86</item><item>TODO</item><item>Source/AdaptiveStreaming/Controller/Project/Linux/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>17662</id>
+    <name>Adaptive Streaming ISS</name>
+    <mid>0x01122000</mid>
+    <file>voAdaptiveStreamISS</file>
+    <rd>Aiven Yang</rd>
+    <rd-mail>yang_weiqing@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>Source\Project\Linux\LiveSource\AdaptiveStream\ISS\ndk\v6\jni\Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source\Project\iOS\LiveSource\AdaptiveStream\ISS\v7\Makefile</item><item>Source\Project\iOS\LiveSource\AdaptiveStream\ISS\i386\Makefile</item><item>Source\Project\Win32\LiveSource\AdaptiveStream\ISS\voAdaptiveStreamISS.vcproj:Win32</item><item>Source\Project\Win32\LiveSource\AdaptiveStream\ISS\voAdaptiveStreamISS.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/LiveSource/AdaptiveStream/ISS/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>2560</id>
+    <name>ADPCM decoder</name>
+    <mid>0x022A0000</mid>
+    <file>voADPCMDec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa>Kiling Lin</qa>
+    <qa-mail>lin_shujia@visualon.com</qa-mail>
+    <make><item>Codec\Audio\ADPCM\DECODER\ndk\v6\jni\Android.mk</item><item>Codec\Audio\ADPCM\DECODER\ndk\v7\jni\Android.mk</item><item>Codec\Audio\ADPCM\DECODER\eclair\v6\Makefile</item><item>Codec\Audio\ADPCM\DECODER\eclair\v7\Makefile</item><item>Codec\Audio\ADPCM\DECODER\iOS\v7\Makefile</item><item>Codec\Audio\ADPCM\DECODER\iOS\simulator\Makefile</item><item>Codec\Audio\ADPCM\DECODER\TestADPCM\TestADPCM.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\ADPCM\DECODER\TestADPCM\TestADPCM.sln:Release|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>29166</id>
+    <name>AdsManager</name>
+    <mid>0x01160000</mid>
+    <file>voAdsManager</file>
+    <rd>Dolby Du</rd>
+    <rd-mail>du_yanqing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/AdsManager/Project/Linux/ndk/jni/Android.mk</item><item>none</item><item>none</item><item>none</item><item>Source/AdsManager/Project/ios/v7/</item><item>Source/AdsManager/Project/ios/i386/</item><item>Source/AdsManager/Project/Win32/AdsManager.vcproj:Win32</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/AdsManager/Project/Linux/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>9921</id>
+    <name>ALAC Decoder</name>
+    <mid>0x02320000</mid>
+    <file>voALACDec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\ALAC\DECODER\prj\linux\ndk\v6\jni\Android.mk</item><item>Codec\Audio\ALAC\DECODER\prj\linux\ndk\v7\jni\Android.mk</item><item>Codec\Audio\ALAC\DECODER\prj\linux\google\eclair\Makefile</item><item>Codec\Audio\ALAC\DECODER\prj\linux\google\eclair\Makefile</item></make>
+  </node>
+  <node>
+    <id>33173</id>
+    <name>Amazon AIV Customized DataSource</name>
+    <mid></mid>
+    <file>voLocalSrc</file>
+    <rd>Huan-Chih Tsai</rd>
+    <rd-mail>hctsai@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make>App/Customer/Amazon-AIV/Android/DataSource/jni/Android.mk</make>
+  </node>
+  <node>
+    <id>33096</id>
+    <name>Amazon AIV Customized Engine</name>
+    <mid></mid>
+    <file>voOSCEngine</file>
+    <rd>Huan-Chih Tsai</rd>
+    <rd-mail>hctsai@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>App/Customer/Amazon-AIV/Android/CEngine/jni/Android.mk</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>29238</id>
+    <name>Amazon's PlayReady DRM agent</name>
+    <mid>0x0a090000</mid>
+    <file>voDRMMediaCrypto</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/DRM/Amazon/PlayReady/Project/ndk/v6/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/DRM/Amazon/PlayReady/Project/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>6460</id>
+    <name>AMRWBPlus Decoder</name>
+    <mid>0x02270000</mid>
+    <file>voAMRWBPDec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa>Kiling Lin</qa>
+    <qa-mail>lin_shujia@visualon.com</qa-mail>
+    <make><item>Codec\Audio\AMRWBP\DECODER\projects\linux\ndk\v6\jni\Android.mk</item><item>Codec\Audio\AMRWBP\DECODER\projects\linux\ndk\v7\jni\Android.mk</item><item>Codec\Audio\AMRWBP\DECODER\projects\linux\Eclair\v6\Makefile</item><item>Codec\Audio\AMRWBP\DECODER\projects\linux\Eclair\v7\Makefile</item><item>Codec\Audio\AMRWBP\DECODER\projects\linux\iOS\v7\Makefile</item><item>Codec\Audio\AMRWBP\DECODER\projects\linux\iOS\simulator\Makefile</item><item>Codec\Audio\AMRWBP\DECODER\projects\VS2005\voAMRWBPDecTest\voAMRWBPDecTest.sln:Win32</item><item>Codec\Audio\AMRWBP\DECODER\projects\VS2005\voAMRWBPDecTest\voAMRWBPDecTest.sln:Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>539</id>
+    <name>AMR_NB Decoder</name>
+    <mid>0x02250000</mid>
+    <file>voAMRNBDec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa>Kiling Lin</qa>
+    <qa-mail>lin_shujia@visualon.com</qa-mail>
+    <make><item>Codec\Audio\AMRNB\DECODER\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\AMRNB\DECODER\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\AMRNB\DECODER\build\Eclair\v6\Makefile</item><item>Codec\Audio\AMRNB\DECODER\build\Eclair\v7\Makefile</item><item>Codec\Audio\AMRNB\DECODER\build\iOS\v7\Makefile</item><item>Codec\Audio\AMRNB\DECODER\build\iOS\simulator\Makefile</item><item>Codec\Audio\AMRNB\DECODER\prj\voAMRNBDecTest\voAMRNBDecTest.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\AMRNB\DECODER\prj\voAMRNBDecTest\voAMRNBDecTest.sln:ARMv7_Re|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>4896</id>
+    <name>AMR_NB Encoder</name>
+    <mid>0x03250000</mid>
+    <file>voAMRNBEnc</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\AMRNB\ENCODER\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\AMRNB\ENCODER\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\AMRNB\ENCODER\build\Eclair\v6\Makefile</item><item>Codec\Audio\AMRNB\ENCODER\build\Eclair\v7\Makefile</item><item>Codec\Audio\AMRNB\ENCODER\build\iOS\v7\Makefile</item><item>Codec\Audio\AMRNB\ENCODER\build\iOS\simulator\Makefile</item><item>Codec\Audio\AMRNB\ENCODER\prj\voAMRNBEncTest\voAMRNBEncTest.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\AMRNB\ENCODER\prj\voAMRNBEncTest\voAMRNBEncTest.sln:Release_v7|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>640</id>
+    <name>AMR_WB Decoder</name>
+    <mid>0x02260000</mid>
+    <file>voAMRWBDec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\AMRWB\DECODER\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\AMRWB\DECODER\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\AMRWB\DECODER\build\Eclair\v6\Makefile</item><item>Codec\Audio\AMRWB\DECODER\build\Eclair\v7\Makefile</item><item>Codec\Audio\AMRWB\DECODER\build\iOS\v7\Makefile</item><item>Codec\Audio\AMRWB\DECODER\build\iOS\simulator\Makefile</item><item>Codec\Audio\AMRWB\DECODER\prj\voAMRWBDecTest\voAMRWBDecTest.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\AMRWB\DECODER\prj\voAMRWBDecTest\voAMRWBDecTest.sln:ARMv7_Re|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>4895</id>
+    <name>AMR_WB Encoder</name>
+    <mid>0x03260000</mid>
+    <file>voAMRWBEnc</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\AMRWB\ENCODER\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\AMRWB\ENCODER\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\AMRWB\ENCODER\build\Eclair\v6\Makefile</item><item>Codec\Audio\AMRWB\ENCODER\build\Eclair\v7\Makefile</item><item>Codec\Audio\AMRWB\ENCODER\build\iOS\v7\Makefile</item><item>Codec\Audio\AMRWB\ENCODER\build\iOS\simulator\Makefile</item><item>Codec\Audio\AMRWB\ENCODER\prj\voAMRWBEncTest\voAMRWBEncTest.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\AMRWB\ENCODER\prj\voAMRWBEncTest\voAMRWBEncTest.sln:ARMv4-Release|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>12128</id>
+    <name>Android Surface Video Render</name>
+    <mid>0x05050000</mid>
+    <file>voAndroidVR_S22</file>
+    <rd>Eoollo Wang</rd>
+    <rd-mail>wang_yong@visualon.com</rd-mail>
+    <qa>Paul Huang</qa>
+    <qa-mail>huang_jin@visualon.com</qa-mail>
+    <make><item>Render/Video/Android/donut/Makefile</item><item>Render/Video/Android/eclair/Makefile</item><item>Render/Video/Android/froyo/Makefile</item><item>Render/Video/Android/froyo/Makefile</item></make>
+  </node>
+  <node>
+    <id>5186</id>
+    <name>ASF File Parser</name>
+    <mid>0x01030000</mid>
+    <file>voASFFR</file>
+    <rd>Dangui Wang</rd>
+    <rd-mail>wang_dangui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/Project/Linux/ASF/ndk/v6/jni/Android.mk</item><item>Source/Project/Linux/ASF/ndk/v7/jni/Android.mk</item><item>Source/Project/Linux/ASF/eclair/v6/Makefile</item><item>Source/Project/Linux/ASF/eclair/v7/Makefile</item><item>Source/Project/iOS/ASF/v7/Makefile</item><item>Source/Project/iOS/ASF/i386/Makefile</item><item>Source/Project/Win32/ASF/voAsfReader.vcproj:Win32</item><item>Source/Project/Win32/ASF/voAsfReader.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/ASF/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>1029</id>
+    <name>ATSC-MH Live Source</name>
+    <mid></mid>
+    <file>voSrcATSCMH</file>
+    <rd>Dolby Du</rd>
+    <rd-mail>du_yanqing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>todo</item><item>todo</item><item>Source\Project\Linux\LiveSource\ATSCMH\eclair\v6\Makefile</item><item>todo</item></make>
+  </node>
+  <node>
+    <id>1032</id>
+    <name>ATSC-MH Parser</name>
+    <mid></mid>
+    <file>voAtscmhParser</file>
+    <rd>Dolby Du</rd>
+    <rd-mail>du_yanqing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>todo</item><item>todo</item><item>Source\Project\Linux\ATSCMH\eclair\v6\Makefile</item><item>todo</item></make>
+  </node>
+  <node>
+    <id>6340</id>
+    <name>Audio File Parser</name>
+    <mid>0x01050000</mid>
+    <file>voAudioFR</file>
+    <rd>Lieyun He</rd>
+    <rd-mail>he_lieyun@visualon.com</rd-mail>
+    <qa>Tony Zhu</qa>
+    <qa-mail>zhu_lei@visualon.com</qa-mail>
+    <make><item>Source/Project/Linux/Audio/ndk/v6/jni/</item><item>Source/Project/Linux/Audio/ndk/v7/jni/</item><item>Source/Project/Linux/Audio/eclair/v6/</item><item>Source/Project/Linux/Audio/eclair/v7/</item><item>Source/Project/iOS/Audio/v7/</item><item>Source/Project/iOS/Audio/i386/</item><item>Source/Project/Win32/Audio/voAudioReader.vcproj:Win32</item><item>Source/Project/Win32/Audio/voAudioReader.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>Source/Project/MacOS/Audio/x86/</item><item>TODO</item><item>Source/Project/Linux/Audio/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>27529</id>
+    <name>AudioSpeed</name>
+    <mid>0x04030000</mid>
+    <file>voAudioSpeed</file>
+    <rd>Lina Lv</rd>
+    <rd-mail>lv_zhongjuan@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\xPlayer\build\ndk\lib\jni\Android.mk</item><item>Codec\Audio\xPlayer\build\ndk\lib\jni\Android.mk</item><item>N/A</item><item>N/A</item><item>Codec\Audio\xPlayer\build\iOS\v7\Makefile</item><item>Codec\Audio\xPlayer\build\iOS\simulator\Makefile</item><item>Codec\Audio\xPlayer\prj\voAudioSpeedTest\voAudioSpeedTest.sln:Release|Win32:Debug|Win32</item></make>
+  </node>
+  <node>
+    <id>5222</id>
+    <name>AVI File Parser</name>
+    <mid>0x01020000</mid>
+    <file>voAVIFR</file>
+    <rd>Lieyun He</rd>
+    <rd-mail>he_lieyun@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/Project/Linux/AVI/ndk/v6/jni/Android.mk</item><item>Source/Project/Linux/AVI/ndk/v7/jni/Android.mk</item><item>Source/Project/Linux/AVI/eclair/v6/Makefile</item><item>Source/Project/Linux/AVI/eclair/v7/Makefile</item><item>Source/Project/iOS/AVI/v7/Makefile</item><item>Source/Project/iOS/AVI/i386/Makefile</item><item>Source/Project/Win32/AVI/voAviReader.vcproj:Win32</item><item>Source/Project/Win32/AVI/voAviReader.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/AVI/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>33595</id>
+    <name>BMT divxdrm_jni</name>
+    <mid>0x</mid>
+    <file>divxdrm_jni</file>
+    <rd>Neo Yang</rd>
+    <rd-mail>yang_xiaomin@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>MFW/Android/jni/project/drm/Makefile</item></make>
+  </node>
+  <node>
+    <id>33593</id>
+    <name>BMT OMXDTSPlugin</name>
+    <mid>0x</mid>
+    <file>voOMXDTSPlugin</file>
+    <rd>Neo Yang</rd>
+    <rd-mail>yang_xiaomin@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>MFW/voSFPlugin/voOMXPlugin/Project/linux/jb/v6_DTS/Makefile</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>33591</id>
+    <name>BMT OMXPlugin</name>
+    <mid>0x</mid>
+    <file>voOMXPlugin</file>
+    <rd>Neo Yang</rd>
+    <rd-mail>yang_xiaomin@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>MFW/voSFPlugin/voOMXPlugin/Project/linux/jb/v6/Makefile</item></make>
+  </node>
+  <node>
+    <id>33585</id>
+    <name>BMT SF Plugin</name>
+    <mid>0x</mid>
+    <file>vosfPlugin</file>
+    <rd>Neo Yang</rd>
+    <rd-mail>yang_xiaomin@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>TODO</item><item>MFW/voSFPlugin/Project/linux/jb/v7/Makefile</item></make>
+  </node>
+  <node>
+    <id>21643</id>
+    <name>Browser Plugin</name>
+    <mid></mid>
+    <file>voBrowserPlugIn</file>
+    <rd>David Wan</rd>
+    <rd-mail>wan_jinxue@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make></make>
+  </node>
+  <node>
+    <id>23797</id>
+    <name>Browser Plugin NPAPI</name>
+    <mid>0x0b030000</mid>
+    <file>npvoBrowserPlugin</file>
+    <rd>David Wan</rd>
+    <rd-mail>wan_jinxue@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>OnStream2\BrowserPlugin\VisualOn\project\win32\npvoBrowserPlugin\npvoBrowserPlugin.vcproj:Win32</item></make>
+  </node>
+  <node>
+    <id>23011</id>
+    <name>Browser Plugin Window UI Win32</name>
+    <mid>0x0b040000</mid>
+    <file>voPlugInUI</file>
+    <rd>Serena Lu</rd>
+    <rd-mail>lu_xiaofen@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>OnStream2\BrowserPlugin\VisualOn\project\win32\libPlugInUI\PlugInUI.vcproj:Win32</item></make>
+  </node>
+  <node>
+    <id>23026</id>
+    <name>Browser Plugin Windowed ActiveX</name>
+    <mid>0x0b010000</mid>
+    <file>voPlugInIE</file>
+    <rd>Serena Lu</rd>
+    <rd-mail>lu_xiaofen@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>OnStream2\BrowserPlugin\VisualOn\project\win32\voPlugInIE\voPlugInIE.vcproj:Win32</item></make>
+  </node>
+  <node>
+    <id>27812</id>
+    <name>Browser Plugin Windowless ActiveX</name>
+    <mid>0x0b020000</mid>
+    <file>voPluginIEWinless</file>
+    <rd>Serena Lu</rd>
+    <rd-mail>lu_xiaofen@visualon.com</rd-mail>
+    <qa>Kiling Lin</qa>
+    <qa-mail>lin_shujia@visualon.com</qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>OnStream2\BrowserPlugin\VisualOn\project\win32\voPlugInIEWinless\voPlugInIEWinless.vcproj:Win32</item></make>
+  </node>
+  <node>
+    <id>13093</id>
+    <name>CableVision's PlayReady DRM agent</name>
+    <mid>0x0a050000</mid>
+    <file>voDRM_CableVision_PlayReady</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make>Source/DRM/CableVision/PlayReady2/Project/ndk/v6/jni/Android.mk</make>
+  </node>
+  <node>
+    <id>11706</id>
+    <name>ClosedCaption Parser</name>
+    <mid>0x00500000</mid>
+    <file>voCaptionParser</file>
+    <rd>Dolby Du</rd>
+    <rd-mail>du_yanqing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source\Project\Linux\Caption\ndk\v6\jni\Android.mk</item><item>Source\Project\Linux\Caption\ndk\v7\jni\Android.mk</item><item>Source\Project\Linux\Caption\eclair\v6\Makefile</item><item>todo</item><item>Source\Project\iOS\Caption\v7\</item><item>Source\Project\iOS\Caption\i386\</item><item>Source\Project\Win32\ClosedCaption\ClosedCaption.vcproj:Win32</item><item>Source\Project\Win32\ClosedCaption\ClosedCaption.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>Source\Project\MacOS\Caption\x86</item><item>TODO</item><item>Source/Project/Linux/Caption/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>1058</id>
+    <name>CMMB Live source</name>
+    <mid></mid>
+    <file>voSrcCMMB</file>
+    <rd>Shawn Cao</rd>
+    <rd-mail>cao_yexing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make></make>
+  </node>
+  <node>
+    <id>4902</id>
+    <name>color conversion</name>
+    <mid>0x05040000</mid>
+    <file>voColorConversion</file>
+    <rd>Sheng Jiang</rd>
+    <rd-mail>jiang_sheng@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Render\Video\ClrConv\build_LINUX\ndk\v6\jni\Android.mk</item><item>Render\Video\ClrConv\build_LINUX\ndk\v7\jni\Android.mk</item><item>Render\Video\ClrConv\build_LINUX\Google_eclair_v6\Makefile</item><item>Render\Video\ClrConv\build_LINUX\Google_eclair_v7\Makefile</item><item>Render\Video\ClrConv\build_ios\armv7\Makefile</item><item>Render\Video\ClrConv\build_ios\i386\Makefile</item><item>Render\Video\ClrConv\example_code\voCCSample_PPC2005\voCCSample_PPC2005.sln:Release|Win32:Debug|Win32</item><item>Render\Video\ClrConv\example_code\voCCSample_PPC2005\voCCSample_PPC2005.sln:ARMV7_Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I):ARMV7_Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)</item><item>Render\Video\ClrConv\build_MacOS\X86\Makefile</item><item>TODO</item><item>Render\Video\ClrConv\build_LINUX\ndk\x86\jni\Android.mk</item></make>
+  </node>
+  <node>
+    <id>17577</id>
+    <name>Comcast's PlayReady DRM agent</name>
+    <mid>0x0a060000</mid>
+    <file>voDRM_Comcast_PlayReady</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make>Source/DRM/Comcast/PlayReady/Project/ndk/v6/jni/Android.mk</make>
+  </node>
+  <node>
+    <id>27810</id>
+    <name>Common API's Conax DRM</name>
+    <mid>0x0a320000</mid>
+    <file>voDRMConaxPlayReady</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/DRM/Conax/PlayReady/Project/ndk/v6/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/DRM/Conax/PlayReady/Project/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>16414</id>
+    <name>Dash_Streaming_V2</name>
+    <mid>0x01123000</mid>
+    <file>voAdaptiveStreamDASH</file>
+    <rd>Dangui Wang</rd>
+    <rd-mail>wang_dangui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source\Project\Linux\LiveSource\AdaptiveStream\DASH\ndk\v6\jni\Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source\Project\iOS\LiveSource\AdaptiveStream\DASH\v7\Makefile</item><item>Source\Project\iOS\LiveSource\AdaptiveStream\DASH\i386\Makefile</item><item>Source\Project\Win32\LiveSource\AdaptiveStream\DASH\voAdaptiveStreamDASH_New.vcproj:Win32</item><item>Source\Project\Win32\LiveSource\AdaptiveStream\DASH\voAdaptiveStreamDASH_New.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/LiveSource/AdaptiveStream/DASH/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>17791</id>
+    <name>Discretix's PlayReady DRM agent</name>
+    <mid>0x0a040000</mid>
+    <file>voDRM_Discretix_PlayReady</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/DRM/Discretix/PlayReady/Project/ndk/v6/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/DRM/Discretix/PlayReady/Project/iOS/v7/Makefile</item><item>Source/DRM/Discretix/PlayReady/Project/iOS/i386/Makefile</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/DRM/Discretix/PlayReady/Project/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>9931</id>
+    <name>DivX DRM engine</name>
+    <mid>0x0a610000</mid>
+    <file>voDivXDRM</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>1</item><item>2</item><item>DRM\Project\Linux\DivX\eclair\v6\Makefile</item><item>DRM\Project\Linux\DivX\eclair\v7\Makefile</item></make>
+  </node>
+  <node>
+    <id>9933</id>
+    <name>DivX DRM jni</name>
+    <mid>0x0a620000</mid>
+    <file>voDivXDRMjni</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>1</item><item>2</item><item>MFW\Android\jni\project\drm\Makefile</item></make>
+  </node>
+  <node>
+    <id>2017</id>
+    <name>DIVX3 Decoder</name>
+    <mid>0x02070000</mid>
+    <file>voDIVX3Dec</file>
+    <rd>Harry Yang</rd>
+    <rd-mail>yang_hui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Video\Decoder\mpeg4\divx3lib\Customer\ndk\v6\jni\Android.mk</item><item>Codec\Video\Decoder\mpeg4\divx3lib\Customer\ndk\v7\jni\Android.mk</item><item>Codec\Video\Decoder\mpeg4\divx3lib\Customer\Google\eclair_v6\Makefile</item><item>Codec\Video\Decoder\mpeg4\divx3lib\Customer\Google\eclair_v7\Makefile</item><item>Codec\Video\Decoder\mpeg4\divx3lib\iOS\v7\Makefile</item><item>Codec\Video\Decoder\mpeg4\divx3lib\iOS\i386\Makefile</item><item>Codec\Video\Decoder\mpeg4\example\vs2005\voMPEG4Dec_Sample\voMPEG4Dec_Sample_PPC.sln:R_X86_DIVX3_NEWSDK|Win32:D_X86_DIVX3_NEWSDK|Win32</item><item>Codec\Video\Decoder\mpeg4\example\vs2005\voMPEG4Dec_Sample\voMPEG4Dec_Sample_PPC.sln:R_CortexA8_DIVX3_NEWSDK|Pocket PC 2003 (ARMV4):D_CortexA8_DIVX3_NEWSDK|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>12367</id>
+    <name>DOLBY Effect</name>
+    <mid>0x04020000</mid>
+    <file>voDolbyEffect</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\DoblyEffect\ndk\v6\jni\Android.mk</item><item>Codec\Audio\DoblyEffect\ndk\v7\jni\Android.mk</item><item>Codec\Audio\DoblyEffect\linux\elcair\v6\Makefile</item><item>Codec\Audio\DoblyEffect\linux\elcair\v7\Makefile</item><item>Codec\Audio\DoblyEffect\iOS\v7\Makefile</item><item>N/A</item></make>
+  </node>
+  <node>
+    <id>27406</id>
+    <name>DRM Adapter</name>
+    <mid>0x0a300000</mid>
+    <file>voDRMAdapter</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/DRM/VisualOn/Adapter/Project/ndk/v6/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/DRM/VisualOn/Adapter/Project/iOS/v7/Makefile</item><item>Source/DRM/VisualOn/Adapter/Project/iOS/v7/Makefile</item><item>Source/DRM/VisualOn/Adapter/Project/Windows/voDRMAdapter.vcproj:Win32</item><item>Source/DRM/VisualOn/Adapter/Project/Windows/voDRMAdapter.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>Source/DRM/VisualOn/Adapter/Project/iOS/mac/Makefile</item><item>TODO</item><item>Source/DRM/VisualOn/Adapter/Project/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>24911</id>
+    <name>DRM JNI</name>
+    <mid>0x09070000</mid>
+    <file>voDRMJNI</file>
+    <rd>Steven Zhang</rd>
+    <rd-mail>zhang_yi@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>OnStream2/Player/Project/Android/OSMPDRM/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>OnStream2/Player/Project/Android/OSMPDRM/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>27624</id>
+    <name>DRM wrap JNI</name>
+    <mid>0x09060000</mid>
+    <file>voDRMWrapJni</file>
+    <rd>Steven Zhang</rd>
+    <rd-mail>zhang_yi@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>OnStream2/Player/Project/Android/SecurePlayer/VODXLibrary/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>OnStream2/Player/Project/Android/SecurePlayer/VODXLibrary/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>21924</id>
+    <name>DVB Subtitle</name>
+    <mid>0x00520000</mid>
+    <file>voDVBSubtitleParser</file>
+    <rd>Ferry Zhang</rd>
+    <rd-mail>zhang_xin@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/Project/Linux/DVBSubtitle/ndk/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/Project/iOS/DVBSubtitle/v7</item><item>Source/Project/iOS/DVBSubtitle/i386</item><item>Source/Project/Win32/DVBSubtitle/DVBSubtitle/DVBSubtitle.vcproj:Release|Win32:Debug|Win32</item><item>TODO</item><item>Source/Project/MacOS/DVBSubtitle/x86/Makefile</item><item>TODO</item><item>Source/Project/Linux/DVBSubtitle/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>20291</id>
+    <name>Dynamic Library Functions</name>
+    <mid></mid>
+    <file>vodl</file>
+    <rd>David Wan</rd>
+    <rd-mail>wan_jinxue@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Utility\vodl\project\v6\jni\Android.mk</item><item>Utility\vodl\project\v7\jni\Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Utility\vodl\project\win32\vodl\vodl.vcproj:Win32</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Utility/vodl/project/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>9928</id>
+    <name>EAC3 Decoder</name>
+    <mid>0x02330000</mid>
+    <file>voEAC3Dec</file>
+    <rd>Jonathon Xiong</rd>
+    <rd-mail>xiong_songya@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Thirdparty\Dolby\eAC3Decoder\Project\ndk\v6\jni\Android.mk</item><item>Thirdparty\Dolby\eAC3Decoder\Project\ndk\v7\jni\Android.mk</item><item>Thirdparty\Dolby\eAC3Decoder\Project\Linux\v6\Makefile</item><item>Thirdparty\Dolby\eAC3Decoder\Project\Linux\v7\Makefile</item><item>Thirdparty\Dolby\eAC3Decoder\Project\iOS\v7\Makefile</item></make>
+  </node>
+  <node>
+    <id>647</id>
+    <name>EVRC Decoder</name>
+    <mid>0x02290000</mid>
+    <file>voEVRCDec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\EVRC\build\Dec_ndk\v6\jni\Android.mk</item><item>Codec\Audio\EVRC\build\Dec_ndk\v7\jni\Android.mk</item><item>Codec\Audio\EVRC\build\Dec_Eclair\v6\Makefile</item><item>Codec\Audio\EVRC\build\Dec_Eclair\v7\Makefile</item><item>Codec\Audio\EVRC\build\iOS\v7\Makefile</item><item>Codec\Audio\EVRC\build\iOS\simulator\Makefile</item><item>Codec\Audio\EVRC\prj\voEVRCTest\voEVRCTest.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\EVRC\prj\voEVRCTest\voEVRCTest.sln:Release|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>9924</id>
+    <name>EVRC Encoder</name>
+    <mid>0x03290000</mid>
+    <file>voEVRCEnc</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\EVRC\build\Enc_ndk\v6\jni\Android.mk</item><item>Codec\Audio\EVRC\build\Enc_ndk\v7\jni\Android.mk</item><item>Codec\Audio\EVRC\build\Enc_Eclair\v6\Makefile</item><item>Codec\Audio\EVRC\build\Enc_Eclair\v7\Makefile</item><item>TODO</item><item>TODO</item><item>Codec\Audio\EVRC\prj\voEVRCTest\voEVRCTest.sln:Win32</item><item>Codec\Audio\EVRC\prj\voEVRCTest\voEVRCTest.sln:Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>4986</id>
+    <name>FLAC Decoder</name>
+    <mid>0x022D0000</mid>
+    <file>voFLACDec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\FLAC\DECODER\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\FLAC\DECODER\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\FLAC\DECODER\build\eclair\v6\Makefile</item><item>Codec\Audio\FLAC\DECODER\build\eclair\v7\Makefile</item><item>Codec\Audio\FLAC\DECODER\build\iOS\v7\Makefile</item><item>Codec\Audio\FLAC\DECODER\build\iOS\simulator\Makefile</item><item>Codec\Audio\FLAC\DECODER\prj\voFLACDecTest\voFLACDecTest.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\FLAC\DECODER\prj\voFLACDecTest\voFLACDecTest.sln:Release|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item><item>TODO</item><item>TODO</item><item>Codec\Audio\FLAC\DECODER\build\ndk\x86\jni\Android.mk</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>5231</id>
+    <name>FLV Parser</name>
+    <mid>0x01060000</mid>
+    <file>voFLVFR</file>
+    <rd>Doncy Zhao</rd>
+    <rd-mail>zhao_xinsheng@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/Project/Linux/FLV/ndk/v6/jni/Android.mk</item><item>Source/Project/Linux/FLV/ndk/v7/jni/Android.mk</item><item>Source/Project/Linux/FLV/eclair/v6/Makefile</item><item>Source/Project/Linux/FLV/eclair/v7/Makefile</item><item>Source/Project/iOS/FLV/v7/Makefile</item><item>Source/Project/iOS/FLV/i386/Makefile</item><item>Source/Project/Win32/FLV/voFlvReader.vcproj:Win32</item><item>Source/Project/Win32/FLV/voFlvReader.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/FLV/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>4917</id>
+    <name>G.711 Decoder</name>
+    <mid>0x02390000</mid>
+    <file>voG711Dec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa>Xuejun Dong</qa>
+    <qa-mail>dong_xuejun@visualon.com</qa-mail>
+    <make><item>Codec\Audio\G.711\G711Dec\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\G.711\G711Dec\build\ndk\v7\jni\Android.mk</item><item>Android v6, for Toolchain, too old</item><item>Android v7, for Toolchain, too old</item><item>Codec\Audio\G.711\G711Dec\build\ios\make_v7\Makefile</item><item>Codec\Audio\G.711\G711Dec\build\ios\make_386\Makefile</item><item>Codec\Audio\G.711\G711Dec\prj\voG711Dectest\voG711Dectest.sln:Release|Win32:Debug|Win32</item><item> WinCE, too old</item></make>
+  </node>
+  <node>
+    <id>4916</id>
+    <name>G.711 Encoder</name>
+    <mid>0x03390000</mid>
+    <file>voG711Enc</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa>Xuejun Dong</qa>
+    <qa-mail>dong_xuejun@visualon.com</qa-mail>
+    <make></make>
+  </node>
+  <node>
+    <id>4914</id>
+    <name>G.722.1 Decoder</name>
+    <mid>0x02360000</mid>
+    <file>voG722Dec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa>Xuejun Dong</qa>
+    <qa-mail>dong_xuejun@visualon.com</qa-mail>
+    <make><item>Codec\Audio\G722.1\Decoder\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\G722.1\Decoder\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\G722.1\Decoder\build\Eclair\v6\Makefile</item><item>Codec\Audio\G722.1\Decoder\build\Eclair\v7\Makefile</item></make>
+  </node>
+  <node>
+    <id>4913</id>
+    <name>G.722.1 Encoder</name>
+    <mid>0x03360000</mid>
+    <file>voG722Enc</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa>Xuejun Dong</qa>
+    <qa-mail>dong_xuejun@visualon.com</qa-mail>
+    <make><item>Codec\Audio\G722.1\Encoder\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\G722.1\Encoder\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\G722.1\Encoder\build\Eclair\v6\Makefile</item><item>Codec\Audio\G722.1\Encoder\build\Eclair\v7\Makefile</item></make>
+  </node>
+  <node>
+    <id>4911</id>
+    <name>G.723.1 Decoder</name>
+    <mid>0x02370000</mid>
+    <file>voG723Dec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa>Xuejun Dong</qa>
+    <qa-mail>dong_xuejun@visualon.com</qa-mail>
+    <make></make>
+  </node>
+  <node>
+    <id>4910</id>
+    <name>G.723.1 Encoder</name>
+    <mid>0x03370000</mid>
+    <file>voG723Enc</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa>Xuejun Dong</qa>
+    <qa-mail>dong_xuejun@visualon.com</qa-mail>
+    <make></make>
+  </node>
+  <node>
+    <id>4907</id>
+    <name>G.729 Decoder</name>
+    <mid>0x02300000</mid>
+    <file>voG729Dec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa>Xuejun Dong</qa>
+    <qa-mail>dong_xuejun@visualon.com</qa-mail>
+    <make><item>Codec\Audio\G729\DECODER\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\G729\DECODER\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\G729\DECODER\build\Eclair\v6\Makefile</item><item>Codec\Audio\G729\DECODER\build\Eclair\v7\Makefile</item></make>
+  </node>
+  <node>
+    <id>9923</id>
+    <name>G.729 Encoder</name>
+    <mid>0x03300000</mid>
+    <file>voG729Enc</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\G729\ENCODER\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\G729\ENCODER\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\G729\ENCODER\build\Eclair\v6\Makefile</item><item>Codec\Audio\G729\ENCODER\build\Eclair\v7\Makefile</item></make>
+  </node>
+  <node>
+    <id>2016</id>
+    <name>GIF Image Decoder</name>
+    <mid>0x02420000</mid>
+    <file>voGIFDec</file>
+    <rd>Zhihuang Zou</rd>
+    <rd-mail>zou_zhihuang@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Codec\Image\voGifDec\voGifDecDll\voGifDecDll.vcproj:Win32 </item><item>Codec\Image\voGifDec\voGifDecDll\voGifDecDll.vcproj:Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>1674</id>
+    <name>H.264 Encoder</name>
+    <mid>0x03010000</mid>
+    <file>voH264Enc</file>
+    <rd>Hanyue Yang</rd>
+    <rd-mail>yang_hanyue@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec/Video/Encoder/h264/build/customer/google/ndk/v6/jni/Android.mk</item><item>Codec/Video/Encoder/h264/build/customer/google/ndk/v7/jni/Android.mk</item><item>Codec/Video/Encoder/h264/build/customer/google/eclair_v6/Makefile</item><item>Codec/Video/Encoder/h264/build/customer/google/eclair_v7/Makefile</item><item>Codec/Video/Encoder/h264/build/ios/apple/v7/Makefile</item><item>Codec/Video/Encoder/h264/build/ios/apple/i386/Makefile</item><item>Codec/Video/Encoder/h264/examples/vs2008/voH264EncSample.sln:Release|Win32:Debug|Win32</item><item>Codec/Video/Encoder/h264/examples/vs2008/voH264EncSample.sln:Release|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>16913</id>
+    <name>H264 Video Decoder</name>
+    <mid>0x02010000</mid>
+    <file>voH264Dec</file>
+    <rd>Hanyue Yang</rd>
+    <rd-mail>yang_hanyue@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec/Video/Decoder/H264v2/build/ndk/v6/jni/Android.mk</item><item>Codec/Video/Decoder/H264v2/build/ndk/v7/jni/Android.mk</item><item>Codec/Video/Decoder/H264v2/lib/Customer/Google/eclair_v6/Makefile</item><item>Codec/Video/Decoder/H264v2/lib/Customer/Google/eclair_v7/Makefile</item><item>Codec/Video/Decoder/H264v2/build/ios/make_v7/Makefile</item><item>Codec/Video/Decoder/H264v2/build/ios/make_386/Makefile</item><item>Codec/Video/Decoder/H264v2/lib/win32/voH264Dec.sln:x86_release|WIN32:x86_debug|WIN32</item><item>Codec/Video/Decoder/H264v2/lib/win32/voH264DecDLL/voH264DecDLL.vcproj:CE_Release|STANDARDSDK_500 (ARMV4I):CE_Debug|STANDARDSDK_500 (ARMV4I)</item><item>Codec/Video/Decoder/H264v2/build/MacOS/X86/Makefile</item><item>TODO</item><item>Codec/Video/Decoder/H264v2/build/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>31806</id>
+    <name>HEVC Decoder v3</name>
+    <mid></mid>
+    <file>voH265Dec</file>
+    <rd>Harry Yang</rd>
+    <rd-mail>yang_hui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Video\Decoder\H265v3\build\Customer\ndk\v6\jni\Android.mk</item><item>Codec\Video\Decoder\H265v3\build\Customer\ndk\v7\jni\Android.mk</item><item>empty</item><item>empty</item><item>Codec/Video/Decoder/H265v3/build/ios/make_v7/Makefile</item><item>Codec/Video/Decoder/H265v3/build/ios/make_386/Makefile </item><item>Codec/Video/Decoder/H265v3/sample/vc9/voH265DecSample.sln:Release|Win32:Debug|Win32</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Codec\Video\Decoder\H265v3\build\Customer\ndk\x86\jni\Android.mk</item></make>
+  </node>
+  <node>
+    <id>9710</id>
+    <name>HTTP Link Analyzer</name>
+    <mid>0x00126000</mid>
+    <file>voPreHTTP</file>
+    <rd>Stony Xu</rd>
+    <rd-mail>xu_tiaoyi@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/Project/Linux/PreHTTP/ndk/v6/jni/Android.mk</item><item>Source/Project/Linux/PreHTTP/ndk/v7/jni/Android.mk</item><item>Source/Project/Linux/PreHTTP/eclair/v6/Makefile</item><item>Source/Project/Linux/PreHTTP/eclair/v7/Makefile</item><item>Source/Project/iOS/PreHTTP/v7/Makefile</item><item>Source/Project/iOS/PreHTTP/i386/Makefile</item><item>Source/Project/Win32/PreHTTP/voPreHTTP.vcproj:Win32</item><item>Source/Project/Win32/PreHTTP/voPreHTTP.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/PreHTTP/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>25106</id>
+    <name>IOMXDec</name>
+    <mid>0X21000000</mid>
+    <file>voIOMXDec_ics</file>
+    <rd>Eoollo Wang</rd>
+    <rd-mail>wang_yong@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>MFW/voME/Project/linux/voIOMXDec/ics/Makefile</item><item>MFW/voME/Project/linux/voIOMXDec/ics/Makefile</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>MFW/voME/Project/linux/voIOMXDec/x86/Makefile</item></make>
+  </node>
+  <node>
+    <id>30434</id>
+    <name>IOMXDec_jb</name>
+    <mid>0X21000000</mid>
+    <file>voIOMXDec_jb</file>
+    <rd>Eoollo Wang</rd>
+    <rd-mail>wang_yong@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>MFW/voME/Project/linux/voIOMXDec/jb/Makefile</item><item>MFW/voME/Project/linux/voIOMXDec/jb/Makefile</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>4928</id>
+    <name>JPEG Image Decoder</name>
+    <mid>0x02410000</mid>
+    <file>voJPEGDec</file>
+    <rd>Zhihuang Zou</rd>
+    <rd-mail>zou_zhihuang@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec/Image/voMJPEGDec/build_jpeg/ndk/v6/jni/Android.mk</item><item>Codec/Image/voMJPEGDec/build_jpeg/ndk/v7/jni/Android.mk</item><item>Codec/Image/voMJPEGDec/build_jpeg/Google_eclair_v6/Makefile</item><item>Codec/Image/voMJPEGDec/build_jpeg/Google_eclair_v7/Makefile</item><item>Codec/Image/voMJPEGDec/build_jpeg/IOS/v7/Makefile</item><item>Codec/Image/voMJPEGDec/build_jpeg/IOS/sim/Makefile</item><item>Codec/Image/voMJPEGDec/vojpegDecDll/vojpegDecDll.vcproj:Win32</item><item>Codec/Image/voMJPEGDec/vojpegDecDll/vojpegDecDll.vcproj:VOARMV7|Pocket PC 2003 (ARMV4):VOARMV7_Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>4929</id>
+    <name>JPEG Image Encoder</name>
+    <mid>0x03410000</mid>
+    <file>voJPEGEnc</file>
+    <rd>Zhihuang Zou</rd>
+    <rd-mail>zou_zhihuang@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec/Image/voMJPEGEnc/build_jpegEnc/ndk/v6/jni/Android.mk </item><item>Codec/Image/voMJPEGEnc/build_jpegEnc/ndk/v7/jni/Android.mk </item><item>Codec/Image/voMJPEGEnc/build_jpegEnc/Google_eclair_v6/Makefile </item><item>Codec/Image/voMJPEGEnc/build_jpegEnc/Google_eclair_v7/Makefile </item><item>Codec/Image/voMJPEGEnc/build_jpegEnc/IOS/v7/Makefile</item><item>Codec/Image/voMJPEGEnc/build_jpegEnc/IOS/sim/Makefile</item><item>Codec/Image/voMJPEGEnc/vojpegEncDll/vojpegEncDll.vcproj:Win32</item><item>Codec/Image/voMJPEGEnc/vojpegEncDll/vojpegEncDll.vcproj:ARMV7|Pocket PC 2003 (ARMV4):ARMV7_Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>27467</id>
+    <name>libvoAndroidVR_S40</name>
+    <mid>0X05050000</mid>
+    <file>voAndroidVR_S40</file>
+    <rd>Eoollo Wang</rd>
+    <rd-mail>wang_yong@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Render/Video/yuvrender/ics/Makefile</item><item>Render/Video/yuvrender/ics/Makefile</item><item>Render/Video/yuvrender/ics/Makefile</item></make>
+  </node>
+  <node>
+    <id>32219</id>
+    <name>libvoAndroidVR_S41</name>
+    <mid>0X05050000</mid>
+    <file>voAndroidVR_S41</file>
+    <rd>Eoollo Wang</rd>
+    <rd-mail>wang_yong@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>Render/Video/yuvrender/jb4.1_4.2/Makefile</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Render/Video/yuvrender/x86_jb4.1_4.2/Makefile</item></make>
+  </node>
+  <node>
+    <id>32195</id>
+    <name>libvoAndroidVR_S43.so</name>
+    <mid>0X05050000</mid>
+    <file>voAndroidVR_S43</file>
+    <rd>Eoollo Wang</rd>
+    <rd-mail>wang_yong@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>Render\Video\yuvrender\jb\Makefile</item></make>
+  </node>
+  <node>
+    <id>9480</id>
+    <name>License Check</name>
+    <mid>0x08070000</mid>
+    <file>voVidDec</file>
+    <rd>Rogine Xu</rd>
+    <rd-mail>xu_rujun@visualon.com</rd-mail>
+    <qa>Xuejun Dong</qa>
+    <qa-mail>dong_xuejun@visualon.com</qa-mail>
+    <make><item>Utility/CheckLicense/Project/Dll/linux/ndk/jni/Android.mk</item><item>Utility/CheckLicense/Project/Dll/linux/ndk_debug/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>Utility/CheckLicense/Project/Dll/iOS/v7/Makefile</item><item>Utility/CheckLicense/Project/Dll/iOS/i386/Makefile</item><item>Utility\CheckLicense\Dll\DllCheckLicense.vcproj:Win32</item><item>Utility\CheckLicense\Dll\DllCheckLicense.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>Utility/CheckLicense/Project/Dll/MacOS/x86/Makefile</item><item>TODO</item><item>Utility/CheckLicense/Project/Dll/linux/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>763</id>
+    <name>MJPEG Video Decoder</name>
+    <mid>0x02080000</mid>
+    <file>voMJPEGDec</file>
+    <rd>Zhihuang Zou</rd>
+    <rd-mail>zou_zhihuang@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Image\voMJPEGDec\build_mjpeg\ndk\v6\jni\Android.mk</item><item>Codec\Image\voMJPEGDec\build_mjpeg\ndk\v7\jni\Android.mk</item><item>Codec\Image\voMJPEGDec\build_mjpeg\Google_eclair_v6\Makefile</item><item>Codec\Image\voMJPEGDec\build_mjpeg\Google_eclair_v7\Makefile</item><item>Codec\Image\voMJPEGDec\build_mjpeg\IOS\v7\Makefile</item><item>Codec\Image\voMJPEGDec\build_mjpeg\IOS\sim\Makefile</item><item>Codec/Image/voMJPEGDec/vomjpegDecDll/vomjpegDec.vcproj:Win32</item><item>Codec/Image/voMJPEGDec/vomjpegDecDll/vomjpegDec.vcproj:VOARMV7|Pocket PC 2003 (ARMV4):VOARMV7_Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>4927</id>
+    <name>MJPEG Video Encoder</name>
+    <mid>0x03080000</mid>
+    <file>voMJPEGEnc</file>
+    <rd>Zhihuang Zou</rd>
+    <rd-mail>zou_zhihuang@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Image\voMJPEGEnc\build_mjpegEnc\ndk\v6\jni\Android.mk</item><item>Codec\Image\voMJPEGEnc\build_mjpegEnc\ndk\v7\jni\Android.mk</item><item>Codec\Image\voMJPEGEnc\build_mjpegEnc\Google_eclair_v6\Makefile</item><item>Codec\Image\voMJPEGEnc\build_mjpegEnc\Google_eclair_v7\Makefile</item><item>Codec\Image\voMJPEGEnc\build_mjpegEnc\IOS\v7\Makefile</item><item>Codec\Image\voMJPEGEnc\build_mjpegEnc\IOS\sim\Makefile</item><item>Codec\Image\voMJPEGEnc\vomjpegEncDll\vomjpegEncDll.vcproj:Release|Win32:Debug|Win32</item><item>Codec\Image\voMJPEGEnc\vomjpegEncDll\vomjpegEncDll.vcproj:ARMV7|Pocket PC 2003 (ARMV4):ARMV7_debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>5235</id>
+    <name>MKV File Parser</name>
+    <mid>0x01080000</mid>
+    <file>voMKVFR</file>
+    <rd>Aiven Yang</rd>
+    <rd-mail>yang_weiqing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source\Project\Linux\MKV\ndk\v6\jni\Android.mk</item><item>Source\Project\Linux\MKV\ndk\v7\jni\Android.mk</item><item>Source\Project\Linux\MKV\eclair\v6\Makefile</item><item>TODO</item><item>Source\Project\iOS\MKV\v7\Makefile</item><item>Source\Project\iOS\MKV\i386\Makefile</item><item>Source\Project\Win32\MKV\\MKV.vcproj:Win32</item><item>Source\Project\Win32\MKV\\MKV.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/MKV/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>4903</id>
+    <name>MMCCRRS</name>
+    <mid>0x05030000</mid>
+    <file>voMMCCRRS</file>
+    <rd>Sheng Jiang</rd>
+    <rd-mail>jiang_sheng@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Render\Video\ClrConv\build_LINUX_render\ndk\v6\jni\Android.mk</item><item>Render\Video\ClrConv\build_LINUX_render\ndk\v7\jni\Android.mk</item><item>Render\Video\ClrConv\build_LINUX_render\Google_eclair_v6\Makefile</item><item>Render\Video\ClrConv\build_LINUX_render\Google_eclair_v7\Makefile</item><item>Render\Video\ClrConv\build_ios_render\armv7\Makefile</item><item>Render\Video\ClrConv\build_ios_render\i386\Makefile</item><item>Render\Video\ClrConv\example_code\voCCSample_PPC2005\voCCSample_PPC2005.sln:CCRRS_Release|Win32:CCRRS_Debug|Win32</item><item>Render\Video\ClrConv\example_code\voCCSample_PPC2005\voCCSample_PPC2005.sln:ARMV7_ccrrs_Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I):ARMV7_ccrrs_Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)</item><item>Render\Video\ClrConv\build_MacOS\X86\Makefile</item><item>TODO</item><item>Render\Video\ClrConv\build_LINUX_render\ndk\x86\jni\Android.mk</item></make>
+  </node>
+  <node>
+    <id>17867</id>
+    <name>Motorola's AES128 DRM agent</name>
+    <mid>0x0a080000</mid>
+    <file>voDRM_Moto_AES128</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/DRM/Motorola/AES128/Project/ndk/v6/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/DRM/Motorola/AES128/Project/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>538</id>
+    <name>MP3 Decoder</name>
+    <mid>0x02220000</mid>
+    <file>voMP3Dec</file>
+    <rd>Lina Lv</rd>
+    <rd-mail>lv_zhongjuan@visualon.com</rd-mail>
+    <qa>Kiling Lin</qa>
+    <qa-mail>lin_shujia@visualon.com</qa-mail>
+    <make><item>Codec\Audio\MP3\DECODER\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\MP3\DECODER\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\MP3\DECODER\build\eclair\v6\Makefile</item><item>Codec\Audio\MP3\DECODER\build\eclair\v7\Makefile</item><item>Codec\Audio\MP3\DECODER\build\iOS\v7\Makefile</item><item>Codec\Audio\MP3\DECODER\build\iOS\simulator\Makefile</item><item>Codec\Audio\MP3\DECODER\voMp3DecTest\voMp3DecTest.sln:Win32</item><item>Codec\Audio\MP3\DECODER\voMp3DecTest\voMp3DecTest.sln:ARMV7Neon|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item><item>TODO</item><item>TODO</item><item>Codec\Audio\MP3\DECODER\build\ndk\x86\jni\Android.mk</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>4959</id>
+    <name>MP4 Reader</name>
+    <mid>0x01010000</mid>
+    <file>voMP4FR</file>
+    <rd>Lieyun He</rd>
+    <rd-mail>he_lieyun@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/Project/Linux/MP4/ndk/v6/jni/Android.mk</item><item>Source/Project/Linux/MP4/ndk/v7/jni/Android.mk</item><item>Source/Project/Linux/MP4/eclair/v6/Makefile</item><item>Source/Project/Linux/MP4/eclair/v7/Makefile</item><item>Source/Project/iOS/MP4/v7/ </item><item>Source/Project/iOS/MP4/i386/ </item><item>Source/Project/Win32/MP4/voMp4Reader.vcproj:Release|Win32:Debug|Win32</item><item>Source/Project/Win32/MP4/voMp4Reader.vcproj:Release|STANDARDSDK_500 (ARMV4I):Debug|STANDARDSDK_500 (ARMV4I) </item><item>Source/Project/MacOS/MP4/x86</item><item>TODO</item><item>Source/Project/Linux/MP4/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>4960</id>
+    <name>MP4 Writer</name>
+    <mid>0x05110000</mid>
+    <file>voMP4FW</file>
+    <rd>Lieyun He</rd>
+    <rd-mail>he_lieyun@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/Project/Linux/MP4W/ndk/v6/jni/Android.mk</item><item>Source/Project/Linux/MP4W/ndk/v7/jni/Android.mk</item><item>Source/Project/Linux/MP4W/eclair/v6</item><item>Source/Project/Linux/MP4W/eclair/v7</item><item>Source/Project/iOS/MP4W/v7/ </item><item>Source/Project/iOS/MP4W/i386/ </item><item>Source\Project\Win32\MP4W\voMP4Writer.vcproj:Win32</item><item>Source\Project\Win32\MP4W\voMP4Writer.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/MP4W/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>4977</id>
+    <name>MPEG Audio Encoder</name>
+    <mid>0x03220000</mid>
+    <file>voMP3Enc</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\MP3\ENCODER\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\MP3\ENCODER\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\MP3\ENCODER\build\eclair\v6\Makefile</item><item>Codec\Audio\MP3\ENCODER\build\eclair\v7\Makefile</item></make>
+  </node>
+  <node>
+    <id>7152</id>
+    <name>MPEG Parser</name>
+    <mid>0x01090000</mid>
+    <file>voMPGFR</file>
+    <rd>Dolby Du</rd>
+    <rd-mail>du_yanqing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source\Project\Linux\MPEG\ndk\v6\jni\Android.mk</item><item>Source\Project\Linux\MPEG\ndk\v7\jni\Android.mk</item><item>Source\Project\Linux\MPEG\eclair\v6\Makefile</item><item>TODO</item><item>Source\Project\iOS\MPEG\v7\</item><item>Source\Project\iOS\MPEG\i386\</item><item>Source\Project\Win32\MPEG\voMpegReader.vcproj:Win32</item><item>Source\Project\Win32\MPEG\voMpegReader.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/MPEG/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>756</id>
+    <name>MPEG2 Video Decoder</name>
+    <mid>0x02090000</mid>
+    <file>voMPEG2Dec</file>
+    <rd>Harry Yang</rd>
+    <rd-mail>yang_hui@visualon.com</rd-mail>
+    <qa>Tony Zhu</qa>
+    <qa-mail>zhu_lei@visualon.com</qa-mail>
+    <make><item>Codec\Video\Decoder\VoMPEG2Decoder\mpeg2_d_sample\build_LINUX\ndk\v6\jni\Android.mk</item><item>Codec\Video\Decoder\VoMPEG2Decoder\mpeg2_d_sample\build_LINUX\ndk\v7\jni\Android.mk</item><item>Codec\Video\Decoder\VoMPEG2Decoder\mpeg2_d_sample\build_LINUX\Google_eclair_v6\Makefile</item><item>Codec\Video\Decoder\VoMPEG2Decoder\mpeg2_d_sample\build_LINUX\Google_eclair_v7\Makefile</item><item>Codec\Video\Decoder\VoMPEG2Decoder\iOS\build\v7\Makefile</item><item>Codec\Video\Decoder\VoMPEG2Decoder\iOS\build\i386\Makefile</item><item>Codec\Video\Decoder\VoMPEG2Decoder\mpeg2_d_sample\mpeg2_d_vs2005\mpeg2_d_vs2005.sln:Win32</item><item>Codec\Video\Decoder\VoMPEG2Decoder\mpeg2_d_sample\mpeg2_d_vs2005\mpeg2_d_vs2005.sln:armv7|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>1605</id>
+    <name>MPEG4&amp;H.263 Encoder</name>
+    <mid>0x03020000</mid>
+    <file>voMPEG4Enc</file>
+    <rd>Zhihuang Zou</rd>
+    <rd-mail>zou_zhihuang@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Video\Encoder\mpeg4\build\customer\ndk\v6\jni\Android.mk </item><item>Codec\Video\Encoder\mpeg4\build\customer\ndk\v7\jni\Android.mk </item><item>Codec\Video\Encoder\mpeg4\build\customer\google\eclair_v6\Makefile</item><item>Codec\Video\Encoder\mpeg4\build\customer\google\eclair_v7\Makefile</item><item>IOS</item><item>IOS</item><item>Codec\Video\Encoder\mpeg4\examples\voimp4enc\voMPEG4Enc_PPC2005\voMPEG4Enc_PPC2005.sln:R_X86_MPEG4_NEWSDK|Win32:D_X86_MPEG4_NEWSDK|Win32</item><item>Codec\Video\Encoder\mpeg4\examples\voimp4enc\voMPEG4Enc_PPC2005\voMPEG4Enc_PPC2005.sln:R_ARMV7_MPEG4|Pocket PC 2003 (ARMV4):D_ARMV7_MPEG4|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>379</id>
+    <name>MPEG4&amp;Xvid&amp;Divx4,5,6 Video Decoder</name>
+    <mid>0x02020000</mid>
+    <file>voMPEG4Dec</file>
+    <rd>Harry Yang</rd>
+    <rd-mail>yang_hui@visualon.com</rd-mail>
+    <qa>Xuejun Dong</qa>
+    <qa-mail>dong_xuejun@visualon.com</qa-mail>
+    <make><item>Codec\Video\Decoder\mpeg4\lib\Customer\ndk\v6\jni\Android.mk</item><item>Codec\Video\Decoder\mpeg4\lib\Customer\ndk\v7\jni\Android.mk</item><item>Codec\Video\Decoder\mpeg4\lib\Customer\Google\eclair_v6\Makefile</item><item>Codec\Video\Decoder\mpeg4\lib\Customer\Google\eclair_v7\Makefile</item><item>Codec\Video\Decoder\mpeg4\lib\iOS\v7\Makefile</item><item>Codec\Video\Decoder\mpeg4\lib\iOS\i386\Makefile</item><item>Codec\Video\Decoder\mpeg4\example\vs2005\voMPEG4Dec_Sample\voMPEG4Dec_Sample_PPC.sln:R_X86_MPEG4_NEWSDK|Win32:D_X86_MPEG4_NEWSDK|Win32</item><item>Codec\Video\Decoder\mpeg4\example\vs2005\voMPEG4Dec_Sample\voMPEG4Dec_Sample_PPC.sln:R_CortexA8_MPEG4_NEWSDK|Pocket PC 2003 (ARMV4):D_CortexA8_MPEG4_NEWSDK|Pocket PC 2003 (ARMV4)</item><item>TODO</item><item>TODO</item><item>Codec\Video\Decoder\mpeg4\lib\Customer\ndk\x86\jni\Android.mk</item></make>
+  </node>
+  <node>
+    <id>19081</id>
+    <name>Native Player Wrapper</name>
+    <mid>0x08080000</mid>
+    <file>voNPWrap</file>
+    <rd>Jim Lin</rd>
+    <rd-mail>lin_jun@visualon.com</rd-mail>
+    <qa>Luck Yang</qa>
+    <qa-mail>yang_guiyun@visualon.com</qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>MFW/voNP/Project/iOS/v7/Makefile</item><item>MFW/voNP/Project/iOS/i386/Makefile</item></make>
+  </node>
+  <node>
+    <id>28069</id>
+    <name>Nextscape's PlayReady DRM agent</name>
+    <mid>0x0a070000</mid>
+    <file>voDRM_Nextscape_PlayReady</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/DRM/Nextscape/PlayReady/Project/ndk/v6/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/DRM/Nextscape/PlayReady/Project/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>4980</id>
+    <name>OGG Decoder</name>
+    <mid>0x022F0000</mid>
+    <file>voOGGDec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\OGG\DECODER\prj\linux\ndk\v6\jni\Android.mk</item><item>Codec\Audio\OGG\DECODER\prj\linux\ndk\v7\jni\Android.mk</item><item>Codec\Audio\OGG\DECODER\prj\linux\google\eclair\v6\Makefile</item><item>Codec\Audio\OGG\DECODER\prj\linux\google\eclair\v7\Makefile</item><item>Codec\Audio\OGG\DECODER\prj\linux\iOS\v7\Makefile</item><item>Codec\Audio\OGG\DECODER\prj\linux\iOS\simulator\Makefile</item><item>Codec\Audio\OGG\DECODER\prj\win32ogg\win32ogg.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\OGG\DECODER\prj\win32ogg\win32ogg.sln:Release|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>5227</id>
+    <name>OGG File Parser</name>
+    <mid>0x01070000</mid>
+    <file>voOGGFR</file>
+    <rd>Doncy Zhao</rd>
+    <rd-mail>zhao_xinsheng@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/Project/Linux/Ogg/ndk/v6/jni/Android.mk</item><item>Source/Project/Linux/Ogg/ndk/v7/jni/Android.mk</item><item>Source/Project/Linux/Ogg/eclair/v6/Makefile</item><item>Source/Project/Linux/Ogg/eclair/v7/Makefile</item><item>Source/Project/iOS/Ogg/v7/</item><item>Source/Project/iOS/Ogg/i386/</item><item>Source/Project/Win32/Ogg/voOggReader.vcproj:Win32</item><item>Source/Project/Win32/Ogg/voOggReader.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/Ogg/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>9967</id>
+    <name>OMXWrap</name>
+    <mid></mid>
+    <file>voOMXWrap</file>
+    <rd>Eric Chen</rd>
+    <rd-mail>chen_chunbo@visualon.com</rd-mail>
+    <qa>Airy Wang</qa>
+    <qa-mail>wang_yan@visualon.com</qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>MFW/voME/Project/linux/CompWrap/eclair/v6</item><item>MFW/voME/Project/linux/CompWrap/eclair/v7</item></make>
+  </node>
+  <node>
+    <id>12020</id>
+    <name>OpenMax-AL Wrapper</name>
+    <mid>0X21000000</mid>
+    <file>voOMXALWrap</file>
+    <rd>Eoollo Wang</rd>
+    <rd-mail>wang_yong@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>MFW/voOMXAL/Project/linux/ndk/v6/jni/Android.mk</item><item>MFW/voOMXAL/Project/linux/ndk/v7/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>MFW/voOMXAL/Project/linux/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>21031</id>
+    <name>OpenSSL</name>
+    <mid>0x0A630000</mid>
+    <file>vossl</file>
+    <rd>Peter Gao</rd>
+    <rd-mail>gao_peng@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Thirdparty/Import/OpenSSL/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Thirdparty/Import/OpenSSL/jni/ssl/v7/Makefile</item><item>Thirdparty/Import/OpenSSL/jni/ssl/i386/Makefile</item><item>Thirdparty/Import/Win32-openssl\vossl.vcproj:Win32</item><item>TODO</item><item>Thirdparty/Import/OpenSSL/jni/ssl/mac/Makefile</item><item>TODO</item><item>Thirdparty/Import/OpenSSL/jni/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>20023</id>
+    <name>OSMP  Newest player</name>
+    <mid>0x09010000</mid>
+    <file>voOSPlayer</file>
+    <rd>Jeff Huang</rd>
+    <rd-mail>huang_jiafa@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>OnStream2/Player/Project/iOS/vo_OSMP/v7/Makefile</item><item>OnStream2/Player/Project/iOS/vo_OSMP/i386/Makefile</item><item>TODO</item><item>TODO</item><item>OnStream2/Player/Project/MacOS/vo_OSMP/x86/Makefile</item><item>OnStream2/Player/Project/MacOS/vo_OSMP/x86_64/Makefile</item></make>
+  </node>
+  <node>
+    <id>12106</id>
+    <name>OSMP  V2 Engine</name>
+    <mid>0x09030000</mid>
+    <file>voOSEng</file>
+    <rd>Eoollo Wang</rd>
+    <rd-mail>wang_yong@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>OnStream2/Engine/Project/Android/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>OnStream2/Engine/Project/iOS/v7/Makefile</item><item>OnStream2/Engine/Project/iOS/i386/Makefile</item><item>OnStream2\Engine\Project\Win32\OnStreamSDK\OnStreamSDK.vcproj:Win32</item><item>OnStream2\Engine\Project\Win32\OnStreamSDK\OnStreamSDK.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>OnStream2/Engine/Project/MacOS/x86/Makefile</item><item>TODO</item><item>OnStream2/Engine/Project/Android/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>12126</id>
+    <name>OSMP  V2 Source</name>
+    <mid>0x09020000</mid>
+    <file>voOSSource</file>
+    <rd>Peter Gao</rd>
+    <rd-mail>gao_peng@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>OnStream2/DataSource/Project/Android/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>OnStream2/DataSource/Project/iOS/v7/Makefile</item><item>OnStream2/DataSource/Project/iOS/i386/Makefile</item><item>OnStream2\DataSource\Project\Win32\voOnStreamSrc.vcproj:Release|Win32:Debug|Win32</item><item>OnStream2\DataSource\Project\Win32\voOnStreamSrc.vcproj:Release|STANDARDSDK_500 (ARMV4I):Debug|STANDARDSDK_500 (ARMV4I)</item><item>OnStream2\DataSource\Project\MacOS\x86</item><item>TODO</item><item>OnStream2/DataSource/Project/Android/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>16402</id>
+    <name>OSMP Base Player</name>
+    <mid>0x09010000</mid>
+    <file>voOSBasePlayer</file>
+    <rd>Jeff Huang</rd>
+    <rd-mail>huang_jiafa@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>OnStream2/Player/Project/iOS/voOSBasePlayer/v7/Makefile</item><item>OnStream2/Player/Project/iOS/voOSBasePlayer/i386/Makefile</item><item>TODO</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>32131</id>
+    <name>OSMP Downloader</name>
+    <mid>0x09040000</mid>
+    <file>voDownloader</file>
+    <rd>Jim Lin</rd>
+    <rd-mail>lin_jun@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>OnStream2/Downloader/Project/iOS/v7/Makefile</item><item>OnStream2/Downloader/Project/iOS/i386/Makefile</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>21949</id>
+    <name>OSMP MP Win32</name>
+    <mid>0x09010000</mid>
+    <file>voOnStreamMP</file>
+    <rd>Peter Gao</rd>
+    <rd-mail>gao_peng@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>OnStream2\Player\Project\Win32\voOnStreamMP\voOnStreamMP.vcproj:Win32</item><item>OnStream2\Player\Project\Win32\voOnStreamMP\voOnStreamMP.vcproj:STANDARDSDK_500 (ARMV4I)</item></make>
+  </node>
+  <node>
+    <id>27936</id>
+    <name>OSMP+ Module Version Information</name>
+    <mid>0x09080000</mid>
+    <file>voVersion</file>
+    <rd>Shawn Cao</rd>
+    <rd-mail>cao_yexing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Utility/voVersion/prj/linux/ndk/v6/jni/Android.mk</item><item>Utility/voVersion/prj/linux/ndk/v7/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>Utility/voVersion/prj/iOS/v7/Makefile</item><item>Utility/voVersion/prj/iOS/i386/Makefile</item><item>Utility/voVersion/prj/win32/voVersion.vcproj:Win32</item><item>TODO</item><item>Utility/voVersion/prj/osx/x86/Makefile</item><item>TODO</item><item>Utility/voVersion/prj/linux/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>28173</id>
+    <name>PACK UV</name>
+    <mid></mid>
+    <file>voPackUV</file>
+    <rd>Sheng Jiang</rd>
+    <rd-mail>jiang_sheng@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Render\Video\softRender\VOPACKUV_LIB\Customer\ndk\v6\jni\Android.mk</item><item>Render\Video\softRender\VOPACKUV_LIB\Customer\ndk\v7\jni\Android.mk</item><item>Render\Video\softRender\VOPACKUV_LIB\Customer\Google\eclair_v6\Makefile</item><item>Render\Video\softRender\VOPACKUV_LIB\Customer\Google\eclair_v7\Makefile</item><item>Render\Video\softRender\VOPACKUV_LIB\Customer\ios_make\v7\Makefile</item><item>Render\Video\softRender\VOPACKUV_LIB\Customer\ios_make\sim\Makefile</item></make>
+  </node>
+  <node>
+    <id>11391</id>
+    <name>PNG Image Decoder</name>
+    <mid>0x02430000</mid>
+    <file>voPNGDec</file>
+    <rd>Zhihuang Zou</rd>
+    <rd-mail>zou_zhihuang@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec/Image/voPNGDec/build/ndk/v6/jni/Android.mk</item><item>Codec/Image/voPNGDec/build/ndk/v7/jni/Android.mk</item><item>Codec/Image/voPNGDec/build/Google_eclair_v6/Makefile</item><item>Codec/Image/voPNGDec/build/Google_eclair_v7/Makefile</item><item>Codec/Image/voPNGDec/build/IOS/v7/Makefile</item><item>Codec/Image/voPNGDec/build/IOS/sim/Makefile</item><item>Codec/Image/voPNGDec/voPNGDecDll/voPNGDecDLL.vcproj:Win32</item><item>Codec/Image/voPNGDec/voPNGDecDll/voPNGDecDLL.vcproj:Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>4022</id>
+    <name>Progressive Download</name>
+    <mid>0x00125000</mid>
+    <file>voSrcPD</file>
+    <rd>Stony Xu</rd>
+    <rd-mail>xu_tiaoyi@visualon.com</rd-mail>
+    <qa>Yu Zhang</qa>
+    <qa-mail>zhang_yu@visualon.com</qa-mail>
+    <make><item>Source/Project/Linux/PD2_Cookies/ndk/v6/jni/Android.mk</item><item>Source/Project/Linux/PD2_Cookies/ndk/v7/jni/Android.mk</item><item>Source/Project/Linux/PD2_Cookies/eclair/v6/Makefile</item><item>Source/Project/Linux/PD2_Cookies/eclair/v7/Makefile</item><item>Source/Project/iOS/PD2_Cookies/v7/Makefile</item><item>Source/Project/iOS/PD2_Cookies/i386/Makefile</item><item>Source\Project\Win32\PD2_Cookies\PD2.vcproj:Win32</item><item>Source\Project\Win32\PD2_Cookies\PD2.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/PD2_Cookies/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>644</id>
+    <name>QCELP13k decoder</name>
+    <mid>0x02280000</mid>
+    <file>voQCELPDec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa>Xuejun Dong</qa>
+    <qa-mail>dong_xuejun@visualon.com</qa-mail>
+    <make><item>Codec\Audio\QCELP\DECODER\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\QCELP\DECODER\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\QCELP\DECODER\build\Eclair\v6\Makefile</item><item>Codec\Audio\QCELP\DECODER\build\Eclair\v7\Makefile</item><item>Codec\Audio\QCELP\DECODER\build\iOS\v7\Makefile</item><item>Codec\Audio\QCELP\DECODER\build\iOS\simulator\Makefile</item><item>Codec\Audio\QCELP\DECODER\prj\voQCELPDecTest\voQCELPDecTest.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\QCELP\DECODER\prj\voQCELPDecTest\voQCELPDecTest.sln:Release|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>4897</id>
+    <name>QCELP13k encoder</name>
+    <mid>0x03280000</mid>
+    <file>voQCELPEnc</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa>Xuejun Dong</qa>
+    <qa-mail>dong_xuejun@visualon.com</qa-mail>
+    <make><item>Codec\Audio\QCELP\ENCODER\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\QCELP\ENCODER\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\QCELP\ENCODER\build\Eclair\v6\Makefile</item><item>Codec\Audio\QCELP\ENCODER\build\Eclair\v7\Makefile</item><item>Codec\Audio\QCELP\ENCODER\prj\voQCELPEncTest\voQCELPEncTest.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\QCELP\ENCODER\prj\voQCELPEncTest\voQCELPEncTest.sln:Release|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item><item>Codec\Audio\QCELP\ENCODER\prj\voQCELPEncTest\voQCELPEncTest.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\QCELP\ENCODER\prj\voQCELPEncTest\voQCELPEncTest.sln:Release|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>12485</id>
+    <name>Re-Sample</name>
+    <mid>0x04040000</mid>
+    <file>voResample</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\Resample\prj\linux\ndk\v6\jni\Android.mk</item><item>Codec\Audio\Resample\prj\linux\ndk\v7\jni\Android.mk</item><item>Codec\Audio\Resample\prj\linux\googleeclair\Makefile</item><item>Codec\Audio\Resample\prj\linux\googleeclair\Makefile</item></make>
+  </node>
+  <node>
+    <id>2446</id>
+    <name>Real audio Decoder</name>
+    <mid>0x02240000</mid>
+    <file>voRADec</file>
+    <rd>Jonathon Xiong</rd>
+    <rd-mail>xiong_songya@visualon.com</rd-mail>
+    <qa>Kiling Lin</qa>
+    <qa-mail>lin_shujia@visualon.com</qa-mail>
+    <make><item>Codec\Audio\RealAudio\build\ndk\v6\jni\Android.mk</item><item>Codec\Audio\RealAudio\build\ndk\v7\jni\Android.mk</item><item>Codec\Audio\RealAudio\build\eclair\v6\Makefile</item><item>Codec\Audio\RealAudio\build\eclair\v7\Makefile</item><item>Codec\Audio\RealAudio\build\iOS\v7\Makefile</item><item>Codec\Audio\RealAudio\build\iOS\simulator\Makefile</item><item>Codec\Audio\RealAudio\build\RealDecTest\RealDecTest.sln:Win32</item><item>Codec\Audio\RealAudio\build\RealDecTest\RealDecTest.sln:Pocket PC 2003 (ARMV4)</item><item>TODO</item><item>TODO</item><item>Codec\Audio\RealAudio\build\ndk\x86\jni\Android.mk</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>1584</id>
+    <name>Real Video Decoder</name>
+    <mid>0x02050000</mid>
+    <file>voRealVideoDec</file>
+    <rd>Sheng Jiang</rd>
+    <rd-mail>jiang_sheng@visualon.com</rd-mail>
+    <qa>Kiling Lin</qa>
+    <qa-mail>lin_shujia@visualon.com</qa-mail>
+    <make><item>Codec\Video\Decoder\REALDEC\voRVDec_opt\build_Linux\ndk\v6\jni\Android.mk</item><item>Codec\Video\Decoder\REALDEC\voRVDec_opt\build_Linux\ndk\v7\jni\Android.mk</item><item>Codec\Video\Decoder\REALDEC\voRVDec_opt\build_Linux\Google_eclair_v6\Makefile</item><item>Codec\Video\Decoder\REALDEC\voRVDec_opt\build_Linux\Google_eclair_v7\Makefile</item><item>Codec\Video\Decoder\REALDEC\voRVDec_opt\build_ios\v7\Makefile</item><item>Codec\Video\Decoder\REALDEC\voRVDec_opt\build_ios\i386\Makefile</item><item>Codec\Video\Decoder\REALDEC\voRVDec_opt\voReal89_d_vs2005\voReal89_d_vs2005.sln:Win32</item><item>Codec\Video\Decoder\REALDEC\voRVDec_opt\voReal89_d_vs2005\voReal89_d_vs2005.sln:Pocket PC 2003 (ARMV4)</item><item>TODO</item><item>TODO</item><item>Codec\Video\Decoder\REALDEC\voRVDec_opt\build_Linux\ndk\x86\jni\Android.mk</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>5196</id>
+    <name>RM Parser</name>
+    <mid>0x00040000</mid>
+    <file>voRealFR</file>
+    <rd>Stony Xu</rd>
+    <rd-mail>xu_tiaoyi@visualon.com</rd-mail>
+    <qa>Tony Zhu</qa>
+    <qa-mail>zhu_lei@visualon.com</qa-mail>
+    <make><item>Source/Project/Linux/RM/ndk/v6/jni/Android.mk</item><item>Source/Project/Linux/RM/ndk/v7/jni/Android.mk</item><item>Source/Project/Linux/RM/eclair/v6/Makefile</item><item>Source/Project/Linux/RM/eclair/v7/Makefile</item><item>Source/Project/iOS/RM/v7/Makefile</item><item>Source/Project/iOS/RM/i386/Makefile</item><item>Source\Project\Win32\RM\voRealReader.vcproj:Win32</item><item>Source\Project\Win32\RM\voRealReader.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/RM/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>4015</id>
+    <name>RTSP Client</name>
+    <mid>0x01110000</mid>
+    <file>voSrcRTSP</file>
+    <rd>Doncy Zhao</rd>
+    <rd-mail>zhao_xinsheng@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/RTSP/Project/NDK/v6/jni/Android.mk</item><item>Source/RTSP/Project/NDK/v7/jni/Android.mk</item><item>Source/RTSP/Project/Linux/eclairv4/Makefile</item><item>Source/RTSP/Project/Linux/eclairv4/Makefile</item><item>Source/RTSP/Project/iOS/v7/Makefile</item><item>Source/RTSP/Project/iOS/i386/Makefile</item><item>Source\RTSP\Project\voSrcRTSPDLL\voSrcRTSPDLL.vcproj:Win32</item><item>Source\RTSP\Project\voSrcRTSPDLL\voSrcRTSPDLL.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/RTSP/Project/NDK/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>4952</id>
+    <name>SBC decoder</name>
+    <mid>0x02350000</mid>
+    <file>voSBCDec</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\SBC\DECODER\prj\linux\ndk\v6\jni\Android.mk</item><item>Codec\Audio\SBC\DECODER\prj\linux\ndk\v7\jni\Android.mk</item><item>Codec\Audio\SBC\DECODER\prj\linux\Eclair\v6\Makefile</item><item>Codec\Audio\SBC\DECODER\prj\linux\Eclair\v7\Makefile</item></make>
+  </node>
+  <node>
+    <id>4954</id>
+    <name>SBC Encoder</name>
+    <mid>0x03350000</mid>
+    <file>voSBCEnc</file>
+    <rd>Huaping Liu</rd>
+    <rd-mail>liu_huaping@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\SBC\ENCODER\prj\linux\ndk\v6\jni\Android.mk</item><item>Codec\Audio\SBC\ENCODER\prj\linux\ndk\v7\jni\Android.mk</item><item>Codec\Audio\SBC\ENCODER\prj\linux\Eclair\v6\Makefile</item><item>Codec\Audio\SBC\ENCODER\prj\linux\Eclair\v7\Makefile</item></make>
+  </node>
+  <node>
+    <id>13507</id>
+    <name>Showtime's PlayReady&amp;WM DRM agent</name>
+    <mid>0x0a020000</mid>
+    <file>voDRM_Showtime_PRWM</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make>Source/DRM/Showtime/PlayReady_WMDRM/Project/ndk/v6/jni/Android.mk</make>
+  </node>
+  <node>
+    <id>29175</id>
+    <name>SmilParser</name>
+    <mid>0x010E0000</mid>
+    <file>voSMILParser</file>
+    <rd>Aiven Yang</rd>
+    <rd-mail>yang_weiqing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source\Project\Linux\SMILParser\ndk\v6\jni\Android.mk</item><item>Source\Project\Linux\SMILParser\ndk\v7\jni\Android.mk</item><item>Source\Project\Linux\SMILParser\eclair\v6\Makefile</item><item>TODO</item><item>Source/Project/iOS/SMILParser/v7/ </item><item>Source/Project/iOS/SMILParser/i386/ </item><item>Source\Project\Win32\SMIL\SMIL.vcproj:Win32</item><item>Source\Project\Win32\SMIL\SMIL.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/SMILParser/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>4014</id>
+    <name>Smooth streaming fragement parser</name>
+    <mid>0x010B0000</mid>
+    <file>voSmthParser</file>
+    <rd>Aiven Yang</rd>
+    <rd-mail>yang_weiqing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source\Project\Linux\SMTHParser\ndk\v6\jni\Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/Project/iOS/SMTHParser/v7/ </item><item>Source/Project/iOS/SMTHParser/i386/ </item><item>Source\Project\Win32\voSmthParser\voSmthParser.vcproj:Release|Win32:Debug|Win32</item><item>Source\Project\Win32\voSmthParser\voSmthParser.vcproj:Release|STANDARDSDK_500 (ARMV4I):Debug|STANDARDSDK_500 (ARMV4I) </item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/SMTHParser/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>17743</id>
+    <name>Source I/O</name>
+    <mid>0x00127000</mid>
+    <file>voSourceIO</file>
+    <rd>Stony Xu</rd>
+    <rd-mail>xu_tiaoyi@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source\Project\Linux\SourceIO\ndk\v6\jni\Android.mk</item><item>todo</item><item>todo</item><item>todo</item><item>Source\Project\iOS\SourceIO\v7\</item><item>Source\Project\iOS\SourceIO\i386\</item><item>Source\Project\Win32\SourceIO\SourceIO.vcproj:Win32</item><item>Source\Project\Win32\SourceIO\SourceIO.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>Source/Project/MacOS/SourceIO/x86</item><item>TODO</item><item>Source/Project/Linux/SourceIO/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>1225</id>
+    <name>Stagefright plugin</name>
+    <mid></mid>
+    <file>vosfEngn</file>
+    <rd>Eric Chen</rd>
+    <rd-mail>chen_chunbo@visualon.com</rd-mail>
+    <qa>Yu Zhang</qa>
+    <qa-mail>zhang_yu@visualon.com</qa-mail>
+    <make><item>MFW/voSF/Project/linux/ndk/v6/jni/Android.mk</item><item>MFW/voSF/Project/linux/ndk/v7/jni/Android.mk</item><item>MFW/voSF/Project/linux/gingerbread/v6/Makefile</item><item>MFW/voSF/Project/linux/gingerbread/v7/Makefile</item></make>
+  </node>
+  <node>
+    <id>32430</id>
+    <name>Streaming Downloader JNI</name>
+    <mid>0x09040000</mid>
+    <file>voSTRMDownloaderJni</file>
+    <rd>Steven Zhang</rd>
+    <rd-mail>zhang_yi@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>OnStream2/Downloader/Project/Android/OSMPDLDNative/jni/Android.mk</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>32192</id>
+    <name>StreamingDownloader</name>
+    <mid>0x01001000</mid>
+    <file>voStreamingDownloader</file>
+    <rd>Aiven Yang</rd>
+    <rd-mail>yang_weiqing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source\Project\Linux\LiveSource\AdaptiveStream\StreamingDownloader\ndk\v6\jni\Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source\Project\iOS\LiveSource\AdaptiveStream\StreamingDownloader\v7\Makefile</item><item>Source\Project\iOS\LiveSource\AdaptiveStream\StreamingDownloader\i386\Makefile</item><item>Source\Project\Win32\LiveSource\AdaptiveStream\StreamingDownloader\StreamingDownloader.vcproj:Win32</item><item>Source\Project\Win32\LiveSource\AdaptiveStream\StreamingDownloader\StreamingDownloader.vcproj:STANDARDSDK_500 (ARMV4I)</item></make>
+  </node>
+  <node>
+    <id>13008</id>
+    <name>SubtitleParser</name>
+    <mid>0x00510000</mid>
+    <file>voSubtitleParser</file>
+    <rd>Ferry Zhang</rd>
+    <rd-mail>zhang_xin@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>Source\Project\Linux\Subtitle\ndk\jni\Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source\Project\iOS\Subtitle\v7</item><item>Source\Project\iOS\Subtitle\i386</item><item>Source/Project/Win32/Subtitle/Subtitle3.vcproj:Release|Win32:Debug|Win32</item><item>Source/Project/Win32/Subtitle/Subtitle3.vcproj:Release|STANDARDSDK_500 (ARMV4I):Debug|STANDARDSDK_500 (ARMV4I) </item><item>Source\Project\MacOS\Subtitle\x86</item><item>TODO</item><item>Source/Project/Linux/Subtitle/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>9939</id>
+    <name>TS Writer</name>
+    <mid>0x05140000</mid>
+    <file>voTsFW</file>
+    <rd>Dolby Du</rd>
+    <rd-mail>du_yanqing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source\Project\Linux\TSWriter\ndk\v6\jni\Android.mk</item><item>Source\Project\Linux\TSWriter\ndk\v7\jni\Android.mk</item><item>Source\Project\Linux\TSWriter\eclair\v6\Makefile</item><item>todo</item><item>Source\Project\iOS\TsWriter\v7\</item><item>Source\Project\iOS\TsWriter\i386\</item><item>Source\Project\Win32\TSWriter\TSWriter.vcproj:Win32</item><item>Source\Project\Win32\TSWriter\TSWriter.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/TSWriter/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>9649</id>
+    <name>VC1 Video Decoder</name>
+    <mid>0x020C0000</mid>
+    <file>voVC1Dec</file>
+    <rd>Sheng Jiang</rd>
+    <rd-mail>jiang_sheng@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Video\Decoder\voVC1Dec\Lib\Customer\ndk\v6\jni\Android.mk</item><item>Codec\Video\Decoder\voVC1Dec\Lib\Customer\ndk\v7\jni\Android.mk</item><item>Codec\Video\Decoder\voVC1Dec\Lib\Customer\google\eclair\v6\Makefile</item><item>Codec\Video\Decoder\voVC1Dec\Lib\Customer\google\eclair\v7\Makefile</item><item>Codec\Video\Decoder\voVC1Dec\Lib\iOS_make\v7\Makefile</item><item>Codec\Video\Decoder\voVC1Dec\Lib\iOS_make\sim\Makefile</item><item>Codec\Video\Decoder\voVC1Dec\Sample\voWMV9Dec_Sample_vs2005\voWMV9Dec_Sample_vs2005.sln:WIN32_Release|Win32:WIN32_Debug|Win32</item><item>Codec\Video\Decoder\voVC1Dec\Sample\voWMV9Dec_Sample_vs2005\voWMV9Dec_Sample_vs2005.sln:PPC2003_ARMv7_Release|Pocket PC 2003 (ARMV4):PPC2003_ARMv7_Debug|Pocket PC 2003 (ARMV4)</item><item>TODO</item><item>TODO</item><item>Codec\Video\Decoder\voVC1Dec\Lib\Customer\ndk\x86\jni\Android.mk</item></make>
+  </node>
+  <node>
+    <id>17264</id>
+    <name>Verimatrix's AES128 DRM agent</name>
+    <mid>0x0a030000</mid>
+    <file>voDRM_Verimatrix_AES128</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/DRM/Verimatrix/AES128/Project/ndk/v6/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/DRM/Verimatrix/AES128/Project/iOS/v7/Makefile</item><item>TODO</item><item>Source/DRM/Verimatrix/AES128/Project/Windows/DRM_Verimatrix_AES128.vcproj:Win32</item><item>TODO</item><item>Source/DRM/Verimatrix/AES128/Project/mac/x86/Makefile</item></make>
+  </node>
+  <node>
+    <id>12242</id>
+    <name>Video Codec Parser</name>
+    <mid>0x020D0000</mid>
+    <file>voVideoParser</file>
+    <rd>Renjie Yu</rd>
+    <rd-mail>yu_renjie@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Video\Decoder\voVideoParser\Build\NDK_so\v6\jni\Android.mk</item><item>Codec\Video\Decoder\voVideoParser\Build\NDK_so\v6\jni\Android.mk</item><item>Codec\Video\Decoder\voVideoParser\Build\Google\eclair_v4\Makefile</item><item>Codec\Video\Decoder\voVideoParser\Build\Google\eclair_v4\Makefile</item><item>Codec\Video\Decoder\voVideoParser\Build\iOS\v7\Makefile</item><item>Codec\Video\Decoder\voVideoParser\Build\iOS\sim\Makefile</item><item>Codec\Video\Decoder\voVideoParser\voVideoParserTst\voVideoParserTst.sln:Release|Win32:Debug|Win32</item><item>Codec\Video\Decoder\voVideoParser\voVideoParserTst\voVideoParserTst.sln:Release|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item><item>Codec\Video\Decoder\voVideoParser\Build\MacOS\X86\Makefile</item><item>TODO</item><item>Codec\Video\Decoder\voVideoParser\Build\NDK_X86\v6\jni\Android.mk</item></make>
+  </node>
+  <node>
+    <id>17199</id>
+    <name>VisualOn's AES128 DRM agent v2</name>
+    <mid>0x0a010000</mid>
+    <file>voDRM_VisualOn_AES128</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/DRM/VisualOn/AES128_2/Project/ndk/v6/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/DRM/VisualOn/AES128_2/Project/iOS/v7/Makefile</item><item>Source/DRM/VisualOn/AES128_2/Project/iOS/i386/Makefile</item><item>Source/DRM/VisualOn/AES128_2/Project/Windows/DRM_VisualOn_AES128.vcproj:Win32</item><item>Source/DRM/VisualOn/AES128_2/Project/Windows/DRM_VisualOn_AES128.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>Source/DRM/VisualOn/AES128_2/Project/Mac/x86/Makefile</item><item>TODO</item><item>Source/DRM/VisualOn/AES128_2/Project/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>29141</id>
+    <name>VMAP Parser</name>
+    <mid>0x010D0000</mid>
+    <file>voVMAPParser</file>
+    <rd>Dolby Du</rd>
+    <rd-mail>du_yanqing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source\Project\Linux\VMAP\ndk\v6\jni\Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source\Project\iOS\VMAP\v7\</item><item>Source\Project\iOS\VMAP\i386\</item><item>Source\Project\Win32\VMAP\VMAP.vcproj:Win32</item><item>Source\Project\Win32\VMAP\VMAP.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/VMAP/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>16415</id>
+    <name>voAdaptiveStreamHLS</name>
+    <mid>0x01121000</mid>
+    <file>voAdaptiveStreamHLS</file>
+    <rd>Terry Shen</rd>
+    <rd-mail>shen_qichao@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/Project/Linux/LiveSource/AdaptiveStream/HLS/ndk/v6/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Source/Project/iOS/LiveSource/AdaptiveStream/HLS/v7/Makefile</item><item>Source/Project/iOS/LiveSource/AdaptiveStream/HLS/i386/Makefile</item><item>Source/Project/Win32/AdaptiveStream/HLS/voAdaptiveStreamHLS/voAdaptiveStreamHLS.vcproj:Release|Win32:Debug|Win32</item><item>Source/Project/Win32/AdaptiveStream/HLS/voAdaptiveStreamHLS/voAdaptiveStreamHLS.vcproj:Release|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item><item>Source/Project/MacOS/LiveSource/AdaptiveStream/HLS/x86/Makefile</item><item>TODO</item><item>Source/Project/Linux/LiveSource/AdaptiveStream/HLS/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>25503</id>
+    <name>voAMediaCodec</name>
+    <mid>0x02110000</mid>
+    <file>voAMediaCodec</file>
+    <rd>Nelson Xia</rd>
+    <rd-mail>xia_guangtai@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>MFW/voME/Project/linux/AMediaCodec/ndk/v6/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>MFW/voME/Project/linux/AMediaCodec/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>27146</id>
+    <name>voAudioMCDec</name>
+    <mid>0x02390000</mid>
+    <file>voAudioMCDec</file>
+    <rd>Nelson Xia</rd>
+    <rd-mail>xia_guangtai@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>MFW/voME/Project/linux/AudioMCDec/ndk/v6/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>MFW/voME/Project/linux/AudioMCDec/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>33692</id>
+    <name>voIOMXDec_kk</name>
+    <mid>0X21000000</mid>
+    <file>voIOMXDec_kk</file>
+    <rd>Eoollo Wang</rd>
+    <rd-mail>wang_yong@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>MFW/voME/Project/linux/voIOMXDec/kk</item></make>
+  </node>
+  <node>
+    <id>33348</id>
+    <name>Volog System</name>
+    <mid></mid>
+    <file>voLogSys</file>
+    <rd>Rogine Xu</rd>
+    <rd-mail>xu_rujun@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Utility/voLogDll/Project/linux/jni/Android.mk</item><item>Utility/voLogDll/Project/linux/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>Utility/voLogDll/Project/ios/v7/Makefile</item><item>TODO</item><item>Utility/voLogDll/Project/win32/voLogDll.vcproj:Win32</item><item>TODO</item><item>Utility/voLogDll/Project/macOS/x86/Makefile</item><item>TODO</item><item>Utility/voLogDll/Project/linux/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>8113</id>
+    <name>VOME1-Android</name>
+    <mid></mid>
+    <file>libvoAndroid.so</file>
+    <rd>Bangfei Jin</rd>
+    <rd-mail>jin_bangfei@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>MFW/Android/eclair/Project/Linux/google/v6_gingerbread/Makefile</item><item>MFW/Android/eclair/Project/Linux/google/v7/Makefile</item></make>
+  </node>
+  <node>
+    <id>7997</id>
+    <name>VOME1-ME</name>
+    <mid></mid>
+    <file>voOMXME</file>
+    <rd>Bangfei Jin</rd>
+    <rd-mail>jin_bangfei@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>MFW/voME/Project/linux/FrameWork/eclair/v6/Makefile</item><item>MFW/voME/Project/linux/FrameWork/eclair/v7/Makefile</item></make>
+  </node>
+  <node>
+    <id>7993</id>
+    <name>VOME1-One</name>
+    <mid></mid>
+    <file>voOMXOne</file>
+    <rd>Bangfei Jin</rd>
+    <rd-mail>jin_bangfei@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>MFW/voME/Project/linux/One/eclair/v6/Makefile</item><item>MFW/voME/Project/linux/One/eclair/v7/Makefile</item></make>
+  </node>
+  <node>
+    <id>8114</id>
+    <name>VOME1-voMMPlay</name>
+    <mid></mid>
+    <file>libvoMMPlay.so</file>
+    <rd>Bangfei Jin</rd>
+    <rd-mail>jin_bangfei@visualon.com</rd-mail>
+    <qa>Murphy Wang</qa>
+    <qa-mail>wang_wenfei@visualon.com</qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>MFW/voMM/Playback/Project/linux/eclair/v6/Makefile</item><item>MFW/voMM/Playback/Project/linux/eclair/v7/Makefile</item></make>
+  </node>
+  <node>
+    <id>830</id>
+    <name>VOME2 Engine</name>
+    <mid>0x08040000</mid>
+    <file>vompEngn</file>
+    <rd>East Zhou</rd>
+    <rd-mail>zhou_rendong@visualon.com</rd-mail>
+    <qa>Luck Yang</qa>
+    <qa-mail>yang_guiyun@visualon.com</qa-mail>
+    <make><item>MFW/voMP/Project/linux/ndk/v6/jni/Android.mk</item><item>MFW/voMP/Project/linux/ndk/v6/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>MFW/voMP/Project/iOSMake/v7/Makefile</item><item>MFW/voMP/Project/iOSMake/i386/Makefile</item><item>MFW\voMP\Project\Win32\voMP.vcproj:Win32</item><item>MFW\voMP\Project\Win32\voMP.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>MFW/voMP/Project/MacOS_Make/x86/Makefile</item><item>TODO</item><item>MFW/voMP/Project/linux/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>29369</id>
+    <name>voOSMPADSManagerJni</name>
+    <mid>0x09050000</mid>
+    <file>voOSMPADSManagerJni</file>
+    <rd>Nimo Wu</rd>
+    <rd-mail>wu_bin@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>OnStream2/Player/Project/Android/OSMPAD/jni/Android.mk</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>OnStream2/Player/Project/Android/OSMPAD/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>23231</id>
+    <name>voTestClient</name>
+    <mid></mid>
+    <file>voTestClient</file>
+    <rd>Shawn Cao</rd>
+    <rd-mail>cao_yexing@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>TODO</item><item>TODO</item><item>TODO</item><item>TODO</item><item>Utility/voTestClient/v7/Makefile</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>4961</id>
+    <name>voTsParser</name>
+    <mid>0x010C1000</mid>
+    <file>voTsParser</file>
+    <rd>Terry Shen</rd>
+    <rd-mail>shen_qichao@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/Project/Linux/TS/ndk/v6/jni/Android.mk</item><item>Source/Project/Linux/TS/ndk/v7/jni/Android.mk</item><item>Source/Project/Linux/TS/eclair/v6/Makefile</item><item>Source/Project/Linux/TS/eclair/v7/Makefile</item><item>Source/Project/iOS/TS/v7/</item><item>Source/Project/iOS/TS/i386/</item><item>Source/Project/Win32/TS/voTsParser.vcproj:Release|Win32:Debug|Win32</item><item>Source/Project/Win32/TS/voTsParser.vcproj:Release|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item><item>Source/Project/MacOS/Ts/x86</item><item>TODO</item><item>Source/Project/Linux/TS/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>764</id>
+    <name>VP6 Video Decoder</name>
+    <mid>0x020A0000</mid>
+    <file>voVP6Dec</file>
+    <rd>Renjie Yu</rd>
+    <rd-mail>yu_renjie@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Video\Decoder\voVp6Dec\Build\ndk\v6\jni\Android.mk</item><item>Codec\Video\Decoder\voVp6Dec\Build\ndk\v7\jni\Android.mk</item><item>Codec\Video\Decoder\voVp6Dec\Build\Google\eclair_v6\Makefile</item><item>Codec\Video\Decoder\voVp6Dec\Build\Google\eclair_v7\Makefile</item><item>Codec\Video\Decoder\voVp6Dec\Build\IOS\v7\Makefile</item><item>Codec\Video\Decoder\voVp6Dec\Build\IOS\sim\Makefile</item><item>Codec\Video\Decoder\voVp6Dec\voVP6DecDll\voVP6DecDll.vcproj:Win32</item><item>Codec\Video\Decoder\voVp6Dec\voVP6DecDll\voVP6DecDll.vcproj:VOARMV7|Pocket PC 2003 (ARMV4):VOARMV7_Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>1596</id>
+    <name>VP8 decoder</name>
+    <mid>0x020B0000</mid>
+    <file>voVP8Dec</file>
+    <rd>Sheng Jiang</rd>
+    <rd-mail>jiang_sheng@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Video\Decoder\voVP8Dec\build\NDK\v6\jni\Android.mk</item><item>Codec\Video\Decoder\voVP8Dec\build\NDK\v7\jni\Android.mk</item><item>Codec\Video\Decoder\voVP8Dec\build\Google_eclair_v6\Makefile</item><item>Codec\Video\Decoder\voVP8Dec\build\Google_eclair_v7\Makefile</item><item>Codec\Video\Decoder\voVP8Dec\build\IOS\v7\Makefile</item><item>Codec\Video\Decoder\voVP8Dec\build\IOS\sim\Makefile</item><item>Codec\Video\Decoder\voVP8Dec\voVP8DecDll\voVP8DecDll.vcproj:Release|Win32:Debug|Win32</item><item>Codec\Video\Decoder\voVP8Dec\voVP8DecDll\voVP8DecDll.vcproj:VOARMV7|Pocket PC 2003 (ARMV4):VOARMV7_Debug|Pocket PC 2003 (ARMV4)</item></make>
+  </node>
+  <node>
+    <id>9709</id>
+    <name>Windows Media HTTP Streaming</name>
+    <mid>0x01124000</mid>
+    <file>voSrcWMSP</file>
+    <rd>Chenhui Liu</rd>
+    <rd-mail>liu_chenhui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source/Project/Linux/WindowsMediaHTTPStreaming/ndk/v6/jni/Android.mk</item><item>Source/Project/Linux/WindowsMediaHTTPStreaming/ndk/v7/jni/Android.mk</item><item>Source/Project/Linux/WindowsMediaHTTPStreaming/eclair/v6/Makefile</item><item>Source/Project/Linux/WindowsMediaHTTPStreaming/eclair/v7/Makefile</item><item>Source/Project/iOS/WindowsMediaHTTPStreaming/v7/Makefile</item><item>Source/Project/iOS/WindowsMediaHTTPStreaming/i386/Makefile</item><item>Source/Project/Win32/WindowsMediaHTTPStreaming/voWMSP.vcproj:Win32</item><item>Source/Project/Win32/WindowsMediaHTTPStreaming/voWMSP.vcproj:STANDARDSDK_500 (ARMV4I)</item><item>TODO</item><item>TODO</item><item>Source/Project/Linux/WindowsMediaHTTPStreaming/ndk/x86/jni/Android.mk</item></make>
+  </node>
+  <node>
+    <id>649</id>
+    <name>WMA Decoder</name>
+    <mid>0x02230000</mid>
+    <file>voWMADec</file>
+    <rd>Lina Lv</rd>
+    <rd-mail>lv_zhongjuan@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Codec\Audio\WMA\DECODER\prj\linux\ndk\v6\jni\Android.mk</item><item>Codec\Audio\WMA\DECODER\prj\linux\ndk\v7\jni\Android.mk</item><item>Codec\Audio\WMA\DECODER\prj\linux\googleeclairv6\Makefile</item><item>Codec\Audio\WMA\DECODER\prj\linux\googleeclairv7\Makefile</item><item>Codec\Audio\WMA\DECODER\prj\iOS\v7\Makefile</item><item>Codec\Audio\WMA\DECODER\prj\iOS\simulator\Makefile</item><item>Codec\Audio\WMA\DECODER\prj\wmatest\wmatest.sln:Release|Win32:Debug|Win32</item><item>Codec\Audio\WMA\DECODER\prj\wmatest\wmatest.sln:Release_armv7|Pocket PC 2003 (ARMV4):Debug|Pocket PC 2003 (ARMV4)</item><item>TODO</item><item>TODO</item><item>Codec\Audio\WMA\DECODER\prj\linux\ndk\x86\jni\Android.mk</item><item>TODO</item></make>
+  </node>
+  <node>
+    <id>656</id>
+    <name>WMV Video Decoder</name>
+    <mid>0x02060000</mid>
+    <file>voWMVDec</file>
+    <rd>Sheng Jiang</rd>
+    <rd-mail>jiang_sheng@visualon.com</rd-mail>
+    <qa>Kiling Lin</qa>
+    <qa-mail>lin_shujia@visualon.com</qa-mail>
+    <make><item>Codec\Video\Decoder\wmv9\Lib\Customer\ndk\v6\jni\Android.mk</item><item>Codec\Video\Decoder\wmv9\Lib\Customer\ndk\v7\jni\Android.mk</item><item>Codec\Video\Decoder\wmv9\Lib\Customer\google\eclair\v6\Makefile</item><item>Codec\Video\Decoder\wmv9\Lib\Customer\google\eclair\v7\Makefile</item><item>Codec\Video\Decoder\wmv9\Lib\iOS_make\v7\Makefile</item><item>Codec\Video\Decoder\wmv9\Lib\iOS_make\sim\Makefile</item><item>Codec\Video\Decoder\wmv9\Sample\voWMV9Dec_Sample_vs2005\voWMV9Dec_Sample_vs2005.sln:WIN32_Release|Win32:WIN32_Debug|Win32</item><item>Codec\Video\Decoder\wmv9\Sample\voWMV9Dec_Sample_vs2005\voWMV9Dec_Sample_vs2005.sln:PPC2003_ARMv7_Release|Pocket PC 2003 (ARMV4):PPC2003_ARMv7_Debug|Pocket PC 2003 (ARMV4)</item><item>TODO</item><item>TODO</item><item>Codec\Video\Decoder\wmv9\Lib\Customer\ndk\x86\jni\Android.mk</item></make>
+  </node>
+  <node>
+    <id>6131</id>
+    <name>XML Parser</name>
+    <mid>0x010F0000</mid>
+    <file>voXMLParser</file>
+    <rd>Dangui Wang</rd>
+    <rd-mail>wang_dangui@visualon.com</rd-mail>
+    <qa></qa>
+    <qa-mail></qa-mail>
+    <make><item>Source\Project\Linux\XMLParser\ndk\v6\jni\Android.mk</item><item>TODO</item><item>Source\Project\Linux\XMLParser\eclair\v6\Makefile</item><item>TODO</item><item>Source/Project/iOS/XMLParser/v7/ </item><item>Source/Project/iOS/XMLParser/i386/ </item><item>Source\Project\Win32\voXmlParser\voXMLParser.vcproj:Release|Win32:Debug|Win32</item><item>Source\Project\Win32\voXmlParser\voXMLParser.vcproj:Release|STANDARDSDK_500 (ARMV4I):Debug|STANDARDSDK_500 (ARMV4I) </item><item>Source/Project/MacOS/XMLParser/x86</item><item>TODO</item><item>Source/Project/Linux/XMLParser/ndk/x86/jni/Android.mk</item></make>
+  </node>
+</xml>

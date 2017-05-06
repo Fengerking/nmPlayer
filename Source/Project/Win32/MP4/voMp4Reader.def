@@ -1,0 +1,6 @@
+LIBRARY voMp4FR.dll
+
+EXPORTS
+	voGetMP4ReadAPI
+	voGetMp4StreamReaderAPI
+	voGetMP42ReadAPI

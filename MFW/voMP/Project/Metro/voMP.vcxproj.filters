@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{f075876c-01d4-4489-8196-6c86c00705f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{52bcdb7b-2b34-43ea-8d1c-5d1164ece2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source&amp;Decoder">
+      <UniqueIdentifier>{806730b2-7295-4c2a-8ee8-f03fdb989479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Files">
+      <UniqueIdentifier>{cc4793d5-f728-4a39-b7e3-75d63db820ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\..\..\Common\CAndroidUtilities.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\CBaseConfig.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\CDllLoad.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\CFileFormatCheck.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\cmnFile.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\cmnVOMemory.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\CPtrList.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\CvoBaseObject.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voCBaseThread.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voCMutex.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voCSemaphore.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voHalInfo.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voLog.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voOSFunc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voThread.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CAudioDecoder.cpp">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CAudioEffect.cpp">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CBaseLiveSource.cpp">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CBaseNode.cpp">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CBaseSource.cpp">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CFileSink.cpp">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CFileSource.cpp">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CHTTPPDSource.cpp">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CRTSPSource.cpp">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CVideoDecoder.cpp">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CVideoEffect.cpp">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\fVideoHeadDataInfo.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\voCBasePlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\voCDataBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\voCDataSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\voCDataSourceOP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\voCEditPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\voCLiveDataSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\voCLivePlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\voCMediaPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\voCMediaPlayerInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\voCMediaPlayerMeta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\voCMixDataSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\voMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Render\Audio\Source\CBaseAudioRender.cpp">
+      <Filter>Render Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Render\Video\Render\Source\CBaseVideoRender.cpp">
+      <Filter>Render Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Render\Video\Render\Source\CCCRRRFunc.cpp">
+      <Filter>Render Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Render\Audio\Source\XAudio2\CXAudio2Render.cpp">
+      <Filter>Render Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\voCPlayerLogo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\..\..\..\Common\CAndroidUtilities.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\CBaseConfig.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\CDllLoad.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\CFileFormatCheck.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\cmnFile.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\cmnMemory.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\CPtrList.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\CvoBaseObject.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\voCBaseThread.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\voCMutex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\voCSemaphore.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\voHalInfo.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\voOSFunc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\voThread.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CAudioDecoder.h">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CAudioEffect.h">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CBaseLiveSource.h">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CBaseNode.h">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CBaseSource.h">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CFileSink.h">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CFileSource.h">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CHTTPPDSource.h">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CRTSPSource.h">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CVideoDecoder.h">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CVideoEffect.h">
+      <Filter>Source&amp;Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\fVideoHeadDataInfo.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\voCBasePlayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\voCDataBuffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\voCDataSource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\voCDataSourceOP.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\voCEditPlayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\voCLiveDataSource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\voCLivePlayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\voCMediaPlayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\voCMixDataSource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Render\Audio\Source\CBaseAudioRender.h">
+      <Filter>Render Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\CBaseVideoRender.h">
+      <Filter>Render Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\CCCRRRFunc.h">
+      <Filter>Render Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Render\Audio\Source\XAudio2\CXAudio2Render.h">
+      <Filter>Render Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\voCPlayerLogo.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

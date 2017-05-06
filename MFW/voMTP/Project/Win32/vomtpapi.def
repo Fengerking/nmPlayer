@@ -1,0 +1,4 @@
+LIBRARY	"vomtpAPI"
+
+EXPORTS
+	voGetmtpAPI

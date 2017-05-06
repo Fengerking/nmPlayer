@@ -1,0 +1,4 @@
+LIBRARY voSMILFR.dll
+
+EXPORTS
+	voGetSMILAPI

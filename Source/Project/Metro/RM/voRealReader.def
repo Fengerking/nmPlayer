@@ -1,0 +1,5 @@
+LIBRARY voRealFR.dll
+
+EXPORTS
+	voGetRealReadAPI
+	voGetReal2ReadAPI

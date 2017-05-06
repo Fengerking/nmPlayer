@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!DOCTYPE PRJ SYSTEM "voffmpeg.dtd">
+<PRJ>
+  <Project_ID>
+    <Signature>UE Proj: v.1</Signature>
+  </Project_ID>
+  <Folder Name="ffmpeg Files"/>
+  <Project_Information>
+    <Filter></Filter>
+    <Include_Sub_Dir>1</Include_Sub_Dir>
+    <Relative_to_Project_File>1</Relative_to_Project_File>
+    <Word_File></Word_File>
+    <Use_Relative_Dir>1</Use_Relative_Dir>
+    <Project_Directory>/Volumes/Data/Project/Numen/trunk/MFW/voffmpeg/Project/ue</Project_Directory>
+  </Project_Information>
+  <Folder Name="Head Files"/>
+  <Folder Name="Source Files"/>
+  <Folder Name="Make Files"/>
+  <Folder Name="Common Files"/>
+  <Tools>
+    <Tool id="0">
+      <BMPPath></BMPPath>
+      <ShowConsole>0</ShowConsole>
+      <Name>ndk_build</Name>
+      <SaveFiles>1</SaveFiles>
+      <CaptureOP>1</CaptureOP>
+      <Cmd>/Volumes/Data/Project/Numen/trunk/MFW/voffmpeg/Project/ue/ndk.sh</Cmd>
+      <Dir>/Volumes/Data/Project/Numen/trunk/MFW/voffmpeg/Project/linux/ndk/jni</Dir>
+      <Replace>0</Replace>
+      <Capture>3</Capture>
+    </Tool>
+  </Tools>
+</PRJ>

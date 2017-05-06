@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libencoder", "libencoder.vcproj", "{95373D9C-2B4D-4587-BB70-BF711AEE41EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample_framework_test", "sample_framework_test.vcproj", "{443CDA6B-FAA5-4DAB-944C-9AED06F25169}"
+	ProjectSection(ProjectDependencies) = postProject
+		{95373D9C-2B4D-4587-BB70-BF711AEE41EB} = {95373D9C-2B4D-4587-BB70-BF711AEE41EB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample_encoder_complete", "sample_encoder_complete.vcproj", "{A3873858-3BA1-4FBE-8659-E01BDF693617}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample_encoder_simple", "sample_encoder_simple.vcproj", "{553DD668-0CB6-42C0-8E2F-330B21A6EFF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95373D9C-2B4D-4587-BB70-BF711AEE41EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95373D9C-2B4D-4587-BB70-BF711AEE41EB}.Debug|Win32.Build.0 = Debug|Win32
+		{95373D9C-2B4D-4587-BB70-BF711AEE41EB}.Release|Win32.ActiveCfg = Release|Win32
+		{95373D9C-2B4D-4587-BB70-BF711AEE41EB}.Release|Win32.Build.0 = Release|Win32
+		{443CDA6B-FAA5-4DAB-944C-9AED06F25169}.Debug|Win32.ActiveCfg = Debug|Win32
+		{443CDA6B-FAA5-4DAB-944C-9AED06F25169}.Debug|Win32.Build.0 = Debug|Win32
+		{443CDA6B-FAA5-4DAB-944C-9AED06F25169}.Release|Win32.ActiveCfg = Release|Win32
+		{443CDA6B-FAA5-4DAB-944C-9AED06F25169}.Release|Win32.Build.0 = Release|Win32
+		{A3873858-3BA1-4FBE-8659-E01BDF693617}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3873858-3BA1-4FBE-8659-E01BDF693617}.Debug|Win32.Build.0 = Debug|Win32
+		{A3873858-3BA1-4FBE-8659-E01BDF693617}.Release|Win32.ActiveCfg = Release|Win32
+		{A3873858-3BA1-4FBE-8659-E01BDF693617}.Release|Win32.Build.0 = Release|Win32
+		{553DD668-0CB6-42C0-8E2F-330B21A6EFF1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{553DD668-0CB6-42C0-8E2F-330B21A6EFF1}.Debug|Win32.Build.0 = Debug|Win32
+		{553DD668-0CB6-42C0-8E2F-330B21A6EFF1}.Release|Win32.ActiveCfg = Release|Win32
+		{553DD668-0CB6-42C0-8E2F-330B21A6EFF1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

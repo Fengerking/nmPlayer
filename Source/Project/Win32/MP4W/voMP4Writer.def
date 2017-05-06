@@ -1,0 +1,5 @@
+LIBRARY	"voMP4FW"
+
+
+EXPORTS
+	voGetMP4WriterAPI

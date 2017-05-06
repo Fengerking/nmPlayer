@@ -1,0 +1,387 @@
+TvoMPEG4Dec_Sample_v6 copy
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
+c000000004CB3E4B800000000000040AC
+t1286857912
+s16556
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/string.h
+c000000004CB3E4B80000000000001731
+t1286857912
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/time.h
+c000000004CBFACD90000000000001E17
+t1287630041
+s7703
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/time.h
+c000000004CB3E4B8000000000000178E
+t1286857912
+s6030
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/limits.h
+c000000004C5A56870000000000000C7E
+t1280988807
+s3198
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/../../../../../../../voRelease/iOS/static/i386/libvoMPEG4Dec.a
+c000000004EFD5ADB00000000000321D0
+t1325226715
+s205264
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/Classes/voMPEG4Dec_Sample.c
+c000000004EFE72480000000000003E8A
+t1325298248
+s16010
+i<windows.h>
+i<objbase.h>
+i<Winbase.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<limits.h>
+i<sys/time.h>
+i<time.h>
+i"voMPEG4.h"
+i<windows.h>
+i<winbase.h>
+i<time.h>
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/Classes/voMPEG4Dec_Sample.h
+c000000004EFAA9CB000000000000012E
+t1325050315
+s302
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/Classes/voMPEG4Dec_SampleAppDelegate.h
+c000000004EFA7A41000000000000020D
+t1325038145
+s525
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/Classes/voMPEG4Dec_SampleAppDelegate.mm
+c000000004EFA7A410000000000000AB9
+t1325038145
+s2745
+i"voMPEG4Dec_SampleAppDelegate.h"
+i"voMPEG4Dec_SampleViewController.h"
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/Classes/voMPEG4Dec_SampleViewController.h
+c000000004EFA7A4100000000000000FE
+t1325038145
+s254
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/Classes/voMPEG4Dec_SampleViewController.mm
+c000000004EFA8D630000000000000870
+t1325043043
+s2160
+i"voMPEG4Dec_SampleViewController.h"
+i"voMPEG4Dec_Sample.h"
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/MainWindow.xib
+c000000004EFA7A410000000000004EA1
+t1325038145
+s20129
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app.dSYM
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app/Info.plist
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app/MainWindow.nib
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app/PkgInfo
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app/ResourceRules.plist
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app/voMPEG4Dec_Sample
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app/voMPEG4Dec_SampleViewController.nib
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv6/voMPEG4Dec_Sample
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv6/voMPEG4Dec_Sample.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv6/voMPEG4Dec_Sample.o
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv6/voMPEG4Dec_SampleAppDelegate.o
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv6/voMPEG4Dec_SampleViewController.o
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv7/voMPEG4Dec_Sample
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv7/voMPEG4Dec_Sample.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv7/voMPEG4Dec_Sample.o
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv7/voMPEG4Dec_SampleAppDelegate.o
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv7/voMPEG4Dec_SampleViewController.o
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/main.m
+c000000004EFA7A410000000000000165
+t1325038145
+s357
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/voMPEG4Dec_SampleViewController.xib
+c000000004EFA7A410000000000001A6D
+t1325038145
+s6765
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/voMPEG4Dec_Sample_Prefix.pch
+c000000004EFA7A4100000000000000CB
+t1325038145
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Include/voIVCommon.h
+c000000004EE09112000000000000188E
+t1323340050
+s6286
+i"voType.h"
+
+N/Users/lilin/Code4/trunk/Include/voIndex.h
+c000000004EE6DFD10000000000001D61
+t1323753425
+s7521
+i"voType.h"
+
+N/Users/lilin/Code4/trunk/Include/voMPEG4.h
+c000000004EE091120000000000001E0E
+t1323340050
+s7694
+i<voVideo.h>
+
+N/Users/lilin/Code4/trunk/Include/voMem.h
+c000000004EE0911200000000000006D2
+t1323340050
+s1746
+i"voIndex.h"
+
+N/Users/lilin/Code4/trunk/Include/voType.h
+c000000004EE09112000000000000255E
+t1323340050
+s9566
+
+N/Users/lilin/Code4/trunk/Include/voVideo.h
+c000000004EEB1F9B0000000000003634
+t1324031899
+s13876
+i"voIVCommon.h"
+i"voMem.h"
+
+N/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision
+c000000004EBB9D0F00000000000020FA
+t1320918287
+s8442
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voMPEG4Dec_Sample_Prefix-anfvzaphaaozpednwfymqcphndfm/voMPEG4Dec_Sample_Prefix.pch.gch
+t1325296482
+s10004184
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voMPEG4Dec_Sample_Prefix-brrcapwefokxcwffezhucsmbvfrl/voMPEG4Dec_Sample_Prefix.pch.gch
+t1325296484
+s11073128
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voMPEG4Dec_Sample_Prefix-bzyazozqcdaiyfgvwnokveljbhtr/voMPEG4Dec_Sample_Prefix.pch.gch
+t1325296482
+s10614376
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voMPEG4Dec_Sample_Prefix-ccbmrfixllblwyaujhtssboriblf/voMPEG4Dec_Sample_Prefix.pch.gch
+t1325296482
+s1261796
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voMPEG4Dec_Sample_Prefix-esjdzrvrtszkjtbunfoknxalwmwm/voMPEG4Dec_Sample_Prefix.pch.gch
+t1325296483
+s10462936
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voMPEG4Dec_Sample_Prefix-hivdvgdumziljcblqxrxegkvhefx/voMPEG4Dec_Sample_Prefix.pch.gch
+t1325296483
+s1716452
+
+NvoMPEG4Dec_Sample-Info copy.plist
+c000000004EFA7A41000000000000038D
+t1325038145
+s909
+
+CCodeSign /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app
+r0
+
+CCompileC "build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv6/main.o" /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv6/voMPEG4Dec_Sample.o" /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/Classes/voMPEG4Dec_Sample.c normal armv6 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv6/voMPEG4Dec_SampleAppDelegate.o" /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/Classes/voMPEG4Dec_SampleAppDelegate.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv6/voMPEG4Dec_SampleViewController.o" /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/Classes/voMPEG4Dec_SampleViewController.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv7/main.o" /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv7/voMPEG4Dec_Sample.o" /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/Classes/voMPEG4Dec_Sample.c normal armv7 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv7/voMPEG4Dec_SampleAppDelegate.o" /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/Classes/voMPEG4Dec_SampleAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv7/voMPEG4Dec_SampleViewController.o" /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/Classes/voMPEG4Dec_SampleViewController.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/MainWindow.xib
+r0
+
+CCompileXIB /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/voMPEG4Dec_SampleViewController.xib
+r0
+
+CCpResource build/Release-iphoneos/voMPEG4Dec_Sample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app/voMPEG4Dec_Sample normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app.dSYM /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app/voMPEG4Dec_Sample
+r0
+
+CLd "/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv6/voMPEG4Dec_Sample" normal armv6
+r0
+
+CLd "/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/Objects-normal/armv7/voMPEG4Dec_Sample" normal armv7
+r0
+
+CProcessInfoPlistFile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app/Info.plist "voMPEG4Dec_Sample-Info copy.plist"
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voMPEG4Dec_Sample_Prefix-anfvzaphaaozpednwfymqcphndfm/voMPEG4Dec_Sample_Prefix.pch.gch voMPEG4Dec_Sample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voMPEG4Dec_Sample_Prefix-ccbmrfixllblwyaujhtssboriblf/voMPEG4Dec_Sample_Prefix.pch.gch voMPEG4Dec_Sample_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voMPEG4Dec_Sample_Prefix-esjdzrvrtszkjtbunfoknxalwmwm/voMPEG4Dec_Sample_Prefix.pch.gch voMPEG4Dec_Sample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voMPEG4Dec_Sample_Prefix-hivdvgdumziljcblqxrxegkvhefx/voMPEG4Dec_Sample_Prefix.pch.gch voMPEG4Dec_Sample_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voMPEG4Dec_Sample_Prefix-brrcapwefokxcwffezhucsmbvfrl/voMPEG4Dec_Sample_Prefix.pch.gch voMPEG4Dec_Sample_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voMPEG4Dec_Sample_Prefix-bzyazozqcdaiyfgvwnokveljbhtr/voMPEG4Dec_Sample_Prefix.pch.gch voMPEG4Dec_Sample_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision" /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/voMPEG4Dec_Sample.build/Release-iphoneos/voMPEG4Dec_Sample_v6 copy.build/voMPEG4Dec_Sample.xcent"
+r0
+
+CTouch /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app
+r0
+
+CValidate /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voMPEG4_iOS/build/Release-iphoneos/voMPEG4Dec_Sample.app
+r0
+

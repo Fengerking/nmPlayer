@@ -1,0 +1,4 @@
+LIBRARY	voMMRecord.dll
+
+EXPORTS
+	vommGetRecordAPI

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResampleWin32Test", "ResampleWin32Test.vcproj", "{9496D5BA-8831-4A4F-8487-DF9C7BC2FBAB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF00FFDD-382C-409D-B099-F5485B0D3FB2} = {BF00FFDD-382C-409D-B099-F5485B0D3FB2}
+		{556B50EC-F248-4A7B-B965-A3913FECC33E} = {556B50EC-F248-4A7B-B965-A3913FECC33E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voMemLib", "..\voMemLib\voMemLib.vcproj", "{556B50EC-F248-4A7B-B965-A3913FECC33E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voResampleWin32Lib", "..\voResampleWin32Lib\voResampleWin32Lib.vcproj", "{BF00FFDD-382C-409D-B099-F5485B0D3FB2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{556B50EC-F248-4A7B-B965-A3913FECC33E} = {556B50EC-F248-4A7B-B965-A3913FECC33E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voResampleWin32Dll", "..\voResampleWin32Dll\voResampleWin32Dll.vcproj", "{00520672-71DC-492C-B627-C8E06A1E840F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF00FFDD-382C-409D-B099-F5485B0D3FB2} = {BF00FFDD-382C-409D-B099-F5485B0D3FB2}
+		{556B50EC-F248-4A7B-B965-A3913FECC33E} = {556B50EC-F248-4A7B-B965-A3913FECC33E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9496D5BA-8831-4A4F-8487-DF9C7BC2FBAB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9496D5BA-8831-4A4F-8487-DF9C7BC2FBAB}.Debug|Win32.Build.0 = Debug|Win32
+		{9496D5BA-8831-4A4F-8487-DF9C7BC2FBAB}.Release|Win32.ActiveCfg = Release|Win32
+		{9496D5BA-8831-4A4F-8487-DF9C7BC2FBAB}.Release|Win32.Build.0 = Release|Win32
+		{556B50EC-F248-4A7B-B965-A3913FECC33E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{556B50EC-F248-4A7B-B965-A3913FECC33E}.Debug|Win32.Build.0 = Debug|Win32
+		{556B50EC-F248-4A7B-B965-A3913FECC33E}.Release|Win32.ActiveCfg = Release|Win32
+		{556B50EC-F248-4A7B-B965-A3913FECC33E}.Release|Win32.Build.0 = Release|Win32
+		{BF00FFDD-382C-409D-B099-F5485B0D3FB2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF00FFDD-382C-409D-B099-F5485B0D3FB2}.Debug|Win32.Build.0 = Debug|Win32
+		{BF00FFDD-382C-409D-B099-F5485B0D3FB2}.Release|Win32.ActiveCfg = Release|Win32
+		{BF00FFDD-382C-409D-B099-F5485B0D3FB2}.Release|Win32.Build.0 = Release|Win32
+		{00520672-71DC-492C-B627-C8E06A1E840F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{00520672-71DC-492C-B627-C8E06A1E840F}.Debug|Win32.Build.0 = Debug|Win32
+		{00520672-71DC-492C-B627-C8E06A1E840F}.Release|Win32.ActiveCfg = Release|Win32
+		{00520672-71DC-492C-B627-C8E06A1E840F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

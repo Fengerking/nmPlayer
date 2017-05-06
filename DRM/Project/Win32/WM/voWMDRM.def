@@ -1,0 +1,4 @@
+LIBRARY voWMDRM.dll
+
+EXPORTS
+	voGetWMDRMAPI

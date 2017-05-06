@@ -1,0 +1,114 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MAUDIA_D_IA32_C - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\LIN_YO~1\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /MLd /Gm /GX /ZI /Od /I "..\..\..\..\..\voiapp\voSDK\Include" /D "FPM_DEFAULT" /D "_LIB" /D "HAVE_CONFIG_H" /D "ASO_ZEROCHECK" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "DEBUG" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VOI_MAD\src\dct32.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LIN_YO~1\LOCALS~1\Temp\RSP1A.tmp" 
+<h3>Output Window</h3>
+Compiling...
+dct32.c
+d:\voi_mad\src\dct32.c(88) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(88) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(88) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(88) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(88) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(88) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(88) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(88) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(89) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(89) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(89) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(89) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(89) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(89) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(89) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(89) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(90) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(90) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(90) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(90) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(90) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(90) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(90) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(90) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(91) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(91) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(91) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(91) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(91) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(91) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(91) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(91) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(92) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(92) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(92) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(92) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(92) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(92) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(92) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(92) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(93) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(93) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(93) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(93) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(93) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(93) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(93) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(93) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(94) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(94) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(94) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(94) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(94) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(94) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(94) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(94) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(95) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(95) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(95) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(95) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(95) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(95) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(95) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(95) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(100) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(100) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(101) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(101) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(102) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(102) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(103) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(103) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(106) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(106) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(107) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(107) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(108) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(108) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(109) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(109) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(111) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(111) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(112) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(112) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(116) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(116) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(117) : error C2440: 'type cast' : cannot convert from 'const int ' to 'struct int64 '
+d:\voi_mad\src\dct32.c(117) : error C2440: 'type cast' : cannot convert from 'int ' to 'struct int64 '
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+dct32.obj - 88 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

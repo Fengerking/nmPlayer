@@ -1,0 +1,71 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "MAUDIA_D_IA32_C"=..\build\win32\MAUDIO_D_IA32_C.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/AudioCodec/VOI_MAD/example", WQKAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "minimad"=.\minimad.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/AudioCodec/VOI_MAD/example", WQKAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name MAUDIA_D_IA32_C
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "voMP3Dec"=..\BUILD\DLL\WIN32\voMP3Dec.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name MAUDIA_D_IA32_C
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/AudioCodec/VOI_MAD/example", WQKAAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,4 @@
+Pin 2.5 kit 24430
+E:  System error 0x5 : SetThreadContext : 拒绝访问。
+E:  incompatible operating systemA: Source\pin\winloader\injection_server_winloader.cpp:LEVEL_BASE::PIN_INJECTION_SERVER::Init:147: assertion failed: res == TRUE
+

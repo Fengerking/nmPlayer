@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76C4E46913B47E4F00899DA4 /* bit.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E45613B47E4F00899DA4 /* bit.c */; };
+		76C4E46A13B47E4F00899DA4 /* bit.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E45713B47E4F00899DA4 /* bit.h */; };
+		76C4E46B13B47E4F00899DA4 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E45813B47E4F00899DA4 /* config.h */; };
+		76C4E46C13B47E4F00899DA4 /* dct32.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E45913B47E4F00899DA4 /* dct32.c */; };
+		76C4E46D13B47E4F00899DA4 /* frame.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E45A13B47E4F00899DA4 /* frame.c */; };
+		76C4E46E13B47E4F00899DA4 /* frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E45B13B47E4F00899DA4 /* frame.h */; };
+		76C4E46F13B47E4F00899DA4 /* global.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E45C13B47E4F00899DA4 /* global.h */; };
+		76C4E47013B47E4F00899DA4 /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E45D13B47E4F00899DA4 /* huffman.c */; };
+		76C4E47113B47E4F00899DA4 /* huffman.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E45E13B47E4F00899DA4 /* huffman.h */; };
+		76C4E47213B47E4F00899DA4 /* layer3.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E45F13B47E4F00899DA4 /* layer3.c */; };
+		76C4E47313B47E4F00899DA4 /* layer12.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E46013B47E4F00899DA4 /* layer12.c */; };
+		76C4E47413B47E4F00899DA4 /* mem_align.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E46113B47E4F00899DA4 /* mem_align.c */; };
+		76C4E47513B47E4F00899DA4 /* mem_align.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E46213B47E4F00899DA4 /* mem_align.h */; };
+		76C4E47613B47E4F00899DA4 /* mp3dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E46313B47E4F00899DA4 /* mp3dec.c */; };
+		76C4E47713B47E4F00899DA4 /* polyphase.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E46413B47E4F00899DA4 /* polyphase.c */; };
+		76C4E47813B47E4F00899DA4 /* rq_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E46513B47E4F00899DA4 /* rq_table.c */; };
+		76C4E47913B47E4F00899DA4 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E46613B47E4F00899DA4 /* stream.c */; };
+		76C4E47A13B47E4F00899DA4 /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E46713B47E4F00899DA4 /* stream.h */; };
+		76C4E47B13B47E4F00899DA4 /* voChHdle.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E46813B47E4F00899DA4 /* voChHdle.h */; };
+		76C4E48B13B4802D00899DA4 /* cmnMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E48A13B4802D00899DA4 /* cmnMemory.c */; };
+		76C4E48F13B4807100899DA4 /* cmnMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E48E13B4807100899DA4 /* cmnMemory.h */; };
+		76C96B5113B9A67600751E1B /* voMP3Dec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voMP3Dec_Prefix.pch */; };
+		76C96B5213B9A67600751E1B /* bit.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E45713B47E4F00899DA4 /* bit.h */; };
+		76C96B5313B9A67600751E1B /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E45813B47E4F00899DA4 /* config.h */; };
+		76C96B5413B9A67600751E1B /* frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E45B13B47E4F00899DA4 /* frame.h */; };
+		76C96B5513B9A67600751E1B /* global.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E45C13B47E4F00899DA4 /* global.h */; };
+		76C96B5613B9A67600751E1B /* huffman.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E45E13B47E4F00899DA4 /* huffman.h */; };
+		76C96B5713B9A67600751E1B /* mem_align.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E46213B47E4F00899DA4 /* mem_align.h */; };
+		76C96B5813B9A67600751E1B /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E46713B47E4F00899DA4 /* stream.h */; };
+		76C96B5913B9A67600751E1B /* voChHdle.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E46813B47E4F00899DA4 /* voChHdle.h */; };
+		76C96B5A13B9A67600751E1B /* cmnMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C4E48E13B4807100899DA4 /* cmnMemory.h */; };
+		76C96B5C13B9A67600751E1B /* bit.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E45613B47E4F00899DA4 /* bit.c */; };
+		76C96B5D13B9A67600751E1B /* dct32.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E45913B47E4F00899DA4 /* dct32.c */; };
+		76C96B5E13B9A67600751E1B /* frame.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E45A13B47E4F00899DA4 /* frame.c */; };
+		76C96B5F13B9A67600751E1B /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E45D13B47E4F00899DA4 /* huffman.c */; };
+		76C96B6013B9A67600751E1B /* layer3.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E45F13B47E4F00899DA4 /* layer3.c */; };
+		76C96B6113B9A67600751E1B /* layer12.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E46013B47E4F00899DA4 /* layer12.c */; };
+		76C96B6213B9A67600751E1B /* mem_align.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E46113B47E4F00899DA4 /* mem_align.c */; };
+		76C96B6313B9A67600751E1B /* mp3dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E46313B47E4F00899DA4 /* mp3dec.c */; };
+		76C96B6413B9A67600751E1B /* polyphase.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E46413B47E4F00899DA4 /* polyphase.c */; };
+		76C96B6513B9A67600751E1B /* rq_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E46513B47E4F00899DA4 /* rq_table.c */; };
+		76C96B6613B9A67600751E1B /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E46613B47E4F00899DA4 /* stream.c */; };
+		76C96B6713B9A67600751E1B /* cmnMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E48A13B4802D00899DA4 /* cmnMemory.c */; };
+		76C96B6C13B9A67600751E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		AA747D9F0F9514B9006C5449 /* voMP3Dec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voMP3Dec_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F29F5B1313BDBAE500785570 /* layer3_asm.S in Sources */ = {isa = PBXBuildFile; fileRef = 76C96B0B13B99EE500751E1B /* layer3_asm.S */; };
+		F29F5C1D13BEB38200785570 /* dct32_asm.S in Sources */ = {isa = PBXBuildFile; fileRef = 76C96B0A13B99EE500751E1B /* dct32_asm.S */; };
+		F29F5C1E13BEB38500785570 /* Synth_asm.S in Sources */ = {isa = PBXBuildFile; fileRef = 76C96B0C13B99EE500751E1B /* Synth_asm.S */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76C4E45613B47E4F00899DA4 /* bit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bit.c; path = ../../../src/bit.c; sourceTree = SOURCE_ROOT; };
+		76C4E45713B47E4F00899DA4 /* bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bit.h; path = ../../../src/bit.h; sourceTree = SOURCE_ROOT; };
+		76C4E45813B47E4F00899DA4 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../../src/config.h; sourceTree = SOURCE_ROOT; };
+		76C4E45913B47E4F00899DA4 /* dct32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dct32.c; path = ../../../src/dct32.c; sourceTree = SOURCE_ROOT; };
+		76C4E45A13B47E4F00899DA4 /* frame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = frame.c; path = ../../../src/frame.c; sourceTree = SOURCE_ROOT; };
+		76C4E45B13B47E4F00899DA4 /* frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = frame.h; path = ../../../src/frame.h; sourceTree = SOURCE_ROOT; };
+		76C4E45C13B47E4F00899DA4 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = global.h; path = ../../../src/global.h; sourceTree = SOURCE_ROOT; };
+		76C4E45D13B47E4F00899DA4 /* huffman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = huffman.c; path = ../../../src/huffman.c; sourceTree = SOURCE_ROOT; };
+		76C4E45E13B47E4F00899DA4 /* huffman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = huffman.h; path = ../../../src/huffman.h; sourceTree = SOURCE_ROOT; };
+		76C4E45F13B47E4F00899DA4 /* layer3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = layer3.c; path = ../../../src/layer3.c; sourceTree = SOURCE_ROOT; };
+		76C4E46013B47E4F00899DA4 /* layer12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = layer12.c; path = ../../../src/layer12.c; sourceTree = SOURCE_ROOT; };
+		76C4E46113B47E4F00899DA4 /* mem_align.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mem_align.c; path = ../../../src/mem_align.c; sourceTree = SOURCE_ROOT; };
+		76C4E46213B47E4F00899DA4 /* mem_align.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mem_align.h; path = ../../../src/mem_align.h; sourceTree = SOURCE_ROOT; };
+		76C4E46313B47E4F00899DA4 /* mp3dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mp3dec.c; path = ../../../src/mp3dec.c; sourceTree = SOURCE_ROOT; };
+		76C4E46413B47E4F00899DA4 /* polyphase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = polyphase.c; path = ../../../src/polyphase.c; sourceTree = SOURCE_ROOT; };
+		76C4E46513B47E4F00899DA4 /* rq_table.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rq_table.c; path = ../../../src/rq_table.c; sourceTree = SOURCE_ROOT; };
+		76C4E46613B47E4F00899DA4 /* stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stream.c; path = ../../../src/stream.c; sourceTree = SOURCE_ROOT; };
+		76C4E46713B47E4F00899DA4 /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stream.h; path = ../../../src/stream.h; sourceTree = SOURCE_ROOT; };
+		76C4E46813B47E4F00899DA4 /* voChHdle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voChHdle.h; path = ../../../src/voChHdle.h; sourceTree = SOURCE_ROOT; };
+		76C4E48A13B4802D00899DA4 /* cmnMemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cmnMemory.c; path = ../../../../../../../Common/cmnMemory.c; sourceTree = SOURCE_ROOT; };
+		76C4E48E13B4807100899DA4 /* cmnMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmnMemory.h; path = ../../../../../../../Common/cmnMemory.h; sourceTree = SOURCE_ROOT; };
+		76C96B0A13B99EE500751E1B /* dct32_asm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = dct32_asm.S; path = ../../../src/ios/armv7/dct32_asm.S; sourceTree = SOURCE_ROOT; };
+		76C96B0B13B99EE500751E1B /* layer3_asm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = layer3_asm.S; path = ../../../src/ios/armv7/layer3_asm.S; sourceTree = SOURCE_ROOT; };
+		76C96B0C13B99EE500751E1B /* Synth_asm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = Synth_asm.S; path = ../../../src/ios/armv7/Synth_asm.S; sourceTree = SOURCE_ROOT; };
+		76C96B7013B9A67600751E1B /* libvoMP3Dec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoMP3Dec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA747D9E0F9514B9006C5449 /* voMP3Dec_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voMP3Dec_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libvoMP3Dec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoMP3Dec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76C96B6B13B9A67600751E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C96B6C13B9A67600751E1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libvoMP3Dec.a */,
+				76C96B7013B9A67600751E1B /* libvoMP3Dec.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* voMP3Dec */ = {
+			isa = PBXGroup;
+			children = (
+				76C96AF413B99CFA00751E1B /* asm7 */,
+				76C4E48413B47F8100899DA4 /* Header Files */,
+				08FB77AEFE84172EC02AAC07 /* Source Files */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = voMP3Dec;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				76C4E48A13B4802D00899DA4 /* cmnMemory.c */,
+				76C4E45613B47E4F00899DA4 /* bit.c */,
+				76C4E45913B47E4F00899DA4 /* dct32.c */,
+				76C4E45A13B47E4F00899DA4 /* frame.c */,
+				76C4E45D13B47E4F00899DA4 /* huffman.c */,
+				76C4E45F13B47E4F00899DA4 /* layer3.c */,
+				76C4E46013B47E4F00899DA4 /* layer12.c */,
+				76C4E46113B47E4F00899DA4 /* mem_align.c */,
+				76C4E46313B47E4F00899DA4 /* mp3dec.c */,
+				76C4E46413B47E4F00899DA4 /* polyphase.c */,
+				76C4E46513B47E4F00899DA4 /* rq_table.c */,
+				76C4E46613B47E4F00899DA4 /* stream.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* voMP3Dec_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		76C4E48413B47F8100899DA4 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				76C4E48E13B4807100899DA4 /* cmnMemory.h */,
+				76C4E45713B47E4F00899DA4 /* bit.h */,
+				76C4E45813B47E4F00899DA4 /* config.h */,
+				76C4E45B13B47E4F00899DA4 /* frame.h */,
+				76C4E45C13B47E4F00899DA4 /* global.h */,
+				76C4E45E13B47E4F00899DA4 /* huffman.h */,
+				76C4E46213B47E4F00899DA4 /* mem_align.h */,
+				76C4E46713B47E4F00899DA4 /* stream.h */,
+				76C4E46813B47E4F00899DA4 /* voChHdle.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		76C96AF413B99CFA00751E1B /* asm7 */ = {
+			isa = PBXGroup;
+			children = (
+				76C96B0A13B99EE500751E1B /* dct32_asm.S */,
+				76C96B0B13B99EE500751E1B /* layer3_asm.S */,
+				76C96B0C13B99EE500751E1B /* Synth_asm.S */,
+			);
+			name = asm7;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76C96B5013B9A67600751E1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C96B5113B9A67600751E1B /* voMP3Dec_Prefix.pch in Headers */,
+				76C96B5213B9A67600751E1B /* bit.h in Headers */,
+				76C96B5313B9A67600751E1B /* config.h in Headers */,
+				76C96B5413B9A67600751E1B /* frame.h in Headers */,
+				76C96B5513B9A67600751E1B /* global.h in Headers */,
+				76C96B5613B9A67600751E1B /* huffman.h in Headers */,
+				76C96B5713B9A67600751E1B /* mem_align.h in Headers */,
+				76C96B5813B9A67600751E1B /* stream.h in Headers */,
+				76C96B5913B9A67600751E1B /* voChHdle.h in Headers */,
+				76C96B5A13B9A67600751E1B /* cmnMemory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* voMP3Dec_Prefix.pch in Headers */,
+				76C4E46A13B47E4F00899DA4 /* bit.h in Headers */,
+				76C4E46B13B47E4F00899DA4 /* config.h in Headers */,
+				76C4E46E13B47E4F00899DA4 /* frame.h in Headers */,
+				76C4E46F13B47E4F00899DA4 /* global.h in Headers */,
+				76C4E47113B47E4F00899DA4 /* huffman.h in Headers */,
+				76C4E47513B47E4F00899DA4 /* mem_align.h in Headers */,
+				76C4E47A13B47E4F00899DA4 /* stream.h in Headers */,
+				76C4E47B13B47E4F00899DA4 /* voChHdle.h in Headers */,
+				76C4E48F13B4807100899DA4 /* cmnMemory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		76C96B4F13B9A67600751E1B /* voMP3Dec_simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C96B6D13B9A67600751E1B /* Build configuration list for PBXNativeTarget "voMP3Dec_simulator" */;
+			buildPhases = (
+				76C96B5013B9A67600751E1B /* Headers */,
+				76C96B5B13B9A67600751E1B /* Sources */,
+				76C96B6B13B9A67600751E1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voMP3Dec_simulator;
+			productName = voMP3Dec;
+			productReference = 76C96B7013B9A67600751E1B /* libvoMP3Dec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AAC07D0554694100DB518D /* voMP3Dec_asm7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voMP3Dec_asm7" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voMP3Dec_asm7;
+			productName = voMP3Dec;
+			productReference = D2AAC07E0554694100DB518D /* libvoMP3Dec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voMP3Dec" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* voMP3Dec */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* voMP3Dec_asm7 */,
+				76C96B4F13B9A67600751E1B /* voMP3Dec_simulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76C96B5B13B9A67600751E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C96B5C13B9A67600751E1B /* bit.c in Sources */,
+				76C96B5D13B9A67600751E1B /* dct32.c in Sources */,
+				76C96B5E13B9A67600751E1B /* frame.c in Sources */,
+				76C96B5F13B9A67600751E1B /* huffman.c in Sources */,
+				76C96B6013B9A67600751E1B /* layer3.c in Sources */,
+				76C96B6113B9A67600751E1B /* layer12.c in Sources */,
+				76C96B6213B9A67600751E1B /* mem_align.c in Sources */,
+				76C96B6313B9A67600751E1B /* mp3dec.c in Sources */,
+				76C96B6413B9A67600751E1B /* polyphase.c in Sources */,
+				76C96B6513B9A67600751E1B /* rq_table.c in Sources */,
+				76C96B6613B9A67600751E1B /* stream.c in Sources */,
+				76C96B6713B9A67600751E1B /* cmnMemory.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C4E46913B47E4F00899DA4 /* bit.c in Sources */,
+				F29F5C1E13BEB38500785570 /* Synth_asm.S in Sources */,
+				76C4E46C13B47E4F00899DA4 /* dct32.c in Sources */,
+				F29F5C1D13BEB38200785570 /* dct32_asm.S in Sources */,
+				F29F5B1313BDBAE500785570 /* layer3_asm.S in Sources */,
+				76C4E46D13B47E4F00899DA4 /* frame.c in Sources */,
+				76C4E47013B47E4F00899DA4 /* huffman.c in Sources */,
+				76C4E47213B47E4F00899DA4 /* layer3.c in Sources */,
+				76C4E47313B47E4F00899DA4 /* layer12.c in Sources */,
+				76C4E47413B47E4F00899DA4 /* mem_align.c in Sources */,
+				76C4E47613B47E4F00899DA4 /* mp3dec.c in Sources */,
+				76C4E47713B47E4F00899DA4 /* polyphase.c in Sources */,
+				76C4E47813B47E4F00899DA4 /* rq_table.c in Sources */,
+				76C4E47913B47E4F00899DA4 /* stream.c in Sources */,
+				76C4E48B13B4802D00899DA4 /* cmnMemory.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../../voRelease/iOS/static/v7/;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voMP3Dec.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voMP3Dec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ARM,
+					ARMV6,
+					ARMV7,
+					_IOS,
+				);
+				HEADER_SEARCH_PATHS = ../../../../../../../Include;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voMP3Dec;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../../voRelease/iOS/static/v7/;
+				DSTROOT = /tmp/voMP3Dec.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voMP3Dec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ARM,
+					ARMV6,
+					ARMV7,
+					_IOS,
+				);
+				HEADER_SEARCH_PATHS = ../../../../../../../Include;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voMP3Dec;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		76C96B6E13B9A67600751E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../../voRelease/iOS/static/i386/;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voMP3Dec.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voMP3Dec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = _IOS;
+				HEADER_SEARCH_PATHS = ../../../../../../../Include;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = voMP3Dec;
+			};
+			name = Debug;
+		};
+		76C96B6F13B9A67600751E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../../voRelease/iOS/static/i386/;
+				DSTROOT = /tmp/voMP3Dec.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voMP3Dec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = _IOS;
+				HEADER_SEARCH_PATHS = ../../../../../../../Include;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voMP3Dec;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voMP3Dec_asm7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voMP3Dec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76C96B6D13B9A67600751E1B /* Build configuration list for PBXNativeTarget "voMP3Dec_simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C96B6E13B9A67600751E1B /* Debug */,
+				76C96B6F13B9A67600751E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

@@ -1,0 +1,4 @@
+LIBRARY voMTPEngine.dll
+
+EXPORTS
+	voGetLiveSrcAPI

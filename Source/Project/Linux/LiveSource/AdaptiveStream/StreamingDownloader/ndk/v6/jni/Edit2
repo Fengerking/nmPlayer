@@ -1,0 +1,14 @@
+ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
+LOCAL_CFLAGS := -DNDEBUG -mfloat-abi=soft -mfpu=neon -march=armv7-a -mtune=cortex-a8 -fsigned-char -O2 -ffast-math  -nostdlib -enable-int-quality -mandroid -fvisibility=hidden -ffunction-sections -fdata-sections 
+else ifeq ($(TARGET_ARCH_ABI),armeabi)
+LOCAL_CFLAGS := -DARM -DARMV6 -DLINUX -DHIDDEN_SYMBOL=0  -O2 -DNDEBUG -mfloat-abi=soft -march=armv6j -mtune=arm1136jf-s -mfpu=vfp -fsigned-char -fvisibility=hidden -ffunction-sections -fdata-sections
+else ifeq ($(TARGET_ARCH_ABI),x86)
+LOCAL_CFLAGS	:= -D__GCC32__ -fsigned-char -DNDEBUG -DOPT_X86
+endif
+LOCAL_LDFLAGS := -llog -Wl,--gc-sections
+
+LOCAL_CFLAGS += -DOPT_ARMV7_ANDROID=1 
+
+#$(warning "###-- $(LOCAL_CFLAGS)"--###)
+
+include $(BUILD_SHARED_LIBRARY)

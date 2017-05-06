@@ -1,0 +1,21 @@
+LIBRARY	vompEngn.dll
+
+EXPORTS
+	vompInit
+	vompSetDataSource
+	vompSendBuffer
+	vompGetVideoBuffer
+	vompGetAudioBuffer
+	vompRun
+	vompPause
+	vompStop
+	vompFlush
+	vompGetStatus
+	vompGetDuration
+	vompGetCurPos
+	vompSetCurPos
+	vompGetParam
+	vompSetParam
+	vompUninit
+	vompGetFuncSet
+	

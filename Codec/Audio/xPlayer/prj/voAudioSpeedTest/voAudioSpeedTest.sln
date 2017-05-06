@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voAudioSpeedTest", "voAudioSpeedTest\voAudioSpeedTest.vcproj", "{BA7CBD82-717E-4C24-9BDA-F09D61B5E3AF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F30C621-9F1B-4D7D-B1FB-444501FC262E} = {3F30C621-9F1B-4D7D-B1FB-444501FC262E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voAudioSpeedLib", "..\voAudioSpeedLib\voAudioSpeedLib.vcproj", "{3F30C621-9F1B-4D7D-B1FB-444501FC262E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voAudioSpeedDll", "..\voAudioSpeedDll\voAudioSpeedDll.vcproj", "{9EEA7832-4807-4C4F-AED1-ED2AC40EB9CA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F30C621-9F1B-4D7D-B1FB-444501FC262E} = {3F30C621-9F1B-4D7D-B1FB-444501FC262E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA7CBD82-717E-4C24-9BDA-F09D61B5E3AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BA7CBD82-717E-4C24-9BDA-F09D61B5E3AF}.Debug|Win32.Build.0 = Debug|Win32
+		{BA7CBD82-717E-4C24-9BDA-F09D61B5E3AF}.Release|Win32.ActiveCfg = Release|Win32
+		{BA7CBD82-717E-4C24-9BDA-F09D61B5E3AF}.Release|Win32.Build.0 = Release|Win32
+		{3F30C621-9F1B-4D7D-B1FB-444501FC262E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F30C621-9F1B-4D7D-B1FB-444501FC262E}.Debug|Win32.Build.0 = Debug|Win32
+		{3F30C621-9F1B-4D7D-B1FB-444501FC262E}.Release|Win32.ActiveCfg = Release|Win32
+		{3F30C621-9F1B-4D7D-B1FB-444501FC262E}.Release|Win32.Build.0 = Release|Win32
+		{9EEA7832-4807-4C4F-AED1-ED2AC40EB9CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9EEA7832-4807-4C4F-AED1-ED2AC40EB9CA}.Debug|Win32.Build.0 = Debug|Win32
+		{9EEA7832-4807-4C4F-AED1-ED2AC40EB9CA}.Release|Win32.ActiveCfg = Release|Win32
+		{9EEA7832-4807-4C4F-AED1-ED2AC40EB9CA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

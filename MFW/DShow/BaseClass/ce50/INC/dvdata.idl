@@ -1,0 +1,624 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this source code is subject to the terms of the Microsoft end-user
+// license agreement (EULA) under which you licensed this SOFTWARE PRODUCT.
+// If you did not accept the terms of the EULA, you are not authorized to use
+// this source code. For a copy of the EULA, please see the LICENSE.RTF on your
+// install media.
+//
+// dvdata.idl : IDL source for dvdata.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (dvdata.tlb) and marshalling code.
+
+		import "unknwn.idl";
+		import "dvdcom.idl";
+
+#define MAX_PATH 128
+typedef [string] WCHAR UNICODE_PATH[MAX_PATH];
+
+	[
+		object,
+		uuid(77FB5072-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDROM Interface"),
+		pointer_default(unique)
+	]
+	interface IDVDROM : IUnknown
+	{
+		import "oaidl.idl";
+
+		HRESULT Bind(UNICODE_PATH path);
+
+		HRESULT Unbind();
+
+		HRESULT ReadVMGI([ref, out] UINT32 *length, [ptr, ref, out] UINT8 **bufPtr);
+
+		HRESULT ReadVTSI(UINT16 zbVTSN, UINT32 *length, UINT8 **bufPtr); 
+		
+		HRESULT ReleaseMem([ref, in, ptr]UINT8 *bufPtr);
+		
+		//VOB reading interface
+
+		HRESULT OpenVOB(UINT16 *hVOB, INT16 obVTSN);
+
+		HRESULT ReadVOB(UINT16 hVOB, UINT8 *buf, UINT32 startBlock, UINT32 endBlock); 
+
+		HRESULT CloseVOB(UINT16 hVOB);
+	};
+
+
+
+
+	[
+		object,
+		uuid(77FB5074-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDParentalManagementTable Interface"),
+		pointer_default(unique)
+	]
+	interface IDVDParentalManagementTable : IUnknown
+	{
+		import "oaidl.idl";
+		HRESULT ConvertParentalLevelToID (
+			[in] UINT8 level,
+			[in] UINT16 countryCode,
+			[in] UINT16 vtsn,
+			[out, ref] UINT16 *parentalID
+		);
+	};
+
+
+	/////////////////////////////////////////////////////////
+	interface IEnumDVD_TEXT_LANGUAGE_UNIT;
+	interface IEnumDVD_TEXT_ITEM;
+
+	[
+		object,
+		uuid(77FB5077-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDTextManager Interface"),
+		pointer_default(unique)
+	]
+
+	interface IDVDTextManager : IUnknown
+	{
+		import "oaidl.idl";
+
+		typedef struct _structDVD_TEXT_LANGUAGE_UNIT
+		{
+			UINT16 tdlc;
+			UINT8  charset;
+		} DVD_TEXT_LANGUAGE_UNIT, *PDVD_TEXT_LANGUAGE_UNIT;
+
+		typedef struct _structDVD_TEXT_ITEM
+		{
+			UINT8 *pTextData;
+			UINT8 itemCode;
+		} DVD_TEXT_ITEM, *PDVD_TEXT_ITEM;
+
+
+		HRESULT EnumerateTextLanguageUnits(
+			[out, ref] IEnumDVD_TEXT_LANGUAGE_UNIT* *ppEnum);
+
+		HRESULT GetTextItemsCount (
+			[in, ref]DVD_TEXT_LANGUAGE_UNIT *pTLU,
+			[in] UINT8 title,
+			[out, ref] UINT16 *pCount);
+
+
+		HRESULT EnumerateTitleTextItems (
+			[in, ref] DVD_TEXT_LANGUAGE_UNIT *pTLU,
+			[in] UINT8 title,
+			[out, ref] IEnumDVD_TEXT_ITEM **ppEnum);
+
+
+	};
+
+
+	//////////////////////////////////////////////////////////////
+	///
+
+	[
+		object,
+		uuid(77FB5078-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDStreamAttributes Interface"),
+		pointer_default(unique)
+	]
+	interface IDVDStreamAttributes : IUnknown
+	{
+		import "oaidl.idl";
+
+
+
+		typedef struct _structDVD_AUDIO_STREAM_ATTR
+		{ UINT16 attr; UINT16 reserved[3]; } DVD_AUDIO_STREAM_ATTR, *PDVD_AUDIO_STREAM_ATTR;
+
+			
+		typedef struct _structDVD_AUDIO_MU_ATTR
+		{
+			UINT8 atr1[8];
+			struct {UINT8 alpha, beta; } atr2[8];
+		} DVD_AUDIO_MU_ATTR, *PDVD_AUDIO_MU_ATTR;
+
+
+		typedef struct _structDVD_SUBPICTURE_STREAM_ATTR
+		{
+			UINT16 modetype;
+			UINT16 specificCode;
+			UINT16 extension;
+		} DVD_SUBPICTURE_STREAM_ATTR, *PDVD_SUBPICTURE_STREAM_ATTR;
+
+
+		HRESULT GetVideoAttr([out, ref]UINT16 *pVideoAttr);
+
+		HRESULT GetAudioCount([out, ref]UINT8 *pStreamCount);
+
+		HRESULT GetAudioAttr(
+			[in] UINT nStreamNo,
+			[out, ref] DVD_AUDIO_STREAM_ATTR *pAudioAttr);
+
+		HRESULT GetAudioMultichannelUseAttr (
+			[in] UINT8 nStreamNo,
+			[out, ref] DVD_AUDIO_MU_ATTR *pMuse);
+
+		HRESULT GetSubpictureCount (
+			[out, ref] UINT8 *pStreamCount);
+
+		HRESULT GetSubpictureAttr (
+			[in] UINT8 nStreamNo,
+			[out, ref] DVD_SUBPICTURE_STREAM_ATTR *pSPAttr);
+			
+	};
+
+	cpp_quote("#define	DVD_SYSTEM_SPACE_BIT	1")
+	cpp_quote("#define	DVD_MENU_SPACE_BIT		(DVD_SYSTEM_SPACE_BIT << 1)")
+	cpp_quote("#define	DVD_VMG_SPACE_BIT		(DVD_MENU_SPACE_BIT << 1)")
+	cpp_quote("#define	DVD_VTS_SPACE_BIT		(DVD_VMG_SPACE_BIT << 1)")
+
+	interface IDVDProgramChain;
+	interface IDVDTimeMap;
+	interface IDVDVideoVolume;
+	interface IDVDTitleSet;
+	interface IEnumDVD_CELL_PIECE;
+	[
+		object,
+		uuid(77FB5079-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDDomain Interface"),
+		pointer_default(unique)
+	]
+	interface IDVDDomain : IUnknown
+	{
+		import "oaidl.idl";
+		
+		typedef enum 
+			{
+				DVD_FP_DOM, DVD_VMGM_DOM,
+				DVD_VTSM_DOM, DVD_TT_DOM
+			} EDVDDomainType;
+
+		HRESULT GetType([out, ref] EDVDDomainType *pDType);
+
+		HRESULT GetSpace([out, ref] UINT8 *pSpaceSet);
+
+		HRESULT GetStreamAttributes (
+			[out, ref] IDVDStreamAttributes **ppAttr);
+
+		HRESULT GetPGCCount (
+			[out, ref] UINT16 *pCount);
+
+		HRESULT GetPGC (
+			[in] UINT16 pgcn,
+			[out, ref] IDVDProgramChain **ppPGC,
+			[out, ref] UINT32 *pPGCCat);
+
+		HRESULT GetTotalVideoObjects (
+			[out, ref] UINT16 * pTotalVobs,
+			[out, ref] UINT32 * pCellPieceCount);
+
+		HRESULT GetCellPieceEnumerator (
+			[out, ref] IEnumDVD_CELL_PIECE **ppEnumPieces,
+			[out, ref] UINT32 *pPieceCount);
+
+		HRESULT GetTotalVOBUnits (
+			[out, ref] UINT32 *pVobus);
+
+		HRESULT GetVOBUTablePtr(
+			[out, ref] UINT32 **ppVOBUAddressArray);
+
+		HRESULT GetTimeMap(
+			[in] UINT16 pgcn,
+			[out, ref] IDVDTimeMap **ppTimeMap);
+
+		HRESULT GetVOBFileId(INT16 *pFileId);
+
+		HRESULT GetVolume(IDVDVideoVolume **ppVolume);
+
+		HRESULT GetTitleSet(IDVDTitleSet **ppTitleSet);
+	};
+
+
+
+	[
+		object,
+		uuid(77FB507A-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDMenu Interface"),
+		pointer_default(unique)
+	]
+	interface IDVDMenu : IUnknown
+	{
+		import "oaidl.idl";
+
+		HRESULT GetDomain([in]UINT16 languageCode,
+			[out, ref] IDVDDomain **ppDomain,
+			[out, ref] UINT8 *pExistFlag);
+
+		HRESULT GetMenuLanguageInfo([in, out, ref] UINT16 *pLangCount,
+			[ptr] UINT16 *pLCBuffer,
+			[ptr] UINT8 *pFlagsBuffer);
+
+	};
+
+
+	[
+		object,
+		uuid(77FB507B-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IEnumDVD_CELL_PIECE Interface"),
+		pointer_default(unique)
+	]
+	interface IEnumDVD_CELL_PIECE : IUnknown
+	{
+		import "oaidl.idl";
+
+		typedef struct { UINT16 vob_id; UINT8 c_idn; UINT32 start, end;}
+			DVD_CELL_PIECE, *PDVD_CELL_PIECE;	
+
+		HRESULT Next([in]ULONG celt, [ptr]DVD_CELL_PIECE *rgelt, [in]ULONG *pceltFetched);
+		HRESULT Skip([in]ULONG eltCount);
+		HRESULT Reset();
+		HRESULT Clone([out, ref]IEnumDVD_CELL_PIECE **ppClone);
+
+	};
+
+
+	[
+		object,
+		uuid(77FB507C-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IEnumDVD_TEXT_LANGUAGE_UNIT Interface"),
+		pointer_default(unique)
+	]
+	interface IEnumDVD_TEXT_LANGUAGE_UNIT : IUnknown
+	{
+		import "oaidl.idl";
+
+		HRESULT Next([in]ULONG celt, [ptr]DVD_TEXT_LANGUAGE_UNIT *rgelt, [in]ULONG *pceltFetched);
+		HRESULT Skip([in]ULONG eltCount);
+		HRESULT Reset();
+		HRESULT Clone([out, ref]IEnumDVD_TEXT_LANGUAGE_UNIT **ppClone);
+
+	};
+
+
+	[
+		object,
+		uuid(77FB507D-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IEnumDVD_TEXT_ITEM Interface"),
+		pointer_default(unique)
+	]
+	interface IEnumDVD_TEXT_ITEM : IUnknown
+	{
+		import "oaidl.idl";
+
+		HRESULT Next([in]ULONG celt, [ptr]DVD_TEXT_ITEM *rgelt, [in]ULONG *pceltFetched);
+		HRESULT Skip([in]ULONG eltCount);
+		HRESULT Reset();
+		HRESULT Clone([out, ref]IEnumDVD_TEXT_ITEM **ppClone);
+	};
+
+
+
+	[
+		object,
+		uuid(77FB507E-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDTitleSet Interface"),
+		pointer_default(unique)
+	]
+	interface IDVDTitleSet : IUnknown
+	{
+		HRESULT GetSpecVersion(UINT16 *pVersion);
+		HRESULT GetCategory(UINT32 *pCategory);
+		HRESULT GetMenu(IDVDMenu **ppMenu);
+		HRESULT GetDomain(IDVDDomain **ppDomain);
+		HRESULT GetTotalTitleUnitCount(UINT16 *pTtuCount);
+		HRESULT GetTitlePart(UINT16 ttu, UINT16 ptt, UINT16 *pPgcn, UINT8 *pPgn);
+		HRESULT GetVTSN(UINT16 *pVTSN);
+		HRESULT GetVolume(IDVDVideoVolume **pVolume);
+
+	};
+
+
+
+	[
+		object,
+		uuid(77FB507F-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDProgramChain Interface"),
+		pointer_default(unique)
+	]
+	interface IDVDProgramChain : IUnknown
+	{
+		typedef struct
+		{
+			UINT8 cmd[8];
+		} DVD_NAV_CMD;
+
+
+		typedef enum
+		{
+			DVD_PRE_CMD = 0,
+			DVD_POST_CMD = 1,
+			DVD_CELL_CMD = 2
+		} ENavCmdArea;
+
+
+		typedef struct
+		{
+			UINT32 cellCategory;
+			UINT32 cellPlaybackTime;
+			UINT32 startFirstVobu;
+			UINT32 endFirstIlvu;
+			UINT32 startLastVobu;
+			UINT32 endLastVobu;
+		} DVD_CELL_PLAYBACK;
+
+		typedef enum { DVD_NEXT_PGC, DVD_PREVIOUS_PGC, DVD_UP_PGC }
+			EPGCLinkType;
+		typedef enum
+			{ DVD_PLAYMODE_SEQUENTIAL, DVD_PLAYMODE_RANDOM, DVD_PLAYMODE_SHUFFLE }
+			EPGCPlaybackMode;
+
+		HRESULT GetDomain(IDVDDomain **ppDomain);
+		HRESULT GetContents(UINT32 *pContents);
+		HRESULT GetPlaybackTime(UINT32 *pbcdTime);
+		HRESULT GetUserOperationControlMask(UINT32 *pmask);
+		HRESULT GetAudioStreamSelector(UINT8 streamN, UINT16 *pSelector);
+		HRESULT GetSubpictureStreamSelector(UINT8 streamN, UINT32 *pSPSel);
+		HRESULT GetLink(EPGCLinkType eType, UINT16 *pgcn);
+		HRESULT GetPlaybackMode(EPGCPlaybackMode *pMode, UINT8 *pRepeatCount, UINT8 *pStillTime);
+		HRESULT GetSubpicturePalette(UINT32 *pBuf);
+		HRESULT	GetNavCommandsCount(ENavCmdArea eArea, UINT16 *pCount);
+		HRESULT GetNavCommand(ENavCmdArea area, UINT16 commandN, DVD_NAV_CMD *pCmd);
+		HRESULT GetProgramEntryCell(UINT16 pgno, UINT8 *pEntryCN);
+		HRESULT GetCellPlaybackInfo(UINT8 cn, DVD_CELL_PLAYBACK *pInfo);
+		HRESULT GetCellPosition(UINT8 cn, UINT16 *pVOB_ID, UINT8 *pC_IDN);
+		HRESULT GetPGCN(UINT16 *pPGCN);
+
+	};
+
+
+	[
+		object,
+		uuid(77FB5080-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDTimeMap Interface"),
+		pointer_default(unique)
+	]
+	interface IDVDTimeMap : IUnknown
+	{
+		import "oaidl.idl";
+		HRESULT GetTableHeader(UINT8 *pTMU, UINT16 *pnEntries);
+		HRESULT GetVOBUAddress(UINT16 nEntryIndex, UINT32 *pVobuRlbn);
+	};
+
+
+
+	[
+		object,
+		uuid(77FB5073-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDVideoVolume Interface"),
+		pointer_default(unique)
+	]
+
+	interface IDVDVideoVolume : IUnknown
+	{
+		import "oaidl.idl";
+
+			typedef struct _structDVD_PROVIDER_ID
+				{ UINT8 providerID[32]; } DVD_PROVIDER_ID;
+
+			typedef struct _structDVD_POS_CODE
+				{ UINT8 posCode[8]; } DVD_POS_CODE;
+
+			typedef struct _structDVD_TITLE_SET_INFO
+			{
+				UINT16 nParts;
+				UINT16 parentalID;
+				UINT8 titlePlaybackType;
+				UINT8 nAngles;
+				UINT8 vtsn;
+				UINT8 vts_ttn;
+			} DVD_TITLE_SET_INFO;
+
+		HRESULT InitData(IDVDROM * pDisk);
+
+		HRESULT Lock();
+
+		HRESULT Unlock();
+
+		HRESULT GetSpecVersion([ref, out] UINT16 * pVersion);
+
+		HRESULT GetCategory([ref, out] UINT32  *pCat);
+
+		HRESULT GetVolumeSetInfo( [ref, out] UINT16 * pVolumeSetSize,
+			[ref, out] UINT16 *pVolumeNo,
+			[ref, out] UINT8 *pSide);
+
+		HRESULT GetVideoTitleSetsCount([ref, out] UINT16 *pCount);
+
+		HRESULT GetProviderID([out, ref] DVD_PROVIDER_ID *pProvider);
+
+		HRESULT GetPOSCode([out, ref]DVD_POS_CODE *pPOSCode);
+
+		HRESULT GetFirstPlay([out, ref]IDVDDomain **ppDomain);
+
+		HRESULT GetMenu([out, ref]IDVDMenu **ppMenu);
+
+		HRESULT GetTotalTitleUnitCount([out, ref] UINT16 *pTTUCount);
+
+		HRESULT GetTitleUnitInfo([in] UINT16 ttu,
+			[out, ref]DVD_TITLE_SET_INFO *pTUInfo);
+
+		HRESULT GetTitleSet(UINT16 zbVtsn, IDVDTitleSet **ppTitleSet);
+
+		HRESULT GetTitleSetAttributes([in] UINT16 vtsn,
+			[out, ref] UINT32 *pVTSCategory,
+			[out, ref] IDVDStreamAttributes **ppVideoAttr);
+
+		HRESULT GetParentalManagementTable(
+			[out, ref] IDVDParentalManagementTable **ppTable);
+
+		HRESULT GetTextDataManager([out, ref] IDVDTextManager* *ppTxtMgr);
+	};
+
+
+	interface IDVDStreamControlInfo;
+
+	[
+		object,
+		uuid(77FB5081-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDDataSearchInfo Interface"),
+		pointer_default(unique)
+	]
+	interface IDVDDataSearchInfo : IUnknown
+	{
+		HRESULT GetControlInfo(IDVDStreamControlInfo **ppStream);
+		HRESULT GetSCRBase(UINT32 *pSCR);
+		HRESULT GetUnitEndAddress(UINT32 *pRLBN);
+		HRESULT GetRefPictureAddress(UINT8 refNo, UINT32 *pRLBN);
+		HRESULT GetVOB_ID(UINT16 *pVOB_ID);
+		HRESULT GetC_IDN(UINT8 *pC_IDN);
+		HRESULT GetSeamlessCategory(UINT16 *pCat);
+		HRESULT GetInterleavedUnitEndAddress(UINT32 *pRLBN);
+		HRESULT GetNextInterleavedUnit(UINT32 *pRLBN, UINT16 *pLBSize);
+		HRESULT GetAudioGapInfo(UINT8 streamNo, UINT8 gapNo, UINT32 *pMpegStart, UINT32 *pMpegEnd);
+		HRESULT GetSeamlessAngleChangeAddress(UINT8 angle, UINT32 *pRLBN, UINT32 *pLBSize);
+		HRESULT GetUnitStepAddress(UINT8 dir, INT16 stepIndex, UINT32 *pAddress);
+		HRESULT GetSyncAudioAddress(UINT8 streamN, UINT16 *pRLBN);
+		HRESULT GetSyncSPAddress(UINT8 streamN, UINT32 *pRLBN);
+	};
+
+
+	typedef struct
+	{
+		UINT16 xStart, xEnd, yStart, yEnd;
+	}
+	DVD_RECT;
+
+	[
+		object,
+		uuid(77FB5082-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDHighlightInfo Interface"),
+		pointer_default(unique)
+	]
+	interface IDVDHighlightInfo : IUnknown
+	{
+		HRESULT GetStreamingInfo(IDVDStreamControlInfo **pControlInfo);
+		HRESULT GetPTMs(UINT32 *puiStart, UINT32 *puiEnd, UINT32 *puiSelectionEnd);
+		HRESULT GetButtonMode(UINT16 *pMode);
+		HRESULT GetButtonOffset(UINT8 *pbyteOffset);
+		HRESULT GetButtonCount(UINT8 *pbyteCount);
+		HRESULT GetNumberedButtonCount(UINT8 *pbyteCount);
+		HRESULT GetInitialSelectionButton(UINT8 *pInitialSelection);
+		HRESULT GetDefaultActionButton(UINT8 *pActionButton);
+		HRESULT GetButtonColorInfo(UINT8 byteButtonColor,
+			UINT32 *pSelectionColors, UINT32 *pActionColors);
+		HRESULT GetButtonPositionInfo(UINT8 byteButton,
+			BYTE *pbyteButtonColor, UINT8 *pbyteActionMode,
+			DVD_RECT *pArea);
+
+		HRESULT GetAdjacentButton(UINT8 byteButton, UINT8 byteDir, UINT8 *pbyteButtonNumber);
+		HRESULT GetButtonCommand(UINT8 byteButtonNumber, DVD_NAV_CMD *pCmd);
+		HRESULT GetHLIStatus(UINT16 *pStatus);
+
+	};
+
+
+
+
+	[
+		object,
+		uuid(77FB5083-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDStreamControlInfo Interface"),
+		pointer_default(unique)
+	]
+	interface IDVDStreamControlInfo : IUnknown
+	{
+		typedef struct {
+			UINT8 valid;
+			UINT8 countryCode[2];
+			UINT8 copyrightHolder[3];
+			UINT8 bcdYear;
+			UINT8 bcdNumber[3];
+		} DVD_ISRC;
+
+		HRESULT SetNavigationPack(UINT8 *pPack);
+		HRESULT GetBlockAddress(UINT32 *pLBN);
+		HRESULT GetCategory(UINT16 *pCat);
+		HRESULT GetUserOperationControlMask(UINT32 *pMask);
+		HRESULT GetPresentationTimes(UINT32 *pMpegStart, UINT32 *pMpegEnd);
+		HRESULT GetEndSequencePTM(UINT32 *pMpegTime);
+		HRESULT GetCellRelativeStartTime(UINT32 *pBCDTime);
+		HRESULT GetNonSeamlessAngleChangeAddress(UINT8 angle, UINT32 *pRLBN);
+		HRESULT GetHighlightInfo(IDVDHighlightInfo **ppHLI);
+		HRESULT GetDataSearchInfo(IDVDDataSearchInfo **ppDSI);
+		HRESULT GetRecordingVideoInfo(DVD_ISRC *pVideo);
+		HRESULT GetRecordingAudioInfo(UINT8 stream, DVD_ISRC *pAudio);
+		HRESULT GetRecordingSubpictureGroup(UINT8 *pSelector);
+		HRESULT GetRecordingSubpictureInfo(UINT8 bin, DVD_ISRC *pSubInfo);
+		HRESULT ReaderLock();
+		HRESULT ReaderUnlock();
+	};
+
+	[
+		object,
+		uuid(77FB5085-9F3D-11D0-A979-00A0C9050598),
+		helpstring("IDVDNavDataStatusSink Interface"),
+		pointer_default(unique)
+	]
+	interface IDVDNavDataStatusSink : IUnknown
+	{
+		HRESULT NotifyNewPCI();
+	};
+
+
+[
+	uuid(77FB5070-9F3D-11D0-A979-00A0C9050598),
+	version(1.0),
+	helpstring("dvdata 1.0 Type Library")
+]
+
+
+library DVDATALib
+{
+	importlib("stdole32.tlb");
+
+	[
+		uuid(77FB5076-9F3D-11D0-A979-00A0C9050598),
+		helpstring("DVDData Class")
+	]
+	coclass DVDData
+	{
+		[default] interface IDVDROM;
+		interface IDVDVideoVolume;
+	};
+
+
+	[
+		uuid(77FB5084-9F3D-11D0-A979-00A0C9050598),
+		helpstring("DVDStreamControlInfo Class")
+	]
+	coclass DVDStreamControlInfo
+	{
+		[default] interface IDVDStreamControlInfo;
+	};
+
+
+};

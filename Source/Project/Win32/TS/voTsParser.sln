@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voTsParser", "voTsParser.vcproj", "{3E87F613-9444-456A-A375-1873DC918BFB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voTSParserLib", "..\voTSParserLib\voTSParserLib.vcproj", "{89B5E3F5-3E63-4224-8721-0205880C4BD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Pocket PC 2003 (ARMV4) = Debug|Pocket PC 2003 (ARMV4)
+		Debug|Win32 = Debug|Win32
+		Release|Pocket PC 2003 (ARMV4) = Release|Pocket PC 2003 (ARMV4)
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E87F613-9444-456A-A375-1873DC918BFB}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{3E87F613-9444-456A-A375-1873DC918BFB}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug|Pocket PC 2003 (ARMV4)
+		{3E87F613-9444-456A-A375-1873DC918BFB}.Debug|Pocket PC 2003 (ARMV4).Deploy.0 = Debug|Pocket PC 2003 (ARMV4)
+		{3E87F613-9444-456A-A375-1873DC918BFB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E87F613-9444-456A-A375-1873DC918BFB}.Debug|Win32.Build.0 = Debug|Win32
+		{3E87F613-9444-456A-A375-1873DC918BFB}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{3E87F613-9444-456A-A375-1873DC918BFB}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release|Pocket PC 2003 (ARMV4)
+		{3E87F613-9444-456A-A375-1873DC918BFB}.Release|Pocket PC 2003 (ARMV4).Deploy.0 = Release|Pocket PC 2003 (ARMV4)
+		{3E87F613-9444-456A-A375-1873DC918BFB}.Release|Win32.ActiveCfg = Release|Win32
+		{3E87F613-9444-456A-A375-1873DC918BFB}.Release|Win32.Build.0 = Release|Win32
+		{89B5E3F5-3E63-4224-8721-0205880C4BD2}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Win32
+		{89B5E3F5-3E63-4224-8721-0205880C4BD2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{89B5E3F5-3E63-4224-8721-0205880C4BD2}.Debug|Win32.Build.0 = Debug|Win32
+		{89B5E3F5-3E63-4224-8721-0205880C4BD2}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Win32
+		{89B5E3F5-3E63-4224-8721-0205880C4BD2}.Release|Win32.ActiveCfg = Release|Win32
+		{89B5E3F5-3E63-4224-8721-0205880C4BD2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

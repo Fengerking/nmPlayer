@@ -1,0 +1,1736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DE0BE021492196F00B329B0 /* applyreflectionv3.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BABB128D2A2200F53EB8 /* applyreflectionv3.h */; };
+		7DE0BE031492196F00B329B0 /* basepluspro.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BABC128D2A2200F53EB8 /* basepluspro.h */; };
+		7DE0BE041492196F00B329B0 /* catchflops.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BABD128D2A2200F53EB8 /* catchflops.h */; };
+		7DE0BE051492196F00B329B0 /* chexdectblspro.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BABF128D2A2200F53EB8 /* chexdectblspro.h */; };
+		7DE0BE061492196F00B329B0 /* chexpro.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC0128D2A2200F53EB8 /* chexpro.h */; };
+		7DE0BE071492196F00B329B0 /* constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC1128D2A2200F53EB8 /* constants.h */; };
+		7DE0BE081492196F00B329B0 /* dbgmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC2128D2A2200F53EB8 /* dbgmacros.h */; };
+		7DE0BE091492196F00B329B0 /* dbgmacrosimpl.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC3128D2A2200F53EB8 /* dbgmacrosimpl.h */; };
+		7DE0BE0A1492196F00B329B0 /* DecTables.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC4128D2A2200F53EB8 /* DecTables.h */; };
+		7DE0BE0B1492196F00B329B0 /* downmix.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC5128D2A2200F53EB8 /* downmix.h */; };
+		7DE0BE0C1492196F00B329B0 /* drccommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC6128D2A2200F53EB8 /* drccommon.h */; };
+		7DE0BE0D1492196F00B329B0 /* enttblsdecv4.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BACA128D2A2200F53EB8 /* enttblsdecv4.h */; };
+		7DE0BE0E1492196F00B329B0 /* fastfloat.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BACB128D2A2200F53EB8 /* fastfloat.h */; };
+		7DE0BE0F1492196F00B329B0 /* fex.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BACC128D2A2200F53EB8 /* fex.h */; };
+		7DE0BE101492196F00B329B0 /* fexdectbls.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BACE128D2A2200F53EB8 /* fexdectbls.h */; };
+		7DE0BE111492196F00B329B0 /* fntable.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD1128D2A2200F53EB8 /* fntable.h */; };
+		7DE0BE121492196F00B329B0 /* fntableimpl.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD2128D2A2200F53EB8 /* fntableimpl.h */; };
+		7DE0BE131492196F00B329B0 /* lowrate_common.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD3128D2A2200F53EB8 /* lowrate_common.h */; };
+		7DE0BE141492196F00B329B0 /* lpcConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD4128D2A2200F53EB8 /* lpcConst.h */; };
+		7DE0BE151492196F00B329B0 /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD5128D2A2200F53EB8 /* macros.h */; };
+		7DE0BE161492196F00B329B0 /* msaudio.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD6128D2A2200F53EB8 /* msaudio.h */; };
+		7DE0BE171492196F00B329B0 /* msaudiotemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD7128D2A2300F53EB8 /* msaudiotemplate.h */; };
+		7DE0BE181492196F00B329B0 /* msaudiotemplatedef.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD8128D2A2300F53EB8 /* msaudiotemplatedef.h */; };
+		7DE0BE191492196F00B329B0 /* pkconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD9128D2A2300F53EB8 /* pkconfig.h */; };
+		7DE0BE1A1492196F00B329B0 /* templateincludes.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BADB128D2A2300F53EB8 /* templateincludes.h */; };
+		7DE0BE1B1492196F00B329B0 /* wavfileexio.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BADC128D2A2300F53EB8 /* wavfileexio.h */; };
+		7DE0BE1C1492196F00B329B0 /* wmaOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BADD128D2A2300F53EB8 /* wmaOS.h */; };
+		7DE0BE1D1492196F00B329B0 /* baseplusdecpro.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB02128D2A6000F53EB8 /* baseplusdecpro.h */; };
+		7DE0BE1E1492196F00B329B0 /* entropydec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB03128D2A6000F53EB8 /* entropydec.h */; };
+		7DE0BE1F1492196F00B329B0 /* huffdec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB05128D2A6000F53EB8 /* huffdec.h */; };
+		7DE0BE201492196F00B329B0 /* msaudiodec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB06128D2A6000F53EB8 /* msaudiodec.h */; };
+		7DE0BE211492196F00B329B0 /* strmdec_wma.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB07128D2A6000F53EB8 /* strmdec_wma.h */; };
+		7DE0BE221492196F00B329B0 /* wmaprodecS_api.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB08128D2A6000F53EB8 /* wmaprodecS_api.h */; };
+		7DE0BE231492196F00B329B0 /* AutoProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB11128D2A8900F53EB8 /* AutoProfile.h */; };
+		7DE0BE241492196F00B329B0 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB12128D2A8900F53EB8 /* config.h */; };
+		7DE0BE251492196F00B329B0 /* configcommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB13128D2A8900F53EB8 /* configcommon.h */; };
+		7DE0BE261492196F00B329B0 /* playropt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB14128D2A8900F53EB8 /* playropt.h */; };
+		7DE0BE271492196F00B329B0 /* wma10dec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB15128D2A8900F53EB8 /* wma10dec.h */; };
+		7DE0BE281492196F00B329B0 /* wmaerror.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB16128D2A8900F53EB8 /* wmaerror.h */; };
+		7DE0BE291492196F00B329B0 /* wmafmt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB17128D2A8900F53EB8 /* wmafmt.h */; };
+		7DE0BE2A1492196F00B329B0 /* commontables.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB20128D2B0600F53EB8 /* commontables.h */; };
+		7DE0BE2B1492196F00B329B0 /* mmreg_.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB21128D2B0600F53EB8 /* mmreg_.h */; };
+		7DE0BE2C1492196F00B329B0 /* msaudiofmt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB22128D2B0600F53EB8 /* msaudiofmt.h */; };
+		7DE0BE2D1492196F00B329B0 /* pcmfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB23128D2B0600F53EB8 /* pcmfmt.h */; };
+		7DE0BE2E1492196F00B329B0 /* wmaassert.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB24128D2B0600F53EB8 /* wmaassert.h */; };
+		7DE0BE2F1492196F00B329B0 /* wmabuffilt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB25128D2B0600F53EB8 /* wmabuffilt.h */; };
+		7DE0BE301492196F00B329B0 /* wmachmtx.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB26128D2B0600F53EB8 /* wmachmtx.h */; };
+		7DE0BE311492196F00B329B0 /* wmacommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB27128D2B0600F53EB8 /* wmacommon.h */; };
+		7DE0BE321492196F00B329B0 /* wmaerrormacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB28128D2B0600F53EB8 /* wmaerrormacros.h */; };
+		7DE0BE331492196F00B329B0 /* wmaltrt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB29128D2B0600F53EB8 /* wmaltrt.h */; };
+		7DE0BE341492196F00B329B0 /* wmamalloc.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2A128D2B0600F53EB8 /* wmamalloc.h */; };
+		7DE0BE351492196F00B329B0 /* wmapcmacc.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2B128D2B0600F53EB8 /* wmapcmacc.h */; };
+		7DE0BE361492196F00B329B0 /* wmaresults.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2C128D2B0600F53EB8 /* wmaresults.h */; };
+		7DE0BE371492196F00B329B0 /* wmartmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2D128D2B0600F53EB8 /* wmartmacros.h */; };
+		7DE0BE381492196F00B329B0 /* wmatypes_ansi.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2E128D2B0600F53EB8 /* wmatypes_ansi.h */; };
+		7DE0BE391492196F00B329B0 /* wmatypes_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2F128D2B0600F53EB8 /* wmatypes_arm.h */; };
+		7DE0BE3A1492196F00B329B0 /* wmatypes_embedded_x86.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB30128D2B0600F53EB8 /* wmatypes_embedded_x86.h */; };
+		7DE0BE3B1492196F00B329B0 /* wmatypes_macos.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB31128D2B0600F53EB8 /* wmatypes_macos.h */; };
+		7DE0BE3C1492196F00B329B0 /* wmatypes_mips.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB32128D2B0600F53EB8 /* wmatypes_mips.h */; };
+		7DE0BE3D1492196F00B329B0 /* wmatypes_qnx_x86.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB33128D2B0600F53EB8 /* wmatypes_qnx_x86.h */; };
+		7DE0BE3E1492196F00B329B0 /* wmatypes_s_sunos5.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB34128D2B0600F53EB8 /* wmatypes_s_sunos5.h */; };
+		7DE0BE3F1492196F00B329B0 /* wmatypes_sh3.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB35128D2B0600F53EB8 /* wmatypes_sh3.h */; };
+		7DE0BE401492196F00B329B0 /* wmatypes_sh4.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB36128D2B0600F53EB8 /* wmatypes_sh4.h */; };
+		7DE0BE411492196F00B329B0 /* wmatypes_win64.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB37128D2B0600F53EB8 /* wmatypes_win64.h */; };
+		7DE0BE421492196F00B329B0 /* wmatypes_x86.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB38128D2B0600F53EB8 /* wmatypes_x86.h */; };
+		7DE0BE431492196F00B329B0 /* wmatypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB39128D2B0600F53EB8 /* wmatypes.h */; };
+		7DE0BE441492196F00B329B0 /* wmatyps.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB3A128D2B0600F53EB8 /* wmatyps.h */; };
+		7DE0BE451492196F00B329B0 /* wmawfxdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB3B128D2B0600F53EB8 /* wmawfxdefs.h */; };
+		7DE0BE461492196F00B329B0 /* wmawintypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB3C128D2B0600F53EB8 /* wmawintypes.h */; };
+		7DE0BE471492196F00B329B0 /* wmspecstringce.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB3D128D2B0600F53EB8 /* wmspecstringce.h */; };
+		7DE0BE481492196F00B329B0 /* checkhandle.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB5F128D2B8000F53EB8 /* checkhandle.h */; };
+		7DE0BE491492196F00B329B0 /* wmsal.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB60128D2B8000F53EB8 /* wmsal.h */; };
+		7DE0BE4A1492196F00B329B0 /* wmspecstring.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB61128D2B8000F53EB8 /* wmspecstring.h */; };
+		7DE0BE4B1492196F00B329B0 /* wmspecstrings_adt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB62128D2B8000F53EB8 /* wmspecstrings_adt.h */; };
+		7DE0BE4C1492196F00B329B0 /* wmspecstrings_strict.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB63128D2B8000F53EB8 /* wmspecstrings_strict.h */; };
+		7DE0BE4D1492196F00B329B0 /* wmspecstrings_undef.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB64128D2B8000F53EB8 /* wmspecstrings_undef.h */; };
+		7DE0BE4E1492196F00B329B0 /* wmdsplogging.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB6B128D2B8F00F53EB8 /* wmdsplogging.h */; };
+		7DE0BE4F1492196F00B329B0 /* voWMADec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F230BD2C128D407F00F53EB8 /* voWMADec_Prefix.pch */; };
+		7DE0BE501492196F00B329B0 /* kxarm.h in Headers */ = {isa = PBXBuildFile; fileRef = E1ADD7E6137B72F800EA097A /* kxarm.h */; };
+		7DE0BE511492196F00B329B0 /* wma_arm_version.h in Headers */ = {isa = PBXBuildFile; fileRef = E1ADD7E7137B72F800EA097A /* wma_arm_version.h */; };
+		7DE0BE531492196F00B329B0 /* wmabuffilt.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7A3128CEC3A00F53EB8 /* wmabuffilt.c */; };
+		7DE0BE541492196F00B329B0 /* wmachmtx.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7A4128CEC3A00F53EB8 /* wmachmtx.c */; };
+		7DE0BE551492196F00B329B0 /* wmaltrt.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7A5128CEC3A00F53EB8 /* wmaltrt.c */; };
+		7DE0BE561492196F00B329B0 /* AutoProfile.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AA128CEC6C00F53EB8 /* AutoProfile.c */; };
+		7DE0BE571492196F00B329B0 /* basepluspro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AB128CEC6C00F53EB8 /* basepluspro.c */; };
+		7DE0BE581492196F00B329B0 /* chexpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AC128CEC6C00F53EB8 /* chexpro.c */; };
+		7DE0BE591492196F00B329B0 /* configcommon.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AD128CEC6C00F53EB8 /* configcommon.c */; };
+		7DE0BE5A1492196F00B329B0 /* dectables.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AE128CEC6C00F53EB8 /* dectables.c */; };
+		7DE0BE5B1492196F00B329B0 /* dectablespro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AF128CEC6C00F53EB8 /* dectablespro.c */; };
+		7DE0BE5C1492196F00B329B0 /* dectablesstd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B0128CEC6C00F53EB8 /* dectablesstd.c */; };
+		7DE0BE5D1492196F00B329B0 /* dectablesstdpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B1128CEC6C00F53EB8 /* dectablesstdpro.c */; };
+		7DE0BE5E1492196F00B329B0 /* downmix.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B2128CEC6C00F53EB8 /* downmix.c */; };
+		7DE0BE5F1492196F00B329B0 /* drccommonpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B3128CEC6C00F53EB8 /* drccommonpro.c */; };
+		7DE0BE601492196F00B329B0 /* fex.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B4128CEC6C00F53EB8 /* fex.c */; };
+		7DE0BE611492196F00B329B0 /* fft.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B5128CEC6C00F53EB8 /* fft.c */; };
+		7DE0BE621492196F00B329B0 /* float.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B6128CEC6C00F53EB8 /* float.c */; };
+		7DE0BE631492196F00B329B0 /* lowrate_common.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B7128CEC6C00F53EB8 /* lowrate_common.c */; };
+		7DE0BE641492196F00B329B0 /* lowrate_commonstd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B8128CEC6C00F53EB8 /* lowrate_commonstd.c */; };
+		7DE0BE651492196F00B329B0 /* lpc.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B9128CEC6C00F53EB8 /* lpc.c */; };
+		7DE0BE661492196F00B329B0 /* lpclsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BA128CEC6C00F53EB8 /* lpclsl.c */; };
+		7DE0BE671492196F00B329B0 /* lpcprolsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BB128CEC6C00F53EB8 /* lpcprolsl.c */; };
+		7DE0BE681492196F00B329B0 /* lpcstd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BC128CEC6C00F53EB8 /* lpcstd.c */; };
+		7DE0BE691492196F00B329B0 /* msaudio.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BD128CEC6C00F53EB8 /* msaudio.c */; };
+		7DE0BE6A1492196F00B329B0 /* msaudiolsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BE128CEC6C00F53EB8 /* msaudiolsl.c */; };
+		7DE0BE6B1492196F00B329B0 /* msaudiopro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BF128CEC6C00F53EB8 /* msaudiopro.c */; };
+		7DE0BE6C1492196F00B329B0 /* msaudioprotemplate.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7C0128CEC6C00F53EB8 /* msaudioprotemplate.c */; };
+		7DE0BE6D1492196F00B329B0 /* msaudiostd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7C1128CEC6C00F53EB8 /* msaudiostd.c */; };
+		7DE0BE6E1492196F00B329B0 /* msaudiostdpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7C2128CEC6C00F53EB8 /* msaudiostdpro.c */; };
+		7DE0BE6F1492196F00B329B0 /* msaudiotemplate.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7C3128CEC6C00F53EB8 /* msaudiotemplate.c */; };
+		7DE0BE701492196F00B329B0 /* arm_stub.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7DF128CEC9200F53EB8 /* arm_stub.c */; };
+		7DE0BE711492196F00B329B0 /* baseplusdecpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E0128CEC9200F53EB8 /* baseplusdecpro.c */; };
+		7DE0BE721492196F00B329B0 /* chexdecpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E1128CEC9200F53EB8 /* chexdecpro.c */; };
+		7DE0BE731492196F00B329B0 /* entropydec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E2128CEC9200F53EB8 /* entropydec.c */; };
+		7DE0BE741492196F00B329B0 /* entropydecpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E3128CEC9200F53EB8 /* entropydecpro.c */; };
+		7DE0BE751492196F00B329B0 /* entropydecprolsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E4128CEC9200F53EB8 /* entropydecprolsl.c */; };
+		7DE0BE761492196F00B329B0 /* entropydecstd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E5128CEC9200F53EB8 /* entropydecstd.c */; };
+		7DE0BE771492196F00B329B0 /* fexdec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E6128CEC9200F53EB8 /* fexdec.c */; };
+		7DE0BE781492196F00B329B0 /* huffdec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E7128CEC9200F53EB8 /* huffdec.c */; };
+		7DE0BE791492196F00B329B0 /* losslessdeclsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E8128CEC9200F53EB8 /* losslessdeclsl.c */; };
+		7DE0BE7A1492196F00B329B0 /* losslessdecpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E9128CEC9200F53EB8 /* losslessdecpro.c */; };
+		7DE0BE7B1492196F00B329B0 /* losslessdecprolsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EA128CEC9200F53EB8 /* losslessdecprolsl.c */; };
+		7DE0BE7C1492196F00B329B0 /* msaudiodec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EB128CEC9200F53EB8 /* msaudiodec.c */; };
+		7DE0BE7D1492196F00B329B0 /* msaudiodectemplate.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EC128CEC9200F53EB8 /* msaudiodectemplate.c */; };
+		7DE0BE7E1492196F00B329B0 /* strmdec_wma.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7ED128CEC9200F53EB8 /* strmdec_wma.c */; };
+		7DE0BE7F1492196F00B329B0 /* wmadec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EE128CEC9200F53EB8 /* wmadec.c */; };
+		7DE0BE801492196F00B329B0 /* wmaprodecS_api.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EF128CEC9200F53EB8 /* wmaprodecS_api.c */; };
+		7DE0BE811492196F00B329B0 /* wmafmt.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B802128CECB800F53EB8 /* wmafmt.c */; };
+		7DE0BE821492196F00B329B0 /* commontables.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B805128CECD800F53EB8 /* commontables.c */; };
+		7DE0BE831492196F00B329B0 /* wmaerror.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B806128CECD800F53EB8 /* wmaerror.c */; };
+		7DE0BE841492196F00B329B0 /* wmamalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B807128CECD800F53EB8 /* wmamalloc.c */; };
+		7DE0BE941492196F00B329B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		E1ADD7E9137B72F800EA097A /* kxarm.h in Headers */ = {isa = PBXBuildFile; fileRef = E1ADD7E6137B72F800EA097A /* kxarm.h */; };
+		E1ADD7EA137B72F800EA097A /* wma_arm_version.h in Headers */ = {isa = PBXBuildFile; fileRef = E1ADD7E7137B72F800EA097A /* wma_arm_version.h */; };
+		E1ADD7EB137B72F800EA097A /* wma_member_arm.inc in Sources */ = {isa = PBXBuildFile; fileRef = E1ADD7E8137B72F800EA097A /* wma_member_arm.inc */; };
+		E1ADD7EC137B72F800EA097A /* kxarm.h in Headers */ = {isa = PBXBuildFile; fileRef = E1ADD7E6137B72F800EA097A /* kxarm.h */; };
+		E1ADD7ED137B72F800EA097A /* wma_arm_version.h in Headers */ = {isa = PBXBuildFile; fileRef = E1ADD7E7137B72F800EA097A /* wma_arm_version.h */; };
+		E1ADD7EE137B72F800EA097A /* wma_member_arm.inc in Sources */ = {isa = PBXBuildFile; fileRef = E1ADD7E8137B72F800EA097A /* wma_member_arm.inc */; };
+		E1BEB141137A9ABF0087B45A /* huffdec_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB135137A9ABF0087B45A /* huffdec_arm.s */; };
+		E1BEB143137A9ABF0087B45A /* losslessdeclsl_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB137137A9ABF0087B45A /* losslessdeclsl_arm.s */; };
+		E1BEB144137A9ABF0087B45A /* losslessdecprolsl_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB138137A9ABF0087B45A /* losslessdecprolsl_arm.s */; };
+		E1BEB145137A9ABF0087B45A /* lowrate_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB139137A9ABF0087B45A /* lowrate_arm.s */; };
+		E1BEB146137A9ABF0087B45A /* lpclsl_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB13A137A9ABF0087B45A /* lpclsl_arm.s */; };
+		E1BEB147137A9ABF0087B45A /* lpcstd_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB13B137A9ABF0087B45A /* lpcstd_arm.s */; };
+		E1BEB148137A9ABF0087B45A /* msaudiodec_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB13C137A9ABF0087B45A /* msaudiodec_arm.s */; };
+		E1BEB149137A9ABF0087B45A /* strmdec_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB13D137A9ABF0087B45A /* strmdec_arm.s */; };
+		E1BEB14A137A9ABF0087B45A /* voMemory_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB13E137A9ABF0087B45A /* voMemory_arm.s */; };
+		E1BEB14D137A9ABF0087B45A /* huffdec_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB135137A9ABF0087B45A /* huffdec_arm.s */; };
+		E1BEB14F137A9ABF0087B45A /* losslessdeclsl_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB137137A9ABF0087B45A /* losslessdeclsl_arm.s */; };
+		E1BEB150137A9ABF0087B45A /* losslessdecprolsl_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB138137A9ABF0087B45A /* losslessdecprolsl_arm.s */; };
+		E1BEB151137A9ABF0087B45A /* lowrate_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB139137A9ABF0087B45A /* lowrate_arm.s */; };
+		E1BEB152137A9ABF0087B45A /* lpclsl_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB13A137A9ABF0087B45A /* lpclsl_arm.s */; };
+		E1BEB153137A9ABF0087B45A /* lpcstd_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB13B137A9ABF0087B45A /* lpcstd_arm.s */; };
+		E1BEB154137A9ABF0087B45A /* msaudiodec_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB13C137A9ABF0087B45A /* msaudiodec_arm.s */; };
+		E1BEB155137A9ABF0087B45A /* strmdec_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB13D137A9ABF0087B45A /* strmdec_arm.s */; };
+		E1BEB156137A9ABF0087B45A /* voMemory_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB13E137A9ABF0087B45A /* voMemory_arm.s */; };
+		E1BEB15D137A9ADC0087B45A /* fft_arm_v6.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB159137A9ADC0087B45A /* fft_arm_v6.s */; };
+		E1BEB15E137A9ADC0087B45A /* msaudio_arm_v6.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB15A137A9ADC0087B45A /* msaudio_arm_v6.s */; };
+		E1BEB15F137A9ADC0087B45A /* msaudiopro_arm_v6.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB15B137A9ADC0087B45A /* msaudiopro_arm_v6.s */; };
+		E1BEB160137A9ADC0087B45A /* msaudiostdpro_arm_v6.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB15C137A9ADC0087B45A /* msaudiostdpro_arm_v6.s */; };
+		E1BEB165137A9AF30087B45A /* fft_arm_v7.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB161137A9AF30087B45A /* fft_arm_v7.s */; };
+		E1BEB166137A9AF30087B45A /* msaudio_arm_v7.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB162137A9AF30087B45A /* msaudio_arm_v7.s */; };
+		E1BEB167137A9AF30087B45A /* msaudiopro_arm_v7.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB163137A9AF30087B45A /* msaudiopro_arm_v7.s */; };
+		E1BEB168137A9AF30087B45A /* msaudiostdpro_arm_v7.s in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB164137A9AF30087B45A /* msaudiostdpro_arm_v7.s */; };
+		F230B7A6128CEC3A00F53EB8 /* wmabuffilt.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7A3128CEC3A00F53EB8 /* wmabuffilt.c */; };
+		F230B7A7128CEC3A00F53EB8 /* wmachmtx.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7A4128CEC3A00F53EB8 /* wmachmtx.c */; };
+		F230B7A8128CEC3A00F53EB8 /* wmaltrt.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7A5128CEC3A00F53EB8 /* wmaltrt.c */; };
+		F230B7C4128CEC6C00F53EB8 /* AutoProfile.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AA128CEC6C00F53EB8 /* AutoProfile.c */; };
+		F230B7C5128CEC6C00F53EB8 /* basepluspro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AB128CEC6C00F53EB8 /* basepluspro.c */; };
+		F230B7C6128CEC6C00F53EB8 /* chexpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AC128CEC6C00F53EB8 /* chexpro.c */; };
+		F230B7C7128CEC6C00F53EB8 /* configcommon.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AD128CEC6C00F53EB8 /* configcommon.c */; };
+		F230B7C8128CEC6C00F53EB8 /* dectables.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AE128CEC6C00F53EB8 /* dectables.c */; };
+		F230B7C9128CEC6C00F53EB8 /* dectablespro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AF128CEC6C00F53EB8 /* dectablespro.c */; };
+		F230B7CA128CEC6C00F53EB8 /* dectablesstd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B0128CEC6C00F53EB8 /* dectablesstd.c */; };
+		F230B7CB128CEC6C00F53EB8 /* dectablesstdpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B1128CEC6C00F53EB8 /* dectablesstdpro.c */; };
+		F230B7CC128CEC6C00F53EB8 /* downmix.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B2128CEC6C00F53EB8 /* downmix.c */; };
+		F230B7CD128CEC6C00F53EB8 /* drccommonpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B3128CEC6C00F53EB8 /* drccommonpro.c */; };
+		F230B7CE128CEC6C00F53EB8 /* fex.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B4128CEC6C00F53EB8 /* fex.c */; };
+		F230B7CF128CEC6C00F53EB8 /* fft.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B5128CEC6C00F53EB8 /* fft.c */; };
+		F230B7D0128CEC6C00F53EB8 /* float.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B6128CEC6C00F53EB8 /* float.c */; };
+		F230B7D1128CEC6C00F53EB8 /* lowrate_common.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B7128CEC6C00F53EB8 /* lowrate_common.c */; };
+		F230B7D2128CEC6C00F53EB8 /* lowrate_commonstd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B8128CEC6C00F53EB8 /* lowrate_commonstd.c */; };
+		F230B7D3128CEC6C00F53EB8 /* lpc.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B9128CEC6C00F53EB8 /* lpc.c */; };
+		F230B7D4128CEC6C00F53EB8 /* lpclsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BA128CEC6C00F53EB8 /* lpclsl.c */; };
+		F230B7D5128CEC6C00F53EB8 /* lpcprolsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BB128CEC6C00F53EB8 /* lpcprolsl.c */; };
+		F230B7D6128CEC6C00F53EB8 /* lpcstd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BC128CEC6C00F53EB8 /* lpcstd.c */; };
+		F230B7D7128CEC6C00F53EB8 /* msaudio.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BD128CEC6C00F53EB8 /* msaudio.c */; };
+		F230B7D8128CEC6C00F53EB8 /* msaudiolsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BE128CEC6C00F53EB8 /* msaudiolsl.c */; };
+		F230B7D9128CEC6C00F53EB8 /* msaudiopro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BF128CEC6C00F53EB8 /* msaudiopro.c */; };
+		F230B7DA128CEC6C00F53EB8 /* msaudioprotemplate.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7C0128CEC6C00F53EB8 /* msaudioprotemplate.c */; };
+		F230B7DB128CEC6C00F53EB8 /* msaudiostd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7C1128CEC6C00F53EB8 /* msaudiostd.c */; };
+		F230B7DC128CEC6C00F53EB8 /* msaudiostdpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7C2128CEC6C00F53EB8 /* msaudiostdpro.c */; };
+		F230B7DD128CEC6C00F53EB8 /* msaudiotemplate.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7C3128CEC6C00F53EB8 /* msaudiotemplate.c */; };
+		F230B7F0128CEC9200F53EB8 /* arm_stub.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7DF128CEC9200F53EB8 /* arm_stub.c */; };
+		F230B7F1128CEC9200F53EB8 /* baseplusdecpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E0128CEC9200F53EB8 /* baseplusdecpro.c */; };
+		F230B7F2128CEC9200F53EB8 /* chexdecpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E1128CEC9200F53EB8 /* chexdecpro.c */; };
+		F230B7F3128CEC9200F53EB8 /* entropydec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E2128CEC9200F53EB8 /* entropydec.c */; };
+		F230B7F4128CEC9200F53EB8 /* entropydecpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E3128CEC9200F53EB8 /* entropydecpro.c */; };
+		F230B7F5128CEC9200F53EB8 /* entropydecprolsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E4128CEC9200F53EB8 /* entropydecprolsl.c */; };
+		F230B7F6128CEC9200F53EB8 /* entropydecstd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E5128CEC9200F53EB8 /* entropydecstd.c */; };
+		F230B7F7128CEC9200F53EB8 /* fexdec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E6128CEC9200F53EB8 /* fexdec.c */; };
+		F230B7F8128CEC9200F53EB8 /* huffdec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E7128CEC9200F53EB8 /* huffdec.c */; };
+		F230B7F9128CEC9200F53EB8 /* losslessdeclsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E8128CEC9200F53EB8 /* losslessdeclsl.c */; };
+		F230B7FA128CEC9200F53EB8 /* losslessdecpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E9128CEC9200F53EB8 /* losslessdecpro.c */; };
+		F230B7FB128CEC9200F53EB8 /* losslessdecprolsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EA128CEC9200F53EB8 /* losslessdecprolsl.c */; };
+		F230B7FC128CEC9200F53EB8 /* msaudiodec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EB128CEC9200F53EB8 /* msaudiodec.c */; };
+		F230B7FD128CEC9200F53EB8 /* msaudiodectemplate.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EC128CEC9200F53EB8 /* msaudiodectemplate.c */; };
+		F230B7FE128CEC9200F53EB8 /* strmdec_wma.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7ED128CEC9200F53EB8 /* strmdec_wma.c */; };
+		F230B7FF128CEC9200F53EB8 /* wmadec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EE128CEC9200F53EB8 /* wmadec.c */; };
+		F230B800128CEC9200F53EB8 /* wmaprodecS_api.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EF128CEC9200F53EB8 /* wmaprodecS_api.c */; };
+		F230B803128CECB800F53EB8 /* wmafmt.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B802128CECB800F53EB8 /* wmafmt.c */; };
+		F230B808128CECD800F53EB8 /* commontables.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B805128CECD800F53EB8 /* commontables.c */; };
+		F230B809128CECD800F53EB8 /* wmaerror.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B806128CECD800F53EB8 /* wmaerror.c */; };
+		F230B80A128CECD800F53EB8 /* wmamalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B807128CECD800F53EB8 /* wmamalloc.c */; };
+		F230BADE128D2A2300F53EB8 /* applyreflectionv3.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BABB128D2A2200F53EB8 /* applyreflectionv3.h */; };
+		F230BADF128D2A2300F53EB8 /* basepluspro.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BABC128D2A2200F53EB8 /* basepluspro.h */; };
+		F230BAE0128D2A2300F53EB8 /* catchflops.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BABD128D2A2200F53EB8 /* catchflops.h */; };
+		F230BAE2128D2A2300F53EB8 /* chexdectblspro.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BABF128D2A2200F53EB8 /* chexdectblspro.h */; };
+		F230BAE3128D2A2300F53EB8 /* chexpro.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC0128D2A2200F53EB8 /* chexpro.h */; };
+		F230BAE4128D2A2300F53EB8 /* constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC1128D2A2200F53EB8 /* constants.h */; };
+		F230BAE5128D2A2300F53EB8 /* dbgmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC2128D2A2200F53EB8 /* dbgmacros.h */; };
+		F230BAE6128D2A2300F53EB8 /* dbgmacrosimpl.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC3128D2A2200F53EB8 /* dbgmacrosimpl.h */; };
+		F230BAE7128D2A2300F53EB8 /* DecTables.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC4128D2A2200F53EB8 /* DecTables.h */; };
+		F230BAE8128D2A2300F53EB8 /* downmix.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC5128D2A2200F53EB8 /* downmix.h */; };
+		F230BAE9128D2A2300F53EB8 /* drccommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC6128D2A2200F53EB8 /* drccommon.h */; };
+		F230BAED128D2A2300F53EB8 /* enttblsdecv4.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BACA128D2A2200F53EB8 /* enttblsdecv4.h */; };
+		F230BAEE128D2A2300F53EB8 /* fastfloat.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BACB128D2A2200F53EB8 /* fastfloat.h */; };
+		F230BAEF128D2A2300F53EB8 /* fex.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BACC128D2A2200F53EB8 /* fex.h */; };
+		F230BAF1128D2A2300F53EB8 /* fexdectbls.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BACE128D2A2200F53EB8 /* fexdectbls.h */; };
+		F230BAF4128D2A2300F53EB8 /* fntable.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD1128D2A2200F53EB8 /* fntable.h */; };
+		F230BAF5128D2A2300F53EB8 /* fntableimpl.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD2128D2A2200F53EB8 /* fntableimpl.h */; };
+		F230BAF6128D2A2300F53EB8 /* lowrate_common.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD3128D2A2200F53EB8 /* lowrate_common.h */; };
+		F230BAF7128D2A2300F53EB8 /* lpcConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD4128D2A2200F53EB8 /* lpcConst.h */; };
+		F230BAF8128D2A2300F53EB8 /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD5128D2A2200F53EB8 /* macros.h */; };
+		F230BAF9128D2A2300F53EB8 /* msaudio.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD6128D2A2200F53EB8 /* msaudio.h */; };
+		F230BAFA128D2A2300F53EB8 /* msaudiotemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD7128D2A2300F53EB8 /* msaudiotemplate.h */; };
+		F230BAFB128D2A2300F53EB8 /* msaudiotemplatedef.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD8128D2A2300F53EB8 /* msaudiotemplatedef.h */; };
+		F230BAFC128D2A2300F53EB8 /* pkconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD9128D2A2300F53EB8 /* pkconfig.h */; };
+		F230BAFE128D2A2300F53EB8 /* templateincludes.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BADB128D2A2300F53EB8 /* templateincludes.h */; };
+		F230BAFF128D2A2300F53EB8 /* wavfileexio.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BADC128D2A2300F53EB8 /* wavfileexio.h */; };
+		F230BB00128D2A2300F53EB8 /* wmaOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BADD128D2A2300F53EB8 /* wmaOS.h */; };
+		F230BB09128D2A6000F53EB8 /* baseplusdecpro.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB02128D2A6000F53EB8 /* baseplusdecpro.h */; };
+		F230BB0A128D2A6000F53EB8 /* entropydec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB03128D2A6000F53EB8 /* entropydec.h */; };
+		F230BB0C128D2A6000F53EB8 /* huffdec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB05128D2A6000F53EB8 /* huffdec.h */; };
+		F230BB0D128D2A6000F53EB8 /* msaudiodec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB06128D2A6000F53EB8 /* msaudiodec.h */; };
+		F230BB0E128D2A6000F53EB8 /* strmdec_wma.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB07128D2A6000F53EB8 /* strmdec_wma.h */; };
+		F230BB0F128D2A6000F53EB8 /* wmaprodecS_api.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB08128D2A6000F53EB8 /* wmaprodecS_api.h */; };
+		F230BB18128D2A8900F53EB8 /* AutoProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB11128D2A8900F53EB8 /* AutoProfile.h */; };
+		F230BB19128D2A8900F53EB8 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB12128D2A8900F53EB8 /* config.h */; };
+		F230BB1A128D2A8900F53EB8 /* configcommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB13128D2A8900F53EB8 /* configcommon.h */; };
+		F230BB1B128D2A8900F53EB8 /* playropt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB14128D2A8900F53EB8 /* playropt.h */; };
+		F230BB1C128D2A8900F53EB8 /* wma10dec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB15128D2A8900F53EB8 /* wma10dec.h */; };
+		F230BB1D128D2A8900F53EB8 /* wmaerror.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB16128D2A8900F53EB8 /* wmaerror.h */; };
+		F230BB1E128D2A8900F53EB8 /* wmafmt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB17128D2A8900F53EB8 /* wmafmt.h */; };
+		F230BB3E128D2B0600F53EB8 /* commontables.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB20128D2B0600F53EB8 /* commontables.h */; };
+		F230BB3F128D2B0600F53EB8 /* mmreg_.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB21128D2B0600F53EB8 /* mmreg_.h */; };
+		F230BB40128D2B0600F53EB8 /* msaudiofmt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB22128D2B0600F53EB8 /* msaudiofmt.h */; };
+		F230BB41128D2B0600F53EB8 /* pcmfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB23128D2B0600F53EB8 /* pcmfmt.h */; };
+		F230BB42128D2B0600F53EB8 /* wmaassert.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB24128D2B0600F53EB8 /* wmaassert.h */; };
+		F230BB43128D2B0600F53EB8 /* wmabuffilt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB25128D2B0600F53EB8 /* wmabuffilt.h */; };
+		F230BB44128D2B0600F53EB8 /* wmachmtx.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB26128D2B0600F53EB8 /* wmachmtx.h */; };
+		F230BB45128D2B0600F53EB8 /* wmacommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB27128D2B0600F53EB8 /* wmacommon.h */; };
+		F230BB46128D2B0600F53EB8 /* wmaerrormacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB28128D2B0600F53EB8 /* wmaerrormacros.h */; };
+		F230BB47128D2B0600F53EB8 /* wmaltrt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB29128D2B0600F53EB8 /* wmaltrt.h */; };
+		F230BB48128D2B0600F53EB8 /* wmamalloc.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2A128D2B0600F53EB8 /* wmamalloc.h */; };
+		F230BB49128D2B0600F53EB8 /* wmapcmacc.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2B128D2B0600F53EB8 /* wmapcmacc.h */; };
+		F230BB4A128D2B0600F53EB8 /* wmaresults.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2C128D2B0600F53EB8 /* wmaresults.h */; };
+		F230BB4B128D2B0600F53EB8 /* wmartmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2D128D2B0600F53EB8 /* wmartmacros.h */; };
+		F230BB4C128D2B0600F53EB8 /* wmatypes_ansi.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2E128D2B0600F53EB8 /* wmatypes_ansi.h */; };
+		F230BB4D128D2B0600F53EB8 /* wmatypes_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2F128D2B0600F53EB8 /* wmatypes_arm.h */; };
+		F230BB4E128D2B0600F53EB8 /* wmatypes_embedded_x86.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB30128D2B0600F53EB8 /* wmatypes_embedded_x86.h */; };
+		F230BB4F128D2B0600F53EB8 /* wmatypes_macos.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB31128D2B0600F53EB8 /* wmatypes_macos.h */; };
+		F230BB50128D2B0600F53EB8 /* wmatypes_mips.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB32128D2B0600F53EB8 /* wmatypes_mips.h */; };
+		F230BB51128D2B0600F53EB8 /* wmatypes_qnx_x86.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB33128D2B0600F53EB8 /* wmatypes_qnx_x86.h */; };
+		F230BB52128D2B0600F53EB8 /* wmatypes_s_sunos5.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB34128D2B0600F53EB8 /* wmatypes_s_sunos5.h */; };
+		F230BB53128D2B0600F53EB8 /* wmatypes_sh3.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB35128D2B0600F53EB8 /* wmatypes_sh3.h */; };
+		F230BB54128D2B0600F53EB8 /* wmatypes_sh4.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB36128D2B0600F53EB8 /* wmatypes_sh4.h */; };
+		F230BB55128D2B0600F53EB8 /* wmatypes_win64.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB37128D2B0600F53EB8 /* wmatypes_win64.h */; };
+		F230BB56128D2B0600F53EB8 /* wmatypes_x86.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB38128D2B0600F53EB8 /* wmatypes_x86.h */; };
+		F230BB57128D2B0600F53EB8 /* wmatypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB39128D2B0600F53EB8 /* wmatypes.h */; };
+		F230BB58128D2B0600F53EB8 /* wmatyps.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB3A128D2B0600F53EB8 /* wmatyps.h */; };
+		F230BB59128D2B0600F53EB8 /* wmawfxdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB3B128D2B0600F53EB8 /* wmawfxdefs.h */; };
+		F230BB5A128D2B0600F53EB8 /* wmawintypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB3C128D2B0600F53EB8 /* wmawintypes.h */; };
+		F230BB5B128D2B0600F53EB8 /* wmspecstringce.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB3D128D2B0600F53EB8 /* wmspecstringce.h */; };
+		F230BB65128D2B8000F53EB8 /* checkhandle.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB5F128D2B8000F53EB8 /* checkhandle.h */; };
+		F230BB66128D2B8000F53EB8 /* wmsal.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB60128D2B8000F53EB8 /* wmsal.h */; };
+		F230BB67128D2B8000F53EB8 /* wmspecstring.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB61128D2B8000F53EB8 /* wmspecstring.h */; };
+		F230BB68128D2B8000F53EB8 /* wmspecstrings_adt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB62128D2B8000F53EB8 /* wmspecstrings_adt.h */; };
+		F230BB69128D2B8000F53EB8 /* wmspecstrings_strict.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB63128D2B8000F53EB8 /* wmspecstrings_strict.h */; };
+		F230BB6A128D2B8000F53EB8 /* wmspecstrings_undef.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB64128D2B8000F53EB8 /* wmspecstrings_undef.h */; };
+		F230BB6C128D2B8F00F53EB8 /* wmdsplogging.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB6B128D2B8F00F53EB8 /* wmdsplogging.h */; };
+		F230BD2D128D407F00F53EB8 /* voWMADec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F230BD2C128D407F00F53EB8 /* voWMADec_Prefix.pch */; };
+		F28DC69E1342F771008A90CA /* applyreflectionv3.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BABB128D2A2200F53EB8 /* applyreflectionv3.h */; };
+		F28DC69F1342F771008A90CA /* AutoProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB11128D2A8900F53EB8 /* AutoProfile.h */; };
+		F28DC6A01342F771008A90CA /* baseplusdecpro.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB02128D2A6000F53EB8 /* baseplusdecpro.h */; };
+		F28DC6A11342F771008A90CA /* basepluspro.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BABC128D2A2200F53EB8 /* basepluspro.h */; };
+		F28DC6A21342F771008A90CA /* catchflops.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BABD128D2A2200F53EB8 /* catchflops.h */; };
+		F28DC6A31342F771008A90CA /* checkhandle.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB5F128D2B8000F53EB8 /* checkhandle.h */; };
+		F28DC6A41342F771008A90CA /* chexdectblspro.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BABF128D2A2200F53EB8 /* chexdectblspro.h */; };
+		F28DC6A51342F771008A90CA /* chexpro.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC0128D2A2200F53EB8 /* chexpro.h */; };
+		F28DC6A61342F771008A90CA /* commontables.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB20128D2B0600F53EB8 /* commontables.h */; };
+		F28DC6A71342F771008A90CA /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB12128D2A8900F53EB8 /* config.h */; };
+		F28DC6A81342F771008A90CA /* configcommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB13128D2A8900F53EB8 /* configcommon.h */; };
+		F28DC6A91342F771008A90CA /* constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC1128D2A2200F53EB8 /* constants.h */; };
+		F28DC6AA1342F771008A90CA /* dbgmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC2128D2A2200F53EB8 /* dbgmacros.h */; };
+		F28DC6AB1342F771008A90CA /* dbgmacrosimpl.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC3128D2A2200F53EB8 /* dbgmacrosimpl.h */; };
+		F28DC6AC1342F771008A90CA /* DecTables.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC4128D2A2200F53EB8 /* DecTables.h */; };
+		F28DC6AD1342F771008A90CA /* downmix.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC5128D2A2200F53EB8 /* downmix.h */; };
+		F28DC6AE1342F771008A90CA /* drccommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAC6128D2A2200F53EB8 /* drccommon.h */; };
+		F28DC6AF1342F771008A90CA /* entropydec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB03128D2A6000F53EB8 /* entropydec.h */; };
+		F28DC6B01342F771008A90CA /* enttblsdecv4.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BACA128D2A2200F53EB8 /* enttblsdecv4.h */; };
+		F28DC6B11342F771008A90CA /* fastfloat.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BACB128D2A2200F53EB8 /* fastfloat.h */; };
+		F28DC6B21342F771008A90CA /* fex.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BACC128D2A2200F53EB8 /* fex.h */; };
+		F28DC6B31342F771008A90CA /* fexdectbls.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BACE128D2A2200F53EB8 /* fexdectbls.h */; };
+		F28DC6B41342F771008A90CA /* fntable.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD1128D2A2200F53EB8 /* fntable.h */; };
+		F28DC6B51342F771008A90CA /* fntableimpl.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD2128D2A2200F53EB8 /* fntableimpl.h */; };
+		F28DC6B61342F771008A90CA /* huffdec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB05128D2A6000F53EB8 /* huffdec.h */; };
+		F28DC6B81342F771008A90CA /* lowrate_common.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD3128D2A2200F53EB8 /* lowrate_common.h */; };
+		F28DC6B91342F771008A90CA /* lpcConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD4128D2A2200F53EB8 /* lpcConst.h */; };
+		F28DC6BA1342F771008A90CA /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD5128D2A2200F53EB8 /* macros.h */; };
+		F28DC6BB1342F771008A90CA /* mmreg_.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB21128D2B0600F53EB8 /* mmreg_.h */; };
+		F28DC6BC1342F771008A90CA /* msaudio.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD6128D2A2200F53EB8 /* msaudio.h */; };
+		F28DC6BD1342F771008A90CA /* msaudiodec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB06128D2A6000F53EB8 /* msaudiodec.h */; };
+		F28DC6BE1342F771008A90CA /* msaudiofmt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB22128D2B0600F53EB8 /* msaudiofmt.h */; };
+		F28DC6BF1342F771008A90CA /* msaudiotemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD7128D2A2300F53EB8 /* msaudiotemplate.h */; };
+		F28DC6C01342F771008A90CA /* msaudiotemplatedef.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD8128D2A2300F53EB8 /* msaudiotemplatedef.h */; };
+		F28DC6C11342F771008A90CA /* pcmfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB23128D2B0600F53EB8 /* pcmfmt.h */; };
+		F28DC6C21342F771008A90CA /* pkconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BAD9128D2A2300F53EB8 /* pkconfig.h */; };
+		F28DC6C31342F771008A90CA /* playropt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB14128D2A8900F53EB8 /* playropt.h */; };
+		F28DC6C41342F771008A90CA /* strmdec_wma.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB07128D2A6000F53EB8 /* strmdec_wma.h */; };
+		F28DC6C51342F771008A90CA /* templateincludes.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BADB128D2A2300F53EB8 /* templateincludes.h */; };
+		F28DC6C61342F771008A90CA /* voWMADec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F230BD2C128D407F00F53EB8 /* voWMADec_Prefix.pch */; };
+		F28DC6C71342F771008A90CA /* wavfileexio.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BADC128D2A2300F53EB8 /* wavfileexio.h */; };
+		F28DC6C81342F771008A90CA /* wma10dec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB15128D2A8900F53EB8 /* wma10dec.h */; };
+		F28DC6CA1342F771008A90CA /* wmaassert.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB24128D2B0600F53EB8 /* wmaassert.h */; };
+		F28DC6CB1342F771008A90CA /* wmabuffilt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB25128D2B0600F53EB8 /* wmabuffilt.h */; };
+		F28DC6CC1342F771008A90CA /* wmachmtx.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB26128D2B0600F53EB8 /* wmachmtx.h */; };
+		F28DC6CD1342F771008A90CA /* wmacommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB27128D2B0600F53EB8 /* wmacommon.h */; };
+		F28DC6CE1342F771008A90CA /* wmaerror.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB16128D2A8900F53EB8 /* wmaerror.h */; };
+		F28DC6CF1342F771008A90CA /* wmaerrormacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB28128D2B0600F53EB8 /* wmaerrormacros.h */; };
+		F28DC6D01342F771008A90CA /* wmafmt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB17128D2A8900F53EB8 /* wmafmt.h */; };
+		F28DC6D11342F771008A90CA /* wmaltrt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB29128D2B0600F53EB8 /* wmaltrt.h */; };
+		F28DC6D21342F771008A90CA /* wmamalloc.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2A128D2B0600F53EB8 /* wmamalloc.h */; };
+		F28DC6D31342F771008A90CA /* wmaOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BADD128D2A2300F53EB8 /* wmaOS.h */; };
+		F28DC6D41342F771008A90CA /* wmapcmacc.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2B128D2B0600F53EB8 /* wmapcmacc.h */; };
+		F28DC6D51342F771008A90CA /* wmaprodecS_api.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB08128D2A6000F53EB8 /* wmaprodecS_api.h */; };
+		F28DC6D61342F771008A90CA /* wmaresults.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2C128D2B0600F53EB8 /* wmaresults.h */; };
+		F28DC6D71342F771008A90CA /* wmartmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2D128D2B0600F53EB8 /* wmartmacros.h */; };
+		F28DC6D81342F771008A90CA /* wmatypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB39128D2B0600F53EB8 /* wmatypes.h */; };
+		F28DC6D91342F771008A90CA /* wmatypes_ansi.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2E128D2B0600F53EB8 /* wmatypes_ansi.h */; };
+		F28DC6DA1342F771008A90CA /* wmatypes_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB2F128D2B0600F53EB8 /* wmatypes_arm.h */; };
+		F28DC6DB1342F771008A90CA /* wmatypes_embedded_x86.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB30128D2B0600F53EB8 /* wmatypes_embedded_x86.h */; };
+		F28DC6DC1342F771008A90CA /* wmatypes_macos.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB31128D2B0600F53EB8 /* wmatypes_macos.h */; };
+		F28DC6DD1342F771008A90CA /* wmatypes_mips.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB32128D2B0600F53EB8 /* wmatypes_mips.h */; };
+		F28DC6DE1342F771008A90CA /* wmatypes_qnx_x86.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB33128D2B0600F53EB8 /* wmatypes_qnx_x86.h */; };
+		F28DC6DF1342F771008A90CA /* wmatypes_s_sunos5.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB34128D2B0600F53EB8 /* wmatypes_s_sunos5.h */; };
+		F28DC6E01342F771008A90CA /* wmatypes_sh3.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB35128D2B0600F53EB8 /* wmatypes_sh3.h */; };
+		F28DC6E11342F771008A90CA /* wmatypes_sh4.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB36128D2B0600F53EB8 /* wmatypes_sh4.h */; };
+		F28DC6E21342F771008A90CA /* wmatypes_win64.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB37128D2B0600F53EB8 /* wmatypes_win64.h */; };
+		F28DC6E31342F771008A90CA /* wmatypes_x86.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB38128D2B0600F53EB8 /* wmatypes_x86.h */; };
+		F28DC6E41342F771008A90CA /* wmatyps.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB3A128D2B0600F53EB8 /* wmatyps.h */; };
+		F28DC6E51342F771008A90CA /* wmawfxdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB3B128D2B0600F53EB8 /* wmawfxdefs.h */; };
+		F28DC6E61342F771008A90CA /* wmawintypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB3C128D2B0600F53EB8 /* wmawintypes.h */; };
+		F28DC6E71342F771008A90CA /* wmdsplogging.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB6B128D2B8F00F53EB8 /* wmdsplogging.h */; };
+		F28DC6E81342F771008A90CA /* wmsal.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB60128D2B8000F53EB8 /* wmsal.h */; };
+		F28DC6E91342F771008A90CA /* wmspecstring.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB61128D2B8000F53EB8 /* wmspecstring.h */; };
+		F28DC6EA1342F771008A90CA /* wmspecstringce.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB3D128D2B0600F53EB8 /* wmspecstringce.h */; };
+		F28DC6EB1342F771008A90CA /* wmspecstrings_adt.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB62128D2B8000F53EB8 /* wmspecstrings_adt.h */; };
+		F28DC6EC1342F771008A90CA /* wmspecstrings_strict.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB63128D2B8000F53EB8 /* wmspecstrings_strict.h */; };
+		F28DC6ED1342F771008A90CA /* wmspecstrings_undef.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BB64128D2B8000F53EB8 /* wmspecstrings_undef.h */; };
+		F28DC6EE1342F7CA008A90CA /* arm_stub.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7DF128CEC9200F53EB8 /* arm_stub.c */; };
+		F28DC6EF1342F7CA008A90CA /* AutoProfile.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AA128CEC6C00F53EB8 /* AutoProfile.c */; };
+		F28DC6F01342F7CA008A90CA /* baseplusdecpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E0128CEC9200F53EB8 /* baseplusdecpro.c */; };
+		F28DC6F11342F7CA008A90CA /* basepluspro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AB128CEC6C00F53EB8 /* basepluspro.c */; };
+		F28DC6F21342F7CA008A90CA /* chexdecpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E1128CEC9200F53EB8 /* chexdecpro.c */; };
+		F28DC6F31342F7CA008A90CA /* chexpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AC128CEC6C00F53EB8 /* chexpro.c */; };
+		F28DC6F41342F7CA008A90CA /* commontables.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B805128CECD800F53EB8 /* commontables.c */; };
+		F28DC6F51342F7CA008A90CA /* configcommon.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AD128CEC6C00F53EB8 /* configcommon.c */; };
+		F28DC6F61342F7CA008A90CA /* dectables.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AE128CEC6C00F53EB8 /* dectables.c */; };
+		F28DC6F71342F7CA008A90CA /* dectablespro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7AF128CEC6C00F53EB8 /* dectablespro.c */; };
+		F28DC6F81342F7CA008A90CA /* dectablesstd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B0128CEC6C00F53EB8 /* dectablesstd.c */; };
+		F28DC6F91342F7CA008A90CA /* dectablesstdpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B1128CEC6C00F53EB8 /* dectablesstdpro.c */; };
+		F28DC6FA1342F7CA008A90CA /* downmix.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B2128CEC6C00F53EB8 /* downmix.c */; };
+		F28DC6FB1342F7CA008A90CA /* drccommonpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B3128CEC6C00F53EB8 /* drccommonpro.c */; };
+		F28DC6FC1342F7CA008A90CA /* entropydec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E2128CEC9200F53EB8 /* entropydec.c */; };
+		F28DC6FD1342F7CA008A90CA /* entropydecpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E3128CEC9200F53EB8 /* entropydecpro.c */; };
+		F28DC6FE1342F7CA008A90CA /* entropydecprolsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E4128CEC9200F53EB8 /* entropydecprolsl.c */; };
+		F28DC6FF1342F7CA008A90CA /* entropydecstd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E5128CEC9200F53EB8 /* entropydecstd.c */; };
+		F28DC7001342F7CA008A90CA /* fex.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B4128CEC6C00F53EB8 /* fex.c */; };
+		F28DC7011342F7CA008A90CA /* fexdec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E6128CEC9200F53EB8 /* fexdec.c */; };
+		F28DC7021342F7CA008A90CA /* fft.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B5128CEC6C00F53EB8 /* fft.c */; };
+		F28DC7031342F7CA008A90CA /* float.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B6128CEC6C00F53EB8 /* float.c */; };
+		F28DC7041342F7CA008A90CA /* huffdec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E7128CEC9200F53EB8 /* huffdec.c */; };
+		F28DC7051342F7CA008A90CA /* losslessdeclsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E8128CEC9200F53EB8 /* losslessdeclsl.c */; };
+		F28DC7061342F7CA008A90CA /* losslessdecpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7E9128CEC9200F53EB8 /* losslessdecpro.c */; };
+		F28DC7071342F7CA008A90CA /* losslessdecprolsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EA128CEC9200F53EB8 /* losslessdecprolsl.c */; };
+		F28DC7081342F7CA008A90CA /* lowrate_common.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B7128CEC6C00F53EB8 /* lowrate_common.c */; };
+		F28DC7091342F7CA008A90CA /* lowrate_commonstd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B8128CEC6C00F53EB8 /* lowrate_commonstd.c */; };
+		F28DC70A1342F7CA008A90CA /* lpc.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7B9128CEC6C00F53EB8 /* lpc.c */; };
+		F28DC70B1342F7CA008A90CA /* lpclsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BA128CEC6C00F53EB8 /* lpclsl.c */; };
+		F28DC70C1342F7CA008A90CA /* lpcprolsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BB128CEC6C00F53EB8 /* lpcprolsl.c */; };
+		F28DC70D1342F7CA008A90CA /* lpcstd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BC128CEC6C00F53EB8 /* lpcstd.c */; };
+		F28DC70E1342F7CA008A90CA /* msaudio.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BD128CEC6C00F53EB8 /* msaudio.c */; };
+		F28DC70F1342F7CA008A90CA /* msaudiodec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EB128CEC9200F53EB8 /* msaudiodec.c */; };
+		F28DC7101342F7CA008A90CA /* msaudiodectemplate.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EC128CEC9200F53EB8 /* msaudiodectemplate.c */; };
+		F28DC7111342F7CA008A90CA /* msaudiolsl.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BE128CEC6C00F53EB8 /* msaudiolsl.c */; };
+		F28DC7121342F7CA008A90CA /* msaudiopro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7BF128CEC6C00F53EB8 /* msaudiopro.c */; };
+		F28DC7131342F7CA008A90CA /* msaudioprotemplate.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7C0128CEC6C00F53EB8 /* msaudioprotemplate.c */; };
+		F28DC7141342F7CA008A90CA /* msaudiostd.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7C1128CEC6C00F53EB8 /* msaudiostd.c */; };
+		F28DC7151342F7CA008A90CA /* msaudiostdpro.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7C2128CEC6C00F53EB8 /* msaudiostdpro.c */; };
+		F28DC7161342F7CA008A90CA /* msaudiotemplate.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7C3128CEC6C00F53EB8 /* msaudiotemplate.c */; };
+		F28DC7171342F7CA008A90CA /* strmdec_wma.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7ED128CEC9200F53EB8 /* strmdec_wma.c */; };
+		F28DC7191342F7CA008A90CA /* wmabuffilt.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7A3128CEC3A00F53EB8 /* wmabuffilt.c */; };
+		F28DC71A1342F7CA008A90CA /* wmachmtx.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7A4128CEC3A00F53EB8 /* wmachmtx.c */; };
+		F28DC71B1342F7CA008A90CA /* wmadec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EE128CEC9200F53EB8 /* wmadec.c */; };
+		F28DC71C1342F7CA008A90CA /* wmaerror.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B806128CECD800F53EB8 /* wmaerror.c */; };
+		F28DC71D1342F7CA008A90CA /* wmafmt.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B802128CECB800F53EB8 /* wmafmt.c */; };
+		F28DC71E1342F7CA008A90CA /* wmaltrt.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7A5128CEC3A00F53EB8 /* wmaltrt.c */; };
+		F28DC71F1342F7CA008A90CA /* wmamalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B807128CECD800F53EB8 /* wmamalloc.c */; };
+		F28DC7201342F7CA008A90CA /* wmaprodecS_api.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B7EF128CEC9200F53EB8 /* wmaprodecS_api.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DE0BE981492196F00B329B0 /* libvoWMADec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoWMADec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libvoWMADec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoWMADec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1ADD7E6137B72F800EA097A /* kxarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kxarm.h; sourceTree = "<group>"; };
+		E1ADD7E7137B72F800EA097A /* wma_arm_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wma_arm_version.h; sourceTree = "<group>"; };
+		E1ADD7E8137B72F800EA097A /* wma_member_arm.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = wma_member_arm.inc; sourceTree = "<group>"; };
+		E1BEB135137A9ABF0087B45A /* huffdec_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = huffdec_arm.s; path = ../../asm/iOS/armv7/huffdec_arm.s; sourceTree = SOURCE_ROOT; };
+		E1BEB137137A9ABF0087B45A /* losslessdeclsl_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = losslessdeclsl_arm.s; path = ../../asm/iOS/armv7/losslessdeclsl_arm.s; sourceTree = SOURCE_ROOT; };
+		E1BEB138137A9ABF0087B45A /* losslessdecprolsl_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = losslessdecprolsl_arm.s; path = ../../asm/iOS/armv7/losslessdecprolsl_arm.s; sourceTree = SOURCE_ROOT; };
+		E1BEB139137A9ABF0087B45A /* lowrate_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = lowrate_arm.s; path = ../../asm/iOS/armv7/lowrate_arm.s; sourceTree = SOURCE_ROOT; };
+		E1BEB13A137A9ABF0087B45A /* lpclsl_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = lpclsl_arm.s; path = ../../asm/iOS/armv7/lpclsl_arm.s; sourceTree = SOURCE_ROOT; };
+		E1BEB13B137A9ABF0087B45A /* lpcstd_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = lpcstd_arm.s; path = ../../asm/iOS/armv7/lpcstd_arm.s; sourceTree = SOURCE_ROOT; };
+		E1BEB13C137A9ABF0087B45A /* msaudiodec_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = msaudiodec_arm.s; path = ../../asm/iOS/armv7/msaudiodec_arm.s; sourceTree = SOURCE_ROOT; };
+		E1BEB13D137A9ABF0087B45A /* strmdec_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = strmdec_arm.s; path = ../../asm/iOS/armv7/strmdec_arm.s; sourceTree = SOURCE_ROOT; };
+		E1BEB13E137A9ABF0087B45A /* voMemory_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = voMemory_arm.s; path = ../../asm/iOS/armv7/voMemory_arm.s; sourceTree = SOURCE_ROOT; };
+		E1BEB159137A9ADC0087B45A /* fft_arm_v6.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = fft_arm_v6.s; path = ../../asm/iOS/armv6/fft_arm_v6.s; sourceTree = SOURCE_ROOT; };
+		E1BEB15A137A9ADC0087B45A /* msaudio_arm_v6.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = msaudio_arm_v6.s; path = ../../asm/iOS/armv6/msaudio_arm_v6.s; sourceTree = SOURCE_ROOT; };
+		E1BEB15B137A9ADC0087B45A /* msaudiopro_arm_v6.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = msaudiopro_arm_v6.s; path = ../../asm/iOS/armv6/msaudiopro_arm_v6.s; sourceTree = SOURCE_ROOT; };
+		E1BEB15C137A9ADC0087B45A /* msaudiostdpro_arm_v6.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = msaudiostdpro_arm_v6.s; path = ../../asm/iOS/armv6/msaudiostdpro_arm_v6.s; sourceTree = SOURCE_ROOT; };
+		E1BEB161137A9AF30087B45A /* fft_arm_v7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = fft_arm_v7.s; path = ../../asm/iOS/armv7/fft_arm_v7.s; sourceTree = SOURCE_ROOT; };
+		E1BEB162137A9AF30087B45A /* msaudio_arm_v7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = msaudio_arm_v7.s; path = ../../asm/iOS/armv7/msaudio_arm_v7.s; sourceTree = SOURCE_ROOT; };
+		E1BEB163137A9AF30087B45A /* msaudiopro_arm_v7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = msaudiopro_arm_v7.s; path = ../../asm/iOS/armv7/msaudiopro_arm_v7.s; sourceTree = SOURCE_ROOT; };
+		E1BEB164137A9AF30087B45A /* msaudiostdpro_arm_v7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = msaudiostdpro_arm_v7.s; path = ../../asm/iOS/armv7/msaudiostdpro_arm_v7.s; sourceTree = SOURCE_ROOT; };
+		F230B7A3128CEC3A00F53EB8 /* wmabuffilt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wmabuffilt.c; path = ../../src/chanmtx/wmabuffilt.c; sourceTree = SOURCE_ROOT; };
+		F230B7A4128CEC3A00F53EB8 /* wmachmtx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wmachmtx.c; path = ../../src/chanmtx/wmachmtx.c; sourceTree = SOURCE_ROOT; };
+		F230B7A5128CEC3A00F53EB8 /* wmaltrt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wmaltrt.c; path = ../../src/chanmtx/wmaltrt.c; sourceTree = SOURCE_ROOT; };
+		F230B7AA128CEC6C00F53EB8 /* AutoProfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = AutoProfile.c; path = ../../src/common/AutoProfile.c; sourceTree = SOURCE_ROOT; };
+		F230B7AB128CEC6C00F53EB8 /* basepluspro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = basepluspro.c; path = ../../src/common/basepluspro.c; sourceTree = SOURCE_ROOT; };
+		F230B7AC128CEC6C00F53EB8 /* chexpro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = chexpro.c; path = ../../src/common/chexpro.c; sourceTree = SOURCE_ROOT; };
+		F230B7AD128CEC6C00F53EB8 /* configcommon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = configcommon.c; path = ../../src/common/configcommon.c; sourceTree = SOURCE_ROOT; };
+		F230B7AE128CEC6C00F53EB8 /* dectables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dectables.c; path = ../../src/common/dectables.c; sourceTree = SOURCE_ROOT; };
+		F230B7AF128CEC6C00F53EB8 /* dectablespro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dectablespro.c; path = ../../src/common/dectablespro.c; sourceTree = SOURCE_ROOT; };
+		F230B7B0128CEC6C00F53EB8 /* dectablesstd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dectablesstd.c; path = ../../src/common/dectablesstd.c; sourceTree = SOURCE_ROOT; };
+		F230B7B1128CEC6C00F53EB8 /* dectablesstdpro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dectablesstdpro.c; path = ../../src/common/dectablesstdpro.c; sourceTree = SOURCE_ROOT; };
+		F230B7B2128CEC6C00F53EB8 /* downmix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = downmix.c; path = ../../src/common/downmix.c; sourceTree = SOURCE_ROOT; };
+		F230B7B3128CEC6C00F53EB8 /* drccommonpro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = drccommonpro.c; path = ../../src/common/drccommonpro.c; sourceTree = SOURCE_ROOT; };
+		F230B7B4128CEC6C00F53EB8 /* fex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fex.c; path = ../../src/common/fex.c; sourceTree = SOURCE_ROOT; };
+		F230B7B5128CEC6C00F53EB8 /* fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fft.c; path = ../../src/common/fft.c; sourceTree = SOURCE_ROOT; };
+		F230B7B6128CEC6C00F53EB8 /* float.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = float.c; path = ../../src/common/float.c; sourceTree = SOURCE_ROOT; };
+		F230B7B7128CEC6C00F53EB8 /* lowrate_common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lowrate_common.c; path = ../../src/common/lowrate_common.c; sourceTree = SOURCE_ROOT; };
+		F230B7B8128CEC6C00F53EB8 /* lowrate_commonstd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lowrate_commonstd.c; path = ../../src/common/lowrate_commonstd.c; sourceTree = SOURCE_ROOT; };
+		F230B7B9128CEC6C00F53EB8 /* lpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lpc.c; path = ../../src/common/lpc.c; sourceTree = SOURCE_ROOT; };
+		F230B7BA128CEC6C00F53EB8 /* lpclsl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lpclsl.c; path = ../../src/common/lpclsl.c; sourceTree = SOURCE_ROOT; };
+		F230B7BB128CEC6C00F53EB8 /* lpcprolsl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lpcprolsl.c; path = ../../src/common/lpcprolsl.c; sourceTree = SOURCE_ROOT; };
+		F230B7BC128CEC6C00F53EB8 /* lpcstd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lpcstd.c; path = ../../src/common/lpcstd.c; sourceTree = SOURCE_ROOT; };
+		F230B7BD128CEC6C00F53EB8 /* msaudio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msaudio.c; path = ../../src/common/msaudio.c; sourceTree = SOURCE_ROOT; };
+		F230B7BE128CEC6C00F53EB8 /* msaudiolsl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msaudiolsl.c; path = ../../src/common/msaudiolsl.c; sourceTree = SOURCE_ROOT; };
+		F230B7BF128CEC6C00F53EB8 /* msaudiopro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msaudiopro.c; path = ../../src/common/msaudiopro.c; sourceTree = SOURCE_ROOT; };
+		F230B7C0128CEC6C00F53EB8 /* msaudioprotemplate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msaudioprotemplate.c; path = ../../src/common/msaudioprotemplate.c; sourceTree = SOURCE_ROOT; };
+		F230B7C1128CEC6C00F53EB8 /* msaudiostd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msaudiostd.c; path = ../../src/common/msaudiostd.c; sourceTree = SOURCE_ROOT; };
+		F230B7C2128CEC6C00F53EB8 /* msaudiostdpro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msaudiostdpro.c; path = ../../src/common/msaudiostdpro.c; sourceTree = SOURCE_ROOT; };
+		F230B7C3128CEC6C00F53EB8 /* msaudiotemplate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msaudiotemplate.c; path = ../../src/common/msaudiotemplate.c; sourceTree = SOURCE_ROOT; };
+		F230B7DF128CEC9200F53EB8 /* arm_stub.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = arm_stub.c; path = ../../src/decoder/arm_stub.c; sourceTree = SOURCE_ROOT; };
+		F230B7E0128CEC9200F53EB8 /* baseplusdecpro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = baseplusdecpro.c; path = ../../src/decoder/baseplusdecpro.c; sourceTree = SOURCE_ROOT; };
+		F230B7E1128CEC9200F53EB8 /* chexdecpro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = chexdecpro.c; path = ../../src/decoder/chexdecpro.c; sourceTree = SOURCE_ROOT; };
+		F230B7E2128CEC9200F53EB8 /* entropydec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = entropydec.c; path = ../../src/decoder/entropydec.c; sourceTree = SOURCE_ROOT; };
+		F230B7E3128CEC9200F53EB8 /* entropydecpro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = entropydecpro.c; path = ../../src/decoder/entropydecpro.c; sourceTree = SOURCE_ROOT; };
+		F230B7E4128CEC9200F53EB8 /* entropydecprolsl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = entropydecprolsl.c; path = ../../src/decoder/entropydecprolsl.c; sourceTree = SOURCE_ROOT; };
+		F230B7E5128CEC9200F53EB8 /* entropydecstd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = entropydecstd.c; path = ../../src/decoder/entropydecstd.c; sourceTree = SOURCE_ROOT; };
+		F230B7E6128CEC9200F53EB8 /* fexdec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fexdec.c; path = ../../src/decoder/fexdec.c; sourceTree = SOURCE_ROOT; };
+		F230B7E7128CEC9200F53EB8 /* huffdec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = huffdec.c; path = ../../src/decoder/huffdec.c; sourceTree = SOURCE_ROOT; };
+		F230B7E8128CEC9200F53EB8 /* losslessdeclsl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = losslessdeclsl.c; path = ../../src/decoder/losslessdeclsl.c; sourceTree = SOURCE_ROOT; };
+		F230B7E9128CEC9200F53EB8 /* losslessdecpro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = losslessdecpro.c; path = ../../src/decoder/losslessdecpro.c; sourceTree = SOURCE_ROOT; };
+		F230B7EA128CEC9200F53EB8 /* losslessdecprolsl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = losslessdecprolsl.c; path = ../../src/decoder/losslessdecprolsl.c; sourceTree = SOURCE_ROOT; };
+		F230B7EB128CEC9200F53EB8 /* msaudiodec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msaudiodec.c; path = ../../src/decoder/msaudiodec.c; sourceTree = SOURCE_ROOT; };
+		F230B7EC128CEC9200F53EB8 /* msaudiodectemplate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msaudiodectemplate.c; path = ../../src/decoder/msaudiodectemplate.c; sourceTree = SOURCE_ROOT; };
+		F230B7ED128CEC9200F53EB8 /* strmdec_wma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strmdec_wma.c; path = ../../src/decoder/strmdec_wma.c; sourceTree = SOURCE_ROOT; };
+		F230B7EE128CEC9200F53EB8 /* wmadec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wmadec.c; path = ../../src/decoder/wmadec.c; sourceTree = SOURCE_ROOT; };
+		F230B7EF128CEC9200F53EB8 /* wmaprodecS_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wmaprodecS_api.c; path = ../../src/decoder/wmaprodecS_api.c; sourceTree = SOURCE_ROOT; };
+		F230B802128CECB800F53EB8 /* wmafmt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wmafmt.c; path = ../../src/fmthlpr/wmafmt.c; sourceTree = SOURCE_ROOT; };
+		F230B805128CECD800F53EB8 /* commontables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = commontables.c; path = ../../src/primitive/commontables.c; sourceTree = SOURCE_ROOT; };
+		F230B806128CECD800F53EB8 /* wmaerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wmaerror.c; path = ../../src/primitive/wmaerror.c; sourceTree = SOURCE_ROOT; };
+		F230B807128CECD800F53EB8 /* wmamalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wmamalloc.c; path = ../../src/primitive/wmamalloc.c; sourceTree = SOURCE_ROOT; };
+		F230BABB128D2A2200F53EB8 /* applyreflectionv3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = applyreflectionv3.h; path = ../../inc/audio/v10/common/applyreflectionv3.h; sourceTree = SOURCE_ROOT; };
+		F230BABC128D2A2200F53EB8 /* basepluspro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = basepluspro.h; path = ../../inc/audio/v10/common/basepluspro.h; sourceTree = SOURCE_ROOT; };
+		F230BABD128D2A2200F53EB8 /* catchflops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = catchflops.h; path = ../../inc/audio/v10/common/catchflops.h; sourceTree = SOURCE_ROOT; };
+		F230BABF128D2A2200F53EB8 /* chexdectblspro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chexdectblspro.h; path = ../../inc/audio/v10/common/chexdectblspro.h; sourceTree = SOURCE_ROOT; };
+		F230BAC0128D2A2200F53EB8 /* chexpro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chexpro.h; path = ../../inc/audio/v10/common/chexpro.h; sourceTree = SOURCE_ROOT; };
+		F230BAC1128D2A2200F53EB8 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constants.h; path = ../../inc/audio/v10/common/constants.h; sourceTree = SOURCE_ROOT; };
+		F230BAC2128D2A2200F53EB8 /* dbgmacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dbgmacros.h; path = ../../inc/audio/v10/common/dbgmacros.h; sourceTree = SOURCE_ROOT; };
+		F230BAC3128D2A2200F53EB8 /* dbgmacrosimpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dbgmacrosimpl.h; path = ../../inc/audio/v10/common/dbgmacrosimpl.h; sourceTree = SOURCE_ROOT; };
+		F230BAC4128D2A2200F53EB8 /* DecTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecTables.h; path = ../../inc/audio/v10/common/DecTables.h; sourceTree = SOURCE_ROOT; };
+		F230BAC5128D2A2200F53EB8 /* downmix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = downmix.h; path = ../../inc/audio/v10/common/downmix.h; sourceTree = SOURCE_ROOT; };
+		F230BAC6128D2A2200F53EB8 /* drccommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drccommon.h; path = ../../inc/audio/v10/common/drccommon.h; sourceTree = SOURCE_ROOT; };
+		F230BACA128D2A2200F53EB8 /* enttblsdecv4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = enttblsdecv4.h; path = ../../inc/audio/v10/common/enttblsdecv4.h; sourceTree = SOURCE_ROOT; };
+		F230BACB128D2A2200F53EB8 /* fastfloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fastfloat.h; path = ../../inc/audio/v10/common/fastfloat.h; sourceTree = SOURCE_ROOT; };
+		F230BACC128D2A2200F53EB8 /* fex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fex.h; path = ../../inc/audio/v10/common/fex.h; sourceTree = SOURCE_ROOT; };
+		F230BACE128D2A2200F53EB8 /* fexdectbls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fexdectbls.h; path = ../../inc/audio/v10/common/fexdectbls.h; sourceTree = SOURCE_ROOT; };
+		F230BAD1128D2A2200F53EB8 /* fntable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fntable.h; path = ../../inc/audio/v10/common/fntable.h; sourceTree = SOURCE_ROOT; };
+		F230BAD2128D2A2200F53EB8 /* fntableimpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fntableimpl.h; path = ../../inc/audio/v10/common/fntableimpl.h; sourceTree = SOURCE_ROOT; };
+		F230BAD3128D2A2200F53EB8 /* lowrate_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lowrate_common.h; path = ../../inc/audio/v10/common/lowrate_common.h; sourceTree = SOURCE_ROOT; };
+		F230BAD4128D2A2200F53EB8 /* lpcConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lpcConst.h; path = ../../inc/audio/v10/common/lpcConst.h; sourceTree = SOURCE_ROOT; };
+		F230BAD5128D2A2200F53EB8 /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = macros.h; path = ../../inc/audio/v10/common/macros.h; sourceTree = SOURCE_ROOT; };
+		F230BAD6128D2A2200F53EB8 /* msaudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = msaudio.h; path = ../../inc/audio/v10/common/msaudio.h; sourceTree = SOURCE_ROOT; };
+		F230BAD7128D2A2300F53EB8 /* msaudiotemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = msaudiotemplate.h; path = ../../inc/audio/v10/common/msaudiotemplate.h; sourceTree = SOURCE_ROOT; };
+		F230BAD8128D2A2300F53EB8 /* msaudiotemplatedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = msaudiotemplatedef.h; path = ../../inc/audio/v10/common/msaudiotemplatedef.h; sourceTree = SOURCE_ROOT; };
+		F230BAD9128D2A2300F53EB8 /* pkconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pkconfig.h; path = ../../inc/audio/v10/common/pkconfig.h; sourceTree = SOURCE_ROOT; };
+		F230BADB128D2A2300F53EB8 /* templateincludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = templateincludes.h; path = ../../inc/audio/v10/common/templateincludes.h; sourceTree = SOURCE_ROOT; };
+		F230BADC128D2A2300F53EB8 /* wavfileexio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wavfileexio.h; path = ../../inc/audio/v10/common/wavfileexio.h; sourceTree = SOURCE_ROOT; };
+		F230BADD128D2A2300F53EB8 /* wmaOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmaOS.h; path = ../../inc/audio/v10/common/wmaOS.h; sourceTree = SOURCE_ROOT; };
+		F230BB02128D2A6000F53EB8 /* baseplusdecpro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = baseplusdecpro.h; path = ../../inc/audio/v10/decoder/baseplusdecpro.h; sourceTree = SOURCE_ROOT; };
+		F230BB03128D2A6000F53EB8 /* entropydec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = entropydec.h; path = ../../inc/audio/v10/decoder/entropydec.h; sourceTree = SOURCE_ROOT; };
+		F230BB05128D2A6000F53EB8 /* huffdec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = huffdec.h; path = ../../inc/audio/v10/decoder/huffdec.h; sourceTree = SOURCE_ROOT; };
+		F230BB06128D2A6000F53EB8 /* msaudiodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = msaudiodec.h; path = ../../inc/audio/v10/decoder/msaudiodec.h; sourceTree = SOURCE_ROOT; };
+		F230BB07128D2A6000F53EB8 /* strmdec_wma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strmdec_wma.h; path = ../../inc/audio/v10/decoder/strmdec_wma.h; sourceTree = SOURCE_ROOT; };
+		F230BB08128D2A6000F53EB8 /* wmaprodecS_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmaprodecS_api.h; path = ../../inc/audio/v10/decoder/wmaprodecS_api.h; sourceTree = SOURCE_ROOT; };
+		F230BB11128D2A8900F53EB8 /* AutoProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoProfile.h; path = ../../inc/audio/v10/include/AutoProfile.h; sourceTree = SOURCE_ROOT; };
+		F230BB12128D2A8900F53EB8 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../inc/audio/v10/include/config.h; sourceTree = SOURCE_ROOT; };
+		F230BB13128D2A8900F53EB8 /* configcommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = configcommon.h; path = ../../inc/audio/v10/include/configcommon.h; sourceTree = SOURCE_ROOT; };
+		F230BB14128D2A8900F53EB8 /* playropt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = playropt.h; path = ../../inc/audio/v10/include/playropt.h; sourceTree = SOURCE_ROOT; };
+		F230BB15128D2A8900F53EB8 /* wma10dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wma10dec.h; path = ../../inc/audio/v10/include/wma10dec.h; sourceTree = SOURCE_ROOT; };
+		F230BB16128D2A8900F53EB8 /* wmaerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmaerror.h; path = ../../inc/audio/v10/include/wmaerror.h; sourceTree = SOURCE_ROOT; };
+		F230BB17128D2A8900F53EB8 /* wmafmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmafmt.h; path = ../../inc/audio/v10/include/wmafmt.h; sourceTree = SOURCE_ROOT; };
+		F230BB20128D2B0600F53EB8 /* commontables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = commontables.h; path = ../../inc/audio/common/include/commontables.h; sourceTree = SOURCE_ROOT; };
+		F230BB21128D2B0600F53EB8 /* mmreg_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mmreg_.h; path = ../../inc/audio/common/include/mmreg_.h; sourceTree = SOURCE_ROOT; };
+		F230BB22128D2B0600F53EB8 /* msaudiofmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = msaudiofmt.h; path = ../../inc/audio/common/include/msaudiofmt.h; sourceTree = SOURCE_ROOT; };
+		F230BB23128D2B0600F53EB8 /* pcmfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcmfmt.h; path = ../../inc/audio/common/include/pcmfmt.h; sourceTree = SOURCE_ROOT; };
+		F230BB24128D2B0600F53EB8 /* wmaassert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmaassert.h; path = ../../inc/audio/common/include/wmaassert.h; sourceTree = SOURCE_ROOT; };
+		F230BB25128D2B0600F53EB8 /* wmabuffilt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmabuffilt.h; path = ../../inc/audio/common/include/wmabuffilt.h; sourceTree = SOURCE_ROOT; };
+		F230BB26128D2B0600F53EB8 /* wmachmtx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmachmtx.h; path = ../../inc/audio/common/include/wmachmtx.h; sourceTree = SOURCE_ROOT; };
+		F230BB27128D2B0600F53EB8 /* wmacommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmacommon.h; path = ../../inc/audio/common/include/wmacommon.h; sourceTree = SOURCE_ROOT; };
+		F230BB28128D2B0600F53EB8 /* wmaerrormacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmaerrormacros.h; path = ../../inc/audio/common/include/wmaerrormacros.h; sourceTree = SOURCE_ROOT; };
+		F230BB29128D2B0600F53EB8 /* wmaltrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmaltrt.h; path = ../../inc/audio/common/include/wmaltrt.h; sourceTree = SOURCE_ROOT; };
+		F230BB2A128D2B0600F53EB8 /* wmamalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmamalloc.h; path = ../../inc/audio/common/include/wmamalloc.h; sourceTree = SOURCE_ROOT; };
+		F230BB2B128D2B0600F53EB8 /* wmapcmacc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmapcmacc.h; path = ../../inc/audio/common/include/wmapcmacc.h; sourceTree = SOURCE_ROOT; };
+		F230BB2C128D2B0600F53EB8 /* wmaresults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmaresults.h; path = ../../inc/audio/common/include/wmaresults.h; sourceTree = SOURCE_ROOT; };
+		F230BB2D128D2B0600F53EB8 /* wmartmacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmartmacros.h; path = ../../inc/audio/common/include/wmartmacros.h; sourceTree = SOURCE_ROOT; };
+		F230BB2E128D2B0600F53EB8 /* wmatypes_ansi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmatypes_ansi.h; path = ../../inc/audio/common/include/wmatypes_ansi.h; sourceTree = SOURCE_ROOT; };
+		F230BB2F128D2B0600F53EB8 /* wmatypes_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmatypes_arm.h; path = ../../inc/audio/common/include/wmatypes_arm.h; sourceTree = SOURCE_ROOT; };
+		F230BB30128D2B0600F53EB8 /* wmatypes_embedded_x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmatypes_embedded_x86.h; path = ../../inc/audio/common/include/wmatypes_embedded_x86.h; sourceTree = SOURCE_ROOT; };
+		F230BB31128D2B0600F53EB8 /* wmatypes_macos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmatypes_macos.h; path = ../../inc/audio/common/include/wmatypes_macos.h; sourceTree = SOURCE_ROOT; };
+		F230BB32128D2B0600F53EB8 /* wmatypes_mips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmatypes_mips.h; path = ../../inc/audio/common/include/wmatypes_mips.h; sourceTree = SOURCE_ROOT; };
+		F230BB33128D2B0600F53EB8 /* wmatypes_qnx_x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmatypes_qnx_x86.h; path = ../../inc/audio/common/include/wmatypes_qnx_x86.h; sourceTree = SOURCE_ROOT; };
+		F230BB34128D2B0600F53EB8 /* wmatypes_s_sunos5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmatypes_s_sunos5.h; path = ../../inc/audio/common/include/wmatypes_s_sunos5.h; sourceTree = SOURCE_ROOT; };
+		F230BB35128D2B0600F53EB8 /* wmatypes_sh3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmatypes_sh3.h; path = ../../inc/audio/common/include/wmatypes_sh3.h; sourceTree = SOURCE_ROOT; };
+		F230BB36128D2B0600F53EB8 /* wmatypes_sh4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmatypes_sh4.h; path = ../../inc/audio/common/include/wmatypes_sh4.h; sourceTree = SOURCE_ROOT; };
+		F230BB37128D2B0600F53EB8 /* wmatypes_win64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmatypes_win64.h; path = ../../inc/audio/common/include/wmatypes_win64.h; sourceTree = SOURCE_ROOT; };
+		F230BB38128D2B0600F53EB8 /* wmatypes_x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmatypes_x86.h; path = ../../inc/audio/common/include/wmatypes_x86.h; sourceTree = SOURCE_ROOT; };
+		F230BB39128D2B0600F53EB8 /* wmatypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmatypes.h; path = ../../inc/audio/common/include/wmatypes.h; sourceTree = SOURCE_ROOT; };
+		F230BB3A128D2B0600F53EB8 /* wmatyps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmatyps.h; path = ../../inc/audio/common/include/wmatyps.h; sourceTree = SOURCE_ROOT; };
+		F230BB3B128D2B0600F53EB8 /* wmawfxdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmawfxdefs.h; path = ../../inc/audio/common/include/wmawfxdefs.h; sourceTree = SOURCE_ROOT; };
+		F230BB3C128D2B0600F53EB8 /* wmawintypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmawintypes.h; path = ../../inc/audio/common/include/wmawintypes.h; sourceTree = SOURCE_ROOT; };
+		F230BB3D128D2B0600F53EB8 /* wmspecstringce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmspecstringce.h; path = ../../inc/audio/common/include/wmspecstringce.h; sourceTree = SOURCE_ROOT; };
+		F230BB5F128D2B8000F53EB8 /* checkhandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = checkhandle.h; path = ../../inc/common/include/checkhandle.h; sourceTree = SOURCE_ROOT; };
+		F230BB60128D2B8000F53EB8 /* wmsal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmsal.h; path = ../../inc/common/include/wmsal.h; sourceTree = SOURCE_ROOT; };
+		F230BB61128D2B8000F53EB8 /* wmspecstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmspecstring.h; path = ../../inc/common/include/wmspecstring.h; sourceTree = SOURCE_ROOT; };
+		F230BB62128D2B8000F53EB8 /* wmspecstrings_adt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmspecstrings_adt.h; path = ../../inc/common/include/wmspecstrings_adt.h; sourceTree = SOURCE_ROOT; };
+		F230BB63128D2B8000F53EB8 /* wmspecstrings_strict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmspecstrings_strict.h; path = ../../inc/common/include/wmspecstrings_strict.h; sourceTree = SOURCE_ROOT; };
+		F230BB64128D2B8000F53EB8 /* wmspecstrings_undef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmspecstrings_undef.h; path = ../../inc/common/include/wmspecstrings_undef.h; sourceTree = SOURCE_ROOT; };
+		F230BB6B128D2B8F00F53EB8 /* wmdsplogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmdsplogging.h; path = ../../inc/common/logging/wmdsplogging.h; sourceTree = SOURCE_ROOT; };
+		F230BD2C128D407F00F53EB8 /* voWMADec_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voWMADec_Prefix.pch; sourceTree = "<group>"; };
+		F28DC68F1342F6B0008A90CA /* libvoWMADec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoWMADec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DE0BE931492196F00B329B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE0BE941492196F00B329B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28DC68D1342F6B0008A90CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F230BD2C128D407F00F53EB8 /* voWMADec_Prefix.pch */,
+				D2AAC07E0554694100DB518D /* libvoWMADec.a */,
+				F28DC68F1342F6B0008A90CA /* libvoWMADec.a */,
+				7DE0BE981492196F00B329B0 /* libvoWMADec.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* voWMADec */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = voWMADec;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E1BEB134137A9A6D0087B45A /* ARMCOMMON */,
+				F28DC7AF13430FA3008A90CA /* ARMV6 */,
+				F28EF51612B5C2E2009B81E3 /* ARMV7 */,
+				F230BA7A128D293A00F53EB8 /* header */,
+				F230B804128CECBB00F53EB8 /* primitive */,
+				F230B801128CEC9500F53EB8 /* fmthlpr */,
+				F230B7DE128CEC7000F53EB8 /* decoder */,
+				F230B7A9128CEC4000F53EB8 /* common */,
+				F230B7A2128CEC1800F53EB8 /* chanmtx */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E1BEB134137A9A6D0087B45A /* ARMCOMMON */ = {
+			isa = PBXGroup;
+			children = (
+				E1ADD7E6137B72F800EA097A /* kxarm.h */,
+				E1ADD7E7137B72F800EA097A /* wma_arm_version.h */,
+				E1ADD7E8137B72F800EA097A /* wma_member_arm.inc */,
+				E1BEB135137A9ABF0087B45A /* huffdec_arm.s */,
+				E1BEB137137A9ABF0087B45A /* losslessdeclsl_arm.s */,
+				E1BEB138137A9ABF0087B45A /* losslessdecprolsl_arm.s */,
+				E1BEB139137A9ABF0087B45A /* lowrate_arm.s */,
+				E1BEB13A137A9ABF0087B45A /* lpclsl_arm.s */,
+				E1BEB13B137A9ABF0087B45A /* lpcstd_arm.s */,
+				E1BEB13C137A9ABF0087B45A /* msaudiodec_arm.s */,
+				E1BEB13D137A9ABF0087B45A /* strmdec_arm.s */,
+				E1BEB13E137A9ABF0087B45A /* voMemory_arm.s */,
+			);
+			name = ARMCOMMON;
+			sourceTree = "<group>";
+		};
+		F230B7A2128CEC1800F53EB8 /* chanmtx */ = {
+			isa = PBXGroup;
+			children = (
+				F230B7A3128CEC3A00F53EB8 /* wmabuffilt.c */,
+				F230B7A4128CEC3A00F53EB8 /* wmachmtx.c */,
+				F230B7A5128CEC3A00F53EB8 /* wmaltrt.c */,
+			);
+			name = chanmtx;
+			sourceTree = "<group>";
+		};
+		F230B7A9128CEC4000F53EB8 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F230B7AA128CEC6C00F53EB8 /* AutoProfile.c */,
+				F230B7AB128CEC6C00F53EB8 /* basepluspro.c */,
+				F230B7AC128CEC6C00F53EB8 /* chexpro.c */,
+				F230B7AD128CEC6C00F53EB8 /* configcommon.c */,
+				F230B7AE128CEC6C00F53EB8 /* dectables.c */,
+				F230B7AF128CEC6C00F53EB8 /* dectablespro.c */,
+				F230B7B0128CEC6C00F53EB8 /* dectablesstd.c */,
+				F230B7B1128CEC6C00F53EB8 /* dectablesstdpro.c */,
+				F230B7B2128CEC6C00F53EB8 /* downmix.c */,
+				F230B7B3128CEC6C00F53EB8 /* drccommonpro.c */,
+				F230B7B4128CEC6C00F53EB8 /* fex.c */,
+				F230B7B5128CEC6C00F53EB8 /* fft.c */,
+				F230B7B6128CEC6C00F53EB8 /* float.c */,
+				F230B7B7128CEC6C00F53EB8 /* lowrate_common.c */,
+				F230B7B8128CEC6C00F53EB8 /* lowrate_commonstd.c */,
+				F230B7B9128CEC6C00F53EB8 /* lpc.c */,
+				F230B7BA128CEC6C00F53EB8 /* lpclsl.c */,
+				F230B7BB128CEC6C00F53EB8 /* lpcprolsl.c */,
+				F230B7BC128CEC6C00F53EB8 /* lpcstd.c */,
+				F230B7BD128CEC6C00F53EB8 /* msaudio.c */,
+				F230B7BE128CEC6C00F53EB8 /* msaudiolsl.c */,
+				F230B7BF128CEC6C00F53EB8 /* msaudiopro.c */,
+				F230B7C0128CEC6C00F53EB8 /* msaudioprotemplate.c */,
+				F230B7C1128CEC6C00F53EB8 /* msaudiostd.c */,
+				F230B7C2128CEC6C00F53EB8 /* msaudiostdpro.c */,
+				F230B7C3128CEC6C00F53EB8 /* msaudiotemplate.c */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		F230B7DE128CEC7000F53EB8 /* decoder */ = {
+			isa = PBXGroup;
+			children = (
+				F230B7DF128CEC9200F53EB8 /* arm_stub.c */,
+				F230B7E0128CEC9200F53EB8 /* baseplusdecpro.c */,
+				F230B7E1128CEC9200F53EB8 /* chexdecpro.c */,
+				F230B7E2128CEC9200F53EB8 /* entropydec.c */,
+				F230B7E3128CEC9200F53EB8 /* entropydecpro.c */,
+				F230B7E4128CEC9200F53EB8 /* entropydecprolsl.c */,
+				F230B7E5128CEC9200F53EB8 /* entropydecstd.c */,
+				F230B7E6128CEC9200F53EB8 /* fexdec.c */,
+				F230B7E7128CEC9200F53EB8 /* huffdec.c */,
+				F230B7E8128CEC9200F53EB8 /* losslessdeclsl.c */,
+				F230B7E9128CEC9200F53EB8 /* losslessdecpro.c */,
+				F230B7EA128CEC9200F53EB8 /* losslessdecprolsl.c */,
+				F230B7EB128CEC9200F53EB8 /* msaudiodec.c */,
+				F230B7EC128CEC9200F53EB8 /* msaudiodectemplate.c */,
+				F230B7ED128CEC9200F53EB8 /* strmdec_wma.c */,
+				F230B7EE128CEC9200F53EB8 /* wmadec.c */,
+				F230B7EF128CEC9200F53EB8 /* wmaprodecS_api.c */,
+			);
+			name = decoder;
+			sourceTree = "<group>";
+		};
+		F230B801128CEC9500F53EB8 /* fmthlpr */ = {
+			isa = PBXGroup;
+			children = (
+				F230B802128CECB800F53EB8 /* wmafmt.c */,
+			);
+			name = fmthlpr;
+			sourceTree = "<group>";
+		};
+		F230B804128CECBB00F53EB8 /* primitive */ = {
+			isa = PBXGroup;
+			children = (
+				F230B805128CECD800F53EB8 /* commontables.c */,
+				F230B806128CECD800F53EB8 /* wmaerror.c */,
+				F230B807128CECD800F53EB8 /* wmamalloc.c */,
+			);
+			name = primitive;
+			sourceTree = "<group>";
+		};
+		F230BA7A128D293A00F53EB8 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				F230BB5C128D2B1400F53EB8 /* common */,
+				F230BA7B128D29B100F53EB8 /* audio */,
+			);
+			name = header;
+			sourceTree = "<group>";
+		};
+		F230BA7B128D29B100F53EB8 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				F230BAB9128D29E200F53EB8 /* v10 */,
+				F230BA7C128D29BA00F53EB8 /* common */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		F230BA7C128D29BA00F53EB8 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F230BB20128D2B0600F53EB8 /* commontables.h */,
+				F230BB21128D2B0600F53EB8 /* mmreg_.h */,
+				F230BB22128D2B0600F53EB8 /* msaudiofmt.h */,
+				F230BB23128D2B0600F53EB8 /* pcmfmt.h */,
+				F230BB24128D2B0600F53EB8 /* wmaassert.h */,
+				F230BB25128D2B0600F53EB8 /* wmabuffilt.h */,
+				F230BB26128D2B0600F53EB8 /* wmachmtx.h */,
+				F230BB27128D2B0600F53EB8 /* wmacommon.h */,
+				F230BB28128D2B0600F53EB8 /* wmaerrormacros.h */,
+				F230BB29128D2B0600F53EB8 /* wmaltrt.h */,
+				F230BB2A128D2B0600F53EB8 /* wmamalloc.h */,
+				F230BB2B128D2B0600F53EB8 /* wmapcmacc.h */,
+				F230BB2C128D2B0600F53EB8 /* wmaresults.h */,
+				F230BB2D128D2B0600F53EB8 /* wmartmacros.h */,
+				F230BB2E128D2B0600F53EB8 /* wmatypes_ansi.h */,
+				F230BB2F128D2B0600F53EB8 /* wmatypes_arm.h */,
+				F230BB30128D2B0600F53EB8 /* wmatypes_embedded_x86.h */,
+				F230BB31128D2B0600F53EB8 /* wmatypes_macos.h */,
+				F230BB32128D2B0600F53EB8 /* wmatypes_mips.h */,
+				F230BB33128D2B0600F53EB8 /* wmatypes_qnx_x86.h */,
+				F230BB34128D2B0600F53EB8 /* wmatypes_s_sunos5.h */,
+				F230BB35128D2B0600F53EB8 /* wmatypes_sh3.h */,
+				F230BB36128D2B0600F53EB8 /* wmatypes_sh4.h */,
+				F230BB37128D2B0600F53EB8 /* wmatypes_win64.h */,
+				F230BB38128D2B0600F53EB8 /* wmatypes_x86.h */,
+				F230BB39128D2B0600F53EB8 /* wmatypes.h */,
+				F230BB3A128D2B0600F53EB8 /* wmatyps.h */,
+				F230BB3B128D2B0600F53EB8 /* wmawfxdefs.h */,
+				F230BB3C128D2B0600F53EB8 /* wmawintypes.h */,
+				F230BB3D128D2B0600F53EB8 /* wmspecstringce.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		F230BAB9128D29E200F53EB8 /* v10 */ = {
+			isa = PBXGroup;
+			children = (
+				F230BB10128D2A6A00F53EB8 /* include */,
+				F230BB01128D2A2B00F53EB8 /* decoder */,
+				F230BABA128D29F100F53EB8 /* common */,
+			);
+			name = v10;
+			sourceTree = "<group>";
+		};
+		F230BABA128D29F100F53EB8 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F230BABB128D2A2200F53EB8 /* applyreflectionv3.h */,
+				F230BABC128D2A2200F53EB8 /* basepluspro.h */,
+				F230BABD128D2A2200F53EB8 /* catchflops.h */,
+				F230BABF128D2A2200F53EB8 /* chexdectblspro.h */,
+				F230BAC0128D2A2200F53EB8 /* chexpro.h */,
+				F230BAC1128D2A2200F53EB8 /* constants.h */,
+				F230BAC2128D2A2200F53EB8 /* dbgmacros.h */,
+				F230BAC3128D2A2200F53EB8 /* dbgmacrosimpl.h */,
+				F230BAC4128D2A2200F53EB8 /* DecTables.h */,
+				F230BAC5128D2A2200F53EB8 /* downmix.h */,
+				F230BAC6128D2A2200F53EB8 /* drccommon.h */,
+				F230BACA128D2A2200F53EB8 /* enttblsdecv4.h */,
+				F230BACB128D2A2200F53EB8 /* fastfloat.h */,
+				F230BACC128D2A2200F53EB8 /* fex.h */,
+				F230BACE128D2A2200F53EB8 /* fexdectbls.h */,
+				F230BAD1128D2A2200F53EB8 /* fntable.h */,
+				F230BAD2128D2A2200F53EB8 /* fntableimpl.h */,
+				F230BAD3128D2A2200F53EB8 /* lowrate_common.h */,
+				F230BAD4128D2A2200F53EB8 /* lpcConst.h */,
+				F230BAD5128D2A2200F53EB8 /* macros.h */,
+				F230BAD6128D2A2200F53EB8 /* msaudio.h */,
+				F230BAD7128D2A2300F53EB8 /* msaudiotemplate.h */,
+				F230BAD8128D2A2300F53EB8 /* msaudiotemplatedef.h */,
+				F230BAD9128D2A2300F53EB8 /* pkconfig.h */,
+				F230BADB128D2A2300F53EB8 /* templateincludes.h */,
+				F230BADC128D2A2300F53EB8 /* wavfileexio.h */,
+				F230BADD128D2A2300F53EB8 /* wmaOS.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		F230BB01128D2A2B00F53EB8 /* decoder */ = {
+			isa = PBXGroup;
+			children = (
+				F230BB02128D2A6000F53EB8 /* baseplusdecpro.h */,
+				F230BB03128D2A6000F53EB8 /* entropydec.h */,
+				F230BB05128D2A6000F53EB8 /* huffdec.h */,
+				F230BB06128D2A6000F53EB8 /* msaudiodec.h */,
+				F230BB07128D2A6000F53EB8 /* strmdec_wma.h */,
+				F230BB08128D2A6000F53EB8 /* wmaprodecS_api.h */,
+			);
+			name = decoder;
+			sourceTree = "<group>";
+		};
+		F230BB10128D2A6A00F53EB8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F230BB11128D2A8900F53EB8 /* AutoProfile.h */,
+				F230BB12128D2A8900F53EB8 /* config.h */,
+				F230BB13128D2A8900F53EB8 /* configcommon.h */,
+				F230BB14128D2A8900F53EB8 /* playropt.h */,
+				F230BB15128D2A8900F53EB8 /* wma10dec.h */,
+				F230BB16128D2A8900F53EB8 /* wmaerror.h */,
+				F230BB17128D2A8900F53EB8 /* wmafmt.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		F230BB5C128D2B1400F53EB8 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F230BB5E128D2B5900F53EB8 /* logging */,
+				F230BB5D128D2B4D00F53EB8 /* include */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		F230BB5D128D2B4D00F53EB8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F230BB5F128D2B8000F53EB8 /* checkhandle.h */,
+				F230BB60128D2B8000F53EB8 /* wmsal.h */,
+				F230BB61128D2B8000F53EB8 /* wmspecstring.h */,
+				F230BB62128D2B8000F53EB8 /* wmspecstrings_adt.h */,
+				F230BB63128D2B8000F53EB8 /* wmspecstrings_strict.h */,
+				F230BB64128D2B8000F53EB8 /* wmspecstrings_undef.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		F230BB5E128D2B5900F53EB8 /* logging */ = {
+			isa = PBXGroup;
+			children = (
+				F230BB6B128D2B8F00F53EB8 /* wmdsplogging.h */,
+			);
+			name = logging;
+			sourceTree = "<group>";
+		};
+		F28DC7AF13430FA3008A90CA /* ARMV6 */ = {
+			isa = PBXGroup;
+			children = (
+				E1BEB159137A9ADC0087B45A /* fft_arm_v6.s */,
+				E1BEB15A137A9ADC0087B45A /* msaudio_arm_v6.s */,
+				E1BEB15B137A9ADC0087B45A /* msaudiopro_arm_v6.s */,
+				E1BEB15C137A9ADC0087B45A /* msaudiostdpro_arm_v6.s */,
+			);
+			name = ARMV6;
+			sourceTree = "<group>";
+		};
+		F28EF51612B5C2E2009B81E3 /* ARMV7 */ = {
+			isa = PBXGroup;
+			children = (
+				E1BEB161137A9AF30087B45A /* fft_arm_v7.s */,
+				E1BEB162137A9AF30087B45A /* msaudio_arm_v7.s */,
+				E1BEB163137A9AF30087B45A /* msaudiopro_arm_v7.s */,
+				E1BEB164137A9AF30087B45A /* msaudiostdpro_arm_v7.s */,
+			);
+			name = ARMV7;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7DE0BE011492196F00B329B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE0BE021492196F00B329B0 /* applyreflectionv3.h in Headers */,
+				7DE0BE031492196F00B329B0 /* basepluspro.h in Headers */,
+				7DE0BE041492196F00B329B0 /* catchflops.h in Headers */,
+				7DE0BE051492196F00B329B0 /* chexdectblspro.h in Headers */,
+				7DE0BE061492196F00B329B0 /* chexpro.h in Headers */,
+				7DE0BE071492196F00B329B0 /* constants.h in Headers */,
+				7DE0BE081492196F00B329B0 /* dbgmacros.h in Headers */,
+				7DE0BE091492196F00B329B0 /* dbgmacrosimpl.h in Headers */,
+				7DE0BE0A1492196F00B329B0 /* DecTables.h in Headers */,
+				7DE0BE0B1492196F00B329B0 /* downmix.h in Headers */,
+				7DE0BE0C1492196F00B329B0 /* drccommon.h in Headers */,
+				7DE0BE0D1492196F00B329B0 /* enttblsdecv4.h in Headers */,
+				7DE0BE0E1492196F00B329B0 /* fastfloat.h in Headers */,
+				7DE0BE0F1492196F00B329B0 /* fex.h in Headers */,
+				7DE0BE101492196F00B329B0 /* fexdectbls.h in Headers */,
+				7DE0BE111492196F00B329B0 /* fntable.h in Headers */,
+				7DE0BE121492196F00B329B0 /* fntableimpl.h in Headers */,
+				7DE0BE131492196F00B329B0 /* lowrate_common.h in Headers */,
+				7DE0BE141492196F00B329B0 /* lpcConst.h in Headers */,
+				7DE0BE151492196F00B329B0 /* macros.h in Headers */,
+				7DE0BE161492196F00B329B0 /* msaudio.h in Headers */,
+				7DE0BE171492196F00B329B0 /* msaudiotemplate.h in Headers */,
+				7DE0BE181492196F00B329B0 /* msaudiotemplatedef.h in Headers */,
+				7DE0BE191492196F00B329B0 /* pkconfig.h in Headers */,
+				7DE0BE1A1492196F00B329B0 /* templateincludes.h in Headers */,
+				7DE0BE1B1492196F00B329B0 /* wavfileexio.h in Headers */,
+				7DE0BE1C1492196F00B329B0 /* wmaOS.h in Headers */,
+				7DE0BE1D1492196F00B329B0 /* baseplusdecpro.h in Headers */,
+				7DE0BE1E1492196F00B329B0 /* entropydec.h in Headers */,
+				7DE0BE1F1492196F00B329B0 /* huffdec.h in Headers */,
+				7DE0BE201492196F00B329B0 /* msaudiodec.h in Headers */,
+				7DE0BE211492196F00B329B0 /* strmdec_wma.h in Headers */,
+				7DE0BE221492196F00B329B0 /* wmaprodecS_api.h in Headers */,
+				7DE0BE231492196F00B329B0 /* AutoProfile.h in Headers */,
+				7DE0BE241492196F00B329B0 /* config.h in Headers */,
+				7DE0BE251492196F00B329B0 /* configcommon.h in Headers */,
+				7DE0BE261492196F00B329B0 /* playropt.h in Headers */,
+				7DE0BE271492196F00B329B0 /* wma10dec.h in Headers */,
+				7DE0BE281492196F00B329B0 /* wmaerror.h in Headers */,
+				7DE0BE291492196F00B329B0 /* wmafmt.h in Headers */,
+				7DE0BE2A1492196F00B329B0 /* commontables.h in Headers */,
+				7DE0BE2B1492196F00B329B0 /* mmreg_.h in Headers */,
+				7DE0BE2C1492196F00B329B0 /* msaudiofmt.h in Headers */,
+				7DE0BE2D1492196F00B329B0 /* pcmfmt.h in Headers */,
+				7DE0BE2E1492196F00B329B0 /* wmaassert.h in Headers */,
+				7DE0BE2F1492196F00B329B0 /* wmabuffilt.h in Headers */,
+				7DE0BE301492196F00B329B0 /* wmachmtx.h in Headers */,
+				7DE0BE311492196F00B329B0 /* wmacommon.h in Headers */,
+				7DE0BE321492196F00B329B0 /* wmaerrormacros.h in Headers */,
+				7DE0BE331492196F00B329B0 /* wmaltrt.h in Headers */,
+				7DE0BE341492196F00B329B0 /* wmamalloc.h in Headers */,
+				7DE0BE351492196F00B329B0 /* wmapcmacc.h in Headers */,
+				7DE0BE361492196F00B329B0 /* wmaresults.h in Headers */,
+				7DE0BE371492196F00B329B0 /* wmartmacros.h in Headers */,
+				7DE0BE381492196F00B329B0 /* wmatypes_ansi.h in Headers */,
+				7DE0BE391492196F00B329B0 /* wmatypes_arm.h in Headers */,
+				7DE0BE3A1492196F00B329B0 /* wmatypes_embedded_x86.h in Headers */,
+				7DE0BE3B1492196F00B329B0 /* wmatypes_macos.h in Headers */,
+				7DE0BE3C1492196F00B329B0 /* wmatypes_mips.h in Headers */,
+				7DE0BE3D1492196F00B329B0 /* wmatypes_qnx_x86.h in Headers */,
+				7DE0BE3E1492196F00B329B0 /* wmatypes_s_sunos5.h in Headers */,
+				7DE0BE3F1492196F00B329B0 /* wmatypes_sh3.h in Headers */,
+				7DE0BE401492196F00B329B0 /* wmatypes_sh4.h in Headers */,
+				7DE0BE411492196F00B329B0 /* wmatypes_win64.h in Headers */,
+				7DE0BE421492196F00B329B0 /* wmatypes_x86.h in Headers */,
+				7DE0BE431492196F00B329B0 /* wmatypes.h in Headers */,
+				7DE0BE441492196F00B329B0 /* wmatyps.h in Headers */,
+				7DE0BE451492196F00B329B0 /* wmawfxdefs.h in Headers */,
+				7DE0BE461492196F00B329B0 /* wmawintypes.h in Headers */,
+				7DE0BE471492196F00B329B0 /* wmspecstringce.h in Headers */,
+				7DE0BE481492196F00B329B0 /* checkhandle.h in Headers */,
+				7DE0BE491492196F00B329B0 /* wmsal.h in Headers */,
+				7DE0BE4A1492196F00B329B0 /* wmspecstring.h in Headers */,
+				7DE0BE4B1492196F00B329B0 /* wmspecstrings_adt.h in Headers */,
+				7DE0BE4C1492196F00B329B0 /* wmspecstrings_strict.h in Headers */,
+				7DE0BE4D1492196F00B329B0 /* wmspecstrings_undef.h in Headers */,
+				7DE0BE4E1492196F00B329B0 /* wmdsplogging.h in Headers */,
+				7DE0BE4F1492196F00B329B0 /* voWMADec_Prefix.pch in Headers */,
+				7DE0BE501492196F00B329B0 /* kxarm.h in Headers */,
+				7DE0BE511492196F00B329B0 /* wma_arm_version.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F230BADE128D2A2300F53EB8 /* applyreflectionv3.h in Headers */,
+				F230BADF128D2A2300F53EB8 /* basepluspro.h in Headers */,
+				F230BAE0128D2A2300F53EB8 /* catchflops.h in Headers */,
+				F230BAE2128D2A2300F53EB8 /* chexdectblspro.h in Headers */,
+				F230BAE3128D2A2300F53EB8 /* chexpro.h in Headers */,
+				F230BAE4128D2A2300F53EB8 /* constants.h in Headers */,
+				F230BAE5128D2A2300F53EB8 /* dbgmacros.h in Headers */,
+				F230BAE6128D2A2300F53EB8 /* dbgmacrosimpl.h in Headers */,
+				F230BAE7128D2A2300F53EB8 /* DecTables.h in Headers */,
+				F230BAE8128D2A2300F53EB8 /* downmix.h in Headers */,
+				F230BAE9128D2A2300F53EB8 /* drccommon.h in Headers */,
+				F230BAED128D2A2300F53EB8 /* enttblsdecv4.h in Headers */,
+				F230BAEE128D2A2300F53EB8 /* fastfloat.h in Headers */,
+				F230BAEF128D2A2300F53EB8 /* fex.h in Headers */,
+				F230BAF1128D2A2300F53EB8 /* fexdectbls.h in Headers */,
+				F230BAF4128D2A2300F53EB8 /* fntable.h in Headers */,
+				F230BAF5128D2A2300F53EB8 /* fntableimpl.h in Headers */,
+				F230BAF6128D2A2300F53EB8 /* lowrate_common.h in Headers */,
+				F230BAF7128D2A2300F53EB8 /* lpcConst.h in Headers */,
+				F230BAF8128D2A2300F53EB8 /* macros.h in Headers */,
+				F230BAF9128D2A2300F53EB8 /* msaudio.h in Headers */,
+				F230BAFA128D2A2300F53EB8 /* msaudiotemplate.h in Headers */,
+				F230BAFB128D2A2300F53EB8 /* msaudiotemplatedef.h in Headers */,
+				F230BAFC128D2A2300F53EB8 /* pkconfig.h in Headers */,
+				F230BAFE128D2A2300F53EB8 /* templateincludes.h in Headers */,
+				F230BAFF128D2A2300F53EB8 /* wavfileexio.h in Headers */,
+				F230BB00128D2A2300F53EB8 /* wmaOS.h in Headers */,
+				F230BB09128D2A6000F53EB8 /* baseplusdecpro.h in Headers */,
+				F230BB0A128D2A6000F53EB8 /* entropydec.h in Headers */,
+				F230BB0C128D2A6000F53EB8 /* huffdec.h in Headers */,
+				F230BB0D128D2A6000F53EB8 /* msaudiodec.h in Headers */,
+				F230BB0E128D2A6000F53EB8 /* strmdec_wma.h in Headers */,
+				F230BB0F128D2A6000F53EB8 /* wmaprodecS_api.h in Headers */,
+				F230BB18128D2A8900F53EB8 /* AutoProfile.h in Headers */,
+				F230BB19128D2A8900F53EB8 /* config.h in Headers */,
+				F230BB1A128D2A8900F53EB8 /* configcommon.h in Headers */,
+				F230BB1B128D2A8900F53EB8 /* playropt.h in Headers */,
+				F230BB1C128D2A8900F53EB8 /* wma10dec.h in Headers */,
+				F230BB1D128D2A8900F53EB8 /* wmaerror.h in Headers */,
+				F230BB1E128D2A8900F53EB8 /* wmafmt.h in Headers */,
+				F230BB3E128D2B0600F53EB8 /* commontables.h in Headers */,
+				F230BB3F128D2B0600F53EB8 /* mmreg_.h in Headers */,
+				F230BB40128D2B0600F53EB8 /* msaudiofmt.h in Headers */,
+				F230BB41128D2B0600F53EB8 /* pcmfmt.h in Headers */,
+				F230BB42128D2B0600F53EB8 /* wmaassert.h in Headers */,
+				F230BB43128D2B0600F53EB8 /* wmabuffilt.h in Headers */,
+				F230BB44128D2B0600F53EB8 /* wmachmtx.h in Headers */,
+				F230BB45128D2B0600F53EB8 /* wmacommon.h in Headers */,
+				F230BB46128D2B0600F53EB8 /* wmaerrormacros.h in Headers */,
+				F230BB47128D2B0600F53EB8 /* wmaltrt.h in Headers */,
+				F230BB48128D2B0600F53EB8 /* wmamalloc.h in Headers */,
+				F230BB49128D2B0600F53EB8 /* wmapcmacc.h in Headers */,
+				F230BB4A128D2B0600F53EB8 /* wmaresults.h in Headers */,
+				F230BB4B128D2B0600F53EB8 /* wmartmacros.h in Headers */,
+				F230BB4C128D2B0600F53EB8 /* wmatypes_ansi.h in Headers */,
+				F230BB4D128D2B0600F53EB8 /* wmatypes_arm.h in Headers */,
+				F230BB4E128D2B0600F53EB8 /* wmatypes_embedded_x86.h in Headers */,
+				F230BB4F128D2B0600F53EB8 /* wmatypes_macos.h in Headers */,
+				F230BB50128D2B0600F53EB8 /* wmatypes_mips.h in Headers */,
+				F230BB51128D2B0600F53EB8 /* wmatypes_qnx_x86.h in Headers */,
+				F230BB52128D2B0600F53EB8 /* wmatypes_s_sunos5.h in Headers */,
+				F230BB53128D2B0600F53EB8 /* wmatypes_sh3.h in Headers */,
+				F230BB54128D2B0600F53EB8 /* wmatypes_sh4.h in Headers */,
+				F230BB55128D2B0600F53EB8 /* wmatypes_win64.h in Headers */,
+				F230BB56128D2B0600F53EB8 /* wmatypes_x86.h in Headers */,
+				F230BB57128D2B0600F53EB8 /* wmatypes.h in Headers */,
+				F230BB58128D2B0600F53EB8 /* wmatyps.h in Headers */,
+				F230BB59128D2B0600F53EB8 /* wmawfxdefs.h in Headers */,
+				F230BB5A128D2B0600F53EB8 /* wmawintypes.h in Headers */,
+				F230BB5B128D2B0600F53EB8 /* wmspecstringce.h in Headers */,
+				F230BB65128D2B8000F53EB8 /* checkhandle.h in Headers */,
+				F230BB66128D2B8000F53EB8 /* wmsal.h in Headers */,
+				F230BB67128D2B8000F53EB8 /* wmspecstring.h in Headers */,
+				F230BB68128D2B8000F53EB8 /* wmspecstrings_adt.h in Headers */,
+				F230BB69128D2B8000F53EB8 /* wmspecstrings_strict.h in Headers */,
+				F230BB6A128D2B8000F53EB8 /* wmspecstrings_undef.h in Headers */,
+				F230BB6C128D2B8F00F53EB8 /* wmdsplogging.h in Headers */,
+				F230BD2D128D407F00F53EB8 /* voWMADec_Prefix.pch in Headers */,
+				E1ADD7E9137B72F800EA097A /* kxarm.h in Headers */,
+				E1ADD7EA137B72F800EA097A /* wma_arm_version.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28DC68B1342F6B0008A90CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28DC69E1342F771008A90CA /* applyreflectionv3.h in Headers */,
+				F28DC69F1342F771008A90CA /* AutoProfile.h in Headers */,
+				F28DC6A01342F771008A90CA /* baseplusdecpro.h in Headers */,
+				F28DC6A11342F771008A90CA /* basepluspro.h in Headers */,
+				F28DC6A21342F771008A90CA /* catchflops.h in Headers */,
+				F28DC6A31342F771008A90CA /* checkhandle.h in Headers */,
+				F28DC6A41342F771008A90CA /* chexdectblspro.h in Headers */,
+				F28DC6A51342F771008A90CA /* chexpro.h in Headers */,
+				F28DC6A61342F771008A90CA /* commontables.h in Headers */,
+				F28DC6A71342F771008A90CA /* config.h in Headers */,
+				F28DC6A81342F771008A90CA /* configcommon.h in Headers */,
+				F28DC6A91342F771008A90CA /* constants.h in Headers */,
+				F28DC6AA1342F771008A90CA /* dbgmacros.h in Headers */,
+				F28DC6AB1342F771008A90CA /* dbgmacrosimpl.h in Headers */,
+				F28DC6AC1342F771008A90CA /* DecTables.h in Headers */,
+				F28DC6AD1342F771008A90CA /* downmix.h in Headers */,
+				F28DC6AE1342F771008A90CA /* drccommon.h in Headers */,
+				F28DC6AF1342F771008A90CA /* entropydec.h in Headers */,
+				F28DC6B01342F771008A90CA /* enttblsdecv4.h in Headers */,
+				F28DC6B11342F771008A90CA /* fastfloat.h in Headers */,
+				F28DC6B21342F771008A90CA /* fex.h in Headers */,
+				F28DC6B31342F771008A90CA /* fexdectbls.h in Headers */,
+				F28DC6B41342F771008A90CA /* fntable.h in Headers */,
+				F28DC6B51342F771008A90CA /* fntableimpl.h in Headers */,
+				F28DC6B61342F771008A90CA /* huffdec.h in Headers */,
+				F28DC6B81342F771008A90CA /* lowrate_common.h in Headers */,
+				F28DC6B91342F771008A90CA /* lpcConst.h in Headers */,
+				F28DC6BA1342F771008A90CA /* macros.h in Headers */,
+				F28DC6BB1342F771008A90CA /* mmreg_.h in Headers */,
+				F28DC6BC1342F771008A90CA /* msaudio.h in Headers */,
+				F28DC6BD1342F771008A90CA /* msaudiodec.h in Headers */,
+				F28DC6BE1342F771008A90CA /* msaudiofmt.h in Headers */,
+				F28DC6BF1342F771008A90CA /* msaudiotemplate.h in Headers */,
+				F28DC6C01342F771008A90CA /* msaudiotemplatedef.h in Headers */,
+				F28DC6C11342F771008A90CA /* pcmfmt.h in Headers */,
+				F28DC6C21342F771008A90CA /* pkconfig.h in Headers */,
+				F28DC6C31342F771008A90CA /* playropt.h in Headers */,
+				F28DC6C41342F771008A90CA /* strmdec_wma.h in Headers */,
+				F28DC6C51342F771008A90CA /* templateincludes.h in Headers */,
+				F28DC6C61342F771008A90CA /* voWMADec_Prefix.pch in Headers */,
+				F28DC6C71342F771008A90CA /* wavfileexio.h in Headers */,
+				F28DC6C81342F771008A90CA /* wma10dec.h in Headers */,
+				F28DC6CA1342F771008A90CA /* wmaassert.h in Headers */,
+				F28DC6CB1342F771008A90CA /* wmabuffilt.h in Headers */,
+				F28DC6CC1342F771008A90CA /* wmachmtx.h in Headers */,
+				F28DC6CD1342F771008A90CA /* wmacommon.h in Headers */,
+				F28DC6CE1342F771008A90CA /* wmaerror.h in Headers */,
+				F28DC6CF1342F771008A90CA /* wmaerrormacros.h in Headers */,
+				F28DC6D01342F771008A90CA /* wmafmt.h in Headers */,
+				F28DC6D11342F771008A90CA /* wmaltrt.h in Headers */,
+				F28DC6D21342F771008A90CA /* wmamalloc.h in Headers */,
+				F28DC6D31342F771008A90CA /* wmaOS.h in Headers */,
+				F28DC6D41342F771008A90CA /* wmapcmacc.h in Headers */,
+				F28DC6D51342F771008A90CA /* wmaprodecS_api.h in Headers */,
+				F28DC6D61342F771008A90CA /* wmaresults.h in Headers */,
+				F28DC6D71342F771008A90CA /* wmartmacros.h in Headers */,
+				F28DC6D81342F771008A90CA /* wmatypes.h in Headers */,
+				F28DC6D91342F771008A90CA /* wmatypes_ansi.h in Headers */,
+				F28DC6DA1342F771008A90CA /* wmatypes_arm.h in Headers */,
+				F28DC6DB1342F771008A90CA /* wmatypes_embedded_x86.h in Headers */,
+				F28DC6DC1342F771008A90CA /* wmatypes_macos.h in Headers */,
+				F28DC6DD1342F771008A90CA /* wmatypes_mips.h in Headers */,
+				F28DC6DE1342F771008A90CA /* wmatypes_qnx_x86.h in Headers */,
+				F28DC6DF1342F771008A90CA /* wmatypes_s_sunos5.h in Headers */,
+				F28DC6E01342F771008A90CA /* wmatypes_sh3.h in Headers */,
+				F28DC6E11342F771008A90CA /* wmatypes_sh4.h in Headers */,
+				F28DC6E21342F771008A90CA /* wmatypes_win64.h in Headers */,
+				F28DC6E31342F771008A90CA /* wmatypes_x86.h in Headers */,
+				F28DC6E41342F771008A90CA /* wmatyps.h in Headers */,
+				F28DC6E51342F771008A90CA /* wmawfxdefs.h in Headers */,
+				F28DC6E61342F771008A90CA /* wmawintypes.h in Headers */,
+				F28DC6E71342F771008A90CA /* wmdsplogging.h in Headers */,
+				F28DC6E81342F771008A90CA /* wmsal.h in Headers */,
+				F28DC6E91342F771008A90CA /* wmspecstring.h in Headers */,
+				F28DC6EA1342F771008A90CA /* wmspecstringce.h in Headers */,
+				F28DC6EB1342F771008A90CA /* wmspecstrings_adt.h in Headers */,
+				F28DC6EC1342F771008A90CA /* wmspecstrings_strict.h in Headers */,
+				F28DC6ED1342F771008A90CA /* wmspecstrings_undef.h in Headers */,
+				E1ADD7EC137B72F800EA097A /* kxarm.h in Headers */,
+				E1ADD7ED137B72F800EA097A /* wma_arm_version.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7DE0BE001492196F00B329B0 /* voWMADec_i386 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE0BE951492196F00B329B0 /* Build configuration list for PBXNativeTarget "voWMADec_i386" */;
+			buildPhases = (
+				7DE0BE011492196F00B329B0 /* Headers */,
+				7DE0BE521492196F00B329B0 /* Sources */,
+				7DE0BE931492196F00B329B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			comments = "ARM v7: _IOS  ARM ARMV7 _ARM_ BUILD_WITHOUT_C_LIB BUILD_INTEGER DISABLE_UES ENABLE_LPC ENABLE_ALL_ENCOPT WMA_DECPK_BUILD\n\nC version : _IOS BUILD_INTEGER ENABLE_LPC ENABLE_ALL_ENCOPT DISABLE_OPT DISABLE_UES WMA_DECPK_BUILD _CRT_NON_CONFORMING_SWPRINTFS _CRT_SECURE_NO_DEPRECATE \n\n\nC version 1: _IOS BUILD_INTEGER ENABLE_LPC ENABLE_ALL_ENCOPT DISABLE_OPT DISABLE_UES WMA_DECPK_BUILD _CRT_NON_CONFORMING_SWPRINTFS _CRT_SECURE_NO_DEPRECATE DISABLE_UES ARM ARMV7 _ARM_ BUILD_WITHOUT_C_LIB\n\n\nok armv7:_IOS BUILD_INTEGER ENABLE_LPC ENABLE_ALL_ENCOPT DISABLE_OPT DISABLE_UES WMA_DECPK_BUILD _CRT_NON_CONFORMING_SWPRINTFS _CRT_SECURE_NO_DEPRECATE DISABLE_UES ARM ARMV7 _ARM_ BUILD_WITHOUT_C_LIB\n\n\ntoday:\n_IOS ARM ARMV7 _ARM_ BUILD_WITHOUT_C_LIB BUILD_INTEGER DISABLE_UES ENABLE_LPC ENABLE_ALL_ENCOPT WMA_DECPK_BUILD";
+			dependencies = (
+			);
+			name = voWMADec_i386;
+			productName = voWMADec;
+			productReference = 7DE0BE981492196F00B329B0 /* libvoWMADec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AAC07D0554694100DB518D /* voWMADec_V7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voWMADec_V7" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			comments = "ARM v7: _IOS  ARM ARMV7 _ARM_ BUILD_WITHOUT_C_LIB BUILD_INTEGER DISABLE_UES ENABLE_LPC ENABLE_ALL_ENCOPT WMA_DECPK_BUILD\n\nC version : _IOS BUILD_INTEGER ENABLE_LPC ENABLE_ALL_ENCOPT DISABLE_OPT DISABLE_UES WMA_DECPK_BUILD _CRT_NON_CONFORMING_SWPRINTFS _CRT_SECURE_NO_DEPRECATE \n\n\nC version 1: _IOS BUILD_INTEGER ENABLE_LPC ENABLE_ALL_ENCOPT DISABLE_OPT DISABLE_UES WMA_DECPK_BUILD _CRT_NON_CONFORMING_SWPRINTFS _CRT_SECURE_NO_DEPRECATE DISABLE_UES ARM ARMV7 _ARM_ BUILD_WITHOUT_C_LIB\n\n\nok armv7:_IOS BUILD_INTEGER ENABLE_LPC ENABLE_ALL_ENCOPT DISABLE_OPT DISABLE_UES WMA_DECPK_BUILD _CRT_NON_CONFORMING_SWPRINTFS _CRT_SECURE_NO_DEPRECATE DISABLE_UES ARM ARMV7 _ARM_ BUILD_WITHOUT_C_LIB\n\n\ntoday:\n_IOS ARM ARMV7 _ARM_ BUILD_WITHOUT_C_LIB BUILD_INTEGER DISABLE_UES ENABLE_LPC ENABLE_ALL_ENCOPT WMA_DECPK_BUILD";
+			dependencies = (
+			);
+			name = voWMADec_V7;
+			productName = voWMADec;
+			productReference = D2AAC07E0554694100DB518D /* libvoWMADec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F28DC68E1342F6B0008A90CA /* voWMADec_V6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28DC6981342F6BD008A90CA /* Build configuration list for PBXNativeTarget "voWMADec_V6" */;
+			buildPhases = (
+				F28DC68B1342F6B0008A90CA /* Headers */,
+				F28DC68C1342F6B0008A90CA /* Sources */,
+				F28DC68D1342F6B0008A90CA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voWMADec_V6;
+			productName = voWMADec_V6;
+			productReference = F28DC68F1342F6B0008A90CA /* libvoWMADec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voWMADec" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* voWMADec */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* voWMADec_V7 */,
+				F28DC68E1342F6B0008A90CA /* voWMADec_V6 */,
+				7DE0BE001492196F00B329B0 /* voWMADec_i386 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DE0BE521492196F00B329B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE0BE531492196F00B329B0 /* wmabuffilt.c in Sources */,
+				7DE0BE541492196F00B329B0 /* wmachmtx.c in Sources */,
+				7DE0BE551492196F00B329B0 /* wmaltrt.c in Sources */,
+				7DE0BE561492196F00B329B0 /* AutoProfile.c in Sources */,
+				7DE0BE571492196F00B329B0 /* basepluspro.c in Sources */,
+				7DE0BE581492196F00B329B0 /* chexpro.c in Sources */,
+				7DE0BE591492196F00B329B0 /* configcommon.c in Sources */,
+				7DE0BE5A1492196F00B329B0 /* dectables.c in Sources */,
+				7DE0BE5B1492196F00B329B0 /* dectablespro.c in Sources */,
+				7DE0BE5C1492196F00B329B0 /* dectablesstd.c in Sources */,
+				7DE0BE5D1492196F00B329B0 /* dectablesstdpro.c in Sources */,
+				7DE0BE5E1492196F00B329B0 /* downmix.c in Sources */,
+				7DE0BE5F1492196F00B329B0 /* drccommonpro.c in Sources */,
+				7DE0BE601492196F00B329B0 /* fex.c in Sources */,
+				7DE0BE611492196F00B329B0 /* fft.c in Sources */,
+				7DE0BE621492196F00B329B0 /* float.c in Sources */,
+				7DE0BE631492196F00B329B0 /* lowrate_common.c in Sources */,
+				7DE0BE641492196F00B329B0 /* lowrate_commonstd.c in Sources */,
+				7DE0BE651492196F00B329B0 /* lpc.c in Sources */,
+				7DE0BE661492196F00B329B0 /* lpclsl.c in Sources */,
+				7DE0BE671492196F00B329B0 /* lpcprolsl.c in Sources */,
+				7DE0BE681492196F00B329B0 /* lpcstd.c in Sources */,
+				7DE0BE691492196F00B329B0 /* msaudio.c in Sources */,
+				7DE0BE6A1492196F00B329B0 /* msaudiolsl.c in Sources */,
+				7DE0BE6B1492196F00B329B0 /* msaudiopro.c in Sources */,
+				7DE0BE6C1492196F00B329B0 /* msaudioprotemplate.c in Sources */,
+				7DE0BE6D1492196F00B329B0 /* msaudiostd.c in Sources */,
+				7DE0BE6E1492196F00B329B0 /* msaudiostdpro.c in Sources */,
+				7DE0BE6F1492196F00B329B0 /* msaudiotemplate.c in Sources */,
+				7DE0BE701492196F00B329B0 /* arm_stub.c in Sources */,
+				7DE0BE711492196F00B329B0 /* baseplusdecpro.c in Sources */,
+				7DE0BE721492196F00B329B0 /* chexdecpro.c in Sources */,
+				7DE0BE731492196F00B329B0 /* entropydec.c in Sources */,
+				7DE0BE741492196F00B329B0 /* entropydecpro.c in Sources */,
+				7DE0BE751492196F00B329B0 /* entropydecprolsl.c in Sources */,
+				7DE0BE761492196F00B329B0 /* entropydecstd.c in Sources */,
+				7DE0BE771492196F00B329B0 /* fexdec.c in Sources */,
+				7DE0BE781492196F00B329B0 /* huffdec.c in Sources */,
+				7DE0BE791492196F00B329B0 /* losslessdeclsl.c in Sources */,
+				7DE0BE7A1492196F00B329B0 /* losslessdecpro.c in Sources */,
+				7DE0BE7B1492196F00B329B0 /* losslessdecprolsl.c in Sources */,
+				7DE0BE7C1492196F00B329B0 /* msaudiodec.c in Sources */,
+				7DE0BE7D1492196F00B329B0 /* msaudiodectemplate.c in Sources */,
+				7DE0BE7E1492196F00B329B0 /* strmdec_wma.c in Sources */,
+				7DE0BE7F1492196F00B329B0 /* wmadec.c in Sources */,
+				7DE0BE801492196F00B329B0 /* wmaprodecS_api.c in Sources */,
+				7DE0BE811492196F00B329B0 /* wmafmt.c in Sources */,
+				7DE0BE821492196F00B329B0 /* commontables.c in Sources */,
+				7DE0BE831492196F00B329B0 /* wmaerror.c in Sources */,
+				7DE0BE841492196F00B329B0 /* wmamalloc.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F230B7A6128CEC3A00F53EB8 /* wmabuffilt.c in Sources */,
+				F230B7A7128CEC3A00F53EB8 /* wmachmtx.c in Sources */,
+				F230B7A8128CEC3A00F53EB8 /* wmaltrt.c in Sources */,
+				F230B7C4128CEC6C00F53EB8 /* AutoProfile.c in Sources */,
+				F230B7C5128CEC6C00F53EB8 /* basepluspro.c in Sources */,
+				F230B7C6128CEC6C00F53EB8 /* chexpro.c in Sources */,
+				F230B7C7128CEC6C00F53EB8 /* configcommon.c in Sources */,
+				F230B7C8128CEC6C00F53EB8 /* dectables.c in Sources */,
+				F230B7C9128CEC6C00F53EB8 /* dectablespro.c in Sources */,
+				F230B7CA128CEC6C00F53EB8 /* dectablesstd.c in Sources */,
+				F230B7CB128CEC6C00F53EB8 /* dectablesstdpro.c in Sources */,
+				F230B7CC128CEC6C00F53EB8 /* downmix.c in Sources */,
+				F230B7CD128CEC6C00F53EB8 /* drccommonpro.c in Sources */,
+				F230B7CE128CEC6C00F53EB8 /* fex.c in Sources */,
+				F230B7CF128CEC6C00F53EB8 /* fft.c in Sources */,
+				F230B7D0128CEC6C00F53EB8 /* float.c in Sources */,
+				F230B7D1128CEC6C00F53EB8 /* lowrate_common.c in Sources */,
+				F230B7D2128CEC6C00F53EB8 /* lowrate_commonstd.c in Sources */,
+				F230B7D3128CEC6C00F53EB8 /* lpc.c in Sources */,
+				F230B7D4128CEC6C00F53EB8 /* lpclsl.c in Sources */,
+				F230B7D5128CEC6C00F53EB8 /* lpcprolsl.c in Sources */,
+				F230B7D6128CEC6C00F53EB8 /* lpcstd.c in Sources */,
+				F230B7D7128CEC6C00F53EB8 /* msaudio.c in Sources */,
+				F230B7D8128CEC6C00F53EB8 /* msaudiolsl.c in Sources */,
+				F230B7D9128CEC6C00F53EB8 /* msaudiopro.c in Sources */,
+				F230B7DA128CEC6C00F53EB8 /* msaudioprotemplate.c in Sources */,
+				F230B7DB128CEC6C00F53EB8 /* msaudiostd.c in Sources */,
+				F230B7DC128CEC6C00F53EB8 /* msaudiostdpro.c in Sources */,
+				F230B7DD128CEC6C00F53EB8 /* msaudiotemplate.c in Sources */,
+				F230B7F0128CEC9200F53EB8 /* arm_stub.c in Sources */,
+				F230B7F1128CEC9200F53EB8 /* baseplusdecpro.c in Sources */,
+				F230B7F2128CEC9200F53EB8 /* chexdecpro.c in Sources */,
+				F230B7F3128CEC9200F53EB8 /* entropydec.c in Sources */,
+				F230B7F4128CEC9200F53EB8 /* entropydecpro.c in Sources */,
+				F230B7F5128CEC9200F53EB8 /* entropydecprolsl.c in Sources */,
+				F230B7F6128CEC9200F53EB8 /* entropydecstd.c in Sources */,
+				F230B7F7128CEC9200F53EB8 /* fexdec.c in Sources */,
+				F230B7F8128CEC9200F53EB8 /* huffdec.c in Sources */,
+				F230B7F9128CEC9200F53EB8 /* losslessdeclsl.c in Sources */,
+				F230B7FA128CEC9200F53EB8 /* losslessdecpro.c in Sources */,
+				F230B7FB128CEC9200F53EB8 /* losslessdecprolsl.c in Sources */,
+				F230B7FC128CEC9200F53EB8 /* msaudiodec.c in Sources */,
+				F230B7FD128CEC9200F53EB8 /* msaudiodectemplate.c in Sources */,
+				F230B7FE128CEC9200F53EB8 /* strmdec_wma.c in Sources */,
+				F230B7FF128CEC9200F53EB8 /* wmadec.c in Sources */,
+				F230B800128CEC9200F53EB8 /* wmaprodecS_api.c in Sources */,
+				F230B803128CECB800F53EB8 /* wmafmt.c in Sources */,
+				F230B808128CECD800F53EB8 /* commontables.c in Sources */,
+				F230B809128CECD800F53EB8 /* wmaerror.c in Sources */,
+				F230B80A128CECD800F53EB8 /* wmamalloc.c in Sources */,
+				E1BEB141137A9ABF0087B45A /* huffdec_arm.s in Sources */,
+				E1BEB143137A9ABF0087B45A /* losslessdeclsl_arm.s in Sources */,
+				E1BEB144137A9ABF0087B45A /* losslessdecprolsl_arm.s in Sources */,
+				E1BEB145137A9ABF0087B45A /* lowrate_arm.s in Sources */,
+				E1BEB146137A9ABF0087B45A /* lpclsl_arm.s in Sources */,
+				E1BEB147137A9ABF0087B45A /* lpcstd_arm.s in Sources */,
+				E1BEB148137A9ABF0087B45A /* msaudiodec_arm.s in Sources */,
+				E1BEB149137A9ABF0087B45A /* strmdec_arm.s in Sources */,
+				E1BEB14A137A9ABF0087B45A /* voMemory_arm.s in Sources */,
+				E1BEB165137A9AF30087B45A /* fft_arm_v7.s in Sources */,
+				E1BEB166137A9AF30087B45A /* msaudio_arm_v7.s in Sources */,
+				E1BEB167137A9AF30087B45A /* msaudiopro_arm_v7.s in Sources */,
+				E1BEB168137A9AF30087B45A /* msaudiostdpro_arm_v7.s in Sources */,
+				E1ADD7EB137B72F800EA097A /* wma_member_arm.inc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28DC68C1342F6B0008A90CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28DC6EE1342F7CA008A90CA /* arm_stub.c in Sources */,
+				F28DC6EF1342F7CA008A90CA /* AutoProfile.c in Sources */,
+				F28DC6F01342F7CA008A90CA /* baseplusdecpro.c in Sources */,
+				F28DC6F11342F7CA008A90CA /* basepluspro.c in Sources */,
+				F28DC6F21342F7CA008A90CA /* chexdecpro.c in Sources */,
+				F28DC6F31342F7CA008A90CA /* chexpro.c in Sources */,
+				F28DC6F41342F7CA008A90CA /* commontables.c in Sources */,
+				F28DC6F51342F7CA008A90CA /* configcommon.c in Sources */,
+				F28DC6F61342F7CA008A90CA /* dectables.c in Sources */,
+				F28DC6F71342F7CA008A90CA /* dectablespro.c in Sources */,
+				F28DC6F81342F7CA008A90CA /* dectablesstd.c in Sources */,
+				F28DC6F91342F7CA008A90CA /* dectablesstdpro.c in Sources */,
+				F28DC6FA1342F7CA008A90CA /* downmix.c in Sources */,
+				F28DC6FB1342F7CA008A90CA /* drccommonpro.c in Sources */,
+				F28DC6FC1342F7CA008A90CA /* entropydec.c in Sources */,
+				F28DC6FD1342F7CA008A90CA /* entropydecpro.c in Sources */,
+				F28DC6FE1342F7CA008A90CA /* entropydecprolsl.c in Sources */,
+				F28DC6FF1342F7CA008A90CA /* entropydecstd.c in Sources */,
+				F28DC7001342F7CA008A90CA /* fex.c in Sources */,
+				F28DC7011342F7CA008A90CA /* fexdec.c in Sources */,
+				F28DC7021342F7CA008A90CA /* fft.c in Sources */,
+				F28DC7031342F7CA008A90CA /* float.c in Sources */,
+				F28DC7041342F7CA008A90CA /* huffdec.c in Sources */,
+				F28DC7051342F7CA008A90CA /* losslessdeclsl.c in Sources */,
+				F28DC7061342F7CA008A90CA /* losslessdecpro.c in Sources */,
+				F28DC7071342F7CA008A90CA /* losslessdecprolsl.c in Sources */,
+				F28DC7081342F7CA008A90CA /* lowrate_common.c in Sources */,
+				F28DC7091342F7CA008A90CA /* lowrate_commonstd.c in Sources */,
+				F28DC70A1342F7CA008A90CA /* lpc.c in Sources */,
+				F28DC70B1342F7CA008A90CA /* lpclsl.c in Sources */,
+				F28DC70C1342F7CA008A90CA /* lpcprolsl.c in Sources */,
+				F28DC70D1342F7CA008A90CA /* lpcstd.c in Sources */,
+				F28DC70E1342F7CA008A90CA /* msaudio.c in Sources */,
+				F28DC70F1342F7CA008A90CA /* msaudiodec.c in Sources */,
+				F28DC7101342F7CA008A90CA /* msaudiodectemplate.c in Sources */,
+				F28DC7111342F7CA008A90CA /* msaudiolsl.c in Sources */,
+				F28DC7121342F7CA008A90CA /* msaudiopro.c in Sources */,
+				F28DC7131342F7CA008A90CA /* msaudioprotemplate.c in Sources */,
+				F28DC7141342F7CA008A90CA /* msaudiostd.c in Sources */,
+				F28DC7151342F7CA008A90CA /* msaudiostdpro.c in Sources */,
+				F28DC7161342F7CA008A90CA /* msaudiotemplate.c in Sources */,
+				F28DC7171342F7CA008A90CA /* strmdec_wma.c in Sources */,
+				F28DC7191342F7CA008A90CA /* wmabuffilt.c in Sources */,
+				F28DC71A1342F7CA008A90CA /* wmachmtx.c in Sources */,
+				F28DC71B1342F7CA008A90CA /* wmadec.c in Sources */,
+				F28DC71C1342F7CA008A90CA /* wmaerror.c in Sources */,
+				F28DC71D1342F7CA008A90CA /* wmafmt.c in Sources */,
+				F28DC71E1342F7CA008A90CA /* wmaltrt.c in Sources */,
+				F28DC71F1342F7CA008A90CA /* wmamalloc.c in Sources */,
+				F28DC7201342F7CA008A90CA /* wmaprodecS_api.c in Sources */,
+				E1BEB14D137A9ABF0087B45A /* huffdec_arm.s in Sources */,
+				E1BEB14F137A9ABF0087B45A /* losslessdeclsl_arm.s in Sources */,
+				E1BEB150137A9ABF0087B45A /* losslessdecprolsl_arm.s in Sources */,
+				E1BEB151137A9ABF0087B45A /* lowrate_arm.s in Sources */,
+				E1BEB152137A9ABF0087B45A /* lpclsl_arm.s in Sources */,
+				E1BEB153137A9ABF0087B45A /* lpcstd_arm.s in Sources */,
+				E1BEB154137A9ABF0087B45A /* msaudiodec_arm.s in Sources */,
+				E1BEB155137A9ABF0087B45A /* strmdec_arm.s in Sources */,
+				E1BEB156137A9ABF0087B45A /* voMemory_arm.s in Sources */,
+				E1BEB15D137A9ADC0087B45A /* fft_arm_v6.s in Sources */,
+				E1BEB15E137A9ADC0087B45A /* msaudio_arm_v6.s in Sources */,
+				E1BEB15F137A9ADC0087B45A /* msaudiopro_arm_v6.s in Sources */,
+				E1BEB160137A9ADC0087B45A /* msaudiostdpro_arm_v6.s in Sources */,
+				E1ADD7EE137B72F800EA097A /* wma_member_arm.inc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voWMADec.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voWMADec_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = voWMADec;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../voRelease/iOS/static/v7/;
+				DSTROOT = /tmp/voWMADec.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voWMADec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					BUILD_INTEGER,
+					ENABLE_LPC,
+					ENABLE_ALL_ENCOPT,
+					DISABLE_UES,
+					WMA_DECPK_BUILD,
+					_CRT_NON_CONFORMING_SWPRINTFS,
+					_CRT_SECURE_NO_DEPRECATE,
+					ARM,
+					ARMV7,
+					_ARM_,
+					BUILD_WITHOUT_C_LIB,
+				);
+				HEADER_SEARCH_PATHS = (
+					"../../inc/**",
+					../../src/common,
+					../../../../../../Include,
+					../../../../../../Common,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voWMADec;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					BUILD_INTEGER,
+					ENABLE_LPC,
+					ENABLE_ALL_ENCOPT,
+					DISABLE_OPT,
+					DISABLE_UES,
+					WMA_DECPK_BUILD,
+					_CRT_NON_CONFORMING_SWPRINTFS,
+					_CRT_SECURE_NO_DEPRECATE,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		7DE0BE961492196F00B329B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voWMADec.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voWMADec_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = voWMADec;
+			};
+			name = Debug;
+		};
+		7DE0BE971492196F00B329B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../voRelease/iOS/static/i386/;
+				DSTROOT = /tmp/voWMADec.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voWMADec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					BUILD_INTEGER,
+					ENABLE_LPC,
+					ENABLE_ALL_ENCOPT,
+					DISABLE_UES,
+					WMA_DECPK_BUILD,
+					_CRT_NON_CONFORMING_SWPRINTFS,
+					_CRT_SECURE_NO_DEPRECATE,
+				);
+				HEADER_SEARCH_PATHS = (
+					"../../inc/**",
+					../../src/common,
+					../../../../../../Include,
+					../../../../../../Common,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voWMADec;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F28DC6901342F6B1008A90CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = voWMADec_V6;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F28DC6911342F6B1008A90CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../../../../../../voRelease/iOS/static/v6/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					ARM,
+					ARMV6,
+					_ARM_,
+					BUILD_WITHOUT_C_LIB,
+					BUILD_INTEGER,
+					DISABLE_UES,
+					ENABLE_LPC,
+					ENABLE_ALL_ENCOPT,
+					WMA_DECPK_BUILD,
+				);
+				HEADER_SEARCH_PATHS = (
+					"../../inc/**",
+					../../src/common,
+					../../../../../../Include,
+					../../../../../../Common,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = voWMADec;
+				SDKROOT = iphoneos;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voWMADec_V7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voWMADec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE0BE951492196F00B329B0 /* Build configuration list for PBXNativeTarget "voWMADec_i386" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE0BE961492196F00B329B0 /* Debug */,
+				7DE0BE971492196F00B329B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28DC6981342F6BD008A90CA /* Build configuration list for PBXNativeTarget "voWMADec_V6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28DC6901342F6B1008A90CA /* Debug */,
+				F28DC6911342F6B1008A90CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

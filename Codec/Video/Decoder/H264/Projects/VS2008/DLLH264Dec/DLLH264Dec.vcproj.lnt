@@ -1,0 +1,3 @@
+/* -dConfiguration= ... none provided  */
+-D_WINDLL                      //  26: ConfigurationType = "2" 
+.\H264DecDLL.cpp               //1521: RelativePath = ".\H264DecDLL.cpp" 

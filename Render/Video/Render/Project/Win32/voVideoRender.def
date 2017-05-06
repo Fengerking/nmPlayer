@@ -1,0 +1,4 @@
+LIBRARY voMMVR.dll
+
+EXPORTS
+	voGetVideoRenderAPI

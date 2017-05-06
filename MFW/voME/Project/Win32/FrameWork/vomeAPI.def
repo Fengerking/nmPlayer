@@ -1,0 +1,6 @@
+LIBRARY	voOMXME.dll
+
+EXPORTS
+	voOMXGetEngineAPI
+	voOMXGetComponentAPI
+	

@@ -1,0 +1,4 @@
+LIBRARY	"voDRM_Verimatrix_AES128"
+
+EXPORTS
+	voGetDRMAPI

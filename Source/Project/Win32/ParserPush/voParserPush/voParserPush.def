@@ -1,0 +1,4 @@
+LIBRARY	voParserPush.dll
+
+EXPORTS
+	voGetPaserPushAPI

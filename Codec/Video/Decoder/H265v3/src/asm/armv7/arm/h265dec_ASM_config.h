@@ -1,0 +1,5 @@
+MC_ASM_ENABLED          equ     1
+DEQUANT_ASM_ENABLED     equ     1
+IDCT_ASM_ENABLED		equ		1
+DEBLOCK_ASM_ENABLED		equ	    1
+SAO_ASM_ENABLED			equ	    1

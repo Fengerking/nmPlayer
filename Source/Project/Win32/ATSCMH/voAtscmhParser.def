@@ -1,0 +1,4 @@
+LIBRARY voAtscmhParser.dll
+
+EXPORTS
+	voGetParserAPI

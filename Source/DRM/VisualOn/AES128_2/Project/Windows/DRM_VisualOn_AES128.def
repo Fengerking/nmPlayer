@@ -1,0 +1,4 @@
+LIBRARY	"DRM_VisualOn_AES128"
+
+EXPORTS
+	voGetDRMAPI

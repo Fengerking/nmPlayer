@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'libvoOSEng' target in the 'libvoOSEng' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

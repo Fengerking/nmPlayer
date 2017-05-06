@@ -1,0 +1,11 @@
+//
+// AudioFormat table
+// F(type, name)
+//
+F(PCM8, "PCM_8BIT")
+F(PCM16, "PCM_16BIT")
+F(PCM16_DIRECT, "PCM_16BIT_DIRECT")
+F(PCM24_DIRECT, "PCM_24BIT_DIRECT")
+F(AC3, "AC3")
+F(EAC3, "EAC3")
+

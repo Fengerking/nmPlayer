@@ -1,0 +1,187 @@
+; ***** BEGIN LICENSE BLOCK *****   
+; Source last modified: $Id: coder.h55,v 1.1 2005/02/18 23:30:39 hfrederickson Exp $ 
+;  
+; REALNETWORKS CONFIDENTIAL--NOT FOR DISTRIBUTION IN SOURCE CODE FORM   
+; Portions Copyright (c) 1995-2005 RealNetworks, Inc.   
+; All Rights Reserved.   
+;   
+; The contents of this file, and the files included with this file, 
+; are subject to the current version of the RealNetworks Community 
+; Source License (the "RCSL"), including Attachment G and any 
+; applicable attachments, all available at 
+; http://www.helixcommunity.org/content/rcsl.  You may also obtain 
+; the license terms directly from RealNetworks.  You may not use this 
+; file except in compliance with the RCSL and its Attachments. There 
+; are no redistribution rights for the source code of this 
+; file. Please see the applicable RCSL for the rights, obligations 
+; and limitations governing use of the contents of the file. 
+;   
+; This file is part of the Helix DNA Technology. RealNetworks is the 
+; developer of the Original Code and owns the copyrights in the 
+; portions it created. 
+;   
+; This file, and the files included with this file, is distributed 
+; and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY 
+; KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS 
+; ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES 
+; OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET 
+; ENJOYMENT OR NON-INFRINGEMENT. 
+;   
+; Technology Compatibility Kit Test Suite(s) Location:   
+; https://rarvcode-tck.helixcommunity.org   
+;   
+; Contributor(s):   
+;   
+; ***** END LICENSE BLOCK ***** 
+
+;-----------------------------------------------------------------------------------------------------------
+; 	File 		:	coder.h55 
+;   Description : C55X assembly structure definitions for structures defined in Coder.h
+;	
+;------------------------------------------------------------------------------------------------------------
+MAXCHAN		.set 2
+MAXFBITS  	.set 2240
+
+
+NBINS	  	.set 20
+MAXCATZNS 	.set (1 << 7)
+CODINGDELAY .set 03
+
+
+MAXNSAMP  	.set 1024
+MAXREGNS  	.set MAXNSAMP / NBINS
+
+MAXCSAMP  	.set 2*MAXNSAMP
+MAXCREGN 	.set 2*MAXREGNS
+
+NPARTS		.set 8
+MAXNATS		.set 8
+LOCBITS		.set 3
+GAINBITS	.set 4
+
+GAINMAX		.set 4
+GAINMIN		.set (-7)
+GAINDIF		.set (GAINMAX - GAINMIN)
+
+
+;------------------------------------------------------------------------------------------------------------
+
+
+; gain control info 
+GAINC		.struct		
+
+nats		.short						;number of attacks
+loc			.short		MAXNATS			;location of attack
+gain		.short  	MAXNATS			;gain code
+
+GAINC_LEN	.endstruct
+
+
+;------------------------------------------------------------------------------------------------------------
+
+
+
+;-----------------------------------------------------------------------------------------------------------
+;	===== RA_TNI_Obj ======
+;
+; Definition of algorithm instance object type
+;-----------------------------------------------------------------------------------------------------------
+
+RA_TNI_Obj .cstruct
+
+ialg		.long		; 	 Pointer to parent IALG object. (IALG_Obj*)
+						;    Must be first field of algorithm instance object
+	
+decpcm	 	.long 		; must be 
+						; set up to a buffer
+						; size [2*MAXNSAMP] (max)
+						; Or done dynamically (depending upon no. of
+						; samples in stream)
+						; NOTE : The buffer must be aligned such that
+						; lg2(2*MAXNSAMP*2) lsbs of the address are 0 
+
+
+nsamples 	.short
+nchannels 	.short
+nregions	.short
+nframebits	.short
+samprate	.ushort
+cplstart	.short
+cplqbits	.short
+
+oldlost		.short		; delayed loss flag
+
+
+pkptr		.ulong		;bitpacking pointer  (ULONG*)
+
+	.if	NOPACK
+pkbuf		.ulong		( MAXFBITS+31)/32	
+	.endif
+
+
+dgainc		.short 		( GAINC_LEN * MAXCHAN * 3 ) ; GAINC structure array of MAXCHAN  x 3 elements
+
+decmlt				.long		MAXCHAN					; pointers to 2  MLT buffers in internal memory.
+
+overlap		.long		MAXCHAN					; MAXCHAN x nSamples array
+												; must be initialize by framework to point to arrays
+
+buf			.long								; pointer to array of longs ( nsamples in length )	
+
+numCalls	.int								; DEBUG
+
+
+dualmono	.int					; dual mono flag 
+	
+_lfsr		.long 								; seed for random values      
+       
+       .if CONST_TABLE_DMA 
+;-- pointers to constant tables ----
+
+fixwindow_tab .long							;pointer to RA_TNI_fixwindow_tab
+fixwindow_tab_extmem .long					;pointer to RA_TNI_fixwindow_tab in ext mem
+fixwindowsize .long							; size of table
+
+fixcos4_sin4tab_extmem	.long				;ptr to RA_TNI_fixcos4tab/RA_TNI_fixsin4tab in ext mem
+fixcos4sin4size .long						; size of the tables combined
+fixcos4tab	.long 							;ptr to	RA_TNI_fixcos4tab
+fixsin4tab 	.long							;ptr to RA_TNI_fixsin4tab                                                                                      
+
+fixcos1tab	.long 							;ptr to RA_TNI_fixcos1tab                                                                                      
+fixcos1tab_extmem	.long 					;ptr to RA_TNI_fixcos1tab in ext mem                                                                                     
+fixcos1size	.long 							;size of RA_TNI_fixcos1tab                                                                                      
+
+twidtab 	.long 							;ptr to RA_TNI_twidtab   
+twidtab_extmem 	.long 						;ptr to RA_TNI_twidtab in ext mem 
+twidtabsize	.long 							;size of RA_TNI_twidtab   
+
+sqvh_tab	.long 	7						; array of ptrs to  
+											;	const HuffmanTableNode RA_TNI_sqvh_table_x[] ; 
+											
+dmaChannel_0	.long						; ptr to DMA channel 0
+
+
+	.if WORKING_BUF_DMA   
+;----Pointers to working buffers------
+
+decmlt_extmem	.long MAXCHAN			; pointers to 2  MLT buffers in external memory.		
+overlap_extmem	.long MAXCHAN			; ptr to overlap in extmem
+dmaChannel_1	.long						; ptr to DMA channel 1   
+dmaChannel_2	.long						; ptr to DMA channel 2   
+dmaChannel_3	.long						; ptr to DMA channel 3   
+
+   	.endif ; WORKING_BUF_DMA
+
+currChannel		.int					; current channel 0 or 1
+rdAgainFlg		.int					; one more channel ?
+   		.endif ;CONST_TABLE_DMA											
+	
+
+	.endstruct
+
+
+;------------------------------------------------------------------------------------------------------------
+
+
+
+

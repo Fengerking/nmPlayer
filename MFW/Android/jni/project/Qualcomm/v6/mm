@@ -1,0 +1,5 @@
+#!/bin/sh
+make 
+cp -f libvomejni.so /home/david/java/vomeplayer-eclair/libs/armeabi/
+#cp -f libvomejni.so /home/david/java/vomeplayer-eclair-2.1/libs/armeabi/
+#adb push libvomejni.so /data/data/com.visualon.vome/lib/

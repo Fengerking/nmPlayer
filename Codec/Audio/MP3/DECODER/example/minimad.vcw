@@ -1,0 +1,63 @@
+Microsoft eMbedded Visual Tools Workspace File, Format Version 4.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "minimad"=.\minimad.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/AudioCodec/VOI_MAD/example", WQKAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name mp3decLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "mp3decDll"=..\build\dll\wince\mp3decDll.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name mp3decLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "mp3decLib"=..\BUILD\WINCE\mp3decLib.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

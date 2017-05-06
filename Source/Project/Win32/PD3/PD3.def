@@ -1,0 +1,4 @@
+LIBRARY	"PD3"
+
+EXPORTS
+	voGetPDReadAPI

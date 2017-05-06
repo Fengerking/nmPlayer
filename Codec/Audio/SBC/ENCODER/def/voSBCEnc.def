@@ -1,0 +1,5 @@
+LIBRARY	"voSBCEnc.dll"
+
+EXPORTS
+	voGetSBCEncAPI	
+	

@@ -1,0 +1,594 @@
+// nsplay.idl
+
+#include <olectl.h>
+#include "..\inc\dsdispid.h"
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+// For Net Show
+typedef
+[
+    helpstring( "State of file playback" ),
+    public
+]
+enum NSOStateConstants
+{
+    [ helpstring( "File playback is stopped" ) ]  nsoStopped,
+    [ helpstring( "File playback is paused" ) ]   nsoPaused,
+    [ helpstring( "File is playing" ) ]  nsoRunning
+} NSOStateConstants;
+
+typedef
+[
+    helpstring( "Type of playback controls" ),
+    public
+]
+enum NSOControlConstants
+{
+    [ helpstring( "No playback controls" ) ]        nsoNone,
+    [ helpstring( "Simple playback controls" ) ]    nsoSimple,
+    [ helpstring( "Full playback controls" ) ]      nsoFull
+} NSOControlConstants;
+
+typedef
+[
+    helpstring( "Size of image display" ),
+    public
+]
+enum NSODisplayConstants
+{
+    [ helpstring( "Same size as the source images" ) ]          nsoDefaultSize,
+    [ helpstring( "Half the size of the source images" ) ]      nsoHalfSize,
+    [ helpstring( "Double the size of the source images" ) ]    nsoDoubleSize
+} NSODisplayConstants;
+
+typedef
+[
+    helpstring( "State of playback" ),
+    public
+]
+enum NSPlayStateConstants
+{
+    [ helpstring( "Playback is stopped" ) ]         nsStopped,
+    [ helpstring( "Playback is paused" ) ]          nsPaused,
+    [ helpstring( "Stream is playing" ) ]           nsPlaying,
+    [ helpstring( "Waiting for stream to begin" ) ] nsWaiting,
+} NSPlayStateConstants;
+
+typedef
+[
+    helpstring( "Type of playback controls" ),
+    public
+]
+enum NSControlConstants
+{
+    [ helpstring( "No playback controls" ) ]        nsNone,
+    [ helpstring( "Simple playback controls" ) ]    nsSimple,
+    [ helpstring( "Full playback controls" ) ]      nsFull
+} NSControlConstants;
+
+typedef
+[
+    helpstring( "Size of image display" ),
+    public
+]
+enum NSDisplayConstants
+{
+    [ helpstring("0 - Same size as source images" ) ]               nsDefaultSize,
+    [ helpstring("1 - Half the size of the source images" ) ]       nsHalfSize,
+    [ helpstring("2 - Double the size of the source images" ) ]     nsDoubleSize,
+} NSDisplayConstants;
+
+//
+// This enum must match values with STREAMPROTOCOL in streamer.idl
+//
+typedef
+[
+    helpstring( "Type of data streaming protocol" ),
+    public
+]
+enum NSProtocolConstants
+{
+    [ helpstring( "Multicast with no connection" ) ]        nsMulticast = 1,
+    [ helpstring( "Multicast with connection" ) ]           nsMulticastPlus,
+    [ helpstring( "Unicast using UDP" ) ]                   nsUDP,
+    [ helpstring( "Unicast using TCP" ) ]                   nsTCP,
+    [ helpstring( "Unicast using distribution" ) ]          nsDistribution,
+    [ helpstring( "Unicast using HTTP" ) ]                  nsHTTP,
+    [ helpstring( "Networked file playback" ) ]             nsFile
+} NSProtocolConstants;
+
+typedef
+[
+    helpstring( "State of opening process" ),
+    public
+]
+enum NSOpenStateConstants
+{
+    [ helpstring( "Closed" ) ]                              nsClosed,
+    [ helpstring( "Loading an ASX file" ) ]                 nsLoadingASX,
+    [ helpstring( "Loading an NSC file" ) ]                 nsLoadingNSC,
+    [ helpstring( "Locating the server" ) ]                 nsLocating,
+    [ helpstring( "Connecting to the server" ) ]            nsConnecting,
+    [ helpstring( "Opening or listening for the stream" ) ] nsOpening,
+    [ helpstring( "Open" ) ]                                nsOpen
+} NSOpenStateConstants;
+
+typedef
+[
+    helpstring( "Type of warning" ),
+    public
+]
+enum NSWarningTypeConstants
+{
+    [ helpstring( "The audio playback device is in use" ) ] nsNoAudioDevice,
+    [ helpstring( "Unknown stream format received" ) ]      nsUnknownStreamFormat,
+    [ helpstring( "A file in the playlist couldn't be played" ) ] nsPlaylistItemFailure,
+    [ helpstring( "No video renderer is installed" ) ] nsVideoNotRendered,
+    [ helpstring( "No audio renderer is installed" ) ] nsAudioNotRendered,
+    [ helpstring( "This media uses a codec which is not available" ) ] nsMissingCodec
+} NSWarningTypeConstants;
+
+//
+// old dispatch interface for NSOPlay control
+//
+[
+    object,
+    uuid(2179C5D1-EBFF-11cf-B6FD-00AA00B4E220),
+    helpstring( "Dispatch interface for NSOPlay Control" ),
+    dual,
+    hidden
+]
+interface INSOPlay : IDispatch
+{
+    //
+    // NSOPlay properties
+    //
+    [ id( DISPID_IMAGESOURCEWIDTH ), propget, helpstring( "Returns the original width of the source images" ) ]
+	HRESULT ImageSourceWidth( [out, retval] long *pWidth );
+
+    [ id( DISPID_IMAGESOURCEHEIGHT ), propget, helpstring( "Returns the original height of the source images" ) ]
+	HRESULT ImageSourceHeight( [out, retval] long *pHeight );
+
+    [ id( DISPID_DURATION ), propget, helpstring( "Returns the play duration of the file" ) ]
+	HRESULT Duration( [out, retval] double *pDuration );
+
+    [ id( DISPID_AUTHOR ), propget, helpstring( "Returns the author of the file" ) ]
+	HRESULT Author( [out, retval] BSTR *pbstrAuthor );
+
+    [ id( DISPID_COPYRIGHT ), propget, helpstring( "Returns the copyright statement of the file" ) ]
+	HRESULT Copyright( [out, retval] BSTR *pbstrCopyright );
+
+    [ id( DISPID_DESCRIPTION ), propget, helpstring( "Returns the description of the file" ) ]
+	HRESULT Description( [out, retval] BSTR *pbstrDescription );
+
+    [ id( DISPID_RATING ), propget, helpstring( "Returns the rating of the file" ) ]
+	HRESULT Rating( [out, retval] BSTR *pbstrRating );
+
+    [ id( DISPID_TITLE ), propget, helpstring( "Returns the title of the file" ) ]
+	HRESULT Title( [out, retval] BSTR *pbstrTitle );
+
+    [ id( DISPID_SOURCELINK ), propget, helpstring( "Returns the source path of the file" ) ]
+	HRESULT SourceLink( [out, retval] BSTR *pbstrSourceLink );
+
+    [ id( DISPID_MARKERCOUNT ), propget, helpstring( "Returns the number of markers in the file" ) ]
+	HRESULT MarkerCount( [out, retval] long *pMarkerCount );
+
+    [ id( DISPID_CANSCAN ), propget, helpstring( "Returns whether or not the file can be scanned" ) ]
+	HRESULT CanScan( [out, retval] VARIANT_BOOL *pCanScan );
+
+    [ id( DISPID_CANSEEK ), propget, helpstring( "Returns whether or not the file can be seeked into" ) ]
+	HRESULT CanSeek( [out, retval] VARIANT_BOOL *pCanSeek );
+
+    [ id( DISPID_CANSEEKTOMARKERS ), propget, helpstring( "Returns whether or not the file can be seeked into by markers" ) ]
+	HRESULT CanSeekToMarkers( [out, retval] VARIANT_BOOL *pCanSeekToMarkers );
+
+    [ id( DISPID_CREATIONDATE ), propget, helpstring( "Returns the creation date of the file" ) ]
+	HRESULT CreationDate( [out, retval] DATE *pCreationDate );
+
+    [ id( DISPID_BANDWIDTH ), propget, helpstring( "Returns the bandwidth of the file in bits per second" ) ]
+	HRESULT Bandwidth( [out, retval] long *pBandwidth );
+
+    [ id( DISPID_ERRORCORRECTION ), propget, helpstring( "Returns the error correction type of the file" ) ]
+	HRESULT ErrorCorrection( [out, retval] BSTR *pbstrErrorCorrection );
+
+    [ id( DISPID_AUTOSTART ), propget, helpstring( "Returns or sets whether or not file playback is automatically started" ) ]
+	HRESULT AutoStart( [out, retval] VARIANT_BOOL *pAutoStart );
+
+    [ id( DISPID_AUTOSTART ), propput ]
+	HRESULT AutoStart( [in] VARIANT_BOOL AutoStart );
+
+    [ id( DISPID_AUTOREWIND ), propget, helpstring( "Returns or sets whether or not a file is rewound at the end of playback" ) ]
+	HRESULT AutoRewind( [out, retval] VARIANT_BOOL *pAutoRewind );
+
+    [ id( DISPID_AUTOREWIND ), propput ]
+	HRESULT AutoRewind( [in] VARIANT_BOOL AutoRewind );
+
+#ifdef WMPNS
+    [ id( DISPID_ALLOWCHANGECONTROLTYPE ), propget, helpstring( "Returns or sets whether or not the control type can be set at run time" ) ]
+	HRESULT AllowChangeControlType( [out, retval] VARIANT_BOOL *pAllowChangeControlType );
+
+    [ id( DISPID_ALLOWCHANGECONTROLTYPE ), propput ]
+	HRESULT AllowChangeControlType( [in] VARIANT_BOOL AllowChangeControlType );
+#endif
+
+    [ id( DISPID_INVOKEURLS ), propget, helpstring( "Returns or sets whether or not received URLs are automatically invoked" ) ]
+	HRESULT InvokeURLs( [out, retval] VARIANT_BOOL *pInvokeURLs );
+
+    [ id( DISPID_INVOKEURLS ), propput ]
+	HRESULT InvokeURLs( [in] VARIANT_BOOL InvokeURLs );
+
+    [ id( DISPID_ENABLECONTEXTMENU ), propget, helpstring( "Returns or sets whether or not a right mouse click invokes a context menu" ) ]
+	HRESULT EnableContextMenu( [out, retval] VARIANT_BOOL *pEnableContextMenu );
+
+    [ id( DISPID_ENABLECONTEXTMENU ), propput ]
+	HRESULT EnableContextMenu( [in] VARIANT_BOOL EnableContextMenu );
+
+    [ id( DISPID_TRANSPARENTATSTART ), propget, helpstring( "Returns or sets whether or not the control is transparent before playing" ) ]
+	HRESULT TransparentAtStart( [out, retval] VARIANT_BOOL *pTransparentAtStart );
+
+    [ id( DISPID_TRANSPARENTATSTART ), propput ]
+	HRESULT TransparentAtStart( [in] VARIANT_BOOL TransparentAtStart );
+
+#ifdef WMPNS
+    [ id( DISPID_TRANSPARENTONSTOP ), propget, hidden ]
+	HRESULT TransparentOnStop( [out, retval] VARIANT_BOOL *pTransparentOnStop );
+
+    [ id( DISPID_TRANSPARENTONSTOP ), propput, hidden ]
+	HRESULT TransparentOnStop( [in] VARIANT_BOOL TransparentOnStop );
+#endif
+
+    [ id( DISPID_CLICKTOPLAY ), propget, helpstring( "Returns or sets whether or not clicking on the control starts file playback" ) ]
+	HRESULT ClickToPlay( [out, retval] VARIANT_BOOL *pClickToPlay );
+
+    [ id( DISPID_CLICKTOPLAY ), propput ]
+	HRESULT ClickToPlay( [in] VARIANT_BOOL ClickToPlay );
+
+    [ id( DISPID_FILENAME ), propget, helpstring( "Returns or sets the current file name and path" ) ]
+	HRESULT FileName( [out, retval] BSTR *pbstrFileName );
+
+    [ id( DISPID_FILENAME ), propput ]
+	HRESULT FileName( [in] BSTR bstrFileName );
+
+    [ id( DISPID_CURRENTPOSITION ), propget, helpstring( "Returns or sets the current position in the file" ) ]
+	HRESULT CurrentPosition( [out, retval] double *pCurrentPosition );
+
+    [ id( DISPID_CURRENTPOSITION ), propput ]
+	HRESULT CurrentPosition( [in] double CurrentPosition );
+
+    [ id( DISPID_RATE ), propget, helpstring( "Returns or sets the current playback rate" ) ]
+	HRESULT Rate( [out, retval] double *pRate );
+
+    [ id( DISPID_RATE ), propput ]
+	HRESULT Rate( [in] double Rate );
+
+    [ id( DISPID_CURRENTMARKER ), propget, helpstring( "Returns or sets the current marker number" ) ]
+	HRESULT CurrentMarker( [out, retval] long *pCurrentMarker );
+
+    [ id( DISPID_CURRENTMARKER ), propput ]
+	HRESULT CurrentMarker( [in] long CurrentMarker );
+
+    [ id( DISPID_PLAYCOUNT ), propget, helpstring( "Returns or sets the number of times a file plays" ) ]
+	HRESULT PlayCount( [out, retval] long *pPlayCount );
+
+    [ id( DISPID_PLAYCOUNT ), propput ]
+	HRESULT PlayCount( [in] long PlayCount );
+
+    [ id( DISPID_CURRENTSTATE ), propget, helpstring( "Returns the current state of the control" ) ]
+	HRESULT CurrentState( [out, retval] long *pCurrentState );
+
+    [ id( DISPID_DISPLAYSIZE ), propget, helpstring( "Returns or sets the display size of images" ) ]
+	HRESULT DisplaySize( [out, retval] long *pDisplaySize );
+
+    [ id( DISPID_DISPLAYSIZE ), propput ]
+	HRESULT DisplaySize( [in] long DisplaySize );
+
+    [ id( DISPID_MAINWINDOW ), propget, helpstring( "Returns the window handle of the control's main window" ) ]
+	HRESULT MainWindow( [out, retval] long *pMainWindow );
+
+#ifdef WMPNS
+    [ id( DISPID_CONTROLTYPE ), propget, helpstring( "Returns or sets the type of playback controls displayed" ) ]
+	HRESULT ControlType( [out, retval] long *pControlType );
+
+    [ id( DISPID_CONTROLTYPE ), propput ]
+	HRESULT ControlType( [in] long ControlType );
+#endif
+
+    [ id( DISPID_ALLOWSCAN ), propget, helpstring( "Returns or sets whether or not scanning is enabled on files that support it" ) ]
+	HRESULT AllowScan( [out, retval] VARIANT_BOOL *pAllowScan );
+
+    [ id( DISPID_ALLOWSCAN ), propput ]
+	HRESULT AllowScan( [in] VARIANT_BOOL AllowScan );
+
+    [ id( DISPID_SENDKEYBOARDEVENTS ), propget, helpstring( "Returns or sets whether or not the control sends keyboard events" ) ]
+	HRESULT SendKeyboardEvents( [out, retval] VARIANT_BOOL *pSendKeyboardEvents );
+
+    [ id( DISPID_SENDKEYBOARDEVENTS ), propput ]
+	HRESULT SendKeyboardEvents( [in] VARIANT_BOOL SendKeyboardEvents );
+
+    [ id( DISPID_SENDMOUSECLICKEVENTS ), propget, helpstring( "Returns or sets whether or not the control sends mouse click events" ) ]
+	HRESULT SendMouseClickEvents( [out, retval] VARIANT_BOOL *pSendMouseClickEvents );
+
+    [ id( DISPID_SENDMOUSECLICKEVENTS ), propput ]
+	HRESULT SendMouseClickEvents( [in] VARIANT_BOOL SendMouseClickEvents );
+
+    [ id( DISPID_SENDMOUSEMOVEEVENTS ), propget, helpstring( "Returns or sets whether or not the control sends mouse move events" ) ]
+	HRESULT SendMouseMoveEvents( [out, retval] VARIANT_BOOL *pSendMouseMoveEvents );
+
+    [ id( DISPID_SENDMOUSEMOVEEVENTS ), propput ]
+	HRESULT SendMouseMoveEvents( [in] VARIANT_BOOL SendMouseMoveEvents );
+
+    [ id( DISPID_SENDSTATECHANGEEVENTS ), propget, helpstring( "Returns or sets whether or not the control sends state change events" ) ]
+	HRESULT SendStateChangeEvents( [out, retval] VARIANT_BOOL *pSendStateChangeEvents );
+
+    [ id( DISPID_SENDSTATECHANGEEVENTS ), propput ]
+	HRESULT SendStateChangeEvents( [in] VARIANT_BOOL SendStateChangeEvents );
+
+    [ id( DISPID_RECEIVEDPACKETS ), propget, helpstring( "Returns the number of packets received" ) ]
+	HRESULT ReceivedPackets( [out, retval] long *pReceivedPackets );
+
+    [ id( DISPID_RECOVEREDPACKETS ), propget, helpstring( "Returns the number of packets recovered" ) ]
+	HRESULT RecoveredPackets( [out, retval] long *pRecoveredPackets );
+
+    [ id( DISPID_LOSTPACKETS ), propget, helpstring( "Returns the number of packets lost" ) ]
+	HRESULT LostPackets( [out, retval] long *pLostPackets );
+
+    [ id( DISPID_RECEPTIONQUALITY ), propget, helpstring( "Returns the percentage of packets received in the last 30 seconds" ) ]
+	HRESULT ReceptionQuality( [out, retval] long *pReceptionQuality );
+
+    [ id( DISPID_BUFFERINGCOUNT ), propget, helpstring( "Returns the number of times buffering occurred during playback" ) ]
+	HRESULT BufferingCount( [out, retval] long *pBufferingCount );
+
+    [ id( DISPID_CURSORTYPE ), propget, helpstring( "Returns or sets the cursor type" ) ]
+	HRESULT CursorType( [out, retval] long *pCursorType );
+
+    [ id( DISPID_CURSORTYPE ), propput ]
+	HRESULT CursorType( [in] long CursorType );
+
+    [ id( DISPID_ANIMATIONATSTART ), propget, helpstring( "Returns or sets whether or not the control shows its animation during initial file buffering" ) ]
+	HRESULT AnimationAtStart( [out, retval] VARIANT_BOOL *pAnimationAtStart );
+
+    [ id( DISPID_ANIMATIONATSTART ), propput ]
+	HRESULT AnimationAtStart( [in] VARIANT_BOOL AnimationAtStart );
+
+    [ id( DISPID_ANIMATIONONSTOP ), propget, hidden ]
+	HRESULT AnimationOnStop( [out, retval] VARIANT_BOOL *pAnimationOnStop );
+
+    [ id( DISPID_ANIMATIONONSTOP ), propput, hidden ]
+	HRESULT AnimationOnStop( [in] VARIANT_BOOL AnimationOnStop );
+
+    //
+    // NSOPlay methods
+    //
+    [ id( DISPID_PLAY ), helpstring( "Begins playing from the current file position or marker" ) ]
+	HRESULT Play();
+
+    [ id( DISPID_PAUSE ), helpstring( "Pauses file playback at the current position" ) ]
+	HRESULT Pause();
+
+    [ id( DISPID_STOP ), helpstring( "Stops file playback at the current position" ) ]
+	HRESULT Stop();
+
+    [ id( DISPID_GETMARKERTIME ), helpstring( "Returns the time of a marker" ) ]
+	HRESULT GetMarkerTime( [in] long MarkerNum,
+			       [out, retval] double *pMarkerTime );
+
+    [ id( DISPID_GETMARKERNAME ), helpstring( "Returns the name of a marker" ) ]
+	HRESULT GetMarkerName( [in] long MarkerNum,
+			       [out, retval] BSTR *pbstrMarkerName );
+};
+
+
+//
+// New dispatch interface for NSPlay control
+//
+[
+    object,
+    uuid(E7C4BE80-7960-11d0-B727-00AA00B4E220),
+    helpstring( "Dispatch interface for NSPlay Control" ),
+    dual,
+    hidden
+]
+interface INSPlay : INSOPlay
+{
+    //
+    // New NSPlay properties
+    //
+    [ id( DISPID_CHANNELNAME ), propget, helpstring( "Returns the name of the channel" ) ]
+	HRESULT ChannelName( [out, retval] BSTR *pbstrChannelName );
+
+    [ id( DISPID_CHANNELDESCRIPTION ), propget, helpstring( "Returns the description of the channel" ) ]
+	HRESULT ChannelDescription( [out, retval] BSTR *pbstrChannelDescription );
+
+    [ id( DISPID_CHANNELURL ), propget, helpstring( "Returns the location of the channel metafile" ) ]
+	HRESULT ChannelURL( [out, retval] BSTR *pbstrChannelURL );
+
+    [ id( DISPID_CONTACTADDRESS ), propget, helpstring( "Returns the contact address of the channel" ) ]
+	HRESULT ContactAddress( [out, retval] BSTR *pbstrContactAddress );
+
+    [ id( DISPID_CONTACTPHONE ), propget, helpstring( "Returns the contact phone number of the channel" ) ]
+	HRESULT ContactPhone( [out, retval] BSTR *pbstrContactPhone );
+
+    [ id( DISPID_CONTACTEMAIL ), propget, helpstring( "Returns the contact e-mail address of the channel" ) ]
+	HRESULT ContactEmail( [out, retval] BSTR *pbstrContactEmail );
+
+    [ id( DISPID_ALLOWCHANGEDISPLAYSIZE ), propget, helpstring( "Returns or sets whether or not the display size can be set at run time" ) ]
+	HRESULT AllowChangeDisplaySize( [out, retval] VARIANT_BOOL *pAllowChangeDisplaySize );
+
+    [ id( DISPID_ALLOWCHANGEDISPLAYSIZE ), propput ]
+	HRESULT AllowChangeDisplaySize( [in] VARIANT_BOOL AllowChangeDisplaySize );
+
+    [ id( DISPID_CODECCOUNT ), propget, helpstring( "Returns the number of installable codecs used by the file" ) ]
+	HRESULT CodecCount( [out, retval] long *pCodecCount );
+
+    [ id( DISPID_ISBROADCAST ), propget, helpstring( "Returns whether or not the source is a broadcast" ) ]
+	HRESULT IsBroadcast( [out, retval] VARIANT_BOOL *pIsBroadcast );
+
+    [ id( DISPID_ISDURATIONVALID ), propget, helpstring( "Returns whether or not the duration is known" ) ]
+	HRESULT IsDurationValid( [out, retval] VARIANT_BOOL *pIsDurationValid );
+
+    [ id( DISPID_SOURCEPROTOCOL ), propget, helpstring( "Returns the protocol used to receive data" ) ]
+	HRESULT SourceProtocol( [out, retval] long *pSourceProtocol );
+
+    [ id( DISPID_OPENSTATE ), propget, helpstring( "Returns the open state of the control" ) ]
+	HRESULT OpenState( [out, retval] long *pOpenState );
+
+    [ id( DISPID_SENDOPENSTATECHANGEEVENTS ), propget, helpstring( "Returns or sets whether or not the control sends OpenStateChange events" ) ]
+	HRESULT SendOpenStateChangeEvents( [out, retval] VARIANT_BOOL *pSendOpenStateChangeEvents );
+
+    [ id( DISPID_SENDOPENSTATECHANGEEVENTS ), propput ]
+	HRESULT SendOpenStateChangeEvents( [in] VARIANT_BOOL SendOpenStateChangeEvents );
+
+    [ id( DISPID_SENDWARNINGEVENTS ), propget, helpstring( "Returns or sets whether or not the control sends Warning events" ) ]
+	HRESULT SendWarningEvents( [out, retval] VARIANT_BOOL *pSendWarningEvents );
+
+    [ id( DISPID_SENDWARNINGEVENTS ), propput ]
+	HRESULT SendWarningEvents( [in] VARIANT_BOOL SendWarningEvents );
+
+    [ id( DISPID_SENDERROREVENTS ), propget, helpstring( "Returns or sets whether or not the control sends Error events" ) ]
+	HRESULT SendErrorEvents( [out, retval] VARIANT_BOOL *pSendErrorEvents );
+
+    [ id( DISPID_SENDERROREVENTS ), propput ]
+	HRESULT SendErrorEvents( [in] VARIANT_BOOL SendErrorEvents );
+
+    [ id( DISPID_HASERROR ), propget, helpstring( "Returns whether or not the control currently has an error" ) ]
+	HRESULT HasError( [out, retval] VARIANT_BOOL *pHasError );
+
+    [ id( DISPID_ERRORDESCRIPTION ), propget, helpstring( "Returns the description of the current error state" ) ]
+	HRESULT ErrorDescription( [out, retval] BSTR *pbstrErrorDescription );
+
+    [ id( DISPID_ERRORCODE ), propget, helpstring( "Returns the current error code" ) ]
+	HRESULT ErrorCode( [out, retval] long *pErrorCode );
+
+    [ id( DISPID_PLAYSTATE ), propget, helpstring( "Returns the play state of the control" ) ]
+	HRESULT PlayState( [out, retval] long *pPlayState );
+
+    [ id( DISPID_SENDPLAYSTATECHANGEEVENTS ), propget, helpstring( "Returns or sets whether or not the control sends PlayStateChange events" ) ]
+	HRESULT SendPlayStateChangeEvents( [out, retval] VARIANT_BOOL *pSendPlayStateChangeEvents );
+
+    [ id( DISPID_SENDPLAYSTATECHANGEEVENTS ), propput ]
+	HRESULT SendPlayStateChangeEvents( [in] VARIANT_BOOL SendPlayStateChangeEvents );
+
+    [ id( DISPID_BUFFERINGTIME ), propget, helpstring( "Returns the control's buffering time" ) ]
+	HRESULT BufferingTime( [out, retval] double *pBufferingTime );
+
+    [ id( DISPID_BUFFERINGTIME ), propput ]
+	HRESULT BufferingTime( [in] double BufferingTime );
+
+    [ id( DISPID_USEFIXEDUDPPORT ), propget, helpstring( "Returns whether or not the control uses a fixed UDP port number" ) ]
+	HRESULT UseFixedUDPPort( [out, retval] VARIANT_BOOL *pUseFixedUDPPort );
+
+    [ id( DISPID_USEFIXEDUDPPORT ), propput ]
+	HRESULT UseFixedUDPPort( [in] VARIANT_BOOL UseFixedUDPPort );
+
+    [ id( DISPID_FIXEDUDPPORT ), propget, helpstring( "Returns the control's fixed UDP port number" ) ]
+	HRESULT FixedUDPPort( [out, retval] long *pFixedUDPPort );
+
+    [ id( DISPID_FIXEDUDPPORT ), propput ]
+	HRESULT FixedUDPPort( [in] long FixedUDPPort );
+
+    [ id( DISPID_USEHTTPPROXY ), propget, helpstring( "Returns whether or not the control uses a proxy server for HTTP streaming" ) ]
+	HRESULT UseHTTPProxy( [out, retval] VARIANT_BOOL *pUseHTTPProxy );
+
+    [ id( DISPID_USEHTTPPROXY ), propput ]
+	HRESULT UseHTTPProxy( [in] VARIANT_BOOL UseHTTPProxy );
+
+    [ id( DISPID_ENABLEAUTOPROXY ), propget, helpstring( "Returns whether or not the control automatically sets HTTP proxy info" ) ]
+	HRESULT EnableAutoProxy( [out, retval] VARIANT_BOOL *pEnableAutoProxy );
+
+    [ id( DISPID_ENABLEAUTOPROXY ), propput ]
+	HRESULT EnableAutoProxy( [in] VARIANT_BOOL EnableAutoProxy );
+
+    [ id( DISPID_HTTPPROXYHOST ), propget, helpstring( "Returns the control's HTTP proxy server" ) ]
+	HRESULT HTTPProxyHost( [out, retval] BSTR *pbstrHTTPProxyHost );
+
+    [ id( DISPID_HTTPPROXYHOST ), propput ]
+	HRESULT HTTPProxyHost( [in] BSTR bstrHTTPProxyHost );
+
+    [ id( DISPID_HTTPPROXYPORT ), propget, helpstring( "Returns the control's HTTP proxy port number" ) ]
+	HRESULT HTTPProxyPort( [out, retval] long *pHTTPProxyPort );
+
+    [ id( DISPID_HTTPPROXYPORT ), propput ]
+	HRESULT HTTPProxyPort( [in] long HTTPProxyPort );
+
+    [ id( DISPID_ENABLEMULTICAST ), propget, helpstring( "Returns whether or not the control attempts to receive multicast data" ) ]
+	HRESULT EnableMulticast( [out, retval] VARIANT_BOOL *pEnableMulticast );
+
+    [ id( DISPID_ENABLEMULTICAST ), propput ]
+	HRESULT EnableMulticast( [in] VARIANT_BOOL EnableMulticast );
+
+    [ id( DISPID_ENABLEUDP ), propget, helpstring( "Returns whether or not the control attempts to receive data using UDP" ) ]
+	HRESULT EnableUDP( [out, retval] VARIANT_BOOL *pEnableUDP );
+
+    [ id( DISPID_ENABLEUDP ), propput ]
+	HRESULT EnableUDP( [in] VARIANT_BOOL EnableUDP );
+
+    [ id( DISPID_ENABLETCP ), propget, helpstring( "Returns whether or not the control attempts to receive data using TCP" ) ]
+	HRESULT EnableTCP( [out, retval] VARIANT_BOOL *pEnableTCP );
+
+    [ id( DISPID_ENABLETCP ), propput ]
+	HRESULT EnableTCP( [in] VARIANT_BOOL EnableTCP );
+
+    [ id( DISPID_ENABLEHTTP ), propget, helpstring( "Returns whether or not the control attempts to receive data using HTTP" ) ]
+	HRESULT EnableHTTP( [out, retval] VARIANT_BOOL *pEnableHTTP );
+
+    [ id( DISPID_ENABLEHTTP ), propput ]
+	HRESULT EnableHTTP( [in] VARIANT_BOOL EnableHTTP );
+
+    [ id( DISPID_BUFFERINGPROGRESS ), propget, helpstring( "Returns the percentage of buffering completed" ) ]
+	HRESULT BufferingProgress( [out, retval] long *pBufferingProgress );
+
+    [ id( DISPID_BASEURL ), propget, helpstring( "Returns or sets the control's base HTTP URL" ) ]
+	HRESULT BaseURL( [out, retval] BSTR *pbstrBaseURL );
+
+    [ id( DISPID_BASEURL ), propput ]
+	HRESULT BaseURL( [in] BSTR bstrBaseURL );
+
+    [ id( DISPID_DEFAULTFRAME ), propget, helpstring( "Returns or sets the control's default target HTTP frame" ) ]
+	HRESULT DefaultFrame( [out, retval] BSTR *pbstrDefaultFrame );
+
+    [ id( DISPID_DEFAULTFRAME ), propput ]
+	HRESULT DefaultFrame( [in] BSTR bstrDefaultFrame );
+
+    //
+    // New NSPlay methods
+    //
+    [ id( DISPID_ABOUTBOX ), helpstring( "Displays version information dialog box" ) ]
+	HRESULT AboutBox();
+
+    [ id( DISPID_CANCEL ), helpstring( "Cancels the current operation" ) ]
+	HRESULT Cancel();
+
+    [ id( DISPID_GETCODECINSTALLED ), helpstring( "Returns whether or not a codec is installed" ) ]
+	HRESULT GetCodecInstalled( [in] long CodecNum,
+				   [out, retval] VARIANT_BOOL *pCodecInstalled );
+
+    [ id( DISPID_GETCODECDESCRIPTION ), helpstring( "Returns the descriptive name of a codec" ) ]
+	HRESULT GetCodecDescription( [in] long CodecNum,
+				     [out, retval] BSTR *pbstrCodecDescription );
+
+    [ id( DISPID_GETCODECURL ), helpstring( "Returns the URL for a codec" ) ]
+	HRESULT GetCodecURL( [in] long CodecNum,
+			     [out, retval] BSTR *pbstrCodecURL );
+
+    [ id( DISPID_OPEN ), helpstring( "Opens the given filename asynchronously" ) ]
+	HRESULT Open( [in] BSTR bstrFileName );
+};
+
+//
+// New dispatch interface for NSPlay control
+//
+[
+    object,
+    uuid(265EC141-AE62-11d1-8500-00A0C91F9CA0),
+    helpstring( "Dispatch interface for NSPlay Control" ),
+    dual,
+    hidden
+]
+interface INSPlay1 : INSPlay
+{
+	[propget, id(DISPID_MEDIAPLAYER), helpstring("Returns the Media Player object")]
+	HRESULT MediaPlayer([out, retval] IDispatch **ppdispatch);
+
+};

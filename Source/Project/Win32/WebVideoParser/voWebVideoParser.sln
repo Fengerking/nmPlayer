@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voWebVideoParser", "voWebVideoParser.vcproj", "{816846F8-6B12-48F1-B9FC-7C6352040804}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{816846F8-6B12-48F1-B9FC-7C6352040804}.Debug|Win32.ActiveCfg = Debug|Win32
+		{816846F8-6B12-48F1-B9FC-7C6352040804}.Debug|Win32.Build.0 = Debug|Win32
+		{816846F8-6B12-48F1-B9FC-7C6352040804}.Release|Win32.ActiveCfg = Release|Win32
+		{816846F8-6B12-48F1-B9FC-7C6352040804}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+LIBRARY	voOGGFR.dll
+
+EXPORTS
+	voGetOGGReadAPI
+	voGetOGG2ReadAPI

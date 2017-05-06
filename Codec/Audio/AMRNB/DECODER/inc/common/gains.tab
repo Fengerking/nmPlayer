@@ -1,0 +1,23 @@
+/*
+********************************************************************************
+*
+*      GSM AMR-NB speech codec   R98   Version 7.6.0   December 12, 2001
+*                                R99   Version 3.3.0                
+*                                REL-4 Version 4.1.0                
+*
+********************************************************************************
+*
+*      File             : gains.tab
+*      Purpose          : Scalar quantization tables of the pitch gain and
+*                       : the codebook gain.
+*      $Id $
+*
+********************************************************************************
+*/
+#define NB_QUA_PITCH 16
+
+extern const Word16 voAMRNBDecqua_gain_pitch[NB_QUA_PITCH];
+
+#define NB_QUA_CODE 32
+
+extern const Word16 voAMRNBDecqua_gain_code[NB_QUA_CODE*3]; 

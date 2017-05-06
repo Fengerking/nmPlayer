@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voMpegReader", "voMpegReader.vcproj", "{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Pocket PC 2003 (ARMV4) = Debug|Pocket PC 2003 (ARMV4)
+		Debug|STANDARDSDK_500 (ARMV4I) = Debug|STANDARDSDK_500 (ARMV4I)
+		Debug|Win32 = Debug|Win32
+		Release|Pocket PC 2003 (ARMV4) = Release|Pocket PC 2003 (ARMV4)
+		Release|STANDARDSDK_500 (ARMV4I) = Release|STANDARDSDK_500 (ARMV4I)
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug|Pocket PC 2003 (ARMV4)
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Debug|Pocket PC 2003 (ARMV4).Deploy.0 = Debug|Pocket PC 2003 (ARMV4)
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Debug|STANDARDSDK_500 (ARMV4I).ActiveCfg = Debug|STANDARDSDK_500 (ARMV4I)
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Debug|STANDARDSDK_500 (ARMV4I).Build.0 = Debug|STANDARDSDK_500 (ARMV4I)
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Debug|STANDARDSDK_500 (ARMV4I).Deploy.0 = Debug|STANDARDSDK_500 (ARMV4I)
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Debug|Win32.Build.0 = Debug|Win32
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release|Pocket PC 2003 (ARMV4)
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Release|Pocket PC 2003 (ARMV4).Deploy.0 = Release|Pocket PC 2003 (ARMV4)
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Release|STANDARDSDK_500 (ARMV4I).ActiveCfg = Release|STANDARDSDK_500 (ARMV4I)
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Release|STANDARDSDK_500 (ARMV4I).Build.0 = Release|STANDARDSDK_500 (ARMV4I)
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Release|STANDARDSDK_500 (ARMV4I).Deploy.0 = Release|STANDARDSDK_500 (ARMV4I)
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Release|Win32.ActiveCfg = Release|Win32
+		{DB7FAAED-2E00-49F1-BD03-20EEF863F8E5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

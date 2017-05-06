@@ -1,0 +1,8 @@
+LIBRARY voEqualzier
+EXPORTS
+voEQInit
+voEQProcess
+voEQUnInit
+voEQSetParameter
+voEQGetParameter
+voGetWavFreqBand

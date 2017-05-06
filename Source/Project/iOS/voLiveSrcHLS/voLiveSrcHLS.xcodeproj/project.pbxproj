@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7631CAC7147383F5001D7AB9 /* CDllLoad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CABD147383F5001D7AB9 /* CDllLoad.cpp */; };
+		7631CAC8147383F5001D7AB9 /* CDllLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CABE147383F5001D7AB9 /* CDllLoad.h */; };
+		7631CAC9147383F5001D7AB9 /* CvoBaseObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CABF147383F5001D7AB9 /* CvoBaseObject.cpp */; };
+		7631CACA147383F5001D7AB9 /* CvoBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAC0147383F5001D7AB9 /* CvoBaseObject.h */; };
+		7631CACB147383F5001D7AB9 /* voCMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAC1147383F5001D7AB9 /* voCMutex.cpp */; };
+		7631CACC147383F5001D7AB9 /* voCMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAC2147383F5001D7AB9 /* voCMutex.h */; };
+		7631CACD147383F5001D7AB9 /* voOSFunc_iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAC3147383F5001D7AB9 /* voOSFunc_iOS.mm */; };
+		7631CACE147383F5001D7AB9 /* voOSFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAC4147383F5001D7AB9 /* voOSFunc.h */; };
+		7631CACF147383F5001D7AB9 /* voThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAC5147383F5001D7AB9 /* voThread.cpp */; };
+		7631CAD0147383F5001D7AB9 /* voThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAC6147383F5001D7AB9 /* voThread.h */; };
+		7631CAD9147384AD001D7AB9 /* CCheckTsPacketSize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAD5147384AD001D7AB9 /* CCheckTsPacketSize.cpp */; };
+		7631CADA147384AD001D7AB9 /* CCheckTsPacketSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAD6147384AD001D7AB9 /* CCheckTsPacketSize.h */; };
+		7631CADB147384AD001D7AB9 /* fortest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAD7147384AD001D7AB9 /* fortest.cpp */; };
+		7631CADC147384AD001D7AB9 /* fortest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAD8147384AD001D7AB9 /* fortest.h */; };
+		7631CAE014738590001D7AB9 /* vo_socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CADE14738590001D7AB9 /* vo_socket.cpp */; };
+		7631CAE114738590001D7AB9 /* vo_socket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CADF14738590001D7AB9 /* vo_socket.h */; };
+		7631CB021473869D001D7AB9 /* bitrate_adaptation_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAE61473869D001D7AB9 /* bitrate_adaptation_buffer.cpp */; };
+		7631CB031473869D001D7AB9 /* bitrate_adaptation_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAE71473869D001D7AB9 /* bitrate_adaptation_buffer.h */; };
+		7631CB041473869D001D7AB9 /* CLiveSrcHLS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAE81473869D001D7AB9 /* CLiveSrcHLS.cpp */; };
+		7631CB051473869D001D7AB9 /* CLiveSrcHLS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAE91473869D001D7AB9 /* CLiveSrcHLS.h */; };
+		7631CB061473869D001D7AB9 /* vo_aes_engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAEA1473869D001D7AB9 /* vo_aes_engine.cpp */; };
+		7631CB071473869D001D7AB9 /* vo_aes_engine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAEB1473869D001D7AB9 /* vo_aes_engine.h */; };
+		7631CB081473869D001D7AB9 /* vo_drm_mem_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAEC1473869D001D7AB9 /* vo_drm_mem_stream.cpp */; };
+		7631CB091473869D001D7AB9 /* vo_drm_mem_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAED1473869D001D7AB9 /* vo_drm_mem_stream.h */; };
+		7631CB0A1473869D001D7AB9 /* vo_http_live_streaming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAEE1473869D001D7AB9 /* vo_http_live_streaming.cpp */; };
+		7631CB0B1473869D001D7AB9 /* vo_http_live_streaming.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAEF1473869D001D7AB9 /* vo_http_live_streaming.h */; };
+		7631CB0C1473869D001D7AB9 /* vo_http_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAF01473869D001D7AB9 /* vo_http_stream.cpp */; };
+		7631CB0D1473869D001D7AB9 /* vo_http_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAF11473869D001D7AB9 /* vo_http_stream.h */; };
+		7631CB101473869D001D7AB9 /* vo_m3u_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAF41473869D001D7AB9 /* vo_m3u_manager.cpp */; };
+		7631CB111473869D001D7AB9 /* vo_m3u_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAF51473869D001D7AB9 /* vo_m3u_manager.h */; };
+		7631CB121473869D001D7AB9 /* vo_m3u_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAF61473869D001D7AB9 /* vo_m3u_reader.cpp */; };
+		7631CB131473869D001D7AB9 /* vo_m3u_reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAF71473869D001D7AB9 /* vo_m3u_reader.h */; };
+		7631CB141473869D001D7AB9 /* vo_mem_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAF81473869D001D7AB9 /* vo_mem_stream.cpp */; };
+		7631CB151473869D001D7AB9 /* vo_mem_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAF91473869D001D7AB9 /* vo_mem_stream.h */; };
+		7631CB161473869D001D7AB9 /* vo_network_judgment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAFA1473869D001D7AB9 /* vo_network_judgment.cpp */; };
+		7631CB171473869D001D7AB9 /* vo_network_judgment.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAFB1473869D001D7AB9 /* vo_network_judgment.h */; };
+		7631CB181473869D001D7AB9 /* vo_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAFC1473869D001D7AB9 /* vo_stream.cpp */; };
+		7631CB191473869D001D7AB9 /* vo_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAFD1473869D001D7AB9 /* vo_stream.h */; };
+		7631CB1A1473869D001D7AB9 /* vo_thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAFE1473869D001D7AB9 /* vo_thread.cpp */; };
+		7631CB1B1473869D001D7AB9 /* vo_thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAFF1473869D001D7AB9 /* vo_thread.h */; };
+		7631CB1C1473869D001D7AB9 /* vo_webdownload_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB001473869D001D7AB9 /* vo_webdownload_stream.cpp */; };
+		7631CB1D1473869D001D7AB9 /* vo_webdownload_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB011473869D001D7AB9 /* vo_webdownload_stream.h */; };
+		7631CB2914738796001D7AB9 /* ChannelInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB2014738796001D7AB9 /* ChannelInfo.cpp */; };
+		7631CB2A14738796001D7AB9 /* ChannelInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB2114738796001D7AB9 /* ChannelInfo.h */; };
+		7631CB2B14738796001D7AB9 /* CLiveParserBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB2214738796001D7AB9 /* CLiveParserBase.cpp */; };
+		7631CB2C14738796001D7AB9 /* CLiveParserBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB2314738796001D7AB9 /* CLiveParserBase.h */; };
+		7631CB2D14738796001D7AB9 /* CLiveSrcBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB2414738796001D7AB9 /* CLiveSrcBase.cpp */; };
+		7631CB2E14738796001D7AB9 /* CLiveSrcBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB2514738796001D7AB9 /* CLiveSrcBase.h */; };
+		7631CB2F14738796001D7AB9 /* ConfigFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB2614738796001D7AB9 /* ConfigFile.cpp */; };
+		7631CB3014738796001D7AB9 /* ConfigFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB2714738796001D7AB9 /* ConfigFile.h */; };
+		7631CB3114738796001D7AB9 /* voLiveSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB2814738796001D7AB9 /* voLiveSource.cpp */; };
+		7631CB36147387D4001D7AB9 /* cmnFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB32147387D4001D7AB9 /* cmnFile.cpp */; };
+		7631CB37147387D4001D7AB9 /* cmnFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB33147387D4001D7AB9 /* cmnFile.h */; };
+		7631CB38147387D4001D7AB9 /* cmnMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB34147387D4001D7AB9 /* cmnMemory.c */; };
+		7631CB39147387D4001D7AB9 /* cmnMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB35147387D4001D7AB9 /* cmnMemory.h */; };
+		7631CB49147389A8001D7AB9 /* voCSemaphore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB47147389A8001D7AB9 /* voCSemaphore.cpp */; };
+		7631CB4A147389A8001D7AB9 /* voCSemaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB48147389A8001D7AB9 /* voCSemaphore.h */; };
+		769FED3414A30D9700160E51 /* CvoBaseDrmCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 769FED3214A30D9700160E51 /* CvoBaseDrmCallback.cpp */; };
+		769FED3514A30D9700160E51 /* CvoBaseDrmCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 769FED3314A30D9700160E51 /* CvoBaseDrmCallback.h */; };
+		769FED3614A30D9700160E51 /* CvoBaseDrmCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 769FED3214A30D9700160E51 /* CvoBaseDrmCallback.cpp */; };
+		769FED3714A30D9700160E51 /* CvoBaseDrmCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 769FED3314A30D9700160E51 /* CvoBaseDrmCallback.h */; };
+		769FED4214A30DB700160E51 /* CBaseConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 769FED4114A30DB700160E51 /* CBaseConfig.cpp */; };
+		769FED4314A30DB700160E51 /* CBaseConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 769FED4114A30DB700160E51 /* CBaseConfig.cpp */; };
+		76E57E1B147CE916005F3483 /* voLiveSrcHLS_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voLiveSrcHLS_Prefix.pch */; };
+		76E57E1C147CE916005F3483 /* CDllLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CABE147383F5001D7AB9 /* CDllLoad.h */; };
+		76E57E1D147CE916005F3483 /* CvoBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAC0147383F5001D7AB9 /* CvoBaseObject.h */; };
+		76E57E1E147CE916005F3483 /* voCMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAC2147383F5001D7AB9 /* voCMutex.h */; };
+		76E57E1F147CE916005F3483 /* voOSFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAC4147383F5001D7AB9 /* voOSFunc.h */; };
+		76E57E20147CE916005F3483 /* voThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAC6147383F5001D7AB9 /* voThread.h */; };
+		76E57E21147CE916005F3483 /* CCheckTsPacketSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAD6147384AD001D7AB9 /* CCheckTsPacketSize.h */; };
+		76E57E22147CE916005F3483 /* fortest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAD8147384AD001D7AB9 /* fortest.h */; };
+		76E57E23147CE916005F3483 /* vo_socket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CADF14738590001D7AB9 /* vo_socket.h */; };
+		76E57E24147CE916005F3483 /* bitrate_adaptation_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAE71473869D001D7AB9 /* bitrate_adaptation_buffer.h */; };
+		76E57E25147CE916005F3483 /* CLiveSrcHLS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAE91473869D001D7AB9 /* CLiveSrcHLS.h */; };
+		76E57E26147CE916005F3483 /* vo_aes_engine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAEB1473869D001D7AB9 /* vo_aes_engine.h */; };
+		76E57E27147CE916005F3483 /* vo_drm_mem_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAED1473869D001D7AB9 /* vo_drm_mem_stream.h */; };
+		76E57E28147CE916005F3483 /* vo_http_live_streaming.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAEF1473869D001D7AB9 /* vo_http_live_streaming.h */; };
+		76E57E29147CE916005F3483 /* vo_http_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAF11473869D001D7AB9 /* vo_http_stream.h */; };
+		76E57E2A147CE916005F3483 /* vo_m3u_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAF51473869D001D7AB9 /* vo_m3u_manager.h */; };
+		76E57E2B147CE916005F3483 /* vo_m3u_reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAF71473869D001D7AB9 /* vo_m3u_reader.h */; };
+		76E57E2C147CE916005F3483 /* vo_mem_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAF91473869D001D7AB9 /* vo_mem_stream.h */; };
+		76E57E2D147CE916005F3483 /* vo_network_judgment.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAFB1473869D001D7AB9 /* vo_network_judgment.h */; };
+		76E57E2E147CE916005F3483 /* vo_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAFD1473869D001D7AB9 /* vo_stream.h */; };
+		76E57E2F147CE916005F3483 /* vo_thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CAFF1473869D001D7AB9 /* vo_thread.h */; };
+		76E57E30147CE916005F3483 /* vo_webdownload_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB011473869D001D7AB9 /* vo_webdownload_stream.h */; };
+		76E57E31147CE916005F3483 /* ChannelInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB2114738796001D7AB9 /* ChannelInfo.h */; };
+		76E57E32147CE916005F3483 /* CLiveParserBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB2314738796001D7AB9 /* CLiveParserBase.h */; };
+		76E57E33147CE916005F3483 /* CLiveSrcBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB2514738796001D7AB9 /* CLiveSrcBase.h */; };
+		76E57E34147CE916005F3483 /* ConfigFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB2714738796001D7AB9 /* ConfigFile.h */; };
+		76E57E35147CE916005F3483 /* cmnFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB33147387D4001D7AB9 /* cmnFile.h */; };
+		76E57E36147CE916005F3483 /* cmnMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB35147387D4001D7AB9 /* cmnMemory.h */; };
+		76E57E37147CE916005F3483 /* voCSemaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7631CB48147389A8001D7AB9 /* voCSemaphore.h */; };
+		76E57E39147CE916005F3483 /* CDllLoad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CABD147383F5001D7AB9 /* CDllLoad.cpp */; };
+		76E57E3A147CE916005F3483 /* CvoBaseObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CABF147383F5001D7AB9 /* CvoBaseObject.cpp */; };
+		76E57E3B147CE916005F3483 /* voCMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAC1147383F5001D7AB9 /* voCMutex.cpp */; };
+		76E57E3C147CE916005F3483 /* voOSFunc_iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAC3147383F5001D7AB9 /* voOSFunc_iOS.mm */; };
+		76E57E3D147CE916005F3483 /* voThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAC5147383F5001D7AB9 /* voThread.cpp */; };
+		76E57E3E147CE916005F3483 /* CCheckTsPacketSize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAD5147384AD001D7AB9 /* CCheckTsPacketSize.cpp */; };
+		76E57E3F147CE916005F3483 /* fortest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAD7147384AD001D7AB9 /* fortest.cpp */; };
+		76E57E40147CE916005F3483 /* vo_socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CADE14738590001D7AB9 /* vo_socket.cpp */; };
+		76E57E41147CE916005F3483 /* bitrate_adaptation_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAE61473869D001D7AB9 /* bitrate_adaptation_buffer.cpp */; };
+		76E57E42147CE916005F3483 /* CLiveSrcHLS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAE81473869D001D7AB9 /* CLiveSrcHLS.cpp */; };
+		76E57E43147CE916005F3483 /* vo_aes_engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAEA1473869D001D7AB9 /* vo_aes_engine.cpp */; };
+		76E57E44147CE916005F3483 /* vo_drm_mem_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAEC1473869D001D7AB9 /* vo_drm_mem_stream.cpp */; };
+		76E57E45147CE916005F3483 /* vo_http_live_streaming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAEE1473869D001D7AB9 /* vo_http_live_streaming.cpp */; };
+		76E57E46147CE916005F3483 /* vo_http_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAF01473869D001D7AB9 /* vo_http_stream.cpp */; };
+		76E57E47147CE916005F3483 /* vo_m3u_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAF41473869D001D7AB9 /* vo_m3u_manager.cpp */; };
+		76E57E48147CE916005F3483 /* vo_m3u_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAF61473869D001D7AB9 /* vo_m3u_reader.cpp */; };
+		76E57E49147CE916005F3483 /* vo_mem_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAF81473869D001D7AB9 /* vo_mem_stream.cpp */; };
+		76E57E4A147CE916005F3483 /* vo_network_judgment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAFA1473869D001D7AB9 /* vo_network_judgment.cpp */; };
+		76E57E4B147CE916005F3483 /* vo_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAFC1473869D001D7AB9 /* vo_stream.cpp */; };
+		76E57E4C147CE916005F3483 /* vo_thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CAFE1473869D001D7AB9 /* vo_thread.cpp */; };
+		76E57E4D147CE916005F3483 /* vo_webdownload_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB001473869D001D7AB9 /* vo_webdownload_stream.cpp */; };
+		76E57E4E147CE916005F3483 /* ChannelInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB2014738796001D7AB9 /* ChannelInfo.cpp */; };
+		76E57E4F147CE916005F3483 /* CLiveParserBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB2214738796001D7AB9 /* CLiveParserBase.cpp */; };
+		76E57E50147CE916005F3483 /* CLiveSrcBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB2414738796001D7AB9 /* CLiveSrcBase.cpp */; };
+		76E57E51147CE916005F3483 /* ConfigFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB2614738796001D7AB9 /* ConfigFile.cpp */; };
+		76E57E52147CE916005F3483 /* voLiveSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB2814738796001D7AB9 /* voLiveSource.cpp */; };
+		76E57E53147CE916005F3483 /* cmnFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB32147387D4001D7AB9 /* cmnFile.cpp */; };
+		76E57E54147CE916005F3483 /* cmnMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB34147387D4001D7AB9 /* cmnMemory.c */; };
+		76E57E55147CE916005F3483 /* voCSemaphore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7631CB47147389A8001D7AB9 /* voCSemaphore.cpp */; };
+		76E57E56147CE916005F3483 /* vo_https_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76F2D0B5147CBE7000550157 /* vo_https_stream.cpp */; };
+		76E57E58147CE916005F3483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		76E57E5F147CE92F005F3483 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 763D7210147CD25C00ED6CE3 /* libssl.a */; };
+		76E57E60147CE92F005F3483 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 763D720F147CD25C00ED6CE3 /* libcrypto.a */; };
+		AA747D9F0F9514B9006C5449 /* voLiveSrcHLS_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voLiveSrcHLS_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7631CABD147383F5001D7AB9 /* CDllLoad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CDllLoad.cpp; path = ../../../../Common/CDllLoad.cpp; sourceTree = SOURCE_ROOT; };
+		7631CABE147383F5001D7AB9 /* CDllLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDllLoad.h; path = ../../../../Common/CDllLoad.h; sourceTree = SOURCE_ROOT; };
+		7631CABF147383F5001D7AB9 /* CvoBaseObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseObject.cpp; path = ../../../../Common/CvoBaseObject.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAC0147383F5001D7AB9 /* CvoBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseObject.h; path = ../../../../Common/CvoBaseObject.h; sourceTree = SOURCE_ROOT; };
+		7631CAC1147383F5001D7AB9 /* voCMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voCMutex.cpp; path = ../../../../Common/voCMutex.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAC2147383F5001D7AB9 /* voCMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voCMutex.h; path = ../../../../Common/voCMutex.h; sourceTree = SOURCE_ROOT; };
+		7631CAC3147383F5001D7AB9 /* voOSFunc_iOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = voOSFunc_iOS.mm; path = ../../../../Common/voOSFunc_iOS.mm; sourceTree = SOURCE_ROOT; };
+		7631CAC4147383F5001D7AB9 /* voOSFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voOSFunc.h; path = ../../../../Common/voOSFunc.h; sourceTree = SOURCE_ROOT; };
+		7631CAC5147383F5001D7AB9 /* voThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voThread.cpp; path = ../../../../Common/voThread.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAC6147383F5001D7AB9 /* voThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voThread.h; path = ../../../../Common/voThread.h; sourceTree = SOURCE_ROOT; };
+		7631CAD5147384AD001D7AB9 /* CCheckTsPacketSize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCheckTsPacketSize.cpp; path = ../../../HTTPLiveStreaming/CCheckTsPacketSize.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAD6147384AD001D7AB9 /* CCheckTsPacketSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCheckTsPacketSize.h; path = ../../../HTTPLiveStreaming/CCheckTsPacketSize.h; sourceTree = SOURCE_ROOT; };
+		7631CAD7147384AD001D7AB9 /* fortest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fortest.cpp; path = ../../../HTTPLiveStreaming/fortest.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAD8147384AD001D7AB9 /* fortest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fortest.h; path = ../../../HTTPLiveStreaming/fortest.h; sourceTree = SOURCE_ROOT; };
+		7631CADE14738590001D7AB9 /* vo_socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vo_socket.cpp; path = ../../../../Common/NetWork/vo_socket.cpp; sourceTree = SOURCE_ROOT; };
+		7631CADF14738590001D7AB9 /* vo_socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vo_socket.h; path = ../../../../Common/NetWork/vo_socket.h; sourceTree = SOURCE_ROOT; };
+		7631CAE61473869D001D7AB9 /* bitrate_adaptation_buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitrate_adaptation_buffer.cpp; path = ../../../HTTPLiveStreaming/bitrate_adaptation_buffer.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAE71473869D001D7AB9 /* bitrate_adaptation_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bitrate_adaptation_buffer.h; path = ../../../HTTPLiveStreaming/bitrate_adaptation_buffer.h; sourceTree = SOURCE_ROOT; };
+		7631CAE81473869D001D7AB9 /* CLiveSrcHLS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CLiveSrcHLS.cpp; path = ../../../HTTPLiveStreaming/CLiveSrcHLS.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAE91473869D001D7AB9 /* CLiveSrcHLS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLiveSrcHLS.h; path = ../../../HTTPLiveStreaming/CLiveSrcHLS.h; sourceTree = SOURCE_ROOT; };
+		7631CAEA1473869D001D7AB9 /* vo_aes_engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vo_aes_engine.cpp; path = ../../../HTTPLiveStreaming/vo_aes_engine.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAEB1473869D001D7AB9 /* vo_aes_engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vo_aes_engine.h; path = ../../../HTTPLiveStreaming/vo_aes_engine.h; sourceTree = SOURCE_ROOT; };
+		7631CAEC1473869D001D7AB9 /* vo_drm_mem_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vo_drm_mem_stream.cpp; path = ../../../HTTPLiveStreaming/vo_drm_mem_stream.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAED1473869D001D7AB9 /* vo_drm_mem_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vo_drm_mem_stream.h; path = ../../../HTTPLiveStreaming/vo_drm_mem_stream.h; sourceTree = SOURCE_ROOT; };
+		7631CAEE1473869D001D7AB9 /* vo_http_live_streaming.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vo_http_live_streaming.cpp; path = ../../../HTTPLiveStreaming/vo_http_live_streaming.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAEF1473869D001D7AB9 /* vo_http_live_streaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vo_http_live_streaming.h; path = ../../../HTTPLiveStreaming/vo_http_live_streaming.h; sourceTree = SOURCE_ROOT; };
+		7631CAF01473869D001D7AB9 /* vo_http_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vo_http_stream.cpp; path = ../../../HTTPLiveStreaming/vo_http_stream.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAF11473869D001D7AB9 /* vo_http_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vo_http_stream.h; path = ../../../HTTPLiveStreaming/vo_http_stream.h; sourceTree = SOURCE_ROOT; };
+		7631CAF41473869D001D7AB9 /* vo_m3u_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vo_m3u_manager.cpp; path = ../../../HTTPLiveStreaming/vo_m3u_manager.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAF51473869D001D7AB9 /* vo_m3u_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vo_m3u_manager.h; path = ../../../HTTPLiveStreaming/vo_m3u_manager.h; sourceTree = SOURCE_ROOT; };
+		7631CAF61473869D001D7AB9 /* vo_m3u_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vo_m3u_reader.cpp; path = ../../../HTTPLiveStreaming/vo_m3u_reader.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAF71473869D001D7AB9 /* vo_m3u_reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vo_m3u_reader.h; path = ../../../HTTPLiveStreaming/vo_m3u_reader.h; sourceTree = SOURCE_ROOT; };
+		7631CAF81473869D001D7AB9 /* vo_mem_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vo_mem_stream.cpp; path = ../../../HTTPLiveStreaming/vo_mem_stream.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAF91473869D001D7AB9 /* vo_mem_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vo_mem_stream.h; path = ../../../HTTPLiveStreaming/vo_mem_stream.h; sourceTree = SOURCE_ROOT; };
+		7631CAFA1473869D001D7AB9 /* vo_network_judgment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vo_network_judgment.cpp; path = ../../../HTTPLiveStreaming/vo_network_judgment.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAFB1473869D001D7AB9 /* vo_network_judgment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vo_network_judgment.h; path = ../../../HTTPLiveStreaming/vo_network_judgment.h; sourceTree = SOURCE_ROOT; };
+		7631CAFC1473869D001D7AB9 /* vo_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vo_stream.cpp; path = ../../../HTTPLiveStreaming/vo_stream.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAFD1473869D001D7AB9 /* vo_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vo_stream.h; path = ../../../HTTPLiveStreaming/vo_stream.h; sourceTree = SOURCE_ROOT; };
+		7631CAFE1473869D001D7AB9 /* vo_thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vo_thread.cpp; path = ../../../HTTPLiveStreaming/vo_thread.cpp; sourceTree = SOURCE_ROOT; };
+		7631CAFF1473869D001D7AB9 /* vo_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vo_thread.h; path = ../../../HTTPLiveStreaming/vo_thread.h; sourceTree = SOURCE_ROOT; };
+		7631CB001473869D001D7AB9 /* vo_webdownload_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vo_webdownload_stream.cpp; path = ../../../HTTPLiveStreaming/vo_webdownload_stream.cpp; sourceTree = SOURCE_ROOT; };
+		7631CB011473869D001D7AB9 /* vo_webdownload_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vo_webdownload_stream.h; path = ../../../HTTPLiveStreaming/vo_webdownload_stream.h; sourceTree = SOURCE_ROOT; };
+		7631CB2014738796001D7AB9 /* ChannelInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChannelInfo.cpp; path = ../../../MTV/LiveSource/Common/ChannelInfo.cpp; sourceTree = SOURCE_ROOT; };
+		7631CB2114738796001D7AB9 /* ChannelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChannelInfo.h; path = ../../../MTV/LiveSource/Common/ChannelInfo.h; sourceTree = SOURCE_ROOT; };
+		7631CB2214738796001D7AB9 /* CLiveParserBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CLiveParserBase.cpp; path = ../../../MTV/LiveSource/Common/CLiveParserBase.cpp; sourceTree = SOURCE_ROOT; };
+		7631CB2314738796001D7AB9 /* CLiveParserBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLiveParserBase.h; path = ../../../MTV/LiveSource/Common/CLiveParserBase.h; sourceTree = SOURCE_ROOT; };
+		7631CB2414738796001D7AB9 /* CLiveSrcBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CLiveSrcBase.cpp; path = ../../../MTV/LiveSource/Common/CLiveSrcBase.cpp; sourceTree = SOURCE_ROOT; };
+		7631CB2514738796001D7AB9 /* CLiveSrcBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLiveSrcBase.h; path = ../../../MTV/LiveSource/Common/CLiveSrcBase.h; sourceTree = SOURCE_ROOT; };
+		7631CB2614738796001D7AB9 /* ConfigFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConfigFile.cpp; path = ../../../MTV/LiveSource/Common/ConfigFile.cpp; sourceTree = SOURCE_ROOT; };
+		7631CB2714738796001D7AB9 /* ConfigFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigFile.h; path = ../../../MTV/LiveSource/Common/ConfigFile.h; sourceTree = SOURCE_ROOT; };
+		7631CB2814738796001D7AB9 /* voLiveSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voLiveSource.cpp; path = ../../../MTV/LiveSource/Common/voLiveSource.cpp; sourceTree = SOURCE_ROOT; };
+		7631CB32147387D4001D7AB9 /* cmnFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cmnFile.cpp; path = ../../../../Common/cmnFile.cpp; sourceTree = SOURCE_ROOT; };
+		7631CB33147387D4001D7AB9 /* cmnFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmnFile.h; path = ../../../../Common/cmnFile.h; sourceTree = SOURCE_ROOT; };
+		7631CB34147387D4001D7AB9 /* cmnMemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cmnMemory.c; path = ../../../../Common/cmnMemory.c; sourceTree = SOURCE_ROOT; };
+		7631CB35147387D4001D7AB9 /* cmnMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmnMemory.h; path = ../../../../Common/cmnMemory.h; sourceTree = SOURCE_ROOT; };
+		7631CB47147389A8001D7AB9 /* voCSemaphore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voCSemaphore.cpp; path = ../../../../Common/voCSemaphore.cpp; sourceTree = SOURCE_ROOT; };
+		7631CB48147389A8001D7AB9 /* voCSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voCSemaphore.h; path = ../../../../Common/voCSemaphore.h; sourceTree = SOURCE_ROOT; };
+		763D720F147CD25C00ED6CE3 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = openssl/libcrypto.a; sourceTree = "<group>"; };
+		763D7210147CD25C00ED6CE3 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = openssl/libssl.a; sourceTree = "<group>"; };
+		769FED3214A30D9700160E51 /* CvoBaseDrmCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseDrmCallback.cpp; path = ../../../File/Common/CvoBaseDrmCallback.cpp; sourceTree = SOURCE_ROOT; };
+		769FED3314A30D9700160E51 /* CvoBaseDrmCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseDrmCallback.h; path = ../../../File/Common/CvoBaseDrmCallback.h; sourceTree = SOURCE_ROOT; };
+		769FED4114A30DB700160E51 /* CBaseConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseConfig.cpp; path = ../../../../Common/CBaseConfig.cpp; sourceTree = SOURCE_ROOT; };
+		76E57E5C147CE916005F3483 /* libvoLiveSrcHLS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoLiveSrcHLS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F2D0B5147CBE7000550157 /* vo_https_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vo_https_stream.cpp; path = ../../../HTTPLiveStreaming/vo_https_stream.cpp; sourceTree = SOURCE_ROOT; };
+		AA747D9E0F9514B9006C5449 /* voLiveSrcHLS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voLiveSrcHLS_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libvoLiveSrcHLS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoLiveSrcHLS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76E57E57147CE916005F3483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E57E58147CE916005F3483 /* Foundation.framework in Frameworks */,
+				76E57E5F147CE92F005F3483 /* libssl.a in Frameworks */,
+				76E57E60147CE92F005F3483 /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libvoLiveSrcHLS.a */,
+				76E57E5C147CE916005F3483 /* libvoLiveSrcHLS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* voLiveSrcHLS */ = {
+			isa = PBXGroup;
+			children = (
+				763D720D147CD25100ED6CE3 /* Lib */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = voLiveSrcHLS;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				769FED4F14A30DFD00160E51 /* FileCommon */,
+				7631CB1E147386FD001D7AB9 /* LiveSourceCommon */,
+				7631CAD114738436001D7AB9 /* HTTPLiveStreaming */,
+				7631CABC147383AD001D7AB9 /* Common */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* voLiveSrcHLS_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		7631CABC147383AD001D7AB9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				769FED4114A30DB700160E51 /* CBaseConfig.cpp */,
+				7631CB47147389A8001D7AB9 /* voCSemaphore.cpp */,
+				7631CB48147389A8001D7AB9 /* voCSemaphore.h */,
+				7631CB32147387D4001D7AB9 /* cmnFile.cpp */,
+				7631CB33147387D4001D7AB9 /* cmnFile.h */,
+				7631CB34147387D4001D7AB9 /* cmnMemory.c */,
+				7631CB35147387D4001D7AB9 /* cmnMemory.h */,
+				7631CADD1473857B001D7AB9 /* Network */,
+				7631CABD147383F5001D7AB9 /* CDllLoad.cpp */,
+				7631CABE147383F5001D7AB9 /* CDllLoad.h */,
+				7631CABF147383F5001D7AB9 /* CvoBaseObject.cpp */,
+				7631CAC0147383F5001D7AB9 /* CvoBaseObject.h */,
+				7631CAC1147383F5001D7AB9 /* voCMutex.cpp */,
+				7631CAC2147383F5001D7AB9 /* voCMutex.h */,
+				7631CAC3147383F5001D7AB9 /* voOSFunc_iOS.mm */,
+				7631CAC4147383F5001D7AB9 /* voOSFunc.h */,
+				7631CAC5147383F5001D7AB9 /* voThread.cpp */,
+				7631CAC6147383F5001D7AB9 /* voThread.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		7631CAD114738436001D7AB9 /* HTTPLiveStreaming */ = {
+			isa = PBXGroup;
+			children = (
+				76F2D0B5147CBE7000550157 /* vo_https_stream.cpp */,
+				7631CAE61473869D001D7AB9 /* bitrate_adaptation_buffer.cpp */,
+				7631CAE71473869D001D7AB9 /* bitrate_adaptation_buffer.h */,
+				7631CAE81473869D001D7AB9 /* CLiveSrcHLS.cpp */,
+				7631CAE91473869D001D7AB9 /* CLiveSrcHLS.h */,
+				7631CAEA1473869D001D7AB9 /* vo_aes_engine.cpp */,
+				7631CAEB1473869D001D7AB9 /* vo_aes_engine.h */,
+				7631CAEC1473869D001D7AB9 /* vo_drm_mem_stream.cpp */,
+				7631CAED1473869D001D7AB9 /* vo_drm_mem_stream.h */,
+				7631CAEE1473869D001D7AB9 /* vo_http_live_streaming.cpp */,
+				7631CAEF1473869D001D7AB9 /* vo_http_live_streaming.h */,
+				7631CAF01473869D001D7AB9 /* vo_http_stream.cpp */,
+				7631CAF11473869D001D7AB9 /* vo_http_stream.h */,
+				7631CAF41473869D001D7AB9 /* vo_m3u_manager.cpp */,
+				7631CAF51473869D001D7AB9 /* vo_m3u_manager.h */,
+				7631CAF61473869D001D7AB9 /* vo_m3u_reader.cpp */,
+				7631CAF71473869D001D7AB9 /* vo_m3u_reader.h */,
+				7631CAF81473869D001D7AB9 /* vo_mem_stream.cpp */,
+				7631CAF91473869D001D7AB9 /* vo_mem_stream.h */,
+				7631CAFA1473869D001D7AB9 /* vo_network_judgment.cpp */,
+				7631CAFB1473869D001D7AB9 /* vo_network_judgment.h */,
+				7631CAFC1473869D001D7AB9 /* vo_stream.cpp */,
+				7631CAFD1473869D001D7AB9 /* vo_stream.h */,
+				7631CAFE1473869D001D7AB9 /* vo_thread.cpp */,
+				7631CAFF1473869D001D7AB9 /* vo_thread.h */,
+				7631CB001473869D001D7AB9 /* vo_webdownload_stream.cpp */,
+				7631CB011473869D001D7AB9 /* vo_webdownload_stream.h */,
+				7631CAD5147384AD001D7AB9 /* CCheckTsPacketSize.cpp */,
+				7631CAD6147384AD001D7AB9 /* CCheckTsPacketSize.h */,
+				7631CAD7147384AD001D7AB9 /* fortest.cpp */,
+				7631CAD8147384AD001D7AB9 /* fortest.h */,
+			);
+			name = HTTPLiveStreaming;
+			sourceTree = "<group>";
+		};
+		7631CADD1473857B001D7AB9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7631CADE14738590001D7AB9 /* vo_socket.cpp */,
+				7631CADF14738590001D7AB9 /* vo_socket.h */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		7631CB1E147386FD001D7AB9 /* LiveSourceCommon */ = {
+			isa = PBXGroup;
+			children = (
+				7631CB2014738796001D7AB9 /* ChannelInfo.cpp */,
+				7631CB2114738796001D7AB9 /* ChannelInfo.h */,
+				7631CB2214738796001D7AB9 /* CLiveParserBase.cpp */,
+				7631CB2314738796001D7AB9 /* CLiveParserBase.h */,
+				7631CB2414738796001D7AB9 /* CLiveSrcBase.cpp */,
+				7631CB2514738796001D7AB9 /* CLiveSrcBase.h */,
+				7631CB2614738796001D7AB9 /* ConfigFile.cpp */,
+				7631CB2714738796001D7AB9 /* ConfigFile.h */,
+				7631CB2814738796001D7AB9 /* voLiveSource.cpp */,
+			);
+			name = LiveSourceCommon;
+			sourceTree = "<group>";
+		};
+		763D720D147CD25100ED6CE3 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				763D720F147CD25C00ED6CE3 /* libcrypto.a */,
+				763D7210147CD25C00ED6CE3 /* libssl.a */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		769FED4F14A30DFD00160E51 /* FileCommon */ = {
+			isa = PBXGroup;
+			children = (
+				769FED3214A30D9700160E51 /* CvoBaseDrmCallback.cpp */,
+				769FED3314A30D9700160E51 /* CvoBaseDrmCallback.h */,
+			);
+			name = FileCommon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76E57E1A147CE916005F3483 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E57E1B147CE916005F3483 /* voLiveSrcHLS_Prefix.pch in Headers */,
+				76E57E1C147CE916005F3483 /* CDllLoad.h in Headers */,
+				76E57E1D147CE916005F3483 /* CvoBaseObject.h in Headers */,
+				76E57E1E147CE916005F3483 /* voCMutex.h in Headers */,
+				76E57E1F147CE916005F3483 /* voOSFunc.h in Headers */,
+				76E57E20147CE916005F3483 /* voThread.h in Headers */,
+				76E57E21147CE916005F3483 /* CCheckTsPacketSize.h in Headers */,
+				76E57E22147CE916005F3483 /* fortest.h in Headers */,
+				76E57E23147CE916005F3483 /* vo_socket.h in Headers */,
+				76E57E24147CE916005F3483 /* bitrate_adaptation_buffer.h in Headers */,
+				76E57E25147CE916005F3483 /* CLiveSrcHLS.h in Headers */,
+				76E57E26147CE916005F3483 /* vo_aes_engine.h in Headers */,
+				76E57E27147CE916005F3483 /* vo_drm_mem_stream.h in Headers */,
+				76E57E28147CE916005F3483 /* vo_http_live_streaming.h in Headers */,
+				76E57E29147CE916005F3483 /* vo_http_stream.h in Headers */,
+				76E57E2A147CE916005F3483 /* vo_m3u_manager.h in Headers */,
+				76E57E2B147CE916005F3483 /* vo_m3u_reader.h in Headers */,
+				76E57E2C147CE916005F3483 /* vo_mem_stream.h in Headers */,
+				76E57E2D147CE916005F3483 /* vo_network_judgment.h in Headers */,
+				76E57E2E147CE916005F3483 /* vo_stream.h in Headers */,
+				76E57E2F147CE916005F3483 /* vo_thread.h in Headers */,
+				76E57E30147CE916005F3483 /* vo_webdownload_stream.h in Headers */,
+				76E57E31147CE916005F3483 /* ChannelInfo.h in Headers */,
+				76E57E32147CE916005F3483 /* CLiveParserBase.h in Headers */,
+				76E57E33147CE916005F3483 /* CLiveSrcBase.h in Headers */,
+				76E57E34147CE916005F3483 /* ConfigFile.h in Headers */,
+				76E57E35147CE916005F3483 /* cmnFile.h in Headers */,
+				76E57E36147CE916005F3483 /* cmnMemory.h in Headers */,
+				76E57E37147CE916005F3483 /* voCSemaphore.h in Headers */,
+				769FED3714A30D9700160E51 /* CvoBaseDrmCallback.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* voLiveSrcHLS_Prefix.pch in Headers */,
+				7631CAC8147383F5001D7AB9 /* CDllLoad.h in Headers */,
+				7631CACA147383F5001D7AB9 /* CvoBaseObject.h in Headers */,
+				7631CACC147383F5001D7AB9 /* voCMutex.h in Headers */,
+				7631CACE147383F5001D7AB9 /* voOSFunc.h in Headers */,
+				7631CAD0147383F5001D7AB9 /* voThread.h in Headers */,
+				7631CADA147384AD001D7AB9 /* CCheckTsPacketSize.h in Headers */,
+				7631CADC147384AD001D7AB9 /* fortest.h in Headers */,
+				7631CAE114738590001D7AB9 /* vo_socket.h in Headers */,
+				7631CB031473869D001D7AB9 /* bitrate_adaptation_buffer.h in Headers */,
+				7631CB051473869D001D7AB9 /* CLiveSrcHLS.h in Headers */,
+				7631CB071473869D001D7AB9 /* vo_aes_engine.h in Headers */,
+				7631CB091473869D001D7AB9 /* vo_drm_mem_stream.h in Headers */,
+				7631CB0B1473869D001D7AB9 /* vo_http_live_streaming.h in Headers */,
+				7631CB0D1473869D001D7AB9 /* vo_http_stream.h in Headers */,
+				7631CB111473869D001D7AB9 /* vo_m3u_manager.h in Headers */,
+				7631CB131473869D001D7AB9 /* vo_m3u_reader.h in Headers */,
+				7631CB151473869D001D7AB9 /* vo_mem_stream.h in Headers */,
+				7631CB171473869D001D7AB9 /* vo_network_judgment.h in Headers */,
+				7631CB191473869D001D7AB9 /* vo_stream.h in Headers */,
+				7631CB1B1473869D001D7AB9 /* vo_thread.h in Headers */,
+				7631CB1D1473869D001D7AB9 /* vo_webdownload_stream.h in Headers */,
+				7631CB2A14738796001D7AB9 /* ChannelInfo.h in Headers */,
+				7631CB2C14738796001D7AB9 /* CLiveParserBase.h in Headers */,
+				7631CB2E14738796001D7AB9 /* CLiveSrcBase.h in Headers */,
+				7631CB3014738796001D7AB9 /* ConfigFile.h in Headers */,
+				7631CB37147387D4001D7AB9 /* cmnFile.h in Headers */,
+				7631CB39147387D4001D7AB9 /* cmnMemory.h in Headers */,
+				7631CB4A147389A8001D7AB9 /* voCSemaphore.h in Headers */,
+				769FED3514A30D9700160E51 /* CvoBaseDrmCallback.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		76E57E19147CE916005F3483 /* voLiveSrcHLS_OPENSSL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E57E59147CE916005F3483 /* Build configuration list for PBXNativeTarget "voLiveSrcHLS_OPENSSL" */;
+			buildPhases = (
+				76E57E1A147CE916005F3483 /* Headers */,
+				76E57E38147CE916005F3483 /* Sources */,
+				76E57E57147CE916005F3483 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voLiveSrcHLS_OPENSSL;
+			productName = voLiveSrcHLS;
+			productReference = 76E57E5C147CE916005F3483 /* libvoLiveSrcHLS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AAC07D0554694100DB518D /* voLiveSrcHLS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voLiveSrcHLS" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voLiveSrcHLS;
+			productName = voLiveSrcHLS;
+			productReference = D2AAC07E0554694100DB518D /* libvoLiveSrcHLS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voLiveSrcHLS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* voLiveSrcHLS */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* voLiveSrcHLS */,
+				76E57E19147CE916005F3483 /* voLiveSrcHLS_OPENSSL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76E57E38147CE916005F3483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E57E39147CE916005F3483 /* CDllLoad.cpp in Sources */,
+				76E57E3A147CE916005F3483 /* CvoBaseObject.cpp in Sources */,
+				76E57E3B147CE916005F3483 /* voCMutex.cpp in Sources */,
+				76E57E3C147CE916005F3483 /* voOSFunc_iOS.mm in Sources */,
+				76E57E3D147CE916005F3483 /* voThread.cpp in Sources */,
+				76E57E3E147CE916005F3483 /* CCheckTsPacketSize.cpp in Sources */,
+				76E57E3F147CE916005F3483 /* fortest.cpp in Sources */,
+				76E57E40147CE916005F3483 /* vo_socket.cpp in Sources */,
+				76E57E41147CE916005F3483 /* bitrate_adaptation_buffer.cpp in Sources */,
+				76E57E42147CE916005F3483 /* CLiveSrcHLS.cpp in Sources */,
+				76E57E43147CE916005F3483 /* vo_aes_engine.cpp in Sources */,
+				76E57E44147CE916005F3483 /* vo_drm_mem_stream.cpp in Sources */,
+				76E57E45147CE916005F3483 /* vo_http_live_streaming.cpp in Sources */,
+				76E57E46147CE916005F3483 /* vo_http_stream.cpp in Sources */,
+				76E57E47147CE916005F3483 /* vo_m3u_manager.cpp in Sources */,
+				76E57E48147CE916005F3483 /* vo_m3u_reader.cpp in Sources */,
+				76E57E49147CE916005F3483 /* vo_mem_stream.cpp in Sources */,
+				76E57E4A147CE916005F3483 /* vo_network_judgment.cpp in Sources */,
+				76E57E4B147CE916005F3483 /* vo_stream.cpp in Sources */,
+				76E57E4C147CE916005F3483 /* vo_thread.cpp in Sources */,
+				76E57E4D147CE916005F3483 /* vo_webdownload_stream.cpp in Sources */,
+				76E57E4E147CE916005F3483 /* ChannelInfo.cpp in Sources */,
+				76E57E4F147CE916005F3483 /* CLiveParserBase.cpp in Sources */,
+				76E57E50147CE916005F3483 /* CLiveSrcBase.cpp in Sources */,
+				76E57E51147CE916005F3483 /* ConfigFile.cpp in Sources */,
+				76E57E52147CE916005F3483 /* voLiveSource.cpp in Sources */,
+				76E57E53147CE916005F3483 /* cmnFile.cpp in Sources */,
+				76E57E54147CE916005F3483 /* cmnMemory.c in Sources */,
+				76E57E55147CE916005F3483 /* voCSemaphore.cpp in Sources */,
+				76E57E56147CE916005F3483 /* vo_https_stream.cpp in Sources */,
+				769FED3614A30D9700160E51 /* CvoBaseDrmCallback.cpp in Sources */,
+				769FED4314A30DB700160E51 /* CBaseConfig.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7631CAC7147383F5001D7AB9 /* CDllLoad.cpp in Sources */,
+				7631CAC9147383F5001D7AB9 /* CvoBaseObject.cpp in Sources */,
+				7631CACB147383F5001D7AB9 /* voCMutex.cpp in Sources */,
+				7631CACD147383F5001D7AB9 /* voOSFunc_iOS.mm in Sources */,
+				7631CACF147383F5001D7AB9 /* voThread.cpp in Sources */,
+				7631CAD9147384AD001D7AB9 /* CCheckTsPacketSize.cpp in Sources */,
+				7631CADB147384AD001D7AB9 /* fortest.cpp in Sources */,
+				7631CAE014738590001D7AB9 /* vo_socket.cpp in Sources */,
+				7631CB021473869D001D7AB9 /* bitrate_adaptation_buffer.cpp in Sources */,
+				7631CB041473869D001D7AB9 /* CLiveSrcHLS.cpp in Sources */,
+				7631CB061473869D001D7AB9 /* vo_aes_engine.cpp in Sources */,
+				7631CB081473869D001D7AB9 /* vo_drm_mem_stream.cpp in Sources */,
+				7631CB0A1473869D001D7AB9 /* vo_http_live_streaming.cpp in Sources */,
+				7631CB0C1473869D001D7AB9 /* vo_http_stream.cpp in Sources */,
+				7631CB101473869D001D7AB9 /* vo_m3u_manager.cpp in Sources */,
+				7631CB121473869D001D7AB9 /* vo_m3u_reader.cpp in Sources */,
+				7631CB141473869D001D7AB9 /* vo_mem_stream.cpp in Sources */,
+				7631CB161473869D001D7AB9 /* vo_network_judgment.cpp in Sources */,
+				7631CB181473869D001D7AB9 /* vo_stream.cpp in Sources */,
+				7631CB1A1473869D001D7AB9 /* vo_thread.cpp in Sources */,
+				7631CB1C1473869D001D7AB9 /* vo_webdownload_stream.cpp in Sources */,
+				7631CB2914738796001D7AB9 /* ChannelInfo.cpp in Sources */,
+				7631CB2B14738796001D7AB9 /* CLiveParserBase.cpp in Sources */,
+				7631CB2D14738796001D7AB9 /* CLiveSrcBase.cpp in Sources */,
+				7631CB2F14738796001D7AB9 /* ConfigFile.cpp in Sources */,
+				7631CB3114738796001D7AB9 /* voLiveSource.cpp in Sources */,
+				7631CB36147387D4001D7AB9 /* cmnFile.cpp in Sources */,
+				7631CB38147387D4001D7AB9 /* cmnMemory.c in Sources */,
+				7631CB49147389A8001D7AB9 /* voCSemaphore.cpp in Sources */,
+				769FED3414A30D9700160E51 /* CvoBaseDrmCallback.cpp in Sources */,
+				769FED4214A30DB700160E51 /* CBaseConfig.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../voRelease/iOS/static/v7/;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voLiveSrcHLS.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voLiveSrcHLS_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_PTHREADS,
+					_IOS,
+					_VOLOG_FUNC,
+					_HLS_SOURCE_,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../Include/vome,
+					../../../../Include,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voLiveSrcHLS;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../voRelease/iOS/static/v7/;
+				DSTROOT = /tmp/voLiveSrcHLS.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voLiveSrcHLS_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_PTHREADS,
+					_IOS,
+					_VOLOG_FUNC,
+					_HLS_SOURCE_,
+					_VOLOG_ERROR,
+					_VOLOG_WARNING,
+					_VOLOG_INFO,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../Include/vome,
+					../../../../Include,
+					../../../../Common,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voLiveSrcHLS;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		76E57E5A147CE916005F3483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../voRelease/iOS/static/v7/;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voLiveSrcHLS.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voLiveSrcHLS_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_PTHREADS,
+					_IOS,
+					_VOLOG_FUNC,
+					_HLS_SOURCE_,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../Include/vome,
+					../../../../Include,
+					"$(SRCROOT)/include",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/openssl\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voLiveSrcHLS;
+			};
+			name = Debug;
+		};
+		76E57E5B147CE916005F3483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../voRelease/iOS/static/v7/;
+				DSTROOT = /tmp/voLiveSrcHLS.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voLiveSrcHLS_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS_OPENSSL,
+					HAVE_PTHREADS,
+					_IOS,
+					_VOLOG_FUNC,
+					_HLS_SOURCE_,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../Include/vome,
+					../../../../Include,
+					"$(SRCROOT)/openssl/include",
+					../../../../Common,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/openssl\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voLiveSrcHLS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voLiveSrcHLS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voLiveSrcHLS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E57E59147CE916005F3483 /* Build configuration list for PBXNativeTarget "voLiveSrcHLS_OPENSSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E57E5A147CE916005F3483 /* Debug */,
+				76E57E5B147CE916005F3483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

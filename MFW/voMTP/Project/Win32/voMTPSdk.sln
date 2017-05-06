@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voMTPSdk", "voMTPSdk.vcproj", "{2D9370E1-2E2B-4CEE-8B2C-42EAA6D91D06}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vomtpTest", "..\..\..\..\Test\vomtpTest\Project\Win32\vomtpTest.vcproj", "{57408420-B2DE-4566-A8B4-51D8CC94E4E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LiveSourceCMMB", "..\..\..\..\Source\Project\Win32\LiveSource\CMMB\LiveSourceCMMB.vcproj", "{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D9370E1-2E2B-4CEE-8B2C-42EAA6D91D06}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2D9370E1-2E2B-4CEE-8B2C-42EAA6D91D06}.Debug|Win32.Build.0 = Debug|Win32
+		{2D9370E1-2E2B-4CEE-8B2C-42EAA6D91D06}.Release|Win32.ActiveCfg = Release|Win32
+		{2D9370E1-2E2B-4CEE-8B2C-42EAA6D91D06}.Release|Win32.Build.0 = Release|Win32
+		{57408420-B2DE-4566-A8B4-51D8CC94E4E4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{57408420-B2DE-4566-A8B4-51D8CC94E4E4}.Debug|Win32.Build.0 = Debug|Win32
+		{57408420-B2DE-4566-A8B4-51D8CC94E4E4}.Release|Win32.ActiveCfg = Release|Win32
+		{57408420-B2DE-4566-A8B4-51D8CC94E4E4}.Release|Win32.Build.0 = Release|Win32
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Debug|Win32.Build.0 = Debug|Win32
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Release|Win32.ActiveCfg = Release|Win32
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

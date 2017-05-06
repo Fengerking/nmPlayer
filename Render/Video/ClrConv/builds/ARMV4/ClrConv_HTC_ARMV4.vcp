@@ -1,0 +1,476 @@
+# Microsoft eMbedded Visual Tools Project File - Name="ClrConv_HTC_ARMV4" - Package Owner=<4>
+# Microsoft eMbedded Visual Tools Generated Build File, Format Version 6.02
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (WCE ARMV4) Static Library" 0xa304
+# TARGTYPE "Win32 (WCE ARMV4I) Static Library" 0xa504
+
+CFG=ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Debug
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "ClrConv_HTC_ARMV4.vcn".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "ClrConv_HTC_ARMV4.vcn" CFG="ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Release" (based on "Win32 (WCE ARMV4I) Static Library")
+!MESSAGE "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Debug" (based on "Win32 (WCE ARMV4I) Static Library")
+!MESSAGE "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Release" (based on "Win32 (WCE ARMV4) Static Library")
+!MESSAGE "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Debug" (based on "Win32 (WCE ARMV4) Static Library")
+!MESSAGE 
+
+# Begin Project
+# PROP AllowPerConfigDependencies 0
+# PROP Scc_ProjName ""$/UtilityLibs/ClrConv_HTC/builds/ARMV4", TSKAAAAA"
+# PROP Scc_LocalPath "."
+# PROP ATL_Project 2
+
+!IF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "ARMV4IRel"
+# PROP BASE Intermediate_Dir "ARMV4IRel"
+# PROP BASE CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "ARMV4IRel"
+# PROP Intermediate_Dir "ARMV4IRel"
+# PROP CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP="C:\Program Files\Microsoft eMbedded C++ 4.0\EVC\WCE420\bin\xicle42"
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_LIB" /YX /QRarch4T /QRinterwork-return /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_LIB" /YX /QRarch4T /QRinterwork-return /O2 /M$(CECrtMT) /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "ARMV4IDbg"
+# PROP BASE Intermediate_Dir "ARMV4IDbg"
+# PROP BASE CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "ARMV4IDbg"
+# PROP Intermediate_Dir "ARMV4IDbg"
+# PROP CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP="C:\Program Files\Microsoft eMbedded C++ 4.0\EVC\WCE420\bin\xicle42"
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_LIB" /YX /QRarch4T /QRinterwork-return /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_LIB" /YX /QRarch4T /QRinterwork-return /M$(CECrtMTDebug) /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "ARMV4Rel"
+# PROP BASE Intermediate_Dir "ARMV4Rel"
+# PROP BASE CPU_ID "{ECBEA43D-CD7B-4852-AD55-D4227B5D624B}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "ARMV4Rel"
+# PROP Intermediate_Dir "ARMV4Rel"
+# PROP CPU_ID "{ECBEA43D-CD7B-4852-AD55-D4227B5D624B}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP="C:\Program Files\Microsoft eMbedded C++ 4.0\EVC\WCE420\bin\xicle42"
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "NDEBUG" /D "ARM" /D "_ARM_" /D "ARMV4" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_LIB" /YX /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /Oxt /I "..\..\..\..\common\inc\\" /I "..\..\src\C_CODE\\" /I "..\..\..\..\..\voRelease\Include\\" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "NDEBUG" /D "ARM" /D "_ARM_" /D "ARMV4" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_LIB" /D "ARCH_IS_GENERIC" /D "ARCH_IS_32BIT" /D "ARCH_IS_LITTLE_ENDIAN" /FA /YX /M$(CECrtMT) /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo /out:"..\..\..\..\voRelease\StaticLib\PPC2003\voColorConversion.lib"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "ARMV4Dbg"
+# PROP BASE Intermediate_Dir "ARMV4Dbg"
+# PROP BASE CPU_ID "{ECBEA43D-CD7B-4852-AD55-D4227B5D624B}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "ARMV4Dbg"
+# PROP Intermediate_Dir "ARMV4Dbg"
+# PROP CPU_ID "{ECBEA43D-CD7B-4852-AD55-D4227B5D624B}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP="C:\Program Files\Microsoft eMbedded C++ 4.0\EVC\WCE420\bin\xicle42"
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "ARM" /D "_ARM_" /D "ARMV4" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_LIB" /YX /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /I "..\..\..\..\common\inc\\" /I "..\..\src\C_CODE\\" /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "ARM" /D "_ARM_" /D "ARMV4" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_LIB" /FA /YX /M$(CECrtMTDebug) /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ENDIF 
+
+# Begin Target
+
+# Name "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Release"
+# Name "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Debug"
+# Name "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Release"
+# Name "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Debug"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+# Begin Group "ARM_ASM"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=..\..\src\ARM_ASM\420ToRgb16_arm.asm
+
+!IF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Release"
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Debug"
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Release"
+
+# Begin Custom Build
+IntDir=.\ARMV4Rel
+InputPath=..\..\src\ARM_ASM\420ToRgb16_arm.asm
+InputName=420ToRgb16_arm
+
+"$(IntDir)/$(InputName).obj" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
+	armasm -cpu xscale "$(InputPath)" "$(IntDir)/$(InputName).obj" -list "$(IntDir)/$(InputName).lst"
+
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Debug"
+
+# Begin Custom Build
+IntDir=.\ARMV4Dbg
+InputPath=..\..\src\ARM_ASM\420ToRgb16_arm.asm
+InputName=420ToRgb16_arm
+
+"$(IntDir)/$(InputName).obj" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
+	armasm -cpu xscale "$(InputPath)" "$(IntDir)/$(InputName).obj" -list "$(IntDir)/$(InputName).lst"
+
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\src\ARM_ASM\422ToRgb16_arm.asm
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=..\..\src\C_CODE\420n422ToRgb16_mb_c.c
+
+!IF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_420N4=\
+	"..\..\src\portab.h"\
+	
+NODEP_CPP_420N4=\
+	"..\..\src\C_CODE\420n422ToRgb16_mb.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_420N4=\
+	"..\..\src\portab.h"\
+	
+NODEP_CPP_420N4=\
+	"..\..\src\C_CODE\420n422ToRgb16_mb.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_420N4=\
+	"..\..\src\420n422ToRgb16_mb.h"\
+	"..\..\src\ccConstant.h"\
+	"..\..\src\portab.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_420N4=\
+	"..\..\src\420n422ToRgb16_mb.h"\
+	"..\..\src\ccConstant.h"\
+	"..\..\src\portab.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\src\cc420n422ToRGB.c
+
+!IF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_CC420=\
+	"..\..\src\cc420n422ToRGB.h"\
+	
+NODEP_CPP_CC420=\
+	"..\..\src\ccConstant.h"\
+	"..\..\src\ccDefine.h"\
+	"..\..\src\VoiClrConv.h"\
+	"..\..\src\VoiType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_CC420=\
+	"..\..\src\cc420n422ToRGB.h"\
+	
+NODEP_CPP_CC420=\
+	"..\..\src\ccConstant.h"\
+	"..\..\src\ccDefine.h"\
+	"..\..\src\VoiClrConv.h"\
+	"..\..\src\VoiType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_CC420=\
+	"..\..\src\420n422ToRgb16_mb.h"\
+	"..\..\src\C_CODE\Resize.h"\
+	"..\..\src\cc420n422ToRGB.h"\
+	"..\..\src\ccConstant.h"\
+	"..\..\src\ccInternal.h"\
+	"..\..\src\portab.h"\
+	
+NODEP_CPP_CC420=\
+	"..\..\src\C_CODE\colorconversion.h"\
+	"..\..\src\colorconversion.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_CC420=\
+	"..\..\..\..\common\inc\ClrConv_HTC_API.H"\
+	"..\..\..\..\common\inc\VoiType.h"\
+	"..\..\src\420n422ToRgb16_mb.h"\
+	"..\..\src\cc420n422ToRGB.h"\
+	"..\..\src\ccConstant.h"\
+	"..\..\src\portab.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\src\ccConstant.c
+
+!IF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Release"
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Debug"
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Release"
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Debug"
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\src\ccMain.c
+
+!IF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_CCMAI=\
+	"..\..\src\ccInternal.h"\
+	"..\..\src\mpeg_malloc.h"\
+	
+NODEP_CPP_CCMAI=\
+	"..\..\portab.h"\
+	"..\..\src\ClrConv_HTC_API.H"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_CCMAI=\
+	"..\..\src\ccInternal.h"\
+	"..\..\src\mpeg_malloc.h"\
+	
+NODEP_CPP_CCMAI=\
+	"..\..\portab.h"\
+	"..\..\src\ClrConv_HTC_API.H"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_CCMAI=\
+	"..\..\src\C_CODE\Resize.h"\
+	"..\..\src\cc420n422ToRGB.h"\
+	"..\..\src\ccInternal.h"\
+	"..\..\src\mpeg_malloc.h"\
+	"..\..\src\portab.h"\
+	
+NODEP_CPP_CCMAI=\
+	"..\..\src\C_CODE\colorconversion.h"\
+	"..\..\src\colorconversion.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_CCMAI=\
+	"..\..\..\..\common\inc\ClrConv_HTC_API.H"\
+	"..\..\..\..\common\inc\VoiType.h"\
+	"..\..\src\ccInternal.h"\
+	"..\..\src\mpeg_malloc.h"\
+	"..\..\src\portab.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\src\mpeg_malloc.c
+
+!IF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_MPEG_=\
+	"..\..\src\mpeg_malloc.h"\
+	
+NODEP_CPP_MPEG_=\
+	"..\..\portab.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_MPEG_=\
+	"..\..\src\mpeg_malloc.h"\
+	
+NODEP_CPP_MPEG_=\
+	"..\..\portab.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_MPEG_=\
+	"..\..\src\mpeg_malloc.h"\
+	"..\..\src\portab.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_MPEG_=\
+	"..\..\src\mpeg_malloc.h"\
+	"..\..\src\portab.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\src\mpeg_malloc.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\src\C_CODE\Resize_c.c
+
+!IF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_RESIZ=\
+	"..\..\src\C_CODE\Resize.h"\
+	"..\..\src\portab.h"\
+	
+NODEP_CPP_RESIZ=\
+	"..\..\src\C_CODE\ClrConv_HTC_API.H"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_RESIZ=\
+	"..\..\src\C_CODE\Resize.h"\
+	"..\..\src\portab.h"\
+	
+NODEP_CPP_RESIZ=\
+	"..\..\src\C_CODE\ClrConv_HTC_API.H"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_RESIZ=\
+	"..\..\src\C_CODE\Resize.h"\
+	"..\..\src\portab.h"\
+	
+NODEP_CPP_RESIZ=\
+	"..\..\src\C_CODE\colorconversion.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ClrConv_HTC_ARMV4 - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_RESIZ=\
+	"..\..\..\..\common\inc\ClrConv_HTC_API.H"\
+	"..\..\..\..\common\inc\VoiType.h"\
+	"..\..\src\C_CODE\Resize.h"\
+	"..\..\src\portab.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=..\..\src\420n422ToRgb16_mb.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\src\cc420n422ToRGB.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\src\ccConstant.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\src\portab.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\src\C_CODE\Resize.h
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=..\..\..\..\common\inc\ClrConv_HTC_API.H
+# End Source File
+# End Target
+# End Project

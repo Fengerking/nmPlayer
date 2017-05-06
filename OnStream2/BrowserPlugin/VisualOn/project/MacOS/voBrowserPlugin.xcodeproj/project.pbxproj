@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29DB994417D4620100C68332 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29DB993B17D4620100C68332 /* main.mm */; };
+		29DB994517D4620100C68332 /* npapiBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29DB993D17D4620100C68332 /* npapiBase.mm */; };
+		29DB994617D4620100C68332 /* PlayerInst.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29DB993F17D4620100C68332 /* PlayerInst.mm */; };
+		29DB994717D4620100C68332 /* voJSON.c in Sources */ = {isa = PBXBuildFile; fileRef = 29DB994017D4620100C68332 /* voJSON.c */; };
+		29DB994817D4620100C68332 /* voOSMP_v3.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29DB994317D4620100C68332 /* voOSMP_v3.mm */; };
+		29DB995E17D4642D00C68332 /* voVidDec.dat in Resources */ = {isa = PBXBuildFile; fileRef = 29DB995D17D4642D00C68332 /* voVidDec.dat */; };
+		29DB997B17D4652300C68332 /* libvoOSEng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DB996917D4652300C68332 /* libvoOSEng.a */; };
+		29DB997C17D4652300C68332 /* libvoOSPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DB996A17D4652300C68332 /* libvoOSPlayer.a */; };
+		29DB997D17D4652300C68332 /* libvoOSSource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DB996B17D4652300C68332 /* libvoOSSource.a */; };
+		29DB998217D4652300C68332 /* libvoVideoParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DB997017D4652300C68332 /* libvoVideoParser.a */; };
+		29DB998317D4654800C68332 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29DB995617D4640600C68332 /* InfoPlist.strings */; };
+		29DB998417D4654B00C68332 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29DB995817D4640600C68332 /* Info.plist */; };
+		29DB998517D4655700C68332 /* libvoAACDec.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB995F17D4652300C68332 /* libvoAACDec.dylib */; };
+		29DB998617D4655700C68332 /* libvoAdaptiveStreamController.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB996017D4652300C68332 /* libvoAdaptiveStreamController.dylib */; };
+		29DB998717D4655700C68332 /* libvoAdaptiveStreamHLS.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB996117D4652300C68332 /* libvoAdaptiveStreamHLS.dylib */; };
+		29DB998817D4655700C68332 /* libvoAudioFR.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB996217D4652300C68332 /* libvoAudioFR.dylib */; };
+		29DB998917D4655700C68332 /* libvoCaptionParser.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB996317D4652300C68332 /* libvoCaptionParser.dylib */; };
+		29DB998A17D4655700C68332 /* libvoDVBSubtitleParser.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB996417D4652300C68332 /* libvoDVBSubtitleParser.dylib */; };
+		29DB998B17D4655700C68332 /* libvoH264Dec.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB996517D4652300C68332 /* libvoH264Dec.dylib */; };
+		29DB998C17D4655700C68332 /* libvoMMCCRRS.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB996617D4652300C68332 /* libvoMMCCRRS.dylib */; };
+		29DB998D17D4655700C68332 /* libvoMP4FR.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB996717D4652300C68332 /* libvoMP4FR.dylib */; };
+		29DB998E17D4655700C68332 /* libvompEngn.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB996817D4652300C68332 /* libvompEngn.dylib */; };
+		29DB998F17D4655D00C68332 /* libvoSourceIO.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB996C17D4652300C68332 /* libvoSourceIO.dylib */; };
+		29DB999017D4655D00C68332 /* libvoSubtitleParser.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB996D17D4652300C68332 /* libvoSubtitleParser.dylib */; };
+		29DB999117D4655D00C68332 /* libvoTsParser.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB996E17D4652300C68332 /* libvoTsParser.dylib */; };
+		29DB999217D4655D00C68332 /* libvoVidDec.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 29DB996F17D4652300C68332 /* libvoVidDec.dylib */; };
+		8258B66D16AD294D00C7AA37 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8258B66C16AD294D00C7AA37 /* Carbon.framework */; };
+		8258B67516AD29D200C7AA37 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8258B66E16AD29D200C7AA37 /* AudioToolbox.framework */; };
+		8258B67616AD29D200C7AA37 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8258B66F16AD29D200C7AA37 /* Cocoa.framework */; };
+		8258B67716AD29D200C7AA37 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8258B67016AD29D200C7AA37 /* CoreFoundation.framework */; };
+		8258B67816AD29D200C7AA37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8258B67116AD29D200C7AA37 /* Foundation.framework */; };
+		8258B67A16AD29D200C7AA37 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8258B67316AD29D200C7AA37 /* QuartzCore.framework */; };
+		8258B67B16AD29D200C7AA37 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8258B67416AD29D200C7AA37 /* WebKit.framework */; };
+		825A8E1616AE6789002C376A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825A8E1516AE6789002C376A /* OpenGL.framework */; };
+		827D581A16C348DF00626A7A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827D581916C348DF00626A7A /* AppKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29DB993B17D4620100C68332 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = ../../source/MacOS/main.mm; sourceTree = "<group>"; };
+		29DB993C17D4620100C68332 /* npapiBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = npapiBase.h; path = ../../source/MacOS/npapiBase.h; sourceTree = "<group>"; };
+		29DB993D17D4620100C68332 /* npapiBase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = npapiBase.mm; path = ../../source/MacOS/npapiBase.mm; sourceTree = "<group>"; };
+		29DB993E17D4620100C68332 /* PlayerInst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerInst.h; path = ../../source/MacOS/PlayerInst.h; sourceTree = "<group>"; };
+		29DB993F17D4620100C68332 /* PlayerInst.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PlayerInst.mm; path = ../../source/MacOS/PlayerInst.mm; sourceTree = "<group>"; };
+		29DB994017D4620100C68332 /* voJSON.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voJSON.c; path = ../../source/MacOS/voJSON.c; sourceTree = "<group>"; };
+		29DB994117D4620100C68332 /* voJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voJSON.h; path = ../../source/MacOS/voJSON.h; sourceTree = "<group>"; };
+		29DB994217D4620100C68332 /* voOSMP_v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voOSMP_v3.h; path = ../../source/MacOS/voOSMP_v3.h; sourceTree = "<group>"; };
+		29DB994317D4620100C68332 /* voOSMP_v3.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = voOSMP_v3.mm; path = ../../source/MacOS/voOSMP_v3.mm; sourceTree = "<group>"; };
+		29DB995717D4640600C68332 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		29DB995817D4640600C68332 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29DB995917D4640600C68332 /* voBrowserPlugin-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "voBrowserPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		29DB995D17D4642D00C68332 /* voVidDec.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = voVidDec.dat; sourceTree = "<group>"; };
+		29DB995F17D4652300C68332 /* libvoAACDec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvoAACDec.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoAACDec.dylib; sourceTree = "<group>"; };
+		29DB996017D4652300C68332 /* libvoAdaptiveStreamController.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvoAdaptiveStreamController.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoAdaptiveStreamController.dylib; sourceTree = "<group>"; };
+		29DB996117D4652300C68332 /* libvoAdaptiveStreamHLS.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvoAdaptiveStreamHLS.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoAdaptiveStreamHLS.dylib; sourceTree = "<group>"; };
+		29DB996217D4652300C68332 /* libvoAudioFR.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvoAudioFR.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoAudioFR.dylib; sourceTree = "<group>"; };
+		29DB996317D4652300C68332 /* libvoCaptionParser.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvoCaptionParser.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoCaptionParser.dylib; sourceTree = "<group>"; };
+		29DB996417D4652300C68332 /* libvoDVBSubtitleParser.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvoDVBSubtitleParser.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoDVBSubtitleParser.dylib; sourceTree = "<group>"; };
+		29DB996517D4652300C68332 /* libvoH264Dec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvoH264Dec.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoH264Dec.dylib; sourceTree = "<group>"; };
+		29DB996617D4652300C68332 /* libvoMMCCRRS.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvoMMCCRRS.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoMMCCRRS.dylib; sourceTree = "<group>"; };
+		29DB996717D4652300C68332 /* libvoMP4FR.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvoMP4FR.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoMP4FR.dylib; sourceTree = "<group>"; };
+		29DB996817D4652300C68332 /* libvompEngn.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvompEngn.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvompEngn.dylib; sourceTree = "<group>"; };
+		29DB996917D4652300C68332 /* libvoOSEng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvoOSEng.a; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoOSEng.a; sourceTree = "<group>"; };
+		29DB996A17D4652300C68332 /* libvoOSPlayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvoOSPlayer.a; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoOSPlayer.a; sourceTree = "<group>"; };
+		29DB996B17D4652300C68332 /* libvoOSSource.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvoOSSource.a; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoOSSource.a; sourceTree = "<group>"; };
+		29DB996C17D4652300C68332 /* libvoSourceIO.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvoSourceIO.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoSourceIO.dylib; sourceTree = "<group>"; };
+		29DB996D17D4652300C68332 /* libvoSubtitleParser.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvoSubtitleParser.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoSubtitleParser.dylib; sourceTree = "<group>"; };
+		29DB996E17D4652300C68332 /* libvoTsParser.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvoTsParser.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoTsParser.dylib; sourceTree = "<group>"; };
+		29DB996F17D4652300C68332 /* libvoVidDec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvoVidDec.dylib; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoVidDec.dylib; sourceTree = "<group>"; };
+		29DB997017D4652300C68332 /* libvoVideoParser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvoVideoParser.a; path = ../../../../../../../voRelease/MacOS/lib/x86/libvoVideoParser.a; sourceTree = "<group>"; };
+		8258B66C16AD294D00C7AA37 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		8258B66E16AD29D200C7AA37 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8258B66F16AD29D200C7AA37 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8258B67016AD29D200C7AA37 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8258B67116AD29D200C7AA37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8258B67316AD29D200C7AA37 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8258B67416AD29D200C7AA37 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		825A8E1516AE6789002C376A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		826B91E716A79A45000488AF /* voBrowserPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voBrowserPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		827D581916C348DF00626A7A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		826B91E416A79A45000488AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827D581A16C348DF00626A7A /* AppKit.framework in Frameworks */,
+				825A8E1616AE6789002C376A /* OpenGL.framework in Frameworks */,
+				8258B67516AD29D200C7AA37 /* AudioToolbox.framework in Frameworks */,
+				8258B67616AD29D200C7AA37 /* Cocoa.framework in Frameworks */,
+				8258B67716AD29D200C7AA37 /* CoreFoundation.framework in Frameworks */,
+				8258B67816AD29D200C7AA37 /* Foundation.framework in Frameworks */,
+				8258B67A16AD29D200C7AA37 /* QuartzCore.framework in Frameworks */,
+				8258B67B16AD29D200C7AA37 /* WebKit.framework in Frameworks */,
+				8258B66D16AD294D00C7AA37 /* Carbon.framework in Frameworks */,
+				29DB997B17D4652300C68332 /* libvoOSEng.a in Frameworks */,
+				29DB997C17D4652300C68332 /* libvoOSPlayer.a in Frameworks */,
+				29DB997D17D4652300C68332 /* libvoOSSource.a in Frameworks */,
+				29DB998217D4652300C68332 /* libvoVideoParser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29DB98C617CDDA3F00C68332 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				29DB995F17D4652300C68332 /* libvoAACDec.dylib */,
+				29DB996017D4652300C68332 /* libvoAdaptiveStreamController.dylib */,
+				29DB996117D4652300C68332 /* libvoAdaptiveStreamHLS.dylib */,
+				29DB996217D4652300C68332 /* libvoAudioFR.dylib */,
+				29DB996317D4652300C68332 /* libvoCaptionParser.dylib */,
+				29DB996417D4652300C68332 /* libvoDVBSubtitleParser.dylib */,
+				29DB996517D4652300C68332 /* libvoH264Dec.dylib */,
+				29DB996617D4652300C68332 /* libvoMMCCRRS.dylib */,
+				29DB996717D4652300C68332 /* libvoMP4FR.dylib */,
+				29DB996817D4652300C68332 /* libvompEngn.dylib */,
+				29DB996917D4652300C68332 /* libvoOSEng.a */,
+				29DB996A17D4652300C68332 /* libvoOSPlayer.a */,
+				29DB996B17D4652300C68332 /* libvoOSSource.a */,
+				29DB996C17D4652300C68332 /* libvoSourceIO.dylib */,
+				29DB996D17D4652300C68332 /* libvoSubtitleParser.dylib */,
+				29DB996E17D4652300C68332 /* libvoTsParser.dylib */,
+				29DB996F17D4652300C68332 /* libvoVidDec.dylib */,
+				29DB997017D4652300C68332 /* libvoVideoParser.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		29DB995C17D4642D00C68332 /* License */ = {
+			isa = PBXGroup;
+			children = (
+				29DB995D17D4642D00C68332 /* voVidDec.dat */,
+			);
+			path = License;
+			sourceTree = "<group>";
+		};
+		826B91DC16A79A45000488AF = {
+			isa = PBXGroup;
+			children = (
+				29DB995C17D4642D00C68332 /* License */,
+				29DB98C617CDDA3F00C68332 /* Libraries */,
+				826B91FA16A7A0AA000488AF /* Source */,
+				826B91EC16A79A45000488AF /* voBrowserPlugin */,
+				826B91E916A79A45000488AF /* Frameworks */,
+				826B91E816A79A45000488AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		826B91E816A79A45000488AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				826B91E716A79A45000488AF /* voBrowserPlugin.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		826B91E916A79A45000488AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				827D581916C348DF00626A7A /* AppKit.framework */,
+				825A8E1516AE6789002C376A /* OpenGL.framework */,
+				8258B66E16AD29D200C7AA37 /* AudioToolbox.framework */,
+				8258B66F16AD29D200C7AA37 /* Cocoa.framework */,
+				8258B67016AD29D200C7AA37 /* CoreFoundation.framework */,
+				8258B67116AD29D200C7AA37 /* Foundation.framework */,
+				8258B67316AD29D200C7AA37 /* QuartzCore.framework */,
+				8258B67416AD29D200C7AA37 /* WebKit.framework */,
+				8258B66C16AD294D00C7AA37 /* Carbon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		826B91EC16A79A45000488AF /* voBrowserPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				826B91ED16A79A45000488AF /* Supporting Files */,
+			);
+			path = voBrowserPlugin;
+			sourceTree = "<group>";
+		};
+		826B91ED16A79A45000488AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29DB995617D4640600C68332 /* InfoPlist.strings */,
+				29DB995817D4640600C68332 /* Info.plist */,
+				29DB995917D4640600C68332 /* voBrowserPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		826B91FA16A7A0AA000488AF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				29DB993B17D4620100C68332 /* main.mm */,
+				29DB993C17D4620100C68332 /* npapiBase.h */,
+				29DB993D17D4620100C68332 /* npapiBase.mm */,
+				29DB993E17D4620100C68332 /* PlayerInst.h */,
+				29DB993F17D4620100C68332 /* PlayerInst.mm */,
+				29DB994017D4620100C68332 /* voJSON.c */,
+				29DB994117D4620100C68332 /* voJSON.h */,
+				29DB994217D4620100C68332 /* voOSMP_v3.h */,
+				29DB994317D4620100C68332 /* voOSMP_v3.mm */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		826B91E616A79A45000488AF /* voBrowserPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826B91F516A79A45000488AF /* Build configuration list for PBXNativeTarget "voBrowserPlugin" */;
+			buildPhases = (
+				826B91E316A79A45000488AF /* Sources */,
+				826B91E416A79A45000488AF /* Frameworks */,
+				826B91E516A79A45000488AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voBrowserPlugin;
+			productName = voBrowserPlugin;
+			productReference = 826B91E716A79A45000488AF /* voBrowserPlugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		826B91DE16A79A45000488AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Shawn Tsao";
+			};
+			buildConfigurationList = 826B91E116A79A45000488AF /* Build configuration list for PBXProject "voBrowserPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 826B91DC16A79A45000488AF;
+			productRefGroup = 826B91E816A79A45000488AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				826B91E616A79A45000488AF /* voBrowserPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		826B91E516A79A45000488AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DB998F17D4655D00C68332 /* libvoSourceIO.dylib in Resources */,
+				29DB999017D4655D00C68332 /* libvoSubtitleParser.dylib in Resources */,
+				29DB999117D4655D00C68332 /* libvoTsParser.dylib in Resources */,
+				29DB999217D4655D00C68332 /* libvoVidDec.dylib in Resources */,
+				29DB998517D4655700C68332 /* libvoAACDec.dylib in Resources */,
+				29DB998617D4655700C68332 /* libvoAdaptiveStreamController.dylib in Resources */,
+				29DB998717D4655700C68332 /* libvoAdaptiveStreamHLS.dylib in Resources */,
+				29DB998817D4655700C68332 /* libvoAudioFR.dylib in Resources */,
+				29DB998917D4655700C68332 /* libvoCaptionParser.dylib in Resources */,
+				29DB998A17D4655700C68332 /* libvoDVBSubtitleParser.dylib in Resources */,
+				29DB998B17D4655700C68332 /* libvoH264Dec.dylib in Resources */,
+				29DB998C17D4655700C68332 /* libvoMMCCRRS.dylib in Resources */,
+				29DB998D17D4655700C68332 /* libvoMP4FR.dylib in Resources */,
+				29DB998E17D4655700C68332 /* libvompEngn.dylib in Resources */,
+				29DB995E17D4642D00C68332 /* voVidDec.dat in Resources */,
+				29DB998317D4654800C68332 /* InfoPlist.strings in Resources */,
+				29DB998417D4654B00C68332 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		826B91E316A79A45000488AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DB994417D4620100C68332 /* main.mm in Sources */,
+				29DB994517D4620100C68332 /* npapiBase.mm in Sources */,
+				29DB994617D4620100C68332 /* PlayerInst.mm in Sources */,
+				29DB994717D4620100C68332 /* voJSON.c in Sources */,
+				29DB994817D4620100C68332 /* voOSMP_v3.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29DB995617D4640600C68332 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DB995717D4640600C68332 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		826B91F316A79A45000488AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = /depot/code/voBrowserPlugin/build/Debug;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		826B91F416A79A45000488AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		826B91F616A79A45000488AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = build/Debug;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "voBrowserPlugin/voBrowserPlugin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"XP_MACOSX=1",
+					DEBUG,
+					_MAC_OS,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../Include/OSMP_V3/iOS,
+					../../../../../Include,
+					../../../../../Common,
+				);
+				INFOPLIST_FILE = voBrowserPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../../voRelease/MacOS/lib/x86/debug\"",
+					"\"$(SRCROOT)/../../../../../../../voRelease/MacOS/lib/x86\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		826B91F716A79A45000488AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "voBrowserPlugin/voBrowserPlugin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"XP_MACOSX=1",
+					_MAC_OS,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../Include/OSMP_V3/iOS,
+					../../../../../Include,
+					../../../../../Common,
+				);
+				INFOPLIST_FILE = voBrowserPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../../voRelease/MacOS/lib/x86\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		826B91E116A79A45000488AF /* Build configuration list for PBXProject "voBrowserPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826B91F316A79A45000488AF /* Debug */,
+				826B91F416A79A45000488AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826B91F516A79A45000488AF /* Build configuration list for PBXNativeTarget "voBrowserPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826B91F616A79A45000488AF /* Debug */,
+				826B91F716A79A45000488AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 826B91DE16A79A45000488AF /* Project object */;
+}

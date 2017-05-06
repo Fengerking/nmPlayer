@@ -1,0 +1,1040 @@
+TvoDIVX3Dec_Sample_v6
+v7
+r0
+t347705110.808260
+cCheck dependencies
+cCpResource build/Release-iphoneos/voDIVX3Dec_Sample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/Info.plist voDIVX3Dec_Sample-Info.plist
+cCompileXIB /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/MainWindow.xib
+cCompileXIB /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_SampleViewController.xib
+cProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-hejwnsvvbdaluwcqsvekkdhrsiti/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-hlhqblwpuzusqseiweuaadokhnqa/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aiiyryjxhvhwsecucacwehpufcnw/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-emocwwvukkazceapicgdtdbwijfp/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gynsfhiymfuycydpafdwfvvubdxl/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-dvjwlohfhggzugbudpfabmyrzghc/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/main.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_SampleAppDelegate.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_SampleViewController.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c normal armv6 c com.apple.compilers.gcc.4_2
+cLd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample normal armv6
+cCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/main.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_SampleAppDelegate.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_SampleViewController.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c normal armv7 c com.apple.compilers.gcc.4_2
+cLd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample normal armv7
+cCreateUniversalBinary /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/voDIVX3Dec_Sample normal "armv6 armv7"
+cGenerateDSYMFile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app.dSYM /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/voDIVX3Dec_Sample
+cProcessProductPackaging "/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision" /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/embedded.mobileprovision
+cTouch /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample.xcent
+cCodeSign /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app
+cValidate /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
+c000000004CB3E4B800000000000040AC
+t1286857912
+s16556
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/string.h
+c000000004CB3E4B80000000000001731
+t1286857912
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/time.h
+c000000004CB3E4B8000000000000178E
+t1286857912
+s6030
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/limits.h
+c000000004C5A56870000000000000C7E
+t1280988807
+s3198
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/include/voDIVX3.h
+c000000004EE091120000000000000DFB
+t1323340050
+s3579
+i<voVideo.h>
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/include/voIVCommon.h
+c000000004EE09112000000000000188E
+t1323340050
+s6286
+i"voType.h"
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/include/voIndex.h
+c000000004EE6DFD10000000000001D61
+t1323753425
+s7521
+i"voType.h"
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/include/voMem.h
+c000000004EE0911200000000000006D2
+t1323340050
+s1746
+i"voIndex.h"
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/include/voType.h
+c000000004EE09112000000000000255E
+t1323340050
+s9566
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/include/voVideo.h
+c000000004EEB1F9B0000000000003634
+t1324031899
+s13876
+i"voIVCommon.h"
+i"voMem.h"
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../lib/v6/libvoDIVX3Dec.a
+c000000004F0934620000000000042CE8
+t1326003298
+s273640
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../lib/v7/libvoDIVX3Dec.a
+c000000004F09347B00000000000408B8
+t1326003323
+s264376
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c
+c000000004F07F9520000000000001589
+t1325922642
+s5513
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<limits.h>
+i"voDIVX3.h"
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.h
+c000000004F07EFDC0000000000000119
+t1325920220
+s281
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.h
+c000000004F07AA40000000000000020B
+t1325902400
+s523
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.mm
+c000000004F07AA400000000000000AB7
+t1325902400
+s2743
+i"voDIVX3Dec_SampleAppDelegate.h"
+i"voDIVX3Dec_SampleViewController.h"
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.h
+c000000004F07AA4000000000000000FC
+t1325902400
+s252
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.mm
+c000000004F07B86F00000000000006C0
+t1325906031
+s1728
+i"voDIVX3Dec_SampleViewController.h"
+i"voDIVX3Dec_Sample.h"
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/MainWindow.xib
+c000000004F07AA400000000000004EA1
+t1325902400
+s20129
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app
+t1326012301
+s374
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app.dSYM
+t1326003354
+s102
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/Info.plist
+t1325903196
+s833
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/MainWindow.nib
+t1325903198
+s1701
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/PkgInfo
+t1325903196
+s8
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/ResourceRules.plist
+t1325903196
+s485
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/embedded.mobileprovision
+t1326002849
+s8442
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/voDIVX3Dec_Sample
+t1326003354
+s451856
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/voDIVX3Dec_SampleViewController.nib
+t1325903198
+s1269
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/main.o
+t1326000560
+s6588
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample
+t1326003354
+s215540
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample.LinkFileList
+c000000004F07AEAD000000000000030C
+t1325903533
+s780
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample.o
+t1326000561
+s13112
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_SampleAppDelegate.o
+t1326000560
+s50144
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_SampleViewController.o
+t1326000560
+s39160
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/main.o
+t1326000562
+s6564
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample
+t1326003354
+s215540
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample.LinkFileList
+c000000004F07AEAD000000000000030C
+t1325903533
+s780
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample.o
+t1326000563
+s13068
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_SampleAppDelegate.o
+t1326000562
+s50156
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_SampleViewController.o
+t1326000562
+s39168
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample.xcent
+t1326000563
+s440
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/main.m
+c000000004F07AA400000000000000163
+t1325902400
+s355
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_SampleViewController.xib
+c000000004F07AA400000000000001A6D
+t1325902400
+s6765
+
+N/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch
+c000000004F07AA4000000000000000CB
+t1325902400
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/include/voDIVX3.h
+c000000004EE091120000000000000DFB
+t1323340050
+s3579
+i<voVideo.h>
+
+N/Users/lilin/Code4/trunk/include/voIVCommon.h
+c000000004EE09112000000000000188E
+t1323340050
+s6286
+i"voType.h"
+
+N/Users/lilin/Code4/trunk/include/voIndex.h
+c000000004EE6DFD10000000000001D61
+t1323753425
+s7521
+i"voType.h"
+
+N/Users/lilin/Code4/trunk/include/voMem.h
+c000000004EE0911200000000000006D2
+t1323340050
+s1746
+i"voIndex.h"
+
+N/Users/lilin/Code4/trunk/include/voType.h
+c000000004EE09112000000000000255E
+t1323340050
+s9566
+
+N/Users/lilin/Code4/trunk/include/voVideo.h
+c000000004EEB1F9B0000000000003634
+t1324031899
+s13876
+i"voIVCommon.h"
+i"voMem.h"
+
+N/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision
+c000000004EBB9D0F00000000000020FA
+t1320918287
+s8442
+
+N/Users/lilin/Library/MobileDevice/Provisioning Profiles/7B495CFB-1E21-42F7-8C33-1031877ABA5D.mobileprovision
+c000000004ECC97D700000000000020FE
+t1322031063
+s8446
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aglrnfsjbsqklaaoysdfzoebmpwo/voDIVX3Dec_Sample_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aiiyryjxhvhwsecucacwehpufcnw/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325920628
+s1261796
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aiytrtvzqahdpjdcpltocjzobiiv/voDIVX3Dec_Sample_Prefix.pch.gch
+t1326000544
+s10643048
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aorzupromaajudgrywyygyuloxvu/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325903601
+s1261796
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-apmnsmvxxymjfndftfnwjhvfllso/voDIVX3Dec_Sample_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-ayytozhufnrpvadrwfaadqimxlls/voDIVX3Dec_Sample_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bbogomugyievsddmcxesdmwbobbt/voDIVX3Dec_Sample_Prefix.pch.gch
+t1326000543
+s9803480
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bjwlurtkzqhqvqajyzxffisiwagz/voDIVX3Dec_Sample_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bkjfyzgmxkhiylcgpijovakvmazk/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325903539
+s9803480
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bszravvttfbhlpdctsoexkerlsoh/voDIVX3Dec_Sample_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bvvcpgnbdbcvbpbhvddztpizoucc/voDIVX3Dec_Sample_Prefix.pch.gch
+t1326000543
+s1261796
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-cduersiuzwflfggarnhixqghuyoa/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325903500
+s1716452
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-cfpeybmaxdnrsggjodvezqgrvnps/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325903542
+s1716452
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-cqltwwpfwznfmngyjeahyitgmglp/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325902959
+s11101800
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-cyaamxasngfuqjemfjntznuaewah/voDIVX3Dec_Sample_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-czosrmtyxhysvzcubbwhddhjryjg/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325903601
+s10643048
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-dclcjfmbqfblzubsouybsldouuxx/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325903501
+s11101800
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-dhvimajaugfuegdgbimrbeyotowo/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325903539
+s10643048
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-djmgmpduimjydmdpkwqyxrbpeofk/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325902959
+s1716452
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-djvfcuytsibjeaghpthrxyqvqvor/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325903500
+s10262232
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-dvjwlohfhggzugbudpfabmyrzghc/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325920630
+s1716452
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-emocwwvukkazceapicgdtdbwijfp/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325920629
+s10262232
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-eyjxlqlquewgknfrxpkfpwmpcvrp/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325903542
+s11101800
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fcxanenviwylwhenyvmfwxgfpbcg/voDIVX3Dec_Sample_Prefix.pch.gch
+t1326000545
+s11101800
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fjnhrnubylwauggjnbuojlkaxaxu/voDIVX3Dec_Sample_Prefix.pch.gch
+t1326000545
+s1716452
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fpmeratauibqbngvtqumklztfxdd/voDIVX3Dec_Sample_Prefix.pch.gch
+t1326000544
+s10262232
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fvewujbiyirbwchjirmnhxvpxlrw/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325902957
+s10262232
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fxgrvmotiqqqljgzjgigavpwtwqc/voDIVX3Dec_Sample_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-ghwhtpczypmlewcnvusvhsblkwnp/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325903601
+s9803480
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-golqenslyhajapgcluswayjukpqe/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325903540
+s1261796
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gtuwhqkhmenawkgilycjpsvtrhmt/voDIVX3Dec_Sample_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gxhxzbporbirkaernxxaupuhucdm/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325903541
+s10262232
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gynsfhiymfuycydpafdwfvvubdxl/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325920630
+s11101800
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gzozoqtlpmdqnfheigcsrfdduuqs/voDIVX3Dec_Sample_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-hejwnsvvbdaluwcqsvekkdhrsiti/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325920628
+s9803480
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-hlhqblwpuzusqseiweuaadokhnqa/voDIVX3Dec_Sample_Prefix.pch.gch
+t1325920629
+s10643048
+
+NvoDIVX3Dec_Sample-Info copy.plist
+c00000000000000000000000000000000
+t2
+s0
+
+NvoDIVX3Dec_Sample-Info.plist
+c000000004F07ABA9000000000000038D
+t1325902761
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies347705110#347705110#0(0"0(0#1#0"8672743904#0"0#
+
+CCodeSign /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app
+s347705110.383188
+e347705110.694637
+r1
+xCodeSign
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app
+o/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app: replacing existing signature
+lSLF07#2@53"CodeSign build/Release-iphoneos/voDIVX3Dec_Sample.app347705110#347705110#0(152"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app: replacing existing signature0(0#0#121"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app8667087296#855"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Bill Lin (976WAD8FSQ)" --resource-rules=/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/ResourceRules.plist --entitlements /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample.xcent /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app0#
+
+CCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/main.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s347693358.081628
+e347693360.327786
+r1
+xCompileC
+xbuild/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/main.o
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/main.m347693358#347693360#0(0"0(0#0#83"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/main.m8688722464#2502"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-hejwnsvvbdaluwcqsvekkdhrsiti/voDIVX3Dec_Sample_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/main.m -o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c normal armv6 c com.apple.compilers.gcc.4_2
+s347693360.609884
+e347693361.023102
+r1
+xCompileC
+xbuild/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample.o
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:7:
+o/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h:42: warning: useless storage class specifier in empty declaration
+o/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h:57: warning: useless storage class specifier in empty declaration
+o/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c: In function 'beginTest':
+o/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:129: warning: passing argument 3 of 'voDIVX3Dec.SetParam' discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:130: warning: passing argument 3 of 'voDIVX3Dec.SetParam' discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:166: warning: format '%X' expects type 'unsigned int', but argument 2 has type 'VO_U32'
+lSLF07#2@112"Compile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347693360#347693361#0(1198"In file included from /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:7:/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h:42: warning: useless storage class specifier in empty declaration/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h:57: warning: useless storage class specifier in empty declaration/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c: In function 'beginTest':/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:129: warning: passing argument 3 of 'voDIVX3Dec.SetParam' discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:130: warning: passing argument 3 of 'voDIVX3Dec.SetParam' discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:166: warning: format '%X' expects type 'unsigned int', but argument 2 has type 'VO_U32'5(22@52"Useless storage class specifier in empty declaration347693360#130#164#2(7@126"In file included from /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347693360#18446744073709551615#0#0(6@104"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347615442#7#0#7#0#0"0(13@153"Useless storage class specifier in empty declaration in /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h347693360#18446744073709551615#0#0(6@97"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h345032850#42#0#42#0#0"0(6@97"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h345032850#42#0#42#0#0"0(22@52"Useless storage class specifier in empty declaration347693360#294#164#2(7@126"In file included from /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347693360#18446744073709551615#0#0(6@104"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347615442#7#0#7#0#0"0(13@153"Useless storage class specifier in empty declaration in /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h347693360#18446744073709551615#0#0(6@97"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h345032850#57#0#57#0#0"0(6@97"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h345032850#57#0#57#0#0"0(22@88"Passing argument 3 of 'voDIVX3Dec.SetParam' discards qualifiers from pointer target type347693360#589#208#0(6@104"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347615442#129#0#129#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@88"Passing argument 3 of 'voDIVX3Dec.SetParam' discards qualifiers from pointer target type347693360#797#208#0(6@104"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347615442#130#0#130#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@73"Format '%X' expects type 'unsigned int', but argument 2 has type 'VO_U32'347693360#1005#193#0(6@104"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347615442#166#0#166#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#104"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c8688960736#2526"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aiiyryjxhvhwsecucacwehpufcnw/voDIVX3Dec_Sample_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c -o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample.o0#
+
+CCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_SampleAppDelegate.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s347693358.083099
+e347693360.637029
+r1
+xCompileC
+xbuild/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_SampleAppDelegate.o
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@124"Compile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.mm347693358#347693360#0(0"0(0#0#116"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.mm8687677408#2580"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-hlhqblwpuzusqseiweuaadokhnqa/voDIVX3Dec_Sample_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.mm -o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_SampleAppDelegate.o0#
+
+CCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_SampleViewController.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s347693360.328014
+e347693360.609763
+r1
+xCompileC
+xbuild/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_SampleViewController.o
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@127"Compile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.mm347693360#347693360#0(0"0(0#0#119"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.mm8627019680#2586"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-hlhqblwpuzusqseiweuaadokhnqa/voDIVX3Dec_Sample_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.mm -o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_SampleViewController.o0#
+
+CCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/main.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s347693360.637158
+e347693362.084647
+r1
+xCompileC
+xbuild/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/main.o
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/main.m347693360#347693362#0(0"0(0#0#83"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/main.m8687570816#2502"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-emocwwvukkazceapicgdtdbwijfp/voDIVX3Dec_Sample_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/main.m -o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c normal armv7 c com.apple.compilers.gcc.4_2
+s347693362.831953
+e347693363.074228
+r1
+xCompileC
+xbuild/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample.o
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:7:
+o/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h:42: warning: useless storage class specifier in empty declaration
+o/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h:57: warning: useless storage class specifier in empty declaration
+o/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c: In function 'beginTest':
+o/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:129: warning: passing argument 3 of 'voDIVX3Dec.SetParam' discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:130: warning: passing argument 3 of 'voDIVX3Dec.SetParam' discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:166: warning: format '%X' expects type 'unsigned int', but argument 2 has type 'VO_U32'
+lSLF07#2@112"Compile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347693362#347693363#0(1198"In file included from /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:7:/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h:42: warning: useless storage class specifier in empty declaration/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h:57: warning: useless storage class specifier in empty declaration/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c: In function 'beginTest':/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:129: warning: passing argument 3 of 'voDIVX3Dec.SetParam' discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:130: warning: passing argument 3 of 'voDIVX3Dec.SetParam' discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c:166: warning: format '%X' expects type 'unsigned int', but argument 2 has type 'VO_U32'5(22@52"Useless storage class specifier in empty declaration347693362#130#164#2(7@126"In file included from /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347693362#18446744073709551615#0#0(6@104"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347615442#7#0#7#0#0"0(13@153"Useless storage class specifier in empty declaration in /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h347693362#18446744073709551615#0#0(6@97"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h345032850#42#0#42#0#0"0(6@97"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h345032850#42#0#42#0#0"0(22@52"Useless storage class specifier in empty declaration347693362#294#164#2(7@126"In file included from /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347693362#18446744073709551615#0#0(6@104"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347615442#7#0#7#0#0"0(13@153"Useless storage class specifier in empty declaration in /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h347693362#18446744073709551615#0#0(6@97"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h345032850#57#0#57#0#0"0(6@97"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include/voDIVX3.h345032850#57#0#57#0#0"0(22@88"Passing argument 3 of 'voDIVX3Dec.SetParam' discards qualifiers from pointer target type347693362#589#208#0(6@104"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347615442#129#0#129#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@88"Passing argument 3 of 'voDIVX3Dec.SetParam' discards qualifiers from pointer target type347693362#797#208#0(6@104"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347615442#130#0#130#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@73"Format '%X' expects type 'unsigned int', but argument 2 has type 'VO_U32'347693362#1005#193#0(6@104"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c347615442#166#0#166#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#104"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c8675268864#2526"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-dvjwlohfhggzugbudpfabmyrzghc/voDIVX3Dec_Sample_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_Sample.c -o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample.o0#
+
+CCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_SampleAppDelegate.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s347693361.171616
+e347693362.885856
+r1
+xCompileC
+xbuild/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_SampleAppDelegate.o
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@124"Compile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.mm347693361#347693362#0(0"0(0#0#116"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.mm8673594464#2580"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gynsfhiymfuycydpafdwfvvubdxl/voDIVX3Dec_Sample_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleAppDelegate.mm -o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_SampleAppDelegate.o0#
+
+CCompileC build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_SampleViewController.o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s347693362.085556
+e347693362.831826
+r1
+xCompileC
+xbuild/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_SampleViewController.o
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@127"Compile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.mm347693362#347693362#0(0"0(0#0#119"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.mm8691592256#2586"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gynsfhiymfuycydpafdwfvvubdxl/voDIVX3Dec_Sample_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/Classes/voDIVX3Dec_SampleViewController.mm -o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_SampleViewController.o0#
+
+CCompileXIB /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/MainWindow.xib
+r0
+
+CCompileXIB /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_SampleViewController.xib
+r0
+
+CCpResource build/Release-iphoneos/voDIVX3Dec_Sample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/voDIVX3Dec_Sample normal "armv6 armv7"
+s347696154.466159
+e347696154.495873
+r1
+xCreateUniversalBinary
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/voDIVX3Dec_Sample
+xnormal
+xarmv6 armv7
+lSLF07#2@105"CreateUniversalBinary build/Release-iphoneos/voDIVX3Dec_Sample.app/voDIVX3Dec_Sample normal "armv6 armv7"347696154#347696154#0(0"0(0#0#88"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/armv6 armv78688818944#762"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample -output /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/voDIVX3Dec_Sample0#
+
+CGenerateDSYMFile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app.dSYM /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/voDIVX3Dec_Sample
+s347696154.495979
+e347696154.534448
+r1
+xGenerateDSYMFile
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app.dSYM
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/voDIVX3Dec_Sample
+lSLF07#2@129"GenerateDSYMFile build/Release-iphoneos/voDIVX3Dec_Sample.app.dSYM build/Release-iphoneos/voDIVX3Dec_Sample.app/voDIVX3Dec_Sample347696154#347696154#0(0"0(0#0#139"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/voDIVX3Dec_Sample8668238688#510"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/voDIVX3Dec_Sample -o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app.dSYM0#
+
+CLd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample normal armv6
+s347696154.314837
+e347696154.466045
+r1
+xLd
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample
+xnormal
+xarmv6
+lSLF07#2@194"Link /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample347696154#347696154#0(0"0(0#0#0"8664639008#1238"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -L/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../lib/v6 -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -filelist /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -lvoDIVX3Dec -lvoDIVX3Dec -o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv6/voDIVX3Dec_Sample0#
+
+CLd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample normal armv7
+s347696154.316658
+e347696154.461517
+r1
+xLd
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample
+xnormal
+xarmv7
+lSLF07#2@194"Link /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample347696154#347696154#0(0"0(0#0#0"8667807776#1238"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -L/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../lib/v6 -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -filelist /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -lvoDIVX3Dec -lvoDIVX3Dec -o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/Objects-normal/armv7/voDIVX3Dec_Sample0#
+
+CProcessInfoPlistFile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/Info.plist "voDIVX3Dec_Sample-Info copy.plist"
+r0
+
+CProcessInfoPlistFile /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/Info.plist voDIVX3Dec_Sample-Info.plist
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aiiyryjxhvhwsecucacwehpufcnw/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+s347613428.802048
+e347613428.964048
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aiiyryjxhvhwsecucacwehpufcnw/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347613428#347613428#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8670206400#2337"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aiiyryjxhvhwsecucacwehpufcnw/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aorzupromaajudgrywyygyuloxvu/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+s347596401.465501
+e347596401.610393
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aorzupromaajudgrywyygyuloxvu/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347596401#347596401#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8686448768#2365"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I../../../../../../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aorzupromaajudgrywyygyuloxvu/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-apmnsmvxxymjfndftfnwjhvfllso/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-ayytozhufnrpvadrwfaadqimxlls/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bbogomugyievsddmcxesdmwbobbt/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s347693340.504375
+e347693343.922197
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bbogomugyievsddmcxesdmwbobbt/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347693340#347693343#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8687861056#2347"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bbogomugyievsddmcxesdmwbobbt/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bjwlurtkzqhqvqajyzxffisiwagz/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bkjfyzgmxkhiylcgpijovakvmazk/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s347596333.544206
+e347596340.711397
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bkjfyzgmxkhiylcgpijovakvmazk/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347596333#347596340#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8690802752#2257"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bkjfyzgmxkhiylcgpijovakvmazk/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bvvcpgnbdbcvbpbhvddztpizoucc/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+s347693343.922532
+e347693344.091866
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bvvcpgnbdbcvbpbhvddztpizoucc/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347693343#347693344#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8677784416#2337"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bvvcpgnbdbcvbpbhvddztpizoucc/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-cduersiuzwflfggarnhixqghuyoa/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-cfpeybmaxdnrsggjodvezqgrvnps/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+s347596342.100795
+e347596342.220288
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-cfpeybmaxdnrsggjodvezqgrvnps/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347596342#347596342#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8647732736#2247"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-cfpeybmaxdnrsggjodvezqgrvnps/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-cyaamxasngfuqjemfjntznuaewah/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-djmgmpduimjydmdpkwqyxrbpeofk/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-djvfcuytsibjeaghpthrxyqvqvor/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-dvjwlohfhggzugbudpfabmyrzghc/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+s347613430.035503
+e347613430.237281
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-dvjwlohfhggzugbudpfabmyrzghc/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347613430#347613430#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8690204320#2337"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-dvjwlohfhggzugbudpfabmyrzghc/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-emocwwvukkazceapicgdtdbwijfp/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s347613428.964180
+e347613430.035367
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-emocwwvukkazceapicgdtdbwijfp/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347613428#347613430#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8624837088#2347"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-emocwwvukkazceapicgdtdbwijfp/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fjnhrnubylwauggjnbuojlkaxaxu/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+s347693345.015356
+e347693345.229576
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fjnhrnubylwauggjnbuojlkaxaxu/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347693345#347693345#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8671934048#2337"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fjnhrnubylwauggjnbuojlkaxaxu/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fpmeratauibqbngvtqumklztfxdd/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s347693344.092093
+e347693345.015115
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fpmeratauibqbngvtqumklztfxdd/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347693344#347693345#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8691069696#2347"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fpmeratauibqbngvtqumklztfxdd/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fvewujbiyirbwchjirmnhxvpxlrw/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fxgrvmotiqqqljgzjgigavpwtwqc/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-ghwhtpczypmlewcnvusvhsblkwnp/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s347596400.454757
+e347596401.465313
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-ghwhtpczypmlewcnvusvhsblkwnp/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347596400#347596401#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8690905088#2375"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I../../../../../../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-ghwhtpczypmlewcnvusvhsblkwnp/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-golqenslyhajapgcluswayjukpqe/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+s347596340.389173
+e347596340.733927
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-golqenslyhajapgcluswayjukpqe/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347596340#347596340#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8648620320#2247"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-golqenslyhajapgcluswayjukpqe/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gtuwhqkhmenawkgilycjpsvtrhmt/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gxhxzbporbirkaernxxaupuhucdm/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s347596340.711577
+e347596342.100482
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gxhxzbporbirkaernxxaupuhucdm/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347596340#347596342#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8676522624#2257"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gxhxzbporbirkaernxxaupuhucdm/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-hejwnsvvbdaluwcqsvekkdhrsiti/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s347613427.533841
+e347613428.801766
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-hejwnsvvbdaluwcqsvekkdhrsiti/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347613427#347613428#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8690700064#2347"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-hejwnsvvbdaluwcqsvekkdhrsiti/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aglrnfsjbsqklaaoysdfzoebmpwo/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aiytrtvzqahdpjdcpltocjzobiiv/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s347693340.530344
+e347693344.284418
+r1
+xProcessPCH++
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aiytrtvzqahdpjdcpltocjzobiiv/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347693340#347693344#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8672881472#2368"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-aiytrtvzqahdpjdcpltocjzobiiv/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-bszravvttfbhlpdctsoexkerlsoh/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-cqltwwpfwznfmngyjeahyitgmglp/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-czosrmtyxhysvzcubbwhddhjryjg/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s347596400.455877
+e347596401.763414
+r1
+xProcessPCH++
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-czosrmtyxhysvzcubbwhddhjryjg/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347596400#347596401#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8690082656#2396"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I../../../../../../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-czosrmtyxhysvzcubbwhddhjryjg/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-dclcjfmbqfblzubsouybsldouuxx/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-dhvimajaugfuegdgbimrbeyotowo/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s347596333.545427
+e347596340.388977
+r1
+xProcessPCH++
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-dhvimajaugfuegdgbimrbeyotowo/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347596333#347596340#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8687908672#2278"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-dhvimajaugfuegdgbimrbeyotowo/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-eyjxlqlquewgknfrxpkfpwmpcvrp/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s347596340.734060
+e347596342.362217
+r1
+xProcessPCH++
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-eyjxlqlquewgknfrxpkfpwmpcvrp/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347596340#347596342#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8672511040#2278"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-eyjxlqlquewgknfrxpkfpwmpcvrp/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fcxanenviwylwhenyvmfwxgfpbcg/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s347693344.284563
+e347693345.526627
+r1
+xProcessPCH++
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fcxanenviwylwhenyvmfwxgfpbcg/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347693344#347693345#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8677211072#2368"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-fcxanenviwylwhenyvmfwxgfpbcg/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gynsfhiymfuycydpafdwfvvubdxl/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s347613429.153858
+e347613430.528936
+r1
+xProcessPCH++
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gynsfhiymfuycydpafdwfvvubdxl/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347613429#347613430#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8676308928#2368"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gynsfhiymfuycydpafdwfvvubdxl/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-gzozoqtlpmdqnfheigcsrfdduuqs/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-hlhqblwpuzusqseiweuaadokhnqa/voDIVX3Dec_Sample_Prefix.pch.gch voDIVX3Dec_Sample_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s347613427.535494
+e347613429.153356
+r1
+xProcessPCH++
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-hlhqblwpuzusqseiweuaadokhnqa/voDIVX3Dec_Sample_Prefix.pch.gch
+xvoDIVX3Dec_Sample_Prefix.pch
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile voDIVX3Dec_Sample_Prefix.pch347613427#347613429#0(0"0(0#0#105"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch8689848480#2368"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/../include -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/voDIVX3Dec_Sample_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voDIVX3Dec_Sample_Prefix-hlhqblwpuzusqseiweuaadokhnqa/voDIVX3Dec_Sample_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision" /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging "/Users/lilin/Library/MobileDevice/Provisioning Profiles/7B495CFB-1E21-42F7-8C33-1031877ABA5D.mobileprovision" /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample.xcent
+s347693363.179289
+e347693363.209747
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample.xcent
+lSLF07#2@210"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample.xcent347693363#347693363#0(0"0(0#0#174"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample.xcent8676301920#543"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/voDIVX3Dec_Sample.build/Release-iphoneos/voDIVX3Dec_Sample_v6.build/voDIVX3Dec_Sample.xcent0#
+
+CTouch /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app
+s347696154.534620
+e347696154.537677
+r1
+xTouch
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app
+lSLF07#2@127"Touch /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app347696154#347696154#0(0"0(0#0#0"8687174848#352"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app0#
+
+CValidate /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app
+s347705110.694731
+e347705110.808205
+r1
+xValidate
+x/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app
+o2012-01-08 16:45:10.714 Validation[72024:607] *** Warning: Defaulting to the standard codesign tool
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  Your MinimumOSVersion is below 3.2, so you must define CFBundleIconFile or provide a default Icon.png that is 57x57. (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF07#2@53"Validate build/Release-iphoneos/voDIVX3Dec_Sample.app347705110#347705110#0(363"2012-01-08 16:45:10.714 Validation[72024:607] *** Warning: Defaulting to the standard codesign toolwarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  Your MinimumOSVersion is below 3.2, so you must define CFBundleIconFile or provide a default Icon.png that is 57x57. (-19013)Unable to validate your application. - (null)1(22@207" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  Your MinimumOSVersion is below 3.2, so you must define CFBundleIconFile or provide a default Icon.png that is 57x57. (-19013)347705110#18446744073709551615#0#0(6@0"347705110#0#0#0#0#0"0(0#0#121"/Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app8688366304#461"    cd /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/lilin/Code4/trunk/Codec/Video/Decoder/mpeg4/example/voDIVX3Dec_Sample/build/Release-iphoneos/voDIVX3Dec_Sample.app0#
+

@@ -1,0 +1,4 @@
+LIBRARY	"voDVBSubtitleParser.dll"
+
+EXPORTS
+		voGetDVBParserAPI

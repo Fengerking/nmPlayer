@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controller", "Controller\Controller.vcproj", "{EC94ABCA-22DE-415A-A8BA-60A967959579}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ControllerDll", "..\ControllerDll\ControllerDll\ControllerDll.vcproj", "{1A16466E-A2C7-4C87-947A-E3A1D7C27197}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC94ABCA-22DE-415A-A8BA-60A967959579}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC94ABCA-22DE-415A-A8BA-60A967959579}.Debug|Win32.Build.0 = Debug|Win32
+		{EC94ABCA-22DE-415A-A8BA-60A967959579}.Release|Win32.ActiveCfg = Release|Win32
+		{EC94ABCA-22DE-415A-A8BA-60A967959579}.Release|Win32.Build.0 = Release|Win32
+		{1A16466E-A2C7-4C87-947A-E3A1D7C27197}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A16466E-A2C7-4C87-947A-E3A1D7C27197}.Debug|Win32.Build.0 = Debug|Win32
+		{1A16466E-A2C7-4C87-947A-E3A1D7C27197}.Release|Win32.ActiveCfg = Release|Win32
+		{1A16466E-A2C7-4C87-947A-E3A1D7C27197}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

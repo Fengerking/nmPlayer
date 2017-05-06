@@ -1,0 +1,6 @@
+#cd Numen/trunk/Source/RTSP/Project/Linux
+#make;make devel
+svn ci ../../../../../voRelease/Customer/Google/eclair/so/v4/libvoSrcRTSP.so  -m "2.10.0816.1001: disable the nofitication after stop "
+svn ci ../../../../../voRelease/Customer/Google/cupcake/so/v6/voSrcRTSP.so  -m  "2.10.0816.1001: disable the nofitication after stop "
+svn ci ../../../../../voRelease/Linux/shared/libvoSrcRTSP.so  -m  "2.10.0816.1001: disable the nofitication after stop"
+svn ci ../../../../../trunk/Source/RTSP/  -m "2.10.0816.1001: disable the nofitication after stop"

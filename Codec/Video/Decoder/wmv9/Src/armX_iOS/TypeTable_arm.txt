@@ -1,0 +1,14 @@
+char            1
+byte            1
+short           2
+int             4
+long            4
+__int64         8
+double          8
+float           4
+__cdecl         4
+void            4
+const           4
+signed          4
+unsigned        4
+ptr             4

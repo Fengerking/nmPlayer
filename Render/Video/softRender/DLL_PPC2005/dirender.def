@@ -1,0 +1,5 @@
+LIBRARY voccrender
+EXPORTS
+cc_ini
+cc_process
+cc_uini

@@ -1,0 +1,5 @@
+LIBRARY voAsfFR.dll
+
+EXPORTS
+	voGetASFReadAPI
+	voGetASF2ReadAPI

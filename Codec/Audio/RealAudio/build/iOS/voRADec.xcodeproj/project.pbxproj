@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D475C521418AFBB00ECE10C /* libvoAACDec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D475C511418AFBB00ECE10C /* libvoAACDec.a */; };
+		AA747D9F0F9514B9006C5449 /* voRADec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voRADec_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F264ADA112E0225900DAE46C /* aac_bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE56112DC24F7002E3D48 /* aac_bitstream.h */; };
+		F264ADA212E0225900DAE46C /* aac_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE56312DC24F7002E3D48 /* aac_decode.h */; };
+		F264ADA312E0225900DAE46C /* assembly.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3D312DC01A2002E3D48 /* assembly.h */; };
+		F264ADA412E0225900DAE46C /* cmnMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3D012DC0151002E3D48 /* cmnMemory.h */; };
+		F264ADA512E0225900DAE46C /* coder.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3D712DC01A2002E3D48 /* coder.h */; };
+		F264ADA612E0225900DAE46C /* ga_config.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE56512DC24F7002E3D48 /* ga_config.h */; };
+		F264ADA712E0225900DAE46C /* gecko2codec.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3F512DC01AE002E3D48 /* gecko2codec.h */; };
+		F264ADA812E0225900DAE46C /* gecko2codec.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3DD12DC01A2002E3D48 /* gecko2codec.h */; };
+		F264ADA912E0225900DAE46C /* ra8lbr_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3F712DC01AE002E3D48 /* ra8lbr_decode.h */; };
+		F264ADAA12E0225900DAE46C /* statname.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3E212DC01A2002E3D48 /* statname.h */; };
+		F264ADAB12E0225900DAE46C /* VORA_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3C412DC013D002E3D48 /* VORA_sdk.h */; };
+		F264ADAC12E0225900DAE46C /* voRADec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voRADec_Prefix.pch */; };
+		F264ADAD12E0226800DAE46C /* aac_bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE56012DC24F7002E3D48 /* aac_bitstream.c */; };
+		F264ADAE12E0226800DAE46C /* aac_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE56212DC24F7002E3D48 /* aac_decode.c */; };
+		F264ADAF12E0226800DAE46C /* bitpack.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3D412DC01A2002E3D48 /* bitpack.c */; };
+		F264ADB012E0226800DAE46C /* buffers.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3D512DC01A2002E3D48 /* buffers.c */; };
+		F264ADB112E0226800DAE46C /* category.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3D612DC01A2002E3D48 /* category.c */; };
+		F264ADB212E0226800DAE46C /* cmnMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3CF12DC0151002E3D48 /* cmnMemory.c */; };
+		F264ADB312E0226800DAE46C /* couple.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3D812DC01A2002E3D48 /* couple.c */; };
+		F264ADB412E0226800DAE46C /* envelope.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3D912DC01A2002E3D48 /* envelope.c */; };
+		F264ADB512E0226800DAE46C /* fft.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3DA12DC01A2002E3D48 /* fft.c */; };
+		F264ADB612E0226800DAE46C /* ga_config.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE56412DC24F7002E3D48 /* ga_config.c */; };
+		F264ADB712E0226800DAE46C /* gainctrl.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3DB12DC01A2002E3D48 /* gainctrl.c */; };
+		F264ADB812E0226800DAE46C /* gecko2codec.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3DC12DC01A2002E3D48 /* gecko2codec.c */; };
+		F264ADB912E0226800DAE46C /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3DE12DC01A2002E3D48 /* huffman.c */; };
+		F264ADBA12E0226800DAE46C /* hufftabs.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3DF12DC01A2002E3D48 /* hufftabs.c */; };
+		F264ADBB12E0226800DAE46C /* mlt.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3E012DC01A2002E3D48 /* mlt.c */; };
+		F264ADBC12E0226800DAE46C /* ra8lbr_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3F612DC01AE002E3D48 /* ra8lbr_decode.c */; };
+		F264ADBD12E0226800DAE46C /* ra_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3C312DC013D002E3D48 /* ra_decode.c */; };
+		F264ADBE12E0226800DAE46C /* sqvh.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3E112DC01A2002E3D48 /* sqvh.c */; };
+		F264ADBF12E0226800DAE46C /* trigtabs.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3E312DC01A2002E3D48 /* trigtabs.c */; };
+		F264ADC012E0226800DAE46C /* voRABUFDec.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3C512DC013D002E3D48 /* voRABUFDec.c */; };
+		F264ADC112E0226800DAE46C /* voRADecSDK.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3C612DC013D002E3D48 /* voRADecSDK.c */; };
+		F264ADC212E0226800DAE46C /* voRARawDec.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3C712DC013D002E3D48 /* voRARawDec.c */; };
+		F264ADC312E0226800DAE46C /* voRARMDec.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3C812DC013D002E3D48 /* voRARMDec.c */; };
+		F264ADD812E0240500DAE46C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F264ADD912E0240500DAE46C /* libvoAACDec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CCE62812DC2B64002E3D48 /* libvoAACDec.a */; };
+		F2CCE3C912DC013D002E3D48 /* ra_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3C312DC013D002E3D48 /* ra_decode.c */; };
+		F2CCE3CA12DC013D002E3D48 /* VORA_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3C412DC013D002E3D48 /* VORA_sdk.h */; };
+		F2CCE3CB12DC013D002E3D48 /* voRABUFDec.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3C512DC013D002E3D48 /* voRABUFDec.c */; };
+		F2CCE3CC12DC013D002E3D48 /* voRADecSDK.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3C612DC013D002E3D48 /* voRADecSDK.c */; };
+		F2CCE3CD12DC013D002E3D48 /* voRARawDec.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3C712DC013D002E3D48 /* voRARawDec.c */; };
+		F2CCE3CE12DC013D002E3D48 /* voRARMDec.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3C812DC013D002E3D48 /* voRARMDec.c */; };
+		F2CCE3D112DC0151002E3D48 /* cmnMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3CF12DC0151002E3D48 /* cmnMemory.c */; };
+		F2CCE3D212DC0151002E3D48 /* cmnMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3D012DC0151002E3D48 /* cmnMemory.h */; };
+		F2CCE3E412DC01A2002E3D48 /* assembly.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3D312DC01A2002E3D48 /* assembly.h */; };
+		F2CCE3E512DC01A2002E3D48 /* bitpack.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3D412DC01A2002E3D48 /* bitpack.c */; };
+		F2CCE3E612DC01A2002E3D48 /* buffers.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3D512DC01A2002E3D48 /* buffers.c */; };
+		F2CCE3E712DC01A2002E3D48 /* category.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3D612DC01A2002E3D48 /* category.c */; };
+		F2CCE3E812DC01A2002E3D48 /* coder.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3D712DC01A2002E3D48 /* coder.h */; };
+		F2CCE3E912DC01A2002E3D48 /* couple.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3D812DC01A2002E3D48 /* couple.c */; };
+		F2CCE3EA12DC01A2002E3D48 /* envelope.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3D912DC01A2002E3D48 /* envelope.c */; };
+		F2CCE3EB12DC01A2002E3D48 /* fft.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3DA12DC01A2002E3D48 /* fft.c */; };
+		F2CCE3EC12DC01A2002E3D48 /* gainctrl.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3DB12DC01A2002E3D48 /* gainctrl.c */; };
+		F2CCE3ED12DC01A2002E3D48 /* gecko2codec.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3DC12DC01A2002E3D48 /* gecko2codec.c */; };
+		F2CCE3EE12DC01A2002E3D48 /* gecko2codec.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3DD12DC01A2002E3D48 /* gecko2codec.h */; };
+		F2CCE3EF12DC01A2002E3D48 /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3DE12DC01A2002E3D48 /* huffman.c */; };
+		F2CCE3F012DC01A2002E3D48 /* hufftabs.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3DF12DC01A2002E3D48 /* hufftabs.c */; };
+		F2CCE3F112DC01A2002E3D48 /* mlt.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3E012DC01A2002E3D48 /* mlt.c */; };
+		F2CCE3F212DC01A2002E3D48 /* sqvh.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3E112DC01A2002E3D48 /* sqvh.c */; };
+		F2CCE3F312DC01A2002E3D48 /* statname.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3E212DC01A2002E3D48 /* statname.h */; };
+		F2CCE3F412DC01A2002E3D48 /* trigtabs.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3E312DC01A2002E3D48 /* trigtabs.c */; };
+		F2CCE3F812DC01AE002E3D48 /* gecko2codec.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3F512DC01AE002E3D48 /* gecko2codec.h */; };
+		F2CCE3F912DC01AE002E3D48 /* ra8lbr_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE3F612DC01AE002E3D48 /* ra8lbr_decode.c */; };
+		F2CCE3FA12DC01AE002E3D48 /* ra8lbr_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE3F712DC01AE002E3D48 /* ra8lbr_decode.h */; };
+		F2CCE56612DC24F7002E3D48 /* aac_bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE56012DC24F7002E3D48 /* aac_bitstream.c */; };
+		F2CCE56712DC24F7002E3D48 /* aac_bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE56112DC24F7002E3D48 /* aac_bitstream.h */; };
+		F2CCE56812DC24F7002E3D48 /* aac_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE56212DC24F7002E3D48 /* aac_decode.c */; };
+		F2CCE56912DC24F7002E3D48 /* aac_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE56312DC24F7002E3D48 /* aac_decode.h */; };
+		F2CCE56A12DC24F7002E3D48 /* ga_config.c in Sources */ = {isa = PBXBuildFile; fileRef = F2CCE56412DC24F7002E3D48 /* ga_config.c */; };
+		F2CCE56B12DC24F7002E3D48 /* ga_config.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCE56512DC24F7002E3D48 /* ga_config.h */; };
+		F2F6C0211419EA0C00FA3D5D /* DecWindowNoAttacks_v7.s in Sources */ = {isa = PBXBuildFile; fileRef = F2F6C01C1419EA0C00FA3D5D /* DecWindowNoAttacks_v7.s */; };
+		F2F6C0221419EA0C00FA3D5D /* RA_PostMultiply_V7.s in Sources */ = {isa = PBXBuildFile; fileRef = F2F6C01D1419EA0C00FA3D5D /* RA_PostMultiply_V7.s */; };
+		F2F6C0231419EA0C00FA3D5D /* RA_PreMultiply_V7.s in Sources */ = {isa = PBXBuildFile; fileRef = F2F6C01E1419EA0C00FA3D5D /* RA_PreMultiply_V7.s */; };
+		F2F6C0241419EA0C00FA3D5D /* RA_R4_Core_V7.s in Sources */ = {isa = PBXBuildFile; fileRef = F2F6C01F1419EA0C00FA3D5D /* RA_R4_Core_V7.s */; };
+		F2F6C0251419EA0C00FA3D5D /* RA_R8FirstPass_v7.s in Sources */ = {isa = PBXBuildFile; fileRef = F2F6C0201419EA0C00FA3D5D /* RA_R8FirstPass_v7.s */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D475C511418AFBB00ECE10C /* libvoAACDec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvoAACDec.a; path = ../../../../../../voRelease/iOS/static/i386/libvoAACDec.a; sourceTree = SOURCE_ROOT; };
+		AA747D9E0F9514B9006C5449 /* voRADec_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voRADec_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libvoRADec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoRADec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F264AD9D12E0221D00DAE46C /* libvoRADec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoRADec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2CCE3C312DC013D002E3D48 /* ra_decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ra_decode.c; path = ../../src/interface/ra_decode.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3C412DC013D002E3D48 /* VORA_sdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VORA_sdk.h; path = ../../src/interface/VORA_sdk.h; sourceTree = SOURCE_ROOT; };
+		F2CCE3C512DC013D002E3D48 /* voRABUFDec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voRABUFDec.c; path = ../../src/interface/voRABUFDec.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3C612DC013D002E3D48 /* voRADecSDK.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voRADecSDK.c; path = ../../src/interface/voRADecSDK.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3C712DC013D002E3D48 /* voRARawDec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voRARawDec.c; path = ../../src/interface/voRARawDec.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3C812DC013D002E3D48 /* voRARMDec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voRARMDec.c; path = ../../src/interface/voRARMDec.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3CF12DC0151002E3D48 /* cmnMemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cmnMemory.c; path = ../../../../../Common/cmnMemory.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3D012DC0151002E3D48 /* cmnMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmnMemory.h; path = ../../../../../Common/cmnMemory.h; sourceTree = SOURCE_ROOT; };
+		F2CCE3D312DC01A2002E3D48 /* assembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = assembly.h; path = ../../src/ra8lbr/decoder/assembly.h; sourceTree = SOURCE_ROOT; };
+		F2CCE3D412DC01A2002E3D48 /* bitpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bitpack.c; path = ../../src/ra8lbr/decoder/bitpack.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3D512DC01A2002E3D48 /* buffers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = buffers.c; path = ../../src/ra8lbr/decoder/buffers.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3D612DC01A2002E3D48 /* category.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = category.c; path = ../../src/ra8lbr/decoder/category.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3D712DC01A2002E3D48 /* coder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = coder.h; path = ../../src/ra8lbr/decoder/coder.h; sourceTree = SOURCE_ROOT; };
+		F2CCE3D812DC01A2002E3D48 /* couple.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = couple.c; path = ../../src/ra8lbr/decoder/couple.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3D912DC01A2002E3D48 /* envelope.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = envelope.c; path = ../../src/ra8lbr/decoder/envelope.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3DA12DC01A2002E3D48 /* fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fft.c; path = ../../src/ra8lbr/decoder/fft.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3DB12DC01A2002E3D48 /* gainctrl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gainctrl.c; path = ../../src/ra8lbr/decoder/gainctrl.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3DC12DC01A2002E3D48 /* gecko2codec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gecko2codec.c; path = ../../src/ra8lbr/decoder/gecko2codec.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3DD12DC01A2002E3D48 /* gecko2codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gecko2codec.h; path = ../../src/ra8lbr/decoder/gecko2codec.h; sourceTree = SOURCE_ROOT; };
+		F2CCE3DE12DC01A2002E3D48 /* huffman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = huffman.c; path = ../../src/ra8lbr/decoder/huffman.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3DF12DC01A2002E3D48 /* hufftabs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hufftabs.c; path = ../../src/ra8lbr/decoder/hufftabs.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3E012DC01A2002E3D48 /* mlt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mlt.c; path = ../../src/ra8lbr/decoder/mlt.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3E112DC01A2002E3D48 /* sqvh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sqvh.c; path = ../../src/ra8lbr/decoder/sqvh.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3E212DC01A2002E3D48 /* statname.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = statname.h; path = ../../src/ra8lbr/decoder/statname.h; sourceTree = SOURCE_ROOT; };
+		F2CCE3E312DC01A2002E3D48 /* trigtabs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = trigtabs.c; path = ../../src/ra8lbr/decoder/trigtabs.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3F512DC01AE002E3D48 /* gecko2codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gecko2codec.h; path = ../../src/ra8lbr/gecko2codec.h; sourceTree = SOURCE_ROOT; };
+		F2CCE3F612DC01AE002E3D48 /* ra8lbr_decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ra8lbr_decode.c; path = ../../src/ra8lbr/ra8lbr_decode.c; sourceTree = SOURCE_ROOT; };
+		F2CCE3F712DC01AE002E3D48 /* ra8lbr_decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ra8lbr_decode.h; path = ../../src/ra8lbr/ra8lbr_decode.h; sourceTree = SOURCE_ROOT; };
+		F2CCE56012DC24F7002E3D48 /* aac_bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aac_bitstream.c; path = ../../src/aac/aac_bitstream.c; sourceTree = SOURCE_ROOT; };
+		F2CCE56112DC24F7002E3D48 /* aac_bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aac_bitstream.h; path = ../../src/aac/aac_bitstream.h; sourceTree = SOURCE_ROOT; };
+		F2CCE56212DC24F7002E3D48 /* aac_decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aac_decode.c; path = ../../src/aac/aac_decode.c; sourceTree = SOURCE_ROOT; };
+		F2CCE56312DC24F7002E3D48 /* aac_decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aac_decode.h; path = ../../src/aac/aac_decode.h; sourceTree = SOURCE_ROOT; };
+		F2CCE56412DC24F7002E3D48 /* ga_config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ga_config.c; path = ../../src/aac/ga_config.c; sourceTree = SOURCE_ROOT; };
+		F2CCE56512DC24F7002E3D48 /* ga_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ga_config.h; path = ../../src/aac/ga_config.h; sourceTree = SOURCE_ROOT; };
+		F2CCE62812DC2B64002E3D48 /* libvoAACDec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvoAACDec.a; path = ../../../../../../voRelease/iOS/static/v7/libvoAACDec.a; sourceTree = SOURCE_ROOT; };
+		F2F6C01C1419EA0C00FA3D5D /* DecWindowNoAttacks_v7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = DecWindowNoAttacks_v7.s; path = ../../src/ra8lbr/decoder/asm/iOS/Neon/DecWindowNoAttacks_v7.s; sourceTree = SOURCE_ROOT; };
+		F2F6C01D1419EA0C00FA3D5D /* RA_PostMultiply_V7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = RA_PostMultiply_V7.s; path = ../../src/ra8lbr/decoder/asm/iOS/Neon/RA_PostMultiply_V7.s; sourceTree = SOURCE_ROOT; };
+		F2F6C01E1419EA0C00FA3D5D /* RA_PreMultiply_V7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = RA_PreMultiply_V7.s; path = ../../src/ra8lbr/decoder/asm/iOS/Neon/RA_PreMultiply_V7.s; sourceTree = SOURCE_ROOT; };
+		F2F6C01F1419EA0C00FA3D5D /* RA_R4_Core_V7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = RA_R4_Core_V7.s; path = ../../src/ra8lbr/decoder/asm/iOS/Neon/RA_R4_Core_V7.s; sourceTree = SOURCE_ROOT; };
+		F2F6C0201419EA0C00FA3D5D /* RA_R8FirstPass_v7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = RA_R8FirstPass_v7.s; path = ../../src/ra8lbr/decoder/asm/iOS/Neon/RA_R8FirstPass_v7.s; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				7D475C521418AFBB00ECE10C /* libvoAACDec.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F264AD9B12E0221D00DAE46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F264ADD812E0240500DAE46C /* Foundation.framework in Frameworks */,
+				F264ADD912E0240500DAE46C /* libvoAACDec.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libvoRADec.a */,
+				F264AD9D12E0221D00DAE46C /* libvoRADec.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* voRADec */ = {
+			isa = PBXGroup;
+			children = (
+				7D475C4E1418AF6500ECE10C /* lib */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = voRADec;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F264AD9812E0220100DAE46C /* ARMV7 */,
+				F2CCE3C212DC010B002E3D48 /* AAC */,
+				F2CCE3C112DC00ED002E3D48 /* RA8_LBR */,
+				F2CCE3C012DC00DF002E3D48 /* interfaces */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* voRADec_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		7D475C4E1418AF6500ECE10C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7D475C501418AF9600ECE10C /* i386 */,
+				7D475C4F1418AF8200ECE10C /* ARMv7 */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		7D475C4F1418AF8200ECE10C /* ARMv7 */ = {
+			isa = PBXGroup;
+			children = (
+				F2CCE62812DC2B64002E3D48 /* libvoAACDec.a */,
+			);
+			name = ARMv7;
+			sourceTree = "<group>";
+		};
+		7D475C501418AF9600ECE10C /* i386 */ = {
+			isa = PBXGroup;
+			children = (
+				7D475C511418AFBB00ECE10C /* libvoAACDec.a */,
+			);
+			name = i386;
+			sourceTree = "<group>";
+		};
+		F264AD9812E0220100DAE46C /* ARMV7 */ = {
+			isa = PBXGroup;
+			children = (
+				F2F6C01C1419EA0C00FA3D5D /* DecWindowNoAttacks_v7.s */,
+				F2F6C01D1419EA0C00FA3D5D /* RA_PostMultiply_V7.s */,
+				F2F6C01E1419EA0C00FA3D5D /* RA_PreMultiply_V7.s */,
+				F2F6C01F1419EA0C00FA3D5D /* RA_R4_Core_V7.s */,
+				F2F6C0201419EA0C00FA3D5D /* RA_R8FirstPass_v7.s */,
+			);
+			name = ARMV7;
+			sourceTree = "<group>";
+		};
+		F2CCE3C012DC00DF002E3D48 /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F2CCE3CF12DC0151002E3D48 /* cmnMemory.c */,
+				F2CCE3D012DC0151002E3D48 /* cmnMemory.h */,
+				F2CCE3C312DC013D002E3D48 /* ra_decode.c */,
+				F2CCE3C412DC013D002E3D48 /* VORA_sdk.h */,
+				F2CCE3C512DC013D002E3D48 /* voRABUFDec.c */,
+				F2CCE3C612DC013D002E3D48 /* voRADecSDK.c */,
+				F2CCE3C712DC013D002E3D48 /* voRARawDec.c */,
+				F2CCE3C812DC013D002E3D48 /* voRARMDec.c */,
+			);
+			name = interfaces;
+			sourceTree = "<group>";
+		};
+		F2CCE3C112DC00ED002E3D48 /* RA8_LBR */ = {
+			isa = PBXGroup;
+			children = (
+				F2CCE3F512DC01AE002E3D48 /* gecko2codec.h */,
+				F2CCE3F612DC01AE002E3D48 /* ra8lbr_decode.c */,
+				F2CCE3F712DC01AE002E3D48 /* ra8lbr_decode.h */,
+				F2CCE3D312DC01A2002E3D48 /* assembly.h */,
+				F2CCE3D412DC01A2002E3D48 /* bitpack.c */,
+				F2CCE3D512DC01A2002E3D48 /* buffers.c */,
+				F2CCE3D612DC01A2002E3D48 /* category.c */,
+				F2CCE3D712DC01A2002E3D48 /* coder.h */,
+				F2CCE3D812DC01A2002E3D48 /* couple.c */,
+				F2CCE3D912DC01A2002E3D48 /* envelope.c */,
+				F2CCE3DA12DC01A2002E3D48 /* fft.c */,
+				F2CCE3DB12DC01A2002E3D48 /* gainctrl.c */,
+				F2CCE3DC12DC01A2002E3D48 /* gecko2codec.c */,
+				F2CCE3DD12DC01A2002E3D48 /* gecko2codec.h */,
+				F2CCE3DE12DC01A2002E3D48 /* huffman.c */,
+				F2CCE3DF12DC01A2002E3D48 /* hufftabs.c */,
+				F2CCE3E012DC01A2002E3D48 /* mlt.c */,
+				F2CCE3E112DC01A2002E3D48 /* sqvh.c */,
+				F2CCE3E212DC01A2002E3D48 /* statname.h */,
+				F2CCE3E312DC01A2002E3D48 /* trigtabs.c */,
+			);
+			name = RA8_LBR;
+			sourceTree = "<group>";
+		};
+		F2CCE3C212DC010B002E3D48 /* AAC */ = {
+			isa = PBXGroup;
+			children = (
+				F2CCE56012DC24F7002E3D48 /* aac_bitstream.c */,
+				F2CCE56112DC24F7002E3D48 /* aac_bitstream.h */,
+				F2CCE56212DC24F7002E3D48 /* aac_decode.c */,
+				F2CCE56312DC24F7002E3D48 /* aac_decode.h */,
+				F2CCE56412DC24F7002E3D48 /* ga_config.c */,
+				F2CCE56512DC24F7002E3D48 /* ga_config.h */,
+			);
+			name = AAC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* voRADec_Prefix.pch in Headers */,
+				F2CCE3CA12DC013D002E3D48 /* VORA_sdk.h in Headers */,
+				F2CCE3D212DC0151002E3D48 /* cmnMemory.h in Headers */,
+				F2CCE3E412DC01A2002E3D48 /* assembly.h in Headers */,
+				F2CCE3E812DC01A2002E3D48 /* coder.h in Headers */,
+				F2CCE3EE12DC01A2002E3D48 /* gecko2codec.h in Headers */,
+				F2CCE3F312DC01A2002E3D48 /* statname.h in Headers */,
+				F2CCE3F812DC01AE002E3D48 /* gecko2codec.h in Headers */,
+				F2CCE3FA12DC01AE002E3D48 /* ra8lbr_decode.h in Headers */,
+				F2CCE56712DC24F7002E3D48 /* aac_bitstream.h in Headers */,
+				F2CCE56912DC24F7002E3D48 /* aac_decode.h in Headers */,
+				F2CCE56B12DC24F7002E3D48 /* ga_config.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F264AD9912E0221D00DAE46C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F264ADA112E0225900DAE46C /* aac_bitstream.h in Headers */,
+				F264ADA212E0225900DAE46C /* aac_decode.h in Headers */,
+				F264ADA312E0225900DAE46C /* assembly.h in Headers */,
+				F264ADA412E0225900DAE46C /* cmnMemory.h in Headers */,
+				F264ADA512E0225900DAE46C /* coder.h in Headers */,
+				F264ADA612E0225900DAE46C /* ga_config.h in Headers */,
+				F264ADA712E0225900DAE46C /* gecko2codec.h in Headers */,
+				F264ADA812E0225900DAE46C /* gecko2codec.h in Headers */,
+				F264ADA912E0225900DAE46C /* ra8lbr_decode.h in Headers */,
+				F264ADAA12E0225900DAE46C /* statname.h in Headers */,
+				F264ADAB12E0225900DAE46C /* VORA_sdk.h in Headers */,
+				F264ADAC12E0225900DAE46C /* voRADec_Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* voRADec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voRADec" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voRADec;
+			productName = voRADec;
+			productReference = D2AAC07E0554694100DB518D /* libvoRADec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F264AD9C12E0221D00DAE46C /* voRADec_ARMV7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F264ADA012E0225400DAE46C /* Build configuration list for PBXNativeTarget "voRADec_ARMV7" */;
+			buildPhases = (
+				F264AD9912E0221D00DAE46C /* Headers */,
+				F264AD9A12E0221D00DAE46C /* Sources */,
+				F264AD9B12E0221D00DAE46C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voRADec_ARMV7;
+			productName = voRADec_ARMV7;
+			productReference = F264AD9D12E0221D00DAE46C /* libvoRADec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voRADec" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* voRADec */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* voRADec */,
+				F264AD9C12E0221D00DAE46C /* voRADec_ARMV7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2CCE3C912DC013D002E3D48 /* ra_decode.c in Sources */,
+				F2CCE3CB12DC013D002E3D48 /* voRABUFDec.c in Sources */,
+				F2CCE3CC12DC013D002E3D48 /* voRADecSDK.c in Sources */,
+				F2CCE3CD12DC013D002E3D48 /* voRARawDec.c in Sources */,
+				F2CCE3CE12DC013D002E3D48 /* voRARMDec.c in Sources */,
+				F2CCE3D112DC0151002E3D48 /* cmnMemory.c in Sources */,
+				F2CCE3E512DC01A2002E3D48 /* bitpack.c in Sources */,
+				F2CCE3E612DC01A2002E3D48 /* buffers.c in Sources */,
+				F2CCE3E712DC01A2002E3D48 /* category.c in Sources */,
+				F2CCE3E912DC01A2002E3D48 /* couple.c in Sources */,
+				F2CCE3EA12DC01A2002E3D48 /* envelope.c in Sources */,
+				F2CCE3EB12DC01A2002E3D48 /* fft.c in Sources */,
+				F2CCE3EC12DC01A2002E3D48 /* gainctrl.c in Sources */,
+				F2CCE3ED12DC01A2002E3D48 /* gecko2codec.c in Sources */,
+				F2CCE3EF12DC01A2002E3D48 /* huffman.c in Sources */,
+				F2CCE3F012DC01A2002E3D48 /* hufftabs.c in Sources */,
+				F2CCE3F112DC01A2002E3D48 /* mlt.c in Sources */,
+				F2CCE3F212DC01A2002E3D48 /* sqvh.c in Sources */,
+				F2CCE3F412DC01A2002E3D48 /* trigtabs.c in Sources */,
+				F2CCE3F912DC01AE002E3D48 /* ra8lbr_decode.c in Sources */,
+				F2CCE56612DC24F7002E3D48 /* aac_bitstream.c in Sources */,
+				F2CCE56812DC24F7002E3D48 /* aac_decode.c in Sources */,
+				F2CCE56A12DC24F7002E3D48 /* ga_config.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F264AD9A12E0221D00DAE46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F264ADAD12E0226800DAE46C /* aac_bitstream.c in Sources */,
+				F264ADAE12E0226800DAE46C /* aac_decode.c in Sources */,
+				F264ADAF12E0226800DAE46C /* bitpack.c in Sources */,
+				F264ADB012E0226800DAE46C /* buffers.c in Sources */,
+				F264ADB112E0226800DAE46C /* category.c in Sources */,
+				F264ADB212E0226800DAE46C /* cmnMemory.c in Sources */,
+				F264ADB312E0226800DAE46C /* couple.c in Sources */,
+				F264ADB412E0226800DAE46C /* envelope.c in Sources */,
+				F264ADB512E0226800DAE46C /* fft.c in Sources */,
+				F264ADB612E0226800DAE46C /* ga_config.c in Sources */,
+				F264ADB712E0226800DAE46C /* gainctrl.c in Sources */,
+				F264ADB812E0226800DAE46C /* gecko2codec.c in Sources */,
+				F264ADB912E0226800DAE46C /* huffman.c in Sources */,
+				F264ADBA12E0226800DAE46C /* hufftabs.c in Sources */,
+				F264ADBB12E0226800DAE46C /* mlt.c in Sources */,
+				F264ADBC12E0226800DAE46C /* ra8lbr_decode.c in Sources */,
+				F264ADBD12E0226800DAE46C /* ra_decode.c in Sources */,
+				F264ADBE12E0226800DAE46C /* sqvh.c in Sources */,
+				F264ADBF12E0226800DAE46C /* trigtabs.c in Sources */,
+				F264ADC012E0226800DAE46C /* voRABUFDec.c in Sources */,
+				F264ADC112E0226800DAE46C /* voRADecSDK.c in Sources */,
+				F264ADC212E0226800DAE46C /* voRARawDec.c in Sources */,
+				F264ADC312E0226800DAE46C /* voRARMDec.c in Sources */,
+				F2F6C0211419EA0C00FA3D5D /* DecWindowNoAttacks_v7.s in Sources */,
+				F2F6C0221419EA0C00FA3D5D /* RA_PostMultiply_V7.s in Sources */,
+				F2F6C0231419EA0C00FA3D5D /* RA_PreMultiply_V7.s in Sources */,
+				F2F6C0241419EA0C00FA3D5D /* RA_R4_Core_V7.s in Sources */,
+				F2F6C0251419EA0C00FA3D5D /* RA_R8FirstPass_v7.s in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voRADec.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voRADec_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../voRelease/iOS/static/v7\"",
+					"\"$(SRCROOT)/../../../../../../voRelease/iOS/static/i386\"",
+				);
+				PRODUCT_NAME = voRADec;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../voRelease/iOS/static/i386/;
+				DSTROOT = /tmp/voRADec.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voRADec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					HAVE_CONFIG_H,
+					ASO_ZEROCHECK,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../Include,
+					../../Include,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../voRelease/iOS/static/i386\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voRADec;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F264AD9E12E0221D00DAE46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../voRelease/iOS/static/v7\"",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = voRADec_ARMV7;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F264AD9F12E0221D00DAE46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../voRelease/iOS/static/v7/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					HAVE_CONFIG_H,
+					ASO_ZEROCHECK,
+					ARMV7,
+					ARMV4,
+					ARMV6,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../Include,
+					../../Include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../voRelease/iOS/static/v7\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = voRADec;
+				SDKROOT = iphoneos4.2;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voRADec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voRADec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F264ADA012E0225400DAE46C /* Build configuration list for PBXNativeTarget "voRADec_ARMV7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F264AD9E12E0221D00DAE46C /* Debug */,
+				F264AD9F12E0221D00DAE46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

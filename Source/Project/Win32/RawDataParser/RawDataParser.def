@@ -1,0 +1,7 @@
+LIBRARY voRawDataFR.dll
+
+EXPORTS
+	voGetH264RawDataParserAPI
+	voGetPCMRawDataParserAPI
+	voGetH265RawDataParserAPI
+	voGetRawDataParser2API

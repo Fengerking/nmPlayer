@@ -1,0 +1,58 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+
+LOCAL_ARM_MODE := arm
+
+LOCAL_MODULE := libvoH264Enc
+
+
+CMNSRC_PATH:=../../../../../../../../../../Common
+CSRC_PATH:=../../../../../../src
+
+LOCAL_SRC_FILES := \
+	$(CMNSRC_PATH)/ndkversion.cpp \
+	$(CSRC_PATH)/voH264Dct.c \
+	$(CSRC_PATH)/voH264Deblock.c \
+	$(CSRC_PATH)/voH264EncBitStream.c \
+	$(CSRC_PATH)/voH264EncCAVLC.c \
+	$(CSRC_PATH)/voH264EncMB.c \
+	$(CSRC_PATH)/voH264EncME.c \
+	$(CSRC_PATH)/voH264EncPicSlice.c \
+	$(CSRC_PATH)/voH264EncRC.c \
+	$(CSRC_PATH)/voH264EncSAD.c \
+	$(CSRC_PATH)/voH264IntraPrediction.c \
+	$(CSRC_PATH)/voH264MC.c \
+	$(CSRC_PATH)/voH264Quant.c \
+	$(CSRC_PATH)/voH264Frame.c \
+	$(CSRC_PATH)/asm/armv7/voH264Dct_ARMV7_gnu.S \
+	$(CSRC_PATH)/asm/armv7/voH264EncSAD_ARMV7_gnu.S \
+	$(CSRC_PATH)/asm/armv7/voH264IntraPrediction_ARMV7_gnu.S \
+	$(CSRC_PATH)/asm/armv7/voH264Quant_ARMV7_gnu.S \
+	$(CSRC_PATH)/asm/armv7/voH264Mc_ARMV7_gnu.S\
+	$(CSRC_PATH)/asm/armv7/voH264HPel_ARMV7_gnu.S\
+	$(CSRC_PATH)/asm/armv7/voH264Deblock_ARMV7_gnu.S\
+	$(CSRC_PATH)/asm/armv7/voH264Pic_ARMV7_gnu.S
+
+LOCAL_C_INCLUDES := \
+	../../../../../../../../../../Include \
+	$(CMNSRC_PATH) \
+	$(CSRC_PATH)
+
+VOUPDATE:=$(shell touch $(CMNSRC_PATH)/ndkversion.cpp)
+
+ifeq ($(APP_OPTIM), debug)
+VORLS:=debug
+else
+VORLS:=release
+endif
+
+VOMM:= -D__VO_NDK__ -D_VOLOG_INFO -DHAVE_NEON=1 -DNEW_SDK  -DRVDS -DVOARMV7 
+
+VOABOUT:=-DMODULE_NAME=\"$(strip $(LOCAL_MODULE))\($(VORLS)\)\" -DSDK_VERSION=\"$(strip $(VOSDKVER))\" -DCPU_ARCH=\"$(strip $(APP_ABI))\" -DMODULE_BRANCH=\"$(strip $(VOBRANCH))\" -DSOURCE_REVISIONNO=\"$(strip $(VOSRCNO))\" 
+LOCAL_CFLAGS := $(VOABOUT) $(VOMM) -march=armv7-a -mtune=cortex-a8 -mfpu=neon -mfloat-abi=softfp
+LOCAL_LDLIBS := #-lxxx
+
+include $(BUILD_SHARED_LIBRARY)
+
+

@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1B6816413700106002DB15A /* CBaseReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A900D12A8E7CE00A7A220 /* CBaseReader.h */; };
+		E1B6816513700106002DB15A /* CBaseStreamFileIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A900F12A8E7CE00A7A220 /* CBaseStreamFileIndex.h */; };
+		E1B6816613700106002DB15A /* CBaseStreamFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A901112A8E7CE00A7A220 /* CBaseStreamFileReader.h */; };
+		E1B6816713700106002DB15A /* CBaseStreamFileTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A901312A8E7CE00A7A220 /* CBaseStreamFileTrack.h */; };
+		E1B6816813700106002DB15A /* CBaseTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A901512A8E7CE00A7A220 /* CBaseTrack.h */; };
+		E1B6816913700106002DB15A /* CGBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A901712A8E7CE00A7A220 /* CGBuffer.h */; };
+		E1B6816A13700106002DB15A /* CGFileChunk.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A901912A8E7CE00A7A220 /* CGFileChunk.h */; };
+		E1B6816B13700106002DB15A /* CMemPool.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A901B12A8E7CE00A7A220 /* CMemPool.h */; };
+		E1B6816C13700106002DB15A /* CMKVAnalyze.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FCD12A8E70500A7A220 /* CMKVAnalyze.h */; };
+		E1B6816D13700106002DB15A /* CMKVAudioTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FD112A8E70500A7A220 /* CMKVAudioTrack.h */; };
+		E1B6816E13700106002DB15A /* CMKVAudioTrack_RealSpecialize.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FCF12A8E70500A7A220 /* CMKVAudioTrack_RealSpecialize.h */; };
+		E1B6816F13700106002DB15A /* CMKVFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FD312A8E70500A7A220 /* CMKVFileReader.h */; };
+		E1B6817013700106002DB15A /* CMKVParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FD512A8E70500A7A220 /* CMKVParser.h */; };
+		E1B6817113700106002DB15A /* CMKVStreamFileIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FD712A8E70500A7A220 /* CMKVStreamFileIndex.h */; };
+		E1B6817213700106002DB15A /* CMKVTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FD912A8E70500A7A220 /* CMKVTrack.h */; };
+		E1B6817313700106002DB15A /* CMKVVideoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FDD12A8E70500A7A220 /* CMKVVideoTrack.h */; };
+		E1B6817413700106002DB15A /* CMKVVideoTrack_RealSpecialize.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FDB12A8E70500A7A220 /* CMKVVideoTrack_RealSpecialize.h */; };
+		E1B6817513700106002DB15A /* cmnFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FFD12A8E74A00A7A220 /* cmnFile.h */; };
+		E1B6817613700106002DB15A /* cmnMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FFF12A8E74A00A7A220 /* cmnMemory.h */; };
+		E1B6817713700106002DB15A /* CvoBaseDrmCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A901D12A8E7CE00A7A220 /* CvoBaseDrmCallback.h */; };
+		E1B6817813700106002DB15A /* CvoBaseFileOpr.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A901F12A8E7CE00A7A220 /* CvoBaseFileOpr.h */; };
+		E1B6817913700106002DB15A /* CvoBaseMemOpr.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A902112A8E7CE00A7A220 /* CvoBaseMemOpr.h */; };
+		E1B6817A13700106002DB15A /* CvoBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A900112A8E74A00A7A220 /* CvoBaseObject.h */; };
+		E1B6817B13700106002DB15A /* CvoFileParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A906312A8E92D00A7A220 /* CvoFileParser.h */; };
+		E1B6817C13700106002DB15A /* EBML.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FDF12A8E70500A7A220 /* EBML.h */; };
+		E1B6817D13700106002DB15A /* fCC.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A902212A8E7CE00A7A220 /* fCC.h */; };
+		E1B6817E13700106002DB15A /* fCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A902412A8E7CE00A7A220 /* fCodec.h */; };
+		E1B6817F13700106002DB15A /* fMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A902512A8E7CE00A7A220 /* fMacros.h */; };
+		E1B6818013700106002DB15A /* LIST_ENTRY.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FE012A8E70500A7A220 /* LIST_ENTRY.h */; };
+		E1B6818113700106002DB15A /* MKVID.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FE112A8E70500A7A220 /* MKVID.h */; };
+		E1B6818213700106002DB15A /* MKVInfoStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FE212A8E70500A7A220 /* MKVInfoStructure.h */; };
+		E1B6818313700106002DB15A /* MKVInfoStructureFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A8FE312A8E70500A7A220 /* MKVInfoStructureFunc.h */; };
+		E1B6818413700106002DB15A /* voCMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = F21A900312A8E74A00A7A220 /* voCMutex.h */; };
+		E1B6818513700113002DB15A /* CBaseReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A900C12A8E7CE00A7A220 /* CBaseReader.cpp */; };
+		E1B6818613700113002DB15A /* CBaseStreamFileIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A900E12A8E7CE00A7A220 /* CBaseStreamFileIndex.cpp */; };
+		E1B6818713700113002DB15A /* CBaseStreamFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A901012A8E7CE00A7A220 /* CBaseStreamFileReader.cpp */; };
+		E1B6818813700113002DB15A /* CBaseStreamFileTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A901212A8E7CE00A7A220 /* CBaseStreamFileTrack.cpp */; };
+		E1B6818913700113002DB15A /* CBaseTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A901412A8E7CE00A7A220 /* CBaseTrack.cpp */; };
+		E1B6818A13700113002DB15A /* CGBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A901612A8E7CE00A7A220 /* CGBuffer.cpp */; };
+		E1B6818B13700113002DB15A /* CGFileChunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A901812A8E7CE00A7A220 /* CGFileChunk.cpp */; };
+		E1B6818C13700113002DB15A /* CMemPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A901A12A8E7CE00A7A220 /* CMemPool.cpp */; };
+		E1B6818D13700113002DB15A /* CMKVAnalyze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A8FCC12A8E70500A7A220 /* CMKVAnalyze.cpp */; };
+		E1B6818E13700113002DB15A /* CMKVAudioTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A8FD012A8E70500A7A220 /* CMKVAudioTrack.cpp */; };
+		E1B6818F13700113002DB15A /* CMKVAudioTrack_RealSpecialize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A8FCE12A8E70500A7A220 /* CMKVAudioTrack_RealSpecialize.cpp */; };
+		E1B6819013700113002DB15A /* CMKVFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A8FD212A8E70500A7A220 /* CMKVFileReader.cpp */; };
+		E1B6819113700113002DB15A /* CMKVParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A8FD412A8E70500A7A220 /* CMKVParser.cpp */; };
+		E1B6819213700113002DB15A /* CMKVStreamFileIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A8FD612A8E70500A7A220 /* CMKVStreamFileIndex.cpp */; };
+		E1B6819313700113002DB15A /* CMKVTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A8FD812A8E70500A7A220 /* CMKVTrack.cpp */; };
+		E1B6819413700113002DB15A /* CMKVVideoTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A8FDC12A8E70500A7A220 /* CMKVVideoTrack.cpp */; };
+		E1B6819513700113002DB15A /* CMKVVideoTrack_RealSpecialize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A8FDA12A8E70500A7A220 /* CMKVVideoTrack_RealSpecialize.cpp */; };
+		E1B6819613700113002DB15A /* cmnFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A8FFC12A8E74A00A7A220 /* cmnFile.cpp */; };
+		E1B6819713700113002DB15A /* cmnMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = F21A8FFE12A8E74A00A7A220 /* cmnMemory.c */; };
+		E1B6819813700113002DB15A /* CvoBaseDrmCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A901C12A8E7CE00A7A220 /* CvoBaseDrmCallback.cpp */; };
+		E1B6819913700113002DB15A /* CvoBaseFileOpr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A901E12A8E7CE00A7A220 /* CvoBaseFileOpr.cpp */; };
+		E1B6819A13700113002DB15A /* CvoBaseMemOpr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A902012A8E7CE00A7A220 /* CvoBaseMemOpr.cpp */; };
+		E1B6819B13700113002DB15A /* CvoBaseObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A900012A8E74A00A7A220 /* CvoBaseObject.cpp */; };
+		E1B6819C13700113002DB15A /* CvoFileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A906212A8E92D00A7A220 /* CvoFileParser.cpp */; };
+		E1B6819D13700113002DB15A /* EBML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A8FDE12A8E70500A7A220 /* EBML.cpp */; };
+		E1B6819E13700113002DB15A /* fCodec.c in Sources */ = {isa = PBXBuildFile; fileRef = F21A902312A8E7CE00A7A220 /* fCodec.c */; };
+		E1B6819F13700113002DB15A /* voCMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A900212A8E74A00A7A220 /* voCMutex.cpp */; };
+		E1B681A013700113002DB15A /* voFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21A902612A8E7CE00A7A220 /* voFileReader.cpp */; };
+		E1B6822613700841002DB15A /* fVideoHeadDataInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1B6822413700841002DB15A /* fVideoHeadDataInfo.cpp */; };
+		E1B6822713700841002DB15A /* fVideoHeadDataInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B6822513700841002DB15A /* fVideoHeadDataInfo.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* voMKVFR_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voMKVFR_Prefix.pch; sourceTree = "<group>"; };
+		D2A6134D07B89F6200DD23D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		E1B6815A136FFF21002DB15A /* libvoMKVFR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoMKVFR.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B6822413700841002DB15A /* fVideoHeadDataInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fVideoHeadDataInfo.cpp; path = ../../../File/Common/fVideoHeadDataInfo.cpp; sourceTree = SOURCE_ROOT; };
+		E1B6822513700841002DB15A /* fVideoHeadDataInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fVideoHeadDataInfo.h; path = ../../../File/Common/fVideoHeadDataInfo.h; sourceTree = SOURCE_ROOT; };
+		F21A8FCC12A8E70500A7A220 /* CMKVAnalyze.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMKVAnalyze.cpp; path = ../../../File/MKV/CMKVAnalyze.cpp; sourceTree = SOURCE_ROOT; };
+		F21A8FCD12A8E70500A7A220 /* CMKVAnalyze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMKVAnalyze.h; path = ../../../File/MKV/CMKVAnalyze.h; sourceTree = SOURCE_ROOT; };
+		F21A8FCE12A8E70500A7A220 /* CMKVAudioTrack_RealSpecialize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMKVAudioTrack_RealSpecialize.cpp; path = ../../../File/MKV/CMKVAudioTrack_RealSpecialize.cpp; sourceTree = SOURCE_ROOT; };
+		F21A8FCF12A8E70500A7A220 /* CMKVAudioTrack_RealSpecialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMKVAudioTrack_RealSpecialize.h; path = ../../../File/MKV/CMKVAudioTrack_RealSpecialize.h; sourceTree = SOURCE_ROOT; };
+		F21A8FD012A8E70500A7A220 /* CMKVAudioTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMKVAudioTrack.cpp; path = ../../../File/MKV/CMKVAudioTrack.cpp; sourceTree = SOURCE_ROOT; };
+		F21A8FD112A8E70500A7A220 /* CMKVAudioTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMKVAudioTrack.h; path = ../../../File/MKV/CMKVAudioTrack.h; sourceTree = SOURCE_ROOT; };
+		F21A8FD212A8E70500A7A220 /* CMKVFileReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMKVFileReader.cpp; path = ../../../File/MKV/CMKVFileReader.cpp; sourceTree = SOURCE_ROOT; };
+		F21A8FD312A8E70500A7A220 /* CMKVFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMKVFileReader.h; path = ../../../File/MKV/CMKVFileReader.h; sourceTree = SOURCE_ROOT; };
+		F21A8FD412A8E70500A7A220 /* CMKVParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMKVParser.cpp; path = ../../../File/MKV/CMKVParser.cpp; sourceTree = SOURCE_ROOT; };
+		F21A8FD512A8E70500A7A220 /* CMKVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMKVParser.h; path = ../../../File/MKV/CMKVParser.h; sourceTree = SOURCE_ROOT; };
+		F21A8FD612A8E70500A7A220 /* CMKVStreamFileIndex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMKVStreamFileIndex.cpp; path = ../../../File/MKV/CMKVStreamFileIndex.cpp; sourceTree = SOURCE_ROOT; };
+		F21A8FD712A8E70500A7A220 /* CMKVStreamFileIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMKVStreamFileIndex.h; path = ../../../File/MKV/CMKVStreamFileIndex.h; sourceTree = SOURCE_ROOT; };
+		F21A8FD812A8E70500A7A220 /* CMKVTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMKVTrack.cpp; path = ../../../File/MKV/CMKVTrack.cpp; sourceTree = SOURCE_ROOT; };
+		F21A8FD912A8E70500A7A220 /* CMKVTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMKVTrack.h; path = ../../../File/MKV/CMKVTrack.h; sourceTree = SOURCE_ROOT; };
+		F21A8FDA12A8E70500A7A220 /* CMKVVideoTrack_RealSpecialize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMKVVideoTrack_RealSpecialize.cpp; path = ../../../File/MKV/CMKVVideoTrack_RealSpecialize.cpp; sourceTree = SOURCE_ROOT; };
+		F21A8FDB12A8E70500A7A220 /* CMKVVideoTrack_RealSpecialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMKVVideoTrack_RealSpecialize.h; path = ../../../File/MKV/CMKVVideoTrack_RealSpecialize.h; sourceTree = SOURCE_ROOT; };
+		F21A8FDC12A8E70500A7A220 /* CMKVVideoTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMKVVideoTrack.cpp; path = ../../../File/MKV/CMKVVideoTrack.cpp; sourceTree = SOURCE_ROOT; };
+		F21A8FDD12A8E70500A7A220 /* CMKVVideoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMKVVideoTrack.h; path = ../../../File/MKV/CMKVVideoTrack.h; sourceTree = SOURCE_ROOT; };
+		F21A8FDE12A8E70500A7A220 /* EBML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EBML.cpp; path = ../../../File/MKV/EBML.cpp; sourceTree = SOURCE_ROOT; };
+		F21A8FDF12A8E70500A7A220 /* EBML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBML.h; path = ../../../File/MKV/EBML.h; sourceTree = SOURCE_ROOT; };
+		F21A8FE012A8E70500A7A220 /* LIST_ENTRY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIST_ENTRY.h; path = ../../../File/MKV/LIST_ENTRY.h; sourceTree = SOURCE_ROOT; };
+		F21A8FE112A8E70500A7A220 /* MKVID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKVID.h; path = ../../../File/MKV/MKVID.h; sourceTree = SOURCE_ROOT; };
+		F21A8FE212A8E70500A7A220 /* MKVInfoStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKVInfoStructure.h; path = ../../../File/MKV/MKVInfoStructure.h; sourceTree = SOURCE_ROOT; };
+		F21A8FE312A8E70500A7A220 /* MKVInfoStructureFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKVInfoStructureFunc.h; path = ../../../File/MKV/MKVInfoStructureFunc.h; sourceTree = SOURCE_ROOT; };
+		F21A8FFC12A8E74A00A7A220 /* cmnFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cmnFile.cpp; path = ../../../../Common/cmnFile.cpp; sourceTree = SOURCE_ROOT; };
+		F21A8FFD12A8E74A00A7A220 /* cmnFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmnFile.h; path = ../../../../Common/cmnFile.h; sourceTree = SOURCE_ROOT; };
+		F21A8FFE12A8E74A00A7A220 /* cmnMemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cmnMemory.c; path = ../../../../Common/cmnMemory.c; sourceTree = SOURCE_ROOT; };
+		F21A8FFF12A8E74A00A7A220 /* cmnMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmnMemory.h; path = ../../../../Common/cmnMemory.h; sourceTree = SOURCE_ROOT; };
+		F21A900012A8E74A00A7A220 /* CvoBaseObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseObject.cpp; path = ../../../../Common/CvoBaseObject.cpp; sourceTree = SOURCE_ROOT; };
+		F21A900112A8E74A00A7A220 /* CvoBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseObject.h; path = ../../../../Common/CvoBaseObject.h; sourceTree = SOURCE_ROOT; };
+		F21A900212A8E74A00A7A220 /* voCMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voCMutex.cpp; path = ../../../../Common/voCMutex.cpp; sourceTree = SOURCE_ROOT; };
+		F21A900312A8E74A00A7A220 /* voCMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voCMutex.h; path = ../../../../Common/voCMutex.h; sourceTree = SOURCE_ROOT; };
+		F21A900C12A8E7CE00A7A220 /* CBaseReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseReader.cpp; path = ../../../File/Common/CBaseReader.cpp; sourceTree = SOURCE_ROOT; };
+		F21A900D12A8E7CE00A7A220 /* CBaseReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseReader.h; path = ../../../File/Common/CBaseReader.h; sourceTree = SOURCE_ROOT; };
+		F21A900E12A8E7CE00A7A220 /* CBaseStreamFileIndex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseStreamFileIndex.cpp; path = ../../../File/Common/CBaseStreamFileIndex.cpp; sourceTree = SOURCE_ROOT; };
+		F21A900F12A8E7CE00A7A220 /* CBaseStreamFileIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseStreamFileIndex.h; path = ../../../File/Common/CBaseStreamFileIndex.h; sourceTree = SOURCE_ROOT; };
+		F21A901012A8E7CE00A7A220 /* CBaseStreamFileReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseStreamFileReader.cpp; path = ../../../File/Common/CBaseStreamFileReader.cpp; sourceTree = SOURCE_ROOT; };
+		F21A901112A8E7CE00A7A220 /* CBaseStreamFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseStreamFileReader.h; path = ../../../File/Common/CBaseStreamFileReader.h; sourceTree = SOURCE_ROOT; };
+		F21A901212A8E7CE00A7A220 /* CBaseStreamFileTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseStreamFileTrack.cpp; path = ../../../File/Common/CBaseStreamFileTrack.cpp; sourceTree = SOURCE_ROOT; };
+		F21A901312A8E7CE00A7A220 /* CBaseStreamFileTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseStreamFileTrack.h; path = ../../../File/Common/CBaseStreamFileTrack.h; sourceTree = SOURCE_ROOT; };
+		F21A901412A8E7CE00A7A220 /* CBaseTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseTrack.cpp; path = ../../../File/Common/CBaseTrack.cpp; sourceTree = SOURCE_ROOT; };
+		F21A901512A8E7CE00A7A220 /* CBaseTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseTrack.h; path = ../../../File/Common/CBaseTrack.h; sourceTree = SOURCE_ROOT; };
+		F21A901612A8E7CE00A7A220 /* CGBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGBuffer.cpp; path = ../../../File/Common/CGBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		F21A901712A8E7CE00A7A220 /* CGBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGBuffer.h; path = ../../../File/Common/CGBuffer.h; sourceTree = SOURCE_ROOT; };
+		F21A901812A8E7CE00A7A220 /* CGFileChunk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGFileChunk.cpp; path = ../../../File/Common/CGFileChunk.cpp; sourceTree = SOURCE_ROOT; };
+		F21A901912A8E7CE00A7A220 /* CGFileChunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGFileChunk.h; path = ../../../File/Common/CGFileChunk.h; sourceTree = SOURCE_ROOT; };
+		F21A901A12A8E7CE00A7A220 /* CMemPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMemPool.cpp; path = ../../../File/Common/CMemPool.cpp; sourceTree = SOURCE_ROOT; };
+		F21A901B12A8E7CE00A7A220 /* CMemPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMemPool.h; path = ../../../File/Common/CMemPool.h; sourceTree = SOURCE_ROOT; };
+		F21A901C12A8E7CE00A7A220 /* CvoBaseDrmCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseDrmCallback.cpp; path = ../../../File/Common/CvoBaseDrmCallback.cpp; sourceTree = SOURCE_ROOT; };
+		F21A901D12A8E7CE00A7A220 /* CvoBaseDrmCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseDrmCallback.h; path = ../../../File/Common/CvoBaseDrmCallback.h; sourceTree = SOURCE_ROOT; };
+		F21A901E12A8E7CE00A7A220 /* CvoBaseFileOpr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseFileOpr.cpp; path = ../../../File/Common/CvoBaseFileOpr.cpp; sourceTree = SOURCE_ROOT; };
+		F21A901F12A8E7CE00A7A220 /* CvoBaseFileOpr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseFileOpr.h; path = ../../../File/Common/CvoBaseFileOpr.h; sourceTree = SOURCE_ROOT; };
+		F21A902012A8E7CE00A7A220 /* CvoBaseMemOpr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseMemOpr.cpp; path = ../../../File/Common/CvoBaseMemOpr.cpp; sourceTree = SOURCE_ROOT; };
+		F21A902112A8E7CE00A7A220 /* CvoBaseMemOpr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseMemOpr.h; path = ../../../File/Common/CvoBaseMemOpr.h; sourceTree = SOURCE_ROOT; };
+		F21A902212A8E7CE00A7A220 /* fCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fCC.h; path = ../../../File/Common/fCC.h; sourceTree = SOURCE_ROOT; };
+		F21A902312A8E7CE00A7A220 /* fCodec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fCodec.c; path = ../../../File/Common/fCodec.c; sourceTree = SOURCE_ROOT; };
+		F21A902412A8E7CE00A7A220 /* fCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fCodec.h; path = ../../../File/Common/fCodec.h; sourceTree = SOURCE_ROOT; };
+		F21A902512A8E7CE00A7A220 /* fMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fMacros.h; path = ../../../File/Common/fMacros.h; sourceTree = SOURCE_ROOT; };
+		F21A902612A8E7CE00A7A220 /* voFileReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voFileReader.cpp; path = ../../../File/Common/voFileReader.cpp; sourceTree = SOURCE_ROOT; };
+		F21A906212A8E92D00A7A220 /* CvoFileParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoFileParser.cpp; path = ../../../File/Common/CvoFileParser.cpp; sourceTree = SOURCE_ROOT; };
+		F21A906312A8E92D00A7A220 /* CvoFileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoFileParser.h; path = ../../../File/Common/CvoFileParser.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1B68158136FFF21002DB15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1B6815A136FFF21002DB15A /* libvoMKVFR.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* voMKVFR */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = voMKVFR;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F21A8FCB12A8E6F100A7A220 /* Common */,
+				F21A8FCA12A8E6EB00A7A220 /* MKV */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2A6134D07B89F6200DD23D3 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* voMKVFR_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F21A8FCA12A8E6EB00A7A220 /* MKV */ = {
+			isa = PBXGroup;
+			children = (
+				F21A8FCC12A8E70500A7A220 /* CMKVAnalyze.cpp */,
+				F21A8FCD12A8E70500A7A220 /* CMKVAnalyze.h */,
+				F21A8FCE12A8E70500A7A220 /* CMKVAudioTrack_RealSpecialize.cpp */,
+				F21A8FCF12A8E70500A7A220 /* CMKVAudioTrack_RealSpecialize.h */,
+				F21A8FD012A8E70500A7A220 /* CMKVAudioTrack.cpp */,
+				F21A8FD112A8E70500A7A220 /* CMKVAudioTrack.h */,
+				F21A8FD212A8E70500A7A220 /* CMKVFileReader.cpp */,
+				F21A8FD312A8E70500A7A220 /* CMKVFileReader.h */,
+				F21A8FD412A8E70500A7A220 /* CMKVParser.cpp */,
+				F21A8FD512A8E70500A7A220 /* CMKVParser.h */,
+				F21A8FD612A8E70500A7A220 /* CMKVStreamFileIndex.cpp */,
+				F21A8FD712A8E70500A7A220 /* CMKVStreamFileIndex.h */,
+				F21A8FD812A8E70500A7A220 /* CMKVTrack.cpp */,
+				F21A8FD912A8E70500A7A220 /* CMKVTrack.h */,
+				F21A8FDA12A8E70500A7A220 /* CMKVVideoTrack_RealSpecialize.cpp */,
+				F21A8FDB12A8E70500A7A220 /* CMKVVideoTrack_RealSpecialize.h */,
+				F21A8FDC12A8E70500A7A220 /* CMKVVideoTrack.cpp */,
+				F21A8FDD12A8E70500A7A220 /* CMKVVideoTrack.h */,
+				F21A8FDE12A8E70500A7A220 /* EBML.cpp */,
+				F21A8FDF12A8E70500A7A220 /* EBML.h */,
+				F21A8FE012A8E70500A7A220 /* LIST_ENTRY.h */,
+				F21A8FE112A8E70500A7A220 /* MKVID.h */,
+				F21A8FE212A8E70500A7A220 /* MKVInfoStructure.h */,
+				F21A8FE312A8E70500A7A220 /* MKVInfoStructureFunc.h */,
+			);
+			name = MKV;
+			sourceTree = "<group>";
+		};
+		F21A8FCB12A8E6F100A7A220 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E1B6822413700841002DB15A /* fVideoHeadDataInfo.cpp */,
+				E1B6822513700841002DB15A /* fVideoHeadDataInfo.h */,
+				F21A906212A8E92D00A7A220 /* CvoFileParser.cpp */,
+				F21A906312A8E92D00A7A220 /* CvoFileParser.h */,
+				F21A900C12A8E7CE00A7A220 /* CBaseReader.cpp */,
+				F21A900D12A8E7CE00A7A220 /* CBaseReader.h */,
+				F21A900E12A8E7CE00A7A220 /* CBaseStreamFileIndex.cpp */,
+				F21A900F12A8E7CE00A7A220 /* CBaseStreamFileIndex.h */,
+				F21A901012A8E7CE00A7A220 /* CBaseStreamFileReader.cpp */,
+				F21A901112A8E7CE00A7A220 /* CBaseStreamFileReader.h */,
+				F21A901212A8E7CE00A7A220 /* CBaseStreamFileTrack.cpp */,
+				F21A901312A8E7CE00A7A220 /* CBaseStreamFileTrack.h */,
+				F21A901412A8E7CE00A7A220 /* CBaseTrack.cpp */,
+				F21A901512A8E7CE00A7A220 /* CBaseTrack.h */,
+				F21A901612A8E7CE00A7A220 /* CGBuffer.cpp */,
+				F21A901712A8E7CE00A7A220 /* CGBuffer.h */,
+				F21A901812A8E7CE00A7A220 /* CGFileChunk.cpp */,
+				F21A901912A8E7CE00A7A220 /* CGFileChunk.h */,
+				F21A901A12A8E7CE00A7A220 /* CMemPool.cpp */,
+				F21A901B12A8E7CE00A7A220 /* CMemPool.h */,
+				F21A901C12A8E7CE00A7A220 /* CvoBaseDrmCallback.cpp */,
+				F21A901D12A8E7CE00A7A220 /* CvoBaseDrmCallback.h */,
+				F21A901E12A8E7CE00A7A220 /* CvoBaseFileOpr.cpp */,
+				F21A901F12A8E7CE00A7A220 /* CvoBaseFileOpr.h */,
+				F21A902012A8E7CE00A7A220 /* CvoBaseMemOpr.cpp */,
+				F21A902112A8E7CE00A7A220 /* CvoBaseMemOpr.h */,
+				F21A902212A8E7CE00A7A220 /* fCC.h */,
+				F21A902312A8E7CE00A7A220 /* fCodec.c */,
+				F21A902412A8E7CE00A7A220 /* fCodec.h */,
+				F21A902512A8E7CE00A7A220 /* fMacros.h */,
+				F21A902612A8E7CE00A7A220 /* voFileReader.cpp */,
+				F21A8FFC12A8E74A00A7A220 /* cmnFile.cpp */,
+				F21A8FFD12A8E74A00A7A220 /* cmnFile.h */,
+				F21A8FFE12A8E74A00A7A220 /* cmnMemory.c */,
+				F21A8FFF12A8E74A00A7A220 /* cmnMemory.h */,
+				F21A900012A8E74A00A7A220 /* CvoBaseObject.cpp */,
+				F21A900112A8E74A00A7A220 /* CvoBaseObject.h */,
+				F21A900212A8E74A00A7A220 /* voCMutex.cpp */,
+				F21A900312A8E74A00A7A220 /* voCMutex.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E1B68156136FFF21002DB15A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B6816413700106002DB15A /* CBaseReader.h in Headers */,
+				E1B6816513700106002DB15A /* CBaseStreamFileIndex.h in Headers */,
+				E1B6816613700106002DB15A /* CBaseStreamFileReader.h in Headers */,
+				E1B6816713700106002DB15A /* CBaseStreamFileTrack.h in Headers */,
+				E1B6816813700106002DB15A /* CBaseTrack.h in Headers */,
+				E1B6816913700106002DB15A /* CGBuffer.h in Headers */,
+				E1B6816A13700106002DB15A /* CGFileChunk.h in Headers */,
+				E1B6816B13700106002DB15A /* CMemPool.h in Headers */,
+				E1B6816C13700106002DB15A /* CMKVAnalyze.h in Headers */,
+				E1B6816D13700106002DB15A /* CMKVAudioTrack.h in Headers */,
+				E1B6816E13700106002DB15A /* CMKVAudioTrack_RealSpecialize.h in Headers */,
+				E1B6816F13700106002DB15A /* CMKVFileReader.h in Headers */,
+				E1B6817013700106002DB15A /* CMKVParser.h in Headers */,
+				E1B6817113700106002DB15A /* CMKVStreamFileIndex.h in Headers */,
+				E1B6817213700106002DB15A /* CMKVTrack.h in Headers */,
+				E1B6817313700106002DB15A /* CMKVVideoTrack.h in Headers */,
+				E1B6817413700106002DB15A /* CMKVVideoTrack_RealSpecialize.h in Headers */,
+				E1B6817513700106002DB15A /* cmnFile.h in Headers */,
+				E1B6817613700106002DB15A /* cmnMemory.h in Headers */,
+				E1B6817713700106002DB15A /* CvoBaseDrmCallback.h in Headers */,
+				E1B6817813700106002DB15A /* CvoBaseFileOpr.h in Headers */,
+				E1B6817913700106002DB15A /* CvoBaseMemOpr.h in Headers */,
+				E1B6817A13700106002DB15A /* CvoBaseObject.h in Headers */,
+				E1B6817B13700106002DB15A /* CvoFileParser.h in Headers */,
+				E1B6817C13700106002DB15A /* EBML.h in Headers */,
+				E1B6817D13700106002DB15A /* fCC.h in Headers */,
+				E1B6817E13700106002DB15A /* fCodec.h in Headers */,
+				E1B6817F13700106002DB15A /* fMacros.h in Headers */,
+				E1B6818013700106002DB15A /* LIST_ENTRY.h in Headers */,
+				E1B6818113700106002DB15A /* MKVID.h in Headers */,
+				E1B6818213700106002DB15A /* MKVInfoStructure.h in Headers */,
+				E1B6818313700106002DB15A /* MKVInfoStructureFunc.h in Headers */,
+				E1B6818413700106002DB15A /* voCMutex.h in Headers */,
+				E1B6822713700841002DB15A /* fVideoHeadDataInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E1B68159136FFF21002DB15A /* voMKVFR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B6815D136FFF4B002DB15A /* Build configuration list for PBXNativeTarget "voMKVFR" */;
+			buildPhases = (
+				E1B68156136FFF21002DB15A /* Headers */,
+				E1B68157136FFF21002DB15A /* Sources */,
+				E1B68158136FFF21002DB15A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voMKVFR;
+			productName = voMKVFR_static;
+			productReference = E1B6815A136FFF21002DB15A /* libvoMKVFR.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB918108733D990010E9CD /* Build configuration list for PBXProject "voMKVFR" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* voMKVFR */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1B68159136FFF21002DB15A /* voMKVFR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1B68157136FFF21002DB15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B6818513700113002DB15A /* CBaseReader.cpp in Sources */,
+				E1B6818613700113002DB15A /* CBaseStreamFileIndex.cpp in Sources */,
+				E1B6818713700113002DB15A /* CBaseStreamFileReader.cpp in Sources */,
+				E1B6818813700113002DB15A /* CBaseStreamFileTrack.cpp in Sources */,
+				E1B6818913700113002DB15A /* CBaseTrack.cpp in Sources */,
+				E1B6818A13700113002DB15A /* CGBuffer.cpp in Sources */,
+				E1B6818B13700113002DB15A /* CGFileChunk.cpp in Sources */,
+				E1B6818C13700113002DB15A /* CMemPool.cpp in Sources */,
+				E1B6818D13700113002DB15A /* CMKVAnalyze.cpp in Sources */,
+				E1B6818E13700113002DB15A /* CMKVAudioTrack.cpp in Sources */,
+				E1B6818F13700113002DB15A /* CMKVAudioTrack_RealSpecialize.cpp in Sources */,
+				E1B6819013700113002DB15A /* CMKVFileReader.cpp in Sources */,
+				E1B6819113700113002DB15A /* CMKVParser.cpp in Sources */,
+				E1B6819213700113002DB15A /* CMKVStreamFileIndex.cpp in Sources */,
+				E1B6819313700113002DB15A /* CMKVTrack.cpp in Sources */,
+				E1B6819413700113002DB15A /* CMKVVideoTrack.cpp in Sources */,
+				E1B6819513700113002DB15A /* CMKVVideoTrack_RealSpecialize.cpp in Sources */,
+				E1B6819613700113002DB15A /* cmnFile.cpp in Sources */,
+				E1B6819713700113002DB15A /* cmnMemory.c in Sources */,
+				E1B6819813700113002DB15A /* CvoBaseDrmCallback.cpp in Sources */,
+				E1B6819913700113002DB15A /* CvoBaseFileOpr.cpp in Sources */,
+				E1B6819A13700113002DB15A /* CvoBaseMemOpr.cpp in Sources */,
+				E1B6819B13700113002DB15A /* CvoBaseObject.cpp in Sources */,
+				E1B6819C13700113002DB15A /* CvoFileParser.cpp in Sources */,
+				E1B6819D13700113002DB15A /* EBML.cpp in Sources */,
+				E1B6819E13700113002DB15A /* fCodec.c in Sources */,
+				E1B6819F13700113002DB15A /* voCMutex.cpp in Sources */,
+				E1B681A013700113002DB15A /* voFileReader.cpp in Sources */,
+				E1B6822613700841002DB15A /* fVideoHeadDataInfo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB918208733D990010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB918308733D990010E9CD /* Release_v7 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release_v7;
+		};
+		E11A983F1370E85400A69B7A /* Release_v6 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release_v6;
+		};
+		E11A98401370E85400A69B7A /* Release_v6 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../../../../voRelease/IOS/static/v6/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					_MKV_READER,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../Include/,
+					../../../../Common/,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = voMKVFR;
+				SDKROOT = iphoneos;
+				ZERO_LINK = NO;
+			};
+			name = Release_v6;
+		};
+		E11A98411370E8A200A69B7A /* Release_i386 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release_i386;
+		};
+		E11A98421370E8A200A69B7A /* Release_i386 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../voRelease/IOS/static/i386/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					_MKV_READER,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../Include/,
+					../../../../Common/,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = voMKVFR;
+				SDKROOT = iphoneos;
+				ZERO_LINK = NO;
+			};
+			name = Release_i386;
+		};
+		E1B6815B136FFF21002DB15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = voMKVFR_static;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1B6815C136FFF21002DB15A /* Release_v7 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../voRelease/IOS/static/v7/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					_MKV_READER,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../Include/,
+					../../../../Common/,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = voMKVFR;
+				SDKROOT = iphoneos;
+				ZERO_LINK = NO;
+			};
+			name = Release_v7;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB918108733D990010E9CD /* Build configuration list for PBXProject "voMKVFR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB918208733D990010E9CD /* Debug */,
+				1DEB918308733D990010E9CD /* Release_v7 */,
+				E11A98411370E8A200A69B7A /* Release_i386 */,
+				E11A983F1370E85400A69B7A /* Release_v6 */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release_v7;
+		};
+		E1B6815D136FFF4B002DB15A /* Build configuration list for PBXNativeTarget "voMKVFR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B6815B136FFF21002DB15A /* Debug */,
+				E1B6815C136FFF21002DB15A /* Release_v7 */,
+				E11A98421370E8A200A69B7A /* Release_i386 */,
+				E11A98401370E85400A69B7A /* Release_v6 */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release_v7;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

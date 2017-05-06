@@ -1,0 +1,4 @@
+this is a applicatin that test voHalInfo. ndk uses NDK toolchain, tc means use visualon own modified toolchain; x86 uses the linux native toolchain.
+
+Known issue
+At present can not recognize the x86 characteristic.

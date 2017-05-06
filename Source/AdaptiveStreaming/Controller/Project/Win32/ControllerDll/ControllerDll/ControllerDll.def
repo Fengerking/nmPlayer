@@ -1,0 +1,6 @@
+LIBRARY voLiveSrcHLS.dll
+
+EXPORTS
+	voGetSrcHLSAPI
+	voGetASCDASHAPI
+	voGetAdaptiveStreamControllerAPI

@@ -1,0 +1,4 @@
+LIBRARY voLiveSrcCMCC.dll
+
+EXPORTS
+	voGetLiveSrcAPI

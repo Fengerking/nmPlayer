@@ -1,0 +1,134 @@
+/* -dConfiguration= ... none provided  */
+-D_UNICODE                     //  30: CharacterSet = "1" 
+-DUNICODE                      //  30: CharacterSet = "" 
+-i"..\..\base"                 //  51: AdditionalIncludeDirectories = "..\..\base;..\..\core;..\..\third_party;..\..\third_party\real_streaming\include;..\..\third_party\r" 
+-i"..\..\core"                 //  51: AdditionalIncludeDirectories = "" 
+-i"..\..\third_party"          //  51: AdditionalIncludeDirectories = "" 
+-i"..\..\third_party\real_streaming\include"
+                               //  51: AdditionalIncludeDirectories = "" 
+-i"..\..\third_party\real_streaming\voSDKInc"
+                               //  51: AdditionalIncludeDirectories = "" 
+-i"..\..\engine_sdk"           //  51: AdditionalIncludeDirectories = "" 
+-i"..\..\voapi4win"            //  51: AdditionalIncludeDirectories = "" 
+-i"..\..\third_party\real_streaming\src\common\pub"
+                               //  51: AdditionalIncludeDirectories = "" 
+-i"..\..\..\..\..\trunk\Include"
+                               //  51: AdditionalIncludeDirectories = "" 
+-i"..\..\rtsp"                 //  51: AdditionalIncludeDirectories = "" 
+-DWIN32                        //  52: PreprocessorDefinitions = "WIN32;NDEBUG;_LIB;PC_X86;R_TEST;_WINDOWS;H264_ANNEXB_FORMAT;FULL_VERSION;FORCE_ADD_ADTS1;DUMP_MEDIA_" 
+-DNDEBUG                       //  52: PreprocessorDefinitions = "" 
+-D_LIB                         //  52: PreprocessorDefinitions = "" 
+-DPC_X86                       //  52: PreprocessorDefinitions = "" 
+-DR_TEST                       //  52: PreprocessorDefinitions = "" 
+-D_WINDOWS                     //  52: PreprocessorDefinitions = "" 
+-DH264_ANNEXB_FORMAT           //  52: PreprocessorDefinitions = "" 
+-DFULL_VERSION                 //  52: PreprocessorDefinitions = "" 
+-DFORCE_ADD_ADTS1              //  52: PreprocessorDefinitions = "" 
+-DDUMP_MEDIA_DATA              //  52: PreprocessorDefinitions = "" 
+-D_MT                          //  53: RuntimeLibrary = "0" 
+..\..\rtsp\AMRAudioRTPParser.cpp
+                               //2183: RelativePath = "..\..\rtsp\AMRAudioRTPParser.cpp" 
+..\..\rtsp\AMRWBPAudioRTPParser.cpp
+                               //2191: RelativePath = "..\..\rtsp\AMRWBPAudioRTPParser.cpp" 
+..\..\rtsp\ASFHeadParser.cpp   //2199: RelativePath = "..\..\rtsp\ASFHeadParser.cpp" 
+..\..\rtsp\ASFRTPParser.cpp    //2207: RelativePath = "..\..\rtsp\ASFRTPParser.cpp" 
+..\..\rtsp\ASFRTSPClientEngine.cpp
+                               //2215: RelativePath = "..\..\rtsp\ASFRTSPClientEngine.cpp" 
+..\..\rtsp\DIMSRTPParser.cpp   //2223: RelativePath = "..\..\rtsp\DIMSRTPParser.cpp" 
+..\..\rtsp\H263VideoRTPParser.cpp
+                               //2231: RelativePath = "..\..\rtsp\H263VideoRTPParser.cpp" 
+..\..\rtsp\H264VideoRTPParser.cpp
+                               //2239: RelativePath = "..\..\rtsp\H264VideoRTPParser.cpp" 
+..\..\rtsp\MediaFrameSink.cpp  //2247: RelativePath = "..\..\rtsp\MediaFrameSink.cpp" 
+..\..\rtsp\mediastream.cpp     //2255: RelativePath = "..\..\rtsp\mediastream.cpp" 
+..\..\rtsp\MediaStreamSocket.cpp
+                               //2263: RelativePath = "..\..\rtsp\MediaStreamSocket.cpp" 
+..\..\rtsp\MP3AudioRTPParser.cpp
+                               //2271: RelativePath = "..\..\rtsp\MP3AudioRTPParser.cpp" 
+..\..\rtsp\MPEG4ESVideoRTPParser.cpp
+                               //2279: RelativePath = "..\..\rtsp\MPEG4ESVideoRTPParser.cpp" 
+..\..\rtsp\MPEG4GenericAudioRTPParser.cpp
+                               //2287: RelativePath = "..\..\rtsp\MPEG4GenericAudioRTPParser.cpp" 
+..\..\rtsp\MPEG4LATMAudioRTPParser.cpp
+                               //2295: RelativePath = "..\..\rtsp\MPEG4LATMAudioRTPParser.cpp" 
+..\..\rtsp\QcelpAudioRTPParser.cpp
+                               //2303: RelativePath = "..\..\rtsp\QcelpAudioRTPParser.cpp" 
+..\..\rtsp\RDTMediaStream.cpp  //2311: RelativePath = "..\..\rtsp\RDTMediaStream.cpp" 
+..\..\rtsp\RDTParser.cpp       //2319: RelativePath = "..\..\rtsp\RDTParser.cpp" 
+..\..\rtsp\RealRTSPClientEngine.cpp
+                               //2327: RelativePath = "..\..\rtsp\RealRTSPClientEngine.cpp" 
+..\..\rtsp\RealTimeStreamingEngine.cpp
+                               //2335: RelativePath = "..\..\rtsp\RealTimeStreamingEngine.cpp" 
+..\..\rtsp\RFC1889_SourceCode.cpp
+                               //2343: RelativePath = "..\..\rtsp\RFC1889_SourceCode.cpp" 
+..\..\rtsp\RTCPParser.cpp      //2351: RelativePath = "..\..\rtsp\RTCPParser.cpp" 
+..\..\rtsp\RTCPReportPacket.cpp
+                               //2359: RelativePath = "..\..\rtsp\RTCPReportPacket.cpp" 
+..\..\rtsp\RTPPacket.cpp       //2367: RelativePath = "..\..\rtsp\RTPPacket.cpp" 
+..\..\rtsp\RTPPacketReorder.cpp
+                               //2375: RelativePath = "..\..\rtsp\RTPPacketReorder.cpp" 
+..\..\rtsp\RTPParser.cpp       //2383: RelativePath = "..\..\rtsp\RTPParser.cpp" 
+..\..\rtsp\RTPSenderTable.cpp  //2391: RelativePath = "..\..\rtsp\RTPSenderTable.cpp" 
+..\..\rtsp\RTSPClientEngine.cpp
+                               //2399: RelativePath = "..\..\rtsp\RTSPClientEngine.cpp" 
+..\..\rtsp\RTSPMediaStreamSyncEngine.cpp
+                               //2407: RelativePath = "..\..\rtsp\RTSPMediaStreamSyncEngine.cpp" 
+..\..\rtsp\RTSPSession.cpp     //2415: RelativePath = "..\..\rtsp\RTSPSession.cpp" 
+..\..\rtsp\RTSPSource.cpp      //2423: RelativePath = "..\..\rtsp\RTSPSource.cpp" 
+..\..\rtsp\RTSPTrack.cpp       //2431: RelativePath = "..\..\rtsp\RTSPTrack.cpp" 
+..\..\rtsp\TaskSchedulerEngine.cpp
+                               //2439: RelativePath = "..\..\rtsp\TaskSchedulerEngine.cpp" 
+..\..\rtsp\voRTSPSource.cpp    //2447: RelativePath = "..\..\rtsp\voRTSPSource.cpp" 
+..\..\base\BitVector.cpp       //2459: RelativePath = "..\..\base\BitVector.cpp" 
+..\..\base\getmp4vol.c         //2467: RelativePath = "..\..\base\getmp4vol.c" 
+..\..\base\HashTable.cpp       //2475: RelativePath = "..\..\base\HashTable.cpp" 
+..\..\base\network.cpp         //2491: RelativePath = "..\..\base\network.cpp" 
+..\..\base\ParseSPS.cpp        //2499: RelativePath = "..\..\base\ParseSPS.cpp" 
+..\..\base\utility.cpp         //2507: RelativePath = "..\..\base\utility.cpp" 
+..\..\third_party\real_streaming\src\rdt\challenge.c
+                               //2526: RelativePath = "..\..\third_party\real_streaming\src\rdt\challenge.c" 
+..\..\third_party\real_streaming\src\common\helix_date.c
+                               //2542: RelativePath = "..\..\third_party\real_streaming\src\common\helix_date.c" 
+..\..\third_party\real_streaming\src\rdt\md5.c
+                               //2562: RelativePath = "..\..\third_party\real_streaming\src\rdt\md5.c" 
+..\..\third_party\real_streaming\src\rdt\md5hl.c
+                               //2570: RelativePath = "..\..\third_party\real_streaming\src\rdt\md5hl.c" 
+..\..\third_party\real_streaming\src\common\memory_utils.c
+                               //2574: RelativePath = "..\..\third_party\real_streaming\src\common\memory_utils.c" 
+..\..\third_party\real_streaming\src\common\pack_utils.c
+                               //2582: RelativePath = "..\..\third_party\real_streaming\src\common\pack_utils.c" 
+..\..\third_party\real_streaming\src\rv_depack\ra_depack.c
+                               //2602: RelativePath = "..\..\third_party\real_streaming\src\rv_depack\ra_depack.c" 
+..\..\third_party\real_streaming\src\rv_depack\ra_depack_internal.c
+                               //2610: RelativePath = "..\..\third_party\real_streaming\src\rv_depack\ra_depack_internal.c" 
+..\..\third_party\real_streaming\src\rv_depack\rasl.c
+                               //2622: RelativePath = "..\..\third_party\real_streaming\src\rv_depack\rasl.c" 
+..\..\third_party\real_streaming\src\rdt\rdtpck.c
+                               //2630: RelativePath = "..\..\third_party\real_streaming\src\rdt\rdtpck.c" 
+..\..\third_party\real_streaming\src\common\rm_error_default.c
+                               //2662: RelativePath = "..\..\third_party\real_streaming\src\common\rm_error_default.c" 
+..\..\third_party\real_streaming\src\common\rm_io_default.c
+                               //2670: RelativePath = "..\..\third_party\real_streaming\src\common\rm_io_default.c" 
+..\..\third_party\real_streaming\src\common\rm_memory_default.c
+                               //2682: RelativePath = "..\..\third_party\real_streaming\src\common\rm_memory_default.c" 
+..\..\third_party\real_streaming\src\common\rm_packet.c
+                               //2690: RelativePath = "..\..\third_party\real_streaming\src\common\rm_packet.c" 
+..\..\third_party\real_streaming\src\common\rm_property.c
+                               //2702: RelativePath = "..\..\third_party\real_streaming\src\common\rm_property.c" 
+..\..\third_party\real_streaming\src\common\rm_stream.c
+                               //2710: RelativePath = "..\..\third_party\real_streaming\src\common\rm_stream.c" 
+..\..\third_party\real_streaming\src\rv_depack\rv_depack.c
+                               //2746: RelativePath = "..\..\third_party\real_streaming\src\rv_depack\rv_depack.c" 
+..\..\third_party\real_streaming\src\rv_depack\rv_depack_internal.c
+                               //2754: RelativePath = "..\..\third_party\real_streaming\src\rv_depack\rv_depack_internal.c" 
+..\..\third_party\real_streaming\src\common\stream_hdr_utils.c
+                               //2770: RelativePath = "..\..\third_party\real_streaming\src\common\stream_hdr_utils.c" 
+..\..\third_party\real_streaming\src\common\string_utils.c
+                               //2778: RelativePath = "..\..\third_party\real_streaming\src\common\string_utils.c" 
+..\..\third_party\real_streaming\src\rdt\tngpkt.c
+                               //2786: RelativePath = "..\..\third_party\real_streaming\src\rdt\tngpkt.c" 
+..\..\rtsp\test.cpp            //2811: RelativePath = "..\..\rtsp\test.cpp" 
+..\..\rtsp\voRTSPSDK2.cpp      //2819: RelativePath = "..\..\rtsp\voRTSPSDK2.cpp" 
+..\..\voapi4win\VOCrossPlatformWrapper_Windows.cpp
+                               //2827: RelativePath = "..\..\voapi4win\VOCrossPlatformWrapper_Windows.cpp" 
+..\..\rtsp\VOUtility.cpp       //2831: RelativePath = "..\..\rtsp\VOUtility.cpp" 

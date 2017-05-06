@@ -1,0 +1,192 @@
+<smil xmlns="http://www.w3.org/2005/SMIL21/Language">
+<head>
+</head>
+<body>
+<seq>
+	<video src="http://once.unicornmedia.com/now/od/auto/c9cd5ffb-e591-4566-8141-d79c05703b80/af2f2540-00f8-471e-b9e7-2464f8da642c/f291521d-27f3-41ed-bb89-9add2751df80/content.once" title="VR_Encode_testCBS_YR_10184_CONTENT_CIAN" dur="2221000ms" guid="mJAOS8m7XOexQmrm_ykEHoYcuzy1fwv5" provider="CBS Production Entertainment VMS" type="application/x-mpegURL" clipBegin="0:00" clipEnd="2:29">
+		<param name="Aired" value="false"/>
+		<param name="CBSGenre" value=""/>
+		<param name="ClosedCaptionURL" value="http://www.cbsstatic.com/closedcaption/CBS_YR_10184_CONTENT_CIAN_caption.xml"/>
+		<param name="DynamicStreaming" value="true"/>
+		<param name="Embeddable" value="false"/>
+		<param name="EpisodeFlag" value="false"/>
+		<param name="EpisodeNumber" value=""/>
+		<param name="Internal" value="true"/>
+		<param name="IsLive" value="false"/>
+		<param name="IsLiveCDN" value="akamai"/>
+		<param name="IsProtected" value="false"/>
+		<param name="NoAd" value="false"/>
+		<param name="PrimaryCategory" value="34621534"/>
+		<param name="PrimaryCategoryName" value="Testing/MPX Testing/Full Episodes"/>
+		<param name="RepeatFlag" value="false"/>
+		<param name="SeriesTitle" value=""/>
+		<param name="SourcePartner" value=""/>
+		<param name="TVRating" value="false"/>
+		<param name="VTAG" value="/ent/dt/yr/fe/rb;site=entertainment;dpart=daytime;show=YR;feat=full_episodes;feat=rebroadcast"/>
+		<param name="WatermarkPlayback" value="true"/>
+		<param name="trackingData" value="aid=2198311517|b=0|ci=1|cid=35804739990|d=1373510113682|l=2221000|pvid=21847452|rid=36743235925"/>
+	</video>
+	<video src="http://once.unicornmedia.com/now/od/auto/c9cd5ffb-e591-4566-8141-d79c05703b80/af2f2540-00f8-471e-b9e7-2464f8da642c/f291521d-27f3-41ed-bb89-9add2751df80/content.once" title="VR_Encode_testCBS_YR_10184_CONTENT_CIAN" dur="2221000ms" guid="mJAOS8m7XOexQmrm_ykEHoYcuzy1fwv5" provider="CBS Production Entertainment VMS" type="application/x-mpegURL" clipBegin="2:29" clipEnd="7:45">
+		<param name="Aired" value="false"/>
+		<param name="CBSGenre" value=""/>
+		<param name="ClosedCaptionURL" value="http://www.cbsstatic.com/closedcaption/CBS_YR_10184_CONTENT_CIAN_caption.xml"/>
+		<param name="DynamicStreaming" value="true"/>
+		<param name="Embeddable" value="false"/>
+		<param name="EpisodeFlag" value="false"/>
+		<param name="EpisodeNumber" value=""/>
+		<param name="Internal" value="true"/>
+		<param name="IsLive" value="false"/>
+		<param name="IsLiveCDN" value="akamai"/>
+		<param name="IsProtected" value="false"/>
+		<param name="NoAd" value="false"/>
+		<param name="PrimaryCategory" value="34621534"/>
+		<param name="PrimaryCategoryName" value="Testing/MPX Testing/Full Episodes"/>
+		<param name="RepeatFlag" value="false"/>
+		<param name="SeriesTitle" value=""/>
+		<param name="SourcePartner" value=""/>
+		<param name="TVRating" value="false"/>
+		<param name="VTAG" value="/ent/dt/yr/fe/rb;site=entertainment;dpart=daytime;show=YR;feat=full_episodes;feat=rebroadcast"/>
+		<param name="WatermarkPlayback" value="true"/>
+		<param name="trackingData" value="aid=2198311517|b=0|ci=1|cid=35804739990|d=1373510113682|l=2221000|pvid=21847452|rid=36743235925"/>
+	</video>
+	<video src="http://once.unicornmedia.com/now/od/auto/c9cd5ffb-e591-4566-8141-d79c05703b80/af2f2540-00f8-471e-b9e7-2464f8da642c/f291521d-27f3-41ed-bb89-9add2751df80/content.once" title="VR_Encode_testCBS_YR_10184_CONTENT_CIAN" dur="2221000ms" guid="mJAOS8m7XOexQmrm_ykEHoYcuzy1fwv5" provider="CBS Production Entertainment VMS" type="application/x-mpegURL" clipBegin="7:45" clipEnd="15:56">
+		<param name="Aired" value="false"/>
+		<param name="CBSGenre" value=""/>
+		<param name="ClosedCaptionURL" value="http://www.cbsstatic.com/closedcaption/CBS_YR_10184_CONTENT_CIAN_caption.xml"/>
+		<param name="DynamicStreaming" value="true"/>
+		<param name="Embeddable" value="false"/>
+		<param name="EpisodeFlag" value="false"/>
+		<param name="EpisodeNumber" value=""/>
+		<param name="Internal" value="true"/>
+		<param name="IsLive" value="false"/>
+		<param name="IsLiveCDN" value="akamai"/>
+		<param name="IsProtected" value="false"/>
+		<param name="NoAd" value="false"/>
+		<param name="PrimaryCategory" value="34621534"/>
+		<param name="PrimaryCategoryName" value="Testing/MPX Testing/Full Episodes"/>
+		<param name="RepeatFlag" value="false"/>
+		<param name="SeriesTitle" value=""/>
+		<param name="SourcePartner" value=""/>
+		<param name="TVRating" value="false"/>
+		<param name="VTAG" value="/ent/dt/yr/fe/rb;site=entertainment;dpart=daytime;show=YR;feat=full_episodes;feat=rebroadcast"/>
+		<param name="WatermarkPlayback" value="true"/>
+		<param name="trackingData" value="aid=2198311517|b=0|ci=1|cid=35804739990|d=1373510113682|l=2221000|pvid=21847452|rid=36743235925"/>
+	</video>
+	<video src="http://once.unicornmedia.com/now/od/auto/c9cd5ffb-e591-4566-8141-d79c05703b80/af2f2540-00f8-471e-b9e7-2464f8da642c/f291521d-27f3-41ed-bb89-9add2751df80/content.once" title="VR_Encode_testCBS_YR_10184_CONTENT_CIAN" dur="2221000ms" guid="mJAOS8m7XOexQmrm_ykEHoYcuzy1fwv5" provider="CBS Production Entertainment VMS" type="application/x-mpegURL" clipBegin="15:56" clipEnd="16:06">
+		<param name="Aired" value="false"/>
+		<param name="CBSGenre" value=""/>
+		<param name="ClosedCaptionURL" value="http://www.cbsstatic.com/closedcaption/CBS_YR_10184_CONTENT_CIAN_caption.xml"/>
+		<param name="DynamicStreaming" value="true"/>
+		<param name="Embeddable" value="false"/>
+		<param name="EpisodeFlag" value="false"/>
+		<param name="EpisodeNumber" value=""/>
+		<param name="Internal" value="true"/>
+		<param name="IsLive" value="false"/>
+		<param name="IsLiveCDN" value="akamai"/>
+		<param name="IsProtected" value="false"/>
+		<param name="NoAd" value="false"/>
+		<param name="PrimaryCategory" value="34621534"/>
+		<param name="PrimaryCategoryName" value="Testing/MPX Testing/Full Episodes"/>
+		<param name="RepeatFlag" value="false"/>
+		<param name="SeriesTitle" value=""/>
+		<param name="SourcePartner" value=""/>
+		<param name="TVRating" value="false"/>
+		<param name="VTAG" value="/ent/dt/yr/fe/rb;site=entertainment;dpart=daytime;show=YR;feat=full_episodes;feat=rebroadcast"/>
+		<param name="WatermarkPlayback" value="true"/>
+		<param name="trackingData" value="aid=2198311517|b=0|ci=1|cid=35804739990|d=1373510113682|l=2221000|pvid=21847452|rid=36743235925"/>
+	</video>
+	<video src="http://once.unicornmedia.com/now/od/auto/c9cd5ffb-e591-4566-8141-d79c05703b80/af2f2540-00f8-471e-b9e7-2464f8da642c/f291521d-27f3-41ed-bb89-9add2751df80/content.once" title="VR_Encode_testCBS_YR_10184_CONTENT_CIAN" dur="2221000ms" guid="mJAOS8m7XOexQmrm_ykEHoYcuzy1fwv5" provider="CBS Production Entertainment VMS" type="application/x-mpegURL" clipBegin="16:06" clipEnd="22:25">
+		<param name="Aired" value="false"/>
+		<param name="CBSGenre" value=""/>
+		<param name="ClosedCaptionURL" value="http://www.cbsstatic.com/closedcaption/CBS_YR_10184_CONTENT_CIAN_caption.xml"/>
+		<param name="DynamicStreaming" value="true"/>
+		<param name="Embeddable" value="false"/>
+		<param name="EpisodeFlag" value="false"/>
+		<param name="EpisodeNumber" value=""/>
+		<param name="Internal" value="true"/>
+		<param name="IsLive" value="false"/>
+		<param name="IsLiveCDN" value="akamai"/>
+		<param name="IsProtected" value="false"/>
+		<param name="NoAd" value="false"/>
+		<param name="PrimaryCategory" value="34621534"/>
+		<param name="PrimaryCategoryName" value="Testing/MPX Testing/Full Episodes"/>
+		<param name="RepeatFlag" value="false"/>
+		<param name="SeriesTitle" value=""/>
+		<param name="SourcePartner" value=""/>
+		<param name="TVRating" value="false"/>
+		<param name="VTAG" value="/ent/dt/yr/fe/rb;site=entertainment;dpart=daytime;show=YR;feat=full_episodes;feat=rebroadcast"/>
+		<param name="WatermarkPlayback" value="true"/>
+		<param name="trackingData" value="aid=2198311517|b=0|ci=1|cid=35804739990|d=1373510113682|l=2221000|pvid=21847452|rid=36743235925"/>
+	</video>
+	<video src="http://once.unicornmedia.com/now/od/auto/c9cd5ffb-e591-4566-8141-d79c05703b80/af2f2540-00f8-471e-b9e7-2464f8da642c/f291521d-27f3-41ed-bb89-9add2751df80/content.once" title="VR_Encode_testCBS_YR_10184_CONTENT_CIAN" dur="2221000ms" guid="mJAOS8m7XOexQmrm_ykEHoYcuzy1fwv5" provider="CBS Production Entertainment VMS" type="application/x-mpegURL" clipBegin="22:25" clipEnd="27:34">
+		<param name="Aired" value="false"/>
+		<param name="CBSGenre" value=""/>
+		<param name="ClosedCaptionURL" value="http://www.cbsstatic.com/closedcaption/CBS_YR_10184_CONTENT_CIAN_caption.xml"/>
+		<param name="DynamicStreaming" value="true"/>
+		<param name="Embeddable" value="false"/>
+		<param name="EpisodeFlag" value="false"/>
+		<param name="EpisodeNumber" value=""/>
+		<param name="Internal" value="true"/>
+		<param name="IsLive" value="false"/>
+		<param name="IsLiveCDN" value="akamai"/>
+		<param name="IsProtected" value="false"/>
+		<param name="NoAd" value="false"/>
+		<param name="PrimaryCategory" value="34621534"/>
+		<param name="PrimaryCategoryName" value="Testing/MPX Testing/Full Episodes"/>
+		<param name="RepeatFlag" value="false"/>
+		<param name="SeriesTitle" value=""/>
+		<param name="SourcePartner" value=""/>
+		<param name="TVRating" value="false"/>
+		<param name="VTAG" value="/ent/dt/yr/fe/rb;site=entertainment;dpart=daytime;show=YR;feat=full_episodes;feat=rebroadcast"/>
+		<param name="WatermarkPlayback" value="true"/>
+		<param name="trackingData" value="aid=2198311517|b=0|ci=1|cid=35804739990|d=1373510113682|l=2221000|pvid=21847452|rid=36743235925"/>
+	</video>
+	<video src="http://once.unicornmedia.com/now/od/auto/c9cd5ffb-e591-4566-8141-d79c05703b80/af2f2540-00f8-471e-b9e7-2464f8da642c/f291521d-27f3-41ed-bb89-9add2751df80/content.once" title="VR_Encode_testCBS_YR_10184_CONTENT_CIAN" dur="2221000ms" guid="mJAOS8m7XOexQmrm_ykEHoYcuzy1fwv5" provider="CBS Production Entertainment VMS" type="application/x-mpegURL" clipBegin="27:34" clipEnd="32:27">
+		<param name="Aired" value="false"/>
+		<param name="CBSGenre" value=""/>
+		<param name="ClosedCaptionURL" value="http://www.cbsstatic.com/closedcaption/CBS_YR_10184_CONTENT_CIAN_caption.xml"/>
+		<param name="DynamicStreaming" value="true"/>
+		<param name="Embeddable" value="false"/>
+		<param name="EpisodeFlag" value="false"/>
+		<param name="EpisodeNumber" value=""/>
+		<param name="Internal" value="true"/>
+		<param name="IsLive" value="false"/>
+		<param name="IsLiveCDN" value="akamai"/>
+		<param name="IsProtected" value="false"/>
+		<param name="NoAd" value="false"/>
+		<param name="PrimaryCategory" value="34621534"/>
+		<param name="PrimaryCategoryName" value="Testing/MPX Testing/Full Episodes"/>
+		<param name="RepeatFlag" value="false"/>
+		<param name="SeriesTitle" value=""/>
+		<param name="SourcePartner" value=""/>
+		<param name="TVRating" value="false"/>
+		<param name="VTAG" value="/ent/dt/yr/fe/rb;site=entertainment;dpart=daytime;show=YR;feat=full_episodes;feat=rebroadcast"/>
+		<param name="WatermarkPlayback" value="true"/>
+		<param name="trackingData" value="aid=2198311517|b=0|ci=1|cid=35804739990|d=1373510113682|l=2221000|pvid=21847452|rid=36743235925"/>
+	</video>
+	<video src="http://once.unicornmedia.com/now/od/auto/c9cd5ffb-e591-4566-8141-d79c05703b80/af2f2540-00f8-471e-b9e7-2464f8da642c/f291521d-27f3-41ed-bb89-9add2751df80/content.once" title="VR_Encode_testCBS_YR_10184_CONTENT_CIAN" dur="2221000ms" guid="mJAOS8m7XOexQmrm_ykEHoYcuzy1fwv5" provider="CBS Production Entertainment VMS" type="application/x-mpegURL" clipBegin="32:27">
+		<param name="Aired" value="false"/>
+		<param name="CBSGenre" value=""/>
+		<param name="ClosedCaptionURL" value="http://www.cbsstatic.com/closedcaption/CBS_YR_10184_CONTENT_CIAN_caption.xml"/>
+		<param name="DynamicStreaming" value="true"/>
+		<param name="Embeddable" value="false"/>
+		<param name="EpisodeFlag" value="false"/>
+		<param name="EpisodeNumber" value=""/>
+		<param name="Internal" value="true"/>
+		<param name="IsLive" value="false"/>
+		<param name="IsLiveCDN" value="akamai"/>
+		<param name="IsProtected" value="false"/>
+		<param name="NoAd" value="false"/>
+		<param name="PrimaryCategory" value="34621534"/>
+		<param name="PrimaryCategoryName" value="Testing/MPX Testing/Full Episodes"/>
+		<param name="RepeatFlag" value="false"/>
+		<param name="SeriesTitle" value=""/>
+		<param name="SourcePartner" value=""/>
+		<param name="TVRating" value="false"/>
+		<param name="VTAG" value="/ent/dt/yr/fe/rb;site=entertainment;dpart=daytime;show=YR;feat=full_episodes;feat=rebroadcast"/>
+		<param name="WatermarkPlayback" value="true"/>
+		<param name="trackingData" value="aid=2198311517|b=0|ci=1|cid=35804739990|d=1373510113682|l=2221000|pvid=21847452|rid=36743235925"/>
+	</video>
+</seq>
+</body>
+</smil>

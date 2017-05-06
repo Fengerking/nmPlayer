@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E10CF3D31635595700942826 /* libvoVideoParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E10CF3D21635595700942826 /* libvoVideoParser.a */; };
+		E10DC512160DCD5700C58BE4 /* CSrcCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E10DC510160DCD5600C58BE4 /* CSrcCenter.cpp */; };
+		E10DC516160DE9A300C58BE4 /* dump2.aac in Resources */ = {isa = PBXBuildFile; fileRef = E10DC514160DE9A300C58BE4 /* dump2.aac */; };
+		E10DC517160DE9A300C58BE4 /* dump2.H264 in Resources */ = {isa = PBXBuildFile; fileRef = E10DC515160DE9A300C58BE4 /* dump2.H264 */; };
+		E12B1BCD1696B09600C84FEC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12B1BCC1696B09600C84FEC /* AudioToolbox.framework */; };
+		E12B1CB3169BBE5C00C84FEC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E12B1CB2169BBE5C00C84FEC /* libz.dylib */; };
+		E14B8BAB15FB70780082A807 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = E14B8BAA15FB70780082A807 /* AppDelegate.mm */; };
+		E1C2B5D816157B500049FE3D /* libvoNPWrap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C2B5D716157B500049FE3D /* libvoNPWrap.a */; };
+		E1C2B6261615B3510049FE3D /* make_lib.csh in Resources */ = {isa = PBXBuildFile; fileRef = E1C2B6251615B3510049FE3D /* make_lib.csh */; };
+		E1F2012416017D9300FD4B22 /* OnStreamReadSrc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F2012016017D9300FD4B22 /* OnStreamReadSrc.cpp */; };
+		E1F2012516017D9300FD4B22 /* osCMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F2012216017D9300FD4B22 /* osCMutex.cpp */; };
+		E1F2012C1601A03700FD4B22 /* dump.aac in Resources */ = {isa = PBXBuildFile; fileRef = E1F2012A1601A03700FD4B22 /* dump.aac */; };
+		E1F2012D1601A03700FD4B22 /* dump.H264 in Resources */ = {isa = PBXBuildFile; fileRef = E1F2012B1601A03700FD4B22 /* dump.H264 */; };
+		E1F2014E1602F86C00FD4B22 /* libvoTsFW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F2014D1602F86C00FD4B22 /* libvoTsFW.a */; };
+		E1F34B7415FA51AB00AB395A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F34B7315FA51AB00AB395A /* UIKit.framework */; };
+		E1F34B7615FA51AB00AB395A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F34B7515FA51AB00AB395A /* Foundation.framework */; };
+		E1F34B7815FA51AB00AB395A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F34B7715FA51AB00AB395A /* CoreGraphics.framework */; };
+		E1F34B7E15FA51AB00AB395A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1F34B7C15FA51AB00AB395A /* InfoPlist.strings */; };
+		E1F34B8015FA51AB00AB395A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F34B7F15FA51AB00AB395A /* main.m */; };
+		E1F34B8715FA51AB00AB395A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1F34B8615FA51AB00AB395A /* ViewController.mm */; };
+		E1F34B8A15FA51AB00AB395A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F34B8815FA51AB00AB395A /* ViewController_iPhone.xib */; };
+		E1F34B8D15FA51AB00AB395A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F34B8B15FA51AB00AB395A /* ViewController_iPad.xib */; };
+		E1F34B9515FA523900AB395A /* PlayerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1F34B9415FA523900AB395A /* PlayerView.mm */; };
+		E1F34B9715FA549800AB395A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F34B9615FA549800AB395A /* AVFoundation.framework */; };
+		E1F34B9915FA54B000AB395A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F34B9815FA54B000AB395A /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E10CF350162EAB4700942826 /* CAVFrameTools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CAVFrameTools.cpp; sourceTree = "<group>"; };
+		E10CF351162EAB4700942826 /* CAVFrameTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAVFrameTools.h; sourceTree = "<group>"; };
+		E10CF3D21635595700942826 /* libvoVideoParser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvoVideoParser.a; path = ../../../../../voRelease/iOS/static/v7/libvoVideoParser.a; sourceTree = "<group>"; };
+		E10DC510160DCD5600C58BE4 /* CSrcCenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSrcCenter.cpp; sourceTree = "<group>"; };
+		E10DC511160DCD5600C58BE4 /* CSrcCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSrcCenter.h; sourceTree = "<group>"; };
+		E10DC514160DE9A300C58BE4 /* dump2.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = dump2.aac; sourceTree = "<group>"; };
+		E10DC515160DE9A300C58BE4 /* dump2.H264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dump2.H264; sourceTree = "<group>"; };
+		E12B1BCC1696B09600C84FEC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E12B1CB2169BBE5C00C84FEC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E14B8BAA15FB70780082A807 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		E1C2B5D716157B500049FE3D /* libvoNPWrap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvoNPWrap.a; path = ../../../../../voRelease/iOS/static/v7/debug/libvoNPWrap.a; sourceTree = "<group>"; };
+		E1C2B5DA16157F3E0049FE3D /* CBaseNativePlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CBaseNativePlayer.cpp; sourceTree = "<group>"; };
+		E1C2B5DB16157F3E0049FE3D /* CBaseNativePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBaseNativePlayer.h; sourceTree = "<group>"; };
+		E1C2B5DC16157F3E0049FE3D /* CBaseServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CBaseServer.cpp; sourceTree = "<group>"; };
+		E1C2B5DD16157F3E0049FE3D /* CBaseServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBaseServer.h; sourceTree = "<group>"; };
+		E1C2B5DE16157F3E0049FE3D /* CBaseWrap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CBaseWrap.cpp; sourceTree = "<group>"; };
+		E1C2B5DF16157F3E0049FE3D /* CBaseWrap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBaseWrap.h; sourceTree = "<group>"; };
+		E1C2B5E016157F3E0049FE3D /* CHLSHttpRequest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHLSHttpRequest.cpp; sourceTree = "<group>"; };
+		E1C2B5E116157F3E0049FE3D /* CHLSHttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHLSHttpRequest.h; sourceTree = "<group>"; };
+		E1C2B5E216157F3E0049FE3D /* CHLSHttpRespond.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHLSHttpRespond.cpp; sourceTree = "<group>"; };
+		E1C2B5E316157F3E0049FE3D /* CHLSHttpRespond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHLSHttpRespond.h; sourceTree = "<group>"; };
+		E1C2B5E416157F3E0049FE3D /* CHLSHttpSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHLSHttpSocket.cpp; sourceTree = "<group>"; };
+		E1C2B5E516157F3E0049FE3D /* CHLSHttpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHLSHttpSocket.h; sourceTree = "<group>"; };
+		E1C2B5E616157F3E0049FE3D /* CHLSListenSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHLSListenSocket.cpp; sourceTree = "<group>"; };
+		E1C2B5E716157F3E0049FE3D /* CHLSListenSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHLSListenSocket.h; sourceTree = "<group>"; };
+		E1C2B5E816157F3E0049FE3D /* CHLSM3u8Stream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHLSM3u8Stream.cpp; sourceTree = "<group>"; };
+		E1C2B5E916157F3E0049FE3D /* CHLSM3u8Stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHLSM3u8Stream.h; sourceTree = "<group>"; };
+		E1C2B5EA16157F3E0049FE3D /* CHLSServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHLSServer.cpp; sourceTree = "<group>"; };
+		E1C2B5EB16157F3E0049FE3D /* CHLSServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHLSServer.h; sourceTree = "<group>"; };
+		E1C2B5EC16157F3E0049FE3D /* CHLSServerWrap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHLSServerWrap.cpp; sourceTree = "<group>"; };
+		E1C2B5ED16157F3E0049FE3D /* CHLSServerWrap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHLSServerWrap.h; sourceTree = "<group>"; };
+		E1C2B5EE16157F3E0049FE3D /* CMemStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CMemStream.cpp; sourceTree = "<group>"; };
+		E1C2B5EF16157F3E0049FE3D /* CMemStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMemStream.h; sourceTree = "<group>"; };
+		E1C2B5F016157F3E0049FE3D /* CMuxerStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMuxerStream.h; sourceTree = "<group>"; };
+		E1C2B5F116157F3E0049FE3D /* CTsMuxStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CTsMuxStream.cpp; sourceTree = "<group>"; };
+		E1C2B5F216157F3E0049FE3D /* CTsMuxStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTsMuxStream.h; sourceTree = "<group>"; };
+		E1C2B5F416157F3E0049FE3D /* CAVNativePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAVNativePlayer.h; sourceTree = "<group>"; };
+		E1C2B5F516157F3E0049FE3D /* CAVNativePlayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CAVNativePlayer.mm; sourceTree = "<group>"; };
+		E1C2B5F616157F3E0049FE3D /* voHLSWrapAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = voHLSWrapAPI.cpp; sourceTree = "<group>"; };
+		E1C2B603161592990049FE3D /* CBaseSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CBaseSocket.cpp; sourceTree = "<group>"; };
+		E1C2B604161592990049FE3D /* CBaseSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBaseSocket.h; sourceTree = "<group>"; };
+		E1C2B605161592990049FE3D /* CHttpRequest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHttpRequest.cpp; sourceTree = "<group>"; };
+		E1C2B606161592990049FE3D /* CHttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHttpRequest.h; sourceTree = "<group>"; };
+		E1C2B607161592990049FE3D /* CHttpRespond.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHttpRespond.cpp; sourceTree = "<group>"; };
+		E1C2B608161592990049FE3D /* CHttpRespond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHttpRespond.h; sourceTree = "<group>"; };
+		E1C2B609161592990049FE3D /* CHttpSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHttpSocket.cpp; sourceTree = "<group>"; };
+		E1C2B60A161592990049FE3D /* CHttpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHttpSocket.h; sourceTree = "<group>"; };
+		E1C2B60B161592990049FE3D /* CHttpStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHttpStream.cpp; sourceTree = "<group>"; };
+		E1C2B60C161592990049FE3D /* CHttpStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHttpStream.h; sourceTree = "<group>"; };
+		E1C2B60D161592990049FE3D /* CListenSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CListenSocket.cpp; sourceTree = "<group>"; };
+		E1C2B60E161592990049FE3D /* CListenSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CListenSocket.h; sourceTree = "<group>"; };
+		E1C2B60F161593010049FE3D /* voNPWrap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = voNPWrap.h; path = ../../../Include/voNPWrap.h; sourceTree = "<group>"; };
+		E1C2B610161593110049FE3D /* voNPWrapType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = voNPWrapType.h; path = ../../../Include/voNPWrapType.h; sourceTree = "<group>"; };
+		E1C2B6251615B3510049FE3D /* make_lib.csh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.csh; path = make_lib.csh; sourceTree = SOURCE_ROOT; };
+		E1C2B6421616CB050049FE3D /* CAVPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAVPlayer.h; sourceTree = "<group>"; };
+		E1C2B6431616CB050049FE3D /* CAVPlayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CAVPlayer.mm; sourceTree = "<group>"; };
+		E1F2012016017D9300FD4B22 /* OnStreamReadSrc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OnStreamReadSrc.cpp; sourceTree = "<group>"; };
+		E1F2012116017D9300FD4B22 /* OnStreamReadSrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnStreamReadSrc.h; sourceTree = "<group>"; };
+		E1F2012216017D9300FD4B22 /* osCMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = osCMutex.cpp; sourceTree = "<group>"; };
+		E1F2012316017D9300FD4B22 /* osCMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osCMutex.h; sourceTree = "<group>"; };
+		E1F2012A1601A03700FD4B22 /* dump.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = dump.aac; sourceTree = "<group>"; };
+		E1F2012B1601A03700FD4B22 /* dump.H264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dump.H264; sourceTree = "<group>"; };
+		E1F2014D1602F86C00FD4B22 /* libvoTsFW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvoTsFW.a; path = ../../../../../voRelease/iOS/static/v7/debug/libvoTsFW.a; sourceTree = "<group>"; };
+		E1F34B6F15FA51AB00AB395A /* TestHLSPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHLSPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F34B7315FA51AB00AB395A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1F34B7515FA51AB00AB395A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1F34B7715FA51AB00AB395A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1F34B7B15FA51AB00AB395A /* TestHLSPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestHLSPlayer-Info.plist"; sourceTree = "<group>"; };
+		E1F34B7D15FA51AB00AB395A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1F34B7F15FA51AB00AB395A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1F34B8115FA51AB00AB395A /* TestHLSPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestHLSPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		E1F34B8215FA51AB00AB395A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1F34B8515FA51AB00AB395A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1F34B8615FA51AB00AB395A /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		E1F34B8915FA51AB00AB395A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		E1F34B8C15FA51AB00AB395A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		E1F34B9315FA523900AB395A /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		E1F34B9415FA523900AB395A /* PlayerView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PlayerView.mm; sourceTree = "<group>"; };
+		E1F34B9615FA549800AB395A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E1F34B9815FA54B000AB395A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1F34B6C15FA51AB00AB395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12B1CB3169BBE5C00C84FEC /* libz.dylib in Frameworks */,
+				E12B1BCD1696B09600C84FEC /* AudioToolbox.framework in Frameworks */,
+				E10CF3D31635595700942826 /* libvoVideoParser.a in Frameworks */,
+				E1F2014E1602F86C00FD4B22 /* libvoTsFW.a in Frameworks */,
+				E1F34B9915FA54B000AB395A /* CoreMedia.framework in Frameworks */,
+				E1F34B9715FA549800AB395A /* AVFoundation.framework in Frameworks */,
+				E1F34B7415FA51AB00AB395A /* UIKit.framework in Frameworks */,
+				E1F34B7615FA51AB00AB395A /* Foundation.framework in Frameworks */,
+				E1F34B7815FA51AB00AB395A /* CoreGraphics.framework in Frameworks */,
+				E1C2B5D816157B500049FE3D /* libvoNPWrap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1C2B5D916157F3E0049FE3D /* LibSource */ = {
+			isa = PBXGroup;
+			children = (
+				E10CF350162EAB4700942826 /* CAVFrameTools.cpp */,
+				E10CF351162EAB4700942826 /* CAVFrameTools.h */,
+				E1C2B5F316157F3E0049FE3D /* iOS */,
+				E1C2B602161592990049FE3D /* httpSvr */,
+				E1C2B5DA16157F3E0049FE3D /* CBaseNativePlayer.cpp */,
+				E1C2B5DB16157F3E0049FE3D /* CBaseNativePlayer.h */,
+				E1C2B5DC16157F3E0049FE3D /* CBaseServer.cpp */,
+				E1C2B5DD16157F3E0049FE3D /* CBaseServer.h */,
+				E1C2B5DE16157F3E0049FE3D /* CBaseWrap.cpp */,
+				E1C2B5DF16157F3E0049FE3D /* CBaseWrap.h */,
+				E1C2B5E016157F3E0049FE3D /* CHLSHttpRequest.cpp */,
+				E1C2B5E116157F3E0049FE3D /* CHLSHttpRequest.h */,
+				E1C2B5E216157F3E0049FE3D /* CHLSHttpRespond.cpp */,
+				E1C2B5E316157F3E0049FE3D /* CHLSHttpRespond.h */,
+				E1C2B5E416157F3E0049FE3D /* CHLSHttpSocket.cpp */,
+				E1C2B5E516157F3E0049FE3D /* CHLSHttpSocket.h */,
+				E1C2B5EB16157F3E0049FE3D /* CHLSServer.h */,
+				E1C2B5E616157F3E0049FE3D /* CHLSListenSocket.cpp */,
+				E1C2B5E716157F3E0049FE3D /* CHLSListenSocket.h */,
+				E1C2B5E816157F3E0049FE3D /* CHLSM3u8Stream.cpp */,
+				E1C2B5E916157F3E0049FE3D /* CHLSM3u8Stream.h */,
+				E1C2B5EA16157F3E0049FE3D /* CHLSServer.cpp */,
+				E1C2B5EC16157F3E0049FE3D /* CHLSServerWrap.cpp */,
+				E1C2B5ED16157F3E0049FE3D /* CHLSServerWrap.h */,
+				E1C2B5EE16157F3E0049FE3D /* CMemStream.cpp */,
+				E1C2B5EF16157F3E0049FE3D /* CMemStream.h */,
+				E1C2B5F016157F3E0049FE3D /* CMuxerStream.h */,
+				E1C2B5F116157F3E0049FE3D /* CTsMuxStream.cpp */,
+				E1C2B5F216157F3E0049FE3D /* CTsMuxStream.h */,
+				E1C2B5F616157F3E0049FE3D /* voHLSWrapAPI.cpp */,
+				E1C2B60F161593010049FE3D /* voNPWrap.h */,
+				E1C2B610161593110049FE3D /* voNPWrapType.h */,
+			);
+			name = LibSource;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		E1C2B5F316157F3E0049FE3D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E1C2B6421616CB050049FE3D /* CAVPlayer.h */,
+				E1C2B6431616CB050049FE3D /* CAVPlayer.mm */,
+				E1C2B5F416157F3E0049FE3D /* CAVNativePlayer.h */,
+				E1C2B5F516157F3E0049FE3D /* CAVNativePlayer.mm */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E1C2B602161592990049FE3D /* httpSvr */ = {
+			isa = PBXGroup;
+			children = (
+				E1C2B603161592990049FE3D /* CBaseSocket.cpp */,
+				E1C2B604161592990049FE3D /* CBaseSocket.h */,
+				E1C2B605161592990049FE3D /* CHttpRequest.cpp */,
+				E1C2B606161592990049FE3D /* CHttpRequest.h */,
+				E1C2B607161592990049FE3D /* CHttpRespond.cpp */,
+				E1C2B608161592990049FE3D /* CHttpRespond.h */,
+				E1C2B609161592990049FE3D /* CHttpSocket.cpp */,
+				E1C2B60A161592990049FE3D /* CHttpSocket.h */,
+				E1C2B60B161592990049FE3D /* CHttpStream.cpp */,
+				E1C2B60C161592990049FE3D /* CHttpStream.h */,
+				E1C2B60D161592990049FE3D /* CListenSocket.cpp */,
+				E1C2B60E161592990049FE3D /* CListenSocket.h */,
+			);
+			name = httpSvr;
+			path = ../../../Common/httpSvr;
+			sourceTree = "<group>";
+		};
+		E1F34B6415FA51AB00AB395A = {
+			isa = PBXGroup;
+			children = (
+				E12B1CB2169BBE5C00C84FEC /* libz.dylib */,
+				E1F34B7915FA51AB00AB395A /* TestHLSPlayer */,
+				E1F34B7215FA51AB00AB395A /* Frameworks */,
+				E1F34B7015FA51AB00AB395A /* Products */,
+				E1C2B5D916157F3E0049FE3D /* LibSource */,
+			);
+			sourceTree = "<group>";
+		};
+		E1F34B7015FA51AB00AB395A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1F34B6F15FA51AB00AB395A /* TestHLSPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1F34B7215FA51AB00AB395A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E12B1BCC1696B09600C84FEC /* AudioToolbox.framework */,
+				E10CF3D21635595700942826 /* libvoVideoParser.a */,
+				E1C2B5D716157B500049FE3D /* libvoNPWrap.a */,
+				E1F2014D1602F86C00FD4B22 /* libvoTsFW.a */,
+				E1F34B9815FA54B000AB395A /* CoreMedia.framework */,
+				E1F34B9615FA549800AB395A /* AVFoundation.framework */,
+				E1F34B7315FA51AB00AB395A /* UIKit.framework */,
+				E1F34B7515FA51AB00AB395A /* Foundation.framework */,
+				E1F34B7715FA51AB00AB395A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1F34B7915FA51AB00AB395A /* TestHLSPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E1C2B6251615B3510049FE3D /* make_lib.csh */,
+				E1F34B8515FA51AB00AB395A /* ViewController.h */,
+				E1F34B8615FA51AB00AB395A /* ViewController.mm */,
+				E1F34B8815FA51AB00AB395A /* ViewController_iPhone.xib */,
+				E1F34B8B15FA51AB00AB395A /* ViewController_iPad.xib */,
+				E1F34B9415FA523900AB395A /* PlayerView.mm */,
+				E1F34B9315FA523900AB395A /* PlayerView.h */,
+				E14B8BAA15FB70780082A807 /* AppDelegate.mm */,
+				E1F34B8215FA51AB00AB395A /* AppDelegate.h */,
+				E1F2012A1601A03700FD4B22 /* dump.aac */,
+				E1F2012B1601A03700FD4B22 /* dump.H264 */,
+				E10DC514160DE9A300C58BE4 /* dump2.aac */,
+				E10DC515160DE9A300C58BE4 /* dump2.H264 */,
+				E10DC510160DCD5600C58BE4 /* CSrcCenter.cpp */,
+				E10DC511160DCD5600C58BE4 /* CSrcCenter.h */,
+				E1F2012016017D9300FD4B22 /* OnStreamReadSrc.cpp */,
+				E1F2012116017D9300FD4B22 /* OnStreamReadSrc.h */,
+				E1F2012216017D9300FD4B22 /* osCMutex.cpp */,
+				E1F2012316017D9300FD4B22 /* osCMutex.h */,
+				E1F34B7A15FA51AB00AB395A /* Supporting Files */,
+			);
+			path = TestHLSPlayer;
+			sourceTree = "<group>";
+		};
+		E1F34B7A15FA51AB00AB395A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1F34B7B15FA51AB00AB395A /* TestHLSPlayer-Info.plist */,
+				E1F34B7C15FA51AB00AB395A /* InfoPlist.strings */,
+				E1F34B7F15FA51AB00AB395A /* main.m */,
+				E1F34B8115FA51AB00AB395A /* TestHLSPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1F34B6E15FA51AB00AB395A /* TestHLSPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F34B9015FA51AB00AB395A /* Build configuration list for PBXNativeTarget "TestHLSPlayer" */;
+			buildPhases = (
+				E1F34B6B15FA51AB00AB395A /* Sources */,
+				E1F34B6C15FA51AB00AB395A /* Frameworks */,
+				E1F34B6D15FA51AB00AB395A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestHLSPlayer;
+			productName = TestHLSPlayer;
+			productReference = E1F34B6F15FA51AB00AB395A /* TestHLSPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1F34B6615FA51AB00AB395A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E1F34B6915FA51AB00AB395A /* Build configuration list for PBXProject "TestHLSPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1F34B6415FA51AB00AB395A;
+			productRefGroup = E1F34B7015FA51AB00AB395A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1F34B6E15FA51AB00AB395A /* TestHLSPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1F34B6D15FA51AB00AB395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F34B7E15FA51AB00AB395A /* InfoPlist.strings in Resources */,
+				E1F34B8A15FA51AB00AB395A /* ViewController_iPhone.xib in Resources */,
+				E1F34B8D15FA51AB00AB395A /* ViewController_iPad.xib in Resources */,
+				E1F2012C1601A03700FD4B22 /* dump.aac in Resources */,
+				E1F2012D1601A03700FD4B22 /* dump.H264 in Resources */,
+				E10DC516160DE9A300C58BE4 /* dump2.aac in Resources */,
+				E10DC517160DE9A300C58BE4 /* dump2.H264 in Resources */,
+				E1C2B6261615B3510049FE3D /* make_lib.csh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1F34B6B15FA51AB00AB395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F34B8015FA51AB00AB395A /* main.m in Sources */,
+				E1F34B8715FA51AB00AB395A /* ViewController.mm in Sources */,
+				E1F34B9515FA523900AB395A /* PlayerView.mm in Sources */,
+				E14B8BAB15FB70780082A807 /* AppDelegate.mm in Sources */,
+				E1F2012416017D9300FD4B22 /* OnStreamReadSrc.cpp in Sources */,
+				E1F2012516017D9300FD4B22 /* osCMutex.cpp in Sources */,
+				E10DC512160DCD5700C58BE4 /* CSrcCenter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1F34B7C15FA51AB00AB395A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F34B7D15FA51AB00AB395A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1F34B8815FA51AB00AB395A /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F34B8915FA51AB00AB395A /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E1F34B8B15FA51AB00AB395A /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F34B8C15FA51AB00AB395A /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1F34B8E15FA51AB00AB395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		E1F34B8F15FA51AB00AB395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		E1F34B9115FA51AB00AB395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestHLSPlayer/TestHLSPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					"_VONAMESPACE=libvoNPWrap",
+					_VOLOG_INFO,
+					_VOLOG_ERROR,
+					_VOLOG_WARNING,
+				);
+				HEADER_SEARCH_PATHS = ../../../../Include;
+				INFOPLIST_FILE = "TestHLSPlayer/TestHLSPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../voRelease/iOS/static/v7\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1F34B9215FA51AB00AB395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestHLSPlayer/TestHLSPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					"_VONAMESPACE=libvoNPWrap",
+					_VOLOG_INFO,
+					_VOLOG_ERROR,
+					_VOLOG_WARNING,
+				);
+				HEADER_SEARCH_PATHS = ../../../../Include;
+				INFOPLIST_FILE = "TestHLSPlayer/TestHLSPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../voRelease/iOS/static/v7\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1F34B6915FA51AB00AB395A /* Build configuration list for PBXProject "TestHLSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F34B8E15FA51AB00AB395A /* Debug */,
+				E1F34B8F15FA51AB00AB395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F34B9015FA51AB00AB395A /* Build configuration list for PBXNativeTarget "TestHLSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F34B9115FA51AB00AB395A /* Debug */,
+				E1F34B9215FA51AB00AB395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1F34B6615FA51AB00AB395A /* Project object */;
+}

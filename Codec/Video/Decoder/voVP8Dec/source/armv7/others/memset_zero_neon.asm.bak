@@ -1,0 +1,53 @@
+;
+;  Copyright (c) 2010 The WebM project authors. All Rights Reserved.
+;
+;  Use of this source code is governed by a BSD-style license
+;  that can be found in the LICENSE file in the root of the source
+;  tree. An additional intellectual property rights grant can be found
+;  in the file PATENTS.  All contributing project authors may
+;  be found in the AUTHORS file in the root of the source tree.
+;
+
+
+    EXPORT  |memset_zero_neon|
+    ARM
+    REQUIRE8
+    PRESERVE8
+;memset(xd->qcoeff,0,sizeof(short)*400)
+    AREA ||.text||, CODE, READONLY, ALIGN=2
+
+|memset_zero_neon| PROC
+    stmdb       sp!, {lr}
+    sub         r0, r0, r1, lsl #2          ; move src pointer down by 4 lines
+    ldr         r12, [sp, #4]               ; load thresh pointer
+
+    vld1.u8     {q3}, [r0], r1              ; p3
+    vld1.s8     {d2[], d3[]}, [r3]          ; limit
+    vld1.u8     {q4}, [r0], r1              ; p2
+    vld1.s8     {d4[], d5[]}, [r12]         ; thresh
+    vld1.u8     {q5}, [r0], r1              ; p1
+    vld1.u8     {q6}, [r0], r1              ; p0
+    vld1.u8     {q7}, [r0], r1              ; q0
+    vld1.u8     {q8}, [r0], r1              ; q1
+    vld1.u8     {q9}, [r0], r1              ; q2
+    vld1.u8     {q10}, [r0], r1             ; q3
+
+    bl          vp8_mbloop_filter_neon
+
+    sub         r0, r0, r1, lsl #3
+    add         r0, r0, r1
+    add         r2, r0, r1
+    add         r3, r2, r1
+
+    vst1.u8     {q4}, [r0]                  ; store op2
+    vst1.u8     {q5}, [r2]                  ; store op1
+    vst1.u8     {q6}, [r3], r1              ; store op0
+    add         r12, r3, r1
+    vst1.u8     {q7}, [r3]                  ; store oq0
+    vst1.u8     {q8}, [r12], r1             ; store oq1
+    vst1.u8     {q9}, [r12]             ; store oq2
+
+    ldmia       sp!, {pc}
+    ENDP        ;
+
+    END

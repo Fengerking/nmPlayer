@@ -1,0 +1,6 @@
+; voXMLParser.def : Declares the module parameters for the DLL.
+
+LIBRARY	"voXMLParser.dll"
+
+EXPORTS
+	voXMLGetParserAPI

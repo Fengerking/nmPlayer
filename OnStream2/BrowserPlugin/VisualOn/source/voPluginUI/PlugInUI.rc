@@ -1,0 +1,143 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,5,22,0
+ PRODUCTVERSION 3,5,22,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000904b0"
+        BEGIN
+            VALUE "FileDescription", "Broswer PlugIn UI (WIN32-X86-VS2008)"
+            VALUE "FileVersion", "3, 5, 22, 0"
+            VALUE "InternalName", "PlugInUI"
+            VALUE "LegalCopyright", "Copyright (C) 2009"
+            VALUE "OriginalFilename", "voPlugInUI.dll"
+            VALUE "ProductName", "PlugInUI Dynamic Link Library"
+            VALUE "ProductVersion", "3, 5, 22, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x9, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_VOLUME_BACK  BITMAP                  "p_fs_volumeplate.bmp"
+IDB_BITMAP_TIME_SLIDER_THUMB BITMAP                  "p_fs_knob.bmp"
+IDB_BITMAP_TIME_SLIDER  BITMAP                  "p_fs_background_time_empty_slice.bmp"
+IDB_BITMAP_REC          BITMAP                  "p_fs_rec.bmp"
+IDB_BITMAP_PLAY         BITMAP                  "p_fs_play.bmp"
+IDB_BITMAP_FULL_SCREEN  BITMAP                  "p_fs_shrink.bmp"
+IDB_BITMAP_BACKGROUD    BITMAP                  "p_fs_background_slice.bmp"
+IDB_BITMAP_AUDIO_SLIDER_THUMB BITMAP                  "p_fs_volumeplate_knob.bmp"
+IDB_BITMAP_AUDIO_SLIDER BITMAP                  "p_fs_volumeplate_time_fill_slice.bmp"
+IDB_BITMAP_AUDIO        BITMAP                  "p_fs_volume.bmp"
+IDB_BITMAP_MULTIAUDIO   BITMAP                  "p_fs_MultiAudio.bmp"
+IDB_BITMAP_MULTIVIDEO   BITMAP                  "p_fs_MultiVideo.bmp"
+IDB_BITMAP_MULTISUBTITLE BITMAP                  "p_fs_MultiSubtitle.bmp"
+IDB_BITMAP_COMMITSELECTION BITMAP                  "p_fs_CommitSelection.bmp"
+IDB_BITMAP_CLEARSELECTION BITMAP                  "p_fs_ClearSelection.bmp"
+IDB_BITMAP1             BITMAP                  "RES\\W1.bmp"
+IDB_BITMAP2             BITMAP                  "RES\\W2.bmp"
+IDB_BITMAP3             BITMAP                  "RES\\W3.bmp"
+IDB_BITMAP4             BITMAP                  "RES\\W4.bmp"
+IDB_BITMAP5             BITMAP                  "RES\\W5.bmp"
+IDB_BITMAP6             BITMAP                  "RES\\W6.bmp"
+IDB_BITMAP7             BITMAP                  "RES\\W7.bmp"
+IDB_BITMAP8             BITMAP                  "RES\\W8.bmp"
+IDB_BITMAP9             BITMAP                  "RES\\W9.bmp"
+IDB_BITMAP10            BITMAP                  "RES\\W10.bmp"
+IDB_BITMAP11            BITMAP                  "RES\\W11.bmp"
+IDB_BITMAP12            BITMAP                  "RES\\W12.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_ENTER_FULLSCREEN    PNG                     "RES\\enter-fullscreen.png"
+IDB_EXIT_FULLSCREEN     PNG                     "RES\\exit-fullscreen.png"
+IDB_PNG_BUFFERING       PNG                     "RES\\buffering-inline.png"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

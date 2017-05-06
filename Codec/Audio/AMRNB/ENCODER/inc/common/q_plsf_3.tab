@@ -1,0 +1,61 @@
+/*
+********************************************************************************
+*
+*      GSM AMR-NB speech codec   R98   Version 7.6.0   December 12, 2001
+*                                R99   Version 3.3.0                
+*                                REL-4 Version 4.1.0                
+*
+********************************************************************************
+*
+*      File             : q_plsf_3.tab
+*      Purpose          : Table for routine LSF VQ.
+*      $Id $
+*
+********************************************************************************
+*/
+
+#define PAST_RQ_INIT_SIZE 8
+ 
+/* initalization table for MA predictor in dtx mode */
+extern const Word16 past_rq_init3[80];
+
+
+extern const Word16 mean_lsf3[10];
+
+
+extern const Word16 pred_fac3[10];
+
+
+#define DICO1_SIZE  256
+#define DICO2_SIZE  512
+#define DICO3_SIZE  512
+
+/* first codebook from IS641 */
+
+extern const Word16 dico1_lsf3[];
+
+
+/* second codebook from IS641 */
+
+extern const Word16 dico2_lsf3[];
+
+
+/* third codebook from IS641 */
+
+extern const Word16 dico3_lsf3[];
+
+#define MR515_3_SIZE  128
+
+
+/* third codebook for MR475, MR515 */
+
+extern const Word16 mr515_3_lsf3[];
+
+#define MR795_1_SIZE  512
+
+/* first codebook for MR795 */
+
+extern const Word16 mr795_1_lsf3[];
+
+
+

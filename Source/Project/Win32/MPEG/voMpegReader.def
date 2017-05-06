@@ -1,0 +1,5 @@
+LIBRARY voMPGFR.dll
+
+EXPORTS
+	voGetMPGReadAPI
+	voGetMPG2ReadAPI

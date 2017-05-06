@@ -1,0 +1,40 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this source code is subject to the terms of the Microsoft end-user
+// license agreement (EULA) under which you licensed this SOFTWARE PRODUCT.
+// If you did not accept the terms of the EULA, you are not authorized to use
+// this source code. For a copy of the EULA, please see the LICENSE.RTF on your
+// install media.
+//
+//==========================================================================;
+//
+//  THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY
+//  KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+//  IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR
+//  PURPOSE.
+//
+//
+//--------------------------------------------------------------------------;
+
+#ifdef UNDER_CE
+
+#ifndef NO_FILTERMAPPER2
+#define NO_FILTERMAPPER2
+#endif
+#ifndef NO_PROPERTYPAGES
+#define NO_PROPERTYPAGES
+#endif
+
+cpp_quote("#ifndef NO_FILTERMAPPER2")
+cpp_quote("#define NO_FILTERMAPPER2")
+cpp_quote("#endif")
+cpp_quote("#ifndef NO_PROPERTYPAGES")
+cpp_quote("#define NO_PROPERTYPAGES")
+cpp_quote("#endif")
+
+typedef DWORD DWORD_PTR;
+typedef LONG  LONG_PTR;
+
+#endif

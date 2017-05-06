@@ -1,0 +1,5 @@
+LIBRARY	voLiveSrcDash.dll
+
+EXPORTS
+	voGetDASHLiveSrcAPI
+	voGetAdaptStreamControllerAPI

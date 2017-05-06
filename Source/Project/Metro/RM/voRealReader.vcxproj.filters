@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8290d8fd-4822-443b-b742-5b441a906977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RM">
+      <UniqueIdentifier>{17acfb2e-6a19-4ac2-8c48-b82a00d51d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ID3">
+      <UniqueIdentifier>{e43b1f05-395c-4e73-b1b1-4ea41a4f2d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{3aaf4e9e-3d28-4791-8e89-5d0289d0eadd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\..\File\Common\voFileReader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\RM\CRealAudioTrack.cpp">
+      <Filter>RM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\RM\CRealParser.cpp">
+      <Filter>RM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\RM\CRealReader.cpp">
+      <Filter>RM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\RM\CRealTrack.cpp">
+      <Filter>RM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\RM\CRealVideoTrack.cpp">
+      <Filter>RM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\MetaData\CBaseMetaData.cpp">
+      <Filter>ID3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\MetaData\CRealMetaData.cpp">
+      <Filter>ID3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\CBaseReader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\CBaseStreamFileIndex.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\CBaseStreamFileReader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\CBaseStreamFileTrack.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\CBaseTrack.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\CGBuffer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\CGFileChunk.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\CMemPool.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\CvoBaseDrmCallback.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\CvoBaseFileOpr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\CvoBaseMemOpr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\CvoFileParser.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\fCodec.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\File\Common\voSource2ParserWrapper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\cmnFile.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\CvoBaseObject.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voCMutex.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voLog.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\cmnVOMemory.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\fVideoHeadDataInfo.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\..\..\File\Common\voFileReader.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\RM\CRealAudioTrack.h">
+      <Filter>RM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\RM\CRealParser.h">
+      <Filter>RM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\RM\CRealReader.h">
+      <Filter>RM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\RM\CRealTrack.h">
+      <Filter>RM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\RM\CRealVideoTrack.h">
+      <Filter>RM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\RM\RMFileDataStruct.h">
+      <Filter>RM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\MetaData\CBaseMetaData.h">
+      <Filter>ID3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\MetaData\CRealMetaData.h">
+      <Filter>ID3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\CBaseReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\CBaseStreamFileIndex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\CBaseStreamFileReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\CBaseStreamFileTrack.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\CBaseTrack.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\CGBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\CGFileChunk.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\CMemPool.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\CvoBaseDrmCallback.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\CvoBaseFileOpr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\CvoBaseMemOpr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\CvoFileParser.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\fCC.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\fCodec.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\fMacros.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\File\Common\voSource2ParserWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\cmnFile.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\cmnMemory.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\CvoBaseObject.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\voCMutex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\voLog.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\fVideoHeadDataInfo.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="voRealReader.def">
+      <Filter>Source</Filter>
+    </None>
+  </ItemGroup>
+</Project>

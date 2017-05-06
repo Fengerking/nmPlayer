@@ -1,0 +1,103 @@
+/*
+============================================================================
+ Name		: RealFileReader.mmp
+ Author	  : 
+ Copyright   : VisualOn Coryright 2003 - 2010.
+ Description : This is the project specification file for RealFileReader.
+============================================================================
+*/
+
+TARGET		  	voRADec.dll
+TARGETTYPE	  	dll
+UID			 	0x1100008E 0xEB6B1CE8
+
+MACRO			__GNUC__
+MACRO			ARM
+MACRO			_SYMBIAN_
+MACRO			LC_ONLY_ARMv4
+
+USERINCLUDE	 	..\..\..\..\..\..\Common
+USERINCLUDE	 	..\..\..\..\..\..\Include
+USERINCLUDE	 	..\..\..\src\interface
+USERINCLUDE	 	..\..\..\include
+USERINCLUDE	 	..\..\..\src\ra8lbr
+USERINCLUDE	 	..\..\..\src\ra8lbr\decoder
+USERINCLUDE	 	..\..\..\src\aac
+USERINCLUDE	 	..\..\..\..\AAC\DECODER\source
+USERINCLUDE	 	..\..\..\..\AAC\DECODER\include
+USERINCLUDE	 	..\..\..\..\AAC\DECODER\source\linuxasm
+
+SYSTEMINCLUDE   \epoc32\include
+SYSTEMINCLUDE   \epoc32\include\libc
+
+SOURCEPATH	  	..\..\..\..\..\..\Common
+SOURCE		  	SymbianDllMain.cpp
+SOURCE		  	cmnMemory.c
+
+SOURCEPATH	 	..\..\..\src\ra8lbr
+SOURCE		  	ra8lbr_decode.c
+
+SOURCEPATH	 	..\..\..\src\ra8lbr\decoder
+SOURCE		  	bitpack.c
+SOURCE		  	buffers.c
+SOURCE		  	category.c
+SOURCE		  	couple.c
+SOURCE		  	envelope.c
+SOURCE		  	fft.c
+SOURCE		  	gainctrl.c
+SOURCE		  	gecko2codec.c
+SOURCE		  	huffman.c
+SOURCE		  	hufftabs.c
+SOURCE		  	mlt.c
+SOURCE		  	sqvh.c
+SOURCE		  	trigtabs.c
+
+SOURCEPATH	 	..\..\..\src\interface
+SOURCE		  	ra_decode.c
+SOURCE		  	voRABUFDec.c
+SOURCE		  	voRADecSDK.c
+SOURCE		  	voRARawDec.c
+SOURCE		  	voRARMDec.c
+
+SOURCEPATH	 	..\..\..\src\aac
+SOURCE		  	aac_bitstream.c
+SOURCE		  	ga_config.c
+SOURCE		  	aac_decode.c
+
+
+SOURCEPATH	 	..\..\..\..\AAC\DECODER\source
+SOURCE		  	bitstream.c
+SOURCE		  	decframe.c
+SOURCE		  	decoder.c
+SOURCE		  	downMatrix.c
+SOURCE		  	Header.c
+SOURCE		  	latmheader.c
+SOURCE		  	lc_dequant.c
+SOURCE		  	lc_huff.c
+SOURCE		  	lc_imdct.c
+SOURCE		  	lc_mdct.c
+SOURCE		  	lc_pns.c
+SOURCE		  	lc_stereo.c
+SOURCE		  	lc_syntax.c
+SOURCE		  	lc_tns.c
+SOURCE		  	ltp_dec.c
+SOURCE		  	table.c
+SOURCE		  	unit.c
+
+SOURCEPATH	 	..\..\..\..\AAC\DECODER\source\linuxasm
+SOURCE		  	qmf.s
+
+DEFFILE 		..\eabi\voRADec.DEF
+
+LIBRARY		 	estlib.lib
+LIBRARY		  	euser.lib
+
+CAPABILITY	  	  ReadUserData
+
+#ifdef ENABLE_ABIV2_MODE
+  DEBUGGABLE_UDEBONLY
+#endif
+
+EPOCALLOWDLLDATA
+
+

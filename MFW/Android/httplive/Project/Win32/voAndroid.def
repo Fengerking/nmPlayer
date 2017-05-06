@@ -1,0 +1,7 @@
+LIBRARY voAndroid.dll
+
+EXPORTS
+	voaInit
+	voaSetParam
+	voaGetParam
+	voaUninit

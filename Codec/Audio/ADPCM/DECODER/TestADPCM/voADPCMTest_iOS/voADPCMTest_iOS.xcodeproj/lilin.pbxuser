@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* voADPCMTest_iOS_v6 */ = {
+		activeExec = 0;
+		executables = (
+			F2EE0D1914E244810093591D /* voADPCMTest_iOS_v6 */,
+		);
+	};
+	28D7ACF70DDB3853001CB0EB /* voADPCMTest_iOSViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 962}}";
+			sepNavSelRange = "{1483, 0}";
+			sepNavVisRange = "{548, 1447}";
+			sepNavWindowFrame = "{{15, 42}, {1121, 731}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = F2EE0D1914E244810093591D /* voADPCMTest_iOS_v6 */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* voADPCMTest_iOS_v6 */;
+		addToTargets = (
+		);
+		codeSenseManager = F2EE0D2314E244980093591D /* Code sense */;
+		executables = (
+			F2EE0D1914E244810093591D /* voADPCMTest_iOS_v6 */,
+			F2EE0D3714E244BF0093591D /* voADPCMTest_iOS_v7 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					653,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					613,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 350372993;
+			PBXWorkspaceStateSaveDate = 350372993;
+		};
+		perUserProjectItems = {
+			F2EE0D6B14E24BBC0093591D /* PBXTextBookmark */ = F2EE0D6B14E24BBC0093591D /* PBXTextBookmark */;
+			F2EE0D6C14E24BBC0093591D /* PBXTextBookmark */ = F2EE0D6C14E24BBC0093591D /* PBXTextBookmark */;
+			F2EE0D8014E24C7C0093591D /* PBXTextBookmark */ = F2EE0D8014E24C7C0093591D /* PBXTextBookmark */;
+			F2EE0D8E14E24E360093591D /* PBXTextBookmark */ = F2EE0D8E14E24E360093591D /* PBXTextBookmark */;
+		};
+		sourceControlManager = F2EE0D2214E244980093591D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	F2EE0D1914E244810093591D /* voADPCMTest_iOS_v6 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = voADPCMTest_iOS_v6;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	F2EE0D2214E244980093591D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F2EE0D2314E244980093591D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F2EE0D2714E244BF0093591D /* voADPCMTest_iOS_v7 */ = {
+		activeExec = 0;
+		executables = (
+			F2EE0D3714E244BF0093591D /* voADPCMTest_iOS_v7 */,
+		);
+	};
+	F2EE0D3714E244BF0093591D /* voADPCMTest_iOS_v7 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = voADPCMTest_iOS_v7;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	F2EE0D3914E244F60093591D /* Test_Adpcm.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 3146}}";
+			sepNavSelRange = "{3891, 0}";
+			sepNavVisRange = "{3153, 1322}";
+			sepNavWindowFrame = "{{38, 21}, {1121, 731}}";
+		};
+	};
+	F2EE0D4214E245740093591D /* voADPCM_D_SAMPLE.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 460}}";
+			sepNavSelRange = "{286, 0}";
+			sepNavVisRange = "{0, 290}";
+		};
+	};
+	F2EE0D6B14E24BBC0093591D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2EE0D4214E245740093591D /* voADPCM_D_SAMPLE.h */;
+		rLen = 0;
+		rLoc = 9223372036854775957;
+		rType = 0;
+	};
+	F2EE0D6C14E24BBC0093591D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2EE0D4214E245740093591D /* voADPCM_D_SAMPLE.h */;
+		name = "voADPCM_D_SAMPLE.h: 14";
+		rLen = 0;
+		rLoc = 286;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 0;
+	};
+	F2EE0D8014E24C7C0093591D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2EE0D4214E245740093591D /* voADPCM_D_SAMPLE.h */;
+		name = "voADPCM_D_SAMPLE.h: 14";
+		rLen = 0;
+		rLoc = 286;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 0;
+	};
+	F2EE0D8E14E24E360093591D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2EE0D4214E245740093591D /* voADPCM_D_SAMPLE.h */;
+		name = "voADPCM_D_SAMPLE.h: 14";
+		rLen = 0;
+		rLoc = 286;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 0;
+	};
+}

@@ -1,0 +1,5 @@
+LIBRARY	voOMXAR.dll
+
+EXPORTS
+	voGetAudioSinkHandle	@1
+			

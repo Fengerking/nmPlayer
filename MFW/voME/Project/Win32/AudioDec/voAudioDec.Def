@@ -1,0 +1,5 @@
+LIBRARY	voOMXAD.dll
+
+EXPORTS
+	voGetAudioDecHandle	@1
+			

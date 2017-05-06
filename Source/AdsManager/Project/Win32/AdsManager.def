@@ -1,0 +1,4 @@
+LIBRARY	voAdsManager.dll
+
+EXPORTS
+	voGetAdsManagerAPI

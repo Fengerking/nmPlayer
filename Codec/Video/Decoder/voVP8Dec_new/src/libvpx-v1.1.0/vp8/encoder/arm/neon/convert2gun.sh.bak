@@ -1,0 +1,7 @@
+cat fastquantizeb_neon.asm            | perl ../../../../build/make/ads2gas.pl >
+cat shortfdct_neon.asm                | perl ../../../../build/make/ads2gas.pl >
+cat subtract_neon.asm                 | perl ../../../../build/make/ads2gas.pl >
+cat vp8_memcpy_neon.asm               | perl ../../../../build/make/ads2gas.pl >
+cat vp8_mse16x16_neon.asm             | perl ../../../../build/make/ads2gas.pl >
+cat vp8_shortwalsh4x4_neon.asm        | perl ../../../../build/make/ads2gas.pl >
+

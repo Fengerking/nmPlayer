@@ -1,0 +1,4 @@
+LIBRARY voLiveSrcISS.dll
+
+EXPORTS
+	voGetASCISSAPI

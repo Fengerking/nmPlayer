@@ -1,0 +1,5 @@
+LIBRARY	"voCmmbParser.dll"
+
+EXPORTS
+		voGetMTVReadAPI
+		voGetParserAPI

@@ -1,0 +1,105 @@
+/*
+********************************************************************************
+*
+*      GSM AMR-NB speech codec   R98   Version 7.6.0   December 12, 2001
+*                                R99   Version 3.3.0                
+*                                REL-4 Version 4.1.0                
+*
+********************************************************************************
+*
+*      File             : voAMRNBDecbitno.tab
+*      Purpose          : Tables for bit2prm and prm2bit
+*
+********************************************************************************
+*/
+
+#ifndef bitno_tab
+#define bitno_tab
+extern  const char voAMRNBDecbitno_id[];
+
+#include "cnst.h"   /* parameter sizes: MAX_PRM_SIZE */
+#include "mode.h"   /* N_MODES */
+
+#define BIT_0      0
+#define BIT_1      1
+
+#define PRMNO_MR475 17
+#define PRMNO_MR515 19
+#define PRMNO_MR59  19
+#define PRMNO_MR67  19
+#define PRMNO_MR74  19
+#define PRMNO_MR795 23
+#define PRMNO_MR102 39
+#define PRMNO_MR122 57
+#define PRMNO_MRDTX 5
+
+/* number of parameters per modes (values must be <= MAX_PRM_SIZE!) */
+extern const Word8 voAMRNBDecprmno[N_MODES];
+
+
+
+/* number of parameters to first subframe */
+#define PRMNOFSF_MR475 7
+#define PRMNOFSF_MR515 7
+#define PRMNOFSF_MR59  7
+#define PRMNOFSF_MR67  7
+#define PRMNOFSF_MR74  7
+#define PRMNOFSF_MR795 8
+#define PRMNOFSF_MR102 12
+#define PRMNOFSF_MR122 18
+
+/* number of parameters to first subframe per modes */
+
+/* parameter sizes (# of bits), one table per mode */
+
+extern const Word8 voAMRNBDecbitno_MR475[PRMNO_MR475] ;
+
+extern const Word8 voAMRNBDecbitno_MR515[PRMNO_MR515] ;
+extern const Word8 voAMRNBDecbitno_MR59[PRMNO_MR59] ;
+
+extern const Word8 voAMRNBDecbitno_MR67[PRMNO_MR67] ;
+
+extern const Word8 voAMRNBDecbitno_MR74[PRMNO_MR74] ;
+
+extern const Word8 voAMRNBDecbitno_MR795[PRMNO_MR795];
+extern const Word8 voAMRNBDecbitno_MR102[PRMNO_MR102] ;
+
+extern const Word8 voAMRNBDecbitno_MR122[PRMNO_MR122];
+
+extern const Word8 voAMRNBDecbitno_MRDTX[PRMNO_MRDTX];
+
+/* overall table with all parameter sizes for all modes */
+extern const Word8 *voAMRNBDecbitno[N_MODES] ;
+
+#ifdef MMS_IO
+
+/* table of contents byte for each mode index */
+extern const UWord8 voAMRNBDectoc_byte[16];
+/* number of speech bits for all modes */
+extern const UWord8 voAMRNBDecunpacked_size[16] ;
+extern const UWord8 voAMRNBDecpacked_size[16];
+/* number of unused speech bits in packed format for each mode */
+extern const UWord8 voAMRNBDecunused_size[16] ;
+/* sorting tables for all modes */
+
+extern const UWord8 voAMRNBDecsort_475[95];
+
+extern const UWord8 voAMRNBDecsort_515[103] ;
+extern const UWord8 voAMRNBDecsort_59[118] ;
+
+extern const UWord8 voAMRNBDecsort_67[134];
+
+extern const UWord8 voAMRNBDecsort_74[148];
+
+extern const UWord8 voAMRNBDecsort_795[159] ;
+
+extern const UWord8 voAMRNBDecsort_102[204];
+
+extern const UWord8 voAMRNBDecsort_122[244] ;
+
+extern const UWord8 voAMRNBDecsort_SID[35] ;
+/* pointer table for bit sorting tables */
+extern  const UWord8 *voAMRNBDecsort_ptr[16] ;
+#endif
+
+#endif

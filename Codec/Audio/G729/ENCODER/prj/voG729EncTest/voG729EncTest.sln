@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voG729EncTest", "voG729EncTest\voG729EncTest.vcproj", "{6DE5A2DA-A910-4B1E-9625-A4FE7E7AFAF6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BD883D0A-8F55-4986-ACC9-9418F5D89F8E} = {BD883D0A-8F55-4986-ACC9-9418F5D89F8E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voG729EncLib", "..\voG729EncLib\voG729EncLib.vcproj", "{BD883D0A-8F55-4986-ACC9-9418F5D89F8E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voG729EncDll", "..\voG729EncDll\voG729EncDll.vcproj", "{D3F2F2C0-C457-4EC8-962E-23C39246DD37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BD883D0A-8F55-4986-ACC9-9418F5D89F8E} = {BD883D0A-8F55-4986-ACC9-9418F5D89F8E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Pocket PC 2003 (ARMV4) = Debug|Pocket PC 2003 (ARMV4)
+		Debug|Win32 = Debug|Win32
+		Release|Pocket PC 2003 (ARMV4) = Release|Pocket PC 2003 (ARMV4)
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DE5A2DA-A910-4B1E-9625-A4FE7E7AFAF6}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{6DE5A2DA-A910-4B1E-9625-A4FE7E7AFAF6}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug|Pocket PC 2003 (ARMV4)
+		{6DE5A2DA-A910-4B1E-9625-A4FE7E7AFAF6}.Debug|Pocket PC 2003 (ARMV4).Deploy.0 = Debug|Pocket PC 2003 (ARMV4)
+		{6DE5A2DA-A910-4B1E-9625-A4FE7E7AFAF6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6DE5A2DA-A910-4B1E-9625-A4FE7E7AFAF6}.Debug|Win32.Build.0 = Debug|Win32
+		{6DE5A2DA-A910-4B1E-9625-A4FE7E7AFAF6}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{6DE5A2DA-A910-4B1E-9625-A4FE7E7AFAF6}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release|Pocket PC 2003 (ARMV4)
+		{6DE5A2DA-A910-4B1E-9625-A4FE7E7AFAF6}.Release|Pocket PC 2003 (ARMV4).Deploy.0 = Release|Pocket PC 2003 (ARMV4)
+		{6DE5A2DA-A910-4B1E-9625-A4FE7E7AFAF6}.Release|Win32.ActiveCfg = Release|Win32
+		{6DE5A2DA-A910-4B1E-9625-A4FE7E7AFAF6}.Release|Win32.Build.0 = Release|Win32
+		{BD883D0A-8F55-4986-ACC9-9418F5D89F8E}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{BD883D0A-8F55-4986-ACC9-9418F5D89F8E}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug|Pocket PC 2003 (ARMV4)
+		{BD883D0A-8F55-4986-ACC9-9418F5D89F8E}.Debug|Pocket PC 2003 (ARMV4).Deploy.0 = Debug|Pocket PC 2003 (ARMV4)
+		{BD883D0A-8F55-4986-ACC9-9418F5D89F8E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD883D0A-8F55-4986-ACC9-9418F5D89F8E}.Debug|Win32.Build.0 = Debug|Win32
+		{BD883D0A-8F55-4986-ACC9-9418F5D89F8E}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{BD883D0A-8F55-4986-ACC9-9418F5D89F8E}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release|Pocket PC 2003 (ARMV4)
+		{BD883D0A-8F55-4986-ACC9-9418F5D89F8E}.Release|Pocket PC 2003 (ARMV4).Deploy.0 = Release|Pocket PC 2003 (ARMV4)
+		{BD883D0A-8F55-4986-ACC9-9418F5D89F8E}.Release|Win32.ActiveCfg = Release|Win32
+		{BD883D0A-8F55-4986-ACC9-9418F5D89F8E}.Release|Win32.Build.0 = Release|Win32
+		{D3F2F2C0-C457-4EC8-962E-23C39246DD37}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{D3F2F2C0-C457-4EC8-962E-23C39246DD37}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug|Pocket PC 2003 (ARMV4)
+		{D3F2F2C0-C457-4EC8-962E-23C39246DD37}.Debug|Pocket PC 2003 (ARMV4).Deploy.0 = Debug|Pocket PC 2003 (ARMV4)
+		{D3F2F2C0-C457-4EC8-962E-23C39246DD37}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D3F2F2C0-C457-4EC8-962E-23C39246DD37}.Debug|Win32.Build.0 = Debug|Win32
+		{D3F2F2C0-C457-4EC8-962E-23C39246DD37}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{D3F2F2C0-C457-4EC8-962E-23C39246DD37}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release|Pocket PC 2003 (ARMV4)
+		{D3F2F2C0-C457-4EC8-962E-23C39246DD37}.Release|Pocket PC 2003 (ARMV4).Deploy.0 = Release|Pocket PC 2003 (ARMV4)
+		{D3F2F2C0-C457-4EC8-962E-23C39246DD37}.Release|Win32.ActiveCfg = Release|Win32
+		{D3F2F2C0-C457-4EC8-962E-23C39246DD37}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

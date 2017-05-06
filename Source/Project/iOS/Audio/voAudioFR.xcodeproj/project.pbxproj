@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* voAudioFR_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voAudioFR_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F2848B8112D2F42700D867CC /* voAudioFR.def in Sources */ = {isa = PBXBuildFile; fileRef = F2848B8012D2F42700D867CC /* voAudioFR.def */; };
+		F29E979912C88FC30058D751 /* AacFileDataStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E977D12C88FC30058D751 /* AacFileDataStruct.h */; };
+		F29E979A12C88FC30058D751 /* AmrFileDataStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E977E12C88FC30058D751 /* AmrFileDataStruct.h */; };
+		F29E979B12C88FC30058D751 /* ape_datastruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E977F12C88FC30058D751 /* ape_datastruct.h */; };
+		F29E979C12C88FC30058D751 /* ape_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E978012C88FC30058D751 /* ape_reader.cpp */; };
+		F29E979D12C88FC30058D751 /* ape_reader.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E978112C88FC30058D751 /* ape_reader.h */; };
+		F29E979E12C88FC30058D751 /* AuFileDataStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E978212C88FC30058D751 /* AuFileDataStruct.h */; };
+		F29E979F12C88FC30058D751 /* CAacReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E978312C88FC30058D751 /* CAacReader.cpp */; };
+		F29E97A012C88FC30058D751 /* CAacReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E978412C88FC30058D751 /* CAacReader.h */; };
+		F29E97A112C88FC30058D751 /* CAmrReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E978512C88FC30058D751 /* CAmrReader.cpp */; };
+		F29E97A212C88FC30058D751 /* CAmrReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E978612C88FC30058D751 /* CAmrReader.h */; };
+		F29E97A312C88FC30058D751 /* CAuReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E978712C88FC30058D751 /* CAuReader.cpp */; };
+		F29E97A412C88FC30058D751 /* CAuReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E978812C88FC30058D751 /* CAuReader.h */; };
+		F29E97A512C88FC30058D751 /* CBaseAudioReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E978912C88FC30058D751 /* CBaseAudioReader.cpp */; };
+		F29E97A612C88FC30058D751 /* CBaseAudioReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E978A12C88FC30058D751 /* CBaseAudioReader.h */; };
+		F29E97A712C88FC30058D751 /* CFlacReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E978B12C88FC30058D751 /* CFlacReader.cpp */; };
+		F29E97A812C88FC30058D751 /* CFlacReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E978C12C88FC30058D751 /* CFlacReader.h */; };
+		F29E97A912C88FC30058D751 /* CMp3Reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E978D12C88FC30058D751 /* CMp3Reader.cpp */; };
+		F29E97AA12C88FC30058D751 /* CMp3Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E978E12C88FC30058D751 /* CMp3Reader.h */; };
+		F29E97AB12C88FC30058D751 /* CQcpReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E978F12C88FC30058D751 /* CQcpReader.cpp */; };
+		F29E97AC12C88FC30058D751 /* CQcpReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E979012C88FC30058D751 /* CQcpReader.h */; };
+		F29E97AD12C88FC30058D751 /* CWavReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E979112C88FC30058D751 /* CWavReader.cpp */; };
+		F29E97AE12C88FC30058D751 /* CWavReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E979212C88FC30058D751 /* CWavReader.h */; };
+		F29E97AF12C88FC30058D751 /* FlacFileDataStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E979312C88FC30058D751 /* FlacFileDataStruct.h */; };
+		F29E97B012C88FC30058D751 /* Mp3FileDataStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E979412C88FC30058D751 /* Mp3FileDataStruct.h */; };
+		F29E97B112C88FC30058D751 /* QcpFileDataStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E979512C88FC30058D751 /* QcpFileDataStruct.h */; };
+		F29E97B212C88FC30058D751 /* QcpFileGuid.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E979612C88FC30058D751 /* QcpFileGuid.h */; };
+		F29E97B312C88FC30058D751 /* RiffFileDataStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E979712C88FC30058D751 /* RiffFileDataStruct.h */; };
+		F29E97B412C88FC30058D751 /* WavFileDataStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E979812C88FC30058D751 /* WavFileDataStruct.h */; };
+		F29E97CF12C890C20058D751 /* CBaseReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E97BC12C890C20058D751 /* CBaseReader.cpp */; };
+		F29E97D012C890C20058D751 /* CBaseReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97BD12C890C20058D751 /* CBaseReader.h */; };
+		F29E97D112C890C20058D751 /* CBaseTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E97BE12C890C20058D751 /* CBaseTrack.cpp */; };
+		F29E97D212C890C20058D751 /* CBaseTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97BF12C890C20058D751 /* CBaseTrack.h */; };
+		F29E97D312C890C20058D751 /* CGFileChunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E97C012C890C20058D751 /* CGFileChunk.cpp */; };
+		F29E97D412C890C20058D751 /* CGFileChunk.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97C112C890C20058D751 /* CGFileChunk.h */; };
+		F29E97D512C890C20058D751 /* CMemPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E97C212C890C20058D751 /* CMemPool.cpp */; };
+		F29E97D612C890C20058D751 /* CMemPool.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97C312C890C20058D751 /* CMemPool.h */; };
+		F29E97D712C890C20058D751 /* CvoBaseDrmCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E97C412C890C20058D751 /* CvoBaseDrmCallback.cpp */; };
+		F29E97D812C890C20058D751 /* CvoBaseDrmCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97C512C890C20058D751 /* CvoBaseDrmCallback.h */; };
+		F29E97D912C890C20058D751 /* CvoBaseFileOpr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E97C612C890C20058D751 /* CvoBaseFileOpr.cpp */; };
+		F29E97DA12C890C20058D751 /* CvoBaseFileOpr.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97C712C890C20058D751 /* CvoBaseFileOpr.h */; };
+		F29E97DB12C890C20058D751 /* CvoBaseMemOpr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E97C812C890C20058D751 /* CvoBaseMemOpr.cpp */; };
+		F29E97DC12C890C20058D751 /* CvoBaseMemOpr.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97C912C890C20058D751 /* CvoBaseMemOpr.h */; };
+		F29E97DD12C890C20058D751 /* fCC.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97CA12C890C20058D751 /* fCC.h */; };
+		F29E97DE12C890C20058D751 /* fCodec.c in Sources */ = {isa = PBXBuildFile; fileRef = F29E97CB12C890C20058D751 /* fCodec.c */; };
+		F29E97DF12C890C20058D751 /* fCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97CC12C890C20058D751 /* fCodec.h */; };
+		F29E97E012C890C20058D751 /* fMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97CD12C890C20058D751 /* fMacros.h */; };
+		F29E97E112C890C20058D751 /* voFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E97CE12C890C20058D751 /* voFileReader.cpp */; };
+		F29E97EB12C891190058D751 /* CFileFormatCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E97E312C891190058D751 /* CFileFormatCheck.cpp */; };
+		F29E97EC12C891190058D751 /* CFileFormatCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97E412C891190058D751 /* CFileFormatCheck.h */; };
+		F29E97ED12C891190058D751 /* cmnFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E97E512C891190058D751 /* cmnFile.cpp */; };
+		F29E97EE12C891190058D751 /* cmnFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97E612C891190058D751 /* cmnFile.h */; };
+		F29E97EF12C891190058D751 /* cmnMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = F29E97E712C891190058D751 /* cmnMemory.c */; };
+		F29E97F012C891190058D751 /* cmnMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97E812C891190058D751 /* cmnMemory.h */; };
+		F29E97F112C891190058D751 /* CvoBaseObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E97E912C891190058D751 /* CvoBaseObject.cpp */; };
+		F29E97F212C891190058D751 /* CvoBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97EA12C891190058D751 /* CvoBaseObject.h */; };
+		F29E97F712C891400058D751 /* CBaseMetaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E97F312C891400058D751 /* CBaseMetaData.cpp */; };
+		F29E97F812C891400058D751 /* CBaseMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97F412C891400058D751 /* CBaseMetaData.h */; };
+		F29E97F912C891400058D751 /* CID3MetaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E97F512C891400058D751 /* CID3MetaData.cpp */; };
+		F29E97FA12C891400058D751 /* CID3MetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97F612C891400058D751 /* CID3MetaData.h */; };
+		F29E97FD12C891500058D751 /* ID3v1DataStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97FB12C891500058D751 /* ID3v1DataStruct.h */; };
+		F29E97FE12C891500058D751 /* ID3v2DataStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E97FC12C891500058D751 /* ID3v2DataStruct.h */; };
+		F29E980912C891910058D751 /* voCMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29E980712C891910058D751 /* voCMutex.cpp */; };
+		F29E980A12C891910058D751 /* voCMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E980812C891910058D751 /* voCMutex.h */; };
+		F29E980C12C891A30058D751 /* voSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E980B12C891A30058D751 /* voSource.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* voAudioFR_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voAudioFR_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libvoAudioFR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoAudioFR.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2848B8012D2F42700D867CC /* voAudioFR.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = voAudioFR.def; sourceTree = "<group>"; };
+		F29E977D12C88FC30058D751 /* AacFileDataStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AacFileDataStruct.h; path = ../../../File/Audio/AacFileDataStruct.h; sourceTree = SOURCE_ROOT; };
+		F29E977E12C88FC30058D751 /* AmrFileDataStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AmrFileDataStruct.h; path = ../../../File/Audio/AmrFileDataStruct.h; sourceTree = SOURCE_ROOT; };
+		F29E977F12C88FC30058D751 /* ape_datastruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ape_datastruct.h; path = ../../../File/Audio/ape_datastruct.h; sourceTree = SOURCE_ROOT; };
+		F29E978012C88FC30058D751 /* ape_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ape_reader.cpp; path = ../../../File/Audio/ape_reader.cpp; sourceTree = SOURCE_ROOT; };
+		F29E978112C88FC30058D751 /* ape_reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ape_reader.h; path = ../../../File/Audio/ape_reader.h; sourceTree = SOURCE_ROOT; };
+		F29E978212C88FC30058D751 /* AuFileDataStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuFileDataStruct.h; path = ../../../File/Audio/AuFileDataStruct.h; sourceTree = SOURCE_ROOT; };
+		F29E978312C88FC30058D751 /* CAacReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAacReader.cpp; path = ../../../File/Audio/CAacReader.cpp; sourceTree = SOURCE_ROOT; };
+		F29E978412C88FC30058D751 /* CAacReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAacReader.h; path = ../../../File/Audio/CAacReader.h; sourceTree = SOURCE_ROOT; };
+		F29E978512C88FC30058D751 /* CAmrReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAmrReader.cpp; path = ../../../File/Audio/CAmrReader.cpp; sourceTree = SOURCE_ROOT; };
+		F29E978612C88FC30058D751 /* CAmrReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAmrReader.h; path = ../../../File/Audio/CAmrReader.h; sourceTree = SOURCE_ROOT; };
+		F29E978712C88FC30058D751 /* CAuReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAuReader.cpp; path = ../../../File/Audio/CAuReader.cpp; sourceTree = SOURCE_ROOT; };
+		F29E978812C88FC30058D751 /* CAuReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAuReader.h; path = ../../../File/Audio/CAuReader.h; sourceTree = SOURCE_ROOT; };
+		F29E978912C88FC30058D751 /* CBaseAudioReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseAudioReader.cpp; path = ../../../File/Audio/CBaseAudioReader.cpp; sourceTree = SOURCE_ROOT; };
+		F29E978A12C88FC30058D751 /* CBaseAudioReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseAudioReader.h; path = ../../../File/Audio/CBaseAudioReader.h; sourceTree = SOURCE_ROOT; };
+		F29E978B12C88FC30058D751 /* CFlacReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CFlacReader.cpp; path = ../../../File/Audio/CFlacReader.cpp; sourceTree = SOURCE_ROOT; };
+		F29E978C12C88FC30058D751 /* CFlacReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFlacReader.h; path = ../../../File/Audio/CFlacReader.h; sourceTree = SOURCE_ROOT; };
+		F29E978D12C88FC30058D751 /* CMp3Reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMp3Reader.cpp; path = ../../../File/Audio/CMp3Reader.cpp; sourceTree = SOURCE_ROOT; };
+		F29E978E12C88FC30058D751 /* CMp3Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMp3Reader.h; path = ../../../File/Audio/CMp3Reader.h; sourceTree = SOURCE_ROOT; };
+		F29E978F12C88FC30058D751 /* CQcpReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CQcpReader.cpp; path = ../../../File/Audio/CQcpReader.cpp; sourceTree = SOURCE_ROOT; };
+		F29E979012C88FC30058D751 /* CQcpReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CQcpReader.h; path = ../../../File/Audio/CQcpReader.h; sourceTree = SOURCE_ROOT; };
+		F29E979112C88FC30058D751 /* CWavReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CWavReader.cpp; path = ../../../File/Audio/CWavReader.cpp; sourceTree = SOURCE_ROOT; };
+		F29E979212C88FC30058D751 /* CWavReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWavReader.h; path = ../../../File/Audio/CWavReader.h; sourceTree = SOURCE_ROOT; };
+		F29E979312C88FC30058D751 /* FlacFileDataStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlacFileDataStruct.h; path = ../../../File/Audio/FlacFileDataStruct.h; sourceTree = SOURCE_ROOT; };
+		F29E979412C88FC30058D751 /* Mp3FileDataStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mp3FileDataStruct.h; path = ../../../File/Audio/Mp3FileDataStruct.h; sourceTree = SOURCE_ROOT; };
+		F29E979512C88FC30058D751 /* QcpFileDataStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QcpFileDataStruct.h; path = ../../../File/Audio/QcpFileDataStruct.h; sourceTree = SOURCE_ROOT; };
+		F29E979612C88FC30058D751 /* QcpFileGuid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QcpFileGuid.h; path = ../../../File/Audio/QcpFileGuid.h; sourceTree = SOURCE_ROOT; };
+		F29E979712C88FC30058D751 /* RiffFileDataStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RiffFileDataStruct.h; path = ../../../File/Audio/RiffFileDataStruct.h; sourceTree = SOURCE_ROOT; };
+		F29E979812C88FC30058D751 /* WavFileDataStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WavFileDataStruct.h; path = ../../../File/Audio/WavFileDataStruct.h; sourceTree = SOURCE_ROOT; };
+		F29E97BC12C890C20058D751 /* CBaseReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseReader.cpp; path = ../../../File/Common/CBaseReader.cpp; sourceTree = SOURCE_ROOT; };
+		F29E97BD12C890C20058D751 /* CBaseReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseReader.h; path = ../../../File/Common/CBaseReader.h; sourceTree = SOURCE_ROOT; };
+		F29E97BE12C890C20058D751 /* CBaseTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseTrack.cpp; path = ../../../File/Common/CBaseTrack.cpp; sourceTree = SOURCE_ROOT; };
+		F29E97BF12C890C20058D751 /* CBaseTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseTrack.h; path = ../../../File/Common/CBaseTrack.h; sourceTree = SOURCE_ROOT; };
+		F29E97C012C890C20058D751 /* CGFileChunk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGFileChunk.cpp; path = ../../../File/Common/CGFileChunk.cpp; sourceTree = SOURCE_ROOT; };
+		F29E97C112C890C20058D751 /* CGFileChunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGFileChunk.h; path = ../../../File/Common/CGFileChunk.h; sourceTree = SOURCE_ROOT; };
+		F29E97C212C890C20058D751 /* CMemPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMemPool.cpp; path = ../../../File/Common/CMemPool.cpp; sourceTree = SOURCE_ROOT; };
+		F29E97C312C890C20058D751 /* CMemPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMemPool.h; path = ../../../File/Common/CMemPool.h; sourceTree = SOURCE_ROOT; };
+		F29E97C412C890C20058D751 /* CvoBaseDrmCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseDrmCallback.cpp; path = ../../../File/Common/CvoBaseDrmCallback.cpp; sourceTree = SOURCE_ROOT; };
+		F29E97C512C890C20058D751 /* CvoBaseDrmCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseDrmCallback.h; path = ../../../File/Common/CvoBaseDrmCallback.h; sourceTree = SOURCE_ROOT; };
+		F29E97C612C890C20058D751 /* CvoBaseFileOpr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseFileOpr.cpp; path = ../../../File/Common/CvoBaseFileOpr.cpp; sourceTree = SOURCE_ROOT; };
+		F29E97C712C890C20058D751 /* CvoBaseFileOpr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseFileOpr.h; path = ../../../File/Common/CvoBaseFileOpr.h; sourceTree = SOURCE_ROOT; };
+		F29E97C812C890C20058D751 /* CvoBaseMemOpr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseMemOpr.cpp; path = ../../../File/Common/CvoBaseMemOpr.cpp; sourceTree = SOURCE_ROOT; };
+		F29E97C912C890C20058D751 /* CvoBaseMemOpr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseMemOpr.h; path = ../../../File/Common/CvoBaseMemOpr.h; sourceTree = SOURCE_ROOT; };
+		F29E97CA12C890C20058D751 /* fCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fCC.h; path = ../../../File/Common/fCC.h; sourceTree = SOURCE_ROOT; };
+		F29E97CB12C890C20058D751 /* fCodec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fCodec.c; path = ../../../File/Common/fCodec.c; sourceTree = SOURCE_ROOT; };
+		F29E97CC12C890C20058D751 /* fCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fCodec.h; path = ../../../File/Common/fCodec.h; sourceTree = SOURCE_ROOT; };
+		F29E97CD12C890C20058D751 /* fMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fMacros.h; path = ../../../File/Common/fMacros.h; sourceTree = SOURCE_ROOT; };
+		F29E97CE12C890C20058D751 /* voFileReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voFileReader.cpp; path = ../../../File/Common/voFileReader.cpp; sourceTree = SOURCE_ROOT; };
+		F29E97E312C891190058D751 /* CFileFormatCheck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CFileFormatCheck.cpp; path = ../../../../Common/CFileFormatCheck.cpp; sourceTree = SOURCE_ROOT; };
+		F29E97E412C891190058D751 /* CFileFormatCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFileFormatCheck.h; path = ../../../../Common/CFileFormatCheck.h; sourceTree = SOURCE_ROOT; };
+		F29E97E512C891190058D751 /* cmnFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cmnFile.cpp; path = ../../../../Common/cmnFile.cpp; sourceTree = SOURCE_ROOT; };
+		F29E97E612C891190058D751 /* cmnFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmnFile.h; path = ../../../../Common/cmnFile.h; sourceTree = SOURCE_ROOT; };
+		F29E97E712C891190058D751 /* cmnMemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cmnMemory.c; path = ../../../../Common/cmnMemory.c; sourceTree = SOURCE_ROOT; };
+		F29E97E812C891190058D751 /* cmnMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmnMemory.h; path = ../../../../Common/cmnMemory.h; sourceTree = SOURCE_ROOT; };
+		F29E97E912C891190058D751 /* CvoBaseObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseObject.cpp; path = ../../../../Common/CvoBaseObject.cpp; sourceTree = SOURCE_ROOT; };
+		F29E97EA12C891190058D751 /* CvoBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseObject.h; path = ../../../../Common/CvoBaseObject.h; sourceTree = SOURCE_ROOT; };
+		F29E97F312C891400058D751 /* CBaseMetaData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseMetaData.cpp; path = ../../../File/MetaData/CBaseMetaData.cpp; sourceTree = SOURCE_ROOT; };
+		F29E97F412C891400058D751 /* CBaseMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseMetaData.h; path = ../../../File/MetaData/CBaseMetaData.h; sourceTree = SOURCE_ROOT; };
+		F29E97F512C891400058D751 /* CID3MetaData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CID3MetaData.cpp; path = ../../../File/MetaData/CID3MetaData.cpp; sourceTree = SOURCE_ROOT; };
+		F29E97F612C891400058D751 /* CID3MetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CID3MetaData.h; path = ../../../File/MetaData/CID3MetaData.h; sourceTree = SOURCE_ROOT; };
+		F29E97FB12C891500058D751 /* ID3v1DataStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ID3v1DataStruct.h; path = ../../../File/ID3/ID3v1DataStruct.h; sourceTree = SOURCE_ROOT; };
+		F29E97FC12C891500058D751 /* ID3v2DataStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ID3v2DataStruct.h; path = ../../../File/ID3/ID3v2DataStruct.h; sourceTree = SOURCE_ROOT; };
+		F29E980712C891910058D751 /* voCMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voCMutex.cpp; path = ../../../../Common/voCMutex.cpp; sourceTree = SOURCE_ROOT; };
+		F29E980812C891910058D751 /* voCMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voCMutex.h; path = ../../../../Common/voCMutex.h; sourceTree = SOURCE_ROOT; };
+		F29E980B12C891A30058D751 /* voSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voSource.h; path = ../../../../Include/voSource.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libvoAudioFR.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* voAudioFR */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = voAudioFR;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F29E977212C88F450058D751 /* others */,
+				F29E977112C88F3F0058D751 /* common */,
+				F2848B8012D2F42700D867CC /* voAudioFR.def */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* voAudioFR_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F29E977112C88F3F0058D751 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F29E980B12C891A30058D751 /* voSource.h */,
+				F29E980712C891910058D751 /* voCMutex.cpp */,
+				F29E980812C891910058D751 /* voCMutex.h */,
+				F29E97FB12C891500058D751 /* ID3v1DataStruct.h */,
+				F29E97FC12C891500058D751 /* ID3v2DataStruct.h */,
+				F29E97F312C891400058D751 /* CBaseMetaData.cpp */,
+				F29E97F412C891400058D751 /* CBaseMetaData.h */,
+				F29E97F512C891400058D751 /* CID3MetaData.cpp */,
+				F29E97F612C891400058D751 /* CID3MetaData.h */,
+				F29E97E312C891190058D751 /* CFileFormatCheck.cpp */,
+				F29E97E412C891190058D751 /* CFileFormatCheck.h */,
+				F29E97E512C891190058D751 /* cmnFile.cpp */,
+				F29E97E612C891190058D751 /* cmnFile.h */,
+				F29E97E712C891190058D751 /* cmnMemory.c */,
+				F29E97E812C891190058D751 /* cmnMemory.h */,
+				F29E97E912C891190058D751 /* CvoBaseObject.cpp */,
+				F29E97EA12C891190058D751 /* CvoBaseObject.h */,
+				F29E97BC12C890C20058D751 /* CBaseReader.cpp */,
+				F29E97BD12C890C20058D751 /* CBaseReader.h */,
+				F29E97BE12C890C20058D751 /* CBaseTrack.cpp */,
+				F29E97BF12C890C20058D751 /* CBaseTrack.h */,
+				F29E97C012C890C20058D751 /* CGFileChunk.cpp */,
+				F29E97C112C890C20058D751 /* CGFileChunk.h */,
+				F29E97C212C890C20058D751 /* CMemPool.cpp */,
+				F29E97C312C890C20058D751 /* CMemPool.h */,
+				F29E97C412C890C20058D751 /* CvoBaseDrmCallback.cpp */,
+				F29E97C512C890C20058D751 /* CvoBaseDrmCallback.h */,
+				F29E97C612C890C20058D751 /* CvoBaseFileOpr.cpp */,
+				F29E97C712C890C20058D751 /* CvoBaseFileOpr.h */,
+				F29E97C812C890C20058D751 /* CvoBaseMemOpr.cpp */,
+				F29E97C912C890C20058D751 /* CvoBaseMemOpr.h */,
+				F29E97CA12C890C20058D751 /* fCC.h */,
+				F29E97CB12C890C20058D751 /* fCodec.c */,
+				F29E97CC12C890C20058D751 /* fCodec.h */,
+				F29E97CD12C890C20058D751 /* fMacros.h */,
+				F29E97CE12C890C20058D751 /* voFileReader.cpp */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		F29E977212C88F450058D751 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				F29E977D12C88FC30058D751 /* AacFileDataStruct.h */,
+				F29E977E12C88FC30058D751 /* AmrFileDataStruct.h */,
+				F29E977F12C88FC30058D751 /* ape_datastruct.h */,
+				F29E978012C88FC30058D751 /* ape_reader.cpp */,
+				F29E978112C88FC30058D751 /* ape_reader.h */,
+				F29E978212C88FC30058D751 /* AuFileDataStruct.h */,
+				F29E978312C88FC30058D751 /* CAacReader.cpp */,
+				F29E978412C88FC30058D751 /* CAacReader.h */,
+				F29E978512C88FC30058D751 /* CAmrReader.cpp */,
+				F29E978612C88FC30058D751 /* CAmrReader.h */,
+				F29E978712C88FC30058D751 /* CAuReader.cpp */,
+				F29E978812C88FC30058D751 /* CAuReader.h */,
+				F29E978912C88FC30058D751 /* CBaseAudioReader.cpp */,
+				F29E978A12C88FC30058D751 /* CBaseAudioReader.h */,
+				F29E978B12C88FC30058D751 /* CFlacReader.cpp */,
+				F29E978C12C88FC30058D751 /* CFlacReader.h */,
+				F29E978D12C88FC30058D751 /* CMp3Reader.cpp */,
+				F29E978E12C88FC30058D751 /* CMp3Reader.h */,
+				F29E978F12C88FC30058D751 /* CQcpReader.cpp */,
+				F29E979012C88FC30058D751 /* CQcpReader.h */,
+				F29E979112C88FC30058D751 /* CWavReader.cpp */,
+				F29E979212C88FC30058D751 /* CWavReader.h */,
+				F29E979312C88FC30058D751 /* FlacFileDataStruct.h */,
+				F29E979412C88FC30058D751 /* Mp3FileDataStruct.h */,
+				F29E979512C88FC30058D751 /* QcpFileDataStruct.h */,
+				F29E979612C88FC30058D751 /* QcpFileGuid.h */,
+				F29E979712C88FC30058D751 /* RiffFileDataStruct.h */,
+				F29E979812C88FC30058D751 /* WavFileDataStruct.h */,
+			);
+			name = others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* voAudioFR_Prefix.pch in Headers */,
+				F29E979912C88FC30058D751 /* AacFileDataStruct.h in Headers */,
+				F29E979A12C88FC30058D751 /* AmrFileDataStruct.h in Headers */,
+				F29E979B12C88FC30058D751 /* ape_datastruct.h in Headers */,
+				F29E979D12C88FC30058D751 /* ape_reader.h in Headers */,
+				F29E979E12C88FC30058D751 /* AuFileDataStruct.h in Headers */,
+				F29E97A012C88FC30058D751 /* CAacReader.h in Headers */,
+				F29E97A212C88FC30058D751 /* CAmrReader.h in Headers */,
+				F29E97A412C88FC30058D751 /* CAuReader.h in Headers */,
+				F29E97A612C88FC30058D751 /* CBaseAudioReader.h in Headers */,
+				F29E97A812C88FC30058D751 /* CFlacReader.h in Headers */,
+				F29E97AA12C88FC30058D751 /* CMp3Reader.h in Headers */,
+				F29E97AC12C88FC30058D751 /* CQcpReader.h in Headers */,
+				F29E97AE12C88FC30058D751 /* CWavReader.h in Headers */,
+				F29E97AF12C88FC30058D751 /* FlacFileDataStruct.h in Headers */,
+				F29E97B012C88FC30058D751 /* Mp3FileDataStruct.h in Headers */,
+				F29E97B112C88FC30058D751 /* QcpFileDataStruct.h in Headers */,
+				F29E97B212C88FC30058D751 /* QcpFileGuid.h in Headers */,
+				F29E97B312C88FC30058D751 /* RiffFileDataStruct.h in Headers */,
+				F29E97B412C88FC30058D751 /* WavFileDataStruct.h in Headers */,
+				F29E97D012C890C20058D751 /* CBaseReader.h in Headers */,
+				F29E97D212C890C20058D751 /* CBaseTrack.h in Headers */,
+				F29E97D412C890C20058D751 /* CGFileChunk.h in Headers */,
+				F29E97D612C890C20058D751 /* CMemPool.h in Headers */,
+				F29E97D812C890C20058D751 /* CvoBaseDrmCallback.h in Headers */,
+				F29E97DA12C890C20058D751 /* CvoBaseFileOpr.h in Headers */,
+				F29E97DC12C890C20058D751 /* CvoBaseMemOpr.h in Headers */,
+				F29E97DD12C890C20058D751 /* fCC.h in Headers */,
+				F29E97DF12C890C20058D751 /* fCodec.h in Headers */,
+				F29E97E012C890C20058D751 /* fMacros.h in Headers */,
+				F29E97EC12C891190058D751 /* CFileFormatCheck.h in Headers */,
+				F29E97EE12C891190058D751 /* cmnFile.h in Headers */,
+				F29E97F012C891190058D751 /* cmnMemory.h in Headers */,
+				F29E97F212C891190058D751 /* CvoBaseObject.h in Headers */,
+				F29E97F812C891400058D751 /* CBaseMetaData.h in Headers */,
+				F29E97FA12C891400058D751 /* CID3MetaData.h in Headers */,
+				F29E97FD12C891500058D751 /* ID3v1DataStruct.h in Headers */,
+				F29E97FE12C891500058D751 /* ID3v2DataStruct.h in Headers */,
+				F29E980A12C891910058D751 /* voCMutex.h in Headers */,
+				F29E980C12C891A30058D751 /* voSource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* voAudioFR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voAudioFR" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voAudioFR;
+			productName = voAudioFR;
+			productReference = D2AAC07E0554694100DB518D /* libvoAudioFR.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voAudioFR" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* voAudioFR */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* voAudioFR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29E979C12C88FC30058D751 /* ape_reader.cpp in Sources */,
+				F29E979F12C88FC30058D751 /* CAacReader.cpp in Sources */,
+				F29E97A112C88FC30058D751 /* CAmrReader.cpp in Sources */,
+				F29E97A312C88FC30058D751 /* CAuReader.cpp in Sources */,
+				F29E97A512C88FC30058D751 /* CBaseAudioReader.cpp in Sources */,
+				F29E97A712C88FC30058D751 /* CFlacReader.cpp in Sources */,
+				F29E97A912C88FC30058D751 /* CMp3Reader.cpp in Sources */,
+				F29E97AB12C88FC30058D751 /* CQcpReader.cpp in Sources */,
+				F29E97AD12C88FC30058D751 /* CWavReader.cpp in Sources */,
+				F29E97CF12C890C20058D751 /* CBaseReader.cpp in Sources */,
+				F29E97D112C890C20058D751 /* CBaseTrack.cpp in Sources */,
+				F29E97D312C890C20058D751 /* CGFileChunk.cpp in Sources */,
+				F29E97D512C890C20058D751 /* CMemPool.cpp in Sources */,
+				F29E97D712C890C20058D751 /* CvoBaseDrmCallback.cpp in Sources */,
+				F29E97D912C890C20058D751 /* CvoBaseFileOpr.cpp in Sources */,
+				F29E97DB12C890C20058D751 /* CvoBaseMemOpr.cpp in Sources */,
+				F29E97DE12C890C20058D751 /* fCodec.c in Sources */,
+				F29E97E112C890C20058D751 /* voFileReader.cpp in Sources */,
+				F29E97EB12C891190058D751 /* CFileFormatCheck.cpp in Sources */,
+				F29E97ED12C891190058D751 /* cmnFile.cpp in Sources */,
+				F29E97EF12C891190058D751 /* cmnMemory.c in Sources */,
+				F29E97F112C891190058D751 /* CvoBaseObject.cpp in Sources */,
+				F29E97F712C891400058D751 /* CBaseMetaData.cpp in Sources */,
+				F29E97F912C891400058D751 /* CID3MetaData.cpp in Sources */,
+				F29E980912C891910058D751 /* voCMutex.cpp in Sources */,
+				F2848B8112D2F42700D867CC /* voAudioFR.def in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voAudioFR.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voAudioFR_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = voAudioFR;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../voRelease/iOS/static/v7/;
+				DSTROOT = /tmp/voAudioFR.dst;
+				EXPORTED_SYMBOLS_FILE = /Users/lilin/Code/Numen/trunk/Source/Project/iOS/Audio/voAudioFR.def;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voAudioFR_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					_AUDIO_READER,
+					_SUPPORT_PARSER_METADATA,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = ../../../../Include/;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = voAudioFR;
+				UNEXPORTED_SYMBOLS_FILE = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voAudioFR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voAudioFR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

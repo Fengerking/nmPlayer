@@ -1,0 +1,4 @@
+LIBRARY	"voCmmbSrc"
+
+EXPORTS
+	voGetCMMBSrcApi

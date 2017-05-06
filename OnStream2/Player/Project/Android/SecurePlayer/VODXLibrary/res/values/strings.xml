@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello VisualOn</string>
+    <string name="app_name">VODX OSMP+ Sample Player</string>
+    <string name="str_Welcome_Title">Disclaimers</string>
+    <string name="str_Welcome_Message"></string>
+    <string name="str_Welcome_Agree">Agree</string>
+    <string name="str_Welcome_Deny">Decline</string>
+    <string name="str_err_nosd">No Storage Card</string>
+    <string name="str_err_sdbusy">Storage Card is busy</string>
+    <string name="str_refresh">Refresh</string>
+    <string name="str_videotest">Video Test</string>
+    <string name="str_about">About</string>
+    <string name="str_totalFiles">%d files</string>
+    <string name="str_AboutTitle">About VisualOn OnStream Demo Player</string>
+    <string name="str_AboutBody">This software and its related services are provided under license by VisualOn, Inc. \n\n© 2012 VisualOn, Inc. All Rights Reserved.\nhttp://www.visualon.com</string>
+	<string name="str_Render_Title">Select Video Render Type</string>
+	<string name="str_Render_Comment">Java render, C render, Native window</string>
+	<string name="str_Render_Dialog_Title">Select Video Render Type</string>
+	<string name="Player_BpsQuality_Auto">Auto</string>
+	<string name="Player_CloseCaptionSelector_None">None</string>
+    <!-- The following string is modified automatically during the build
+	 with sed command.  Must use single quote ' to prevent C shell
+	 escape problem.  The string resource name str_BuildDate is used
+	 in both autoBuild.csh and src/com/visualon/vosdkdemo/FileListView.java
+	 If the name is changed here, both other files have to change
+	 too.
+    -->
+    <string name='str_BuildDate'>2012-03-07 21:21</string>
+    <string name="str_OK">OK</string>
+    <string name="str_Cancel">Cancel</string>
+    <string name="str_FileListTitle">MY VIDEOS</string>
+    <string name="str_LoadTitle">Searching...</string>
+    <string name="str_LoadFiles">Searching files...</string>
+	<string name="str_Delete">Delete</string>
+	<string name="str_FileProperty">Property</string>
+	<string name="str_DeleteVideoFile">Delete video file</string>
+	<string name="str_DeleteVideoFileMessage">Delete selected video file?</string>
+	<string name="str_DeleteSuccess">%s is deleted</string>
+	<string name="str_DeleteFail">File delete failed</string>
+	<string name="property">Properties</string>
+	<string name="property_FileName">Name: </string>
+	<string name="property_Position">Location: </string>
+	<string name="property_FileType">File Type: </string>
+	<string name="property_VideoLength">Length: </string>
+	<string name="property_FileSize">Size: </string>
+	<string name="property_Resolution">Resolution: </string>
+	<string name="property_ChangedTime">Date Modified: </string>
+	<string name="property_VideoFormat">Video Format: </string>
+	<string name="property_AudioFormat">Audio Format: </string>
+	<string name="property_FrameRatio">Frame Ratio: </string>
+	<string name="str_ErrPlay_Title">Error</string>
+	<string name="str_ErrPlay_Message">File format is not supported</string>
+	<string name="str_ErrPlay_FileNotExist">Video file does not exist</string>
+	<string name="str_Audio_volumn">Media Volumn</string>
+	<string name="str_Back_To_Root">Back to /sdcard </string>
+	<string name="str_Back_To_Parent">Back to ../</string>
+	<string name="str_URL">URL...</string>
+	<string name="str_AddURL">Input streaming URL address or file path.</string>
+	<string name="str_SelURL">Select an URL address</string>
+	<string name="str_SelURL_FirstLine">Select a url from the following!</string>
+	<string name="str_SelSubtitle_FirstLine">Select a subtitle from the following!</string>
+	<string name="str_option">Option</string>
+	<string name="str_colorRGB8888_comment">If Checked, use RGB8888 as pixels format; else use RGB565</string>
+	<string name="str_colorRGB8888">RGB8888</string>
+	<string name="str_MAX_Performance">Max Performance</string>
+	<string name="str_MAX_Performance_comment">If Checked, make the application run at max performance</string>
+	<string name="str_use_surface_render">Surface render</string>
+	<string name="str_use_surface_render_comment">If Checked, video surface render is enabled; else java render will be used</string>
+	<string name="str_dolby_effect">Enable Dolby Effect</string>
+	<string name="str_Audio_Animation">Audio Screen Animation</string>
+	<string name="str_Audio_Animation_comment">Enable / disable audio 3D background animation</string>
+	<string name="str_Threads_Title">Select Threads Count</string>
+	<string name="str_Threads_Comment">Select threads count used to decode</string>
+	<string name="str_Threads_Dialog_Title">Select Threads Count</string>
+	<string name="str_Deblock_Title">Disable Deblock</string>
+	<string name="str_Deblock_Comment">If Checked, deblock on decoding H264 is disabled; else deblock is enabled</string>
+	<string name="str_PlayFromUDP">UDP</string>
+	<string name="str_Version">Version: </string>
+	<string name="str_BuildDateLable">Build Date: </string>
+	<string name="str_SocketType_Title">Set RTSP Default Connection Type</string>
+	<string name="str_SocketType_Comment">Set RTSP default connection type: TCP or UDP?</string>
+	<string name="str_SocketType_Dialog_Title">Set RTSP Default Connection Type</string>
+	<string name="str_HLS_OPTION">Set HLS bit rate</string>
+	<string name="str_HLS_Summary">Input HLS max bit rate</string>
+	<string name="str_HLS_Dialog_message">Please input HLS max bit rate(bps), 0 present not limited</string>
+</resources>

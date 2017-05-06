@@ -1,0 +1,47 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this source code is subject to the terms of the Microsoft end-user
+// license agreement (EULA) under which you licensed this SOFTWARE PRODUCT.
+// If you did not accept the terms of the EULA, you are not authorized to use
+// this source code. For a copy of the EULA, please see the LICENSE.RTF on your
+// install media.
+//
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this source code is subject to the terms of the Microsoft end-user
+// license agreement (EULA) under which you licensed this SOFTWARE PRODUCT.
+// If you did not accept the terms of the EULA, you are not authorized to use
+// this source code. For a copy of the EULA, please see the LICENSE.RTF on your
+// install media.
+//
+
+//OS/CPU dependent types
+
+typedef unsigned char		UINT8;
+typedef unsigned short		UINT16;
+typedef unsigned int		UINT24;
+typedef unsigned int		UINT32;
+typedef	unsigned __int64	UINT64;
+typedef	signed char			INT8;
+typedef short				INT16;
+typedef int					INT32;
+typedef __int64				INT64;
+
+//CSS TYPES
+typedef struct { UINT8 key[5]; } CSS_KEY;
+typedef struct { UINT8 challenge[10]; } CSS_CHALLENGE;
+typedef struct { UINT32 sdks[512]; } CSS_SDKS;
+
+/////DVD LB Size
+//
+cpp_quote("#define DVDLBSZ	2048")
+
+cpp_quote("#define	DVD_SELECT_UPPER 0")
+cpp_quote("#define	DVD_SELECT_LOWER 1")
+cpp_quote("#define	DVD_SELECT_LEFT  2")
+cpp_quote("#define	DVD_SELECT_RIGHT 3")
+

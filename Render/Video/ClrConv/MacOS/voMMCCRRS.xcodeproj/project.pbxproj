@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2AAC0CC05546C4400DB518D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		F29D038912A4A82500CC55C5 /* ccConstant.c in Sources */ = {isa = PBXBuildFile; fileRef = F29D037B12A4A82500CC55C5 /* ccConstant.c */; };
+		F29D038A12A4A82500CC55C5 /* ccConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = F29D037C12A4A82500CC55C5 /* ccConstant.h */; };
+		F29D038B12A4A82500CC55C5 /* ccInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = F29D037D12A4A82500CC55C5 /* ccInternal.h */; };
+		F29D038C12A4A82500CC55C5 /* ccMain.c in Sources */ = {isa = PBXBuildFile; fileRef = F29D037E12A4A82500CC55C5 /* ccMain.c */; };
+		F29D038D12A4A82500CC55C5 /* ccRGBToRGB.c in Sources */ = {isa = PBXBuildFile; fileRef = F29D037F12A4A82500CC55C5 /* ccRGBToRGB.c */; };
+		F29D038E12A4A82500CC55C5 /* ccRGBToRGB.h in Headers */ = {isa = PBXBuildFile; fileRef = F29D038012A4A82500CC55C5 /* ccRGBToRGB.h */; };
+		F29D038F12A4A82500CC55C5 /* ccRGBToRGBMB.c in Sources */ = {isa = PBXBuildFile; fileRef = F29D038112A4A82500CC55C5 /* ccRGBToRGBMB.c */; };
+		F29D039012A4A82500CC55C5 /* ccRGBToRGBMB.h in Headers */ = {isa = PBXBuildFile; fileRef = F29D038212A4A82500CC55C5 /* ccRGBToRGBMB.h */; };
+		F29D039112A4A82500CC55C5 /* ccYUVToRGB.c in Sources */ = {isa = PBXBuildFile; fileRef = F29D038312A4A82500CC55C5 /* ccYUVToRGB.c */; };
+		F29D039212A4A82500CC55C5 /* ccYUVToRGB.h in Headers */ = {isa = PBXBuildFile; fileRef = F29D038412A4A82500CC55C5 /* ccYUVToRGB.h */; };
+		F29D039312A4A82500CC55C5 /* ccYUVToRGBMB.c in Sources */ = {isa = PBXBuildFile; fileRef = F29D038512A4A82500CC55C5 /* ccYUVToRGBMB.c */; };
+		F29D039412A4A82500CC55C5 /* ccYUVToRGBMB.h in Headers */ = {isa = PBXBuildFile; fileRef = F29D038612A4A82500CC55C5 /* ccYUVToRGBMB.h */; };
+		F29D039512A4A82500CC55C5 /* ccYUVToYUV.c in Sources */ = {isa = PBXBuildFile; fileRef = F29D038712A4A82500CC55C5 /* ccYUVToYUV.c */; };
+		F29D039612A4A82500CC55C5 /* ccYUVToYUV.h in Headers */ = {isa = PBXBuildFile; fileRef = F29D038812A4A82500CC55C5 /* ccYUVToYUV.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* voMMCCRRS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voMMCCRRS_Prefix.pch; sourceTree = "<group>"; };
+		D2A6134D07B89F6200DD23D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		D2AAC0C705546C1D00DB518D /* voMMCCRRS.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = voMMCCRRS.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29D037B12A4A82500CC55C5 /* ccConstant.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccConstant.c; path = ../src/ccConstant.c; sourceTree = SOURCE_ROOT; };
+		F29D037C12A4A82500CC55C5 /* ccConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccConstant.h; path = ../src/ccConstant.h; sourceTree = SOURCE_ROOT; };
+		F29D037D12A4A82500CC55C5 /* ccInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccInternal.h; path = ../src/ccInternal.h; sourceTree = SOURCE_ROOT; };
+		F29D037E12A4A82500CC55C5 /* ccMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccMain.c; path = ../src/ccMain.c; sourceTree = SOURCE_ROOT; };
+		F29D037F12A4A82500CC55C5 /* ccRGBToRGB.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccRGBToRGB.c; path = ../src/ccRGBToRGB.c; sourceTree = SOURCE_ROOT; };
+		F29D038012A4A82500CC55C5 /* ccRGBToRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccRGBToRGB.h; path = ../src/ccRGBToRGB.h; sourceTree = SOURCE_ROOT; };
+		F29D038112A4A82500CC55C5 /* ccRGBToRGBMB.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccRGBToRGBMB.c; path = ../src/ccRGBToRGBMB.c; sourceTree = SOURCE_ROOT; };
+		F29D038212A4A82500CC55C5 /* ccRGBToRGBMB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccRGBToRGBMB.h; path = ../src/ccRGBToRGBMB.h; sourceTree = SOURCE_ROOT; };
+		F29D038312A4A82500CC55C5 /* ccYUVToRGB.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccYUVToRGB.c; path = ../src/ccYUVToRGB.c; sourceTree = SOURCE_ROOT; };
+		F29D038412A4A82500CC55C5 /* ccYUVToRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccYUVToRGB.h; path = ../src/ccYUVToRGB.h; sourceTree = SOURCE_ROOT; };
+		F29D038512A4A82500CC55C5 /* ccYUVToRGBMB.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccYUVToRGBMB.c; path = ../src/ccYUVToRGBMB.c; sourceTree = SOURCE_ROOT; };
+		F29D038612A4A82500CC55C5 /* ccYUVToRGBMB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccYUVToRGBMB.h; path = ../src/ccYUVToRGBMB.h; sourceTree = SOURCE_ROOT; };
+		F29D038712A4A82500CC55C5 /* ccYUVToYUV.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccYUVToYUV.c; path = ../src/ccYUVToYUV.c; sourceTree = SOURCE_ROOT; };
+		F29D038812A4A82500CC55C5 /* ccYUVToYUV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccYUVToYUV.h; path = ../src/ccYUVToYUV.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC0C505546C1D00DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AAC0CC05546C4400DB518D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC0C705546C1D00DB518D /* voMMCCRRS.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* voMMCCRRS */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = voMMCCRRS;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F29D037B12A4A82500CC55C5 /* ccConstant.c */,
+				F29D037C12A4A82500CC55C5 /* ccConstant.h */,
+				F29D037D12A4A82500CC55C5 /* ccInternal.h */,
+				F29D037E12A4A82500CC55C5 /* ccMain.c */,
+				F29D037F12A4A82500CC55C5 /* ccRGBToRGB.c */,
+				F29D038012A4A82500CC55C5 /* ccRGBToRGB.h */,
+				F29D038112A4A82500CC55C5 /* ccRGBToRGBMB.c */,
+				F29D038212A4A82500CC55C5 /* ccRGBToRGBMB.h */,
+				F29D038312A4A82500CC55C5 /* ccYUVToRGB.c */,
+				F29D038412A4A82500CC55C5 /* ccYUVToRGB.h */,
+				F29D038512A4A82500CC55C5 /* ccYUVToRGBMB.c */,
+				F29D038612A4A82500CC55C5 /* ccYUVToRGBMB.h */,
+				F29D038712A4A82500CC55C5 /* ccYUVToYUV.c */,
+				F29D038812A4A82500CC55C5 /* ccYUVToYUV.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2A6134D07B89F6200DD23D3 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* voMMCCRRS_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC0C305546C1D00DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29D038A12A4A82500CC55C5 /* ccConstant.h in Headers */,
+				F29D038B12A4A82500CC55C5 /* ccInternal.h in Headers */,
+				F29D038E12A4A82500CC55C5 /* ccRGBToRGB.h in Headers */,
+				F29D039012A4A82500CC55C5 /* ccRGBToRGBMB.h in Headers */,
+				F29D039212A4A82500CC55C5 /* ccYUVToRGB.h in Headers */,
+				F29D039412A4A82500CC55C5 /* ccYUVToRGBMB.h in Headers */,
+				F29D039612A4A82500CC55C5 /* ccYUVToYUV.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC0C605546C1D00DB518D /* voMMCCRRS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB917D08733D990010E9CD /* Build configuration list for PBXNativeTarget "voMMCCRRS" */;
+			buildPhases = (
+				D2AAC0C305546C1D00DB518D /* Headers */,
+				D2AAC0C405546C1D00DB518D /* Sources */,
+				D2AAC0C505546C1D00DB518D /* Frameworks */,
+				F29D03A012A4A84F00CC55C5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voMMCCRRS;
+			productName = voMMCCRRS;
+			productReference = D2AAC0C705546C1D00DB518D /* voMMCCRRS.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB918108733D990010E9CD /* Build configuration list for PBXProject "voMMCCRRS" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* voMMCCRRS */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC0C605546C1D00DB518D /* voMMCCRRS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F29D03A012A4A84F00CC55C5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp \"./build/Release/voMMCCRRS.dylib\" \"../../../../../voRelease/MacOS/shared/voMMCCRRS.dylib\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC0C405546C1D00DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29D038912A4A82500CC55C5 /* ccConstant.c in Sources */,
+				F29D038C12A4A82500CC55C5 /* ccMain.c in Sources */,
+				F29D038D12A4A82500CC55C5 /* ccRGBToRGB.c in Sources */,
+				F29D038F12A4A82500CC55C5 /* ccRGBToRGBMB.c in Sources */,
+				F29D039112A4A82500CC55C5 /* ccYUVToRGB.c in Sources */,
+				F29D039312A4A82500CC55C5 /* ccYUVToRGBMB.c in Sources */,
+				F29D039512A4A82500CC55C5 /* ccYUVToYUV.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB917E08733D990010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voMMCCRRS_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = voMMCCRRS;
+			};
+			name = Debug;
+		};
+		1DEB917F08733D990010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voMMCCRRS_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ARCH_IS_GENERIC,
+					ARCH_IS_32BIT,
+					ARCH_IS_LITTLE_ENDIAN,
+					NEW_SDK,
+				);
+				HEADER_SEARCH_PATHS = ../../../../Include;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voMMCCRRS;
+			};
+			name = Release;
+		};
+		1DEB918208733D990010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB918308733D990010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB917D08733D990010E9CD /* Build configuration list for PBXNativeTarget "voMMCCRRS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB917E08733D990010E9CD /* Debug */,
+				1DEB917F08733D990010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB918108733D990010E9CD /* Build configuration list for PBXProject "voMMCCRRS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB918208733D990010E9CD /* Debug */,
+				1DEB918308733D990010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voMMPlay", "voMMPlay.vcproj", "{C2501E6E-4497-40B7-8535-3CF2574A70DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|STANDARDSDK_500 (ARMV4I) = Debug|STANDARDSDK_500 (ARMV4I)
+		Debug|Win32 = Debug|Win32
+		Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I) = Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		Release|STANDARDSDK_500 (ARMV4I) = Release|STANDARDSDK_500 (ARMV4I)
+		Release|Win32 = Release|Win32
+		Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I) = Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Debug|STANDARDSDK_500 (ARMV4I).ActiveCfg = Debug|STANDARDSDK_500 (ARMV4I)
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Debug|STANDARDSDK_500 (ARMV4I).Build.0 = Debug|STANDARDSDK_500 (ARMV4I)
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Debug|STANDARDSDK_500 (ARMV4I).Deploy.0 = Debug|STANDARDSDK_500 (ARMV4I)
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Debug|Win32.Build.0 = Debug|Win32
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).Build.0 = Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).Deploy.0 = Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Release|STANDARDSDK_500 (ARMV4I).ActiveCfg = Release|STANDARDSDK_500 (ARMV4I)
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Release|STANDARDSDK_500 (ARMV4I).Build.0 = Release|STANDARDSDK_500 (ARMV4I)
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Release|STANDARDSDK_500 (ARMV4I).Deploy.0 = Release|STANDARDSDK_500 (ARMV4I)
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Release|Win32.ActiveCfg = Release|Win32
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Release|Win32.Build.0 = Release|Win32
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).Build.0 = Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{C2501E6E-4497-40B7-8535-3CF2574A70DA}.Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).Deploy.0 = Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

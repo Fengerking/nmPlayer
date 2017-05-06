@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject>
+<storageModule moduleId="org.eclipse.cdt.core.settings">
+<cconfiguration id="cdt.managedbuild.config.arm40.exe.debug.492271679">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.arm40.exe.debug.492271679" moduleId="org.eclipse.cdt.core.settings" name="调试">
+<externalSettings/>
+<extensions>
+<extension id="com.arm.eclipse.cdt.managedbuilder.ARMELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.arm.eclipse.cdt.managedbuilder.RealViewCoreToolsErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactExtension="axf" artifactName="Sample" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;com.arm.eclipse.cdt.managedbuilder.RealViewCoreToolsErrorParser" id="cdt.managedbuild.config.arm40.exe.debug.492271679" name="调试" parent="cdt.managedbuild.config.arm40.exe.debug" prebuildStep="">
+<folderInfo id="cdt.managedbuild.config.arm40.exe.debug.492271679." name="/" resourcePath="">
+<toolChain id="cdt.managedbuild.toolchain.arm40.exe.debug.377563218" name="ARM RealView 编译工具 4.0" superClass="cdt.managedbuild.toolchain.arm40.exe.debug">
+<targetPlatform id="cdt.managedbuild.target.arm40.exe.1344189965" superClass="cdt.managedbuild.target.arm40.exe"/>
+<builder buildPath="${workspace_loc:/Sample/调试}" id="cdt.managedbuild.target.arm.builder40.exe.1955491807" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="cdt.managedbuild.target.arm.builder40.exe"/>
+<tool id="cdt.managedbuild.tool.arm.armcc40.exe.1366006274" name="ARM RealView 编译器 4.0" superClass="cdt.managedbuild.tool.arm.armcc40.exe">
+<option defaultValue="true" id="arm.rvct.armcc40.option.override.CONFIG_DEBUG.1413692269" name="启用调试表生成 (--debug)" superClass="arm.rvct.armcc40.option.override.CONFIG_DEBUG" valueType="boolean"/>
+<option defaultValue="arm.rvct.armcc.option.OPTLEVEL.0" id="arm.rvct.armcc40.option.override.OPTLEVEL.672435588" name="优化&#10;级别 (-O)" superClass="arm.rvct.armcc40.option.override.OPTLEVEL" valueType="enumerated"/>
+<option id="arm.rvct.armcc40.option.CONFIG_CPU.420377306" name="体系结构或处理器&#10; (--cpu=)" superClass="arm.rvct.armcc40.option.CONFIG_CPU" value="arm.rvct.armcc.option.CONFIG_CPU.Cortex-A8" valueType="enumerated"/>
+<option id="arm.rvct.armcc40.option.INCLUDE_PATH.1279512061" name="用户 Include 路径 (-I)" superClass="arm.rvct.armcc40.option.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;E:\svn\numen\trunk\Include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;E:\svn\numen\trunk\Codec\Video\Decoder\H264\SDK&quot;"/>
+<listOptionValue builtIn="false" value="&quot;E:\svn\numen\trunk\Codec\Video\Decoder\H264\RealView\Sources\old_sdk_inc&quot;"/>
+</option>
+<option id="arm.rvct.armcc40.option.IDE_UNKNOWN_OPTIONS.318976046" name="其它选项" superClass="arm.rvct.armcc40.option.IDE_UNKNOWN_OPTIONS" valueType="stringList">
+<listOptionValue builtIn="false" value="--wchar32 --enum_is_int --signed_chars"/>
+</option>
+<option id="arm.rvct.armcc40.option.CONFIG_DEFINE.1365429894" name="#DEFINE 列表 (-D)" superClass="arm.rvct.armcc40.option.CONFIG_DEFINE" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="AVDS"/>
+</option>
+<inputType id="cdt.managedbuild.tool.abstract.head.arm.armcc.input.1670955445" superClass="cdt.managedbuild.tool.abstract.head.arm.armcc.input"/>
+</tool>
+<tool id="cdt.managedbuild.tool.arm.armasm40.exe.2090401326" name="ARM RealView 汇编器 4.0" superClass="cdt.managedbuild.tool.arm.armasm40.exe">
+<option defaultValue="true" id="arm.rvct.armasm40.option.override.DEBUG.1253369026" name="源行调试 (-g)" superClass="arm.rvct.armasm40.option.override.DEBUG" valueType="boolean"/>
+<inputType id="cdt.managedbuild.tool.abstract.head.arm.armasm.input.1407343625" superClass="cdt.managedbuild.tool.abstract.head.arm.armasm.input"/>
+</tool>
+<tool id="cdt.managedbuild.tool.arm.armlink40.223688627" name="ARM RealView 链接器 4.0" superClass="cdt.managedbuild.tool.arm.armlink40">
+<option id="arm.rvct.armlink40.option.CONFIG_CPU.1766860577" name="体系结构或处理器&#10; (--cpu=)" superClass="arm.rvct.armlink40.option.CONFIG_CPU" value="arm.rvct.armlink.option.CONFIG_CPU.Cortex-A8" valueType="enumerated"/>
+<option id="arm.rvct.armlink40.option.ENTRY.1040265173" name="映像入口点&#10; (--entry=)" superClass="arm.rvct.armlink40.option.ENTRY" value="init_cpu" valueType="string"/>
+<option id="arm.rvct.armlink40.option.USERLIB_PATH.1861570760" name="库搜索路径 (--userlibpath=)" superClass="arm.rvct.armlink40.option.USERLIB_PATH" valueType="stringList">
+<listOptionValue builtIn="false" value="E:\svn\numen\trunk\Codec\Video\Decoder\H264\RealView\H264lib\发行"/>
+</option>
+<option id="arm.rvct.armlink40.option.IDE_EXTRA_LIBS.49305843" name="库" superClass="arm.rvct.armlink40.option.IDE_EXTRA_LIBS" valueType="libs">
+<listOptionValue builtIn="false" value="H264lib.a"/>
+</option>
+</tool>
+</toolChain>
+</folderInfo>
+<sourceEntries>
+<entry excluding="复件 H264DSample_RVDS.c|H264DSample_RVDS1.c|H264_dec_SDK_for_NXP" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+</sourceEntries>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+</cconfiguration>
+<cconfiguration id="cdt.managedbuild.config.arm40.exe.release.929349206">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.arm40.exe.release.929349206" moduleId="org.eclipse.cdt.core.settings" name="发行">
+<externalSettings/>
+<extensions>
+<extension id="com.arm.eclipse.cdt.managedbuilder.ARMELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.arm.eclipse.cdt.managedbuilder.RealViewCoreToolsErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactExtension="axf" artifactName="Sample" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;com.arm.eclipse.cdt.managedbuilder.RealViewCoreToolsErrorParser" id="cdt.managedbuild.config.arm40.exe.release.929349206" name="发行" parent="cdt.managedbuild.config.arm40.exe.release" prebuildStep="">
+<folderInfo id="cdt.managedbuild.config.arm40.exe.release.929349206." name="/" resourcePath="">
+<toolChain id="cdt.managedbuild.toolchain.arm40.exe.release.598465043" name="ARM RealView 编译工具 4.0" superClass="cdt.managedbuild.toolchain.arm40.exe.release">
+<targetPlatform id="cdt.managedbuild.target.arm40.exe.1157436757" superClass="cdt.managedbuild.target.arm40.exe"/>
+<builder buildPath="${workspace_loc:/Sample/发行}" id="cdt.managedbuild.target.arm.builder40.exe.1591651634" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="cdt.managedbuild.target.arm.builder40.exe"/>
+<tool id="cdt.managedbuild.tool.arm.armcc40.exe.1922570836" name="ARM RealView 编译器 4.0" superClass="cdt.managedbuild.tool.arm.armcc40.exe">
+<option id="arm.rvct.armcc40.option.CONFIG_CPU.267787231" name="体系结构或处理器&#10; (--cpu=)" superClass="arm.rvct.armcc40.option.CONFIG_CPU" value="arm.rvct.armcc.option.CONFIG_CPU.Cortex-A8" valueType="enumerated"/>
+<option id="arm.rvct.armcc40.option.INCLUDE_PATH.1642289653" name="用户 Include 路径 (-I)" superClass="arm.rvct.armcc40.option.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;E:\svn\numen\trunk\Include&quot;"/>
+</option>
+<option id="arm.rvct.armcc40.option.CONFIG_APCS.156267938" name="过程调用标准选项 (--apcs=)" superClass="arm.rvct.armcc40.option.CONFIG_APCS"/>
+<option id="arm.rvct.armcc40.option.IDE_UNKNOWN_OPTIONS.737378743" name="其它选项" superClass="arm.rvct.armcc40.option.IDE_UNKNOWN_OPTIONS"/>
+<option id="arm.rvct.armcc40.option.CONFIG_FPU.695653320" name="浮点 (--fpu=)" superClass="arm.rvct.armcc40.option.CONFIG_FPU" value="arm.rvct.armcc.option.CONFIG_FPU.SoftVFP" valueType="enumerated"/>
+<inputType id="cdt.managedbuild.tool.abstract.head.arm.armcc.input.1928398323" superClass="cdt.managedbuild.tool.abstract.head.arm.armcc.input"/>
+</tool>
+<tool id="cdt.managedbuild.tool.arm.armasm40.exe.207338351" name="ARM RealView 汇编器 4.0" superClass="cdt.managedbuild.tool.arm.armasm40.exe">
+<option id="arm.rvct.armasm40.option.IDE_UNKNOWN_OPTIONS.802535353" name="其它选项" superClass="arm.rvct.armasm40.option.IDE_UNKNOWN_OPTIONS"/>
+<inputType id="cdt.managedbuild.tool.abstract.head.arm.armasm.input.579025938" superClass="cdt.managedbuild.tool.abstract.head.arm.armasm.input"/>
+</tool>
+<tool id="cdt.managedbuild.tool.arm.armlink40.1224210121" name="ARM RealView 链接器 4.0" superClass="cdt.managedbuild.tool.arm.armlink40">
+<option id="arm.rvct.armlink40.option.USERLIB_PATH.1468764212" name="库搜索路径 (--userlibpath=)" superClass="arm.rvct.armlink40.option.USERLIB_PATH" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;E:\svn\numen\trunk\Codec\Video\Decoder\H264\corelib\RVDS&quot;"/>
+<listOptionValue builtIn="false" value="E:\svn\numen\trunk\Codec\Video\Decoder\H264\RealView\H264lib\发行"/>
+</option>
+<option id="arm.rvct.armlink40.option.IDE_EXTRA_LIBS.1064443671" name="库" superClass="arm.rvct.armlink40.option.IDE_EXTRA_LIBS" valueType="libs">
+<listOptionValue builtIn="false" value="H264lib.a"/>
+<listOptionValue builtIn="false" value="H264_D_Core_ARM9_baseline.a"/>
+</option>
+<option id="arm.rvct.armlink40.option.ENTRY.1281912283" name="映像入口点&#10; (--entry=)" superClass="arm.rvct.armlink40.option.ENTRY" value="init_cpu" valueType="string"/>
+<option id="arm.rvct.armlink40.option.CONFIG_CPU.821101513" name="体系结构或处理器&#10; (--cpu=)" superClass="arm.rvct.armlink40.option.CONFIG_CPU" value="arm.rvct.armlink.option.CONFIG_CPU.Cortex-A8" valueType="enumerated"/>
+<option id="arm.rvct.armlink40.option.IDE_UNKNOWN_OPTIONS.1226154717" name="其它选项" superClass="arm.rvct.armlink40.option.IDE_UNKNOWN_OPTIONS" valueType="stringList">
+<listOptionValue builtIn="false" value="--cpu=Cortex-A8 --fpu=None --apcs=/noswst/interwork"/>
+</option>
+<option id="arm.rvct.armlink40.option.CONFIG_FPU.1019833980" name="浮点 (--fpu=)" superClass="arm.rvct.armlink40.option.CONFIG_FPU" value="arm.rvct.armlink.option.CONFIG_FPU.__DEFAULT" valueType="enumerated"/>
+</tool>
+</toolChain>
+</folderInfo>
+<sourceEntries>
+<entry excluding="复件 H264DSample_RVDS.c|H264DSample_RVDS1.c|H264_dec_SDK_for_NXP|H264_dec_SDK_for_NXP/H264DSample_RVDS.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+</sourceEntries>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+</cconfiguration>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<project id="Sample.cdt.managedbuild.target.arm40.exe.1918312394" name="Executable" projectType="cdt.managedbuild.target.arm40.exe"/>
+</storageModule>
+</cproject>

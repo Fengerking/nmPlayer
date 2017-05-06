@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E162BD1318617AE50092DE41 /* voLog.c in Sources */ = {isa = PBXBuildFile; fileRef = E162BD1218617AE50092DE41 /* voLog.c */; };
+		E180659D180B8EEC007EF167 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E180659C180B8EEC007EF167 /* Foundation.framework */; };
+		E18065AB180B8EEC007EF167 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E18065AA180B8EEC007EF167 /* XCTest.framework */; };
+		E18065AC180B8EEC007EF167 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E180659C180B8EEC007EF167 /* Foundation.framework */; };
+		E18065AE180B8EEC007EF167 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E18065AD180B8EEC007EF167 /* UIKit.framework */; };
+		E18065B1180B8EEC007EF167 /* libvoDownloader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1806599180B8EEC007EF167 /* libvoDownloader.a */; };
+		E18065B7180B8EEC007EF167 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E18065B5180B8EEC007EF167 /* InfoPlist.strings */; };
+		E18065B9180B8EEC007EF167 /* voDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E18065B8180B8EEC007EF167 /* voDownloaderTests.m */; };
+		E18065C8180BBC37007EF167 /* VODownloader.mm in Sources */ = {isa = PBXBuildFile; fileRef = E18065C7180BBC37007EF167 /* VODownloader.mm */; };
+		E18065CB180BDA29007EF167 /* VOOSMPDownloaderImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = E18065CA180BDA29007EF167 /* VOOSMPDownloaderImpl.mm */; };
+		E180661A180BF0D7007EF167 /* CDownloaderAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1806618180BF0D7007EF167 /* CDownloaderAPI.cpp */; };
+		E1806620180BFC4B007EF167 /* CDllLoad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E180661E180BFC4B007EF167 /* CDllLoad.cpp */; };
+		E1806627180C05CF007EF167 /* CDownloaderImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1806625180C05CF007EF167 /* CDownloaderImpl.cpp */; };
+		E180662C180CE777007EF167 /* CvoBaseObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1806628180CE777007EF167 /* CvoBaseObject.cpp */; };
+		E180662D180CE777007EF167 /* voOSFunc_iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = E180662A180CE777007EF167 /* voOSFunc_iOS.mm */; };
+		E1806633180D4662007EF167 /* VOOSMPAssetInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1806632180D4662007EF167 /* VOOSMPAssetInfo.mm */; };
+		E1806636180E68EA007EF167 /* VODLDInitParam.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1806635180E68EA007EF167 /* VODLDInitParam.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E18065AF180B8EEC007EF167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1806591180B8EEC007EF167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1806598180B8EEC007EF167;
+			remoteInfo = voDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1806597180B8EEC007EF167 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E1353E0E1814D71F008895AF /* VOOSMPStreamingDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VOOSMPStreamingDownloader.h; path = ../../../../../../Include/OSMP_V3/iOS/VOOSMPStreamingDownloader.h; sourceTree = "<group>"; };
+		E1353E0F1814D71F008895AF /* VOOSMPStreamingDownloaderImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VOOSMPStreamingDownloaderImpl.h; path = ../../../../../../Include/OSMP_V3/iOS/VOOSMPStreamingDownloaderImpl.h; sourceTree = "<group>"; };
+		E1353E101814D71F008895AF /* VOOSMPStreamingDownloaderType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VOOSMPStreamingDownloaderType.h; path = ../../../../../../Include/OSMP_V3/iOS/VOOSMPStreamingDownloaderType.h; sourceTree = "<group>"; };
+		E162BD1218617AE50092DE41 /* voLog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voLog.c; path = ../../../../../../Common/voLog.c; sourceTree = "<group>"; };
+		E1806599180B8EEC007EF167 /* libvoDownloader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoDownloader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E180659C180B8EEC007EF167 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E18065A0180B8EEC007EF167 /* voDownloader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "voDownloader-Prefix.pch"; sourceTree = "<group>"; };
+		E18065A9180B8EEC007EF167 /* voDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18065AA180B8EEC007EF167 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E18065AD180B8EEC007EF167 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E18065B4180B8EEC007EF167 /* voDownloaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "voDownloaderTests-Info.plist"; sourceTree = "<group>"; };
+		E18065B6180B8EEC007EF167 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E18065B8180B8EEC007EF167 /* voDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = voDownloaderTests.m; sourceTree = "<group>"; };
+		E18065C5180B9793007EF167 /* VOOSMPType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VOOSMPType.h; path = ../../../../../../Include/OSMP_V3/iOS/VOOSMPType.h; sourceTree = "<group>"; };
+		E18065C6180BBC37007EF167 /* VODownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VODownloader.h; path = ../../../../Source/iOS/VODownloader.h; sourceTree = "<group>"; };
+		E18065C7180BBC37007EF167 /* VODownloader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = VODownloader.mm; path = ../../../../Source/iOS/VODownloader.mm; sourceTree = "<group>"; };
+		E18065CA180BDA29007EF167 /* VOOSMPDownloaderImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = VOOSMPDownloaderImpl.mm; path = ../../../../Source/iOS/VOOSMPDownloaderImpl.mm; sourceTree = "<group>"; };
+		E1806618180BF0D7007EF167 /* CDownloaderAPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CDownloaderAPI.cpp; path = ../../../../Source/CDownloaderAPI.cpp; sourceTree = "<group>"; };
+		E1806619180BF0D7007EF167 /* CDownloaderAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDownloaderAPI.h; path = ../../../../Source/CDownloaderAPI.h; sourceTree = "<group>"; };
+		E180661B180BF7B7007EF167 /* voStreamingDownloaderAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voStreamingDownloaderAPI.h; path = ../../../../../../Include/voStreamingDownloaderAPI.h; sourceTree = "<group>"; };
+		E180661E180BFC4B007EF167 /* CDllLoad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CDllLoad.cpp; path = ../../../../../../Common/CDllLoad.cpp; sourceTree = "<group>"; };
+		E180661F180BFC4B007EF167 /* CDllLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDllLoad.h; path = ../../../../../../Common/CDllLoad.h; sourceTree = "<group>"; };
+		E1806625180C05CF007EF167 /* CDownloaderImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CDownloaderImpl.cpp; path = ../../../../Source/CDownloaderImpl.cpp; sourceTree = "<group>"; };
+		E1806626180C05CF007EF167 /* CDownloaderImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDownloaderImpl.h; path = ../../../../Source/CDownloaderImpl.h; sourceTree = "<group>"; };
+		E1806628180CE777007EF167 /* CvoBaseObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseObject.cpp; path = ../../../../../../Common/CvoBaseObject.cpp; sourceTree = "<group>"; };
+		E1806629180CE777007EF167 /* CvoBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseObject.h; path = ../../../../../../Common/CvoBaseObject.h; sourceTree = "<group>"; };
+		E180662A180CE777007EF167 /* voOSFunc_iOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = voOSFunc_iOS.mm; path = ../../../../../../Common/voOSFunc_iOS.mm; sourceTree = "<group>"; };
+		E180662B180CE777007EF167 /* voOSFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voOSFunc.h; path = ../../../../../../Common/voOSFunc.h; sourceTree = "<group>"; };
+		E180662F180CF476007EF167 /* voLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voLog.h; path = ../../../../../../Common/voLog.h; sourceTree = "<group>"; };
+		E1806631180D4662007EF167 /* VOOSMPAssetInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VOOSMPAssetInfo.h; path = ../../../../../Player/Source/iOS/OSMP_V3/VOOSMPAssetInfo.h; sourceTree = "<group>"; };
+		E1806632180D4662007EF167 /* VOOSMPAssetInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = VOOSMPAssetInfo.mm; path = ../../../../../Player/Source/iOS/OSMP_V3/VOOSMPAssetInfo.mm; sourceTree = "<group>"; };
+		E1806635180E68EA007EF167 /* VODLDInitParam.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = VODLDInitParam.mm; path = ../../../../Source/iOS/VODLDInitParam.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1806596180B8EEC007EF167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E180659D180B8EEC007EF167 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18065A6180B8EEC007EF167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18065AB180B8EEC007EF167 /* XCTest.framework in Frameworks */,
+				E18065AE180B8EEC007EF167 /* UIKit.framework in Frameworks */,
+				E18065AC180B8EEC007EF167 /* Foundation.framework in Frameworks */,
+				E18065B1180B8EEC007EF167 /* libvoDownloader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1806590180B8EEC007EF167 = {
+			isa = PBXGroup;
+			children = (
+				E180659E180B8EEC007EF167 /* voDownloader */,
+				E18065B2180B8EEC007EF167 /* voDownloaderTests */,
+				E180659B180B8EEC007EF167 /* Frameworks */,
+				E180659A180B8EEC007EF167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E180659A180B8EEC007EF167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1806599180B8EEC007EF167 /* libvoDownloader.a */,
+				E18065A9180B8EEC007EF167 /* voDownloaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E180659B180B8EEC007EF167 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E180659C180B8EEC007EF167 /* Foundation.framework */,
+				E18065AA180B8EEC007EF167 /* XCTest.framework */,
+				E18065AD180B8EEC007EF167 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E180659E180B8EEC007EF167 /* voDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				E1806637180E8448007EF167 /* test */,
+				E1806635180E68EA007EF167 /* VODLDInitParam.mm */,
+				E1806631180D4662007EF167 /* VOOSMPAssetInfo.h */,
+				E1806632180D4662007EF167 /* VOOSMPAssetInfo.mm */,
+				E1806625180C05CF007EF167 /* CDownloaderImpl.cpp */,
+				E1806626180C05CF007EF167 /* CDownloaderImpl.h */,
+				E1806624180BFC88007EF167 /* File */,
+				E1806623180BFC7C007EF167 /* File2 */,
+				E1806622180BFC67007EF167 /* File */,
+				E1806621180BFC51007EF167 /* File */,
+				E180661D180BFC2B007EF167 /* Common */,
+				E180661C180BFC1A007EF167 /* C */,
+				E180661B180BF7B7007EF167 /* voStreamingDownloaderAPI.h */,
+				E1806618180BF0D7007EF167 /* CDownloaderAPI.cpp */,
+				E1806619180BF0D7007EF167 /* CDownloaderAPI.h */,
+				E18065CA180BDA29007EF167 /* VOOSMPDownloaderImpl.mm */,
+				E18065C6180BBC37007EF167 /* VODownloader.h */,
+				E18065C7180BBC37007EF167 /* VODownloader.mm */,
+				E18065C2180B96FF007EF167 /* head */,
+				E180659F180B8EEC007EF167 /* Supporting Files */,
+			);
+			path = voDownloader;
+			sourceTree = "<group>";
+		};
+		E180659F180B8EEC007EF167 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E18065A0180B8EEC007EF167 /* voDownloader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E18065B2180B8EEC007EF167 /* voDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				E18065B8180B8EEC007EF167 /* voDownloaderTests.m */,
+				E18065B3180B8EEC007EF167 /* Supporting Files */,
+			);
+			path = voDownloaderTests;
+			sourceTree = "<group>";
+		};
+		E18065B3180B8EEC007EF167 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E18065B4180B8EEC007EF167 /* voDownloaderTests-Info.plist */,
+				E18065B5180B8EEC007EF167 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E18065C2180B96FF007EF167 /* head */ = {
+			isa = PBXGroup;
+			children = (
+				E1353E0E1814D71F008895AF /* VOOSMPStreamingDownloader.h */,
+				E1353E0F1814D71F008895AF /* VOOSMPStreamingDownloaderImpl.h */,
+				E1353E101814D71F008895AF /* VOOSMPStreamingDownloaderType.h */,
+				E18065C5180B9793007EF167 /* VOOSMPType.h */,
+			);
+			name = head;
+			sourceTree = "<group>";
+		};
+		E180661C180BFC1A007EF167 /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		E180661D180BFC2B007EF167 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E162BD1218617AE50092DE41 /* voLog.c */,
+				E180662F180CF476007EF167 /* voLog.h */,
+				E1806628180CE777007EF167 /* CvoBaseObject.cpp */,
+				E1806629180CE777007EF167 /* CvoBaseObject.h */,
+				E180662A180CE777007EF167 /* voOSFunc_iOS.mm */,
+				E180662B180CE777007EF167 /* voOSFunc.h */,
+				E180661E180BFC4B007EF167 /* CDllLoad.cpp */,
+				E180661F180BFC4B007EF167 /* CDllLoad.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		E1806621180BFC51007EF167 /* File */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		E1806622180BFC67007EF167 /* File */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		E1806623180BFC7C007EF167 /* File2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = File2;
+			sourceTree = "<group>";
+		};
+		E1806624180BFC88007EF167 /* File */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		E1806637180E8448007EF167 /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1806598180B8EEC007EF167 /* voDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E18065BC180B8EEC007EF167 /* Build configuration list for PBXNativeTarget "voDownloader" */;
+			buildPhases = (
+				E1806595180B8EEC007EF167 /* Sources */,
+				E1806596180B8EEC007EF167 /* Frameworks */,
+				E1806597180B8EEC007EF167 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voDownloader;
+			productName = voDownloader;
+			productReference = E1806599180B8EEC007EF167 /* libvoDownloader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E18065A8180B8EEC007EF167 /* voDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E18065BF180B8EEC007EF167 /* Build configuration list for PBXNativeTarget "voDownloaderTests" */;
+			buildPhases = (
+				E18065A5180B8EEC007EF167 /* Sources */,
+				E18065A6180B8EEC007EF167 /* Frameworks */,
+				E18065A7180B8EEC007EF167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E18065B0180B8EEC007EF167 /* PBXTargetDependency */,
+			);
+			name = voDownloaderTests;
+			productName = voDownloaderTests;
+			productReference = E18065A9180B8EEC007EF167 /* voDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1806591180B8EEC007EF167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = VisualOn;
+			};
+			buildConfigurationList = E1806594180B8EEC007EF167 /* Build configuration list for PBXProject "voDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1806590180B8EEC007EF167;
+			productRefGroup = E180659A180B8EEC007EF167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1806598180B8EEC007EF167 /* voDownloader */,
+				E18065A8180B8EEC007EF167 /* voDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E18065A7180B8EEC007EF167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18065B7180B8EEC007EF167 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1806595180B8EEC007EF167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1806627180C05CF007EF167 /* CDownloaderImpl.cpp in Sources */,
+				E1806620180BFC4B007EF167 /* CDllLoad.cpp in Sources */,
+				E1806633180D4662007EF167 /* VOOSMPAssetInfo.mm in Sources */,
+				E18065C8180BBC37007EF167 /* VODownloader.mm in Sources */,
+				E180661A180BF0D7007EF167 /* CDownloaderAPI.cpp in Sources */,
+				E180662C180CE777007EF167 /* CvoBaseObject.cpp in Sources */,
+				E180662D180CE777007EF167 /* voOSFunc_iOS.mm in Sources */,
+				E18065CB180BDA29007EF167 /* VOOSMPDownloaderImpl.mm in Sources */,
+				E1806636180E68EA007EF167 /* VODLDInitParam.mm in Sources */,
+				E162BD1318617AE50092DE41 /* voLog.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18065A5180B8EEC007EF167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18065B9180B8EEC007EF167 /* voDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E18065B0180B8EEC007EF167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1806598180B8EEC007EF167 /* voDownloader */;
+			targetProxy = E18065AF180B8EEC007EF167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E18065B5180B8EEC007EF167 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E18065B6180B8EEC007EF167 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E18065BA180B8EEC007EF167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E18065BB180B8EEC007EF167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E18065BD180B8EEC007EF167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = ../../../../../App/Customer/VisualOnAPI3/iOS/Libs;
+				CONFIGURATION_TEMP_DIR = ../../../../../App/Customer/VisualOnAPI3/iOS/Libs;
+				DSTROOT = /tmp/voDownloader.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "voDownloader/voDownloader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					_IOS,
+					_VOLOG_INFO,
+					"_VOMODULEID=0x09040000",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../Include,
+					../../../../../Common,
+					../../../../../Include/OSMP_V3/iOS/,
+					../../../Include/OSMP_V3/iOS/,
+					"$(inherited)",
+					/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E18065BE180B8EEC007EF167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = ../../../../../App/Customer/VisualOnAPI3/iOS/Libs;
+				CONFIGURATION_TEMP_DIR = ../../../../../App/Customer/VisualOnAPI3/iOS/Libs;
+				DSTROOT = /tmp/voDownloader.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "voDownloader/voDownloader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					_VOLOG_INFO,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../Include,
+					../../../../../Common,
+					../../../../../Include/OSMP_V3/iOS/,
+					../../../Include/OSMP_V3/iOS/,
+					"$(inherited)",
+					/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E18065C0180B8EEC007EF167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "voDownloader/voDownloader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "voDownloaderTests/voDownloaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E18065C1180B8EEC007EF167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "voDownloader/voDownloader-Prefix.pch";
+				INFOPLIST_FILE = "voDownloaderTests/voDownloaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1806594180B8EEC007EF167 /* Build configuration list for PBXProject "voDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E18065BA180B8EEC007EF167 /* Debug */,
+				E18065BB180B8EEC007EF167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E18065BC180B8EEC007EF167 /* Build configuration list for PBXNativeTarget "voDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E18065BD180B8EEC007EF167 /* Debug */,
+				E18065BE180B8EEC007EF167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E18065BF180B8EEC007EF167 /* Build configuration list for PBXNativeTarget "voDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E18065C0180B8EEC007EF167 /* Debug */,
+				E18065C1180B8EEC007EF167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1806591180B8EEC007EF167 /* Project object */;
+}

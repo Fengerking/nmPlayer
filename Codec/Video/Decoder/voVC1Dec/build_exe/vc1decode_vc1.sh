@@ -1,0 +1,9 @@
+./voVC1DecTst /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B0M0U0V0Q0P0L1E0e0R0r0_176x144.vc1       /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B0M0U0V0Q0P0L1E0e0R0r0_176x144.yuv      0 1
+./voVC1DecTst /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V0Q0P0L1E0e0R0r0_176x144.vc1       /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V0Q0P0L1E0e0R0r0_176x144.yuv      0 1
+./voVC1DecTst /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V0Q1P0L1E0e0R0r0_176x144.vc1       /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V0Q1P0L1E0e0R0r0_176x144.yuv      0 1
+./voVC1DecTst /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V0Q2P0L1E0e0R0r0_176x144.vc1       /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V0Q2P0L1E0e0R0r0_176x144.yuv      0 1
+./voVC1DecTst /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V0Q3P0L1E0e0R0r0_176x144.vc1       /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V0Q3P0L1E0e0R0r0_176x144.yuv      0 1
+./voVC1DecTst /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V1Q0P0L1E0e0R0r0_176x144.vc1       /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V1Q0P0L1E0e0R0r0_176x144.yuv      0 1
+./voVC1DecTst /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V1Q1P0L1E0e0R0r0_176x144.vc1       /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V1Q1P0L1E0e0R0r0_176x144.yuv      0 1
+./voVC1DecTst /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V1Q2P0L1E0e0R0r0_176x144.vc1       /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V1Q2P0L1E0e0R0r0_176x144.yuv      0 1
+./voVC1DecTst /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V1Q3P0L1E0e0R0r0_176x144.vc1       /mnt/sdcard/vc1/vc1_007_AP_Prog_D0B1M0U0V1Q3P0L1E0e0R0r0_176x144.yuv      0 1

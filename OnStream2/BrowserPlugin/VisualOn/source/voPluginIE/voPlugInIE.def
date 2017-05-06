@@ -1,0 +1,9 @@
+; voPlugInIE.def : Declares the module parameters.
+
+LIBRARY      "voPlugInIE.dll"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer PRIVATE

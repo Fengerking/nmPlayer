@@ -1,0 +1,28 @@
+/*
+********************************************************************************
+*
+*      GSM AMR-NB speech codec   R98   Version 7.6.0   December 12, 2001
+*                                R99   Version 3.3.0                
+*                                REL-4 Version 4.1.0                
+*
+********************************************************************************
+*
+*      File             : qgain475.tab
+*      Purpose          : Tables for function qgain475()
+*      $Id $
+*
+********************************************************************************
+*/
+
+#define MR475_VQ_SIZE 256
+
+/* The table contains the following data:
+ *
+ *    g_pitch(0)        (Q14) // for sub-
+ *    g_fac(0)          (Q12) // frame 0 and 2
+ *    g_pitch(1)        (Q14) // for sub-
+ *    g_fac(2)          (Q12) // frame 1 and 3
+ *
+ */
+extern const Word16 table_gain_MR475[MR475_VQ_SIZE*4];
+

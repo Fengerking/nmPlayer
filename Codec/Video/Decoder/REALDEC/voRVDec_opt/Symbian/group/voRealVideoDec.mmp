@@ -1,0 +1,55 @@
+/*
+============================================================================
+ Name		: RealFileReader.mmp
+ Author	  : 
+ Copyright   : VisualOn Coryright 2003 - 2010.
+ Description : This is the project specification file for RealFileReader.
+============================================================================
+*/
+
+TARGET		  	voRealVideoDec.dll
+TARGETTYPE	  	dll
+UID			 	0x1000008E 0xEA6B1CE8
+
+MACRO			LINUX
+MACRO			ARM
+MACRO     VOSYMBIAN
+MACRO     VOARMV6
+
+USERINCLUDE	 	..\..\..\..\..\..\..\Include
+USERINCLUDE	 	..\..\..\src
+USERINCLUDE	 	..\..\..\src\asm\gnu_asm\armv6
+
+SYSTEMINCLUDE   \epoc32\include
+SYSTEMINCLUDE   \epoc32\include\libc
+
+SOURCEPATH	  ..\..\..\src\asm\gnu_asm\armv6
+SOURCE        ARMV6_rv8_cinterp.s
+SOURCE        deblock_armv6.s
+SOURCE        IDCT_armv6.s 
+SOURCE        interp4_armv6.s 
+SOURCE        interp4Part2_armv6.s 
+SOURCE        interp4Part3_armv6.s 
+SOURCE        mem_copy_armv6.s
+SOURCE        intraMB_pred_armv6.s
+
+
+
+
+DEFFILE 		..\eabi\voRealVideoDec.DEF
+
+LIBRARY		 	euser.lib
+LIBRARY		 	estlib.lib
+
+#ifdef ENABLE_ABIV2_MODE
+DEBUGGABLE_UDEBONLY
+#endif
+
+CAPABILITY      ReadUserData
+
+EPOCALLOWDLLDATA
+
+EXPORTUNFROZEN 
+
+SOURCEPATH ..\..\..\src
+SOURCE ai.c basic.c bsx.c cinterp.c cinterp4.c deblock.c deblock8.c dec4x4md.c decoder.c drv.c frame.c idct.c parsebs.c recon.c rv_decode.c tables.c voRVDecSDK.c

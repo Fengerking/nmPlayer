@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CF38A7E14E8E55100DBF0A2 /* ai.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A7C14E8E55100DBF0A2 /* ai.c */; };
+		3CF38A7F14E8E55100DBF0A2 /* ai.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A7D14E8E55100DBF0A2 /* ai.h */; };
+		3CF38AB114E8E55E00DBF0A2 /* basic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A8014E8E55E00DBF0A2 /* basic.c */; };
+		3CF38AB214E8E55E00DBF0A2 /* basic.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A8114E8E55E00DBF0A2 /* basic.h */; };
+		3CF38AB314E8E55E00DBF0A2 /* bsx.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A8214E8E55E00DBF0A2 /* bsx.c */; };
+		3CF38AB414E8E55E00DBF0A2 /* bsx.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A8314E8E55E00DBF0A2 /* bsx.h */; };
+		3CF38AB514E8E55E00DBF0A2 /* cinterp.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A8414E8E55E00DBF0A2 /* cinterp.c */; };
+		3CF38AB614E8E55E00DBF0A2 /* cinterp4.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A8514E8E55E00DBF0A2 /* cinterp4.c */; };
+		3CF38AB714E8E55E00DBF0A2 /* codec_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A8614E8E55E00DBF0A2 /* codec_defines.h */; };
+		3CF38AB814E8E55E00DBF0A2 /* deblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A8714E8E55E00DBF0A2 /* deblock.c */; };
+		3CF38AB914E8E55E00DBF0A2 /* deblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A8814E8E55E00DBF0A2 /* deblock.h */; };
+		3CF38ABA14E8E55E00DBF0A2 /* deblock8.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A8914E8E55E00DBF0A2 /* deblock8.c */; };
+		3CF38ABB14E8E55E00DBF0A2 /* dec4x4md.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A8A14E8E55E00DBF0A2 /* dec4x4md.c */; };
+		3CF38ABC14E8E55E00DBF0A2 /* dec4x4md.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A8B14E8E55E00DBF0A2 /* dec4x4md.h */; };
+		3CF38ABD14E8E55E00DBF0A2 /* decdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A8C14E8E55E00DBF0A2 /* decdefs.h */; };
+		3CF38ABE14E8E55E00DBF0A2 /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A8D14E8E55E00DBF0A2 /* decoder.c */; };
+		3CF38ABF14E8E55E00DBF0A2 /* decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A8E14E8E55E00DBF0A2 /* decoder.h */; };
+		3CF38AC014E8E55E00DBF0A2 /* drv.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A8F14E8E55E00DBF0A2 /* drv.c */; };
+		3CF38AC114E8E55E00DBF0A2 /* frame.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A9014E8E55E00DBF0A2 /* frame.c */; };
+		3CF38AC214E8E55E00DBF0A2 /* frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A9114E8E55E00DBF0A2 /* frame.h */; };
+		3CF38AC314E8E55E00DBF0A2 /* helix_codec.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A9214E8E55E00DBF0A2 /* helix_codec.h */; };
+		3CF38AC414E8E55E00DBF0A2 /* helix_result.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A9314E8E55E00DBF0A2 /* helix_result.h */; };
+		3CF38AC514E8E55E00DBF0A2 /* helix_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A9414E8E55E00DBF0A2 /* helix_types.h */; };
+		3CF38AC614E8E55E00DBF0A2 /* helix_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A9514E8E55E00DBF0A2 /* helix_utils.h */; };
+		3CF38AC714E8E55E00DBF0A2 /* idct.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A9614E8E55E00DBF0A2 /* idct.c */; };
+		3CF38AC814E8E55E00DBF0A2 /* idct.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A9714E8E55E00DBF0A2 /* idct.h */; };
+		3CF38AC914E8E55E00DBF0A2 /* parsebs.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A9814E8E55E00DBF0A2 /* parsebs.c */; };
+		3CF38ACA14E8E55E00DBF0A2 /* parsebs.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A9914E8E55E00DBF0A2 /* parsebs.h */; };
+		3CF38ACB14E8E55E00DBF0A2 /* realvdo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A9A14E8E55E00DBF0A2 /* realvdo.h */; };
+		3CF38ACC14E8E55E00DBF0A2 /* recon.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A9B14E8E55E00DBF0A2 /* recon.c */; };
+		3CF38ACD14E8E55E00DBF0A2 /* recon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A9C14E8E55E00DBF0A2 /* recon.h */; };
+		3CF38ACE14E8E55E00DBF0A2 /* rv_backend_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A9D14E8E55E00DBF0A2 /* rv_backend_types.h */; };
+		3CF38ACF14E8E55E00DBF0A2 /* rv_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38A9E14E8E55E00DBF0A2 /* rv_backend.h */; };
+		3CF38AD014E8E55E00DBF0A2 /* rv_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38A9F14E8E55E00DBF0A2 /* rv_decode.c */; };
+		3CF38AD114E8E55E00DBF0A2 /* rv_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AA014E8E55E00DBF0A2 /* rv_decode.h */; };
+		3CF38AD214E8E55E00DBF0A2 /* rv_format_info.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AA114E8E55E00DBF0A2 /* rv_format_info.h */; };
+		3CF38AD314E8E55E00DBF0A2 /* rv30backend.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AA214E8E55E00DBF0A2 /* rv30backend.h */; };
+		3CF38AD414E8E55E00DBF0A2 /* rv30dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AA314E8E55E00DBF0A2 /* rv30dec.h */; };
+		3CF38AD514E8E55E00DBF0A2 /* rvdebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AA414E8E55E00DBF0A2 /* rvdebug.h */; };
+		3CF38AD614E8E55E00DBF0A2 /* rvdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AA514E8E55E00DBF0A2 /* rvdefs.h */; };
+		3CF38AD714E8E55E00DBF0A2 /* rvfid.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AA614E8E55E00DBF0A2 /* rvfid.h */; };
+		3CF38AD814E8E55E00DBF0A2 /* rvstatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AA714E8E55E00DBF0A2 /* rvstatus.h */; };
+		3CF38AD914E8E55E00DBF0A2 /* rvstruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AA814E8E55E00DBF0A2 /* rvstruct.h */; };
+		3CF38ADA14E8E55E00DBF0A2 /* rvtypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AA914E8E55E00DBF0A2 /* rvtypes.h */; };
+		3CF38ADB14E8E55E00DBF0A2 /* spinterp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AAA14E8E55E00DBF0A2 /* spinterp.h */; };
+		3CF38ADC14E8E55E00DBF0A2 /* tables.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38AAB14E8E55E00DBF0A2 /* tables.c */; };
+		3CF38ADD14E8E55E00DBF0A2 /* tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AAC14E8E55E00DBF0A2 /* tables.h */; };
+		3CF38ADE14E8E55E00DBF0A2 /* voRVDecID.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AAD14E8E55E00DBF0A2 /* voRVDecID.h */; };
+		3CF38ADF14E8E55E00DBF0A2 /* voRVDecSDK.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38AAE14E8E55E00DBF0A2 /* voRVDecSDK.c */; };
+		3CF38AE014E8E55E00DBF0A2 /* voRVThread.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38AAF14E8E55E00DBF0A2 /* voRVThread.c */; };
+		3CF38AE114E8E55E00DBF0A2 /* voRVThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF38AB014E8E55E00DBF0A2 /* voRVThread.h */; };
+		3CF38B9814E8E59200DBF0A2 /* ARMV7_rv8_edge_filter.s in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38B8E14E8E59200DBF0A2 /* ARMV7_rv8_edge_filter.s */; };
+		3CF38B9914E8E59200DBF0A2 /* cinterp_rv8.s in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38B8F14E8E59200DBF0A2 /* cinterp_rv8.s */; };
+		3CF38B9A14E8E59200DBF0A2 /* deblock_CtxA8.s in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38B9014E8E59200DBF0A2 /* deblock_CtxA8.s */; };
+		3CF38B9B14E8E59200DBF0A2 /* fillEdge_CtxA8.S in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38B9114E8E59200DBF0A2 /* fillEdge_CtxA8.S */; };
+		3CF38B9C14E8E59200DBF0A2 /* IDCT_CtxA8.s in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38B9214E8E59200DBF0A2 /* IDCT_CtxA8.s */; };
+		3CF38B9D14E8E59200DBF0A2 /* interpolate4_Chroma_CtxA8.s in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38B9314E8E59200DBF0A2 /* interpolate4_Chroma_CtxA8.s */; };
+		3CF38B9E14E8E59200DBF0A2 /* interpolate4_Luma_CtxA8.s in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38B9414E8E59200DBF0A2 /* interpolate4_Luma_CtxA8.s */; };
+		3CF38B9F14E8E59200DBF0A2 /* intraMB_Pred_CtxA8.s in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38B9514E8E59200DBF0A2 /* intraMB_Pred_CtxA8.s */; };
+		3CF38BA014E8E59200DBF0A2 /* memcopy_CtxA8.S in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38B9614E8E59200DBF0A2 /* memcopy_CtxA8.S */; };
+		3CF38BA114E8E59200DBF0A2 /* UVPackMB.s in Sources */ = {isa = PBXBuildFile; fileRef = 3CF38B9714E8E59200DBF0A2 /* UVPackMB.s */; };
+		AA747D9F0F9514B9006C5449 /* voRealVideoDec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voRealVideoDec_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F264A47012DD49EE00DAE46C /* voRealVideoDec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voRealVideoDec_Prefix.pch */; };
+		F264A48212DD4A0200DAE46C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CF38A7C14E8E55100DBF0A2 /* ai.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ai.c; path = ../../src/ai.c; sourceTree = "<group>"; };
+		3CF38A7D14E8E55100DBF0A2 /* ai.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ai.h; path = ../../src/ai.h; sourceTree = "<group>"; };
+		3CF38A8014E8E55E00DBF0A2 /* basic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = basic.c; path = ../../src/basic.c; sourceTree = "<group>"; };
+		3CF38A8114E8E55E00DBF0A2 /* basic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = basic.h; path = ../../src/basic.h; sourceTree = "<group>"; };
+		3CF38A8214E8E55E00DBF0A2 /* bsx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bsx.c; path = ../../src/bsx.c; sourceTree = "<group>"; };
+		3CF38A8314E8E55E00DBF0A2 /* bsx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bsx.h; path = ../../src/bsx.h; sourceTree = "<group>"; };
+		3CF38A8414E8E55E00DBF0A2 /* cinterp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cinterp.c; path = ../../src/cinterp.c; sourceTree = "<group>"; };
+		3CF38A8514E8E55E00DBF0A2 /* cinterp4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cinterp4.c; path = ../../src/cinterp4.c; sourceTree = "<group>"; };
+		3CF38A8614E8E55E00DBF0A2 /* codec_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codec_defines.h; path = ../../src/codec_defines.h; sourceTree = "<group>"; };
+		3CF38A8714E8E55E00DBF0A2 /* deblock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = deblock.c; path = ../../src/deblock.c; sourceTree = "<group>"; };
+		3CF38A8814E8E55E00DBF0A2 /* deblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = deblock.h; path = ../../src/deblock.h; sourceTree = "<group>"; };
+		3CF38A8914E8E55E00DBF0A2 /* deblock8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = deblock8.c; path = ../../src/deblock8.c; sourceTree = "<group>"; };
+		3CF38A8A14E8E55E00DBF0A2 /* dec4x4md.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec4x4md.c; path = ../../src/dec4x4md.c; sourceTree = "<group>"; };
+		3CF38A8B14E8E55E00DBF0A2 /* dec4x4md.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dec4x4md.h; path = ../../src/dec4x4md.h; sourceTree = "<group>"; };
+		3CF38A8C14E8E55E00DBF0A2 /* decdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = decdefs.h; path = ../../src/decdefs.h; sourceTree = "<group>"; };
+		3CF38A8D14E8E55E00DBF0A2 /* decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = decoder.c; path = ../../src/decoder.c; sourceTree = "<group>"; };
+		3CF38A8E14E8E55E00DBF0A2 /* decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = decoder.h; path = ../../src/decoder.h; sourceTree = "<group>"; };
+		3CF38A8F14E8E55E00DBF0A2 /* drv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = drv.c; path = ../../src/drv.c; sourceTree = "<group>"; };
+		3CF38A9014E8E55E00DBF0A2 /* frame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = frame.c; path = ../../src/frame.c; sourceTree = "<group>"; };
+		3CF38A9114E8E55E00DBF0A2 /* frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = frame.h; path = ../../src/frame.h; sourceTree = "<group>"; };
+		3CF38A9214E8E55E00DBF0A2 /* helix_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helix_codec.h; path = ../../src/helix_codec.h; sourceTree = "<group>"; };
+		3CF38A9314E8E55E00DBF0A2 /* helix_result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helix_result.h; path = ../../src/helix_result.h; sourceTree = "<group>"; };
+		3CF38A9414E8E55E00DBF0A2 /* helix_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helix_types.h; path = ../../src/helix_types.h; sourceTree = "<group>"; };
+		3CF38A9514E8E55E00DBF0A2 /* helix_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helix_utils.h; path = ../../src/helix_utils.h; sourceTree = "<group>"; };
+		3CF38A9614E8E55E00DBF0A2 /* idct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = idct.c; path = ../../src/idct.c; sourceTree = "<group>"; };
+		3CF38A9714E8E55E00DBF0A2 /* idct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = idct.h; path = ../../src/idct.h; sourceTree = "<group>"; };
+		3CF38A9814E8E55E00DBF0A2 /* parsebs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parsebs.c; path = ../../src/parsebs.c; sourceTree = "<group>"; };
+		3CF38A9914E8E55E00DBF0A2 /* parsebs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parsebs.h; path = ../../src/parsebs.h; sourceTree = "<group>"; };
+		3CF38A9A14E8E55E00DBF0A2 /* realvdo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = realvdo.h; path = ../../src/realvdo.h; sourceTree = "<group>"; };
+		3CF38A9B14E8E55E00DBF0A2 /* recon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = recon.c; path = ../../src/recon.c; sourceTree = "<group>"; };
+		3CF38A9C14E8E55E00DBF0A2 /* recon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = recon.h; path = ../../src/recon.h; sourceTree = "<group>"; };
+		3CF38A9D14E8E55E00DBF0A2 /* rv_backend_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rv_backend_types.h; path = ../../src/rv_backend_types.h; sourceTree = "<group>"; };
+		3CF38A9E14E8E55E00DBF0A2 /* rv_backend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rv_backend.h; path = ../../src/rv_backend.h; sourceTree = "<group>"; };
+		3CF38A9F14E8E55E00DBF0A2 /* rv_decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rv_decode.c; path = ../../src/rv_decode.c; sourceTree = "<group>"; };
+		3CF38AA014E8E55E00DBF0A2 /* rv_decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rv_decode.h; path = ../../src/rv_decode.h; sourceTree = "<group>"; };
+		3CF38AA114E8E55E00DBF0A2 /* rv_format_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rv_format_info.h; path = ../../src/rv_format_info.h; sourceTree = "<group>"; };
+		3CF38AA214E8E55E00DBF0A2 /* rv30backend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rv30backend.h; path = ../../src/rv30backend.h; sourceTree = "<group>"; };
+		3CF38AA314E8E55E00DBF0A2 /* rv30dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rv30dec.h; path = ../../src/rv30dec.h; sourceTree = "<group>"; };
+		3CF38AA414E8E55E00DBF0A2 /* rvdebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rvdebug.h; path = ../../src/rvdebug.h; sourceTree = "<group>"; };
+		3CF38AA514E8E55E00DBF0A2 /* rvdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rvdefs.h; path = ../../src/rvdefs.h; sourceTree = "<group>"; };
+		3CF38AA614E8E55E00DBF0A2 /* rvfid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rvfid.h; path = ../../src/rvfid.h; sourceTree = "<group>"; };
+		3CF38AA714E8E55E00DBF0A2 /* rvstatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rvstatus.h; path = ../../src/rvstatus.h; sourceTree = "<group>"; };
+		3CF38AA814E8E55E00DBF0A2 /* rvstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rvstruct.h; path = ../../src/rvstruct.h; sourceTree = "<group>"; };
+		3CF38AA914E8E55E00DBF0A2 /* rvtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rvtypes.h; path = ../../src/rvtypes.h; sourceTree = "<group>"; };
+		3CF38AAA14E8E55E00DBF0A2 /* spinterp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spinterp.h; path = ../../src/spinterp.h; sourceTree = "<group>"; };
+		3CF38AAB14E8E55E00DBF0A2 /* tables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tables.c; path = ../../src/tables.c; sourceTree = "<group>"; };
+		3CF38AAC14E8E55E00DBF0A2 /* tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tables.h; path = ../../src/tables.h; sourceTree = "<group>"; };
+		3CF38AAD14E8E55E00DBF0A2 /* voRVDecID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voRVDecID.h; path = ../../src/voRVDecID.h; sourceTree = "<group>"; };
+		3CF38AAE14E8E55E00DBF0A2 /* voRVDecSDK.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voRVDecSDK.c; path = ../../src/voRVDecSDK.c; sourceTree = "<group>"; };
+		3CF38AAF14E8E55E00DBF0A2 /* voRVThread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voRVThread.c; path = ../../src/voRVThread.c; sourceTree = "<group>"; };
+		3CF38AB014E8E55E00DBF0A2 /* voRVThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voRVThread.h; path = ../../src/voRVThread.h; sourceTree = "<group>"; };
+		3CF38B8E14E8E59200DBF0A2 /* ARMV7_rv8_edge_filter.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = ARMV7_rv8_edge_filter.s; path = ../../src/asm/arm_mac/armv7/ARMV7_rv8_edge_filter.s; sourceTree = "<group>"; };
+		3CF38B8F14E8E59200DBF0A2 /* cinterp_rv8.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = cinterp_rv8.s; path = ../../src/asm/arm_mac/armv7/cinterp_rv8.s; sourceTree = "<group>"; };
+		3CF38B9014E8E59200DBF0A2 /* deblock_CtxA8.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = deblock_CtxA8.s; path = ../../src/asm/arm_mac/armv7/deblock_CtxA8.s; sourceTree = "<group>"; };
+		3CF38B9114E8E59200DBF0A2 /* fillEdge_CtxA8.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = fillEdge_CtxA8.S; path = ../../src/asm/arm_mac/armv7/fillEdge_CtxA8.S; sourceTree = "<group>"; };
+		3CF38B9214E8E59200DBF0A2 /* IDCT_CtxA8.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = IDCT_CtxA8.s; path = ../../src/asm/arm_mac/armv7/IDCT_CtxA8.s; sourceTree = "<group>"; };
+		3CF38B9314E8E59200DBF0A2 /* interpolate4_Chroma_CtxA8.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = interpolate4_Chroma_CtxA8.s; path = ../../src/asm/arm_mac/armv7/interpolate4_Chroma_CtxA8.s; sourceTree = "<group>"; };
+		3CF38B9414E8E59200DBF0A2 /* interpolate4_Luma_CtxA8.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = interpolate4_Luma_CtxA8.s; path = ../../src/asm/arm_mac/armv7/interpolate4_Luma_CtxA8.s; sourceTree = "<group>"; };
+		3CF38B9514E8E59200DBF0A2 /* intraMB_Pred_CtxA8.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = intraMB_Pred_CtxA8.s; path = ../../src/asm/arm_mac/armv7/intraMB_Pred_CtxA8.s; sourceTree = "<group>"; };
+		3CF38B9614E8E59200DBF0A2 /* memcopy_CtxA8.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = memcopy_CtxA8.S; path = ../../src/asm/arm_mac/armv7/memcopy_CtxA8.S; sourceTree = "<group>"; };
+		3CF38B9714E8E59200DBF0A2 /* UVPackMB.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = UVPackMB.s; path = ../../src/asm/arm_mac/armv7/UVPackMB.s; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* voRealVideoDec_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voRealVideoDec_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libvoRealVideoDec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoRealVideoDec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F264A44E12DD49D100DAE46C /* libvoRealVideoDec_ARM7.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoRealVideoDec_ARM7.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F264A44C12DD49D100DAE46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F264A48212DD4A0200DAE46C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libvoRealVideoDec.a */,
+				F264A44E12DD49D100DAE46C /* libvoRealVideoDec_ARM7.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* voRealVideoDec */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = voRealVideoDec;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3CF38A8014E8E55E00DBF0A2 /* basic.c */,
+				3CF38A8114E8E55E00DBF0A2 /* basic.h */,
+				3CF38A8214E8E55E00DBF0A2 /* bsx.c */,
+				3CF38A8314E8E55E00DBF0A2 /* bsx.h */,
+				3CF38A8414E8E55E00DBF0A2 /* cinterp.c */,
+				3CF38A8514E8E55E00DBF0A2 /* cinterp4.c */,
+				3CF38A8614E8E55E00DBF0A2 /* codec_defines.h */,
+				3CF38A8714E8E55E00DBF0A2 /* deblock.c */,
+				3CF38A8814E8E55E00DBF0A2 /* deblock.h */,
+				3CF38A8914E8E55E00DBF0A2 /* deblock8.c */,
+				3CF38A8A14E8E55E00DBF0A2 /* dec4x4md.c */,
+				3CF38A8B14E8E55E00DBF0A2 /* dec4x4md.h */,
+				3CF38A8C14E8E55E00DBF0A2 /* decdefs.h */,
+				3CF38A8D14E8E55E00DBF0A2 /* decoder.c */,
+				3CF38A8E14E8E55E00DBF0A2 /* decoder.h */,
+				3CF38A8F14E8E55E00DBF0A2 /* drv.c */,
+				3CF38A9014E8E55E00DBF0A2 /* frame.c */,
+				3CF38A9114E8E55E00DBF0A2 /* frame.h */,
+				3CF38A9214E8E55E00DBF0A2 /* helix_codec.h */,
+				3CF38A9314E8E55E00DBF0A2 /* helix_result.h */,
+				3CF38A9414E8E55E00DBF0A2 /* helix_types.h */,
+				3CF38A9514E8E55E00DBF0A2 /* helix_utils.h */,
+				3CF38A9614E8E55E00DBF0A2 /* idct.c */,
+				3CF38A9714E8E55E00DBF0A2 /* idct.h */,
+				3CF38A9814E8E55E00DBF0A2 /* parsebs.c */,
+				3CF38A9914E8E55E00DBF0A2 /* parsebs.h */,
+				3CF38A9A14E8E55E00DBF0A2 /* realvdo.h */,
+				3CF38A9B14E8E55E00DBF0A2 /* recon.c */,
+				3CF38A9C14E8E55E00DBF0A2 /* recon.h */,
+				3CF38A9D14E8E55E00DBF0A2 /* rv_backend_types.h */,
+				3CF38A9E14E8E55E00DBF0A2 /* rv_backend.h */,
+				3CF38A9F14E8E55E00DBF0A2 /* rv_decode.c */,
+				3CF38AA014E8E55E00DBF0A2 /* rv_decode.h */,
+				3CF38AA114E8E55E00DBF0A2 /* rv_format_info.h */,
+				3CF38AA214E8E55E00DBF0A2 /* rv30backend.h */,
+				3CF38AA314E8E55E00DBF0A2 /* rv30dec.h */,
+				3CF38AA414E8E55E00DBF0A2 /* rvdebug.h */,
+				3CF38AA514E8E55E00DBF0A2 /* rvdefs.h */,
+				3CF38AA614E8E55E00DBF0A2 /* rvfid.h */,
+				3CF38AA714E8E55E00DBF0A2 /* rvstatus.h */,
+				3CF38AA814E8E55E00DBF0A2 /* rvstruct.h */,
+				3CF38AA914E8E55E00DBF0A2 /* rvtypes.h */,
+				3CF38AAA14E8E55E00DBF0A2 /* spinterp.h */,
+				3CF38AAB14E8E55E00DBF0A2 /* tables.c */,
+				3CF38AAC14E8E55E00DBF0A2 /* tables.h */,
+				3CF38AAD14E8E55E00DBF0A2 /* voRVDecID.h */,
+				3CF38AAE14E8E55E00DBF0A2 /* voRVDecSDK.c */,
+				3CF38AAF14E8E55E00DBF0A2 /* voRVThread.c */,
+				3CF38AB014E8E55E00DBF0A2 /* voRVThread.h */,
+				3CF38A7C14E8E55100DBF0A2 /* ai.c */,
+				3CF38A7D14E8E55100DBF0A2 /* ai.h */,
+				F264A4E512DD4AB900DAE46C /* ARMV7 */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* voRealVideoDec_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F264A4E512DD4AB900DAE46C /* ARMV7 */ = {
+			isa = PBXGroup;
+			children = (
+				3CF38B8E14E8E59200DBF0A2 /* ARMV7_rv8_edge_filter.s */,
+				3CF38B8F14E8E59200DBF0A2 /* cinterp_rv8.s */,
+				3CF38B9014E8E59200DBF0A2 /* deblock_CtxA8.s */,
+				3CF38B9114E8E59200DBF0A2 /* fillEdge_CtxA8.S */,
+				3CF38B9214E8E59200DBF0A2 /* IDCT_CtxA8.s */,
+				3CF38B9314E8E59200DBF0A2 /* interpolate4_Chroma_CtxA8.s */,
+				3CF38B9414E8E59200DBF0A2 /* interpolate4_Luma_CtxA8.s */,
+				3CF38B9514E8E59200DBF0A2 /* intraMB_Pred_CtxA8.s */,
+				3CF38B9614E8E59200DBF0A2 /* memcopy_CtxA8.S */,
+				3CF38B9714E8E59200DBF0A2 /* UVPackMB.s */,
+			);
+			name = ARMV7;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* voRealVideoDec_Prefix.pch in Headers */,
+				3CF38A7F14E8E55100DBF0A2 /* ai.h in Headers */,
+				3CF38AB214E8E55E00DBF0A2 /* basic.h in Headers */,
+				3CF38AB414E8E55E00DBF0A2 /* bsx.h in Headers */,
+				3CF38AB714E8E55E00DBF0A2 /* codec_defines.h in Headers */,
+				3CF38AB914E8E55E00DBF0A2 /* deblock.h in Headers */,
+				3CF38ABC14E8E55E00DBF0A2 /* dec4x4md.h in Headers */,
+				3CF38ABD14E8E55E00DBF0A2 /* decdefs.h in Headers */,
+				3CF38ABF14E8E55E00DBF0A2 /* decoder.h in Headers */,
+				3CF38AC214E8E55E00DBF0A2 /* frame.h in Headers */,
+				3CF38AC314E8E55E00DBF0A2 /* helix_codec.h in Headers */,
+				3CF38AC414E8E55E00DBF0A2 /* helix_result.h in Headers */,
+				3CF38AC514E8E55E00DBF0A2 /* helix_types.h in Headers */,
+				3CF38AC614E8E55E00DBF0A2 /* helix_utils.h in Headers */,
+				3CF38AC814E8E55E00DBF0A2 /* idct.h in Headers */,
+				3CF38ACA14E8E55E00DBF0A2 /* parsebs.h in Headers */,
+				3CF38ACB14E8E55E00DBF0A2 /* realvdo.h in Headers */,
+				3CF38ACD14E8E55E00DBF0A2 /* recon.h in Headers */,
+				3CF38ACE14E8E55E00DBF0A2 /* rv_backend_types.h in Headers */,
+				3CF38ACF14E8E55E00DBF0A2 /* rv_backend.h in Headers */,
+				3CF38AD114E8E55E00DBF0A2 /* rv_decode.h in Headers */,
+				3CF38AD214E8E55E00DBF0A2 /* rv_format_info.h in Headers */,
+				3CF38AD314E8E55E00DBF0A2 /* rv30backend.h in Headers */,
+				3CF38AD414E8E55E00DBF0A2 /* rv30dec.h in Headers */,
+				3CF38AD514E8E55E00DBF0A2 /* rvdebug.h in Headers */,
+				3CF38AD614E8E55E00DBF0A2 /* rvdefs.h in Headers */,
+				3CF38AD714E8E55E00DBF0A2 /* rvfid.h in Headers */,
+				3CF38AD814E8E55E00DBF0A2 /* rvstatus.h in Headers */,
+				3CF38AD914E8E55E00DBF0A2 /* rvstruct.h in Headers */,
+				3CF38ADA14E8E55E00DBF0A2 /* rvtypes.h in Headers */,
+				3CF38ADB14E8E55E00DBF0A2 /* spinterp.h in Headers */,
+				3CF38ADD14E8E55E00DBF0A2 /* tables.h in Headers */,
+				3CF38ADE14E8E55E00DBF0A2 /* voRVDecID.h in Headers */,
+				3CF38AE114E8E55E00DBF0A2 /* voRVThread.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F264A44A12DD49D100DAE46C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F264A47012DD49EE00DAE46C /* voRealVideoDec_Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* voRealVideoDec_C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voRealVideoDec_C" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voRealVideoDec_C;
+			productName = voRealVideoDec;
+			productReference = D2AAC07E0554694100DB518D /* libvoRealVideoDec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F264A44D12DD49D100DAE46C /* voRealVideoDec_ARM7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F264A4D612DD4A4000DAE46C /* Build configuration list for PBXNativeTarget "voRealVideoDec_ARM7" */;
+			buildPhases = (
+				F264A44A12DD49D100DAE46C /* Headers */,
+				F264A44B12DD49D100DAE46C /* Sources */,
+				F264A44C12DD49D100DAE46C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voRealVideoDec_ARM7;
+			productName = voRealVideoDec_ARM7;
+			productReference = F264A44E12DD49D100DAE46C /* libvoRealVideoDec_ARM7.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voRealVideoDec" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* voRealVideoDec */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* voRealVideoDec_C */,
+				F264A44D12DD49D100DAE46C /* voRealVideoDec_ARM7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF38A7E14E8E55100DBF0A2 /* ai.c in Sources */,
+				3CF38AB114E8E55E00DBF0A2 /* basic.c in Sources */,
+				3CF38AB314E8E55E00DBF0A2 /* bsx.c in Sources */,
+				3CF38AB514E8E55E00DBF0A2 /* cinterp.c in Sources */,
+				3CF38AB614E8E55E00DBF0A2 /* cinterp4.c in Sources */,
+				3CF38AB814E8E55E00DBF0A2 /* deblock.c in Sources */,
+				3CF38ABA14E8E55E00DBF0A2 /* deblock8.c in Sources */,
+				3CF38ABB14E8E55E00DBF0A2 /* dec4x4md.c in Sources */,
+				3CF38ABE14E8E55E00DBF0A2 /* decoder.c in Sources */,
+				3CF38AC014E8E55E00DBF0A2 /* drv.c in Sources */,
+				3CF38AC114E8E55E00DBF0A2 /* frame.c in Sources */,
+				3CF38AC714E8E55E00DBF0A2 /* idct.c in Sources */,
+				3CF38AC914E8E55E00DBF0A2 /* parsebs.c in Sources */,
+				3CF38ACC14E8E55E00DBF0A2 /* recon.c in Sources */,
+				3CF38AD014E8E55E00DBF0A2 /* rv_decode.c in Sources */,
+				3CF38ADC14E8E55E00DBF0A2 /* tables.c in Sources */,
+				3CF38ADF14E8E55E00DBF0A2 /* voRVDecSDK.c in Sources */,
+				3CF38AE014E8E55E00DBF0A2 /* voRVThread.c in Sources */,
+				3CF38B9814E8E59200DBF0A2 /* ARMV7_rv8_edge_filter.s in Sources */,
+				3CF38B9914E8E59200DBF0A2 /* cinterp_rv8.s in Sources */,
+				3CF38B9A14E8E59200DBF0A2 /* deblock_CtxA8.s in Sources */,
+				3CF38B9B14E8E59200DBF0A2 /* fillEdge_CtxA8.S in Sources */,
+				3CF38B9C14E8E59200DBF0A2 /* IDCT_CtxA8.s in Sources */,
+				3CF38B9D14E8E59200DBF0A2 /* interpolate4_Chroma_CtxA8.s in Sources */,
+				3CF38B9E14E8E59200DBF0A2 /* interpolate4_Luma_CtxA8.s in Sources */,
+				3CF38B9F14E8E59200DBF0A2 /* intraMB_Pred_CtxA8.s in Sources */,
+				3CF38BA014E8E59200DBF0A2 /* memcopy_CtxA8.S in Sources */,
+				3CF38BA114E8E59200DBF0A2 /* UVPackMB.s in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F264A44B12DD49D100DAE46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voRealVideoDec.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voRealVideoDec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = _IOS;
+				HEADER_SEARCH_PATHS = ../../../../../../Include;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voRealVideoDec;
+				USER_HEADER_SEARCH_PATHS = "../../src/** ../../../../../../Include/** ../../src/asm/**";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../voRelease/iOS/static/v7;
+				DSTROOT = /tmp/voRealVideoDec.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voRealVideoDec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = _IOS;
+				HEADER_SEARCH_PATHS = (
+					../../../../../../Include,
+					../../src,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = voRealVideoDec;
+				USER_HEADER_SEARCH_PATHS = "../../src/** ../../../../../../Include/** ../../src/asm/**";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F264A44F12DD49D200DAE46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = voRealVideoDec_ARM7;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F264A45012DD49D200DAE46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../voRelease/iOS/static/v7;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CPK,
+					VOARMV7,
+					_IOS,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../../Include,
+					../../src,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = voRealVideoDec;
+				SDKROOT = iphoneos;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voRealVideoDec_C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voRealVideoDec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F264A4D612DD4A4000DAE46C /* Build configuration list for PBXNativeTarget "voRealVideoDec_ARM7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F264A44F12DD49D200DAE46C /* Debug */,
+				F264A45012DD49D200DAE46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

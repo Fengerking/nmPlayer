@@ -1,0 +1,542 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this source code is subject to the terms of the Microsoft end-user
+// license agreement (EULA) under which you licensed this SOFTWARE PRODUCT.
+// If you did not accept the terms of the EULA, you are not authorized to use
+// this source code. For a copy of the EULA, please see the LICENSE.RTF on your
+// install media.
+//
+//==========================================================================;
+//
+//  THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY
+//  KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+//  IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR
+//  PURPOSE.
+//
+//
+//--------------------------------------------------------------------------;
+import	"unknwn.idl";
+import	"objidl.idl";
+import	"axcore.idl";			// for media type and time definitions
+
+interface ICutList;
+interface ICutListElement;
+interface ICutListSourceFilter;
+interface IFileCutListElement;
+interface IVideoCutListElement;
+interface IVidFXCutListElement;
+interface IAudioCutListElement;
+
+
+//======================================================================
+//======================================================================
+//						ICutListSourceFilter
+//======================================================================
+//======================================================================
+[
+        object,
+        uuid(021FC14A-B03C-11d0-BD1D-00C04FB6B815),
+        pointer_default(unique)
+]
+interface ICutListSourceFilter : IUnknown {
+	HRESULT SetCutList(
+		[in] ICutList	*pCutList,
+		[in] const AM_MEDIA_TYPE *pmt
+	);
+
+	HRESULT GetCutList(
+		[out] ICutList	**ppCutlist
+	);
+
+	HRESULT Sync(void);
+}
+
+
+//======================================================================
+//======================================================================
+//				 				ICutList
+//======================================================================
+//======================================================================
+[
+        object,
+        uuid(021FC14B-B03C-11d0-BD1D-00C04FB6B815),
+        pointer_default(unique)
+]
+interface ICutList : IUnknown {
+	HRESULT	GetFirstElement (
+		[out] ICutListElement **ppElement
+	);
+
+	HRESULT GetNextElement (
+		[out] ICutListElement **ppElement
+	);
+
+	HRESULT GetPreviousElement (
+		[out] ICutListElement **ppElement
+	);
+
+	HRESULT GetLastElement (
+		[out] ICutListElement **ppElement
+	);
+
+    HRESULT GetSpecifiedElement(
+    	[in] LONGLONG	timeSeek,
+		[out] ICutListElement ** ppElement
+    );
+
+    HRESULT GetDuration(
+    	[out] LONGLONG * pTimeStart
+    );
+
+}
+
+
+
+
+//======================================================================
+//======================================================================
+//			 				ICutListElement
+//======================================================================
+//======================================================================
+[
+        object,
+        uuid(021FC14C-B03C-11d0-BD1D-00C04FB6B815),
+        pointer_default(unique)
+]
+interface ICutListElement : IUnknown
+{
+	HRESULT	GetElementStartPosition(
+		[out] LONGLONG	*ptimeStart
+	);
+
+	HRESULT	GetElementDuration(
+		[out] LONGLONG	*ptimeStart
+	);
+
+	HRESULT	IsFirstElement(void);
+
+	HRESULT	IsLastElement(void);
+
+	HRESULT	IsNull(void);
+}
+
+
+
+//======================================================================
+//======================================================================
+//				 			IFileCutListElement
+//======================================================================
+//======================================================================
+[
+        object,
+        uuid(021FC14D-B03C-11d0-BD1D-00C04FB6B815),
+        pointer_default(unique)
+]
+interface IFileCutListElement : IUnknown
+{
+	HRESULT GetFileName(
+		[out] LPWSTR	*ppwstrFileName
+	);
+
+	HRESULT	GetTrimInPosition(
+		[out] LONGLONG	*ptimeTrimIn
+	);
+
+	HRESULT	GetTrimOutPosition(
+		[out] LONGLONG	*ptimeTrimOut
+	);
+
+	HRESULT	GetOriginPosition(
+		[out] LONGLONG	*ptimeOrigin
+	);
+
+	HRESULT GetTrimLength(
+		[out] LONGLONG	*ptimeLength
+	);
+
+	HRESULT GetElementSplitOffset(
+		[out] LONGLONG	*ptimeOffset
+	);
+}
+
+
+
+//======================================================================
+//======================================================================
+//				 			IVideoCutlistElement
+//======================================================================
+//======================================================================
+[
+        object,
+        uuid(021FC14E-B03C-11d0-BD1D-00C04FB6B815),
+        pointer_default(unique)
+]
+interface IVideoCutListElement : IUnknown
+{
+	HRESULT	IsSingleFrame(void);
+
+	HRESULT GetStreamIndex(
+		[out] DWORD	*piStream
+	);
+}
+
+
+
+//======================================================================
+//======================================================================
+//				 			IVidFXCutListElement
+//======================================================================
+//======================================================================
+[
+        object,
+        uuid(021FC14F-B03C-11d0-BD1D-00C04FB6B815),
+        pointer_default(unique)
+]
+interface IVidFXCutListElement : IUnknown
+{
+	HRESULT	GetStorageName(
+		[out] LPWSTR	*ppwstrStorageName
+	);
+}
+
+
+
+//======================================================================
+//======================================================================
+//							IAudioCutListElement
+//======================================================================
+//======================================================================
+[
+        object,
+        uuid(021FC150-B03C-11d0-BD1D-00C04FB6B815),
+        pointer_default(unique)
+]
+interface IAudioCutListElement : IUnknown
+{
+	HRESULT	GetStreamIndex(
+		[out] DWORD		*piStream
+	);
+
+	HRESULT	HasFadeIn(void);
+
+	HRESULT	HasFadeOut(void);
+}
+
+
+#ifdef ICutListGraphBuilder
+//======================================================================
+//======================================================================
+//							ICutListGraphBuilder
+//======================================================================
+//======================================================================
+[
+        object,
+        uuid(826CE890-B042-11d0-BD1D-00C04FB6B815),
+        pointer_default(unique)
+]
+interface ICutListGraphBuilder : IUnknown {
+
+	HRESULT	SetFilterGraph(
+		[in]	IGraphBuilder	*pfg		// GraphBuilder is derived from FilterGraph
+	);										// and exposes methods for automatically
+											// connecting filters
+
+	HRESULT GetFilterGraph(
+		[out]	IGraphBuilder	*ppfg		// Returns the current GraphBuilder 
+	);
+
+	HRESULT SetCutList(						// This method is called when the caller
+		[in]	ICutList		*pCutlist;	// wants to implement the ICutList methods
+	);										// himself. i.e.: It will act as the ICutList
+											// server
+
+	HRESULT SetElements(
+		[in]	DWORD			cbElements, // This method allows the caller to send
+		[in,size_is(cbElement)]				// a set of cutlist element descriptors so
+				ELEMDESC		*rgDesc;	// that it doesn't have to bother with implementing
+	);										// ICutList and all of the attendant interfaces
+											// e.g.: IFileCutListElement, IVideoCutListElement..
+
+    HRESULT SetOutputFileName(				// This method is called to indicate that
+		[in] GUID *pType,					// we should build a graph which outputs to
+		[in] LPCOLESTR lpstrFile,			// a file. In order to do this we will need
+		[out] IBaseFilter **ppf,			// the MEDIASUBTYPE & filename, as well as the
+        [out] IFileSinkFilter **pSink);		// mux & file-writer which will both be added
+											// to the graph.
+
+	HRESULT RenderCutlist(					// This method is called to connect the
+		[in] IBaseFilter *pMCompressor,		// source, compressor, and renderer sections
+		[in] IBaseFilter *pfRenderer		// together. In the case of playback these
+	);										// parameters are NULL.
+
+    HRESULT ControlPlayback(				// This method controls the playback of the
+		[in] REFTIME start,					// cutlist. Caller can specify either an
+		[in] REFTIME stop,					// event or window message type for notifcations
+		[in] int notification,
+		[in] HANDLE h,
+		[in] int iMessage
+	);
+	
+	HRESULT	Progess(
+		[out] LONGLONG	*pTime;
+	);
+
+	HRESULT Duration(
+		[out] LONGLONG	*pTime;
+	);
+}
+
+
+//======================================================================
+//======================================================================
+//								ICutListClip
+//======================================================================
+//======================================================================
+[
+        object,
+        uuid(826CE891-B042-11d0-BD1D-00C04FB6B815),
+        pointer_default(unique)
+]
+interface ICutListClip : IUnknown {
+	HRESULT	Initialize(
+		[in]  LPWSTR	pwstrFileName,
+		[out] DWORD		*pcStreams;
+	);
+	
+	HRESULT AddStream(
+		[in]  DWORD		dwStreamNumber
+	);
+
+	HRESULT FindStream(
+		[in]  CMediaType	*pmtType;
+		[in]  DWORD			dwStartStream;
+		[out] DWORD			*pStreamNum;
+    );
+
+	HRESULT MakeCuts(
+		[in]  LONGLONG		mtTrimIn;
+		[in]  LONGLONG		mtTrimOut;
+		[in]  LONGLONG		mtTrimLength;
+		[in]  LONGLONG		mtOrigin;
+		[in,out] ELEMDESC	*pDesc;
+	);
+}
+
+
+//======================================================================
+//======================================================================
+//								ICutDescriptor
+//======================================================================
+//======================================================================
+[
+        object,
+        uuid(826CE892-B042-11d0-BD1D-00C04FB6B815),
+        pointer_default(unique)
+]
+interface ICutDescriptor : IPersist {
+	HRESULT CreateDescriptors(
+		[in]  DWORD			cDescriptors;
+		[out] ELEMDESC		*pDesc
+	);
+
+	HRESULT AddInfo(
+		[in]  ELEMDESC		*pDesc,
+		[in]  CLSID			pInterface,
+		[in]  DWORD			cbSize,
+		[in, size_is(cbSize)]
+			  BYTE			*pbInfo;
+	);
+}
+
+
+//======================================================================
+//======================================================================
+//							  IStandardCutList
+//======================================================================
+//======================================================================
+[
+        object,
+		uuid(7CF866A2-5BE7-11cf-A5E7-0020AF053D8F);
+        pointer_default(unique)
+]
+interface IStandardCutList : public IUnknown
+{
+	public:
+		virtual HRESULT __stdcall AddElement(
+				/* [in] */			ICutListElement	*pElement,
+				/* [in] */			MediaTime		mtStart,
+				/* [in] */			MediaTime		mtDuration)=0;
+
+		virtual HRESULT __stdcall RemoveElement(
+				/* [in] */			ICutListElement	*pElement)=0;
+		
+		virtual HRESULT __stdcall AdviseSeek(
+				/* [in] */			ICutList		*pCutList)=0;
+
+		virtual HRESULT __stdcall GetNextElement(
+				/* [in][out] */		ICutListElement	**ppElement)=0;
+		
+		virtual HRESULT __stdcall SetMediaType(
+				/* [in] */			AM_MEDIA_TYPE *pmt)=0;
+
+		virtual HRESULT __stdcall GetMediaType(
+				/* [in] */			AM_MEDIA_TYPE *pmt)=0;
+};
+
+
+//======================================================================
+//======================================================================
+//								IFileClip
+//======================================================================
+//======================================================================
+[
+        object,
+		uuid(7CF866A3-5BE7-11cf-A5E7-0020AF053D8F);
+        pointer_default(unique)
+]
+interface IFileClip : public IUnknown
+{
+	public:
+		virtual HRESULT __stdcall SetFileAndStream(
+				/* [in] */			LPWSTR	wstrFileName,
+				/* [in] */			DWORD	streamNum) = 0;
+		
+		virtual HRESULT __stdcall CreateCut(
+				/* [out] */			ICutListElement	**ppElement,
+				/* [in] */			MediaTime	mtTrimIn,
+				/* [in] */			MediaTime	mtTrimOut,
+				/* [in] */			MediaTime	mtOrigin,
+				/* [in] */			MediaTime	mtLength,
+				/* [in] */			MediaTime	mtOffset) = 0;
+
+		virtual HRESULT __stdcall GetMediaType(
+				/* [out] */			AM_MEDIA_TYPE	*pmt) = 0;
+};
+
+
+//======================================================================
+//======================================================================
+//								IElementInfo
+//======================================================================
+//======================================================================
+[
+        object,
+		uuid(7CF866A4-5BE7-11cf-A5E7-0020AF053D8F);
+        pointer_default(unique)
+]
+interface IElementInfo : public IUnknown
+{
+	public:
+		virtual HRESULT __stdcall SetInformation(
+				/* [in] */			REFIID	riid,
+				/* [size_is][in] */	LPBYTE	pData,
+									DWORD	cbData) = 0;
+		
+		virtual HRESULT __stdcall GetInformation(
+				/* [in] */			REFIID	riid,
+				/* [size_is][in] */	LPBYTE	pData,
+				/* [in][out] */		LPDWORD	lpcbData) = 0;
+};
+
+
+//======================================================================
+//======================================================================
+//							IElementDefinition
+//======================================================================
+//======================================================================
+[
+        object,
+		uuid(7CF866A1-5BE7-11cf-A5E7-0020AF053D8F);
+        pointer_default(unique)
+]
+interface IElementDefinition : public IElementInfo
+{
+	public:
+		virtual HRESULT __stdcall AddInterface(
+				/* [in] */			REFIID	riid,
+				/* [in] */			IUnknown *pUnk,
+				/* [in] */			DWORD	dwType) = 0;
+		
+		virtual HRESULT __stdcall CloneType(
+				/* [out] */			IElementDefinition **pDef ) = 0;
+		
+};
+
+//======================================================================
+//======================================================================
+//							 ICutListGraphBuilder
+//======================================================================
+//======================================================================
+[
+        object,
+		uuid(7CF866A5-5BE7-11cf-A5E7-0020AF053D8F);
+        pointer_default(unique)
+]
+interface ICutListGraphBuilder : public IUnknown
+{
+public:
+		virtual HRESULT __stdcall SetFilterGraph(
+				/*[in]*/	IFilterGraph	*pFilterGraph)=0;
+
+		virtual HRESULT __stdcall GetFilterGraph(
+				/*[out]*/	IFilterGraph	**ppFilterGraph)=0;
+		
+		virtual HRESULT __stdcall AddCutList(
+				/*[in]*/	IStandardCutList 	*pCutList,
+				/*[out]*/	IPin			**ppPin)=0;
+		
+		virtual HRESULT __stdcall RemoveCutList(
+				/*[in]*/	IStandardCutList 	*pCutList)=0;
+		
+		virtual HRESULT __stdcall AddCutListProvider(
+				/*[in]*/	ICutList		*pCutList,
+				/*[in]*/	AM_MEDIA_TYPE	*pmt)=0;
+		
+		virtual HRESULT __stdcall SetOutputFileName(
+				/*[in]*/	const GUID	*pType,
+				/*[in]*/	LPCOLESTR	lpwstrFile,
+				/*[in]*/	IBaseFilter	**ppf,
+				/*[in]*/	IFileSinkFilter	**pSink) = 0;
+		
+		virtual HRESULT __stdcall Render(void) = 0;
+
+		virtual HRESULT __stdcall GetElementFlags(
+				/*[in]*/	ICutListElement *pElement,
+				/*[out]*/	LPDWORD lpdwFlags) = 0;
+		
+		virtual HRESULT __stdcall SetElementFlags(
+				/*[in]*/	ICutListElement *pElement,
+				/*[in]*/	DWORD dwANDFlags,
+				/*[in]*/	DWORD dwORFlags) = 0;
+		
+		virtual HRESULT __stdcall SetCutListElement(
+				/*[in]*/	ICutListElement *pElement,
+				/*[in]*/	MediaTime mtStart,
+				/*[in]*/	MediaTime mtDuration) =0;
+};
+
+//======================================================================
+//======================================================================
+//								INotifyCallback
+//======================================================================
+//======================================================================
+[
+        object,
+		uuid(7CF866B0-5BE7-11cf-A5E7-0020AF053D8F);
+        pointer_default(unique)
+]
+interface INotifyCallback : public IUnknown
+{
+    public:
+        virtual HRESULT __stdcall GetOnPlay(
+            /* [out] */ CLCallback	*pCallback) = 0;
+		
+        virtual HRESULT __stdcall GetOnStop(
+            /* [out] */ CLCallback	*pCallback) = 0;
+
+};
+    
+
+#endif

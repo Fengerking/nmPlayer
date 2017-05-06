@@ -1,0 +1,11 @@
+# Build both ARMv5TE and ARMv7-A machine code.
+APP_CFLAGS := -O3
+APP_ABI := armeabi-v7a
+
+# release/debug
+APP_OPTIM := release
+
+# VisualOn Info
+VOSDKVER := 3.0.0.0
+VOBRANCH := master 
+VOSRCNO := 11803 

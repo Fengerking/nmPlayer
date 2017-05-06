@@ -1,0 +1,38 @@
+# This file is a configure file for which customer will be packaged.
+# To enable a customer to get in:
+# Just put customer foler name under SVNRoot/App/Customers, add leading # sign to disable it.
+VisualOn
+VisualOnAPI3
+Ericsson
+EricssonAPI3
+CBSMobile
+Discretix
+VisualOnEvaluationA
+VisualOnEvaluationV
+ESPN
+Amazon-Lab126
+Moto
+CJ
+Anvia
+Nextscape
+TVB
+MyGate
+Azuki
+VerizonDMS
+CHT_HLS_PoC
+CHT_HLS_MOD
+Siminn
+Maxim
+Brightcove
+Minerva
+CableVision
+ATTAPI3
+Amazon-AIV
+ClearChannel
+Labs
+FetchTV
+TeliaSonera
+MagyarTelekom
+SlovakTelekom
+WebStream
+

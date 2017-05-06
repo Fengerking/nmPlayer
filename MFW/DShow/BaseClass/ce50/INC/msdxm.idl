@@ -1,0 +1,394 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this source code is subject to the terms of your Microsoft Windows CE
+// Source Alliance Program license form.  If you did not accept the terms of
+// such a license, you are not authorized to use this source code.
+//
+//==========================================================================;
+//==========================================================================;
+// msdxm.idl
+
+#include <olectl.h>
+#include "..\inc\dsdispid.h"
+#include "dispid.h"
+import "oaidl.idl";
+import "ocidl.idl";
+import "dxmplay.idl";
+import "nsplay.idl";
+import "amovie.idl";
+import "mpdvd.idl";
+import "bmedia.idl";
+	
+
+// msdxm.idl : IDL source for msdxm.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (msdxm.tlb) and marshalling code.
+
+[
+    uuid(22D6F304-B0F6-11D0-94AB-0080C74C7E95),
+    version(1.0),
+    helpstring("Windows Media Player")
+]
+library MediaPlayer
+{
+    importlib("stdole32.tlb");
+    importlib("stdole2.tlb");
+	[
+		uuid(39A2C2A7-4778-11D2-9BDB-204C4F4F5020),
+		helpstring("_IDirectControlEvents Interface")
+	]
+	dispinterface _IDirectControlEvents
+	{
+		properties:
+		methods:
+	};
+
+	[
+		uuid(39A2C2A6-4778-11D2-9BDB-204C4F4F5020),
+		helpstring("DirectControl Class")
+	]
+	coclass DirectControl
+	{
+		[default] interface IDirectControl;
+		[default, source] dispinterface _IDirectControlEvents;
+	};
+
+	[
+		uuid(39A2C2AA-4778-11D2-9BDB-204C4F4F5020),
+		helpstring("_IDirectContainerEvents Interface")
+	]
+	dispinterface _IDirectContainerEvents
+	{
+		properties:
+		methods:
+	};
+	
+	[
+		uuid(39A2C2A9-4778-11D2-9BDB-204C4F4F5020),
+		helpstring("DirectContainer Class")
+	]
+	coclass DirectContainer
+	{
+		[default] interface IDirectContainer;
+		[default, source] dispinterface _IDirectContainerEvents;
+	};
+#ifdef WMPRADIO
+	[
+		uuid(847B4DF6-4B61-11D2-9BDB-204C4F4F5020),
+		helpstring("_IRadioViewEvents Interface")
+	]
+	dispinterface _IRadioViewEvents
+	{
+		properties:
+		methods:
+	};
+
+	[
+		uuid(847B4DF5-4B61-11D2-9BDB-204C4F4F5020),
+		helpstring("RadioView Class")
+	]
+	coclass RadioView
+	{
+		[default] interface IRadioView;
+		[default, source] dispinterface _IRadioViewEvents;
+	};
+#endif    
+    [
+    	uuid(2D3A4C40-E711-11d0-94AB-0080C74C7E95),
+    	helpstring("Event interface for Windows Media Player control"),
+    	hidden
+    ]
+    dispinterface _MediaPlayerEvents
+    {
+	properties:
+	methods:
+
+	// New MediaPlayer Events
+
+	[id(DISPID_DVDNOTIFY), helpstring("DVD related notifications")]
+		void DVDNotify( [in] long EventCode, [in] long EventParam1, [in] long EventParam2 );
+
+	[ id( DISPID_ENDOFSTREAM ), helpstring( "Sent when the end of file is reached" ) ]
+	    void EndOfStream( [in] long Result );
+
+
+	[ id( DISPID_KEYDOWN ), helpstring( "Sent when a key is pressed" ) ]
+	    void KeyDown( [in] short KeyCode,
+			  [in] short ShiftState );
+
+	[ id( DISPID_KEYUP ), helpstring( "Sent when a key is released" ) ]
+	    void KeyUp( [in] short KeyCode,
+			[in] short ShiftState );
+
+	[ id( DISPID_KEYPRESS ), helpstring( "Sent when a character is entered" ) ]
+	    void KeyPress( [in] short CharacterCode );
+
+	[ id( DISPID_MOUSEMOVE ), helpstring( "Sent when the mouse is moved" ) ]
+	    void MouseMove( [in] short Button,
+			    [in] short ShiftState,
+			    [in] OLE_XPOS_PIXELS x,
+			    [in] OLE_YPOS_PIXELS y );
+
+	[ id( DISPID_MOUSEDOWN ), helpstring( "Sent when a mouse button is pressed" ) ]
+	    void MouseDown( [in] short Button,
+			    [in] short ShiftState,
+			    [in] OLE_XPOS_PIXELS x,
+			    [in] OLE_YPOS_PIXELS y );
+
+	[ id( DISPID_MOUSEUP ), helpstring( "Sent when a mouse button is released" ) ]
+	    void MouseUp( [in] short Button,
+			  [in] short ShiftState,
+			  [in] OLE_XPOS_PIXELS x,
+			  [in] OLE_YPOS_PIXELS y );
+
+	[ id( DISPID_CLICK ), helpstring( "Sent when a mouse button is clicked" ) ]
+	    void Click( [in] short Button,
+			[in] short ShiftState,
+			[in] OLE_XPOS_PIXELS x,
+			[in] OLE_YPOS_PIXELS y );
+
+	[ id( DISPID_DBLCLICK ), helpstring( "Sent when a mouse button is double clicked" ) ]
+	    void DblClick( [in] short Button,
+			   [in] short ShiftState,
+			   [in] OLE_XPOS_PIXELS x,
+			   [in] OLE_YPOS_PIXELS y );
+
+	[ id( DISPID_OPENSTATECHANGE ), helpstring( "Sent when the control changes OpenState" ) ]
+	    void OpenStateChange( [in] long OldState,
+				  [in] long NewState );
+
+	[ id( DISPID_PLAYSTATECHANGE ), helpstring( "Sent when the control changes PlayState" ) ]
+	    void PlayStateChange( [in] long OldState,
+				  [in] long NewState );
+
+	[ id( DISPID_SCRIPTCOMMAND ), helpstring( "Sent when a synchronized command or URL is received" ) ]
+	    void ScriptCommand( [in] BSTR scType,
+				[in] BSTR Param );
+
+	[ id( DISPID_BUFFERING ), helpstring( "Sent when the control begins or ends buffering" ) ]
+	    void Buffering( [in] VARIANT_BOOL Start );
+
+    [ id( DISPID_ERROR ), helpstring( "Sent when the control has an error condition" ) ]
+        void Error();
+
+	[ id( DISPID_MARKERHIT ), helpstring( "Sent when a marker is reached" ) ]
+	    void MarkerHit( [in] long MarkerNum );
+
+	[ id( DISPID_WARNING ), helpstring( "Sent when the control encounters a problem" ) ]
+	    void Warning( [in] long WarningType,
+			  [in] long Param,
+			  [in] BSTR Description );
+
+	[ id( DISPID_NEWSTREAM ), helpstring( "Sent when a new stream is started in a channel" ) ]
+	    void NewStream();
+
+	[ id( DISPID_DISCONNECT ), helpstring( "Sent when the control is disconnected from the server" ) ]
+	    void Disconnect( [in] long Result );
+
+	// ActiveMovie only Events
+	//
+	[id(DISPID_POSITIONCHANGE),
+	 helpstring("Indicates that the current position of the movie has changed")]
+	    void PositionChange([in] double oldPosition, [in] double newPosition);
+
+	[id(DISPID_DISPLAYMODECHANGE),
+	 helpstring("Indicates that the display mode of the movie has changed")]
+	    void DisplayModeChange();
+	[id(DISPID_READYSTATECHANGE),
+	 helpstring("Reports that the ReadyState property of the ActiveMovie Control has changed")]
+	    void ReadyStateChange([in] ReadyStateConstants ReadyState);
+
+    }; // END     dispinterface _MediaPlayerEvents
+
+    [
+    	uuid(22D6F312-B0F6-11D0-94AB-0080C74C7E95),
+    	helpstring("Windows Media Player")
+    ]
+    coclass MediaPlayer
+    {
+    	[default] interface IMediaPlayer2;
+    	[default, source] dispinterface _MediaPlayerEvents;
+#ifdef WMPBIND
+		interface IMediaBindStream;
+#endif
+    };
+
+#ifdef WMPPP
+    [
+    	uuid(5C85DCB0-F967-11D0-81ED-00C04FC99D4C),
+    	helpstring("Windows Media Player Network Property Page")
+    ]
+    coclass ppDShowNet
+    {
+    	interface IUnknown;
+    };
+
+    [
+    	uuid(C0CD59AE-020D-11d1-81F2-00C04FC99D4C),
+    	helpstring("Windows Media Player Playback Property Page")
+    ]
+    coclass ppDShowPlay
+	{
+    	interface IUnknown;
+    };
+
+	[
+		uuid(2FEB9591-50CF-11D1-A6DF-006097C4E476),
+		helpstring("ppDSMeta Class")
+	]
+    coclass ppDSMeta
+    {
+    	interface IUnknown;
+    };
+
+	[
+		uuid(BB314F91-A010-11d1-A75A-006097C4E476),
+		helpstring("ppDSCnnl Class")
+	]
+    coclass ppDSCnnl
+    {
+    	interface IUnknown;
+    };
+
+	[
+		uuid(31C48C31-70B0-11d1-A708-006097C4E476),
+		helpstring("ppDSClip Class")
+	]
+    coclass ppDSClip
+    {
+    	interface IUnknown;
+    };
+
+	[
+		uuid(31C48C32-70B0-11d1-A708-006097C4E476),
+		helpstring("ppDSDetl Class")
+	]
+    coclass ppDSDetl
+    {
+    	interface IUnknown;
+    };
+
+    [
+    	uuid(2AFA62E2-5548-11D1-A6E1-006097C4E476),
+    	helpstring("ppDSApp Class")
+    ]
+    coclass ppDSApp
+    {
+    	interface IUnknown;
+    };
+
+    [
+    	uuid(8C4EB103-516F-11D1-A6DF-006097C4E476),
+    	helpstring("ppDSPropAdv Class")
+    ]
+    coclass ppDSPropAdv
+    {
+    	interface IUnknown;
+    };
+
+    [
+    	uuid(AE1A5812-5230-11D1-A6E0-006097C4E476),
+    	helpstring("ppDSView Class")
+    ]
+    coclass ppDSView
+    {
+    	interface IUnknown;
+    };
+
+    [
+    	uuid(AE1A5813-5230-11D1-A6E0-006097C4E476),
+    	helpstring("ppDSOAdv Class")
+    ]
+    coclass ppDSOAdv
+    {
+    	interface IUnknown;
+    };
+#endif // WMPPP
+
+#ifdef WMPBMEDIA
+	[
+		uuid(3DA2AA3C-3D96-11D2-9BD2-204C4F4F5020),
+		helpstring("_IAsyncPProtEvents Interface")
+	]
+	dispinterface _IAsyncPProtEvents
+	{
+		properties:
+		methods:
+	};
+	[
+		uuid(3DA2AA3B-3D96-11D2-9BD2-204C4F4F5020),
+		helpstring("AsyncPProt Class")
+	]
+	coclass AsyncPProt
+	{
+		[default] interface IAsyncPProt;
+		[default, source] dispinterface _IAsyncPProtEvents;
+	};
+	[
+		uuid(3DA2AA3E-3D96-11D2-9BD2-204C4F4F5020),
+		helpstring("AsyncMHandler Class")
+	]
+	coclass AsyncMHandler
+	{
+		[default] interface IAsyncMHandler;
+	};
+	[
+		uuid(9C2263B1-3E3C-11D2-9BD3-204C4F4F5020),
+		helpstring("_IRadioPlayerEvents Interface")
+	]
+	dispinterface _IRadioPlayerEvents
+	{
+		properties:
+		methods:
+		[ id( DISPID_RADIO_EVENT_PLAYSTATE ) ]
+		HRESULT StateChange( [in] BSTR bszUrl, [in] VARIANT_BOOL fPlay, [in] LONG lVolume, [in] VARIANT_BOOL fMute );
+
+	};
+	[
+		uuid(9C2263B0-3E3C-11D2-9BD3-204C4F4F5020),
+		helpstring("RadioPlayer Class")
+	]
+	coclass RadioPlayer
+	{
+		[default] interface IRadioPlayer;
+		interface IRadioServer;
+		[default, source] dispinterface _IRadioPlayerEvents;
+	};
+	[
+		uuid(8E71888A-423F-11D2-876E-00A0C9082467),
+		helpstring("RadioServer Class")
+	]
+	coclass RadioServer
+	{
+		[default] interface IRadioPlayer;
+		interface IRadioServerControl;
+		interface IMediaPlayerListener;
+
+		[default, source] dispinterface _IRadioPlayerEvents;
+	};
+	[
+		uuid(8E718888-423F-11D2-876E-00A0C9082467),
+		helpstring("RadioBand Class")
+	]
+	coclass RadioBand
+	{
+		interface _IRadioPlayerEvents;
+		[default] interface IRadioBand;
+	};
+#endif //WMPBMEDIA
+
+#ifdef WMPPP
+    [
+        uuid(1D1237A0-6CD6-11d2-96BA-00104B242E64),
+        helpstring("ppDSFile Class")
+    ]
+    coclass ppDSFile
+    {
+        interface IUnknown;
+    };
+#endif
+};

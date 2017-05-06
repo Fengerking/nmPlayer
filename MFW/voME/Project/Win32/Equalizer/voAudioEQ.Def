@@ -1,0 +1,5 @@
+LIBRARY	voOMXEQ.dll
+
+EXPORTS
+	voGetAudioEQHandle	@1
+			

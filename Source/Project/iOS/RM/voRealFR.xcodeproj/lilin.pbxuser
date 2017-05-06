@@ -1,0 +1,119 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = D2AAC07D0554694100DB518D /* voRealFR */;
+		addToTargets = (
+			D2AAC07D0554694100DB518D /* voRealFR */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = F2CCE11F12DB0417002E3D48 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					793,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 316343365;
+			PBXWorkspaceStateSaveDate = 316343365;
+		};
+		perUserProjectItems = {
+			F2CCE96012DD40AA002E3D48 /* PBXTextBookmark */ = F2CCE96012DD40AA002E3D48 /* PBXTextBookmark */;
+			F2CCE96112DD40AA002E3D48 /* PBXTextBookmark */ = F2CCE96112DD40AA002E3D48 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F2CCE11E12DB0417002E3D48 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D2AAC07D0554694100DB518D /* voRealFR */ = {
+		activeExec = 0;
+	};
+	F2CCE11E12DB0417002E3D48 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F2CCE11F12DB0417002E3D48 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F2CCE13912DB04AF002E3D48 /* CRealVideoTrack.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 936}}";
+			sepNavSelRange = "{623, 0}";
+			sepNavVisRange = "{453, 1345}";
+		};
+	};
+	F2CCE15512DB0544002E3D48 /* CBaseTrack.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {572, 1482}}";
+			sepNavSelRange = "{626, 0}";
+			sepNavVisRange = "{419, 403}";
+		};
+	};
+	F2CCE96012DD40AA002E3D48 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2CCE13912DB04AF002E3D48 /* CRealVideoTrack.h */;
+		name = "CRealVideoTrack.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1124;
+		vrLoc = 304;
+	};
+	F2CCE96112DD40AA002E3D48 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2CCE13912DB04AF002E3D48 /* CRealVideoTrack.h */;
+		name = "CRealVideoTrack.h: 28";
+		rLen = 0;
+		rLoc = 623;
+		rType = 0;
+		vrLen = 1345;
+		vrLoc = 453;
+	};
+}

@@ -1,0 +1,5 @@
+LIBRARY	voOMXFS.dll
+
+EXPORTS
+	voGetFileSourceHandle	@1
+			

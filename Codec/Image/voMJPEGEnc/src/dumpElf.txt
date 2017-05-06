@@ -1,0 +1,151 @@
+  Section number ####################################################### 0 ()
+---------------------
+0x04: Section Type -----> SHT_NULL (inactive section header)!!!!!!!!!!!!!!
+
+0x08: Section Flags ----> (0x0)
+0x0C: Memory address ---> 0x0
+0x10: File offset ------> 0x0
+0x14: Section size -----> 0x0
+0x18: Section link -----> 0x0
+0x1C: Section info -----> 0x0
+0x20: Section addralign -----> 0x0
+0x24: Section entsize -----> 0x0
+  Section number ####################################################### 1 (.text)
+---------------------
+0x04: Section Type -----> SHT_PROGBITS (reserved for the program)
+
+0x08: Section Flags ----> |EXEC||ALLOC|(0x6)
+0x0C: Memory address ---> 0x0
+0x10: File offset ------> 0x34
+0x14: Section size -----> 0x10
+0x18: Section link -----> 0x0
+0x1C: Section info -----> 0x0
+0x20: Section addralign -----> 0x4
+0x24: Section entsize -----> 0x0
+  Section number ####################################################### 2 (.debug_frame)
+---------------------
+0x04: Section Type -----> SHT_PROGBITS (reserved for the program)
+SHT_PROGBITS unsupported!
+
+0x08: Section Flags ----> (0x0)
+0x0C: Memory address ---> 0x0
+0x10: File offset ------> 0x44
+0x14: Section size -----> 0xa4
+0x18: Section link -----> 0x0
+0x1C: Section info -----> 0x0
+0x20: Section addralign -----> 0x1
+0x24: Section entsize -----> 0x0
+  Section number ####################################################### 3 (.rel.debug_frame)
+---------------------
+0x04: Section Type -----> SHT_REL (relocation section)
+
+SymTable_4,owner section_2(.debug_frame),size=2
+item0,offset=96,symtable index=3,type=2
+item1,offset=9A,symtable index=4,type=2
+0x08: Section Flags ----> (0x0)
+0x0C: Memory address ---> 0x0
+0x10: File offset ------> 0xe8
+0x14: Section size -----> 0x10
+0x18: Section link -----> 0x4
+0x1C: Section info -----> 0x2
+0x20: Section addralign -----> 0x4
+0x24: Section entsize -----> 0x8
+  Section number ####################################################### 4 (.symtab)
+---------------------
+0x04: Section Type -----> SHT_SYMTAB (file symbol table)
+
+0x08: Section Flags ----> (0x0)
+0x0C: Memory address ---> 0x0
+0x10: File offset ------> 0xf8
+0x14: Section size -----> 0x80
+0x18: Section link -----> 0x5
+0x1C: Section info -----> 0x7
+0x20: Section addralign -----> 0x4
+0x24: Section entsize -----> 0x10
+  Section number ####################################################### 5 (.strtab)
+---------------------
+0x04: Section Type -----> SHT_STRTAB (string table section)
+
+0x08: Section Flags ----> (0x0)
+0x0C: Memory address ---> 0x0
+0x10: File offset ------> 0x178
+0x14: Section size -----> 0xcb
+0x18: Section link -----> 0x0
+0x1C: Section info -----> 0x0
+0x20: Section addralign -----> 0x1
+0x24: Section entsize -----> 0x0
+  Section number ####################################################### 6 (.comment)
+---------------------
+0x04: Section Type -----> SHT_PROGBITS (reserved for the program)
+SHT_PROGBITS unsupported!
+
+0x08: Section Flags ----> (0x0)
+0x0C: Memory address ---> 0x0
+0x10: File offset ------> 0x243
+0x14: Section size -----> 0x60
+0x18: Section link -----> 0x0
+0x1C: Section info -----> 0x0
+0x20: Section addralign -----> 0x1
+0x24: Section entsize -----> 0x0
+  Section number ####################################################### 7 (.ARM.attributes)
+---------------------
+0x04: Section Type -----> Unknown: 0x70000003
+
+0x08: Section Flags ----> (0x0)
+0x0C: Memory address ---> 0x0
+0x10: File offset ------> 0x2a3
+0x14: Section size -----> 0x52
+0x18: Section link -----> 0x0
+0x1C: Section info -----> 0x0
+0x20: Section addralign -----> 0x1
+0x24: Section entsize -----> 0x0
+
+strTable_5,last local symbol_7,num=8
+item0, @@@@@@@@@@@
+st_value=0 
+st_size=12345
+st_info=0,bind=0,type=0
+st_other=0
+st_shndx=0(invalid)
+item1,getblock_armv7.asm @@@@@@@@@@@
+st_value=0 
+st_size=12345
+st_info=4,bind=0,type=4
+st_other=0
+st_shndx=-15(invalid)
+item2,$a @@@@@@@@@@@
+st_value=0 
+st_size=0
+st_info=0,bind=0,type=0
+st_other=0
+st_shndx=1(.text)
+item3, @@@@@@@@@@@
+st_value=0 
+st_size=12345
+st_info=3,bind=0,type=3
+st_other=0
+st_shndx=2(.debug_frame)
+item4,.text @@@@@@@@@@@
+st_value=0 
+st_size=16
+st_info=3,bind=0,type=3
+st_other=0
+st_shndx=1(.text)
+item5,BuildAttributes$$ARM_ISAv7$X$E$P$J$Z$N$K$B$S$VFPv3$PE$PLD2$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$~IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$EBA8$PRES8$EABIv2 @@@@@@@@@@@
+st_value=0 
+st_size=12345
+st_info=0,bind=0,type=0
+st_other=0
+st_shndx=-15(invalid)
+item6,$v0 @@@@@@@@@@@
+st_value=0 
+st_size=0
+st_info=0,bind=0,type=0
+st_other=0
+st_shndx=1(.text)
+item7,vogetblock_armv7 @@@@@@@@@@@
+st_value=0 
+st_size=16
+st_info=18,bind=1,type=2
+st_other=2
+st_shndx=1(.text)

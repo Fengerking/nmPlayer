@@ -1,0 +1,7 @@
+LIBRARY voAudioFR.dll
+
+EXPORTS
+	voGetAudioReadAPI
+	voGetSource2AACAPI
+	voGetAudio2ReadAPI
+	voGetPushAudioAPI

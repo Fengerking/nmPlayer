@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BrowserPluginInstaller' target in the 'BrowserPluginInstaller' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

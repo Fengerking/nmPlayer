@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* voAMRNBEnc_iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* voAMRNBEnc_iOSAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* voAMRNBEnc_iOSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* voAMRNBEnc_iOSViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* voAMRNBEnc_iOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* voAMRNBEnc_iOSViewController.m */; };
+		F28CD34A151AEB48007A5C87 /* AMRNB_E_SAMPLE.c in Sources */ = {isa = PBXBuildFile; fileRef = F28CD349151AEB48007A5C87 /* AMRNB_E_SAMPLE.c */; };
+		F28CD35A151AEBFC007A5C87 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F28CD35B151AEBFC007A5C87 /* voAMRNBEnc_iOSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* voAMRNBEnc_iOSViewController.xib */; };
+		F28CD35D151AEBFC007A5C87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		F28CD35E151AEBFC007A5C87 /* voAMRNBEnc_iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* voAMRNBEnc_iOSAppDelegate.m */; };
+		F28CD35F151AEBFC007A5C87 /* voAMRNBEnc_iOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* voAMRNBEnc_iOSViewController.m */; };
+		F28CD360151AEBFC007A5C87 /* AMRNB_E_SAMPLE.c in Sources */ = {isa = PBXBuildFile; fileRef = F28CD349151AEB48007A5C87 /* AMRNB_E_SAMPLE.c */; };
+		F28CD362151AEBFC007A5C87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		F28CD363151AEBFC007A5C87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		F28CD364151AEBFC007A5C87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		F28CD529151B0253007A5C87 /* libvoAMRNBEnc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F28CD528151B0253007A5C87 /* libvoAMRNBEnc.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* voAMRNBEnc_iOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voAMRNBEnc_iOSAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* voAMRNBEnc_iOSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = voAMRNBEnc_iOSAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* voAMRNBEnc_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voAMRNBEnc_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* voAMRNBEnc_iOSViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = voAMRNBEnc_iOSViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* voAMRNBEnc_iOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voAMRNBEnc_iOSViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* voAMRNBEnc_iOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = voAMRNBEnc_iOSViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* voAMRNBEnc_iOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voAMRNBEnc_iOS_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* voAMRNBEnc_iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "voAMRNBEnc_iOS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F28CD349151AEB48007A5C87 /* AMRNB_E_SAMPLE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = AMRNB_E_SAMPLE.c; path = ../AMRNB_E_SAMPLE.c; sourceTree = SOURCE_ROOT; };
+		F28CD350151AEB8E007A5C87 /* voAMRNBEnc_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voAMRNBEnc_iOS.h; sourceTree = "<group>"; };
+		F28CD368151AEBFC007A5C87 /* voAMRNBEnc_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voAMRNBEnc_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28CD36A151AEBFC007A5C87 /* voAMRNBEnc_iOS-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "voAMRNBEnc_iOS-Info copy.plist"; sourceTree = "<group>"; };
+		F28CD528151B0253007A5C87 /* libvoAMRNBEnc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvoAMRNBEnc.a; path = ../../build/iOS/v7/libvoAMRNBEnc.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28CD361151AEBFC007A5C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28CD362151AEBFC007A5C87 /* Foundation.framework in Frameworks */,
+				F28CD363151AEBFC007A5C87 /* UIKit.framework in Frameworks */,
+				F28CD364151AEBFC007A5C87 /* CoreGraphics.framework in Frameworks */,
+				F28CD529151B0253007A5C87 /* libvoAMRNBEnc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F28CD348151AEB22007A5C87 /* lib */,
+				F28CD349151AEB48007A5C87 /* AMRNB_E_SAMPLE.c */,
+				1D3623240D0F684500981E51 /* voAMRNBEnc_iOSAppDelegate.h */,
+				1D3623250D0F684500981E51 /* voAMRNBEnc_iOSAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* voAMRNBEnc_iOSViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* voAMRNBEnc_iOSViewController.m */,
+				F28CD350151AEB8E007A5C87 /* voAMRNBEnc_iOS.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* voAMRNBEnc_iOS.app */,
+				F28CD368151AEBFC007A5C87 /* voAMRNBEnc_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* voAMRNBEnc_iOS_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* voAMRNBEnc_iOSViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* voAMRNBEnc_iOS-Info.plist */,
+				F28CD36A151AEBFC007A5C87 /* voAMRNBEnc_iOS-Info copy.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F28CD348151AEB22007A5C87 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F28CD458151AF920007A5C87 /* v7 */,
+				F28CD357151AEBE8007A5C87 /* v6 */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		F28CD357151AEBE8007A5C87 /* v6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = v6;
+			sourceTree = "<group>";
+		};
+		F28CD458151AF920007A5C87 /* v7 */ = {
+			isa = PBXGroup;
+			children = (
+				F28CD528151B0253007A5C87 /* libvoAMRNBEnc.a */,
+			);
+			name = v7;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* voAMRNBEnc_iOS_v6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "voAMRNBEnc_iOS_v6" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voAMRNBEnc_iOS_v6;
+			productName = voAMRNBEnc_iOS;
+			productReference = 1D6058910D05DD3D006BFB54 /* voAMRNBEnc_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F28CD358151AEBFC007A5C87 /* voAMRNBEnc_iOS_v7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28CD365151AEBFC007A5C87 /* Build configuration list for PBXNativeTarget "voAMRNBEnc_iOS_v7" */;
+			buildPhases = (
+				F28CD359151AEBFC007A5C87 /* Resources */,
+				F28CD35C151AEBFC007A5C87 /* Sources */,
+				F28CD361151AEBFC007A5C87 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voAMRNBEnc_iOS_v7;
+			productName = voAMRNBEnc_iOS;
+			productReference = F28CD368151AEBFC007A5C87 /* voAMRNBEnc_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "voAMRNBEnc_iOS" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* voAMRNBEnc_iOS_v6 */,
+				F28CD358151AEBFC007A5C87 /* voAMRNBEnc_iOS_v7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* voAMRNBEnc_iOSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28CD359151AEBFC007A5C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28CD35A151AEBFC007A5C87 /* MainWindow.xib in Resources */,
+				F28CD35B151AEBFC007A5C87 /* voAMRNBEnc_iOSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* voAMRNBEnc_iOSAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* voAMRNBEnc_iOSViewController.m in Sources */,
+				F28CD34A151AEB48007A5C87 /* AMRNB_E_SAMPLE.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28CD35C151AEBFC007A5C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28CD35D151AEBFC007A5C87 /* main.m in Sources */,
+				F28CD35E151AEBFC007A5C87 /* voAMRNBEnc_iOSAppDelegate.m in Sources */,
+				F28CD35F151AEBFC007A5C87 /* voAMRNBEnc_iOSViewController.m in Sources */,
+				F28CD360151AEBFC007A5C87 /* AMRNB_E_SAMPLE.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voAMRNBEnc_iOS_Prefix.pch;
+				INFOPLIST_FILE = "voAMRNBEnc_iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../build/iOS/v6\"",
+					"\"$(SRCROOT)/../../build/iOS/v7\"",
+				);
+				PRODUCT_NAME = voAMRNBEnc_iOS;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voAMRNBEnc_iOS_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = _IOS;
+				HEADER_SEARCH_PATHS = (
+					../../../../../../Common/,
+					../../../../../../Include/,
+				);
+				INFOPLIST_FILE = "voAMRNBEnc_iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../build/iOS/v6\"",
+					"\"$(SRCROOT)/../../build/iOS/v7\"",
+				);
+				PRODUCT_NAME = voAMRNBEnc_iOS;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F28CD366151AEBFC007A5C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voAMRNBEnc_iOS_Prefix.pch;
+				INFOPLIST_FILE = "voAMRNBEnc_iOS-Info copy.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../build/iOS/v6\"",
+					"\"$(SRCROOT)/../../build/iOS/v7\"",
+					"\"$(SRCROOT)/../../../../../../../voRelease/iOS/static/v6\"",
+					"\"$(SRCROOT)/../../../../AMRWB/ENCODER/build/iOS/v6\"",
+				);
+				PRODUCT_NAME = voAMRNBEnc_iOS;
+			};
+			name = Debug;
+		};
+		F28CD367151AEBFC007A5C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voAMRNBEnc_iOS_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = _IOS;
+				HEADER_SEARCH_PATHS = (
+					../../../../../../common/,
+					../../../../../../Include/,
+				);
+				INFOPLIST_FILE = "voAMRNBEnc_iOS-Info copy.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../build/iOS/v7\"",
+					"\"$(SRCROOT)/../../../../../../../voRelease/iOS/static/v6\"",
+					"\"$(SRCROOT)/../../../../AMRWB/ENCODER/build/iOS/v6\"",
+					"\"$(SRCROOT)/../../build/iOS/v6\"",
+				);
+				PRODUCT_NAME = voAMRNBEnc_iOS;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "voAMRNBEnc_iOS_v6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "voAMRNBEnc_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28CD365151AEBFC007A5C87 /* Build configuration list for PBXNativeTarget "voAMRNBEnc_iOS_v7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28CD366151AEBFC007A5C87 /* Debug */,
+				F28CD367151AEBFC007A5C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

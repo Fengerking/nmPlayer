@@ -1,0 +1,1194 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76CB830D13EA72E50014F17F /* annexb.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82B913EA72E50014F17F /* annexb.c */; };
+		76CB830E13EA72E50014F17F /* annexb.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82BA13EA72E50014F17F /* annexb.h */; };
+		76CB830F13EA72E50014F17F /* avd_neighbor.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82BB13EA72E50014F17F /* avd_neighbor.h */; };
+		76CB831013EA72E50014F17F /* biaridecod.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82BC13EA72E50014F17F /* biaridecod.c */; };
+		76CB831113EA72E50014F17F /* biaridecod.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82BD13EA72E50014F17F /* biaridecod.h */; };
+		76CB831213EA72E50014F17F /* block.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82BE13EA72E50014F17F /* block.c */; };
+		76CB831313EA72E50014F17F /* block.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82BF13EA72E50014F17F /* block.h */; };
+		76CB831513EA72E50014F17F /* cabac.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C113EA72E50014F17F /* cabac.c */; };
+		76CB831613EA72E50014F17F /* cabac.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82C213EA72E50014F17F /* cabac.h */; };
+		76CB831713EA72E50014F17F /* cCabac.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C313EA72E50014F17F /* cCabac.c */; };
+		76CB831813EA72E50014F17F /* cGetBlock.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C413EA72E50014F17F /* cGetBlock.c */; };
+		76CB831913EA72E50014F17F /* cInvTrans.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C513EA72E50014F17F /* cInvTrans.c */; };
+		76CB831A13EA72E50014F17F /* context_ini.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C613EA72E50014F17F /* context_ini.c */; };
+		76CB831B13EA72E50014F17F /* context_ini.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82C713EA72E50014F17F /* context_ini.h */; };
+		76CB831C13EA72E50014F17F /* contributors.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82C813EA72E50014F17F /* contributors.h */; };
+		76CB831D13EA72E50014F17F /* cShortInline.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C913EA72E50014F17F /* cShortInline.c */; };
+		76CB831E13EA72E50014F17F /* ctx_tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82CA13EA72E50014F17F /* ctx_tables.h */; };
+		76CB831F13EA72E50014F17F /* decPicBuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82CB13EA72E50014F17F /* decPicBuf.c */; };
+		76CB832013EA72E50014F17F /* defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82CC13EA72E50014F17F /* defines.h */; };
+		76CB832113EA72E50014F17F /* elements.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82CD13EA72E50014F17F /* elements.h */; };
+		76CB832213EA72E50014F17F /* erc_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82CE13EA72E50014F17F /* erc_api.c */; };
+		76CB832313EA72E50014F17F /* erc_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82CF13EA72E50014F17F /* erc_api.h */; };
+		76CB832413EA72E50014F17F /* erc_do_i.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D013EA72E50014F17F /* erc_do_i.c */; };
+		76CB832513EA72E50014F17F /* erc_do_p.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D113EA72E50014F17F /* erc_do_p.c */; };
+		76CB832613EA72E50014F17F /* erc_do.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D213EA72E50014F17F /* erc_do.h */; };
+		76CB832713EA72E50014F17F /* erc_globals.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D313EA72E50014F17F /* erc_globals.h */; };
+		76CB832813EA72E50014F17F /* errorconcealment.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D413EA72E50014F17F /* errorconcealment.c */; };
+		76CB832913EA72E50014F17F /* errorconcealment.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D513EA72E50014F17F /* errorconcealment.h */; };
+		76CB832A13EA72E50014F17F /* filehandle.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D613EA72E50014F17F /* filehandle.c */; };
+		76CB832B13EA72E50014F17F /* fmo.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D713EA72E50014F17F /* fmo.c */; };
+		76CB832C13EA72E50014F17F /* fmo.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D813EA72E50014F17F /* fmo.h */; };
+		76CB832D13EA72E50014F17F /* global.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D913EA72E50014F17F /* global.h */; };
+		76CB832E13EA72E50014F17F /* h264VdDump.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82DA13EA72E50014F17F /* h264VdDump.h */; };
+		76CB832F13EA72E50014F17F /* h264VdLib.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82DB13EA72E50014F17F /* h264VdLib.c */; };
+		76CB833013EA72E50014F17F /* header.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82DC13EA72E50014F17F /* header.c */; };
+		76CB833113EA72E50014F17F /* header.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82DD13EA72E50014F17F /* header.h */; };
+		76CB833213EA72E50014F17F /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82DE13EA72E50014F17F /* image.c */; };
+		76CB833313EA72E50014F17F /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82DF13EA72E50014F17F /* image.h */; };
+		76CB833A13EA72E50014F17F /* InPlaceDeblockMBs.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82E713EA72E50014F17F /* InPlaceDeblockMBs.c */; };
+		76CB833B13EA72E50014F17F /* ldecod.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82E813EA72E50014F17F /* ldecod.c */; };
+		76CB833C13EA72E50014F17F /* leaky_bucket.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82E913EA72E50014F17F /* leaky_bucket.c */; };
+		76CB833D13EA72E50014F17F /* leaky_bucket.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82EA13EA72E50014F17F /* leaky_bucket.h */; };
+		76CB833E13EA72E50014F17F /* loopFilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82EB13EA72E50014F17F /* loopFilter.c */; };
+		76CB833F13EA72E50014F17F /* loopFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82EC13EA72E50014F17F /* loopFilter.h */; };
+		76CB834013EA72E50014F17F /* macroblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82ED13EA72E50014F17F /* macroblock.c */; };
+		76CB834113EA72E50014F17F /* macroblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82EE13EA72E50014F17F /* macroblock.h */; };
+		76CB834213EA72E50014F17F /* mb_access.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82EF13EA72E50014F17F /* mb_access.c */; };
+		76CB834313EA72E50014F17F /* mb_access.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82F013EA72E50014F17F /* mb_access.h */; };
+		76CB834413EA72E50014F17F /* mbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F113EA72E50014F17F /* mbuffer.c */; };
+		76CB834513EA72E50014F17F /* mbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82F213EA72E50014F17F /* mbuffer.h */; };
+		76CB834613EA72E50014F17F /* memalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F313EA72E50014F17F /* memalloc.c */; };
+		76CB834713EA72E50014F17F /* memalloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82F413EA72E50014F17F /* memalloc.h */; };
+		76CB834813EA72E50014F17F /* nal_part.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F513EA72E50014F17F /* nal_part.c */; };
+		76CB834913EA72E50014F17F /* nal.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F613EA72E50014F17F /* nal.c */; };
+		76CB834A13EA72E50014F17F /* nalu.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F713EA72E50014F17F /* nalu.c */; };
+		76CB834B13EA72E50014F17F /* nalu.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82F813EA72E50014F17F /* nalu.h */; };
+		76CB834C13EA72E50014F17F /* nalucommon.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F913EA72E50014F17F /* nalucommon.c */; };
+		76CB834D13EA72E50014F17F /* nalucommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82FA13EA72E50014F17F /* nalucommon.h */; };
+		76CB834E13EA72E50014F17F /* ncNameTab.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82FB13EA72E50014F17F /* ncNameTab.h */; };
+		76CB834F13EA72E50014F17F /* neighbor.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82FC13EA72E50014F17F /* neighbor.c */; };
+		76CB835013EA72E50014F17F /* output.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82FD13EA72E50014F17F /* output.c */; };
+		76CB835113EA72E50014F17F /* output.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82FE13EA72E50014F17F /* output.h */; };
+		76CB835213EA72E50014F17F /* parset.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82FF13EA72E50014F17F /* parset.c */; };
+		76CB835313EA72E50014F17F /* parset.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830013EA72E50014F17F /* parset.h */; };
+		76CB835413EA72E50014F17F /* parsetcommon.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830113EA72E50014F17F /* parsetcommon.c */; };
+		76CB835513EA72E50014F17F /* parsetcommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830213EA72E50014F17F /* parsetcommon.h */; };
+		76CB835613EA72E50014F17F /* rtp.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830313EA72E50014F17F /* rtp.c */; };
+		76CB835713EA72E50014F17F /* rtp.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830413EA72E50014F17F /* rtp.h */; };
+		76CB835813EA72E50014F17F /* sei.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830513EA72E50014F17F /* sei.c */; };
+		76CB835913EA72E50014F17F /* sei.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830613EA72E50014F17F /* sei.h */; };
+		76CB835A13EA72E50014F17F /* vlc.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830713EA72E50014F17F /* vlc.c */; };
+		76CB835B13EA72E50014F17F /* vlc.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830813EA72E50014F17F /* vlc.h */; };
+		76CB835D13EA72E50014F17F /* voh264DecSDK.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830A13EA72E50014F17F /* voh264DecSDK.c */; };
+		76CB835E13EA72E50014F17F /* voLog_android.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830B13EA72E50014F17F /* voLog_android.c */; };
+		76CB835F13EA72E50014F17F /* voLog_android.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830C13EA72E50014F17F /* voLog_android.h */; };
+		76CB836813EA731B0014F17F /* H264_C_Type.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836313EA731B0014F17F /* H264_C_Type.h */; };
+		76CB836913EA731B0014F17F /* h264base.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836413EA731B0014F17F /* h264base.h */; };
+		76CB836A13EA731B0014F17F /* h264dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836513EA731B0014F17F /* h264dec.h */; };
+		76CB836B13EA731B0014F17F /* sdkbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836613EA731B0014F17F /* sdkbase.h */; };
+		76CB836C13EA731B0014F17F /* sharedYUVMem.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836713EA731B0014F17F /* sharedYUVMem.h */; };
+		76CB85C113EA85C70014F17F /* voH264BP_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voH264BP_Prefix.pch */; };
+		76CB85C213EA85C70014F17F /* annexb.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82BA13EA72E50014F17F /* annexb.h */; };
+		76CB85C313EA85C70014F17F /* avd_neighbor.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82BB13EA72E50014F17F /* avd_neighbor.h */; };
+		76CB85C413EA85C70014F17F /* biaridecod.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82BD13EA72E50014F17F /* biaridecod.h */; };
+		76CB85C513EA85C70014F17F /* block.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82BF13EA72E50014F17F /* block.h */; };
+		76CB85C613EA85C70014F17F /* cabac.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82C213EA72E50014F17F /* cabac.h */; };
+		76CB85C713EA85C70014F17F /* context_ini.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82C713EA72E50014F17F /* context_ini.h */; };
+		76CB85C813EA85C70014F17F /* contributors.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82C813EA72E50014F17F /* contributors.h */; };
+		76CB85C913EA85C70014F17F /* ctx_tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82CA13EA72E50014F17F /* ctx_tables.h */; };
+		76CB85CA13EA85C70014F17F /* defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82CC13EA72E50014F17F /* defines.h */; };
+		76CB85CB13EA85C70014F17F /* elements.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82CD13EA72E50014F17F /* elements.h */; };
+		76CB85CC13EA85C70014F17F /* erc_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82CF13EA72E50014F17F /* erc_api.h */; };
+		76CB85CD13EA85C70014F17F /* erc_do.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D213EA72E50014F17F /* erc_do.h */; };
+		76CB85CE13EA85C70014F17F /* erc_globals.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D313EA72E50014F17F /* erc_globals.h */; };
+		76CB85CF13EA85C70014F17F /* errorconcealment.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D513EA72E50014F17F /* errorconcealment.h */; };
+		76CB85D013EA85C70014F17F /* fmo.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D813EA72E50014F17F /* fmo.h */; };
+		76CB85D113EA85C70014F17F /* global.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D913EA72E50014F17F /* global.h */; };
+		76CB85D213EA85C70014F17F /* h264VdDump.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82DA13EA72E50014F17F /* h264VdDump.h */; };
+		76CB85D313EA85C70014F17F /* header.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82DD13EA72E50014F17F /* header.h */; };
+		76CB85D413EA85C70014F17F /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82DF13EA72E50014F17F /* image.h */; };
+		76CB85D513EA85C70014F17F /* leaky_bucket.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82EA13EA72E50014F17F /* leaky_bucket.h */; };
+		76CB85D613EA85C70014F17F /* loopFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82EC13EA72E50014F17F /* loopFilter.h */; };
+		76CB85D713EA85C70014F17F /* macroblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82EE13EA72E50014F17F /* macroblock.h */; };
+		76CB85D813EA85C70014F17F /* mb_access.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82F013EA72E50014F17F /* mb_access.h */; };
+		76CB85D913EA85C70014F17F /* mbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82F213EA72E50014F17F /* mbuffer.h */; };
+		76CB85DA13EA85C70014F17F /* memalloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82F413EA72E50014F17F /* memalloc.h */; };
+		76CB85DB13EA85C70014F17F /* nalu.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82F813EA72E50014F17F /* nalu.h */; };
+		76CB85DC13EA85C70014F17F /* nalucommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82FA13EA72E50014F17F /* nalucommon.h */; };
+		76CB85DD13EA85C70014F17F /* ncNameTab.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82FB13EA72E50014F17F /* ncNameTab.h */; };
+		76CB85DE13EA85C70014F17F /* output.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82FE13EA72E50014F17F /* output.h */; };
+		76CB85DF13EA85C70014F17F /* parset.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830013EA72E50014F17F /* parset.h */; };
+		76CB85E013EA85C70014F17F /* parsetcommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830213EA72E50014F17F /* parsetcommon.h */; };
+		76CB85E113EA85C70014F17F /* rtp.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830413EA72E50014F17F /* rtp.h */; };
+		76CB85E213EA85C70014F17F /* sei.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830613EA72E50014F17F /* sei.h */; };
+		76CB85E313EA85C70014F17F /* vlc.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830813EA72E50014F17F /* vlc.h */; };
+		76CB85E413EA85C70014F17F /* voLog_android.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830C13EA72E50014F17F /* voLog_android.h */; };
+		76CB85E513EA85C70014F17F /* H264_C_Type.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836313EA731B0014F17F /* H264_C_Type.h */; };
+		76CB85E613EA85C70014F17F /* h264base.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836413EA731B0014F17F /* h264base.h */; };
+		76CB85E713EA85C70014F17F /* h264dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836513EA731B0014F17F /* h264dec.h */; };
+		76CB85E813EA85C70014F17F /* sdkbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836613EA731B0014F17F /* sdkbase.h */; };
+		76CB85E913EA85C70014F17F /* sharedYUVMem.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836713EA731B0014F17F /* sharedYUVMem.h */; };
+		76CB85EB13EA85C70014F17F /* annexb.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82B913EA72E50014F17F /* annexb.c */; };
+		76CB85EC13EA85C70014F17F /* biaridecod.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82BC13EA72E50014F17F /* biaridecod.c */; };
+		76CB85ED13EA85C70014F17F /* block.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82BE13EA72E50014F17F /* block.c */; };
+		76CB85EE13EA85C70014F17F /* cabac.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C113EA72E50014F17F /* cabac.c */; };
+		76CB85EF13EA85C70014F17F /* cCabac.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C313EA72E50014F17F /* cCabac.c */; };
+		76CB85F013EA85C70014F17F /* cGetBlock.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C413EA72E50014F17F /* cGetBlock.c */; };
+		76CB85F113EA85C70014F17F /* cInvTrans.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C513EA72E50014F17F /* cInvTrans.c */; };
+		76CB85F213EA85C70014F17F /* context_ini.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C613EA72E50014F17F /* context_ini.c */; };
+		76CB85F313EA85C70014F17F /* cShortInline.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C913EA72E50014F17F /* cShortInline.c */; };
+		76CB85F413EA85C70014F17F /* decPicBuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82CB13EA72E50014F17F /* decPicBuf.c */; };
+		76CB85F513EA85C70014F17F /* erc_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82CE13EA72E50014F17F /* erc_api.c */; };
+		76CB85F613EA85C70014F17F /* erc_do_i.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D013EA72E50014F17F /* erc_do_i.c */; };
+		76CB85F713EA85C70014F17F /* erc_do_p.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D113EA72E50014F17F /* erc_do_p.c */; };
+		76CB85F813EA85C70014F17F /* errorconcealment.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D413EA72E50014F17F /* errorconcealment.c */; };
+		76CB85F913EA85C70014F17F /* filehandle.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D613EA72E50014F17F /* filehandle.c */; };
+		76CB85FA13EA85C70014F17F /* fmo.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D713EA72E50014F17F /* fmo.c */; };
+		76CB85FB13EA85C70014F17F /* h264VdLib.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82DB13EA72E50014F17F /* h264VdLib.c */; };
+		76CB85FC13EA85C70014F17F /* header.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82DC13EA72E50014F17F /* header.c */; };
+		76CB85FD13EA85C70014F17F /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82DE13EA72E50014F17F /* image.c */; };
+		76CB85FE13EA85C70014F17F /* InPlaceDeblockMBs.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82E713EA72E50014F17F /* InPlaceDeblockMBs.c */; };
+		76CB85FF13EA85C70014F17F /* ldecod.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82E813EA72E50014F17F /* ldecod.c */; };
+		76CB860013EA85C70014F17F /* leaky_bucket.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82E913EA72E50014F17F /* leaky_bucket.c */; };
+		76CB860113EA85C70014F17F /* loopFilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82EB13EA72E50014F17F /* loopFilter.c */; };
+		76CB860213EA85C70014F17F /* macroblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82ED13EA72E50014F17F /* macroblock.c */; };
+		76CB860313EA85C70014F17F /* mb_access.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82EF13EA72E50014F17F /* mb_access.c */; };
+		76CB860413EA85C70014F17F /* mbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F113EA72E50014F17F /* mbuffer.c */; };
+		76CB860513EA85C70014F17F /* memalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F313EA72E50014F17F /* memalloc.c */; };
+		76CB860613EA85C70014F17F /* nal_part.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F513EA72E50014F17F /* nal_part.c */; };
+		76CB860713EA85C70014F17F /* nal.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F613EA72E50014F17F /* nal.c */; };
+		76CB860813EA85C70014F17F /* nalu.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F713EA72E50014F17F /* nalu.c */; };
+		76CB860913EA85C70014F17F /* nalucommon.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F913EA72E50014F17F /* nalucommon.c */; };
+		76CB860A13EA85C70014F17F /* neighbor.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82FC13EA72E50014F17F /* neighbor.c */; };
+		76CB860B13EA85C70014F17F /* output.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82FD13EA72E50014F17F /* output.c */; };
+		76CB860C13EA85C70014F17F /* parset.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82FF13EA72E50014F17F /* parset.c */; };
+		76CB860D13EA85C70014F17F /* parsetcommon.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830113EA72E50014F17F /* parsetcommon.c */; };
+		76CB860E13EA85C70014F17F /* rtp.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830313EA72E50014F17F /* rtp.c */; };
+		76CB860F13EA85C70014F17F /* sei.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830513EA72E50014F17F /* sei.c */; };
+		76CB861013EA85C70014F17F /* vlc.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830713EA72E50014F17F /* vlc.c */; };
+		76CB861113EA85C70014F17F /* voh264DecSDK.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830A13EA72E50014F17F /* voh264DecSDK.c */; };
+		76CB861213EA85C70014F17F /* voLog_android.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830B13EA72E50014F17F /* voLog_android.c */; };
+		76CB861413EA85C70014F17F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		76CB87C813EA927F0014F17F /* voH264BP_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voH264BP_Prefix.pch */; };
+		76CB87C913EA927F0014F17F /* annexb.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82BA13EA72E50014F17F /* annexb.h */; };
+		76CB87CA13EA927F0014F17F /* avd_neighbor.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82BB13EA72E50014F17F /* avd_neighbor.h */; };
+		76CB87CB13EA927F0014F17F /* biaridecod.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82BD13EA72E50014F17F /* biaridecod.h */; };
+		76CB87CC13EA927F0014F17F /* block.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82BF13EA72E50014F17F /* block.h */; };
+		76CB87CD13EA927F0014F17F /* cabac.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82C213EA72E50014F17F /* cabac.h */; };
+		76CB87CE13EA927F0014F17F /* context_ini.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82C713EA72E50014F17F /* context_ini.h */; };
+		76CB87CF13EA927F0014F17F /* contributors.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82C813EA72E50014F17F /* contributors.h */; };
+		76CB87D013EA927F0014F17F /* ctx_tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82CA13EA72E50014F17F /* ctx_tables.h */; };
+		76CB87D113EA927F0014F17F /* defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82CC13EA72E50014F17F /* defines.h */; };
+		76CB87D213EA927F0014F17F /* elements.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82CD13EA72E50014F17F /* elements.h */; };
+		76CB87D313EA927F0014F17F /* erc_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82CF13EA72E50014F17F /* erc_api.h */; };
+		76CB87D413EA927F0014F17F /* erc_do.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D213EA72E50014F17F /* erc_do.h */; };
+		76CB87D513EA927F0014F17F /* erc_globals.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D313EA72E50014F17F /* erc_globals.h */; };
+		76CB87D613EA927F0014F17F /* errorconcealment.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D513EA72E50014F17F /* errorconcealment.h */; };
+		76CB87D713EA927F0014F17F /* fmo.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D813EA72E50014F17F /* fmo.h */; };
+		76CB87D813EA927F0014F17F /* global.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82D913EA72E50014F17F /* global.h */; };
+		76CB87D913EA927F0014F17F /* h264VdDump.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82DA13EA72E50014F17F /* h264VdDump.h */; };
+		76CB87DA13EA927F0014F17F /* header.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82DD13EA72E50014F17F /* header.h */; };
+		76CB87DB13EA927F0014F17F /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82DF13EA72E50014F17F /* image.h */; };
+		76CB87DC13EA927F0014F17F /* leaky_bucket.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82EA13EA72E50014F17F /* leaky_bucket.h */; };
+		76CB87DD13EA927F0014F17F /* loopFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82EC13EA72E50014F17F /* loopFilter.h */; };
+		76CB87DE13EA927F0014F17F /* macroblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82EE13EA72E50014F17F /* macroblock.h */; };
+		76CB87DF13EA927F0014F17F /* mb_access.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82F013EA72E50014F17F /* mb_access.h */; };
+		76CB87E013EA927F0014F17F /* mbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82F213EA72E50014F17F /* mbuffer.h */; };
+		76CB87E113EA927F0014F17F /* memalloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82F413EA72E50014F17F /* memalloc.h */; };
+		76CB87E213EA927F0014F17F /* nalu.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82F813EA72E50014F17F /* nalu.h */; };
+		76CB87E313EA927F0014F17F /* nalucommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82FA13EA72E50014F17F /* nalucommon.h */; };
+		76CB87E413EA927F0014F17F /* ncNameTab.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82FB13EA72E50014F17F /* ncNameTab.h */; };
+		76CB87E513EA927F0014F17F /* output.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB82FE13EA72E50014F17F /* output.h */; };
+		76CB87E613EA927F0014F17F /* parset.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830013EA72E50014F17F /* parset.h */; };
+		76CB87E713EA927F0014F17F /* parsetcommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830213EA72E50014F17F /* parsetcommon.h */; };
+		76CB87E813EA927F0014F17F /* rtp.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830413EA72E50014F17F /* rtp.h */; };
+		76CB87E913EA927F0014F17F /* sei.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830613EA72E50014F17F /* sei.h */; };
+		76CB87EA13EA927F0014F17F /* vlc.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830813EA72E50014F17F /* vlc.h */; };
+		76CB87EB13EA927F0014F17F /* voLog_android.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB830C13EA72E50014F17F /* voLog_android.h */; };
+		76CB87EC13EA927F0014F17F /* H264_C_Type.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836313EA731B0014F17F /* H264_C_Type.h */; };
+		76CB87ED13EA927F0014F17F /* h264base.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836413EA731B0014F17F /* h264base.h */; };
+		76CB87EE13EA927F0014F17F /* h264dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836513EA731B0014F17F /* h264dec.h */; };
+		76CB87EF13EA927F0014F17F /* sdkbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836613EA731B0014F17F /* sdkbase.h */; };
+		76CB87F013EA927F0014F17F /* sharedYUVMem.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CB836713EA731B0014F17F /* sharedYUVMem.h */; };
+		76CB87F213EA927F0014F17F /* annexb.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82B913EA72E50014F17F /* annexb.c */; };
+		76CB87F313EA927F0014F17F /* biaridecod.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82BC13EA72E50014F17F /* biaridecod.c */; };
+		76CB87F413EA927F0014F17F /* block.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82BE13EA72E50014F17F /* block.c */; };
+		76CB87F513EA927F0014F17F /* cabac.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C113EA72E50014F17F /* cabac.c */; };
+		76CB87F613EA927F0014F17F /* cCabac.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C313EA72E50014F17F /* cCabac.c */; };
+		76CB87F713EA927F0014F17F /* cGetBlock.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C413EA72E50014F17F /* cGetBlock.c */; };
+		76CB87F813EA927F0014F17F /* cInvTrans.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C513EA72E50014F17F /* cInvTrans.c */; };
+		76CB87F913EA927F0014F17F /* context_ini.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C613EA72E50014F17F /* context_ini.c */; };
+		76CB87FA13EA927F0014F17F /* cShortInline.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82C913EA72E50014F17F /* cShortInline.c */; };
+		76CB87FB13EA927F0014F17F /* decPicBuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82CB13EA72E50014F17F /* decPicBuf.c */; };
+		76CB87FC13EA927F0014F17F /* erc_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82CE13EA72E50014F17F /* erc_api.c */; };
+		76CB87FD13EA927F0014F17F /* erc_do_i.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D013EA72E50014F17F /* erc_do_i.c */; };
+		76CB87FE13EA927F0014F17F /* erc_do_p.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D113EA72E50014F17F /* erc_do_p.c */; };
+		76CB87FF13EA927F0014F17F /* errorconcealment.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D413EA72E50014F17F /* errorconcealment.c */; };
+		76CB880013EA927F0014F17F /* filehandle.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D613EA72E50014F17F /* filehandle.c */; };
+		76CB880113EA927F0014F17F /* fmo.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82D713EA72E50014F17F /* fmo.c */; };
+		76CB880213EA927F0014F17F /* h264VdLib.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82DB13EA72E50014F17F /* h264VdLib.c */; };
+		76CB880313EA927F0014F17F /* header.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82DC13EA72E50014F17F /* header.c */; };
+		76CB880413EA927F0014F17F /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82DE13EA72E50014F17F /* image.c */; };
+		76CB880513EA927F0014F17F /* InPlaceDeblockMBs.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82E713EA72E50014F17F /* InPlaceDeblockMBs.c */; };
+		76CB880613EA927F0014F17F /* ldecod.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82E813EA72E50014F17F /* ldecod.c */; };
+		76CB880713EA927F0014F17F /* leaky_bucket.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82E913EA72E50014F17F /* leaky_bucket.c */; };
+		76CB880813EA927F0014F17F /* loopFilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82EB13EA72E50014F17F /* loopFilter.c */; };
+		76CB880913EA927F0014F17F /* macroblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82ED13EA72E50014F17F /* macroblock.c */; };
+		76CB880A13EA927F0014F17F /* mb_access.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82EF13EA72E50014F17F /* mb_access.c */; };
+		76CB880B13EA927F0014F17F /* mbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F113EA72E50014F17F /* mbuffer.c */; };
+		76CB880C13EA927F0014F17F /* memalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F313EA72E50014F17F /* memalloc.c */; };
+		76CB880D13EA927F0014F17F /* nal_part.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F513EA72E50014F17F /* nal_part.c */; };
+		76CB880E13EA927F0014F17F /* nal.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F613EA72E50014F17F /* nal.c */; };
+		76CB880F13EA927F0014F17F /* nalu.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F713EA72E50014F17F /* nalu.c */; };
+		76CB881013EA927F0014F17F /* nalucommon.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82F913EA72E50014F17F /* nalucommon.c */; };
+		76CB881113EA927F0014F17F /* neighbor.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82FC13EA72E50014F17F /* neighbor.c */; };
+		76CB881213EA927F0014F17F /* output.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82FD13EA72E50014F17F /* output.c */; };
+		76CB881313EA927F0014F17F /* parset.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB82FF13EA72E50014F17F /* parset.c */; };
+		76CB881413EA927F0014F17F /* parsetcommon.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830113EA72E50014F17F /* parsetcommon.c */; };
+		76CB881513EA927F0014F17F /* rtp.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830313EA72E50014F17F /* rtp.c */; };
+		76CB881613EA927F0014F17F /* sei.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830513EA72E50014F17F /* sei.c */; };
+		76CB881713EA927F0014F17F /* vlc.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830713EA72E50014F17F /* vlc.c */; };
+		76CB881813EA927F0014F17F /* voh264DecSDK.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830A13EA72E50014F17F /* voh264DecSDK.c */; };
+		76CB881913EA927F0014F17F /* voLog_android.c in Sources */ = {isa = PBXBuildFile; fileRef = 76CB830B13EA72E50014F17F /* voLog_android.c */; };
+		76CB881B13EA927F0014F17F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		AA747D9F0F9514B9006C5449 /* voH264BP_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voH264BP_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76CB82B913EA72E50014F17F /* annexb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = annexb.c; path = ../../../Sources/annexb.c; sourceTree = SOURCE_ROOT; };
+		76CB82BA13EA72E50014F17F /* annexb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = annexb.h; path = ../../../Sources/annexb.h; sourceTree = SOURCE_ROOT; };
+		76CB82BB13EA72E50014F17F /* avd_neighbor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = avd_neighbor.h; path = ../../../Sources/avd_neighbor.h; sourceTree = SOURCE_ROOT; };
+		76CB82BC13EA72E50014F17F /* biaridecod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = biaridecod.c; path = ../../../Sources/biaridecod.c; sourceTree = SOURCE_ROOT; };
+		76CB82BD13EA72E50014F17F /* biaridecod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = biaridecod.h; path = ../../../Sources/biaridecod.h; sourceTree = SOURCE_ROOT; };
+		76CB82BE13EA72E50014F17F /* block.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = block.c; path = ../../../Sources/block.c; sourceTree = SOURCE_ROOT; };
+		76CB82BF13EA72E50014F17F /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = block.h; path = ../../../Sources/block.h; sourceTree = SOURCE_ROOT; };
+		76CB82C013EA72E50014F17F /* C_Runtime_Lib_Port.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = C_Runtime_Lib_Port.c; path = ../../../Sources/C_Runtime_Lib_Port.c; sourceTree = SOURCE_ROOT; };
+		76CB82C113EA72E50014F17F /* cabac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cabac.c; path = ../../../Sources/cabac.c; sourceTree = SOURCE_ROOT; };
+		76CB82C213EA72E50014F17F /* cabac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cabac.h; path = ../../../Sources/cabac.h; sourceTree = SOURCE_ROOT; };
+		76CB82C313EA72E50014F17F /* cCabac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cCabac.c; path = ../../../Sources/cCabac.c; sourceTree = SOURCE_ROOT; };
+		76CB82C413EA72E50014F17F /* cGetBlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cGetBlock.c; path = ../../../Sources/cGetBlock.c; sourceTree = SOURCE_ROOT; };
+		76CB82C513EA72E50014F17F /* cInvTrans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cInvTrans.c; path = ../../../Sources/cInvTrans.c; sourceTree = SOURCE_ROOT; };
+		76CB82C613EA72E50014F17F /* context_ini.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = context_ini.c; path = ../../../Sources/context_ini.c; sourceTree = SOURCE_ROOT; };
+		76CB82C713EA72E50014F17F /* context_ini.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = context_ini.h; path = ../../../Sources/context_ini.h; sourceTree = SOURCE_ROOT; };
+		76CB82C813EA72E50014F17F /* contributors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = contributors.h; path = ../../../Sources/contributors.h; sourceTree = SOURCE_ROOT; };
+		76CB82C913EA72E50014F17F /* cShortInline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cShortInline.c; path = ../../../Sources/cShortInline.c; sourceTree = SOURCE_ROOT; };
+		76CB82CA13EA72E50014F17F /* ctx_tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ctx_tables.h; path = ../../../Sources/ctx_tables.h; sourceTree = SOURCE_ROOT; };
+		76CB82CB13EA72E50014F17F /* decPicBuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = decPicBuf.c; path = ../../../Sources/decPicBuf.c; sourceTree = SOURCE_ROOT; };
+		76CB82CC13EA72E50014F17F /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = defines.h; path = ../../../Sources/defines.h; sourceTree = SOURCE_ROOT; };
+		76CB82CD13EA72E50014F17F /* elements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = elements.h; path = ../../../Sources/elements.h; sourceTree = SOURCE_ROOT; };
+		76CB82CE13EA72E50014F17F /* erc_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = erc_api.c; path = ../../../Sources/erc_api.c; sourceTree = SOURCE_ROOT; };
+		76CB82CF13EA72E50014F17F /* erc_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = erc_api.h; path = ../../../Sources/erc_api.h; sourceTree = SOURCE_ROOT; };
+		76CB82D013EA72E50014F17F /* erc_do_i.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = erc_do_i.c; path = ../../../Sources/erc_do_i.c; sourceTree = SOURCE_ROOT; };
+		76CB82D113EA72E50014F17F /* erc_do_p.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = erc_do_p.c; path = ../../../Sources/erc_do_p.c; sourceTree = SOURCE_ROOT; };
+		76CB82D213EA72E50014F17F /* erc_do.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = erc_do.h; path = ../../../Sources/erc_do.h; sourceTree = SOURCE_ROOT; };
+		76CB82D313EA72E50014F17F /* erc_globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = erc_globals.h; path = ../../../Sources/erc_globals.h; sourceTree = SOURCE_ROOT; };
+		76CB82D413EA72E50014F17F /* errorconcealment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = errorconcealment.c; path = ../../../Sources/errorconcealment.c; sourceTree = SOURCE_ROOT; };
+		76CB82D513EA72E50014F17F /* errorconcealment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = errorconcealment.h; path = ../../../Sources/errorconcealment.h; sourceTree = SOURCE_ROOT; };
+		76CB82D613EA72E50014F17F /* filehandle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = filehandle.c; path = ../../../Sources/filehandle.c; sourceTree = SOURCE_ROOT; };
+		76CB82D713EA72E50014F17F /* fmo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fmo.c; path = ../../../Sources/fmo.c; sourceTree = SOURCE_ROOT; };
+		76CB82D813EA72E50014F17F /* fmo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmo.h; path = ../../../Sources/fmo.h; sourceTree = SOURCE_ROOT; };
+		76CB82D913EA72E50014F17F /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = global.h; path = ../../../Sources/global.h; sourceTree = SOURCE_ROOT; };
+		76CB82DA13EA72E50014F17F /* h264VdDump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = h264VdDump.h; path = ../../../Sources/h264VdDump.h; sourceTree = SOURCE_ROOT; };
+		76CB82DB13EA72E50014F17F /* h264VdLib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = h264VdLib.c; path = ../../../Sources/h264VdLib.c; sourceTree = SOURCE_ROOT; };
+		76CB82DC13EA72E50014F17F /* header.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = header.c; path = ../../../Sources/header.c; sourceTree = SOURCE_ROOT; };
+		76CB82DD13EA72E50014F17F /* header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = header.h; path = ../../../Sources/header.h; sourceTree = SOURCE_ROOT; };
+		76CB82DE13EA72E50014F17F /* image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = image.c; path = ../../../Sources/image.c; sourceTree = SOURCE_ROOT; };
+		76CB82DF13EA72E50014F17F /* image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = image.h; path = ../../../Sources/image.h; sourceTree = SOURCE_ROOT; };
+		76CB82E113EA72E50014F17F /* ARM11_MX31_Deblock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ARM11_MX31_Deblock.c; sourceTree = "<group>"; };
+		76CB82E213EA72E50014F17F /* mxcAndroidPF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mxcAndroidPF.h; sourceTree = "<group>"; };
+		76CB82E313EA72E50014F17F /* test_ipu_pf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_ipu_pf.c; sourceTree = "<group>"; };
+		76CB82E413EA72E50014F17F /* voIMX31DeblockAndroidImp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = voIMX31DeblockAndroidImp.c; sourceTree = "<group>"; };
+		76CB82E513EA72E50014F17F /* voIMX31DeblockWin32Imp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = voIMX31DeblockWin32Imp.c; sourceTree = "<group>"; };
+		76CB82E613EA72E50014F17F /* voiMX31pf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voiMX31pf.h; sourceTree = "<group>"; };
+		76CB82E713EA72E50014F17F /* InPlaceDeblockMBs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = InPlaceDeblockMBs.c; path = ../../../Sources/InPlaceDeblockMBs.c; sourceTree = SOURCE_ROOT; };
+		76CB82E813EA72E50014F17F /* ldecod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ldecod.c; path = ../../../Sources/ldecod.c; sourceTree = SOURCE_ROOT; };
+		76CB82E913EA72E50014F17F /* leaky_bucket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = leaky_bucket.c; path = ../../../Sources/leaky_bucket.c; sourceTree = SOURCE_ROOT; };
+		76CB82EA13EA72E50014F17F /* leaky_bucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = leaky_bucket.h; path = ../../../Sources/leaky_bucket.h; sourceTree = SOURCE_ROOT; };
+		76CB82EB13EA72E50014F17F /* loopFilter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = loopFilter.c; path = ../../../Sources/loopFilter.c; sourceTree = SOURCE_ROOT; };
+		76CB82EC13EA72E50014F17F /* loopFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loopFilter.h; path = ../../../Sources/loopFilter.h; sourceTree = SOURCE_ROOT; };
+		76CB82ED13EA72E50014F17F /* macroblock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = macroblock.c; path = ../../../Sources/macroblock.c; sourceTree = SOURCE_ROOT; };
+		76CB82EE13EA72E50014F17F /* macroblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = macroblock.h; path = ../../../Sources/macroblock.h; sourceTree = SOURCE_ROOT; };
+		76CB82EF13EA72E50014F17F /* mb_access.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mb_access.c; path = ../../../Sources/mb_access.c; sourceTree = SOURCE_ROOT; };
+		76CB82F013EA72E50014F17F /* mb_access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mb_access.h; path = ../../../Sources/mb_access.h; sourceTree = SOURCE_ROOT; };
+		76CB82F113EA72E50014F17F /* mbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mbuffer.c; path = ../../../Sources/mbuffer.c; sourceTree = SOURCE_ROOT; };
+		76CB82F213EA72E50014F17F /* mbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mbuffer.h; path = ../../../Sources/mbuffer.h; sourceTree = SOURCE_ROOT; };
+		76CB82F313EA72E50014F17F /* memalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = memalloc.c; path = ../../../Sources/memalloc.c; sourceTree = SOURCE_ROOT; };
+		76CB82F413EA72E50014F17F /* memalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = memalloc.h; path = ../../../Sources/memalloc.h; sourceTree = SOURCE_ROOT; };
+		76CB82F513EA72E50014F17F /* nal_part.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nal_part.c; path = ../../../Sources/nal_part.c; sourceTree = SOURCE_ROOT; };
+		76CB82F613EA72E50014F17F /* nal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nal.c; path = ../../../Sources/nal.c; sourceTree = SOURCE_ROOT; };
+		76CB82F713EA72E50014F17F /* nalu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nalu.c; path = ../../../Sources/nalu.c; sourceTree = SOURCE_ROOT; };
+		76CB82F813EA72E50014F17F /* nalu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nalu.h; path = ../../../Sources/nalu.h; sourceTree = SOURCE_ROOT; };
+		76CB82F913EA72E50014F17F /* nalucommon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nalucommon.c; path = ../../../Sources/nalucommon.c; sourceTree = SOURCE_ROOT; };
+		76CB82FA13EA72E50014F17F /* nalucommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nalucommon.h; path = ../../../Sources/nalucommon.h; sourceTree = SOURCE_ROOT; };
+		76CB82FB13EA72E50014F17F /* ncNameTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ncNameTab.h; path = ../../../Sources/ncNameTab.h; sourceTree = SOURCE_ROOT; };
+		76CB82FC13EA72E50014F17F /* neighbor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = neighbor.c; path = ../../../Sources/neighbor.c; sourceTree = SOURCE_ROOT; };
+		76CB82FD13EA72E50014F17F /* output.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = output.c; path = ../../../Sources/output.c; sourceTree = SOURCE_ROOT; };
+		76CB82FE13EA72E50014F17F /* output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = output.h; path = ../../../Sources/output.h; sourceTree = SOURCE_ROOT; };
+		76CB82FF13EA72E50014F17F /* parset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parset.c; path = ../../../Sources/parset.c; sourceTree = SOURCE_ROOT; };
+		76CB830013EA72E50014F17F /* parset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parset.h; path = ../../../Sources/parset.h; sourceTree = SOURCE_ROOT; };
+		76CB830113EA72E50014F17F /* parsetcommon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parsetcommon.c; path = ../../../Sources/parsetcommon.c; sourceTree = SOURCE_ROOT; };
+		76CB830213EA72E50014F17F /* parsetcommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parsetcommon.h; path = ../../../Sources/parsetcommon.h; sourceTree = SOURCE_ROOT; };
+		76CB830313EA72E50014F17F /* rtp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rtp.c; path = ../../../Sources/rtp.c; sourceTree = SOURCE_ROOT; };
+		76CB830413EA72E50014F17F /* rtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rtp.h; path = ../../../Sources/rtp.h; sourceTree = SOURCE_ROOT; };
+		76CB830513EA72E50014F17F /* sei.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sei.c; path = ../../../Sources/sei.c; sourceTree = SOURCE_ROOT; };
+		76CB830613EA72E50014F17F /* sei.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sei.h; path = ../../../Sources/sei.h; sourceTree = SOURCE_ROOT; };
+		76CB830713EA72E50014F17F /* vlc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vlc.c; path = ../../../Sources/vlc.c; sourceTree = SOURCE_ROOT; };
+		76CB830813EA72E50014F17F /* vlc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vlc.h; path = ../../../Sources/vlc.h; sourceTree = SOURCE_ROOT; };
+		76CB830913EA72E50014F17F /* voh264DecCombineSDK.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voh264DecCombineSDK.c; path = ../../../Sources/voh264DecCombineSDK.c; sourceTree = SOURCE_ROOT; };
+		76CB830A13EA72E50014F17F /* voh264DecSDK.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voh264DecSDK.c; path = ../../../Sources/voh264DecSDK.c; sourceTree = SOURCE_ROOT; };
+		76CB830B13EA72E50014F17F /* voLog_android.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voLog_android.c; path = ../../../Sources/voLog_android.c; sourceTree = SOURCE_ROOT; };
+		76CB830C13EA72E50014F17F /* voLog_android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voLog_android.h; path = ../../../Sources/voLog_android.h; sourceTree = SOURCE_ROOT; };
+		76CB836313EA731B0014F17F /* H264_C_Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H264_C_Type.h; sourceTree = "<group>"; };
+		76CB836413EA731B0014F17F /* h264base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h264base.h; sourceTree = "<group>"; };
+		76CB836513EA731B0014F17F /* h264dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h264dec.h; sourceTree = "<group>"; };
+		76CB836613EA731B0014F17F /* sdkbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdkbase.h; sourceTree = "<group>"; };
+		76CB836713EA731B0014F17F /* sharedYUVMem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sharedYUVMem.h; sourceTree = "<group>"; };
+		76CB861813EA85C70014F17F /* libvoH264BP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoH264BP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CB881F13EA927F0014F17F /* libvoH264BP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoH264BP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA747D9E0F9514B9006C5449 /* voH264BP_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voH264BP_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libvoH264BP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoH264BP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76CB861313EA85C70014F17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CB861413EA85C70014F17F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CB881A13EA927F0014F17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CB881B13EA927F0014F17F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libvoH264BP.a */,
+				76CB861813EA85C70014F17F /* libvoH264BP.a */,
+				76CB881F13EA927F0014F17F /* libvoH264BP.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* voH264BP */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = voH264BP;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76CB82B813EA72B20014F17F /* Sources */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* voH264BP_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		76CB82B813EA72B20014F17F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				76CB836213EA731B0014F17F /* old_sdk_inc */,
+				76CB82B913EA72E50014F17F /* annexb.c */,
+				76CB82BA13EA72E50014F17F /* annexb.h */,
+				76CB82BB13EA72E50014F17F /* avd_neighbor.h */,
+				76CB82BC13EA72E50014F17F /* biaridecod.c */,
+				76CB82BD13EA72E50014F17F /* biaridecod.h */,
+				76CB82BE13EA72E50014F17F /* block.c */,
+				76CB82BF13EA72E50014F17F /* block.h */,
+				76CB82C013EA72E50014F17F /* C_Runtime_Lib_Port.c */,
+				76CB82C113EA72E50014F17F /* cabac.c */,
+				76CB82C213EA72E50014F17F /* cabac.h */,
+				76CB82C313EA72E50014F17F /* cCabac.c */,
+				76CB82C413EA72E50014F17F /* cGetBlock.c */,
+				76CB82C513EA72E50014F17F /* cInvTrans.c */,
+				76CB82C613EA72E50014F17F /* context_ini.c */,
+				76CB82C713EA72E50014F17F /* context_ini.h */,
+				76CB82C813EA72E50014F17F /* contributors.h */,
+				76CB82C913EA72E50014F17F /* cShortInline.c */,
+				76CB82CA13EA72E50014F17F /* ctx_tables.h */,
+				76CB82CB13EA72E50014F17F /* decPicBuf.c */,
+				76CB82CC13EA72E50014F17F /* defines.h */,
+				76CB82CD13EA72E50014F17F /* elements.h */,
+				76CB82CE13EA72E50014F17F /* erc_api.c */,
+				76CB82CF13EA72E50014F17F /* erc_api.h */,
+				76CB82D013EA72E50014F17F /* erc_do_i.c */,
+				76CB82D113EA72E50014F17F /* erc_do_p.c */,
+				76CB82D213EA72E50014F17F /* erc_do.h */,
+				76CB82D313EA72E50014F17F /* erc_globals.h */,
+				76CB82D413EA72E50014F17F /* errorconcealment.c */,
+				76CB82D513EA72E50014F17F /* errorconcealment.h */,
+				76CB82D613EA72E50014F17F /* filehandle.c */,
+				76CB82D713EA72E50014F17F /* fmo.c */,
+				76CB82D813EA72E50014F17F /* fmo.h */,
+				76CB82D913EA72E50014F17F /* global.h */,
+				76CB82DA13EA72E50014F17F /* h264VdDump.h */,
+				76CB82DB13EA72E50014F17F /* h264VdLib.c */,
+				76CB82DC13EA72E50014F17F /* header.c */,
+				76CB82DD13EA72E50014F17F /* header.h */,
+				76CB82DE13EA72E50014F17F /* image.c */,
+				76CB82DF13EA72E50014F17F /* image.h */,
+				76CB82E013EA72E50014F17F /* Imx31 */,
+				76CB82E713EA72E50014F17F /* InPlaceDeblockMBs.c */,
+				76CB82E813EA72E50014F17F /* ldecod.c */,
+				76CB82E913EA72E50014F17F /* leaky_bucket.c */,
+				76CB82EA13EA72E50014F17F /* leaky_bucket.h */,
+				76CB82EB13EA72E50014F17F /* loopFilter.c */,
+				76CB82EC13EA72E50014F17F /* loopFilter.h */,
+				76CB82ED13EA72E50014F17F /* macroblock.c */,
+				76CB82EE13EA72E50014F17F /* macroblock.h */,
+				76CB82EF13EA72E50014F17F /* mb_access.c */,
+				76CB82F013EA72E50014F17F /* mb_access.h */,
+				76CB82F113EA72E50014F17F /* mbuffer.c */,
+				76CB82F213EA72E50014F17F /* mbuffer.h */,
+				76CB82F313EA72E50014F17F /* memalloc.c */,
+				76CB82F413EA72E50014F17F /* memalloc.h */,
+				76CB82F513EA72E50014F17F /* nal_part.c */,
+				76CB82F613EA72E50014F17F /* nal.c */,
+				76CB82F713EA72E50014F17F /* nalu.c */,
+				76CB82F813EA72E50014F17F /* nalu.h */,
+				76CB82F913EA72E50014F17F /* nalucommon.c */,
+				76CB82FA13EA72E50014F17F /* nalucommon.h */,
+				76CB82FB13EA72E50014F17F /* ncNameTab.h */,
+				76CB82FC13EA72E50014F17F /* neighbor.c */,
+				76CB82FD13EA72E50014F17F /* output.c */,
+				76CB82FE13EA72E50014F17F /* output.h */,
+				76CB82FF13EA72E50014F17F /* parset.c */,
+				76CB830013EA72E50014F17F /* parset.h */,
+				76CB830113EA72E50014F17F /* parsetcommon.c */,
+				76CB830213EA72E50014F17F /* parsetcommon.h */,
+				76CB830313EA72E50014F17F /* rtp.c */,
+				76CB830413EA72E50014F17F /* rtp.h */,
+				76CB830513EA72E50014F17F /* sei.c */,
+				76CB830613EA72E50014F17F /* sei.h */,
+				76CB830713EA72E50014F17F /* vlc.c */,
+				76CB830813EA72E50014F17F /* vlc.h */,
+				76CB830913EA72E50014F17F /* voh264DecCombineSDK.c */,
+				76CB830A13EA72E50014F17F /* voh264DecSDK.c */,
+				76CB830B13EA72E50014F17F /* voLog_android.c */,
+				76CB830C13EA72E50014F17F /* voLog_android.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		76CB82E013EA72E50014F17F /* Imx31 */ = {
+			isa = PBXGroup;
+			children = (
+				76CB82E113EA72E50014F17F /* ARM11_MX31_Deblock.c */,
+				76CB82E213EA72E50014F17F /* mxcAndroidPF.h */,
+				76CB82E313EA72E50014F17F /* test_ipu_pf.c */,
+				76CB82E413EA72E50014F17F /* voIMX31DeblockAndroidImp.c */,
+				76CB82E513EA72E50014F17F /* voIMX31DeblockWin32Imp.c */,
+				76CB82E613EA72E50014F17F /* voiMX31pf.h */,
+			);
+			name = Imx31;
+			path = ../../../Sources/Imx31;
+			sourceTree = SOURCE_ROOT;
+		};
+		76CB836213EA731B0014F17F /* old_sdk_inc */ = {
+			isa = PBXGroup;
+			children = (
+				76CB836313EA731B0014F17F /* H264_C_Type.h */,
+				76CB836413EA731B0014F17F /* h264base.h */,
+				76CB836513EA731B0014F17F /* h264dec.h */,
+				76CB836613EA731B0014F17F /* sdkbase.h */,
+				76CB836713EA731B0014F17F /* sharedYUVMem.h */,
+			);
+			name = old_sdk_inc;
+			path = ../../../Sources/old_sdk_inc;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76CB85C013EA85C70014F17F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CB85C113EA85C70014F17F /* voH264BP_Prefix.pch in Headers */,
+				76CB85C213EA85C70014F17F /* annexb.h in Headers */,
+				76CB85C313EA85C70014F17F /* avd_neighbor.h in Headers */,
+				76CB85C413EA85C70014F17F /* biaridecod.h in Headers */,
+				76CB85C513EA85C70014F17F /* block.h in Headers */,
+				76CB85C613EA85C70014F17F /* cabac.h in Headers */,
+				76CB85C713EA85C70014F17F /* context_ini.h in Headers */,
+				76CB85C813EA85C70014F17F /* contributors.h in Headers */,
+				76CB85C913EA85C70014F17F /* ctx_tables.h in Headers */,
+				76CB85CA13EA85C70014F17F /* defines.h in Headers */,
+				76CB85CB13EA85C70014F17F /* elements.h in Headers */,
+				76CB85CC13EA85C70014F17F /* erc_api.h in Headers */,
+				76CB85CD13EA85C70014F17F /* erc_do.h in Headers */,
+				76CB85CE13EA85C70014F17F /* erc_globals.h in Headers */,
+				76CB85CF13EA85C70014F17F /* errorconcealment.h in Headers */,
+				76CB85D013EA85C70014F17F /* fmo.h in Headers */,
+				76CB85D113EA85C70014F17F /* global.h in Headers */,
+				76CB85D213EA85C70014F17F /* h264VdDump.h in Headers */,
+				76CB85D313EA85C70014F17F /* header.h in Headers */,
+				76CB85D413EA85C70014F17F /* image.h in Headers */,
+				76CB85D513EA85C70014F17F /* leaky_bucket.h in Headers */,
+				76CB85D613EA85C70014F17F /* loopFilter.h in Headers */,
+				76CB85D713EA85C70014F17F /* macroblock.h in Headers */,
+				76CB85D813EA85C70014F17F /* mb_access.h in Headers */,
+				76CB85D913EA85C70014F17F /* mbuffer.h in Headers */,
+				76CB85DA13EA85C70014F17F /* memalloc.h in Headers */,
+				76CB85DB13EA85C70014F17F /* nalu.h in Headers */,
+				76CB85DC13EA85C70014F17F /* nalucommon.h in Headers */,
+				76CB85DD13EA85C70014F17F /* ncNameTab.h in Headers */,
+				76CB85DE13EA85C70014F17F /* output.h in Headers */,
+				76CB85DF13EA85C70014F17F /* parset.h in Headers */,
+				76CB85E013EA85C70014F17F /* parsetcommon.h in Headers */,
+				76CB85E113EA85C70014F17F /* rtp.h in Headers */,
+				76CB85E213EA85C70014F17F /* sei.h in Headers */,
+				76CB85E313EA85C70014F17F /* vlc.h in Headers */,
+				76CB85E413EA85C70014F17F /* voLog_android.h in Headers */,
+				76CB85E513EA85C70014F17F /* H264_C_Type.h in Headers */,
+				76CB85E613EA85C70014F17F /* h264base.h in Headers */,
+				76CB85E713EA85C70014F17F /* h264dec.h in Headers */,
+				76CB85E813EA85C70014F17F /* sdkbase.h in Headers */,
+				76CB85E913EA85C70014F17F /* sharedYUVMem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CB87C713EA927F0014F17F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CB87C813EA927F0014F17F /* voH264BP_Prefix.pch in Headers */,
+				76CB87C913EA927F0014F17F /* annexb.h in Headers */,
+				76CB87CA13EA927F0014F17F /* avd_neighbor.h in Headers */,
+				76CB87CB13EA927F0014F17F /* biaridecod.h in Headers */,
+				76CB87CC13EA927F0014F17F /* block.h in Headers */,
+				76CB87CD13EA927F0014F17F /* cabac.h in Headers */,
+				76CB87CE13EA927F0014F17F /* context_ini.h in Headers */,
+				76CB87CF13EA927F0014F17F /* contributors.h in Headers */,
+				76CB87D013EA927F0014F17F /* ctx_tables.h in Headers */,
+				76CB87D113EA927F0014F17F /* defines.h in Headers */,
+				76CB87D213EA927F0014F17F /* elements.h in Headers */,
+				76CB87D313EA927F0014F17F /* erc_api.h in Headers */,
+				76CB87D413EA927F0014F17F /* erc_do.h in Headers */,
+				76CB87D513EA927F0014F17F /* erc_globals.h in Headers */,
+				76CB87D613EA927F0014F17F /* errorconcealment.h in Headers */,
+				76CB87D713EA927F0014F17F /* fmo.h in Headers */,
+				76CB87D813EA927F0014F17F /* global.h in Headers */,
+				76CB87D913EA927F0014F17F /* h264VdDump.h in Headers */,
+				76CB87DA13EA927F0014F17F /* header.h in Headers */,
+				76CB87DB13EA927F0014F17F /* image.h in Headers */,
+				76CB87DC13EA927F0014F17F /* leaky_bucket.h in Headers */,
+				76CB87DD13EA927F0014F17F /* loopFilter.h in Headers */,
+				76CB87DE13EA927F0014F17F /* macroblock.h in Headers */,
+				76CB87DF13EA927F0014F17F /* mb_access.h in Headers */,
+				76CB87E013EA927F0014F17F /* mbuffer.h in Headers */,
+				76CB87E113EA927F0014F17F /* memalloc.h in Headers */,
+				76CB87E213EA927F0014F17F /* nalu.h in Headers */,
+				76CB87E313EA927F0014F17F /* nalucommon.h in Headers */,
+				76CB87E413EA927F0014F17F /* ncNameTab.h in Headers */,
+				76CB87E513EA927F0014F17F /* output.h in Headers */,
+				76CB87E613EA927F0014F17F /* parset.h in Headers */,
+				76CB87E713EA927F0014F17F /* parsetcommon.h in Headers */,
+				76CB87E813EA927F0014F17F /* rtp.h in Headers */,
+				76CB87E913EA927F0014F17F /* sei.h in Headers */,
+				76CB87EA13EA927F0014F17F /* vlc.h in Headers */,
+				76CB87EB13EA927F0014F17F /* voLog_android.h in Headers */,
+				76CB87EC13EA927F0014F17F /* H264_C_Type.h in Headers */,
+				76CB87ED13EA927F0014F17F /* h264base.h in Headers */,
+				76CB87EE13EA927F0014F17F /* h264dec.h in Headers */,
+				76CB87EF13EA927F0014F17F /* sdkbase.h in Headers */,
+				76CB87F013EA927F0014F17F /* sharedYUVMem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* voH264BP_Prefix.pch in Headers */,
+				76CB830E13EA72E50014F17F /* annexb.h in Headers */,
+				76CB830F13EA72E50014F17F /* avd_neighbor.h in Headers */,
+				76CB831113EA72E50014F17F /* biaridecod.h in Headers */,
+				76CB831313EA72E50014F17F /* block.h in Headers */,
+				76CB831613EA72E50014F17F /* cabac.h in Headers */,
+				76CB831B13EA72E50014F17F /* context_ini.h in Headers */,
+				76CB831C13EA72E50014F17F /* contributors.h in Headers */,
+				76CB831E13EA72E50014F17F /* ctx_tables.h in Headers */,
+				76CB832013EA72E50014F17F /* defines.h in Headers */,
+				76CB832113EA72E50014F17F /* elements.h in Headers */,
+				76CB832313EA72E50014F17F /* erc_api.h in Headers */,
+				76CB832613EA72E50014F17F /* erc_do.h in Headers */,
+				76CB832713EA72E50014F17F /* erc_globals.h in Headers */,
+				76CB832913EA72E50014F17F /* errorconcealment.h in Headers */,
+				76CB832C13EA72E50014F17F /* fmo.h in Headers */,
+				76CB832D13EA72E50014F17F /* global.h in Headers */,
+				76CB832E13EA72E50014F17F /* h264VdDump.h in Headers */,
+				76CB833113EA72E50014F17F /* header.h in Headers */,
+				76CB833313EA72E50014F17F /* image.h in Headers */,
+				76CB833D13EA72E50014F17F /* leaky_bucket.h in Headers */,
+				76CB833F13EA72E50014F17F /* loopFilter.h in Headers */,
+				76CB834113EA72E50014F17F /* macroblock.h in Headers */,
+				76CB834313EA72E50014F17F /* mb_access.h in Headers */,
+				76CB834513EA72E50014F17F /* mbuffer.h in Headers */,
+				76CB834713EA72E50014F17F /* memalloc.h in Headers */,
+				76CB834B13EA72E50014F17F /* nalu.h in Headers */,
+				76CB834D13EA72E50014F17F /* nalucommon.h in Headers */,
+				76CB834E13EA72E50014F17F /* ncNameTab.h in Headers */,
+				76CB835113EA72E50014F17F /* output.h in Headers */,
+				76CB835313EA72E50014F17F /* parset.h in Headers */,
+				76CB835513EA72E50014F17F /* parsetcommon.h in Headers */,
+				76CB835713EA72E50014F17F /* rtp.h in Headers */,
+				76CB835913EA72E50014F17F /* sei.h in Headers */,
+				76CB835B13EA72E50014F17F /* vlc.h in Headers */,
+				76CB835F13EA72E50014F17F /* voLog_android.h in Headers */,
+				76CB836813EA731B0014F17F /* H264_C_Type.h in Headers */,
+				76CB836913EA731B0014F17F /* h264base.h in Headers */,
+				76CB836A13EA731B0014F17F /* h264dec.h in Headers */,
+				76CB836B13EA731B0014F17F /* sdkbase.h in Headers */,
+				76CB836C13EA731B0014F17F /* sharedYUVMem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		76CB85BF13EA85C70014F17F /* voH264BP_v7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76CB861513EA85C70014F17F /* Build configuration list for PBXNativeTarget "voH264BP_v7" */;
+			buildPhases = (
+				76CB85C013EA85C70014F17F /* Headers */,
+				76CB85EA13EA85C70014F17F /* Sources */,
+				76CB861313EA85C70014F17F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voH264BP_v7;
+			productName = voH264BP;
+			productReference = 76CB861813EA85C70014F17F /* libvoH264BP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		76CB87C613EA927F0014F17F /* voH264BP_v6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76CB881C13EA927F0014F17F /* Build configuration list for PBXNativeTarget "voH264BP_v6" */;
+			buildPhases = (
+				76CB87C713EA927F0014F17F /* Headers */,
+				76CB87F113EA927F0014F17F /* Sources */,
+				76CB881A13EA927F0014F17F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voH264BP_v6;
+			productName = voH264BP;
+			productReference = 76CB881F13EA927F0014F17F /* libvoH264BP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AAC07D0554694100DB518D /* voH264BP_simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voH264BP_simulator" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voH264BP_simulator;
+			productName = voH264BP;
+			productReference = D2AAC07E0554694100DB518D /* libvoH264BP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voH264BP" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* voH264BP */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* voH264BP_simulator */,
+				76CB85BF13EA85C70014F17F /* voH264BP_v7 */,
+				76CB87C613EA927F0014F17F /* voH264BP_v6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76CB85EA13EA85C70014F17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CB85EB13EA85C70014F17F /* annexb.c in Sources */,
+				76CB85EC13EA85C70014F17F /* biaridecod.c in Sources */,
+				76CB85ED13EA85C70014F17F /* block.c in Sources */,
+				76CB85EE13EA85C70014F17F /* cabac.c in Sources */,
+				76CB85EF13EA85C70014F17F /* cCabac.c in Sources */,
+				76CB85F013EA85C70014F17F /* cGetBlock.c in Sources */,
+				76CB85F113EA85C70014F17F /* cInvTrans.c in Sources */,
+				76CB85F213EA85C70014F17F /* context_ini.c in Sources */,
+				76CB85F313EA85C70014F17F /* cShortInline.c in Sources */,
+				76CB85F413EA85C70014F17F /* decPicBuf.c in Sources */,
+				76CB85F513EA85C70014F17F /* erc_api.c in Sources */,
+				76CB85F613EA85C70014F17F /* erc_do_i.c in Sources */,
+				76CB85F713EA85C70014F17F /* erc_do_p.c in Sources */,
+				76CB85F813EA85C70014F17F /* errorconcealment.c in Sources */,
+				76CB85F913EA85C70014F17F /* filehandle.c in Sources */,
+				76CB85FA13EA85C70014F17F /* fmo.c in Sources */,
+				76CB85FB13EA85C70014F17F /* h264VdLib.c in Sources */,
+				76CB85FC13EA85C70014F17F /* header.c in Sources */,
+				76CB85FD13EA85C70014F17F /* image.c in Sources */,
+				76CB85FE13EA85C70014F17F /* InPlaceDeblockMBs.c in Sources */,
+				76CB85FF13EA85C70014F17F /* ldecod.c in Sources */,
+				76CB860013EA85C70014F17F /* leaky_bucket.c in Sources */,
+				76CB860113EA85C70014F17F /* loopFilter.c in Sources */,
+				76CB860213EA85C70014F17F /* macroblock.c in Sources */,
+				76CB860313EA85C70014F17F /* mb_access.c in Sources */,
+				76CB860413EA85C70014F17F /* mbuffer.c in Sources */,
+				76CB860513EA85C70014F17F /* memalloc.c in Sources */,
+				76CB860613EA85C70014F17F /* nal_part.c in Sources */,
+				76CB860713EA85C70014F17F /* nal.c in Sources */,
+				76CB860813EA85C70014F17F /* nalu.c in Sources */,
+				76CB860913EA85C70014F17F /* nalucommon.c in Sources */,
+				76CB860A13EA85C70014F17F /* neighbor.c in Sources */,
+				76CB860B13EA85C70014F17F /* output.c in Sources */,
+				76CB860C13EA85C70014F17F /* parset.c in Sources */,
+				76CB860D13EA85C70014F17F /* parsetcommon.c in Sources */,
+				76CB860E13EA85C70014F17F /* rtp.c in Sources */,
+				76CB860F13EA85C70014F17F /* sei.c in Sources */,
+				76CB861013EA85C70014F17F /* vlc.c in Sources */,
+				76CB861113EA85C70014F17F /* voh264DecSDK.c in Sources */,
+				76CB861213EA85C70014F17F /* voLog_android.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CB87F113EA927F0014F17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CB87F213EA927F0014F17F /* annexb.c in Sources */,
+				76CB87F313EA927F0014F17F /* biaridecod.c in Sources */,
+				76CB87F413EA927F0014F17F /* block.c in Sources */,
+				76CB87F513EA927F0014F17F /* cabac.c in Sources */,
+				76CB87F613EA927F0014F17F /* cCabac.c in Sources */,
+				76CB87F713EA927F0014F17F /* cGetBlock.c in Sources */,
+				76CB87F813EA927F0014F17F /* cInvTrans.c in Sources */,
+				76CB87F913EA927F0014F17F /* context_ini.c in Sources */,
+				76CB87FA13EA927F0014F17F /* cShortInline.c in Sources */,
+				76CB87FB13EA927F0014F17F /* decPicBuf.c in Sources */,
+				76CB87FC13EA927F0014F17F /* erc_api.c in Sources */,
+				76CB87FD13EA927F0014F17F /* erc_do_i.c in Sources */,
+				76CB87FE13EA927F0014F17F /* erc_do_p.c in Sources */,
+				76CB87FF13EA927F0014F17F /* errorconcealment.c in Sources */,
+				76CB880013EA927F0014F17F /* filehandle.c in Sources */,
+				76CB880113EA927F0014F17F /* fmo.c in Sources */,
+				76CB880213EA927F0014F17F /* h264VdLib.c in Sources */,
+				76CB880313EA927F0014F17F /* header.c in Sources */,
+				76CB880413EA927F0014F17F /* image.c in Sources */,
+				76CB880513EA927F0014F17F /* InPlaceDeblockMBs.c in Sources */,
+				76CB880613EA927F0014F17F /* ldecod.c in Sources */,
+				76CB880713EA927F0014F17F /* leaky_bucket.c in Sources */,
+				76CB880813EA927F0014F17F /* loopFilter.c in Sources */,
+				76CB880913EA927F0014F17F /* macroblock.c in Sources */,
+				76CB880A13EA927F0014F17F /* mb_access.c in Sources */,
+				76CB880B13EA927F0014F17F /* mbuffer.c in Sources */,
+				76CB880C13EA927F0014F17F /* memalloc.c in Sources */,
+				76CB880D13EA927F0014F17F /* nal_part.c in Sources */,
+				76CB880E13EA927F0014F17F /* nal.c in Sources */,
+				76CB880F13EA927F0014F17F /* nalu.c in Sources */,
+				76CB881013EA927F0014F17F /* nalucommon.c in Sources */,
+				76CB881113EA927F0014F17F /* neighbor.c in Sources */,
+				76CB881213EA927F0014F17F /* output.c in Sources */,
+				76CB881313EA927F0014F17F /* parset.c in Sources */,
+				76CB881413EA927F0014F17F /* parsetcommon.c in Sources */,
+				76CB881513EA927F0014F17F /* rtp.c in Sources */,
+				76CB881613EA927F0014F17F /* sei.c in Sources */,
+				76CB881713EA927F0014F17F /* vlc.c in Sources */,
+				76CB881813EA927F0014F17F /* voh264DecSDK.c in Sources */,
+				76CB881913EA927F0014F17F /* voLog_android.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CB830D13EA72E50014F17F /* annexb.c in Sources */,
+				76CB831013EA72E50014F17F /* biaridecod.c in Sources */,
+				76CB831213EA72E50014F17F /* block.c in Sources */,
+				76CB831513EA72E50014F17F /* cabac.c in Sources */,
+				76CB831713EA72E50014F17F /* cCabac.c in Sources */,
+				76CB831813EA72E50014F17F /* cGetBlock.c in Sources */,
+				76CB831913EA72E50014F17F /* cInvTrans.c in Sources */,
+				76CB831A13EA72E50014F17F /* context_ini.c in Sources */,
+				76CB831D13EA72E50014F17F /* cShortInline.c in Sources */,
+				76CB831F13EA72E50014F17F /* decPicBuf.c in Sources */,
+				76CB832213EA72E50014F17F /* erc_api.c in Sources */,
+				76CB832413EA72E50014F17F /* erc_do_i.c in Sources */,
+				76CB832513EA72E50014F17F /* erc_do_p.c in Sources */,
+				76CB832813EA72E50014F17F /* errorconcealment.c in Sources */,
+				76CB832A13EA72E50014F17F /* filehandle.c in Sources */,
+				76CB832B13EA72E50014F17F /* fmo.c in Sources */,
+				76CB832F13EA72E50014F17F /* h264VdLib.c in Sources */,
+				76CB833013EA72E50014F17F /* header.c in Sources */,
+				76CB833213EA72E50014F17F /* image.c in Sources */,
+				76CB833A13EA72E50014F17F /* InPlaceDeblockMBs.c in Sources */,
+				76CB833B13EA72E50014F17F /* ldecod.c in Sources */,
+				76CB833C13EA72E50014F17F /* leaky_bucket.c in Sources */,
+				76CB833E13EA72E50014F17F /* loopFilter.c in Sources */,
+				76CB834013EA72E50014F17F /* macroblock.c in Sources */,
+				76CB834213EA72E50014F17F /* mb_access.c in Sources */,
+				76CB834413EA72E50014F17F /* mbuffer.c in Sources */,
+				76CB834613EA72E50014F17F /* memalloc.c in Sources */,
+				76CB834813EA72E50014F17F /* nal_part.c in Sources */,
+				76CB834913EA72E50014F17F /* nal.c in Sources */,
+				76CB834A13EA72E50014F17F /* nalu.c in Sources */,
+				76CB834C13EA72E50014F17F /* nalucommon.c in Sources */,
+				76CB834F13EA72E50014F17F /* neighbor.c in Sources */,
+				76CB835013EA72E50014F17F /* output.c in Sources */,
+				76CB835213EA72E50014F17F /* parset.c in Sources */,
+				76CB835413EA72E50014F17F /* parsetcommon.c in Sources */,
+				76CB835613EA72E50014F17F /* rtp.c in Sources */,
+				76CB835813EA72E50014F17F /* sei.c in Sources */,
+				76CB835A13EA72E50014F17F /* vlc.c in Sources */,
+				76CB835D13EA72E50014F17F /* voh264DecSDK.c in Sources */,
+				76CB835E13EA72E50014F17F /* voLog_android.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../../voRelease/iOS/static/i386/;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voH264BP.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voH264BP_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					COMBINE_ALL_PROFILE,
+					NDEBUG,
+					DISABLE_LICENSE,
+					DEBUG_INFO1,
+					_MAC_OS,
+					DISABLE_MCORE,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../../../Include,
+					../../../../../../../Common,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voH264BP;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../../voRelease/iOS/static/i386/;
+				DSTROOT = /tmp/voH264BP.dst;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voH264BP_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					COMBINE_ALL_PROFILE,
+					NDEBUG,
+					DISABLE_LICENSE,
+					DEBUG_INFO1,
+					_MAC_OS,
+					DISABLE_MCORE,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../../../Include,
+					../../../../../../../Common,
+				);
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voH264BP;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					COMBINE_ALL_PROFILE,
+					NDEBUG,
+					DISABLE_LICENSE,
+					DEBUG_INFO,
+					_MAC_OS,
+					DISABLE_MCORE,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		76CB861613EA85C70014F17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../../voRelease/iOS/static/v7;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voH264BP.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voH264BP_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ARM,
+					_IOS,
+					ARM_ASM,
+					LINUX,
+					COMBINE_ALL_PROFILE,
+					NDEBUG,
+					NEON,
+					DISABLE_LICENSE,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../../../Include,
+					../../../../../../../Common,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voH264BP;
+			};
+			name = Debug;
+		};
+		76CB861713EA85C70014F17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../../voRelease/iOS/static/v7;
+				DSTROOT = /tmp/voH264BP.dst;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voH264BP_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ARM,
+					_IOS,
+					ARM_ASM,
+					LINUX,
+					COMBINE_ALL_PROFILE,
+					NDEBUG,
+					NEON,
+					DISABLE_LICENSE,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../../../Include,
+					../../../../../../../Common,
+				);
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voH264BP;
+			};
+			name = Release;
+		};
+		76CB881D13EA927F0014F17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../../voRelease/iOS/static/v6;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voH264BP.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voH264BP_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ARM,
+					ARM_ASM,
+					COMBINE_ALL_PROFILE,
+					NDEBUG,
+					DISABLE_LICENSE,
+					_MAC_OS,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../../../Include,
+					../../../../../../../Common,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voH264BP;
+				VALID_ARCHS = "armv7 armv6";
+			};
+			name = Debug;
+		};
+		76CB881E13EA927F0014F17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../../voRelease/iOS/static/v6;
+				DSTROOT = /tmp/voH264BP.dst;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voH264BP_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ARM,
+					ARM_ASM,
+					COMBINE_ALL_PROFILE,
+					NDEBUG,
+					DISABLE_LICENSE,
+					_MAC_OS,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../../../Include,
+					../../../../../../../Common,
+				);
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voH264BP;
+				VALID_ARCHS = "armv7 armv6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voH264BP_simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voH264BP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76CB861513EA85C70014F17F /* Build configuration list for PBXNativeTarget "voH264BP_v7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CB861613EA85C70014F17F /* Debug */,
+				76CB861713EA85C70014F17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76CB881C13EA927F0014F17F /* Build configuration list for PBXNativeTarget "voH264BP_v6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CB881D13EA927F0014F17F /* Debug */,
+				76CB881E13EA927F0014F17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

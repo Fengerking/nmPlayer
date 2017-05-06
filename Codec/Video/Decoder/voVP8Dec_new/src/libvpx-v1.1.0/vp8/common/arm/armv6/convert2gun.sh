@@ -1,0 +1,21 @@
+
+cat bilinearfilter_v6.asm                       | perl ../../../../build/make/ads2gas.pl >bilinearfilter_v6_gnu.S
+cat copymem16x16_v6.asm                         | perl ../../../../build/make/ads2gas.pl >copymem16x16_v6_gnu.S                      
+cat copymem8x4_v6.asm                           | perl ../../../../build/make/ads2gas.pl >copymem8x4_v6_gnu.S                        
+cat copymem8x8_v6.asm                           | perl ../../../../build/make/ads2gas.pl >copymem8x8_v6_gnu.S                        
+cat dc_only_idct_add_v6.asm                     | perl ../../../../build/make/ads2gas.pl >dc_only_idct_add_v6_gnu.S                  
+cat dequant_idct_v6.asm                         | perl ../../../../build/make/ads2gas.pl >dequant_idct_v6_gnu.S                      
+cat dequantize_v6.asm                           | perl ../../../../build/make/ads2gas.pl >dequantize_v6_gnu.S                        
+cat filter_v6.asm                               | perl ../../../../build/make/ads2gas.pl >filter_v6_gnu.S                            
+cat idct_v6.asm                                 | perl ../../../../build/make/ads2gas.pl >idct_v6_gnu.S                              
+cat intra4x4_predict_v6.asm                     | perl ../../../../build/make/ads2gas.pl >intra4x4_predict_v6_gnu.S                  
+cat iwalsh_v6.asm                               | perl ../../../../build/make/ads2gas.pl >iwalsh_v6_gnu.S                            
+cat loopfilter_v6.asm                           | perl ../../../../build/make/ads2gas.pl >loopfilter_v6_gnu.S                        
+cat simpleloopfilter_v6.asm                     | perl ../../../../build/make/ads2gas.pl >simpleloopfilter_v6_gnu.S                  
+cat sixtappredict8x4_v6.asm                     | perl ../../../../build/make/ads2gas.pl >sixtappredict8x4_v6_gnu.S                  
+cat vp8_sad16x16_armv6.asm                      | perl ../../../../build/make/ads2gas.pl >vp8_sad16x16_armv6_gnu.S                   
+cat vp8_variance16x16_armv6.asm                 | perl ../../../../build/make/ads2gas.pl >vp8_variance16x16_armv6_gnu.S              
+cat vp8_variance8x8_armv6.asm                   | perl ../../../../build/make/ads2gas.pl >vp8_variance8x8_armv6_gnu.S                
+cat vp8_variance_halfpixvar16x16_h_armv6.asm    | perl ../../../../build/make/ads2gas.pl >vp8_variance_halfpixvar16x16_h_armv6_gnu.S 
+cat vp8_variance_halfpixvar16x16_hv_armv6.asm   | perl ../../../../build/make/ads2gas.pl >vp8_variance_halfpixvar16x16_hv_armv6_gnu.S
+cat vp8_variance_halfpixvar16x16_v_armv6.asm    | perl ../../../../build/make/ads2gas.pl >vp8_variance_halfpixvar16x16_v_armv6_gnu.S 

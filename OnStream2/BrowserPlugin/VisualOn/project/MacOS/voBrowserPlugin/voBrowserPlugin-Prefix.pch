@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'voBrowserPlugin' target in the 'voBrowserPlugin' project
+//
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#endif
+//#include <Carbon/Carbon.h>

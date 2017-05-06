@@ -1,0 +1,342 @@
+/*** memory spec for module asp: auto-generated file ***/
+MEMORY {
+	/*** ROM : org=0xb8 len=0x1fff48 ***/
+    	ROM		: org = 0xb8 len = 0x1fff48
+    	vec		: org = 0x0 len = 0xb8
+    	/* dmem: org = 0x200000 len = 0x6000 */
+    	DMEM0		: org = 0x200000 len = 0x3000
+    	DMEM1		: org = 0x203000 len = 0x0cd8
+    	DMEM2		: org = 0x203cd8 len = 0x2328
+    	/* icache_data	: org = 0x300000 len = 0x2000 */
+    	/* icache_tag	: org = 0x310000 len = 0x2000 */
+    	IO		: org = 0x340000 len = 0x1000
+    	/*** SDRAM : org=0x800000 len=0x800000 ***/
+    	vec_warm	: org = 0x800000 len = 0xb8
+    	romdata.s	: org = 0x8000b8 len = 0x100
+    	data.s		: org = 0x8001b8 len = 0x100
+
+	/*************Parameter Table****************/
+	ParamTble	: org = 0x800800 len = 0x100
+
+	/***********Initialization Table*************/
+	InitTble	: org = 0x800900 len = 0x50
+
+	/*************Real Audio FIFO****************/
+	ra_io		: org = 0x801000 len = 0x6008
+
+	/**************Real Video FIFO***************/
+	rv_io		: org = 0x808000 len = 0x8008
+
+	code.m		: org = 0x810008 len = 0x15ff8
+
+	/***********Real Audio Decoder Data**********/
+    	ra_data  	: org = 0x826000 len = 0xD050
+	
+	/***********Real Video Decoder Data**********/
+    	rv_data  	: org = 0x833050 len = 0x4e600
+
+	/*******Real Audio FW Output Buffer**********/
+   	ra_outbuff	: org = 0x881650 len = 0x6000 
+
+	/***Real Video FW/SCALAR Output Buffer*******/
+        display_buffers : org = 0x887650 len = 0xACF80
+
+	/***********Real Video Big Frame*************/
+	rv_bigframe	: org = 0x9345D0 len = 0x3c00
+
+	data.m		: org = 0x9381D0 len = 0x55920
+    	romdata.m	: org = 0x98dAF0 len = 0x1000
+    	romdata.l	: org = 0x98eAF0 len = 0x0200
+    	data.l		: org = 0x98eCF0 len = 0x1000
+    	code.l		: org = 0x98fCF0 len = 0x1000
+    	scratch		: org = 0x990CF0 len = 0xFD0
+
+    	/*************DeBug Structures***************/
+	ra_dbgstrct	: org = 0x991CC0 len =0x2710
+
+	rv_dbgstrct	: org = 0x9943D0 len =0x3000 
+
+	fw_dbgstrct : org = 0x9973D0 len =0xD8
+
+	/*** local_mem ***/
+    	gcif                    	: org = 0x600000 len = 0x10000
+    	/*** SDRAM(optional)***/
+    	/* RAM2                     : org=0x80800000 len=0x800000 */
+    	}
+    
+    
+    	SECTIONS {
+            .stack          org = 0x200000 len = 0x8d0/*0x898*/ : {*(.stack)}
+            /*.heap         org = 0x9520b8 len = 0xadf48 : {*(.heap)}*/
+            /* section definitions */
+            .hwinit : { *(.hwinit) } > ROM
+            .sbss org = 0x8001b8 (NOLOAD) : { *(.sbss) }
+            .bss org = 0x9381D0 (NOLOAD) : { *(.bss) }
+            .fbss org = 0x98eCF0 (NOLOAD) : { *(.fbss) }
+            /* edit here to add section info if necessary */
+    
+    	/*******************************************************************************
+        *		         DAC variables inside DMEM                             *
+        *******************************************************************************/
+        .dac_variables_dmem  org = 0x2008d0
+             len = 0x90     : {*(.dac_variables_dmem).=align(4);}
+    
+    	/*############################################################################## 
+        #                     Real Video :: Overlaying Sections                        #
+        ###############################################################################*/
+    	
+        .indata   org =  0x204280
+             len = 0x1610    : {*(.indata).=align(4);}
+    
+        .tables_vlc   org = 0x833050
+             addr = 0x201c00
+             (OVERLAY): {*(.tables_vlc) *(.tables_vlc.32) .=align(32);}
+    
+        .tables_clamp org = org(.tables_vlc)+sizeof(.tables_vlc)
+             addr = addr(.tables_vlc)+ 0x60
+             (OVERLAY): {*(.tables_clamp) *(.tables_clamp.32) .=align(32);}
+    
+        .tables_dblk  org = org(.tables_clamp)+sizeof(.tables_clamp)
+             addr = 0x203858
+             (OVERLAY): {*(.tables_dblk) *(.tables_dblk.32) .=align(32);}
+    
+        .tables_vlc_edge org = org(.tables_dblk)+sizeof(.tables_dblk)
+             addr = 0x205b1c
+             (OVERLAY): {*(.tables_vlc_edge) *(.tables_vlc_edge.32) .=align(32);}
+    
+        .tables_vlc_prob org = org(.tables_vlc_edge)+sizeof(.tables_vlc_edge)
+             addr = 0x2041c0
+             (OVERLAY): {*(.tables_vlc_prob) *(.tables_vlc_prob.32) .=align(32);}
+    
+    	.tables_dsc_to  org = org(.tables_vlc_prob)+ sizeof(.tables_vlc_prob)
+          	: {*(.tables_dsc_to).=align(32);}
+    
+    	.rv_dblkStrMap  org = org(.tables_dsc_to) + sizeof(.tables_dsc_to)
+    		: {*(.rv_dblkStrMap).=align(32);}
+    	
+	.rv_outbuffer org = org(.rv_dblkStrMap)+sizeof(.rv_dblkStrMap)
+                : {*(.rv_outbuffer).=align(32);}
+
+        .rv_framebuf  org = org(.rv_outbuffer)+sizeof(.rv_outbuffer)
+                : {*(.rv_framebuf).=align(32);}
+
+        .rvglobal_struct org = 0x200960 /* 0xa2a010 */
+                : {*(.rvglobal_struct).=align(32);}	
+
+	.scratch org = 0x990CF0
+              len = 0xFD0 : {*(.scratch).=align(32);}
+
+           
+       	.display_buffers org = 0x887650
+             len = 0xA7B20 /* 5 video display buffers */
+    	     : {*(.display_buffers).=align(32);} 
+    	
+    	.big_frame       org = 0x9345D0
+    			len  = 0x3c00		: {*(.big_frame).=align(32);}
+
+	.rvdebug	org =0x9943D0 len=0x3000 :{*(.rvdebug)}
+
+	.fwdebug    org =0x9973D0 len=0xD8 :{*(.fwdebug)}
+     /*+--------------------------------------------------------+
+     |                 RealAudio & Video parameters             |
+     +--------------------------------------------------------+*/
+    
+            .params_AudioVideo    org = 0x800800
+                             len = 0x100            : {*(.params_AudioVideo).=align(4);}
+    
+           /*+--------------------------------------------------------+
+             |                 Init Table parameters                  |
+             +--------------------------------------------------------+*/
+    
+            .params_Init    org = 0x800900
+                             len = 0x50             : {*(.params_Init).=align(4);}
+    
+          
+    	
+    
+           /*################################################################################ 
+             #                                 Real Audio	                                #
+    	 ################################################################################*/
+           .tables_premul   org  = 0x826000 /*0x8240E0*/
+                             addr = 0x204000
+            (OVERLAY): {*(.tables_premul) *(.tables_premul.4) .=align(4);}
+    
+     
+            .tables_postmul org = 0x827C20 /*0x825d00*/
+            addr = 0x204000
+            (OVERLAY): {*(.tables_postmul) *(.tables_postmul.4) .=align(4);}
+    
+            .hufftabs org =  0x829420 /*0x827500*/
+            addr = 0x204000
+            (OVERLAY): {*(.hufftabs) *(.hufftabs.4) .=align(4);}
+    
+    
+            .wintabs org =  0x82a3E0 /*0x8284c0*/
+            addr = 0x204000
+            (OVERLAY): {*(.wintabs) *(.wintabs.4) .=align(4);}
+    
+            .audiotabs org =  0x82c220 /*0x82a300*/
+            addr = 0x205000
+            (OVERLAY): {*(.audiotabs) *(.audiotabs.4) .=align(4);}
+    
+            .xtra_postmul org =  0x82c6C0 /*0x82a7a0*/
+            addr = 0x202000
+            (OVERLAY): {*(.xtra_postmul) *(.xtra_postmul.4) .=align(4);}
+
+  	    .radebug org = 0x991CC0 len=0x2710 :{*(.radebug)}  
+    
+    
+    
+            /*************************************************************/
+    
+    	/*.scratch1 org = 0x9324C8 
+    			len =0x1FF0 	: {*(.scratch1)}*/
+    
+            .iodata 	org = 0x801000   : {*(.iodata)}
+			.raoutput 	org = 0x881650	 : {*(.raoutput)}
+    
+            .geckostruct   org = 0x82cFA0 /*0x82b080*/  : {*(.geckostruct) .=align(32);} 	
+    
+    	.codebuff     org = org(.geckostruct)+sizeof(.geckostruct)
+    				: {*(.codebuff).=align(32);}
+    
+  	.audio_out_data   org  = org(.codebuff)+ sizeof(.codebuff)
+                             addr = 0x204000
+            (OVERLAY): {*(.audio_out_data) *(.audio_out_data.32) .=align(32);}
+   
+    	/*************************************************************/
+    
+
+	
+	
+
+	
+	
+}
+
+/* symbols for code copying */
+
+
+/* symbols for zero clear */
+	/* for section .sbss */
+	__zerobegin_1 = addr(.sbss);
+	__zeroend_1 = addr(.sbss)+sizeof(.sbss);
+	/* for section .bss */
+	__zerobegin_2 = addr(.bss);
+	__zeroend_2 = addr(.bss)+sizeof(.bss);
+	/* for section .fbss */
+	__zerobegin_3 = addr(.fbss);
+	__zeroend_3 = addr(.fbss)+sizeof(.fbss);
+
+
+/*************************************************************************/
+/*			Real Video 				         */				
+/*************************************************************************/
+
+
+/* one frame internal indata */
+_D_RV_INPUT_SRC        = org(.indata);
+
+/* vlc tables */
+_D_RV_VLC_TAB_SRC = org(.tables_vlc);
+_D_RV_VLC_TAB_DST = addr(.tables_vlc);
+_D_RV_VLC_TAB_SIZ = sizeof(.tables_vlc);
+
+/* clamp table */
+
+_D_RV_CLAMP_TAB_SRC = org(.tables_clamp);
+_D_RV_CLAMP_TAB_DST = addr(.tables_clamp);
+_D_RV_CLAMP_TAB_SIZ = sizeof(.tables_clamp);
+
+/* e-DRAM indata */
+/*_D_RV_EDRAM_INDATA  = org(.edram_indata);*/
+
+/*Deblock Filter Tables */
+_D_RV_DBLK_TAB_SRC = org(.tables_dblk);
+_D_RV_DBLK_TAB_DST = addr(.tables_dblk);
+_D_RV_DBLK_TAB_SIZ = 256;
+
+/* VLC EDGE TABLES */
+_D_RV_VLC_EDGE_TAB_SRC = org(.tables_vlc_edge);
+_D_RV_VLC_EDGE_TAB_DST = addr(.tables_vlc_edge);
+_D_RV_VLC_EDGE_TAB_SIZ = 64;
+
+/* VLC PROB TABLES */
+_D_RV_VLC_PROB_TAB_SRC = org(.tables_vlc_prob);
+_D_RV_VLC_PROB_TAB_DST = addr(.tables_vlc_prob);
+_D_RV_VLC_PROB_TAB_SIZ = 192; /* alligned to 32byte */
+
+/* .tables_dsc_to */
+_D_RV_VLC_DSC_TO_SRC = org(.tables_dsc_to);
+
+/* .rvglobal_struct */
+_D_RV_GLOBAL_STRUCT_DMEM_SRC = org(.rvglobal_struct);
+
+
+/* NTSC Display buffer *********** not required 
+ * Using Two buffers swapping between these*/
+/*_D_DISPLAY_BUFFER_0 = org(.display_buffer);
+_D_DISPLAY_BUFFER_1 = org(.display_buffer)+ 0xc600;*/
+
+
+/* NTSC Buffers : 8 display buffers */
+_DISPLAY_BUF_START      = org(.display_buffers);
+_TOTAL_DISPLAY_BUF_SIZE = sizeof(.display_buffers);
+
+
+/* Big Frame */
+_D_BIG_FRM          = org(.big_frame);
+
+/* Output buffer for scalar */
+_D_SCALAR_SRC = org(.rv_outbuffer);
+
+
+
+
+/*************************************************************************/
+/*			Real Audio 				         */				
+/*************************************************************************/
+
+/* premul tables */
+_D_PREMUL_TAB_SRC = org(.tables_premul);
+_D_PREMUL_TAB_DST = addr(.tables_premul);
+_D_PREMUL_TAB_SIZ = sizeof(.tables_premul)+ 0x14;
+
+
+
+	/* postmul tables */
+	
+/****** Sizes are offset for handling 32 bytes aligned DMA transfers *****/
+_D_POSTMUL_TAB_SRC = org(.tables_postmul);
+_D_POSTMUL_TAB_DST = addr(.tables_postmul);
+_D_POSTMUL_TAB_SIZ = sizeof(.tables_postmul) + 0x14;
+
+_D_HUFFTAB_SRC = org(.hufftabs);
+_D_HUFFTAB_DST = addr(.hufftabs);
+_D_HUFFTAB_SIZ = sizeof(.hufftabs) + 0x10;
+
+_D_WINTAB_SRC = org(.wintabs);
+_D_WINTAB_DST = addr(.wintabs);
+_D_WINTAB_SIZ = sizeof(.wintabs) + 0x1c;
+
+_D_AUDIOTAB_SRC = org(.audiotabs);
+_D_AUDIOTAB_DST = addr(.audiotabs);
+_D_AUDIOTAB_SIZ = sizeof(.audiotabs) + 0x0c;
+
+
+_D_XTRATAB_SRC = org(.xtra_postmul);
+_D_XTRATAB_DST = addr(.xtra_postmul);
+_D_XTRATAB_SIZ = sizeof(.xtra_postmul) + 0x08;
+
+_D_FRAME_DATA_ADDR = org(.codebuff);
+
+
+_D_POSTPROC_SRC = org(.audio_out_data);
+_D_POSTPROC_DST = addr(.audio_out_data);
+_D_POSTPROC_SIZ = sizeof(.audio_out_data) + 0x08;
+
+
+_D_AUD_DEBUG_STRCT_ADDR = org(.radebug);
+_D_VID_DEBUG_STRCT_ADDR = org(.rvdebug);
+_D_FW_DEBUG_STRCT_ADDR = org(.fwdebug);
+

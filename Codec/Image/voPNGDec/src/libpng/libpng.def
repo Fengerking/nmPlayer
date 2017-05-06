@@ -1,0 +1,25 @@
+EXPORTS 
+	png_create_read_struct
+	png_create_info_struct
+	png_destroy_read_struct
+	png_set_read_fn
+	png_error
+	png_get_io_ptr
+	png_set_keep_unknown_chunks
+	png_read_info
+	png_get_IHDR
+	png_set_strip_16
+	png_set_packing
+	png_set_gray_1_2_4_to_8
+	png_set_gray_to_rgb
+	png_get_tRNS
+	png_get_valid
+	png_get_PLTE
+	png_set_filler
+	png_set_interlace_handling
+	png_read_update_info
+	png_read_rows
+	png_read_end
+	png_set_swap_alpha
+	png_set_bgr
+	png_set_invert_alpha

@@ -1,0 +1,7 @@
+LIBRARY voG723Dec
+EXPORTS
+voG723DecInit
+voG723DecProcess
+voG723DecUninit
+voG723DecSetParameter
+voG723DecGetParameter

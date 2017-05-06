@@ -1,0 +1,5 @@
+LIBRARY voMMPlay.dll
+
+EXPORTS
+	vommGetEditAPI
+	vommGetPlayAPI

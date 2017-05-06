@@ -1,0 +1,4 @@
+LIBRARY	"voTsParser.dll"
+
+EXPORTS
+		yyGetTsDemuxFunc

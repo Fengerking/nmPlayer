@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA615B8185FF7A500ACA870 /* voLog.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FA615B7185FF7A500ACA870 /* voLog.c */; };
+		76A67A0817C60BBA00B8A85F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A67A0717C60BBA00B8A85F /* Cocoa.framework */; };
+		76A67A3417C60BE500B8A85F /* COSAdapStrSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A1817C60BE500B8A85F /* COSAdapStrSource.cpp */; };
+		76A67A3517C60BE500B8A85F /* COSAdapStrSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A1917C60BE500B8A85F /* COSAdapStrSource.h */; };
+		76A67A3617C60BE500B8A85F /* COSBaseSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A1A17C60BE500B8A85F /* COSBaseSource.cpp */; };
+		76A67A3717C60BE500B8A85F /* COSBaseSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A1B17C60BE500B8A85F /* COSBaseSource.h */; };
+		76A67A3817C60BE500B8A85F /* COSCMMBSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A1C17C60BE500B8A85F /* COSCMMBSource.cpp */; };
+		76A67A3917C60BE500B8A85F /* COSCMMBSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A1D17C60BE500B8A85F /* COSCMMBSource.h */; };
+		76A67A3A17C60BE500B8A85F /* COSDASHSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A1E17C60BE500B8A85F /* COSDASHSource.cpp */; };
+		76A67A3B17C60BE500B8A85F /* COSDASHSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A1F17C60BE500B8A85F /* COSDASHSource.h */; };
+		76A67A3C17C60BE500B8A85F /* COSHLSSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A2017C60BE500B8A85F /* COSHLSSource.cpp */; };
+		76A67A3D17C60BE500B8A85F /* COSHLSSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A2117C60BE500B8A85F /* COSHLSSource.h */; };
+		76A67A3E17C60BE500B8A85F /* COSISSSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A2217C60BE500B8A85F /* COSISSSource.cpp */; };
+		76A67A3F17C60BE500B8A85F /* COSISSSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A2317C60BE500B8A85F /* COSISSSource.h */; };
+		76A67A4017C60BE500B8A85F /* COSLocalSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A2417C60BE500B8A85F /* COSLocalSource.cpp */; };
+		76A67A4117C60BE500B8A85F /* COSLocalSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A2517C60BE500B8A85F /* COSLocalSource.h */; };
+		76A67A4217C60BE500B8A85F /* COSPDMSSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A2617C60BE500B8A85F /* COSPDMSSource.cpp */; };
+		76A67A4317C60BE500B8A85F /* COSPDMSSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A2717C60BE500B8A85F /* COSPDMSSource.h */; };
+		76A67A4417C60BE500B8A85F /* COSRTSPSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A2817C60BE500B8A85F /* COSRTSPSource.cpp */; };
+		76A67A4517C60BE500B8A85F /* COSRTSPSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A2917C60BE500B8A85F /* COSRTSPSource.h */; };
+		76A67A4617C60BE500B8A85F /* COSSourceBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A2A17C60BE500B8A85F /* COSSourceBase.cpp */; };
+		76A67A4717C60BE500B8A85F /* COSSourceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A2B17C60BE500B8A85F /* COSSourceBase.h */; };
+		76A67A4817C60BE500B8A85F /* COSTimeText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A2C17C60BE500B8A85F /* COSTimeText.cpp */; };
+		76A67A4917C60BE500B8A85F /* COSTimeText.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A2D17C60BE500B8A85F /* COSTimeText.h */; };
+		76A67A4A17C60BE500B8A85F /* COSBaseSubtitle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A2E17C60BE500B8A85F /* COSBaseSubtitle.cpp */; };
+		76A67A4B17C60BE500B8A85F /* COSBaseSubtitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A2F17C60BE500B8A85F /* COSBaseSubtitle.h */; };
+		76A67A4C17C60BE500B8A85F /* COSCloseCaption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A3017C60BE500B8A85F /* COSCloseCaption.cpp */; };
+		76A67A4D17C60BE500B8A85F /* COSCloseCaption.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A3117C60BE500B8A85F /* COSCloseCaption.h */; };
+		76A67A4E17C60BE500B8A85F /* COSDVBSubtitle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A3217C60BE500B8A85F /* COSDVBSubtitle.cpp */; };
+		76A67A4F17C60BE500B8A85F /* COSDVBSubtitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A3317C60BE500B8A85F /* COSDVBSubtitle.h */; };
+		76A67A5817C60BF700B8A85F /* voOnStreamSource_ns.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A5117C60BF700B8A85F /* voOnStreamSource_ns.h */; };
+		76A67A5917C60BF700B8A85F /* voOnStreamSource_ns.mm in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A5217C60BF700B8A85F /* voOnStreamSource_ns.mm */; };
+		76A67A5A17C60BF700B8A85F /* SubtitleFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A5317C60BF700B8A85F /* SubtitleFunc.h */; };
+		76A67A5B17C60BF700B8A85F /* voOnStreamSourceType.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A5417C60BF700B8A85F /* voOnStreamSourceType.h */; };
+		76A67A5C17C60BF700B8A85F /* voOnStreamSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A5517C60BF700B8A85F /* voOnStreamSource.h */; };
+		76A67A5D17C60BF700B8A85F /* voOnStreamType.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A5617C60BF700B8A85F /* voOnStreamType.h */; };
+		76A67A5E17C60BF700B8A85F /* voOnStreamSrc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A5717C60BF700B8A85F /* voOnStreamSrc.cpp */; };
+		76A67A7C17C60C0800B8A85F /* voCBaseThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A6017C60C0800B8A85F /* voCBaseThread.cpp */; };
+		76A67A7D17C60C0800B8A85F /* voCBaseThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A6117C60C0800B8A85F /* voCBaseThread.h */; };
+		76A67A7E17C60C0800B8A85F /* voCMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A6217C60C0800B8A85F /* voCMutex.cpp */; };
+		76A67A7F17C60C0800B8A85F /* voCMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A6317C60C0800B8A85F /* voCMutex.h */; };
+		76A67A8017C60C0800B8A85F /* voCSemaphore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A6417C60C0800B8A85F /* voCSemaphore.cpp */; };
+		76A67A8117C60C0800B8A85F /* voCSemaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A6517C60C0800B8A85F /* voCSemaphore.h */; };
+		76A67A8217C60C0800B8A85F /* voThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A6617C60C0800B8A85F /* voThread.cpp */; };
+		76A67A8317C60C0800B8A85F /* voThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A6717C60C0800B8A85F /* voThread.h */; };
+		76A67A8417C60C0800B8A85F /* cioFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A6817C60C0800B8A85F /* cioFile.cpp */; };
+		76A67A8517C60C0800B8A85F /* cioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A6917C60C0800B8A85F /* cioFile.h */; };
+		76A67A8717C60C0800B8A85F /* voLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A6B17C60C0800B8A85F /* voLog.h */; };
+		76A67A8817C60C0800B8A85F /* voOSFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A6C17C60C0800B8A85F /* voOSFunc.h */; };
+		76A67A8917C60C0800B8A85F /* voOSFunc_iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A6D17C60C0800B8A85F /* voOSFunc_iOS.mm */; };
+		76A67A8A17C60C0800B8A85F /* cmnVOMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A6E17C60C0800B8A85F /* cmnVOMemory.cpp */; };
+		76A67A8B17C60C0800B8A85F /* cmnMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A6F17C60C0800B8A85F /* cmnMemory.h */; };
+		76A67A8C17C60C0800B8A85F /* CvoBaseObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A7017C60C0800B8A85F /* CvoBaseObject.cpp */; };
+		76A67A8D17C60C0800B8A85F /* CvoBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A7117C60C0800B8A85F /* CvoBaseObject.h */; };
+		76A67A8E17C60C0800B8A85F /* CBaseConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A7217C60C0800B8A85F /* CBaseConfig.cpp */; };
+		76A67A8F17C60C0800B8A85F /* CBaseConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A7317C60C0800B8A85F /* CBaseConfig.h */; };
+		76A67A9017C60C0800B8A85F /* cmnFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A7417C60C0800B8A85F /* cmnFile.cpp */; };
+		76A67A9117C60C0800B8A85F /* cmnFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A7517C60C0800B8A85F /* cmnFile.h */; };
+		76A67A9217C60C0800B8A85F /* CFileFormatCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A7617C60C0800B8A85F /* CFileFormatCheck.cpp */; };
+		76A67A9317C60C0800B8A85F /* CFileFormatCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A7717C60C0800B8A85F /* CFileFormatCheck.h */; };
+		76A67A9417C60C0800B8A85F /* voSubtitleFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A7817C60C0800B8A85F /* voSubtitleFunc.cpp */; };
+		76A67A9517C60C0800B8A85F /* voSubtitleFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A7917C60C0800B8A85F /* voSubtitleFunc.h */; };
+		76A67A9617C60C0800B8A85F /* voSourceSubtitleDataBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A67A7A17C60C0800B8A85F /* voSourceSubtitleDataBuffer.cpp */; };
+		76A67A9717C60C0800B8A85F /* voSourceSubtitleDataBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A67A7B17C60C0800B8A85F /* voSourceSubtitleDataBuffer.h */; };
+		76A67A9B17C60E7B00B8A85F /* libvoCheck.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A67A9A17C60E7B00B8A85F /* libvoCheck.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FA615B7185FF7A500ACA870 /* voLog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voLog.c; path = ../../../../../Common/voLog.c; sourceTree = "<group>"; };
+		76A67A0417C60BBA00B8A85F /* libvoOSSource.dylib */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoOSSource.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A67A0717C60BBA00B8A85F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		76A67A0A17C60BBA00B8A85F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		76A67A0B17C60BBA00B8A85F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		76A67A0C17C60BBA00B8A85F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76A67A0F17C60BBA00B8A85F /* libvoOSSource-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libvoOSSource-Prefix.pch"; sourceTree = "<group>"; };
+		76A67A1817C60BE500B8A85F /* COSAdapStrSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSAdapStrSource.cpp; path = ../../../../Source/Common/COSAdapStrSource.cpp; sourceTree = "<group>"; };
+		76A67A1917C60BE500B8A85F /* COSAdapStrSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSAdapStrSource.h; path = ../../../../Source/Common/COSAdapStrSource.h; sourceTree = "<group>"; };
+		76A67A1A17C60BE500B8A85F /* COSBaseSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSBaseSource.cpp; path = ../../../../Source/Common/COSBaseSource.cpp; sourceTree = "<group>"; };
+		76A67A1B17C60BE500B8A85F /* COSBaseSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSBaseSource.h; path = ../../../../Source/Common/COSBaseSource.h; sourceTree = "<group>"; };
+		76A67A1C17C60BE500B8A85F /* COSCMMBSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSCMMBSource.cpp; path = ../../../../Source/Common/COSCMMBSource.cpp; sourceTree = "<group>"; };
+		76A67A1D17C60BE500B8A85F /* COSCMMBSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSCMMBSource.h; path = ../../../../Source/Common/COSCMMBSource.h; sourceTree = "<group>"; };
+		76A67A1E17C60BE500B8A85F /* COSDASHSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSDASHSource.cpp; path = ../../../../Source/Common/COSDASHSource.cpp; sourceTree = "<group>"; };
+		76A67A1F17C60BE500B8A85F /* COSDASHSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSDASHSource.h; path = ../../../../Source/Common/COSDASHSource.h; sourceTree = "<group>"; };
+		76A67A2017C60BE500B8A85F /* COSHLSSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSHLSSource.cpp; path = ../../../../Source/Common/COSHLSSource.cpp; sourceTree = "<group>"; };
+		76A67A2117C60BE500B8A85F /* COSHLSSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSHLSSource.h; path = ../../../../Source/Common/COSHLSSource.h; sourceTree = "<group>"; };
+		76A67A2217C60BE500B8A85F /* COSISSSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSISSSource.cpp; path = ../../../../Source/Common/COSISSSource.cpp; sourceTree = "<group>"; };
+		76A67A2317C60BE500B8A85F /* COSISSSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSISSSource.h; path = ../../../../Source/Common/COSISSSource.h; sourceTree = "<group>"; };
+		76A67A2417C60BE500B8A85F /* COSLocalSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSLocalSource.cpp; path = ../../../../Source/Common/COSLocalSource.cpp; sourceTree = "<group>"; };
+		76A67A2517C60BE500B8A85F /* COSLocalSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSLocalSource.h; path = ../../../../Source/Common/COSLocalSource.h; sourceTree = "<group>"; };
+		76A67A2617C60BE500B8A85F /* COSPDMSSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSPDMSSource.cpp; path = ../../../../Source/Common/COSPDMSSource.cpp; sourceTree = "<group>"; };
+		76A67A2717C60BE500B8A85F /* COSPDMSSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSPDMSSource.h; path = ../../../../Source/Common/COSPDMSSource.h; sourceTree = "<group>"; };
+		76A67A2817C60BE500B8A85F /* COSRTSPSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSRTSPSource.cpp; path = ../../../../Source/Common/COSRTSPSource.cpp; sourceTree = "<group>"; };
+		76A67A2917C60BE500B8A85F /* COSRTSPSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSRTSPSource.h; path = ../../../../Source/Common/COSRTSPSource.h; sourceTree = "<group>"; };
+		76A67A2A17C60BE500B8A85F /* COSSourceBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSSourceBase.cpp; path = ../../../../Source/Common/COSSourceBase.cpp; sourceTree = "<group>"; };
+		76A67A2B17C60BE500B8A85F /* COSSourceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSSourceBase.h; path = ../../../../Source/Common/COSSourceBase.h; sourceTree = "<group>"; };
+		76A67A2C17C60BE500B8A85F /* COSTimeText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSTimeText.cpp; path = ../../../../Source/Common/COSTimeText.cpp; sourceTree = "<group>"; };
+		76A67A2D17C60BE500B8A85F /* COSTimeText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSTimeText.h; path = ../../../../Source/Common/COSTimeText.h; sourceTree = "<group>"; };
+		76A67A2E17C60BE500B8A85F /* COSBaseSubtitle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSBaseSubtitle.cpp; path = ../../../../Source/Common/COSBaseSubtitle.cpp; sourceTree = "<group>"; };
+		76A67A2F17C60BE500B8A85F /* COSBaseSubtitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSBaseSubtitle.h; path = ../../../../Source/Common/COSBaseSubtitle.h; sourceTree = "<group>"; };
+		76A67A3017C60BE500B8A85F /* COSCloseCaption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSCloseCaption.cpp; path = ../../../../Source/Common/COSCloseCaption.cpp; sourceTree = "<group>"; };
+		76A67A3117C60BE500B8A85F /* COSCloseCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSCloseCaption.h; path = ../../../../Source/Common/COSCloseCaption.h; sourceTree = "<group>"; };
+		76A67A3217C60BE500B8A85F /* COSDVBSubtitle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COSDVBSubtitle.cpp; path = ../../../../Source/Common/COSDVBSubtitle.cpp; sourceTree = "<group>"; };
+		76A67A3317C60BE500B8A85F /* COSDVBSubtitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COSDVBSubtitle.h; path = ../../../../Source/Common/COSDVBSubtitle.h; sourceTree = "<group>"; };
+		76A67A5117C60BF700B8A85F /* voOnStreamSource_ns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voOnStreamSource_ns.h; path = ../../../../../Include/voOnStreamSource_ns.h; sourceTree = "<group>"; };
+		76A67A5217C60BF700B8A85F /* voOnStreamSource_ns.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = voOnStreamSource_ns.mm; path = ../../../Source/iOS/voOnStreamSource_ns.mm; sourceTree = "<group>"; };
+		76A67A5317C60BF700B8A85F /* SubtitleFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubtitleFunc.h; path = ../../../Source/Common/SubtitleFunc.h; sourceTree = "<group>"; };
+		76A67A5417C60BF700B8A85F /* voOnStreamSourceType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voOnStreamSourceType.h; path = ../../../../../Include/voOnStreamSourceType.h; sourceTree = "<group>"; };
+		76A67A5517C60BF700B8A85F /* voOnStreamSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voOnStreamSource.h; path = ../../../../../Include/voOnStreamSource.h; sourceTree = "<group>"; };
+		76A67A5617C60BF700B8A85F /* voOnStreamType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voOnStreamType.h; path = ../../../../../Include/voOnStreamType.h; sourceTree = "<group>"; };
+		76A67A5717C60BF700B8A85F /* voOnStreamSrc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voOnStreamSrc.cpp; path = ../../../Source/Common/voOnStreamSrc.cpp; sourceTree = "<group>"; };
+		76A67A6017C60C0800B8A85F /* voCBaseThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voCBaseThread.cpp; path = ../../../../../Common/voCBaseThread.cpp; sourceTree = "<group>"; };
+		76A67A6117C60C0800B8A85F /* voCBaseThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voCBaseThread.h; path = ../../../../../Common/voCBaseThread.h; sourceTree = "<group>"; };
+		76A67A6217C60C0800B8A85F /* voCMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voCMutex.cpp; path = ../../../../../Common/voCMutex.cpp; sourceTree = "<group>"; };
+		76A67A6317C60C0800B8A85F /* voCMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voCMutex.h; path = ../../../../../Common/voCMutex.h; sourceTree = "<group>"; };
+		76A67A6417C60C0800B8A85F /* voCSemaphore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voCSemaphore.cpp; path = ../../../../../Common/voCSemaphore.cpp; sourceTree = "<group>"; };
+		76A67A6517C60C0800B8A85F /* voCSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voCSemaphore.h; path = ../../../../../Common/voCSemaphore.h; sourceTree = "<group>"; };
+		76A67A6617C60C0800B8A85F /* voThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voThread.cpp; path = ../../../../../Common/voThread.cpp; sourceTree = "<group>"; };
+		76A67A6717C60C0800B8A85F /* voThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voThread.h; path = ../../../../../Common/voThread.h; sourceTree = "<group>"; };
+		76A67A6817C60C0800B8A85F /* cioFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cioFile.cpp; path = ../../../Source/Common/cioFile.cpp; sourceTree = "<group>"; };
+		76A67A6917C60C0800B8A85F /* cioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cioFile.h; path = ../../../Source/Common/cioFile.h; sourceTree = "<group>"; };
+		76A67A6B17C60C0800B8A85F /* voLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voLog.h; path = ../../../../../Common/voLog.h; sourceTree = "<group>"; };
+		76A67A6C17C60C0800B8A85F /* voOSFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voOSFunc.h; path = ../../../../../Common/voOSFunc.h; sourceTree = "<group>"; };
+		76A67A6D17C60C0800B8A85F /* voOSFunc_iOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = voOSFunc_iOS.mm; path = ../../../../../Common/voOSFunc_iOS.mm; sourceTree = "<group>"; };
+		76A67A6E17C60C0800B8A85F /* cmnVOMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cmnVOMemory.cpp; path = ../../../../../Common/cmnVOMemory.cpp; sourceTree = "<group>"; };
+		76A67A6F17C60C0800B8A85F /* cmnMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmnMemory.h; path = ../../../../../Common/cmnMemory.h; sourceTree = "<group>"; };
+		76A67A7017C60C0800B8A85F /* CvoBaseObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseObject.cpp; path = ../../../../../Common/CvoBaseObject.cpp; sourceTree = "<group>"; };
+		76A67A7117C60C0800B8A85F /* CvoBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseObject.h; path = ../../../../../Common/CvoBaseObject.h; sourceTree = "<group>"; };
+		76A67A7217C60C0800B8A85F /* CBaseConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseConfig.cpp; path = ../../../../../Common/CBaseConfig.cpp; sourceTree = "<group>"; };
+		76A67A7317C60C0800B8A85F /* CBaseConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseConfig.h; path = ../../../../../Common/CBaseConfig.h; sourceTree = "<group>"; };
+		76A67A7417C60C0800B8A85F /* cmnFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cmnFile.cpp; path = ../../../../../Common/cmnFile.cpp; sourceTree = "<group>"; };
+		76A67A7517C60C0800B8A85F /* cmnFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmnFile.h; path = ../../../../../Common/cmnFile.h; sourceTree = "<group>"; };
+		76A67A7617C60C0800B8A85F /* CFileFormatCheck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CFileFormatCheck.cpp; path = ../../../../../Common/CFileFormatCheck.cpp; sourceTree = "<group>"; };
+		76A67A7717C60C0800B8A85F /* CFileFormatCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFileFormatCheck.h; path = ../../../../../Common/CFileFormatCheck.h; sourceTree = "<group>"; };
+		76A67A7817C60C0800B8A85F /* voSubtitleFunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voSubtitleFunc.cpp; path = ../../../../../Common/voSubtitleFunc.cpp; sourceTree = "<group>"; };
+		76A67A7917C60C0800B8A85F /* voSubtitleFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voSubtitleFunc.h; path = ../../../../../Common/voSubtitleFunc.h; sourceTree = "<group>"; };
+		76A67A7A17C60C0800B8A85F /* voSourceSubtitleDataBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voSourceSubtitleDataBuffer.cpp; path = ../../../../../Common/Buffer/voSourceSubtitleDataBuffer.cpp; sourceTree = "<group>"; };
+		76A67A7B17C60C0800B8A85F /* voSourceSubtitleDataBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voSourceSubtitleDataBuffer.h; path = ../../../../../Common/Buffer/voSourceSubtitleDataBuffer.h; sourceTree = "<group>"; };
+		76A67A9A17C60E7B00B8A85F /* libvoCheck.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvoCheck.a; path = ../../../../../Lib/MacOS/x86/libvoCheck.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A67A0117C60BBA00B8A85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A67A0817C60BBA00B8A85F /* Cocoa.framework in Frameworks */,
+				76A67A9B17C60E7B00B8A85F /* libvoCheck.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76A679FB17C60BBA00B8A85F = {
+			isa = PBXGroup;
+			children = (
+				76A67A9A17C60E7B00B8A85F /* libvoCheck.a */,
+				76A67A5F17C60BFE00B8A85F /* Common */,
+				76A67A5017C60BED00B8A85F /* Include */,
+				76A67A0D17C60BBA00B8A85F /* libvoOSSource */,
+				76A67A0617C60BBA00B8A85F /* Frameworks */,
+				76A67A0517C60BBA00B8A85F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76A67A0517C60BBA00B8A85F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A67A0417C60BBA00B8A85F /* libvoOSSource.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A67A0617C60BBA00B8A85F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76A67A0717C60BBA00B8A85F /* Cocoa.framework */,
+				76A67A0917C60BBA00B8A85F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76A67A0917C60BBA00B8A85F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76A67A0A17C60BBA00B8A85F /* AppKit.framework */,
+				76A67A0B17C60BBA00B8A85F /* CoreData.framework */,
+				76A67A0C17C60BBA00B8A85F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		76A67A0D17C60BBA00B8A85F /* libvoOSSource */ = {
+			isa = PBXGroup;
+			children = (
+				76A67A1817C60BE500B8A85F /* COSAdapStrSource.cpp */,
+				76A67A1917C60BE500B8A85F /* COSAdapStrSource.h */,
+				76A67A1A17C60BE500B8A85F /* COSBaseSource.cpp */,
+				76A67A1B17C60BE500B8A85F /* COSBaseSource.h */,
+				76A67A1C17C60BE500B8A85F /* COSCMMBSource.cpp */,
+				76A67A1D17C60BE500B8A85F /* COSCMMBSource.h */,
+				76A67A1E17C60BE500B8A85F /* COSDASHSource.cpp */,
+				76A67A1F17C60BE500B8A85F /* COSDASHSource.h */,
+				76A67A2017C60BE500B8A85F /* COSHLSSource.cpp */,
+				76A67A2117C60BE500B8A85F /* COSHLSSource.h */,
+				76A67A2217C60BE500B8A85F /* COSISSSource.cpp */,
+				76A67A2317C60BE500B8A85F /* COSISSSource.h */,
+				76A67A2417C60BE500B8A85F /* COSLocalSource.cpp */,
+				76A67A2517C60BE500B8A85F /* COSLocalSource.h */,
+				76A67A2617C60BE500B8A85F /* COSPDMSSource.cpp */,
+				76A67A2717C60BE500B8A85F /* COSPDMSSource.h */,
+				76A67A2817C60BE500B8A85F /* COSRTSPSource.cpp */,
+				76A67A2917C60BE500B8A85F /* COSRTSPSource.h */,
+				76A67A2A17C60BE500B8A85F /* COSSourceBase.cpp */,
+				76A67A2B17C60BE500B8A85F /* COSSourceBase.h */,
+				76A67A2C17C60BE500B8A85F /* COSTimeText.cpp */,
+				76A67A2D17C60BE500B8A85F /* COSTimeText.h */,
+				76A67A2E17C60BE500B8A85F /* COSBaseSubtitle.cpp */,
+				76A67A2F17C60BE500B8A85F /* COSBaseSubtitle.h */,
+				76A67A3017C60BE500B8A85F /* COSCloseCaption.cpp */,
+				76A67A3117C60BE500B8A85F /* COSCloseCaption.h */,
+				76A67A3217C60BE500B8A85F /* COSDVBSubtitle.cpp */,
+				76A67A3317C60BE500B8A85F /* COSDVBSubtitle.h */,
+				76A67A0E17C60BBA00B8A85F /* Supporting Files */,
+			);
+			path = libvoOSSource;
+			sourceTree = "<group>";
+		};
+		76A67A0E17C60BBA00B8A85F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76A67A0F17C60BBA00B8A85F /* libvoOSSource-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76A67A5017C60BED00B8A85F /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				76A67A5117C60BF700B8A85F /* voOnStreamSource_ns.h */,
+				76A67A5217C60BF700B8A85F /* voOnStreamSource_ns.mm */,
+				76A67A5317C60BF700B8A85F /* SubtitleFunc.h */,
+				76A67A5417C60BF700B8A85F /* voOnStreamSourceType.h */,
+				76A67A5517C60BF700B8A85F /* voOnStreamSource.h */,
+				76A67A5617C60BF700B8A85F /* voOnStreamType.h */,
+				76A67A5717C60BF700B8A85F /* voOnStreamSrc.cpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		76A67A5F17C60BFE00B8A85F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				76A67A6017C60C0800B8A85F /* voCBaseThread.cpp */,
+				76A67A6117C60C0800B8A85F /* voCBaseThread.h */,
+				76A67A6217C60C0800B8A85F /* voCMutex.cpp */,
+				76A67A6317C60C0800B8A85F /* voCMutex.h */,
+				76A67A6417C60C0800B8A85F /* voCSemaphore.cpp */,
+				76A67A6517C60C0800B8A85F /* voCSemaphore.h */,
+				76A67A6617C60C0800B8A85F /* voThread.cpp */,
+				76A67A6717C60C0800B8A85F /* voThread.h */,
+				76A67A6817C60C0800B8A85F /* cioFile.cpp */,
+				76A67A6917C60C0800B8A85F /* cioFile.h */,
+				1FA615B7185FF7A500ACA870 /* voLog.c */,
+				76A67A6B17C60C0800B8A85F /* voLog.h */,
+				76A67A6C17C60C0800B8A85F /* voOSFunc.h */,
+				76A67A6D17C60C0800B8A85F /* voOSFunc_iOS.mm */,
+				76A67A6E17C60C0800B8A85F /* cmnVOMemory.cpp */,
+				76A67A6F17C60C0800B8A85F /* cmnMemory.h */,
+				76A67A7017C60C0800B8A85F /* CvoBaseObject.cpp */,
+				76A67A7117C60C0800B8A85F /* CvoBaseObject.h */,
+				76A67A7217C60C0800B8A85F /* CBaseConfig.cpp */,
+				76A67A7317C60C0800B8A85F /* CBaseConfig.h */,
+				76A67A7417C60C0800B8A85F /* cmnFile.cpp */,
+				76A67A7517C60C0800B8A85F /* cmnFile.h */,
+				76A67A7617C60C0800B8A85F /* CFileFormatCheck.cpp */,
+				76A67A7717C60C0800B8A85F /* CFileFormatCheck.h */,
+				76A67A7817C60C0800B8A85F /* voSubtitleFunc.cpp */,
+				76A67A7917C60C0800B8A85F /* voSubtitleFunc.h */,
+				76A67A7A17C60C0800B8A85F /* voSourceSubtitleDataBuffer.cpp */,
+				76A67A7B17C60C0800B8A85F /* voSourceSubtitleDataBuffer.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76A67A0217C60BBA00B8A85F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A67A3517C60BE500B8A85F /* COSAdapStrSource.h in Headers */,
+				76A67A3717C60BE500B8A85F /* COSBaseSource.h in Headers */,
+				76A67A3917C60BE500B8A85F /* COSCMMBSource.h in Headers */,
+				76A67A3B17C60BE500B8A85F /* COSDASHSource.h in Headers */,
+				76A67A3D17C60BE500B8A85F /* COSHLSSource.h in Headers */,
+				76A67A3F17C60BE500B8A85F /* COSISSSource.h in Headers */,
+				76A67A4117C60BE500B8A85F /* COSLocalSource.h in Headers */,
+				76A67A4317C60BE500B8A85F /* COSPDMSSource.h in Headers */,
+				76A67A4517C60BE500B8A85F /* COSRTSPSource.h in Headers */,
+				76A67A4717C60BE500B8A85F /* COSSourceBase.h in Headers */,
+				76A67A4917C60BE500B8A85F /* COSTimeText.h in Headers */,
+				76A67A4B17C60BE500B8A85F /* COSBaseSubtitle.h in Headers */,
+				76A67A4D17C60BE500B8A85F /* COSCloseCaption.h in Headers */,
+				76A67A4F17C60BE500B8A85F /* COSDVBSubtitle.h in Headers */,
+				76A67A5817C60BF700B8A85F /* voOnStreamSource_ns.h in Headers */,
+				76A67A5A17C60BF700B8A85F /* SubtitleFunc.h in Headers */,
+				76A67A5B17C60BF700B8A85F /* voOnStreamSourceType.h in Headers */,
+				76A67A5C17C60BF700B8A85F /* voOnStreamSource.h in Headers */,
+				76A67A5D17C60BF700B8A85F /* voOnStreamType.h in Headers */,
+				76A67A7D17C60C0800B8A85F /* voCBaseThread.h in Headers */,
+				76A67A7F17C60C0800B8A85F /* voCMutex.h in Headers */,
+				76A67A8117C60C0800B8A85F /* voCSemaphore.h in Headers */,
+				76A67A8317C60C0800B8A85F /* voThread.h in Headers */,
+				76A67A8517C60C0800B8A85F /* cioFile.h in Headers */,
+				76A67A8717C60C0800B8A85F /* voLog.h in Headers */,
+				76A67A8817C60C0800B8A85F /* voOSFunc.h in Headers */,
+				76A67A8B17C60C0800B8A85F /* cmnMemory.h in Headers */,
+				76A67A8D17C60C0800B8A85F /* CvoBaseObject.h in Headers */,
+				76A67A8F17C60C0800B8A85F /* CBaseConfig.h in Headers */,
+				76A67A9117C60C0800B8A85F /* cmnFile.h in Headers */,
+				76A67A9317C60C0800B8A85F /* CFileFormatCheck.h in Headers */,
+				76A67A9517C60C0800B8A85F /* voSubtitleFunc.h in Headers */,
+				76A67A9717C60C0800B8A85F /* voSourceSubtitleDataBuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		76A67A0317C60BBA00B8A85F /* libvoOSSource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A67A1517C60BBA00B8A85F /* Build configuration list for PBXNativeTarget "libvoOSSource" */;
+			buildPhases = (
+				76A67A0017C60BBA00B8A85F /* Sources */,
+				76A67A0117C60BBA00B8A85F /* Frameworks */,
+				76A67A0217C60BBA00B8A85F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libvoOSSource;
+			productName = libvoOSSource;
+			productReference = 76A67A0417C60BBA00B8A85F /* libvoOSSource.dylib */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A679FC17C60BBA00B8A85F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = VisualOn;
+			};
+			buildConfigurationList = 76A679FF17C60BBA00B8A85F /* Build configuration list for PBXProject "libvoOSSource" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76A679FB17C60BBA00B8A85F;
+			productRefGroup = 76A67A0517C60BBA00B8A85F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A67A0317C60BBA00B8A85F /* libvoOSSource */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A67A0017C60BBA00B8A85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A67A3417C60BE500B8A85F /* COSAdapStrSource.cpp in Sources */,
+				76A67A3617C60BE500B8A85F /* COSBaseSource.cpp in Sources */,
+				76A67A3817C60BE500B8A85F /* COSCMMBSource.cpp in Sources */,
+				76A67A3A17C60BE500B8A85F /* COSDASHSource.cpp in Sources */,
+				76A67A3C17C60BE500B8A85F /* COSHLSSource.cpp in Sources */,
+				76A67A3E17C60BE500B8A85F /* COSISSSource.cpp in Sources */,
+				76A67A4017C60BE500B8A85F /* COSLocalSource.cpp in Sources */,
+				76A67A4217C60BE500B8A85F /* COSPDMSSource.cpp in Sources */,
+				76A67A4417C60BE500B8A85F /* COSRTSPSource.cpp in Sources */,
+				1FA615B8185FF7A500ACA870 /* voLog.c in Sources */,
+				76A67A4617C60BE500B8A85F /* COSSourceBase.cpp in Sources */,
+				76A67A4817C60BE500B8A85F /* COSTimeText.cpp in Sources */,
+				76A67A4A17C60BE500B8A85F /* COSBaseSubtitle.cpp in Sources */,
+				76A67A4C17C60BE500B8A85F /* COSCloseCaption.cpp in Sources */,
+				76A67A4E17C60BE500B8A85F /* COSDVBSubtitle.cpp in Sources */,
+				76A67A5917C60BF700B8A85F /* voOnStreamSource_ns.mm in Sources */,
+				76A67A5E17C60BF700B8A85F /* voOnStreamSrc.cpp in Sources */,
+				76A67A7C17C60C0800B8A85F /* voCBaseThread.cpp in Sources */,
+				76A67A7E17C60C0800B8A85F /* voCMutex.cpp in Sources */,
+				76A67A8017C60C0800B8A85F /* voCSemaphore.cpp in Sources */,
+				76A67A8217C60C0800B8A85F /* voThread.cpp in Sources */,
+				76A67A8417C60C0800B8A85F /* cioFile.cpp in Sources */,
+				76A67A8917C60C0800B8A85F /* voOSFunc_iOS.mm in Sources */,
+				76A67A8A17C60C0800B8A85F /* cmnVOMemory.cpp in Sources */,
+				76A67A8C17C60C0800B8A85F /* CvoBaseObject.cpp in Sources */,
+				76A67A8E17C60C0800B8A85F /* CBaseConfig.cpp in Sources */,
+				76A67A9017C60C0800B8A85F /* cmnFile.cpp in Sources */,
+				76A67A9217C60C0800B8A85F /* CFileFormatCheck.cpp in Sources */,
+				76A67A9417C60C0800B8A85F /* voSubtitleFunc.cpp in Sources */,
+				76A67A9617C60C0800B8A85F /* voSourceSubtitleDataBuffer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		76A67A1317C60BBA00B8A85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		76A67A1417C60BBA00B8A85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		76A67A1617C60BBA00B8A85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CONFIGURATION_BUILD_DIR = ../../../../../App/Customer/VisualOnAPI3/MacOS/Libs/x86/;
+				EXECUTABLE_EXTENSION = dylib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libvoOSSource/libvoOSSource-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_VOMODULEID=0x09020000",
+					_MAC_OS,
+					"_VONAMESPACE=libvoOSSource",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../Include,
+					../../../../../Common,
+					../../../../../Source/Include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Lib/MacOS/x86\"",
+				);
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = voOSSource;
+			};
+			name = Debug;
+		};
+		76A67A1717C60BBA00B8A85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CONFIGURATION_BUILD_DIR = ../../../../../App/Customer/VisualOnAPI3/MacOS/Libs/x86/;
+				EXECUTABLE_EXTENSION = dylib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libvoOSSource/libvoOSSource-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_VOMODULEID=0x09020000",
+					_MAC_OS,
+					"_VONAMESPACE=libvoOSSource",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../../Include,
+					../../../../../Common,
+					../../../../../Source/Include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Lib/MacOS/x86\"",
+				);
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = voOSSource;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A679FF17C60BBA00B8A85F /* Build configuration list for PBXProject "libvoOSSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A67A1317C60BBA00B8A85F /* Debug */,
+				76A67A1417C60BBA00B8A85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A67A1517C60BBA00B8A85F /* Build configuration list for PBXNativeTarget "libvoOSSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A67A1617C60BBA00B8A85F /* Debug */,
+				76A67A1717C60BBA00B8A85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76A679FC17C60BBA00B8A85F /* Project object */;
+}

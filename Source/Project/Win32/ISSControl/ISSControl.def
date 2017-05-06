@@ -1,0 +1,7 @@
+; ISSControl.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ISSControl"
+
+EXPORTS
+	voGetISSControlAPI
+

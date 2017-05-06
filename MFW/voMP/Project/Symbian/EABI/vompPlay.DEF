@@ -1,0 +1,17 @@
+EXPORTS
+	vompInit			@ 1 NONAME
+	vompSetDataSource	@ 2 NONAME
+	vompSendBuffer		@ 3 NONAME
+	vompRun				@ 4 NONAME
+	vompPause			@ 5 NONAME
+	vompStop			@ 6 NONAME
+	vompFlush			@ 7 NONAME
+	vompGetStatus		@ 8 NONAME
+	vompGetDuration		@ 9 NONAME
+	vompGetCurPos		@ 10 NONAME
+	vompSetCurPos		@ 11 NONAME
+	vompGetParam		@ 12 NONAME
+	vompSetParam		@ 13 NONAME
+	vompUninit			@ 14 NONAME
+
+

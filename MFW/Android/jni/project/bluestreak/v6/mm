@@ -1,0 +1,4 @@
+#!/bin/sh
+make 
+cp -f libvomejni.so /home/david/java/blueplayer-nj-1.5/libs/armeabi
+cp -f libvomejni.so /home/david/java/vomeplayer_test2/libs/armeabi

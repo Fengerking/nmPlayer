@@ -1,0 +1,33 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this source code is subject to the terms of your Microsoft Windows CE
+// Source Alliance Program license form.  If you did not accept the terms of
+// such a license, you are not authorized to use this source code.
+//
+//==========================================================================;
+//==========================================================================;
+
+// enums.idl
+
+#include <olectl.h>
+import "oaidl.idl";
+import "ocidl.idl";
+#include "..\inc\dsdispid.h"
+
+typedef [
+    helpstring("ActiveMovie Readiness State"),
+    public
+] enum ReadyStateConstants
+{
+    [helpstring("ActiveMovie is uninitialized")]
+	amvUninitialized = 0,
+    [helpstring("ActiveMovie is loading")]
+	amvLoading       = 1,
+    [helpstring("ActiveMovie is not fully loaded, but will permit limited user interaction")]
+	amvInteractive   = 3,
+    [helpstring("ActiveMovie is fully loaded, permitting full user interaction")]
+	amvComplete      = 4
+} ReadyStateConstants;
+

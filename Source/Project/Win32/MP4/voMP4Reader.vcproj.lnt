@@ -1,0 +1,74 @@
+/* -dConfiguration= ... none provided  */
+-D_WINDLL                      //  49: ConfigurationType = "2" 
+-D_UNICODE                     //  50: CharacterSet = "1" 
+-DUNICODE                      //  50: CharacterSet = "" 
+-i"../../../file/mp4/MP4Base"  //  70: AdditionalIncludeDirectories = "../../../file/mp4/MP4Base;../../../file/mp4/ISOMedia;../../../file/mp4;../../../file/mp4/Reader;../." 
+-i"../../../file/mp4/ISOMedia"
+                               //  70: AdditionalIncludeDirectories = "" 
+-i"../../../file/mp4"          //  70: AdditionalIncludeDirectories = "" 
+-i"../../../file/mp4/Reader"   //  70: AdditionalIncludeDirectories = "" 
+-i"../../../file/common"       //  70: AdditionalIncludeDirectories = "" 
+-i"../../../../include"        //  70: AdditionalIncludeDirectories = "" 
+-i"../../../../common"         //  70: AdditionalIncludeDirectories = "" 
+-i"../../../file/metadata"     //  70: AdditionalIncludeDirectories = "" 
+-DWIN32                        //  71: PreprocessorDefinitions = "WIN32;NDEBUG;_WINDOWS;_USRDLL;_MP4_READER;_USE_J3LIB;_SUPPORT_PARSER_METADATA;_VOLOG_INFO" 
+-DNDEBUG                       //  71: PreprocessorDefinitions = "" 
+-D_WINDOWS                     //  71: PreprocessorDefinitions = "" 
+-D_USRDLL                      //  71: PreprocessorDefinitions = "" 
+-D_MP4_READER                  //  71: PreprocessorDefinitions = "" 
+-D_USE_J3LIB                   //  71: PreprocessorDefinitions = "" 
+-D_SUPPORT_PARSER_METADATA     //  71: PreprocessorDefinitions = "" 
+-D_VOLOG_INFO                  //  71: PreprocessorDefinitions = "" 
+..\..\..\File\Common\voFileReader.cpp
+                               //1790: RelativePath = "..\..\..\File\Common\voFileReader.cpp" 
+..\..\..\File\MP4\Reader\CMp4FileStream.cpp
+                               //1826: RelativePath = "..\..\..\File\MP4\Reader\CMp4FileStream.cpp" 
+..\..\..\File\MP4\Reader\CMp4Reader2.cpp
+                               //1834: RelativePath = "..\..\..\File\MP4\Reader\CMp4Reader2.cpp" 
+..\..\..\File\MP4\Reader\CMp4Track2.cpp
+                               //1842: RelativePath = "..\..\..\File\MP4\Reader\CMp4Track2.cpp" 
+..\..\..\File\Common\CBaseReader.cpp
+                               //1854: RelativePath = "..\..\..\File\Common\CBaseReader.cpp" 
+..\..\..\File\Common\CBaseTrack.cpp
+                               //1862: RelativePath = "..\..\..\File\Common\CBaseTrack.cpp" 
+..\..\..\File\Common\CGFileChunk.cpp
+                               //1870: RelativePath = "..\..\..\File\Common\CGFileChunk.cpp" 
+..\..\..\..\Common\cmnFile.cpp
+                               //1878: RelativePath = "..\..\..\..\Common\cmnFile.cpp" 
+..\..\..\..\Common\cmnMemory.c
+                               //1886: RelativePath = "..\..\..\..\Common\cmnMemory.c" 
+..\..\..\File\Common\CvoBaseDrmCallback.cpp
+                               //1894: RelativePath = "..\..\..\File\Common\CvoBaseDrmCallback.cpp" 
+..\..\..\File\Common\CvoBaseFileOpr.cpp
+                               //1902: RelativePath = "..\..\..\File\Common\CvoBaseFileOpr.cpp" 
+..\..\..\File\Common\CvoBaseMemOpr.cpp
+                               //1910: RelativePath = "..\..\..\File\Common\CvoBaseMemOpr.cpp" 
+..\..\..\..\Common\CvoBaseObject.cpp
+                               //1918: RelativePath = "..\..\..\..\Common\CvoBaseObject.cpp" 
+..\..\..\File\Common\fCodec.c  //1926: RelativePath = "..\..\..\File\Common\fCodec.c" 
+..\..\..\..\Common\voCMutex.cpp
+                               //1934: RelativePath = "..\..\..\..\Common\voCMutex.cpp" 
+..\..\..\File\MP4\MP4Base\mp4cfg.cpp
+                               //1954: RelativePath = "..\..\..\File\MP4\MP4Base\mp4cfg.cpp" 
+..\..\..\File\MP4\MP4Base\mp4desc.cpp
+                               //1962: RelativePath = "..\..\..\File\MP4\MP4Base\mp4desc.cpp" 
+..\..\..\File\MP4\MP4Base\mpxio.cpp
+                               //1970: RelativePath = "..\..\..\File\MP4\MP4Base\mpxio.cpp" 
+..\..\..\File\MP4\MP4Base\mpxobj.cpp
+                               //1978: RelativePath = "..\..\..\File\MP4\MP4Base\mpxobj.cpp" 
+..\..\..\File\MP4\MP4Base\mpxutil.cpp
+                               //1990: RelativePath = "..\..\..\File\MP4\MP4Base\mpxutil.cpp" 
+..\..\..\File\MP4\ISOMedia\isomrd.cpp
+                               //2002: RelativePath = "..\..\..\File\MP4\ISOMedia\isomrd.cpp" 
+..\..\..\File\MP4\ISOMedia\isomscan.cpp
+                               //2010: RelativePath = "..\..\..\File\MP4\ISOMedia\isomscan.cpp" 
+..\..\..\File\MP4\CMp4Reader.cpp
+                               //2022: RelativePath = "..\..\..\File\MP4\CMp4Reader.cpp" 
+..\..\..\File\MP4\CMp4Track.cpp
+                               //2030: RelativePath = "..\..\..\File\MP4\CMp4Track.cpp" 
+..\..\..\File\MetaData\CBaseMetaData.cpp
+                               //2046: RelativePath = "..\..\..\File\MetaData\CBaseMetaData.cpp" 
+..\..\..\File\MetaData\CID3MetaData.cpp
+                               //2054: RelativePath = "..\..\..\File\MetaData\CID3MetaData.cpp" 
+..\..\..\File\MetaData\CMP4MetaData.cpp
+                               //2062: RelativePath = "..\..\..\File\MetaData\CMP4MetaData.cpp" 

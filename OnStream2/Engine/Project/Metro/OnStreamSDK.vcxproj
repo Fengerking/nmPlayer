@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VSVersion)' == '' and '$(VisualStudioVersion)' == ''">$(VCTargetsPath11)</VCTargetsPath>
+    <ProjectGuid>{a77ba84d-11a3-45f7-9f16-258d875958be}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>OnStreamSDK</ProjectName>
+    <RootNamespace>OnStreamSDK</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+    <OutDir>..\..\..\..\..\voRelease\Win32\Bin\Metro\AppX\</OutDir>
+    <TargetName>voOSEng</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <GenerateManifest>false</GenerateManifest>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <AdditionalIncludeDirectories>..\..\..\..\Include;..\..\..\..\Common;..\..\Source\Common;..\..\Source\Metro;..\..\..\..\Common\Buffer;..\..\..\..\Render\Audio\Source;..\..\..\..\Render\Video\Render\Source;..\..\..\..\Render\Audio\Source\XAudio2;..\..\..\..\Render\Video\Render\Source\Metro;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_METRO;_VOLOG_INFO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CallingConvention>Cdecl</CallingConvention>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+      <ModuleDefinitionFile>OnStreamSDK.Def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>..\..\..\..\..\voRelease\Win32\Bin\Metro\AppX</AdditionalLibraryDirectories>
+      <AdditionalDependencies>voVideoParser.lib;d2d1.lib;d3d11.lib;dxgi.lib;ole32.lib;windowscodecs.lib;dwrite.lib;dxguid.lib;Xaudio2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|arm'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Common\Buffer\SubtitleFunc.h" />
+    <ClInclude Include="..\..\..\..\Common\Buffer\voSourceSubtitleDataBuffer.h" />
+    <ClInclude Include="..\..\..\..\Common\Buffer\vo_allocator.hpp" />
+    <ClInclude Include="..\..\..\..\Common\Buffer\vo_singlelink_list.hpp" />
+    <ClInclude Include="..\..\..\..\Common\CBaseConfig.h" />
+    <ClInclude Include="..\..\..\..\Common\CDllLoad.h" />
+    <ClInclude Include="..\..\..\..\Common\cmnFile.h" />
+    <ClInclude Include="..\..\..\..\Common\cmnMemory.h" />
+    <ClInclude Include="..\..\..\..\Common\CPtrList.h" />
+    <ClInclude Include="..\..\..\..\Common\CVideoSubtitle.h" />
+    <ClInclude Include="..\..\..\..\Common\CvoBaseObject.h" />
+    <ClInclude Include="..\..\..\..\Common\voCMutex.h" />
+    <ClInclude Include="..\..\..\..\Common\voCSemaphore.h" />
+    <ClInclude Include="..\..\..\..\Common\voHalInfo.h" />
+    <ClInclude Include="..\..\..\..\Common\voOSFunc.h" />
+    <ClInclude Include="..\..\..\..\Common\voSubtitleFunc.h" />
+    <ClInclude Include="..\..\..\..\Common\voThread.h" />
+    <ClInclude Include="..\..\..\..\Render\Audio\Source\CBaseAudioRender.h" />
+    <ClInclude Include="..\..\..\..\Render\Audio\Source\XAudio2\CXAudio2Render.h" />
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\CBaseVideoRender.h" />
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\CCCRRRFunc.h" />
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\Metro\CD2DVideoRender.h" />
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\Metro\CMetroVideoRender.h" />
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\Metro\DirectXBase.h" />
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\Metro\DirectXHelper.h" />
+    <ClInclude Include="..\..\Source\Common\COSBasePlayer.h" />
+    <ClInclude Include="..\..\Source\Common\COSVomeEngine.h" />
+    <ClInclude Include="..\..\Source\Common\COSVomePlayer.h" />
+    <ClInclude Include="..\..\Source\Common\IOSBasePlayer.h" />
+    <ClInclude Include="..\..\Source\Metro\COSWinAudioRender.h" />
+    <ClInclude Include="..\..\Source\Metro\COSWinVideoRender.h" />
+    <ClInclude Include="..\..\Source\Metro\COSWinVomePlayer.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Common\Buffer\voSourceSubtitleDataBuffer.cpp" />
+    <ClCompile Include="..\..\..\..\Common\CBaseConfig.cpp" />
+    <ClCompile Include="..\..\..\..\Common\CDllLoad.cpp" />
+    <ClCompile Include="..\..\..\..\Common\cmnFile.cpp" />
+    <ClCompile Include="..\..\..\..\Common\cmnVOMemory.cpp" />
+    <ClCompile Include="..\..\..\..\Common\CPtrList.cpp" />
+    <ClCompile Include="..\..\..\..\Common\CVideoSubtitle.cpp" />
+    <ClCompile Include="..\..\..\..\Common\CvoBaseObject.cpp" />
+    <ClCompile Include="..\..\..\..\Common\voCMutex.cpp" />
+    <ClCompile Include="..\..\..\..\Common\voCSemaphore.cpp" />
+    <ClCompile Include="..\..\..\..\Common\voHalInfo.cpp" />
+    <ClCompile Include="..\..\..\..\Common\voLog.cpp" />
+    <ClCompile Include="..\..\..\..\Common\voOSFunc.cpp" />
+    <ClCompile Include="..\..\..\..\Common\voSubtitleFunc.cpp" />
+    <ClCompile Include="..\..\..\..\Common\voThread.cpp" />
+    <ClCompile Include="..\..\..\..\Render\Audio\Source\CBaseAudioRender.cpp" />
+    <ClCompile Include="..\..\..\..\Render\Audio\Source\XAudio2\CXAudio2Render.cpp" />
+    <ClCompile Include="..\..\..\..\Render\Video\Render\Source\CBaseVideoRender.cpp" />
+    <ClCompile Include="..\..\..\..\Render\Video\Render\Source\CCCRRRFunc.cpp" />
+    <ClCompile Include="..\..\..\..\Render\Video\Render\Source\Metro\CD2DVideoRender.cpp" />
+    <ClCompile Include="..\..\..\..\Render\Video\Render\Source\Metro\CMetroVideoRender.cpp" />
+    <ClCompile Include="..\..\..\..\Render\Video\Render\Source\Metro\DirectXBase.cpp" />
+    <ClCompile Include="..\..\Source\Common\COSBasePlayer.cpp" />
+    <ClCompile Include="..\..\Source\Common\COSVomeEngine.cpp" />
+    <ClCompile Include="..\..\Source\Common\COSVomePlayer.cpp" />
+    <ClCompile Include="..\..\Source\Metro\COSWinAudioRender.cpp" />
+    <ClCompile Include="..\..\Source\Metro\COSWinVideoRender.cpp" />
+    <ClCompile Include="..\..\Source\Metro\COSWinVomePlayer.cpp" />
+    <ClCompile Include="..\..\Source\Metro\voOnStreamSDK.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

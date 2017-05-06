@@ -1,0 +1,73 @@
+/*
+============================================================================
+ Name		: RealFileReader.mmp
+ Author	  : 
+ Copyright   : VisualOn Coryright 2003 - 2010.
+ Description : This is the project specification file for RealFileReader.
+============================================================================
+*/
+
+TARGET		  	vompEngn.dll
+TARGETTYPE	  	dll
+UID			 	0x1000008E 0xEA6B1CE8
+
+MACRO			_UNICODE
+MACRO			PD
+
+USERINCLUDE	 	..\..\..\..\..\Common
+USERINCLUDE	 	..\..\..\..\..\Include
+USERINCLUDE	 	..\..\..\..\Common
+USERINCLUDE	  	..\..\..\..\..\Render\Video\Render\Source
+USERINCLUDE	  	..\..\..\..\..\Render\Audio\Source
+
+SYSTEMINCLUDE   \epoc32\include
+SYSTEMINCLUDE   \epoc32\include\libc
+
+SOURCEPATH	  	..\..\..\..\..\Common
+SOURCE		  	SymbianDllMain.cpp
+SOURCE		  	CvoBaseObject.cpp
+SOURCE		  	voCMutex.cpp
+SOURCE		  	cmnFile.cpp
+SOURCE			cmnVOMemory.cpp
+SOURCE			CBaseConfig.cpp
+SOURCE			CDllLoad.cpp
+SOURCE			CFileFormatCheck.cpp
+SOURCE			voCBaseThread.cpp
+SOURCE			voCSemaphore.cpp
+SOURCE			voOSFunc.cpp
+SOURCE			voThread.cpp
+
+SOURCEPATH	  	..\..\..\..\..\Render\Video\Render\Source
+SOURCE		  	CBaseVideoRender.cpp
+SOURCE		  	CCCRRRFunc.cpp
+
+SOURCEPATH	  	..\..\..\Source
+SOURCE		  	voCBasePlayer.cpp
+SOURCE		  	voCDataBuffer.cpp
+SOURCE		  	voCDataSource.cpp
+SOURCE		  	voCDataSourceOP.cpp
+SOURCE		  	voCMediaPlayer.cpp
+SOURCE		  	voCMediaPlayerInit.cpp
+SOURCE		  	voMP.cpp
+
+SOURCEPATH	  	..\..\..\..\Common
+SOURCE		  	CAudioDecoder.cpp
+SOURCE		  	CBaseNode.cpp
+SOURCE		  	CBaseSource.cpp
+SOURCE		  	CFileSource.cpp
+SOURCE		  	CHTTPPDSource.cpp
+SOURCE		  	CRTSPSource.cpp
+SOURCE		  	CVideoDecoder.cpp
+
+DEFFILE 		..\eabi\vompPlay.DEF
+
+LIBRARY		 	euser.lib
+LIBRARY		 	estlib.lib
+LIBRARY		 	hal.lib
+
+CAPABILITY	  	  ReadUserData
+
+#ifdef ENABLE_ABIV2_MODE
+  DEBUGGABLE_UDEBONLY
+#endif
+

@@ -1,0 +1,611 @@
+TvoADPCMTest_iOS_v6
+v7
+r0
+t350375457.033483
+cCheck dependencies
+cCpResource build/Release-iphoneos/voADPCMTest_iOS.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/Info.plist voADPCMTest_iOS-Info.plist
+cCompileXIB /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/MainWindow.xib
+cCompileXIB /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOSViewController.xib
+cProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dxnemamqhxoiffftpiurrwrbzkan/voADPCMTest_iOS_Prefix.pch.gch voADPCMTest_iOS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-hdpnkyvsldpkdtdlengloihkfiee/voADPCMTest_iOS_Prefix.pch.gch voADPCMTest_iOS_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-cumaegikdsxbbwhhulwsespzyjee/voADPCMTest_iOS_Prefix.pch.gch voADPCMTest_iOS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dsowxpacklknoqcvslfndbghyevs/voADPCMTest_iOS_Prefix.pch.gch voADPCMTest_iOS_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/main.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOSAppDelegate.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOSViewController.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/Test_Adpcm.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/main.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOSAppDelegate.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOS normal armv6
+cCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOSViewController.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/Test_Adpcm.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c normal armv7 c com.apple.compilers.gcc.4_2
+cLd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOS normal armv7
+cCreateUniversalBinary /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOS normal "armv6 armv7"
+cGenerateDSYMFile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app.dSYM /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOS
+cProcessProductPackaging "/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision" /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/embedded.mobileprovision
+cTouch /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS.xcent
+cCodeSign /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app
+cValidate /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
+c000000004CB3E4B800000000000040AC
+t1286857912
+s16556
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/string.h
+c000000004CB3E4B80000000000001731
+t1286857912
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/time.h
+c000000004CB3E4B8000000000000178E
+t1286857912
+s6030
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../../iOS/v6/libvoADPCMDec.a
+c000000004F0E4EED0000000000006768
+t1326337773
+s26472
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c
+c000000004F32169400000000000018D3
+t1328682644
+s6355
+i<windows.h>
+i<objbase.h>
+i<Winbase.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<time.h>
+i"voADPCM.h"
+i"cmnMemory.h"
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.h
+c000000004F320D0100000000000001FF
+t1328680193
+s511
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.m
+c000000004F320D010000000000000AAD
+t1328680193
+s2733
+i"voADPCMTest_iOSAppDelegate.h"
+i"voADPCMTest_iOSViewController.h"
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.h
+c000000004F320D0100000000000000F6
+t1328680193
+s246
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m
+c000000004F3212D70000000000000868
+t1328681687
+s2152
+i"voADPCMTest_iOSViewController.h"
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/MainWindow.xib
+c000000004F320D010000000000004E89
+t1328680193
+s20105
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app
+t1328682656
+s374
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app.dSYM
+t1328682656
+s102
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/Info.plist
+t1328682653
+s819
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/MainWindow.nib
+t1328682654
+s1139
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/PkgInfo
+t1328682653
+s8
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/ResourceRules.plist
+t1328682653
+s485
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/embedded.mobileprovision
+t1328682656
+s8442
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOS
+t1328682656
+s74428
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOSViewController.nib
+t1328682654
+s795
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/Test_Adpcm.o
+t1328682656
+s9296
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/main.o
+t1328682656
+s6588
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOS
+t1328682656
+s33468
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOS.LinkFileList
+c000000004F32169D00000000000002F1
+t1328682653
+s753
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOSAppDelegate.o
+t1328682656
+s50324
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOSViewController.o
+t1328682656
+s40744
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/Test_Adpcm.o
+t1328682656
+s9216
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/main.o
+t1328682656
+s6564
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOS
+t1328682656
+s33468
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOS.LinkFileList
+c000000004F32169D00000000000002F1
+t1328682653
+s753
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOSAppDelegate.o
+t1328682656
+s50336
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOSViewController.o
+t1328682656
+s40732
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS.xcent
+t1328682656
+s436
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/main.m
+c000000004F320D010000000000000161
+t1328680193
+s353
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOSViewController.xib
+c000000004F320D010000000000001A65
+t1328680193
+s6757
+
+N/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOS_Prefix.pch
+c000000004F320D0100000000000000C7
+t1328680193
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Common/cmnMemory.h
+c000000004EE868C90000000000000A43
+t1323854025
+s2627
+i"voMem.h"
+
+N/Users/lilin/Code4/trunk/Include/voADPCM.h
+c000000004EE0911200000000000007EB
+t1323340050
+s2027
+i<voAudio.h>
+
+N/Users/lilin/Code4/trunk/Include/voAudio.h
+c000000004EE091120000000000002B23
+t1323340050
+s11043
+i"voIndex.h"
+i"voMem.h"
+
+N/Users/lilin/Code4/trunk/Include/voIndex.h
+c000000004EE6DFD10000000000001D61
+t1323753425
+s7521
+i"voType.h"
+
+N/Users/lilin/Code4/trunk/Include/voMem.h
+c000000004EE0911200000000000006D2
+t1323340050
+s1746
+i"voIndex.h"
+
+N/Users/lilin/Code4/trunk/Include/voType.h
+c000000004EE09112000000000000255E
+t1323340050
+s9566
+
+N/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision
+c000000004EBB9D0F00000000000020FA
+t1320918287
+s8442
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-cumaegikdsxbbwhhulwsespzyjee/voADPCMTest_iOS_Prefix.pch.gch
+t1328682655
+s10249944
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dsowxpacklknoqcvslfndbghyevs/voADPCMTest_iOS_Prefix.pch.gch
+t1328682655
+s1716452
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dxnemamqhxoiffftpiurrwrbzkan/voADPCMTest_iOS_Prefix.pch.gch
+t1328682655
+s9783000
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-hdpnkyvsldpkdtdlengloihkfiee/voADPCMTest_iOS_Prefix.pch.gch
+t1328682654
+s1261796
+
+NvoADPCMTest_iOS-Info.plist
+c000000004F320D3F000000000000038D
+t1328680255
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies350375453#350375453#0(0"0(0#1#0"8634296000#0"0#
+
+CCodeSign /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app
+s350375456.697439
+e350375456.920968
+r1
+xCodeSign
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app
+lSLF07#2@51"CodeSign build/Release-iphoneos/voADPCMTest_iOS.app350375456#350375456#0(0"0(0#0#119"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app8630180000#845"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Bill Lin (976WAD8FSQ)" --resource-rules=/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/ResourceRules.plist --entitlements /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS.xcent /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app0#
+
+CCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/Test_Adpcm.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c normal armv6 c com.apple.compilers.gcc.4_2
+s350375456.195943
+e350375456.334063
+r1
+xCompileC
+xbuild/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/Test_Adpcm.o
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c: In function 'beginTest_adpcm':
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c:78: warning: unused variable 'left_size'
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c:66: warning: unused variable 'FrameCount'
+lSLF07#2@100"Compile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c350375456#350375456#0(394"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c: In function 'beginTest_adpcm':/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c:78: warning: unused variable 'left_size'/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c:66: warning: unused variable 'FrameCount'2(22@27"Unused variable 'left_size'350375456#125#134#0(6@92"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c350375444#78#0#78#0#19"unused variable '*'0(22@28"Unused variable 'FrameCount'350375456#259#135#0(6@92"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c350375444#66#0#66#0#19"unused variable '*'0(0#0#92"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c8634787584#2432"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-hdpnkyvsldpkdtdlengloihkfiee/voADPCMTest_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/Test_Adpcm.o0#
+
+CCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/main.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s350375456.053161
+e350375456.119899
+r1
+xCompileC
+xbuild/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/main.o
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/main.m350375456#350375456#0(0"0(0#0#83"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/main.m8629552352#2427"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dxnemamqhxoiffftpiurrwrbzkan/voADPCMTest_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/main.m -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOSAppDelegate.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s350375456.054982
+e350375456.195825
+r1
+xCompileC
+xbuild/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOSAppDelegate.o
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.m350375456#350375456#0(0"0(0#0#113"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.m8629498272#2479"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dxnemamqhxoiffftpiurrwrbzkan/voADPCMTest_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.m -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOSAppDelegate.o0#
+
+CCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOSViewController.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s350375456.120015
+e350375456.221873
+r1
+xCompileC
+xbuild/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOSViewController.o
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m: In function '-[voADPCMTest_iOSViewController viewDidLoad]':
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:42: warning: initialization discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:46: warning: initialization discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:47: warning: initialization discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:49: warning: implicit declaration of function 'beginTest_adpcm'
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:47: warning: unused variable 'outSpeedFile'
+lSLF07#2@124"Compile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m350375456#350375456#0(1090"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m: In function '-[voADPCMTest_iOSViewController viewDidLoad]':/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:42: warning: initialization discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:46: warning: initialization discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:47: warning: initialization discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:49: warning: implicit declaration of function 'beginTest_adpcm'/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:47: warning: unused variable 'outSpeedFile'5(22@59"Initialization discards qualifiers from pointer target type350375456#178#190#0(6@116"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m350374487#42#0#42#0#0"0(22@59"Initialization discards qualifiers from pointer target type350375456#368#190#0(6@116"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m350374487#46#0#46#0#0"0(22@59"Initialization discards qualifiers from pointer target type350375456#558#190#0(6@116"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m350374487#47#0#47#0#0"0(22@50"Implicit declaration of function 'beginTest_adpcm'350375456#748#181#0(6@116"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m350374487#49#0#49#0#36"implicit declaration of function '*'0(22@30"Unused variable 'outSpeedFile'350375456#929#161#0(6@116"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m350374487#47#0#47#0#19"unused variable '*'0(0#0#116"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m8635824768#2485"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dxnemamqhxoiffftpiurrwrbzkan/voADPCMTest_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOSViewController.o0#
+
+CCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/Test_Adpcm.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c normal armv7 c com.apple.compilers.gcc.4_2
+s350375456.467501
+e350375456.573103
+r1
+xCompileC
+xbuild/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/Test_Adpcm.o
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c: In function 'beginTest_adpcm':
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c:78: warning: unused variable 'left_size'
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c:66: warning: unused variable 'FrameCount'
+lSLF07#2@100"Compile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c350375456#350375456#0(394"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c: In function 'beginTest_adpcm':/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c:78: warning: unused variable 'left_size'/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c:66: warning: unused variable 'FrameCount'2(22@27"Unused variable 'left_size'350375456#125#134#0(6@92"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c350375444#78#0#78#0#19"unused variable '*'0(22@28"Unused variable 'FrameCount'350375456#259#135#0(6@92"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c350375444#66#0#66#0#19"unused variable '*'0(0#0#92"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c8630971584#2432"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dsowxpacklknoqcvslfndbghyevs/voADPCMTest_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../Test_Adpcm.c -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/Test_Adpcm.o0#
+
+CCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/main.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s350375456.222000
+e350375456.296314
+r1
+xCompileC
+xbuild/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/main.o
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/main.m350375456#350375456#0(0"0(0#0#83"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/main.m8633773504#2427"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-cumaegikdsxbbwhhulwsespzyjee/voADPCMTest_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/main.m -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOSAppDelegate.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s350375456.296431
+e350375456.461225
+r1
+xCompileC
+xbuild/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOSAppDelegate.o
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.m350375456#350375456#0(0"0(0#0#113"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.m8630199104#2479"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-cumaegikdsxbbwhhulwsespzyjee/voADPCMTest_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSAppDelegate.m -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOSAppDelegate.o0#
+
+CCompileC build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOSViewController.o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s350375456.461385
+e350375456.559615
+r1
+xCompileC
+xbuild/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOSViewController.o
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m: In function '-[voADPCMTest_iOSViewController viewDidLoad]':
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:42: warning: initialization discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:46: warning: initialization discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:47: warning: initialization discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:49: warning: implicit declaration of function 'beginTest_adpcm'
+o/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:47: warning: unused variable 'outSpeedFile'
+lSLF07#2@124"Compile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m350375456#350375456#0(1090"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m: In function '-[voADPCMTest_iOSViewController viewDidLoad]':/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:42: warning: initialization discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:46: warning: initialization discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:47: warning: initialization discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:49: warning: implicit declaration of function 'beginTest_adpcm'/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m:47: warning: unused variable 'outSpeedFile'5(22@59"Initialization discards qualifiers from pointer target type350375456#178#190#0(6@116"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m350374487#42#0#42#0#0"0(22@59"Initialization discards qualifiers from pointer target type350375456#368#190#0(6@116"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m350374487#46#0#46#0#0"0(22@59"Initialization discards qualifiers from pointer target type350375456#558#190#0(6@116"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m350374487#47#0#47#0#0"0(22@50"Implicit declaration of function 'beginTest_adpcm'350375456#748#181#0(6@116"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m350374487#49#0#49#0#36"implicit declaration of function '*'0(22@30"Unused variable 'outSpeedFile'350375456#929#161#0(6@116"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m350374487#47#0#47#0#19"unused variable '*'0(0#0#116"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m8632915104#2485"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-cumaegikdsxbbwhhulwsespzyjee/voADPCMTest_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/Classes/voADPCMTest_iOSViewController.m -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOSViewController.o0#
+
+CCompileXIB /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/MainWindow.xib
+s350375453.902697
+e350375454.429266
+r1
+xCompileXIB
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib350375453#350375454#0(0"0(0#0#91"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/MainWindow.xib8628622912#666"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/MainWindow.nib /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOSViewController.xib
+s350375453.903635
+e350375454.565542
+r1
+xCompileXIB
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOSViewController.xib
+lSLF07#2@44"CompileXIB voADPCMTest_iOSViewController.xib350375453#350375454#0(0"0(0#0#110"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOSViewController.xib8628391136#704"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOSViewController.nib /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOSViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Release-iphoneos/voADPCMTest_iOS.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s350375453.885968
+e350375453.900728
+r1
+xCpResource
+xbuild/Release-iphoneos/voADPCMTest_iOS.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist350375453#350375453#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8631303296#601"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app0#
+
+CCreateUniversalBinary /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOS normal "armv6 armv7"
+s350375456.606195
+e350375456.621809
+r1
+xCreateUniversalBinary
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOS
+xnormal
+xarmv6 armv7
+lSLF07#2@101"CreateUniversalBinary build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOS normal "armv6 armv7"350375456#350375456#0(0"0(0#0#88"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/armv6 armv78628492768#746"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOS /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOS -output /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOS0#
+
+CGenerateDSYMFile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app.dSYM /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOS
+s350375456.621917
+e350375456.651022
+r1
+xGenerateDSYMFile
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app.dSYM
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOS
+lSLF07#2@123"GenerateDSYMFile build/Release-iphoneos/voADPCMTest_iOS.app.dSYM build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOS350375456#350375456#0(0"0(0#0#135"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOS8628258336#504"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/voADPCMTest_iOS -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app.dSYM0#
+
+CLd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOS normal armv6
+s350375456.334164
+e350375456.467379
+r1
+xLd
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOS
+xnormal
+xarmv6
+lSLF07#2@188"Link /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOS350375456#350375456#0(0"0(0#0#0"8622191488#1216"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -L/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../../iOS/v6 -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -filelist /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOS.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -lvoADPCMDec -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv6/voADPCMTest_iOS0#
+
+CLd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOS normal armv7
+s350375456.573226
+e350375456.606085
+r1
+xLd
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOS
+xnormal
+xarmv7
+lSLF07#2@188"Link /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOS350375456#350375456#0(0"0(0#0#0"8627193088#1216"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -L/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/../../iOS/v6 -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -filelist /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOS.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -lvoADPCMDec -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/Objects-normal/armv7/voADPCMTest_iOS0#
+
+CProcessInfoPlistFile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/Info.plist voADPCMTest_iOS-Info.plist
+s350375453.886940
+e350375453.902610
+r1
+xProcessInfoPlistFile
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/Info.plist
+xvoADPCMTest_iOS-Info.plist
+lSLF07#2@34"Process voADPCMTest_iOS-Info.plist350375453#350375453#0(0"0(0#0#103"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOS-Info.plist8630369152#752"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility voADPCMTest_iOS-Info.plist -genpkginfo /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/ResourceRules.plist -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/Info.plist0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-cumaegikdsxbbwhhulwsespzyjee/voADPCMTest_iOS_Prefix.pch.gch voADPCMTest_iOS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s350375454.664887
+e350375455.940734
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-cumaegikdsxbbwhhulwsespzyjee/voADPCMTest_iOS_Prefix.pch.gch
+xvoADPCMTest_iOS_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile voADPCMTest_iOS_Prefix.pch350375454#350375455#0(0"0(0#0#103"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOS_Prefix.pch8616510688#2274"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOS_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-cumaegikdsxbbwhhulwsespzyjee/voADPCMTest_iOS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dsowxpacklknoqcvslfndbghyevs/voADPCMTest_iOS_Prefix.pch.gch voADPCMTest_iOS_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+s350375455.840137
+e350375456.052351
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dsowxpacklknoqcvslfndbghyevs/voADPCMTest_iOS_Prefix.pch.gch
+xvoADPCMTest_iOS_Prefix.pch
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile voADPCMTest_iOS_Prefix.pch350375455#350375456#0(0"0(0#0#103"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOS_Prefix.pch8630355296#2264"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOS_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dsowxpacklknoqcvslfndbghyevs/voADPCMTest_iOS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dxnemamqhxoiffftpiurrwrbzkan/voADPCMTest_iOS_Prefix.pch.gch voADPCMTest_iOS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s350375454.565694
+e350375455.839949
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dxnemamqhxoiffftpiurrwrbzkan/voADPCMTest_iOS_Prefix.pch.gch
+xvoADPCMTest_iOS_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile voADPCMTest_iOS_Prefix.pch350375454#350375455#0(0"0(0#0#103"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOS_Prefix.pch8629394592#2274"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOS_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-dxnemamqhxoiffftpiurrwrbzkan/voADPCMTest_iOS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-hdpnkyvsldpkdtdlengloihkfiee/voADPCMTest_iOS_Prefix.pch.gch voADPCMTest_iOS_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+s350375454.566860
+e350375454.664700
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-hdpnkyvsldpkdtdlengloihkfiee/voADPCMTest_iOS_Prefix.pch.gch
+xvoADPCMTest_iOS_Prefix.pch
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile voADPCMTest_iOS_Prefix.pch350375454#350375454#0(0"0(0#0#103"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOS_Prefix.pch8628472704#2264"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/voADPCMTest_iOS_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voADPCMTest_iOS_Prefix-hdpnkyvsldpkdtdlengloihkfiee/voADPCMTest_iOS_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision" /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/embedded.mobileprovision
+s350375456.651138
+e350375456.674136
+r1
+xProcessProductPackaging
+x/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision" build/Release-iphoneos/voADPCMTest_iOS.app/embedded.mobileprovision350375456#350375456#0(0"0(0#0#144"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/embedded.mobileprovision8634673312#509"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision" -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS.xcent
+s350375456.679761
+e350375456.697283
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS.xcent
+lSLF07#2@204"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS.xcent350375456#350375456#0(0"0(0#0#168"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS.xcent8632230336#537"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/voADPCMTest_iOS.build/Release-iphoneos/voADPCMTest_iOS_v6.build/voADPCMTest_iOS.xcent0#
+
+CTouch /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app
+s350375456.674363
+e350375456.679615
+r1
+xTouch
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app
+lSLF07#2@125"Touch /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app350375456#350375456#0(0"0(0#0#0"8633902944#350"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app0#
+
+CValidate /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app
+s350375456.921066
+e350375457.033428
+r1
+xValidate
+x/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app
+o2012-02-08 14:30:56.939 Validation[48682:607] *** Warning: Defaulting to the standard codesign tool
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF07#2@51"Validate build/Release-iphoneos/voADPCMTest_iOS.app350375456#350375457#0(343"2012-02-08 14:30:56.939 Validation[48682:607] *** Warning: Defaulting to the standard codesign toolwarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)1(22@187" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)350375457#18446744073709551615#0#0(6@0"350375457#0#0#0#0#0"0(0#0#119"/Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app8628228768#459"    cd /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/lilin/Code4/trunk/Codec/Audio/ADPCM/DECODER/TestADPCM/voADPCMTest_iOS/build/Release-iphoneos/voADPCMTest_iOS.app0#
+

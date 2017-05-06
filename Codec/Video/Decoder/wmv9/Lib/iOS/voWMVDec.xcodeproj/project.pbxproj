@@ -1,0 +1,1315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* voWMVDec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voWMVDec_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F2023A911340432B004B1CBE /* Affine.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC0C128D385A00F53EB8 /* Affine.h */; };
+		F2023A921340432B004B1CBE /* codehead.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC0E128D385A00F53EB8 /* codehead.h */; };
+		F2023A931340432B004B1CBE /* constants_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC0F128D385A00F53EB8 /* constants_wmv.h */; };
+		F2023A941340432B004B1CBE /* coverage.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC10128D385A00F53EB8 /* coverage.h */; };
+		F2023A951340432B004B1CBE /* dectable_c.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC12128D385A00F53EB8 /* dectable_c.h */; };
+		F2023A961340432B004B1CBE /* dectable_mp4x.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC14128D385A00F53EB8 /* dectable_mp4x.h */; };
+		F2023A971340432B004B1CBE /* effects_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC18128D385A00F53EB8 /* effects_wmv.h */; };
+		F2023A981340432B004B1CBE /* EffectTypes_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC19128D385A00F53EB8 /* EffectTypes_wmv.h */; };
+		F2023A991340432B004B1CBE /* FrameTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC1B128D385A00F53EB8 /* FrameTimer.h */; };
+		F2023A9A1340432B004B1CBE /* huffman_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC1F128D385A00F53EB8 /* huffman_wmv.h */; };
+		F2023A9B1340432B004B1CBE /* idctdec_wmv2.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC21128D385A00F53EB8 /* idctdec_wmv2.h */; };
+		F2023A9C1340432B004B1CBE /* localhuffman_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC2F128D385A00F53EB8 /* localhuffman_wmv.h */; };
+		F2023A9D1340432B004B1CBE /* macros_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC30128D385A00F53EB8 /* macros_wmv.h */; };
+		F2023A9E1340432B004B1CBE /* motioncomp_emb_comm.h in Headers */ = {isa = PBXBuildFile; fileRef = F28C84AB1296243600EDEFE0 /* motioncomp_emb_comm.h */; };
+		F2023A9F1340432B004B1CBE /* motioncomp_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC32128D385A00F53EB8 /* motioncomp_wmv.h */; };
+		F2023AA01340432B004B1CBE /* opcodes.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC35128D385A00F53EB8 /* opcodes.h */; };
+		F2023AA11340432B004B1CBE /* pageroll_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC37128D385A00F53EB8 /* pageroll_wmv.h */; };
+		F2023AA21340432B004B1CBE /* postfilter_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC39128D385A00F53EB8 /* postfilter_wmv.h */; };
+		F2023AA31340432B004B1CBE /* repeatpad_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC3B128D385A00F53EB8 /* repeatpad_wmv.h */; };
+		F2023AA41340432B004B1CBE /* sideroll_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC3E128D385A00F53EB8 /* sideroll_wmv.h */; };
+		F2023AA51340432B004B1CBE /* spatialpredictor_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC40128D385A00F53EB8 /* spatialpredictor_wmv.h */; };
+		F2023AA61340432B004B1CBE /* strmdec_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC43128D385A00F53EB8 /* strmdec_wmv.h */; };
+		F2023AA71340432B004B1CBE /* strmdecdbg.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC44128D385A00F53EB8 /* strmdecdbg.h */; };
+		F2023AA81340432B004B1CBE /* tables_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC46128D385A00F53EB8 /* tables_wmv.h */; };
+		F2023AA91340432B004B1CBE /* typedef.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC48128D385A00F53EB8 /* typedef.h */; };
+		F2023AAA1340432B004B1CBE /* vfw_ce.h in Headers */ = {isa = PBXBuildFile; fileRef = F28C84AD1296243600EDEFE0 /* vfw_ce.h */; };
+		F2023AAB1340432B004B1CBE /* voWMVDec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voWMVDec_Prefix.pch */; };
+		F2023AAC1340432B004B1CBE /* voWmvPort.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC4D128D385A00F53EB8 /* voWmvPort.h */; };
+		F2023AAD1340432B004B1CBE /* wmvdec_api.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC4E128D385A00F53EB8 /* wmvdec_api.h */; };
+		F2023AAE1340432B004B1CBE /* wmvdec_function.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC4F128D385A00F53EB8 /* wmvdec_function.h */; };
+		F2023AAF1340432B004B1CBE /* wmvdec_member.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC50128D385A00F53EB8 /* wmvdec_member.h */; };
+		F2023AB01340432B004B1CBE /* wmvdec_member_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F2828B4012B355C20002F17C /* wmvdec_member_arm.h */; };
+		F2023AB11340432B004B1CBE /* xplatform_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC52128D385A00F53EB8 /* xplatform_wmv.h */; };
+		F2023AB313404355004B1CBE /* Affine.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC0B128D385A00F53EB8 /* Affine.c */; };
+		F2023AB713404355004B1CBE /* blkdec_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC0D128D385A00F53EB8 /* blkdec_wmv.c */; };
+		F2023AB813404355004B1CBE /* deblock.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC11128D385A00F53EB8 /* deblock.c */; };
+		F2023AB913404355004B1CBE /* dectable.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC15128D385A00F53EB8 /* dectable.c */; };
+		F2023ABA13404355004B1CBE /* dectable_mp4x.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC13128D385A00F53EB8 /* dectable_mp4x.c */; };
+		F2023ABB13404355004B1CBE /* deinterlace_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC16128D385A00F53EB8 /* deinterlace_wmv9.c */; };
+		F2023ABE13404355004B1CBE /* effects_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC17128D385A00F53EB8 /* effects_wmv.c */; };
+		F2023AC013404355004B1CBE /* FrameTimer.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1A128D385A00F53EB8 /* FrameTimer.c */; };
+		F2023AC113404355004B1CBE /* frmdec_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1C128D385A00F53EB8 /* frmdec_wmv.c */; };
+		F2023AC213404355004B1CBE /* headdec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1D128D385A00F53EB8 /* headdec.c */; };
+		F2023AC313404355004B1CBE /* huffdec_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1E128D385A00F53EB8 /* huffdec_wmv.c */; };
+		F2023ACB13404355004B1CBE /* idctdec_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84A81296243600EDEFE0 /* idctdec_emb.c */; };
+		F2023ACC13404355004B1CBE /* idctdec_wmv2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC20128D385A00F53EB8 /* idctdec_wmv2.c */; };
+		F2023ACD13404355004B1CBE /* idctdec_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC22128D385A00F53EB8 /* idctdec_wmv9.c */; };
+		F2023ACE13404355004B1CBE /* idctdec_wmv9_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84A91296243600EDEFE0 /* idctdec_wmv9_emb.c */; };
+		F2023ACF13404355004B1CBE /* init_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC23128D385A00F53EB8 /* init_wmv.c */; };
+		F2023AD013404355004B1CBE /* InterlaceCore_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC24128D385A00F53EB8 /* InterlaceCore_wmv9.c */; };
+		F2023AD113404355004B1CBE /* InterlaceDec_BFrame.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC25128D385A00F53EB8 /* InterlaceDec_BFrame.c */; };
+		F2023AD213404355004B1CBE /* InterlaceDec_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC26128D385A00F53EB8 /* InterlaceDec_wmv9.c */; };
+		F2023AD313404355004B1CBE /* InterlaceDecBV2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC27128D385A00F53EB8 /* InterlaceDecBV2.c */; };
+		F2023AD413404355004B1CBE /* InterlaceDecCoreV2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC28128D385A00F53EB8 /* InterlaceDecCoreV2.c */; };
+		F2023AD513404355004B1CBE /* InterlaceDecPV2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC29128D385A00F53EB8 /* InterlaceDecPV2.c */; };
+		F2023AD613404355004B1CBE /* InterlaceDecTable.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2A128D385A00F53EB8 /* InterlaceDecTable.c */; };
+		F2023AD713404355004B1CBE /* InterlaceDecV2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2B128D385A00F53EB8 /* InterlaceDecV2.c */; };
+		F2023AD913404355004B1CBE /* interpolate_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2C128D385A00F53EB8 /* interpolate_wmv9.c */; };
+		F2023ADF13404355004B1CBE /* interpolate_wmv9_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AA1296243600EDEFE0 /* interpolate_wmv9_emb.c */; };
+		F2023AE013404355004B1CBE /* intradec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2D128D385A00F53EB8 /* intradec.c */; };
+		F2023AE113404355004B1CBE /* localhuffman_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2E128D385A00F53EB8 /* localhuffman_wmv.c */; };
+		F2023AEC13404355004B1CBE /* motioncomp_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AC1296243600EDEFE0 /* motioncomp_emb.c */; };
+		F2023AED13404355004B1CBE /* motioncomp_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC31128D385A00F53EB8 /* motioncomp_wmv.c */; };
+		F2023AEF13404355004B1CBE /* multires_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC33128D385A00F53EB8 /* multires_wmv9.c */; };
+		F2023AF013404355004B1CBE /* multiresdec_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC34128D385A00F53EB8 /* multiresdec_wmv9.c */; };
+		F2023AF113404355004B1CBE /* pageroll_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC36128D385A00F53EB8 /* pageroll_wmv.c */; };
+		F2023AF313404355004B1CBE /* postfilter_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC38128D385A00F53EB8 /* postfilter_wmv.c */; };
+		F2023AF413404355004B1CBE /* reflibrary_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3A128D385A00F53EB8 /* reflibrary_wmv9.c */; };
+		F2023AF713404355004B1CBE /* share.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3C128D385A00F53EB8 /* share.c */; };
+		F2023AF813404355004B1CBE /* sideroll_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3D128D385A00F53EB8 /* sideroll_wmv.c */; };
+		F2023AFA13404355004B1CBE /* spatialpredictor_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3F128D385A00F53EB8 /* spatialpredictor_wmv.c */; };
+		F2023AFB13404355004B1CBE /* startcodedec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC41128D385A00F53EB8 /* startcodedec.c */; };
+		F2023AFC13404355004B1CBE /* strmdec_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC42128D385A00F53EB8 /* strmdec_wmv.c */; };
+		F2023AFD13404355004B1CBE /* tables_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC45128D385A00F53EB8 /* tables_wmv.c */; };
+		F2023AFE13404355004B1CBE /* threadctr_dec_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC47128D385A00F53EB8 /* threadctr_dec_wmv9.c */; };
+		F2023AFF13404355004B1CBE /* uncache_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC49128D385A00F53EB8 /* uncache_wmv.c */; };
+		F2023B0013404355004B1CBE /* vopdec9_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC4C128D385A00F53EB8 /* vopdec9_wmv9.c */; };
+		F2023B0113404355004B1CBE /* vopdec9_wmv9_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AF1296243600EDEFE0 /* vopdec9_wmv9_emb.c */; };
+		F2023B0413404355004B1CBE /* vopdec_BFrame.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC4A128D385A00F53EB8 /* vopdec_BFrame.c */; };
+		F2023B0513404355004B1CBE /* vopdec_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AE1296243600EDEFE0 /* vopdec_emb.c */; };
+		F2023B0613404355004B1CBE /* vopdec_mp4x.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC4B128D385A00F53EB8 /* vopdec_mp4x.c */; };
+		F2023B0713404355004B1CBE /* vopdecB_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84B01296243600EDEFE0 /* vopdecB_emb.c */; };
+		F2023B0813404355004B1CBE /* wmvdec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC51128D385A00F53EB8 /* wmvdec.c */; };
+		F2023B0A13404373004B1CBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2023B0913404373004B1CBE /* Foundation.framework */; };
+		F2023C421340571E004B1CBE /* affine_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B1C12B355C20002F17C /* affine_arm.s */; };
+		F2023C441340571E004B1CBE /* blkdec_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B1D12B355C20002F17C /* blkdec_arm.s */; };
+		F2023C451340571E004B1CBE /* dynamic_edgepad_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B1E12B355C20002F17C /* dynamic_edgepad_arm.s */; };
+		F2023C461340571E004B1CBE /* effects_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B1F12B355C20002F17C /* effects_arm.s */; };
+		F2023C471340571E004B1CBE /* filter.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2012B355C20002F17C /* filter.s */; };
+		F2023C481340571E004B1CBE /* huffman_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2112B355C20002F17C /* huffman_arm.s */; };
+		F2023C491340571E004B1CBE /* idct_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2212B355C20002F17C /* idct_arm.s */; };
+		F2023C4A1340571E004B1CBE /* idct_wmv9_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2712B355C20002F17C /* idct_wmv9_arm.s */; };
+		F2023C4B1340571E004B1CBE /* idct_wmv9_arm_2.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2412B355C20002F17C /* idct_wmv9_arm_2.s */; };
+		F2023C4C1340571E004B1CBE /* idct_wmv9_arm_ARMv6.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2512B355C20002F17C /* idct_wmv9_arm_ARMv6.s */; };
+		F2023C4D1340571E004B1CBE /* interpolate_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2812B355C20002F17C /* interpolate_arm.s */; };
+		F2023C4E1340571E004B1CBE /* interpolate_wmv9_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2D12B355C20002F17C /* interpolate_wmv9_arm.s */; };
+		F2023C4F1340571E004B1CBE /* interpolate_wmv9_arm_2.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2A12B355C20002F17C /* interpolate_wmv9_arm_2.s */; };
+		F2023C501340571E004B1CBE /* interpolate_wmv9_arm_ARMv6.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2B12B355C20002F17C /* interpolate_wmv9_arm_ARMv6.s */; };
+		F2023C511340571E004B1CBE /* loopfilter_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3012B355C20002F17C /* loopfilter_arm.s */; };
+		F2023C521340571E004B1CBE /* loopfilter_arm_ARMv6.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2E12B355C20002F17C /* loopfilter_arm_ARMv6.s */; };
+		F2023C531340571E004B1CBE /* macros_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3112B355C20002F17C /* macros_arm.s */; };
+		F2023C541340571E004B1CBE /* motioncomp_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3412B355C20002F17C /* motioncomp_arm.s */; };
+		F2023C551340571E004B1CBE /* motioncomp_arm2.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3512B355C20002F17C /* motioncomp_arm2.s */; };
+		F2023C561340571E004B1CBE /* motioncomp_arm3.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3612B355C20002F17C /* motioncomp_arm3.s */; };
+		F2023C571340571E004B1CBE /* motioncomp_arm4.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3712B355C20002F17C /* motioncomp_arm4.s */; };
+		F2023C581340571E004B1CBE /* motioncomp_arm_ARMv6.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3212B355C20002F17C /* motioncomp_arm_ARMv6.s */; };
+		F2023C591340571E004B1CBE /* multires_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3812B355C20002F17C /* multires_arm.s */; };
+		F2023C5A1340571E004B1CBE /* postfilter_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3912B355C20002F17C /* postfilter_arm.s */; };
+		F2023C5B1340571E004B1CBE /* repeatpad_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3B12B355C20002F17C /* repeatpad_arm.s */; };
+		F2023C5C1340571E004B1CBE /* repeatpad_arm_ARMv6.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3A12B355C20002F17C /* repeatpad_arm_ARMv6.s */; };
+		F2023C5D1340571E004B1CBE /* spatialpredictor_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3C12B355C20002F17C /* spatialpredictor_arm.s */; };
+		F2023C5E1340571E004B1CBE /* TypeTable_arm.txt in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3D12B355C20002F17C /* TypeTable_arm.txt */; };
+		F2023C5F1340571E004B1CBE /* vopdec_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3E12B355C20002F17C /* vopdec_arm.s */; };
+		F2023C601340571E004B1CBE /* vopdec_arm2.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3F12B355C20002F17C /* vopdec_arm2.s */; };
+		F2023C611340571E004B1CBE /* wmvdec_member_arm.h in Sources */ = {isa = PBXBuildFile; fileRef = F2828B4012B355C20002F17C /* wmvdec_member_arm.h */; };
+		F2023CD013405D14004B1CBE /* Affine.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC0B128D385A00F53EB8 /* Affine.c */; };
+		F2023CD113405D14004B1CBE /* Affine.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC0C128D385A00F53EB8 /* Affine.h */; };
+		F2023CD213405D14004B1CBE /* blkdec_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC0D128D385A00F53EB8 /* blkdec_wmv.c */; };
+		F2023CD313405D14004B1CBE /* codehead.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC0E128D385A00F53EB8 /* codehead.h */; };
+		F2023CD413405D14004B1CBE /* constants_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC0F128D385A00F53EB8 /* constants_wmv.h */; };
+		F2023CD513405D14004B1CBE /* coverage.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC10128D385A00F53EB8 /* coverage.h */; };
+		F2023CD613405D14004B1CBE /* deblock.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC11128D385A00F53EB8 /* deblock.c */; };
+		F2023CD713405D14004B1CBE /* dectable.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC15128D385A00F53EB8 /* dectable.c */; };
+		F2023CD813405D14004B1CBE /* dectable_c.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC12128D385A00F53EB8 /* dectable_c.h */; };
+		F2023CD913405D14004B1CBE /* dectable_mp4x.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC13128D385A00F53EB8 /* dectable_mp4x.c */; };
+		F2023CDA13405D14004B1CBE /* dectable_mp4x.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC14128D385A00F53EB8 /* dectable_mp4x.h */; };
+		F2023CDB13405D14004B1CBE /* deinterlace_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC16128D385A00F53EB8 /* deinterlace_wmv9.c */; };
+		F2023CDC13405D14004B1CBE /* effects_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC17128D385A00F53EB8 /* effects_wmv.c */; };
+		F2023CDD13405D14004B1CBE /* effects_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC18128D385A00F53EB8 /* effects_wmv.h */; };
+		F2023CDE13405D14004B1CBE /* EffectTypes_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC19128D385A00F53EB8 /* EffectTypes_wmv.h */; };
+		F2023CDF13405D14004B1CBE /* FrameTimer.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1A128D385A00F53EB8 /* FrameTimer.c */; };
+		F2023CE013405D14004B1CBE /* FrameTimer.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1B128D385A00F53EB8 /* FrameTimer.h */; };
+		F2023CE113405D14004B1CBE /* frmdec_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1C128D385A00F53EB8 /* frmdec_wmv.c */; };
+		F2023CE213405D14004B1CBE /* headdec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1D128D385A00F53EB8 /* headdec.c */; };
+		F2023CE313405D14004B1CBE /* huffdec_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1E128D385A00F53EB8 /* huffdec_wmv.c */; };
+		F2023CE413405D14004B1CBE /* huffman_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1F128D385A00F53EB8 /* huffman_wmv.h */; };
+		F2023CE513405D14004B1CBE /* idctdec_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84A81296243600EDEFE0 /* idctdec_emb.c */; };
+		F2023CE613405D14004B1CBE /* idctdec_wmv2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC20128D385A00F53EB8 /* idctdec_wmv2.c */; };
+		F2023CE713405D14004B1CBE /* idctdec_wmv2.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC21128D385A00F53EB8 /* idctdec_wmv2.h */; };
+		F2023CE813405D14004B1CBE /* idctdec_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC22128D385A00F53EB8 /* idctdec_wmv9.c */; };
+		F2023CE913405D14004B1CBE /* idctdec_wmv9_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84A91296243600EDEFE0 /* idctdec_wmv9_emb.c */; };
+		F2023CEA13405D14004B1CBE /* init_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC23128D385A00F53EB8 /* init_wmv.c */; };
+		F2023CEB13405D14004B1CBE /* InterlaceCore_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC24128D385A00F53EB8 /* InterlaceCore_wmv9.c */; };
+		F2023CEC13405D14004B1CBE /* InterlaceDec_BFrame.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC25128D385A00F53EB8 /* InterlaceDec_BFrame.c */; };
+		F2023CED13405D14004B1CBE /* InterlaceDec_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC26128D385A00F53EB8 /* InterlaceDec_wmv9.c */; };
+		F2023CEE13405D14004B1CBE /* InterlaceDecBV2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC27128D385A00F53EB8 /* InterlaceDecBV2.c */; };
+		F2023CEF13405D14004B1CBE /* InterlaceDecCoreV2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC28128D385A00F53EB8 /* InterlaceDecCoreV2.c */; };
+		F2023CF013405D14004B1CBE /* InterlaceDecPV2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC29128D385A00F53EB8 /* InterlaceDecPV2.c */; };
+		F2023CF113405D14004B1CBE /* InterlaceDecTable.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2A128D385A00F53EB8 /* InterlaceDecTable.c */; };
+		F2023CF213405D14004B1CBE /* InterlaceDecV2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2B128D385A00F53EB8 /* InterlaceDecV2.c */; };
+		F2023CF313405D14004B1CBE /* interpolate_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2C128D385A00F53EB8 /* interpolate_wmv9.c */; };
+		F2023CF413405D14004B1CBE /* interpolate_wmv9_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AA1296243600EDEFE0 /* interpolate_wmv9_emb.c */; };
+		F2023CF513405D14004B1CBE /* intradec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2D128D385A00F53EB8 /* intradec.c */; };
+		F2023CF613405D14004B1CBE /* localhuffman_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2E128D385A00F53EB8 /* localhuffman_wmv.c */; };
+		F2023CF713405D14004B1CBE /* localhuffman_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2F128D385A00F53EB8 /* localhuffman_wmv.h */; };
+		F2023CF813405D14004B1CBE /* macros_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC30128D385A00F53EB8 /* macros_wmv.h */; };
+		F2023CF913405D14004B1CBE /* motioncomp_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AC1296243600EDEFE0 /* motioncomp_emb.c */; };
+		F2023CFA13405D14004B1CBE /* motioncomp_emb_comm.h in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AB1296243600EDEFE0 /* motioncomp_emb_comm.h */; };
+		F2023CFB13405D14004B1CBE /* motioncomp_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC31128D385A00F53EB8 /* motioncomp_wmv.c */; };
+		F2023CFC13405D14004B1CBE /* motioncomp_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC32128D385A00F53EB8 /* motioncomp_wmv.h */; };
+		F2023CFD13405D14004B1CBE /* multires_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC33128D385A00F53EB8 /* multires_wmv9.c */; };
+		F2023CFE13405D14004B1CBE /* multiresdec_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC34128D385A00F53EB8 /* multiresdec_wmv9.c */; };
+		F2023CFF13405D14004B1CBE /* opcodes.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC35128D385A00F53EB8 /* opcodes.h */; };
+		F2023D0013405D14004B1CBE /* pageroll_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC36128D385A00F53EB8 /* pageroll_wmv.c */; };
+		F2023D0113405D14004B1CBE /* pageroll_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC37128D385A00F53EB8 /* pageroll_wmv.h */; };
+		F2023D0213405D14004B1CBE /* postfilter_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC38128D385A00F53EB8 /* postfilter_wmv.c */; };
+		F2023D0313405D14004B1CBE /* postfilter_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC39128D385A00F53EB8 /* postfilter_wmv.h */; };
+		F2023D0413405D14004B1CBE /* reflibrary_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3A128D385A00F53EB8 /* reflibrary_wmv9.c */; };
+		F2023D0513405D14004B1CBE /* repeatpad_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3B128D385A00F53EB8 /* repeatpad_wmv.h */; };
+		F2023D0613405D14004B1CBE /* share.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3C128D385A00F53EB8 /* share.c */; };
+		F2023D0713405D14004B1CBE /* sideroll_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3D128D385A00F53EB8 /* sideroll_wmv.c */; };
+		F2023D0813405D14004B1CBE /* sideroll_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3E128D385A00F53EB8 /* sideroll_wmv.h */; };
+		F2023D0913405D14004B1CBE /* spatialpredictor_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3F128D385A00F53EB8 /* spatialpredictor_wmv.c */; };
+		F2023D0A13405D14004B1CBE /* spatialpredictor_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC40128D385A00F53EB8 /* spatialpredictor_wmv.h */; };
+		F2023D0B13405D14004B1CBE /* startcodedec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC41128D385A00F53EB8 /* startcodedec.c */; };
+		F2023D0C13405D14004B1CBE /* strmdec_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC42128D385A00F53EB8 /* strmdec_wmv.c */; };
+		F2023D0D13405D14004B1CBE /* strmdec_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC43128D385A00F53EB8 /* strmdec_wmv.h */; };
+		F2023D0E13405D14004B1CBE /* strmdecdbg.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC44128D385A00F53EB8 /* strmdecdbg.h */; };
+		F2023D0F13405D14004B1CBE /* tables_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC45128D385A00F53EB8 /* tables_wmv.c */; };
+		F2023D1013405D14004B1CBE /* tables_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC46128D385A00F53EB8 /* tables_wmv.h */; };
+		F2023D1113405D15004B1CBE /* threadctr_dec_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC47128D385A00F53EB8 /* threadctr_dec_wmv9.c */; };
+		F2023D1213405D15004B1CBE /* typedef.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC48128D385A00F53EB8 /* typedef.h */; };
+		F2023D1313405D15004B1CBE /* uncache_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC49128D385A00F53EB8 /* uncache_wmv.c */; };
+		F2023D1413405D15004B1CBE /* vfw_ce.h in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AD1296243600EDEFE0 /* vfw_ce.h */; };
+		F2023D1513405D15004B1CBE /* vopdec9_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC4C128D385A00F53EB8 /* vopdec9_wmv9.c */; };
+		F2023D1613405D15004B1CBE /* vopdec9_wmv9_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AF1296243600EDEFE0 /* vopdec9_wmv9_emb.c */; };
+		F2023D1713405D15004B1CBE /* vopdec_BFrame.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC4A128D385A00F53EB8 /* vopdec_BFrame.c */; };
+		F2023D1813405D15004B1CBE /* vopdec_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AE1296243600EDEFE0 /* vopdec_emb.c */; };
+		F2023D1913405D15004B1CBE /* vopdec_mp4x.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC4B128D385A00F53EB8 /* vopdec_mp4x.c */; };
+		F2023D1A13405D15004B1CBE /* vopdecB_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84B01296243600EDEFE0 /* vopdecB_emb.c */; };
+		F2023D1B13405D15004B1CBE /* voWmvPort.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC4D128D385A00F53EB8 /* voWmvPort.h */; };
+		F2023D1C13405D15004B1CBE /* wmvdec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC51128D385A00F53EB8 /* wmvdec.c */; };
+		F2023D1D13405D15004B1CBE /* wmvdec_api.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC4E128D385A00F53EB8 /* wmvdec_api.h */; };
+		F2023D1E13405D15004B1CBE /* wmvdec_function.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC4F128D385A00F53EB8 /* wmvdec_function.h */; };
+		F2023D1F13405D15004B1CBE /* wmvdec_member.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC50128D385A00F53EB8 /* wmvdec_member.h */; };
+		F2023D2013405D15004B1CBE /* xplatform_wmv.h in Sources */ = {isa = PBXBuildFile; fileRef = F230BC52128D385A00F53EB8 /* xplatform_wmv.h */; };
+		F230BC53128D385A00F53EB8 /* Affine.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC0B128D385A00F53EB8 /* Affine.c */; };
+		F230BC54128D385A00F53EB8 /* Affine.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC0C128D385A00F53EB8 /* Affine.h */; };
+		F230BC55128D385A00F53EB8 /* blkdec_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC0D128D385A00F53EB8 /* blkdec_wmv.c */; };
+		F230BC56128D385A00F53EB8 /* codehead.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC0E128D385A00F53EB8 /* codehead.h */; };
+		F230BC57128D385A00F53EB8 /* constants_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC0F128D385A00F53EB8 /* constants_wmv.h */; };
+		F230BC58128D385A00F53EB8 /* coverage.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC10128D385A00F53EB8 /* coverage.h */; };
+		F230BC59128D385A00F53EB8 /* deblock.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC11128D385A00F53EB8 /* deblock.c */; };
+		F230BC5A128D385A00F53EB8 /* dectable_c.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC12128D385A00F53EB8 /* dectable_c.h */; };
+		F230BC5B128D385A00F53EB8 /* dectable_mp4x.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC13128D385A00F53EB8 /* dectable_mp4x.c */; };
+		F230BC5C128D385A00F53EB8 /* dectable_mp4x.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC14128D385A00F53EB8 /* dectable_mp4x.h */; };
+		F230BC5D128D385A00F53EB8 /* dectable.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC15128D385A00F53EB8 /* dectable.c */; };
+		F230BC5E128D385A00F53EB8 /* deinterlace_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC16128D385A00F53EB8 /* deinterlace_wmv9.c */; };
+		F230BC5F128D385A00F53EB8 /* effects_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC17128D385A00F53EB8 /* effects_wmv.c */; };
+		F230BC60128D385A00F53EB8 /* effects_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC18128D385A00F53EB8 /* effects_wmv.h */; };
+		F230BC61128D385A00F53EB8 /* EffectTypes_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC19128D385A00F53EB8 /* EffectTypes_wmv.h */; };
+		F230BC62128D385A00F53EB8 /* FrameTimer.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1A128D385A00F53EB8 /* FrameTimer.c */; };
+		F230BC63128D385A00F53EB8 /* FrameTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC1B128D385A00F53EB8 /* FrameTimer.h */; };
+		F230BC64128D385A00F53EB8 /* frmdec_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1C128D385A00F53EB8 /* frmdec_wmv.c */; };
+		F230BC65128D385A00F53EB8 /* headdec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1D128D385A00F53EB8 /* headdec.c */; };
+		F230BC66128D385A00F53EB8 /* huffdec_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC1E128D385A00F53EB8 /* huffdec_wmv.c */; };
+		F230BC67128D385A00F53EB8 /* huffman_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC1F128D385A00F53EB8 /* huffman_wmv.h */; };
+		F230BC68128D385A00F53EB8 /* idctdec_wmv2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC20128D385A00F53EB8 /* idctdec_wmv2.c */; };
+		F230BC69128D385A00F53EB8 /* idctdec_wmv2.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC21128D385A00F53EB8 /* idctdec_wmv2.h */; };
+		F230BC6A128D385A00F53EB8 /* idctdec_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC22128D385A00F53EB8 /* idctdec_wmv9.c */; };
+		F230BC6B128D385A00F53EB8 /* init_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC23128D385A00F53EB8 /* init_wmv.c */; };
+		F230BC6C128D385A00F53EB8 /* InterlaceCore_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC24128D385A00F53EB8 /* InterlaceCore_wmv9.c */; };
+		F230BC6D128D385A00F53EB8 /* InterlaceDec_BFrame.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC25128D385A00F53EB8 /* InterlaceDec_BFrame.c */; };
+		F230BC6E128D385A00F53EB8 /* InterlaceDec_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC26128D385A00F53EB8 /* InterlaceDec_wmv9.c */; };
+		F230BC6F128D385A00F53EB8 /* InterlaceDecBV2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC27128D385A00F53EB8 /* InterlaceDecBV2.c */; };
+		F230BC70128D385A00F53EB8 /* InterlaceDecCoreV2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC28128D385A00F53EB8 /* InterlaceDecCoreV2.c */; };
+		F230BC71128D385A00F53EB8 /* InterlaceDecPV2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC29128D385A00F53EB8 /* InterlaceDecPV2.c */; };
+		F230BC72128D385A00F53EB8 /* InterlaceDecTable.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2A128D385A00F53EB8 /* InterlaceDecTable.c */; };
+		F230BC73128D385A00F53EB8 /* InterlaceDecV2.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2B128D385A00F53EB8 /* InterlaceDecV2.c */; };
+		F230BC74128D385A00F53EB8 /* interpolate_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2C128D385A00F53EB8 /* interpolate_wmv9.c */; };
+		F230BC75128D385A00F53EB8 /* intradec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2D128D385A00F53EB8 /* intradec.c */; };
+		F230BC76128D385A00F53EB8 /* localhuffman_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC2E128D385A00F53EB8 /* localhuffman_wmv.c */; };
+		F230BC77128D385A00F53EB8 /* localhuffman_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC2F128D385A00F53EB8 /* localhuffman_wmv.h */; };
+		F230BC78128D385A00F53EB8 /* macros_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC30128D385A00F53EB8 /* macros_wmv.h */; };
+		F230BC79128D385A00F53EB8 /* motioncomp_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC31128D385A00F53EB8 /* motioncomp_wmv.c */; };
+		F230BC7A128D385A00F53EB8 /* motioncomp_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC32128D385A00F53EB8 /* motioncomp_wmv.h */; };
+		F230BC7B128D385A00F53EB8 /* multires_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC33128D385A00F53EB8 /* multires_wmv9.c */; };
+		F230BC7C128D385A00F53EB8 /* multiresdec_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC34128D385A00F53EB8 /* multiresdec_wmv9.c */; };
+		F230BC7D128D385A00F53EB8 /* opcodes.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC35128D385A00F53EB8 /* opcodes.h */; };
+		F230BC7E128D385A00F53EB8 /* pageroll_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC36128D385A00F53EB8 /* pageroll_wmv.c */; };
+		F230BC7F128D385A00F53EB8 /* pageroll_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC37128D385A00F53EB8 /* pageroll_wmv.h */; };
+		F230BC80128D385A00F53EB8 /* postfilter_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC38128D385A00F53EB8 /* postfilter_wmv.c */; };
+		F230BC81128D385A00F53EB8 /* postfilter_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC39128D385A00F53EB8 /* postfilter_wmv.h */; };
+		F230BC82128D385A00F53EB8 /* reflibrary_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3A128D385A00F53EB8 /* reflibrary_wmv9.c */; };
+		F230BC83128D385A00F53EB8 /* repeatpad_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC3B128D385A00F53EB8 /* repeatpad_wmv.h */; };
+		F230BC84128D385A00F53EB8 /* share.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3C128D385A00F53EB8 /* share.c */; };
+		F230BC85128D385A00F53EB8 /* sideroll_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3D128D385A00F53EB8 /* sideroll_wmv.c */; };
+		F230BC86128D385A00F53EB8 /* sideroll_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC3E128D385A00F53EB8 /* sideroll_wmv.h */; };
+		F230BC87128D385A00F53EB8 /* spatialpredictor_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC3F128D385A00F53EB8 /* spatialpredictor_wmv.c */; };
+		F230BC88128D385A00F53EB8 /* spatialpredictor_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC40128D385A00F53EB8 /* spatialpredictor_wmv.h */; };
+		F230BC89128D385A00F53EB8 /* startcodedec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC41128D385A00F53EB8 /* startcodedec.c */; };
+		F230BC8A128D385A00F53EB8 /* strmdec_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC42128D385A00F53EB8 /* strmdec_wmv.c */; };
+		F230BC8B128D385A00F53EB8 /* strmdec_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC43128D385A00F53EB8 /* strmdec_wmv.h */; };
+		F230BC8C128D385A00F53EB8 /* strmdecdbg.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC44128D385A00F53EB8 /* strmdecdbg.h */; };
+		F230BC8D128D385A00F53EB8 /* tables_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC45128D385A00F53EB8 /* tables_wmv.c */; };
+		F230BC8E128D385A00F53EB8 /* tables_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC46128D385A00F53EB8 /* tables_wmv.h */; };
+		F230BC8F128D385A00F53EB8 /* threadctr_dec_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC47128D385A00F53EB8 /* threadctr_dec_wmv9.c */; };
+		F230BC90128D385A00F53EB8 /* typedef.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC48128D385A00F53EB8 /* typedef.h */; };
+		F230BC91128D385A00F53EB8 /* uncache_wmv.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC49128D385A00F53EB8 /* uncache_wmv.c */; };
+		F230BC92128D385A00F53EB8 /* vopdec_BFrame.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC4A128D385A00F53EB8 /* vopdec_BFrame.c */; };
+		F230BC93128D385A00F53EB8 /* vopdec_mp4x.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC4B128D385A00F53EB8 /* vopdec_mp4x.c */; };
+		F230BC94128D385A00F53EB8 /* vopdec9_wmv9.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC4C128D385A00F53EB8 /* vopdec9_wmv9.c */; };
+		F230BC95128D385A00F53EB8 /* voWmvPort.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC4D128D385A00F53EB8 /* voWmvPort.h */; };
+		F230BC96128D385A00F53EB8 /* wmvdec_api.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC4E128D385A00F53EB8 /* wmvdec_api.h */; };
+		F230BC97128D385A00F53EB8 /* wmvdec_function.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC4F128D385A00F53EB8 /* wmvdec_function.h */; };
+		F230BC98128D385A00F53EB8 /* wmvdec_member.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC50128D385A00F53EB8 /* wmvdec_member.h */; };
+		F230BC99128D385A00F53EB8 /* wmvdec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230BC51128D385A00F53EB8 /* wmvdec.c */; };
+		F230BC9A128D385A00F53EB8 /* xplatform_wmv.h in Headers */ = {isa = PBXBuildFile; fileRef = F230BC52128D385A00F53EB8 /* xplatform_wmv.h */; };
+		F2828B4112B355C20002F17C /* affine_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B1C12B355C20002F17C /* affine_arm.s */; };
+		F2828B4212B355C20002F17C /* blkdec_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B1D12B355C20002F17C /* blkdec_arm.s */; };
+		F2828B4312B355C20002F17C /* dynamic_edgepad_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B1E12B355C20002F17C /* dynamic_edgepad_arm.s */; };
+		F2828B4412B355C20002F17C /* effects_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B1F12B355C20002F17C /* effects_arm.s */; };
+		F2828B4512B355C20002F17C /* filter.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2012B355C20002F17C /* filter.s */; };
+		F2828B4612B355C20002F17C /* huffman_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2112B355C20002F17C /* huffman_arm.s */; };
+		F2828B4712B355C20002F17C /* idct_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2212B355C20002F17C /* idct_arm.s */; };
+		F2828B4812B355C20002F17C /* idct_wmv9_arm_2_ARMv7.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2312B355C20002F17C /* idct_wmv9_arm_2_ARMv7.s */; };
+		F2828B4912B355C20002F17C /* idct_wmv9_arm_2.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2412B355C20002F17C /* idct_wmv9_arm_2.s */; };
+		F2828B4A12B355C20002F17C /* idct_wmv9_arm_ARMv6.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2512B355C20002F17C /* idct_wmv9_arm_ARMv6.s */; };
+		F2828B4B12B355C20002F17C /* idct_wmv9_arm_ARMv7.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2612B355C20002F17C /* idct_wmv9_arm_ARMv7.s */; };
+		F2828B4C12B355C20002F17C /* idct_wmv9_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2712B355C20002F17C /* idct_wmv9_arm.s */; };
+		F2828B4D12B355C20002F17C /* interpolate_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2812B355C20002F17C /* interpolate_arm.s */; };
+		F2828B4E12B355C20002F17C /* interpolate_wmv9_arm_2_ARMv7.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2912B355C20002F17C /* interpolate_wmv9_arm_2_ARMv7.s */; };
+		F2828B4F12B355C20002F17C /* interpolate_wmv9_arm_2.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2A12B355C20002F17C /* interpolate_wmv9_arm_2.s */; };
+		F2828B5012B355C20002F17C /* interpolate_wmv9_arm_ARMv6.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2B12B355C20002F17C /* interpolate_wmv9_arm_ARMv6.s */; };
+		F2828B5112B355C20002F17C /* interpolate_wmv9_arm_ARMv7.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2C12B355C20002F17C /* interpolate_wmv9_arm_ARMv7.s */; };
+		F2828B5212B355C20002F17C /* interpolate_wmv9_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2D12B355C20002F17C /* interpolate_wmv9_arm.s */; };
+		F2828B5312B355C20002F17C /* loopfilter_arm_ARMv6.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2E12B355C20002F17C /* loopfilter_arm_ARMv6.s */; };
+		F2828B5412B355C20002F17C /* loopfilter_arm_ARMv7.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B2F12B355C20002F17C /* loopfilter_arm_ARMv7.s */; };
+		F2828B5512B355C20002F17C /* loopfilter_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3012B355C20002F17C /* loopfilter_arm.s */; };
+		F2828B5612B355C20002F17C /* macros_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3112B355C20002F17C /* macros_arm.s */; };
+		F2828B5712B355C20002F17C /* motioncomp_arm_ARMv6.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3212B355C20002F17C /* motioncomp_arm_ARMv6.s */; };
+		F2828B5812B355C20002F17C /* motioncomp_arm_ARMv7.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3312B355C20002F17C /* motioncomp_arm_ARMv7.s */; };
+		F2828B5912B355C20002F17C /* motioncomp_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3412B355C20002F17C /* motioncomp_arm.s */; };
+		F2828B5A12B355C20002F17C /* motioncomp_arm2.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3512B355C20002F17C /* motioncomp_arm2.s */; };
+		F2828B5B12B355C20002F17C /* motioncomp_arm3.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3612B355C20002F17C /* motioncomp_arm3.s */; };
+		F2828B5C12B355C20002F17C /* motioncomp_arm4.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3712B355C20002F17C /* motioncomp_arm4.s */; };
+		F2828B5D12B355C20002F17C /* multires_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3812B355C20002F17C /* multires_arm.s */; };
+		F2828B5E12B355C20002F17C /* postfilter_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3912B355C20002F17C /* postfilter_arm.s */; };
+		F2828B5F12B355C20002F17C /* repeatpad_arm_ARMv6.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3A12B355C20002F17C /* repeatpad_arm_ARMv6.s */; };
+		F2828B6012B355C20002F17C /* repeatpad_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3B12B355C20002F17C /* repeatpad_arm.s */; };
+		F2828B6112B355C20002F17C /* spatialpredictor_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3C12B355C20002F17C /* spatialpredictor_arm.s */; };
+		F2828B6212B355C20002F17C /* vopdec_arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3E12B355C20002F17C /* vopdec_arm.s */; };
+		F2828B6312B355C20002F17C /* vopdec_arm2.s in Sources */ = {isa = PBXBuildFile; fileRef = F2828B3F12B355C20002F17C /* vopdec_arm2.s */; };
+		F2828B6412B355C20002F17C /* wmvdec_member_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F2828B4012B355C20002F17C /* wmvdec_member_arm.h */; };
+		F28C84B11296243600EDEFE0 /* idctdec_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84A81296243600EDEFE0 /* idctdec_emb.c */; };
+		F28C84B21296243600EDEFE0 /* idctdec_wmv9_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84A91296243600EDEFE0 /* idctdec_wmv9_emb.c */; };
+		F28C84B31296243600EDEFE0 /* interpolate_wmv9_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AA1296243600EDEFE0 /* interpolate_wmv9_emb.c */; };
+		F28C84B41296243600EDEFE0 /* motioncomp_emb_comm.h in Headers */ = {isa = PBXBuildFile; fileRef = F28C84AB1296243600EDEFE0 /* motioncomp_emb_comm.h */; };
+		F28C84B51296243600EDEFE0 /* motioncomp_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AC1296243600EDEFE0 /* motioncomp_emb.c */; };
+		F28C84B61296243600EDEFE0 /* vfw_ce.h in Headers */ = {isa = PBXBuildFile; fileRef = F28C84AD1296243600EDEFE0 /* vfw_ce.h */; };
+		F28C84B71296243600EDEFE0 /* vopdec_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AE1296243600EDEFE0 /* vopdec_emb.c */; };
+		F28C84B81296243600EDEFE0 /* vopdec9_wmv9_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84AF1296243600EDEFE0 /* vopdec9_wmv9_emb.c */; };
+		F28C84B91296243600EDEFE0 /* vopdecB_emb.c in Sources */ = {isa = PBXBuildFile; fileRef = F28C84B01296243600EDEFE0 /* vopdecB_emb.c */; };
+		F28FA52014919EE3007954D0 /* xplatform_arm_asm.h in Headers */ = {isa = PBXBuildFile; fileRef = F28FA51F14919EE3007954D0 /* xplatform_arm_asm.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* voWMVDec_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voWMVDec_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libvoWMVDec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoWMVDec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2023A8E13404309004B1CBE /* libvoWMVDec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoWMVDec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2023B0913404373004B1CBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2023CAB13405C91004B1CBE /* libvoWMVDec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoWMVDec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F230BC0B128D385A00F53EB8 /* Affine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Affine.c; path = ../../Src/c/Affine.c; sourceTree = SOURCE_ROOT; };
+		F230BC0C128D385A00F53EB8 /* Affine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Affine.h; path = ../../Src/c/Affine.h; sourceTree = SOURCE_ROOT; };
+		F230BC0D128D385A00F53EB8 /* blkdec_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = blkdec_wmv.c; path = ../../Src/c/blkdec_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC0E128D385A00F53EB8 /* codehead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codehead.h; path = ../../Src/c/codehead.h; sourceTree = SOURCE_ROOT; };
+		F230BC0F128D385A00F53EB8 /* constants_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constants_wmv.h; path = ../../Src/c/constants_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC10128D385A00F53EB8 /* coverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = coverage.h; path = ../../Src/c/coverage.h; sourceTree = SOURCE_ROOT; };
+		F230BC11128D385A00F53EB8 /* deblock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = deblock.c; path = ../../Src/c/deblock.c; sourceTree = SOURCE_ROOT; };
+		F230BC12128D385A00F53EB8 /* dectable_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dectable_c.h; path = ../../Src/c/dectable_c.h; sourceTree = SOURCE_ROOT; };
+		F230BC13128D385A00F53EB8 /* dectable_mp4x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dectable_mp4x.c; path = ../../Src/c/dectable_mp4x.c; sourceTree = SOURCE_ROOT; };
+		F230BC14128D385A00F53EB8 /* dectable_mp4x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dectable_mp4x.h; path = ../../Src/c/dectable_mp4x.h; sourceTree = SOURCE_ROOT; };
+		F230BC15128D385A00F53EB8 /* dectable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dectable.c; path = ../../Src/c/dectable.c; sourceTree = SOURCE_ROOT; };
+		F230BC16128D385A00F53EB8 /* deinterlace_wmv9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = deinterlace_wmv9.c; path = ../../Src/c/deinterlace_wmv9.c; sourceTree = SOURCE_ROOT; };
+		F230BC17128D385A00F53EB8 /* effects_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = effects_wmv.c; path = ../../Src/c/effects_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC18128D385A00F53EB8 /* effects_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = effects_wmv.h; path = ../../Src/c/effects_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC19128D385A00F53EB8 /* EffectTypes_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EffectTypes_wmv.h; path = ../../Src/c/EffectTypes_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC1A128D385A00F53EB8 /* FrameTimer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = FrameTimer.c; path = ../../Src/c/FrameTimer.c; sourceTree = SOURCE_ROOT; };
+		F230BC1B128D385A00F53EB8 /* FrameTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrameTimer.h; path = ../../Src/c/FrameTimer.h; sourceTree = SOURCE_ROOT; };
+		F230BC1C128D385A00F53EB8 /* frmdec_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = frmdec_wmv.c; path = ../../Src/c/frmdec_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC1D128D385A00F53EB8 /* headdec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = headdec.c; path = ../../Src/c/headdec.c; sourceTree = SOURCE_ROOT; };
+		F230BC1E128D385A00F53EB8 /* huffdec_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = huffdec_wmv.c; path = ../../Src/c/huffdec_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC1F128D385A00F53EB8 /* huffman_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = huffman_wmv.h; path = ../../Src/c/huffman_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC20128D385A00F53EB8 /* idctdec_wmv2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = idctdec_wmv2.c; path = ../../Src/c/idctdec_wmv2.c; sourceTree = SOURCE_ROOT; };
+		F230BC21128D385A00F53EB8 /* idctdec_wmv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = idctdec_wmv2.h; path = ../../Src/c/idctdec_wmv2.h; sourceTree = SOURCE_ROOT; };
+		F230BC22128D385A00F53EB8 /* idctdec_wmv9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = idctdec_wmv9.c; path = ../../Src/c/idctdec_wmv9.c; sourceTree = SOURCE_ROOT; };
+		F230BC23128D385A00F53EB8 /* init_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = init_wmv.c; path = ../../Src/c/init_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC24128D385A00F53EB8 /* InterlaceCore_wmv9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = InterlaceCore_wmv9.c; path = ../../Src/c/InterlaceCore_wmv9.c; sourceTree = SOURCE_ROOT; };
+		F230BC25128D385A00F53EB8 /* InterlaceDec_BFrame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = InterlaceDec_BFrame.c; path = ../../Src/c/InterlaceDec_BFrame.c; sourceTree = SOURCE_ROOT; };
+		F230BC26128D385A00F53EB8 /* InterlaceDec_wmv9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = InterlaceDec_wmv9.c; path = ../../Src/c/InterlaceDec_wmv9.c; sourceTree = SOURCE_ROOT; };
+		F230BC27128D385A00F53EB8 /* InterlaceDecBV2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = InterlaceDecBV2.c; path = ../../Src/c/InterlaceDecBV2.c; sourceTree = SOURCE_ROOT; };
+		F230BC28128D385A00F53EB8 /* InterlaceDecCoreV2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = InterlaceDecCoreV2.c; path = ../../Src/c/InterlaceDecCoreV2.c; sourceTree = SOURCE_ROOT; };
+		F230BC29128D385A00F53EB8 /* InterlaceDecPV2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = InterlaceDecPV2.c; path = ../../Src/c/InterlaceDecPV2.c; sourceTree = SOURCE_ROOT; };
+		F230BC2A128D385A00F53EB8 /* InterlaceDecTable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = InterlaceDecTable.c; path = ../../Src/c/InterlaceDecTable.c; sourceTree = SOURCE_ROOT; };
+		F230BC2B128D385A00F53EB8 /* InterlaceDecV2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = InterlaceDecV2.c; path = ../../Src/c/InterlaceDecV2.c; sourceTree = SOURCE_ROOT; };
+		F230BC2C128D385A00F53EB8 /* interpolate_wmv9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = interpolate_wmv9.c; path = ../../Src/c/interpolate_wmv9.c; sourceTree = SOURCE_ROOT; };
+		F230BC2D128D385A00F53EB8 /* intradec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = intradec.c; path = ../../Src/c/intradec.c; sourceTree = SOURCE_ROOT; };
+		F230BC2E128D385A00F53EB8 /* localhuffman_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = localhuffman_wmv.c; path = ../../Src/c/localhuffman_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC2F128D385A00F53EB8 /* localhuffman_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = localhuffman_wmv.h; path = ../../Src/c/localhuffman_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC30128D385A00F53EB8 /* macros_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = macros_wmv.h; path = ../../Src/c/macros_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC31128D385A00F53EB8 /* motioncomp_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = motioncomp_wmv.c; path = ../../Src/c/motioncomp_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC32128D385A00F53EB8 /* motioncomp_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = motioncomp_wmv.h; path = ../../Src/c/motioncomp_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC33128D385A00F53EB8 /* multires_wmv9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = multires_wmv9.c; path = ../../Src/c/multires_wmv9.c; sourceTree = SOURCE_ROOT; };
+		F230BC34128D385A00F53EB8 /* multiresdec_wmv9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = multiresdec_wmv9.c; path = ../../Src/c/multiresdec_wmv9.c; sourceTree = SOURCE_ROOT; };
+		F230BC35128D385A00F53EB8 /* opcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = opcodes.h; path = ../../Src/c/opcodes.h; sourceTree = SOURCE_ROOT; };
+		F230BC36128D385A00F53EB8 /* pageroll_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pageroll_wmv.c; path = ../../Src/c/pageroll_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC37128D385A00F53EB8 /* pageroll_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pageroll_wmv.h; path = ../../Src/c/pageroll_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC38128D385A00F53EB8 /* postfilter_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = postfilter_wmv.c; path = ../../Src/c/postfilter_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC39128D385A00F53EB8 /* postfilter_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = postfilter_wmv.h; path = ../../Src/c/postfilter_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC3A128D385A00F53EB8 /* reflibrary_wmv9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = reflibrary_wmv9.c; path = ../../Src/c/reflibrary_wmv9.c; sourceTree = SOURCE_ROOT; };
+		F230BC3B128D385A00F53EB8 /* repeatpad_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = repeatpad_wmv.h; path = ../../Src/c/repeatpad_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC3C128D385A00F53EB8 /* share.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = share.c; path = ../../Src/c/share.c; sourceTree = SOURCE_ROOT; };
+		F230BC3D128D385A00F53EB8 /* sideroll_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sideroll_wmv.c; path = ../../Src/c/sideroll_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC3E128D385A00F53EB8 /* sideroll_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sideroll_wmv.h; path = ../../Src/c/sideroll_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC3F128D385A00F53EB8 /* spatialpredictor_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spatialpredictor_wmv.c; path = ../../Src/c/spatialpredictor_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC40128D385A00F53EB8 /* spatialpredictor_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spatialpredictor_wmv.h; path = ../../Src/c/spatialpredictor_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC41128D385A00F53EB8 /* startcodedec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = startcodedec.c; path = ../../Src/c/startcodedec.c; sourceTree = SOURCE_ROOT; };
+		F230BC42128D385A00F53EB8 /* strmdec_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strmdec_wmv.c; path = ../../Src/c/strmdec_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC43128D385A00F53EB8 /* strmdec_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strmdec_wmv.h; path = ../../Src/c/strmdec_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC44128D385A00F53EB8 /* strmdecdbg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strmdecdbg.h; path = ../../Src/c/strmdecdbg.h; sourceTree = SOURCE_ROOT; };
+		F230BC45128D385A00F53EB8 /* tables_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tables_wmv.c; path = ../../Src/c/tables_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC46128D385A00F53EB8 /* tables_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tables_wmv.h; path = ../../Src/c/tables_wmv.h; sourceTree = SOURCE_ROOT; };
+		F230BC47128D385A00F53EB8 /* threadctr_dec_wmv9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = threadctr_dec_wmv9.c; path = ../../Src/c/threadctr_dec_wmv9.c; sourceTree = SOURCE_ROOT; };
+		F230BC48128D385A00F53EB8 /* typedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = typedef.h; path = ../../Src/c/typedef.h; sourceTree = SOURCE_ROOT; };
+		F230BC49128D385A00F53EB8 /* uncache_wmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uncache_wmv.c; path = ../../Src/c/uncache_wmv.c; sourceTree = SOURCE_ROOT; };
+		F230BC4A128D385A00F53EB8 /* vopdec_BFrame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vopdec_BFrame.c; path = ../../Src/c/vopdec_BFrame.c; sourceTree = SOURCE_ROOT; };
+		F230BC4B128D385A00F53EB8 /* vopdec_mp4x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vopdec_mp4x.c; path = ../../Src/c/vopdec_mp4x.c; sourceTree = SOURCE_ROOT; };
+		F230BC4C128D385A00F53EB8 /* vopdec9_wmv9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vopdec9_wmv9.c; path = ../../Src/c/vopdec9_wmv9.c; sourceTree = SOURCE_ROOT; };
+		F230BC4D128D385A00F53EB8 /* voWmvPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voWmvPort.h; path = ../../Src/c/voWmvPort.h; sourceTree = SOURCE_ROOT; };
+		F230BC4E128D385A00F53EB8 /* wmvdec_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmvdec_api.h; path = ../../Src/c/wmvdec_api.h; sourceTree = SOURCE_ROOT; };
+		F230BC4F128D385A00F53EB8 /* wmvdec_function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmvdec_function.h; path = ../../Src/c/wmvdec_function.h; sourceTree = SOURCE_ROOT; };
+		F230BC50128D385A00F53EB8 /* wmvdec_member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wmvdec_member.h; path = ../../Src/c/wmvdec_member.h; sourceTree = SOURCE_ROOT; };
+		F230BC51128D385A00F53EB8 /* wmvdec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wmvdec.c; path = ../../Src/c/wmvdec.c; sourceTree = SOURCE_ROOT; };
+		F230BC52128D385A00F53EB8 /* xplatform_wmv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xplatform_wmv.h; path = ../../Src/c/xplatform_wmv.h; sourceTree = SOURCE_ROOT; };
+		F2828B1C12B355C20002F17C /* affine_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = affine_arm.s; sourceTree = "<group>"; };
+		F2828B1D12B355C20002F17C /* blkdec_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = blkdec_arm.s; sourceTree = "<group>"; };
+		F2828B1E12B355C20002F17C /* dynamic_edgepad_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = dynamic_edgepad_arm.s; sourceTree = "<group>"; };
+		F2828B1F12B355C20002F17C /* effects_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = effects_arm.s; sourceTree = "<group>"; };
+		F2828B2012B355C20002F17C /* filter.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = filter.s; sourceTree = "<group>"; };
+		F2828B2112B355C20002F17C /* huffman_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = huffman_arm.s; sourceTree = "<group>"; };
+		F2828B2212B355C20002F17C /* idct_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = idct_arm.s; sourceTree = "<group>"; };
+		F2828B2312B355C20002F17C /* idct_wmv9_arm_2_ARMv7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = idct_wmv9_arm_2_ARMv7.s; sourceTree = "<group>"; };
+		F2828B2412B355C20002F17C /* idct_wmv9_arm_2.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = idct_wmv9_arm_2.s; sourceTree = "<group>"; };
+		F2828B2512B355C20002F17C /* idct_wmv9_arm_ARMv6.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = idct_wmv9_arm_ARMv6.s; sourceTree = "<group>"; };
+		F2828B2612B355C20002F17C /* idct_wmv9_arm_ARMv7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = idct_wmv9_arm_ARMv7.s; sourceTree = "<group>"; };
+		F2828B2712B355C20002F17C /* idct_wmv9_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = idct_wmv9_arm.s; sourceTree = "<group>"; };
+		F2828B2812B355C20002F17C /* interpolate_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = interpolate_arm.s; sourceTree = "<group>"; };
+		F2828B2912B355C20002F17C /* interpolate_wmv9_arm_2_ARMv7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = interpolate_wmv9_arm_2_ARMv7.s; sourceTree = "<group>"; };
+		F2828B2A12B355C20002F17C /* interpolate_wmv9_arm_2.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = interpolate_wmv9_arm_2.s; sourceTree = "<group>"; };
+		F2828B2B12B355C20002F17C /* interpolate_wmv9_arm_ARMv6.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = interpolate_wmv9_arm_ARMv6.s; sourceTree = "<group>"; };
+		F2828B2C12B355C20002F17C /* interpolate_wmv9_arm_ARMv7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = interpolate_wmv9_arm_ARMv7.s; sourceTree = "<group>"; };
+		F2828B2D12B355C20002F17C /* interpolate_wmv9_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = interpolate_wmv9_arm.s; sourceTree = "<group>"; };
+		F2828B2E12B355C20002F17C /* loopfilter_arm_ARMv6.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = loopfilter_arm_ARMv6.s; sourceTree = "<group>"; };
+		F2828B2F12B355C20002F17C /* loopfilter_arm_ARMv7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = loopfilter_arm_ARMv7.s; sourceTree = "<group>"; };
+		F2828B3012B355C20002F17C /* loopfilter_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = loopfilter_arm.s; sourceTree = "<group>"; };
+		F2828B3112B355C20002F17C /* macros_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = macros_arm.s; sourceTree = "<group>"; };
+		F2828B3212B355C20002F17C /* motioncomp_arm_ARMv6.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = motioncomp_arm_ARMv6.s; sourceTree = "<group>"; };
+		F2828B3312B355C20002F17C /* motioncomp_arm_ARMv7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = motioncomp_arm_ARMv7.s; sourceTree = "<group>"; };
+		F2828B3412B355C20002F17C /* motioncomp_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = motioncomp_arm.s; sourceTree = "<group>"; };
+		F2828B3512B355C20002F17C /* motioncomp_arm2.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = motioncomp_arm2.s; sourceTree = "<group>"; };
+		F2828B3612B355C20002F17C /* motioncomp_arm3.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = motioncomp_arm3.s; sourceTree = "<group>"; };
+		F2828B3712B355C20002F17C /* motioncomp_arm4.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = motioncomp_arm4.s; sourceTree = "<group>"; };
+		F2828B3812B355C20002F17C /* multires_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = multires_arm.s; sourceTree = "<group>"; };
+		F2828B3912B355C20002F17C /* postfilter_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = postfilter_arm.s; sourceTree = "<group>"; };
+		F2828B3A12B355C20002F17C /* repeatpad_arm_ARMv6.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = repeatpad_arm_ARMv6.s; sourceTree = "<group>"; };
+		F2828B3B12B355C20002F17C /* repeatpad_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = repeatpad_arm.s; sourceTree = "<group>"; };
+		F2828B3C12B355C20002F17C /* spatialpredictor_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = spatialpredictor_arm.s; sourceTree = "<group>"; };
+		F2828B3D12B355C20002F17C /* TypeTable_arm.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TypeTable_arm.txt; sourceTree = "<group>"; };
+		F2828B3E12B355C20002F17C /* vopdec_arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = vopdec_arm.s; sourceTree = "<group>"; };
+		F2828B3F12B355C20002F17C /* vopdec_arm2.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = vopdec_arm2.s; sourceTree = "<group>"; };
+		F2828B4012B355C20002F17C /* wmvdec_member_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wmvdec_member_arm.h; sourceTree = "<group>"; };
+		F28C84A81296243600EDEFE0 /* idctdec_emb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = idctdec_emb.c; path = ../../Src/emb/idctdec_emb.c; sourceTree = SOURCE_ROOT; };
+		F28C84A91296243600EDEFE0 /* idctdec_wmv9_emb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = idctdec_wmv9_emb.c; path = ../../Src/emb/idctdec_wmv9_emb.c; sourceTree = SOURCE_ROOT; };
+		F28C84AA1296243600EDEFE0 /* interpolate_wmv9_emb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = interpolate_wmv9_emb.c; path = ../../Src/emb/interpolate_wmv9_emb.c; sourceTree = SOURCE_ROOT; };
+		F28C84AB1296243600EDEFE0 /* motioncomp_emb_comm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = motioncomp_emb_comm.h; path = ../../Src/emb/motioncomp_emb_comm.h; sourceTree = SOURCE_ROOT; };
+		F28C84AC1296243600EDEFE0 /* motioncomp_emb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = motioncomp_emb.c; path = ../../Src/emb/motioncomp_emb.c; sourceTree = SOURCE_ROOT; };
+		F28C84AD1296243600EDEFE0 /* vfw_ce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vfw_ce.h; path = ../../Src/emb/vfw_ce.h; sourceTree = SOURCE_ROOT; };
+		F28C84AE1296243600EDEFE0 /* vopdec_emb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vopdec_emb.c; path = ../../Src/emb/vopdec_emb.c; sourceTree = SOURCE_ROOT; };
+		F28C84AF1296243600EDEFE0 /* vopdec9_wmv9_emb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vopdec9_wmv9_emb.c; path = ../../Src/emb/vopdec9_wmv9_emb.c; sourceTree = SOURCE_ROOT; };
+		F28C84B01296243600EDEFE0 /* vopdecB_emb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vopdecB_emb.c; path = ../../Src/emb/vopdecB_emb.c; sourceTree = SOURCE_ROOT; };
+		F28FA51F14919EE3007954D0 /* xplatform_arm_asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xplatform_arm_asm.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2023A8C13404309004B1CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2023B0A13404373004B1CBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2023CA913405C91004B1CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libvoWMVDec.a */,
+				F2023A8E13404309004B1CBE /* libvoWMVDec.a */,
+				F2023CAB13405C91004B1CBE /* libvoWMVDec.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* voWMVDec */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				F2023B0913404373004B1CBE /* Foundation.framework */,
+			);
+			name = voWMVDec;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F22475A312B20D1900208F6E /* ASM */,
+				F230BC0A128D381300F53EB8 /* C */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* voWMVDec_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F22475A312B20D1900208F6E /* ASM */ = {
+			isa = PBXGroup;
+			children = (
+				F28FA51F14919EE3007954D0 /* xplatform_arm_asm.h */,
+				F2828B1C12B355C20002F17C /* affine_arm.s */,
+				F2828B1D12B355C20002F17C /* blkdec_arm.s */,
+				F2828B1E12B355C20002F17C /* dynamic_edgepad_arm.s */,
+				F2828B1F12B355C20002F17C /* effects_arm.s */,
+				F2828B2012B355C20002F17C /* filter.s */,
+				F2828B2112B355C20002F17C /* huffman_arm.s */,
+				F2828B2212B355C20002F17C /* idct_arm.s */,
+				F2828B2312B355C20002F17C /* idct_wmv9_arm_2_ARMv7.s */,
+				F2828B2412B355C20002F17C /* idct_wmv9_arm_2.s */,
+				F2828B2512B355C20002F17C /* idct_wmv9_arm_ARMv6.s */,
+				F2828B2612B355C20002F17C /* idct_wmv9_arm_ARMv7.s */,
+				F2828B2712B355C20002F17C /* idct_wmv9_arm.s */,
+				F2828B2812B355C20002F17C /* interpolate_arm.s */,
+				F2828B2912B355C20002F17C /* interpolate_wmv9_arm_2_ARMv7.s */,
+				F2828B2A12B355C20002F17C /* interpolate_wmv9_arm_2.s */,
+				F2828B2B12B355C20002F17C /* interpolate_wmv9_arm_ARMv6.s */,
+				F2828B2C12B355C20002F17C /* interpolate_wmv9_arm_ARMv7.s */,
+				F2828B2D12B355C20002F17C /* interpolate_wmv9_arm.s */,
+				F2828B2E12B355C20002F17C /* loopfilter_arm_ARMv6.s */,
+				F2828B2F12B355C20002F17C /* loopfilter_arm_ARMv7.s */,
+				F2828B3012B355C20002F17C /* loopfilter_arm.s */,
+				F2828B3112B355C20002F17C /* macros_arm.s */,
+				F2828B3212B355C20002F17C /* motioncomp_arm_ARMv6.s */,
+				F2828B3312B355C20002F17C /* motioncomp_arm_ARMv7.s */,
+				F2828B3412B355C20002F17C /* motioncomp_arm.s */,
+				F2828B3512B355C20002F17C /* motioncomp_arm2.s */,
+				F2828B3612B355C20002F17C /* motioncomp_arm3.s */,
+				F2828B3712B355C20002F17C /* motioncomp_arm4.s */,
+				F2828B3812B355C20002F17C /* multires_arm.s */,
+				F2828B3912B355C20002F17C /* postfilter_arm.s */,
+				F2828B3A12B355C20002F17C /* repeatpad_arm_ARMv6.s */,
+				F2828B3B12B355C20002F17C /* repeatpad_arm.s */,
+				F2828B3C12B355C20002F17C /* spatialpredictor_arm.s */,
+				F2828B3D12B355C20002F17C /* TypeTable_arm.txt */,
+				F2828B3E12B355C20002F17C /* vopdec_arm.s */,
+				F2828B3F12B355C20002F17C /* vopdec_arm2.s */,
+				F2828B4012B355C20002F17C /* wmvdec_member_arm.h */,
+			);
+			name = ASM;
+			sourceTree = "<group>";
+		};
+		F230BC0A128D381300F53EB8 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				F230BC0B128D385A00F53EB8 /* Affine.c */,
+				F230BC0C128D385A00F53EB8 /* Affine.h */,
+				F230BC0D128D385A00F53EB8 /* blkdec_wmv.c */,
+				F230BC0E128D385A00F53EB8 /* codehead.h */,
+				F230BC0F128D385A00F53EB8 /* constants_wmv.h */,
+				F230BC10128D385A00F53EB8 /* coverage.h */,
+				F230BC11128D385A00F53EB8 /* deblock.c */,
+				F230BC12128D385A00F53EB8 /* dectable_c.h */,
+				F230BC13128D385A00F53EB8 /* dectable_mp4x.c */,
+				F230BC14128D385A00F53EB8 /* dectable_mp4x.h */,
+				F230BC15128D385A00F53EB8 /* dectable.c */,
+				F230BC16128D385A00F53EB8 /* deinterlace_wmv9.c */,
+				F230BC17128D385A00F53EB8 /* effects_wmv.c */,
+				F230BC18128D385A00F53EB8 /* effects_wmv.h */,
+				F230BC19128D385A00F53EB8 /* EffectTypes_wmv.h */,
+				F230BC1A128D385A00F53EB8 /* FrameTimer.c */,
+				F230BC1B128D385A00F53EB8 /* FrameTimer.h */,
+				F230BC1C128D385A00F53EB8 /* frmdec_wmv.c */,
+				F230BC1D128D385A00F53EB8 /* headdec.c */,
+				F230BC1E128D385A00F53EB8 /* huffdec_wmv.c */,
+				F230BC1F128D385A00F53EB8 /* huffman_wmv.h */,
+				F230BC20128D385A00F53EB8 /* idctdec_wmv2.c */,
+				F230BC21128D385A00F53EB8 /* idctdec_wmv2.h */,
+				F230BC22128D385A00F53EB8 /* idctdec_wmv9.c */,
+				F230BC23128D385A00F53EB8 /* init_wmv.c */,
+				F230BC24128D385A00F53EB8 /* InterlaceCore_wmv9.c */,
+				F230BC25128D385A00F53EB8 /* InterlaceDec_BFrame.c */,
+				F230BC26128D385A00F53EB8 /* InterlaceDec_wmv9.c */,
+				F230BC27128D385A00F53EB8 /* InterlaceDecBV2.c */,
+				F230BC28128D385A00F53EB8 /* InterlaceDecCoreV2.c */,
+				F230BC29128D385A00F53EB8 /* InterlaceDecPV2.c */,
+				F230BC2A128D385A00F53EB8 /* InterlaceDecTable.c */,
+				F230BC2B128D385A00F53EB8 /* InterlaceDecV2.c */,
+				F230BC2C128D385A00F53EB8 /* interpolate_wmv9.c */,
+				F230BC2D128D385A00F53EB8 /* intradec.c */,
+				F230BC2E128D385A00F53EB8 /* localhuffman_wmv.c */,
+				F230BC2F128D385A00F53EB8 /* localhuffman_wmv.h */,
+				F230BC30128D385A00F53EB8 /* macros_wmv.h */,
+				F230BC31128D385A00F53EB8 /* motioncomp_wmv.c */,
+				F230BC32128D385A00F53EB8 /* motioncomp_wmv.h */,
+				F230BC33128D385A00F53EB8 /* multires_wmv9.c */,
+				F230BC34128D385A00F53EB8 /* multiresdec_wmv9.c */,
+				F230BC35128D385A00F53EB8 /* opcodes.h */,
+				F230BC36128D385A00F53EB8 /* pageroll_wmv.c */,
+				F230BC37128D385A00F53EB8 /* pageroll_wmv.h */,
+				F230BC38128D385A00F53EB8 /* postfilter_wmv.c */,
+				F230BC39128D385A00F53EB8 /* postfilter_wmv.h */,
+				F230BC3A128D385A00F53EB8 /* reflibrary_wmv9.c */,
+				F230BC3B128D385A00F53EB8 /* repeatpad_wmv.h */,
+				F230BC3C128D385A00F53EB8 /* share.c */,
+				F230BC3D128D385A00F53EB8 /* sideroll_wmv.c */,
+				F230BC3E128D385A00F53EB8 /* sideroll_wmv.h */,
+				F230BC3F128D385A00F53EB8 /* spatialpredictor_wmv.c */,
+				F230BC40128D385A00F53EB8 /* spatialpredictor_wmv.h */,
+				F230BC41128D385A00F53EB8 /* startcodedec.c */,
+				F230BC42128D385A00F53EB8 /* strmdec_wmv.c */,
+				F230BC43128D385A00F53EB8 /* strmdec_wmv.h */,
+				F230BC44128D385A00F53EB8 /* strmdecdbg.h */,
+				F230BC45128D385A00F53EB8 /* tables_wmv.c */,
+				F230BC46128D385A00F53EB8 /* tables_wmv.h */,
+				F230BC47128D385A00F53EB8 /* threadctr_dec_wmv9.c */,
+				F230BC48128D385A00F53EB8 /* typedef.h */,
+				F230BC49128D385A00F53EB8 /* uncache_wmv.c */,
+				F230BC4A128D385A00F53EB8 /* vopdec_BFrame.c */,
+				F230BC4B128D385A00F53EB8 /* vopdec_mp4x.c */,
+				F230BC4C128D385A00F53EB8 /* vopdec9_wmv9.c */,
+				F28C84A81296243600EDEFE0 /* idctdec_emb.c */,
+				F28C84A91296243600EDEFE0 /* idctdec_wmv9_emb.c */,
+				F28C84AA1296243600EDEFE0 /* interpolate_wmv9_emb.c */,
+				F28C84AB1296243600EDEFE0 /* motioncomp_emb_comm.h */,
+				F28C84AC1296243600EDEFE0 /* motioncomp_emb.c */,
+				F28C84AD1296243600EDEFE0 /* vfw_ce.h */,
+				F28C84AE1296243600EDEFE0 /* vopdec_emb.c */,
+				F28C84AF1296243600EDEFE0 /* vopdec9_wmv9_emb.c */,
+				F28C84B01296243600EDEFE0 /* vopdecB_emb.c */,
+				F230BC4D128D385A00F53EB8 /* voWmvPort.h */,
+				F230BC4E128D385A00F53EB8 /* wmvdec_api.h */,
+				F230BC4F128D385A00F53EB8 /* wmvdec_function.h */,
+				F230BC50128D385A00F53EB8 /* wmvdec_member.h */,
+				F230BC51128D385A00F53EB8 /* wmvdec.c */,
+				F230BC52128D385A00F53EB8 /* xplatform_wmv.h */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* voWMVDec_Prefix.pch in Headers */,
+				F230BC54128D385A00F53EB8 /* Affine.h in Headers */,
+				F230BC56128D385A00F53EB8 /* codehead.h in Headers */,
+				F230BC57128D385A00F53EB8 /* constants_wmv.h in Headers */,
+				F230BC58128D385A00F53EB8 /* coverage.h in Headers */,
+				F230BC5A128D385A00F53EB8 /* dectable_c.h in Headers */,
+				F230BC5C128D385A00F53EB8 /* dectable_mp4x.h in Headers */,
+				F230BC60128D385A00F53EB8 /* effects_wmv.h in Headers */,
+				F230BC61128D385A00F53EB8 /* EffectTypes_wmv.h in Headers */,
+				F230BC63128D385A00F53EB8 /* FrameTimer.h in Headers */,
+				F230BC67128D385A00F53EB8 /* huffman_wmv.h in Headers */,
+				F230BC69128D385A00F53EB8 /* idctdec_wmv2.h in Headers */,
+				F230BC77128D385A00F53EB8 /* localhuffman_wmv.h in Headers */,
+				F230BC78128D385A00F53EB8 /* macros_wmv.h in Headers */,
+				F230BC7A128D385A00F53EB8 /* motioncomp_wmv.h in Headers */,
+				F230BC7D128D385A00F53EB8 /* opcodes.h in Headers */,
+				F230BC7F128D385A00F53EB8 /* pageroll_wmv.h in Headers */,
+				F230BC81128D385A00F53EB8 /* postfilter_wmv.h in Headers */,
+				F230BC83128D385A00F53EB8 /* repeatpad_wmv.h in Headers */,
+				F230BC86128D385A00F53EB8 /* sideroll_wmv.h in Headers */,
+				F230BC88128D385A00F53EB8 /* spatialpredictor_wmv.h in Headers */,
+				F230BC8B128D385A00F53EB8 /* strmdec_wmv.h in Headers */,
+				F230BC8C128D385A00F53EB8 /* strmdecdbg.h in Headers */,
+				F230BC8E128D385A00F53EB8 /* tables_wmv.h in Headers */,
+				F230BC90128D385A00F53EB8 /* typedef.h in Headers */,
+				F230BC95128D385A00F53EB8 /* voWmvPort.h in Headers */,
+				F230BC96128D385A00F53EB8 /* wmvdec_api.h in Headers */,
+				F230BC97128D385A00F53EB8 /* wmvdec_function.h in Headers */,
+				F230BC98128D385A00F53EB8 /* wmvdec_member.h in Headers */,
+				F230BC9A128D385A00F53EB8 /* xplatform_wmv.h in Headers */,
+				F28C84B41296243600EDEFE0 /* motioncomp_emb_comm.h in Headers */,
+				F28C84B61296243600EDEFE0 /* vfw_ce.h in Headers */,
+				F2828B6412B355C20002F17C /* wmvdec_member_arm.h in Headers */,
+				F28FA52014919EE3007954D0 /* xplatform_arm_asm.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2023A8A13404309004B1CBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2023A911340432B004B1CBE /* Affine.h in Headers */,
+				F2023A921340432B004B1CBE /* codehead.h in Headers */,
+				F2023A931340432B004B1CBE /* constants_wmv.h in Headers */,
+				F2023A941340432B004B1CBE /* coverage.h in Headers */,
+				F2023A951340432B004B1CBE /* dectable_c.h in Headers */,
+				F2023A961340432B004B1CBE /* dectable_mp4x.h in Headers */,
+				F2023A971340432B004B1CBE /* effects_wmv.h in Headers */,
+				F2023A981340432B004B1CBE /* EffectTypes_wmv.h in Headers */,
+				F2023A991340432B004B1CBE /* FrameTimer.h in Headers */,
+				F2023A9A1340432B004B1CBE /* huffman_wmv.h in Headers */,
+				F2023A9B1340432B004B1CBE /* idctdec_wmv2.h in Headers */,
+				F2023A9C1340432B004B1CBE /* localhuffman_wmv.h in Headers */,
+				F2023A9D1340432B004B1CBE /* macros_wmv.h in Headers */,
+				F2023A9E1340432B004B1CBE /* motioncomp_emb_comm.h in Headers */,
+				F2023A9F1340432B004B1CBE /* motioncomp_wmv.h in Headers */,
+				F2023AA01340432B004B1CBE /* opcodes.h in Headers */,
+				F2023AA11340432B004B1CBE /* pageroll_wmv.h in Headers */,
+				F2023AA21340432B004B1CBE /* postfilter_wmv.h in Headers */,
+				F2023AA31340432B004B1CBE /* repeatpad_wmv.h in Headers */,
+				F2023AA41340432B004B1CBE /* sideroll_wmv.h in Headers */,
+				F2023AA51340432B004B1CBE /* spatialpredictor_wmv.h in Headers */,
+				F2023AA61340432B004B1CBE /* strmdec_wmv.h in Headers */,
+				F2023AA71340432B004B1CBE /* strmdecdbg.h in Headers */,
+				F2023AA81340432B004B1CBE /* tables_wmv.h in Headers */,
+				F2023AA91340432B004B1CBE /* typedef.h in Headers */,
+				F2023AAA1340432B004B1CBE /* vfw_ce.h in Headers */,
+				F2023AAB1340432B004B1CBE /* voWMVDec_Prefix.pch in Headers */,
+				F2023AAC1340432B004B1CBE /* voWmvPort.h in Headers */,
+				F2023AAD1340432B004B1CBE /* wmvdec_api.h in Headers */,
+				F2023AAE1340432B004B1CBE /* wmvdec_function.h in Headers */,
+				F2023AAF1340432B004B1CBE /* wmvdec_member.h in Headers */,
+				F2023AB01340432B004B1CBE /* wmvdec_member_arm.h in Headers */,
+				F2023AB11340432B004B1CBE /* xplatform_wmv.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2023CA713405C91004B1CBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* voWMVDec_V7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voWMVDec_V7" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+				F2A87D62129BC29500DBA87D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			comments = "C version macro: _IOS _CONSOLE ARM_C\n\nARM v7 macro: _IOS _CONSOLE ARM _ARM_ __arm VOARMV7";
+			dependencies = (
+			);
+			name = voWMVDec_V7;
+			productName = voWMVDec;
+			productReference = D2AAC07E0554694100DB518D /* libvoWMVDec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F2023A8D13404309004B1CBE /* voWMVDec_V6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2023AB213404349004B1CBE /* Build configuration list for PBXNativeTarget "voWMVDec_V6" */;
+			buildPhases = (
+				F2023A8A13404309004B1CBE /* Headers */,
+				F2023A8B13404309004B1CBE /* Sources */,
+				F2023A8C13404309004B1CBE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			comments = "C version macro: _IOS _CONSOLE ARM_C\n\nARM v6 macro: _IOS _CONSOLE ARM _ARM_ __arm VOARMV6";
+			dependencies = (
+			);
+			name = voWMVDec_V6;
+			productName = voWMVDec_V6;
+			productReference = F2023A8E13404309004B1CBE /* libvoWMVDec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F2023CAA13405C91004B1CBE /* voWMVDec_C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2023CAE13405CAF004B1CBE /* Build configuration list for PBXNativeTarget "voWMVDec_C" */;
+			buildPhases = (
+				F2023CA713405C91004B1CBE /* Headers */,
+				F2023CA813405C91004B1CBE /* Sources */,
+				F2023CA913405C91004B1CBE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voWMVDec_C;
+			productName = voWMVDec_C;
+			productReference = F2023CAB13405C91004B1CBE /* libvoWMVDec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voWMVDec" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* voWMVDec */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* voWMVDec_V7 */,
+				F2023A8D13404309004B1CBE /* voWMVDec_V6 */,
+				F2023CAA13405C91004B1CBE /* voWMVDec_C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F2A87D62129BC29500DBA87D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F230BC53128D385A00F53EB8 /* Affine.c in Sources */,
+				F230BC55128D385A00F53EB8 /* blkdec_wmv.c in Sources */,
+				F230BC59128D385A00F53EB8 /* deblock.c in Sources */,
+				F230BC5B128D385A00F53EB8 /* dectable_mp4x.c in Sources */,
+				F230BC5D128D385A00F53EB8 /* dectable.c in Sources */,
+				F230BC5E128D385A00F53EB8 /* deinterlace_wmv9.c in Sources */,
+				F230BC5F128D385A00F53EB8 /* effects_wmv.c in Sources */,
+				F230BC62128D385A00F53EB8 /* FrameTimer.c in Sources */,
+				F230BC64128D385A00F53EB8 /* frmdec_wmv.c in Sources */,
+				F230BC65128D385A00F53EB8 /* headdec.c in Sources */,
+				F230BC66128D385A00F53EB8 /* huffdec_wmv.c in Sources */,
+				F230BC68128D385A00F53EB8 /* idctdec_wmv2.c in Sources */,
+				F230BC6A128D385A00F53EB8 /* idctdec_wmv9.c in Sources */,
+				F230BC6B128D385A00F53EB8 /* init_wmv.c in Sources */,
+				F230BC6C128D385A00F53EB8 /* InterlaceCore_wmv9.c in Sources */,
+				F230BC6D128D385A00F53EB8 /* InterlaceDec_BFrame.c in Sources */,
+				F230BC6E128D385A00F53EB8 /* InterlaceDec_wmv9.c in Sources */,
+				F230BC6F128D385A00F53EB8 /* InterlaceDecBV2.c in Sources */,
+				F230BC70128D385A00F53EB8 /* InterlaceDecCoreV2.c in Sources */,
+				F230BC71128D385A00F53EB8 /* InterlaceDecPV2.c in Sources */,
+				F230BC72128D385A00F53EB8 /* InterlaceDecTable.c in Sources */,
+				F230BC73128D385A00F53EB8 /* InterlaceDecV2.c in Sources */,
+				F230BC74128D385A00F53EB8 /* interpolate_wmv9.c in Sources */,
+				F230BC75128D385A00F53EB8 /* intradec.c in Sources */,
+				F230BC76128D385A00F53EB8 /* localhuffman_wmv.c in Sources */,
+				F230BC79128D385A00F53EB8 /* motioncomp_wmv.c in Sources */,
+				F230BC7B128D385A00F53EB8 /* multires_wmv9.c in Sources */,
+				F230BC7C128D385A00F53EB8 /* multiresdec_wmv9.c in Sources */,
+				F230BC7E128D385A00F53EB8 /* pageroll_wmv.c in Sources */,
+				F230BC80128D385A00F53EB8 /* postfilter_wmv.c in Sources */,
+				F230BC82128D385A00F53EB8 /* reflibrary_wmv9.c in Sources */,
+				F230BC84128D385A00F53EB8 /* share.c in Sources */,
+				F230BC85128D385A00F53EB8 /* sideroll_wmv.c in Sources */,
+				F230BC87128D385A00F53EB8 /* spatialpredictor_wmv.c in Sources */,
+				F230BC89128D385A00F53EB8 /* startcodedec.c in Sources */,
+				F230BC8A128D385A00F53EB8 /* strmdec_wmv.c in Sources */,
+				F230BC8D128D385A00F53EB8 /* tables_wmv.c in Sources */,
+				F230BC8F128D385A00F53EB8 /* threadctr_dec_wmv9.c in Sources */,
+				F230BC91128D385A00F53EB8 /* uncache_wmv.c in Sources */,
+				F230BC92128D385A00F53EB8 /* vopdec_BFrame.c in Sources */,
+				F230BC93128D385A00F53EB8 /* vopdec_mp4x.c in Sources */,
+				F230BC94128D385A00F53EB8 /* vopdec9_wmv9.c in Sources */,
+				F230BC99128D385A00F53EB8 /* wmvdec.c in Sources */,
+				F28C84B11296243600EDEFE0 /* idctdec_emb.c in Sources */,
+				F28C84B21296243600EDEFE0 /* idctdec_wmv9_emb.c in Sources */,
+				F28C84B31296243600EDEFE0 /* interpolate_wmv9_emb.c in Sources */,
+				F28C84B51296243600EDEFE0 /* motioncomp_emb.c in Sources */,
+				F28C84B71296243600EDEFE0 /* vopdec_emb.c in Sources */,
+				F28C84B81296243600EDEFE0 /* vopdec9_wmv9_emb.c in Sources */,
+				F28C84B91296243600EDEFE0 /* vopdecB_emb.c in Sources */,
+				F2828B4112B355C20002F17C /* affine_arm.s in Sources */,
+				F2828B4212B355C20002F17C /* blkdec_arm.s in Sources */,
+				F2828B4312B355C20002F17C /* dynamic_edgepad_arm.s in Sources */,
+				F2828B4412B355C20002F17C /* effects_arm.s in Sources */,
+				F2828B4512B355C20002F17C /* filter.s in Sources */,
+				F2828B4612B355C20002F17C /* huffman_arm.s in Sources */,
+				F2828B4712B355C20002F17C /* idct_arm.s in Sources */,
+				F2828B4812B355C20002F17C /* idct_wmv9_arm_2_ARMv7.s in Sources */,
+				F2828B4912B355C20002F17C /* idct_wmv9_arm_2.s in Sources */,
+				F2828B4A12B355C20002F17C /* idct_wmv9_arm_ARMv6.s in Sources */,
+				F2828B4B12B355C20002F17C /* idct_wmv9_arm_ARMv7.s in Sources */,
+				F2828B4C12B355C20002F17C /* idct_wmv9_arm.s in Sources */,
+				F2828B4D12B355C20002F17C /* interpolate_arm.s in Sources */,
+				F2828B4E12B355C20002F17C /* interpolate_wmv9_arm_2_ARMv7.s in Sources */,
+				F2828B4F12B355C20002F17C /* interpolate_wmv9_arm_2.s in Sources */,
+				F2828B5012B355C20002F17C /* interpolate_wmv9_arm_ARMv6.s in Sources */,
+				F2828B5112B355C20002F17C /* interpolate_wmv9_arm_ARMv7.s in Sources */,
+				F2828B5212B355C20002F17C /* interpolate_wmv9_arm.s in Sources */,
+				F2828B5312B355C20002F17C /* loopfilter_arm_ARMv6.s in Sources */,
+				F2828B5412B355C20002F17C /* loopfilter_arm_ARMv7.s in Sources */,
+				F2828B5512B355C20002F17C /* loopfilter_arm.s in Sources */,
+				F2828B5612B355C20002F17C /* macros_arm.s in Sources */,
+				F2828B5712B355C20002F17C /* motioncomp_arm_ARMv6.s in Sources */,
+				F2828B5812B355C20002F17C /* motioncomp_arm_ARMv7.s in Sources */,
+				F2828B5912B355C20002F17C /* motioncomp_arm.s in Sources */,
+				F2828B5A12B355C20002F17C /* motioncomp_arm2.s in Sources */,
+				F2828B5B12B355C20002F17C /* motioncomp_arm3.s in Sources */,
+				F2828B5C12B355C20002F17C /* motioncomp_arm4.s in Sources */,
+				F2828B5D12B355C20002F17C /* multires_arm.s in Sources */,
+				F2828B5E12B355C20002F17C /* postfilter_arm.s in Sources */,
+				F2828B5F12B355C20002F17C /* repeatpad_arm_ARMv6.s in Sources */,
+				F2828B6012B355C20002F17C /* repeatpad_arm.s in Sources */,
+				F2828B6112B355C20002F17C /* spatialpredictor_arm.s in Sources */,
+				F2828B6212B355C20002F17C /* vopdec_arm.s in Sources */,
+				F2828B6312B355C20002F17C /* vopdec_arm2.s in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2023A8B13404309004B1CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2023C421340571E004B1CBE /* affine_arm.s in Sources */,
+				F2023C441340571E004B1CBE /* blkdec_arm.s in Sources */,
+				F2023C451340571E004B1CBE /* dynamic_edgepad_arm.s in Sources */,
+				F2023C461340571E004B1CBE /* effects_arm.s in Sources */,
+				F2023C471340571E004B1CBE /* filter.s in Sources */,
+				F2023C481340571E004B1CBE /* huffman_arm.s in Sources */,
+				F2023C491340571E004B1CBE /* idct_arm.s in Sources */,
+				F2023C4A1340571E004B1CBE /* idct_wmv9_arm.s in Sources */,
+				F2023C4B1340571E004B1CBE /* idct_wmv9_arm_2.s in Sources */,
+				F2023C4C1340571E004B1CBE /* idct_wmv9_arm_ARMv6.s in Sources */,
+				F2023C4D1340571E004B1CBE /* interpolate_arm.s in Sources */,
+				F2023C4E1340571E004B1CBE /* interpolate_wmv9_arm.s in Sources */,
+				F2023C4F1340571E004B1CBE /* interpolate_wmv9_arm_2.s in Sources */,
+				F2023C501340571E004B1CBE /* interpolate_wmv9_arm_ARMv6.s in Sources */,
+				F2023C511340571E004B1CBE /* loopfilter_arm.s in Sources */,
+				F2023C521340571E004B1CBE /* loopfilter_arm_ARMv6.s in Sources */,
+				F2023C531340571E004B1CBE /* macros_arm.s in Sources */,
+				F2023C541340571E004B1CBE /* motioncomp_arm.s in Sources */,
+				F2023C551340571E004B1CBE /* motioncomp_arm2.s in Sources */,
+				F2023C561340571E004B1CBE /* motioncomp_arm3.s in Sources */,
+				F2023C571340571E004B1CBE /* motioncomp_arm4.s in Sources */,
+				F2023C581340571E004B1CBE /* motioncomp_arm_ARMv6.s in Sources */,
+				F2023C591340571E004B1CBE /* multires_arm.s in Sources */,
+				F2023C5A1340571E004B1CBE /* postfilter_arm.s in Sources */,
+				F2023C5B1340571E004B1CBE /* repeatpad_arm.s in Sources */,
+				F2023C5C1340571E004B1CBE /* repeatpad_arm_ARMv6.s in Sources */,
+				F2023C5D1340571E004B1CBE /* spatialpredictor_arm.s in Sources */,
+				F2023C5E1340571E004B1CBE /* TypeTable_arm.txt in Sources */,
+				F2023C5F1340571E004B1CBE /* vopdec_arm.s in Sources */,
+				F2023C601340571E004B1CBE /* vopdec_arm2.s in Sources */,
+				F2023C611340571E004B1CBE /* wmvdec_member_arm.h in Sources */,
+				F2023AB313404355004B1CBE /* Affine.c in Sources */,
+				F2023AB713404355004B1CBE /* blkdec_wmv.c in Sources */,
+				F2023AB813404355004B1CBE /* deblock.c in Sources */,
+				F2023AB913404355004B1CBE /* dectable.c in Sources */,
+				F2023ABA13404355004B1CBE /* dectable_mp4x.c in Sources */,
+				F2023ABB13404355004B1CBE /* deinterlace_wmv9.c in Sources */,
+				F2023ABE13404355004B1CBE /* effects_wmv.c in Sources */,
+				F2023AC013404355004B1CBE /* FrameTimer.c in Sources */,
+				F2023AC113404355004B1CBE /* frmdec_wmv.c in Sources */,
+				F2023AC213404355004B1CBE /* headdec.c in Sources */,
+				F2023AC313404355004B1CBE /* huffdec_wmv.c in Sources */,
+				F2023ACB13404355004B1CBE /* idctdec_emb.c in Sources */,
+				F2023ACC13404355004B1CBE /* idctdec_wmv2.c in Sources */,
+				F2023ACD13404355004B1CBE /* idctdec_wmv9.c in Sources */,
+				F2023ACE13404355004B1CBE /* idctdec_wmv9_emb.c in Sources */,
+				F2023ACF13404355004B1CBE /* init_wmv.c in Sources */,
+				F2023AD013404355004B1CBE /* InterlaceCore_wmv9.c in Sources */,
+				F2023AD113404355004B1CBE /* InterlaceDec_BFrame.c in Sources */,
+				F2023AD213404355004B1CBE /* InterlaceDec_wmv9.c in Sources */,
+				F2023AD313404355004B1CBE /* InterlaceDecBV2.c in Sources */,
+				F2023AD413404355004B1CBE /* InterlaceDecCoreV2.c in Sources */,
+				F2023AD513404355004B1CBE /* InterlaceDecPV2.c in Sources */,
+				F2023AD613404355004B1CBE /* InterlaceDecTable.c in Sources */,
+				F2023AD713404355004B1CBE /* InterlaceDecV2.c in Sources */,
+				F2023AD913404355004B1CBE /* interpolate_wmv9.c in Sources */,
+				F2023ADF13404355004B1CBE /* interpolate_wmv9_emb.c in Sources */,
+				F2023AE013404355004B1CBE /* intradec.c in Sources */,
+				F2023AE113404355004B1CBE /* localhuffman_wmv.c in Sources */,
+				F2023AEC13404355004B1CBE /* motioncomp_emb.c in Sources */,
+				F2023AED13404355004B1CBE /* motioncomp_wmv.c in Sources */,
+				F2023AEF13404355004B1CBE /* multires_wmv9.c in Sources */,
+				F2023AF013404355004B1CBE /* multiresdec_wmv9.c in Sources */,
+				F2023AF113404355004B1CBE /* pageroll_wmv.c in Sources */,
+				F2023AF313404355004B1CBE /* postfilter_wmv.c in Sources */,
+				F2023AF413404355004B1CBE /* reflibrary_wmv9.c in Sources */,
+				F2023AF713404355004B1CBE /* share.c in Sources */,
+				F2023AF813404355004B1CBE /* sideroll_wmv.c in Sources */,
+				F2023AFA13404355004B1CBE /* spatialpredictor_wmv.c in Sources */,
+				F2023AFB13404355004B1CBE /* startcodedec.c in Sources */,
+				F2023AFC13404355004B1CBE /* strmdec_wmv.c in Sources */,
+				F2023AFD13404355004B1CBE /* tables_wmv.c in Sources */,
+				F2023AFE13404355004B1CBE /* threadctr_dec_wmv9.c in Sources */,
+				F2023AFF13404355004B1CBE /* uncache_wmv.c in Sources */,
+				F2023B0013404355004B1CBE /* vopdec9_wmv9.c in Sources */,
+				F2023B0113404355004B1CBE /* vopdec9_wmv9_emb.c in Sources */,
+				F2023B0413404355004B1CBE /* vopdec_BFrame.c in Sources */,
+				F2023B0513404355004B1CBE /* vopdec_emb.c in Sources */,
+				F2023B0613404355004B1CBE /* vopdec_mp4x.c in Sources */,
+				F2023B0713404355004B1CBE /* vopdecB_emb.c in Sources */,
+				F2023B0813404355004B1CBE /* wmvdec.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2023CA813405C91004B1CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2023CD013405D14004B1CBE /* Affine.c in Sources */,
+				F2023CD113405D14004B1CBE /* Affine.h in Sources */,
+				F2023CD213405D14004B1CBE /* blkdec_wmv.c in Sources */,
+				F2023CD313405D14004B1CBE /* codehead.h in Sources */,
+				F2023CD413405D14004B1CBE /* constants_wmv.h in Sources */,
+				F2023CD513405D14004B1CBE /* coverage.h in Sources */,
+				F2023CD613405D14004B1CBE /* deblock.c in Sources */,
+				F2023CD713405D14004B1CBE /* dectable.c in Sources */,
+				F2023CD813405D14004B1CBE /* dectable_c.h in Sources */,
+				F2023CD913405D14004B1CBE /* dectable_mp4x.c in Sources */,
+				F2023CDA13405D14004B1CBE /* dectable_mp4x.h in Sources */,
+				F2023CDB13405D14004B1CBE /* deinterlace_wmv9.c in Sources */,
+				F2023CDC13405D14004B1CBE /* effects_wmv.c in Sources */,
+				F2023CDD13405D14004B1CBE /* effects_wmv.h in Sources */,
+				F2023CDE13405D14004B1CBE /* EffectTypes_wmv.h in Sources */,
+				F2023CDF13405D14004B1CBE /* FrameTimer.c in Sources */,
+				F2023CE013405D14004B1CBE /* FrameTimer.h in Sources */,
+				F2023CE113405D14004B1CBE /* frmdec_wmv.c in Sources */,
+				F2023CE213405D14004B1CBE /* headdec.c in Sources */,
+				F2023CE313405D14004B1CBE /* huffdec_wmv.c in Sources */,
+				F2023CE413405D14004B1CBE /* huffman_wmv.h in Sources */,
+				F2023CE513405D14004B1CBE /* idctdec_emb.c in Sources */,
+				F2023CE613405D14004B1CBE /* idctdec_wmv2.c in Sources */,
+				F2023CE713405D14004B1CBE /* idctdec_wmv2.h in Sources */,
+				F2023CE813405D14004B1CBE /* idctdec_wmv9.c in Sources */,
+				F2023CE913405D14004B1CBE /* idctdec_wmv9_emb.c in Sources */,
+				F2023CEA13405D14004B1CBE /* init_wmv.c in Sources */,
+				F2023CEB13405D14004B1CBE /* InterlaceCore_wmv9.c in Sources */,
+				F2023CEC13405D14004B1CBE /* InterlaceDec_BFrame.c in Sources */,
+				F2023CED13405D14004B1CBE /* InterlaceDec_wmv9.c in Sources */,
+				F2023CEE13405D14004B1CBE /* InterlaceDecBV2.c in Sources */,
+				F2023CEF13405D14004B1CBE /* InterlaceDecCoreV2.c in Sources */,
+				F2023CF013405D14004B1CBE /* InterlaceDecPV2.c in Sources */,
+				F2023CF113405D14004B1CBE /* InterlaceDecTable.c in Sources */,
+				F2023CF213405D14004B1CBE /* InterlaceDecV2.c in Sources */,
+				F2023CF313405D14004B1CBE /* interpolate_wmv9.c in Sources */,
+				F2023CF413405D14004B1CBE /* interpolate_wmv9_emb.c in Sources */,
+				F2023CF513405D14004B1CBE /* intradec.c in Sources */,
+				F2023CF613405D14004B1CBE /* localhuffman_wmv.c in Sources */,
+				F2023CF713405D14004B1CBE /* localhuffman_wmv.h in Sources */,
+				F2023CF813405D14004B1CBE /* macros_wmv.h in Sources */,
+				F2023CF913405D14004B1CBE /* motioncomp_emb.c in Sources */,
+				F2023CFA13405D14004B1CBE /* motioncomp_emb_comm.h in Sources */,
+				F2023CFB13405D14004B1CBE /* motioncomp_wmv.c in Sources */,
+				F2023CFC13405D14004B1CBE /* motioncomp_wmv.h in Sources */,
+				F2023CFD13405D14004B1CBE /* multires_wmv9.c in Sources */,
+				F2023CFE13405D14004B1CBE /* multiresdec_wmv9.c in Sources */,
+				F2023CFF13405D14004B1CBE /* opcodes.h in Sources */,
+				F2023D0013405D14004B1CBE /* pageroll_wmv.c in Sources */,
+				F2023D0113405D14004B1CBE /* pageroll_wmv.h in Sources */,
+				F2023D0213405D14004B1CBE /* postfilter_wmv.c in Sources */,
+				F2023D0313405D14004B1CBE /* postfilter_wmv.h in Sources */,
+				F2023D0413405D14004B1CBE /* reflibrary_wmv9.c in Sources */,
+				F2023D0513405D14004B1CBE /* repeatpad_wmv.h in Sources */,
+				F2023D0613405D14004B1CBE /* share.c in Sources */,
+				F2023D0713405D14004B1CBE /* sideroll_wmv.c in Sources */,
+				F2023D0813405D14004B1CBE /* sideroll_wmv.h in Sources */,
+				F2023D0913405D14004B1CBE /* spatialpredictor_wmv.c in Sources */,
+				F2023D0A13405D14004B1CBE /* spatialpredictor_wmv.h in Sources */,
+				F2023D0B13405D14004B1CBE /* startcodedec.c in Sources */,
+				F2023D0C13405D14004B1CBE /* strmdec_wmv.c in Sources */,
+				F2023D0D13405D14004B1CBE /* strmdec_wmv.h in Sources */,
+				F2023D0E13405D14004B1CBE /* strmdecdbg.h in Sources */,
+				F2023D0F13405D14004B1CBE /* tables_wmv.c in Sources */,
+				F2023D1013405D14004B1CBE /* tables_wmv.h in Sources */,
+				F2023D1113405D15004B1CBE /* threadctr_dec_wmv9.c in Sources */,
+				F2023D1213405D15004B1CBE /* typedef.h in Sources */,
+				F2023D1313405D15004B1CBE /* uncache_wmv.c in Sources */,
+				F2023D1413405D15004B1CBE /* vfw_ce.h in Sources */,
+				F2023D1513405D15004B1CBE /* vopdec9_wmv9.c in Sources */,
+				F2023D1613405D15004B1CBE /* vopdec9_wmv9_emb.c in Sources */,
+				F2023D1713405D15004B1CBE /* vopdec_BFrame.c in Sources */,
+				F2023D1813405D15004B1CBE /* vopdec_emb.c in Sources */,
+				F2023D1913405D15004B1CBE /* vopdec_mp4x.c in Sources */,
+				F2023D1A13405D15004B1CBE /* vopdecB_emb.c in Sources */,
+				F2023D1B13405D15004B1CBE /* voWmvPort.h in Sources */,
+				F2023D1C13405D15004B1CBE /* wmvdec.c in Sources */,
+				F2023D1D13405D15004B1CBE /* wmvdec_api.h in Sources */,
+				F2023D1E13405D15004B1CBE /* wmvdec_function.h in Sources */,
+				F2023D1F13405D15004B1CBE /* wmvdec_member.h in Sources */,
+				F2023D2013405D15004B1CBE /* xplatform_wmv.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voWMVDec.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voWMVDec_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = voWMVDec;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../voRelease/iOS/static/v7/;
+				DSTROOT = /tmp/voWMVDec.dst;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voWMVDec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					_CONSOLE,
+					ARM,
+					_ARM_,
+					__arm,
+					VOARMV7,
+				);
+				HEADER_SEARCH_PATHS = ../../../../../../Include;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voWMVDec;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		F2023A8F13404309004B1CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = voWMVDec_V6;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2023A9013404309004B1CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../../../../../../voRelease/iOS/static/v6/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					_CONSOLE,
+					ARM,
+					_ARM_,
+					__arm,
+					VOARMV6,
+				);
+				HEADER_SEARCH_PATHS = ../../../../../../Include;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = voWMVDec;
+				SDKROOT = iphoneos4.2;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		F2023CAC13405C91004B1CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = voWMVDec_C;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2023CAD13405C91004B1CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../../../../../../voRelease/iOS/static/i386/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					_CONSOLE,
+					ARM_C,
+				);
+				HEADER_SEARCH_PATHS = ../../../../../../Include;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = voWMVDec;
+				SDKROOT = iphoneos4.2;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voWMVDec_V7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voWMVDec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2023AB213404349004B1CBE /* Build configuration list for PBXNativeTarget "voWMVDec_V6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2023A8F13404309004B1CBE /* Debug */,
+				F2023A9013404309004B1CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2023CAE13405CAF004B1CBE /* Build configuration list for PBXNativeTarget "voWMVDec_C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2023CAC13405C91004B1CBE /* Debug */,
+				F2023CAD13405C91004B1CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

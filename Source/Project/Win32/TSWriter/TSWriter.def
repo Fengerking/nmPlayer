@@ -1,0 +1,5 @@
+LIBRARY	"voTsWriter"
+
+
+EXPORTS
+	voGetTSWriterAPI

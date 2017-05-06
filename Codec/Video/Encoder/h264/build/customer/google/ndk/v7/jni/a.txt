@@ -1,0 +1,1 @@
+Compile arm    : voH264Enc <= voH264Dct.c

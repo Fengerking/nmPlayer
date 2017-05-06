@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClosedCaption", "ClosedCaption.vcproj", "{C019DBB4-8B03-494E-8710-2D23596DB894}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|STANDARDSDK_500 (ARMV4I) = Debug|STANDARDSDK_500 (ARMV4I)
+		Debug|Win32 = Debug|Win32
+		Release|STANDARDSDK_500 (ARMV4I) = Release|STANDARDSDK_500 (ARMV4I)
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C019DBB4-8B03-494E-8710-2D23596DB894}.Debug|STANDARDSDK_500 (ARMV4I).ActiveCfg = Debug|STANDARDSDK_500 (ARMV4I)
+		{C019DBB4-8B03-494E-8710-2D23596DB894}.Debug|STANDARDSDK_500 (ARMV4I).Build.0 = Debug|STANDARDSDK_500 (ARMV4I)
+		{C019DBB4-8B03-494E-8710-2D23596DB894}.Debug|STANDARDSDK_500 (ARMV4I).Deploy.0 = Debug|STANDARDSDK_500 (ARMV4I)
+		{C019DBB4-8B03-494E-8710-2D23596DB894}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C019DBB4-8B03-494E-8710-2D23596DB894}.Debug|Win32.Build.0 = Debug|Win32
+		{C019DBB4-8B03-494E-8710-2D23596DB894}.Release|STANDARDSDK_500 (ARMV4I).ActiveCfg = Release|STANDARDSDK_500 (ARMV4I)
+		{C019DBB4-8B03-494E-8710-2D23596DB894}.Release|STANDARDSDK_500 (ARMV4I).Build.0 = Release|STANDARDSDK_500 (ARMV4I)
+		{C019DBB4-8B03-494E-8710-2D23596DB894}.Release|STANDARDSDK_500 (ARMV4I).Deploy.0 = Release|STANDARDSDK_500 (ARMV4I)
+		{C019DBB4-8B03-494E-8710-2D23596DB894}.Release|Win32.ActiveCfg = Release|Win32
+		{C019DBB4-8B03-494E-8710-2D23596DB894}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

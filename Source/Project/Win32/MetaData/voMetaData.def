@@ -1,0 +1,4 @@
+LIBRARY voMetaData.dll
+
+EXPORTS
+	voGetMetaDataReadAPI

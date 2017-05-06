@@ -1,0 +1,22 @@
+LIBRARY	vosfEngn.dll
+
+EXPORTS
+	vosfCreateMediaExtractor
+	vosfGetTrackNum
+	vosfGetTrackSource
+	vosfGetTrackMetaData		
+	vosfGetMetaData		
+	vosfGetFlag		
+	vosfGetExtractorParam
+	vosfSetExtractorParam
+	vosfCloseMediaExtractor
+	vosfCreateMediaSource
+	vosfStart
+	vosfStop
+	vosfGetFormat
+	vosfRead
+	vosfGetMediaSourceParam
+	vosfSetMediaSourceParam
+	vosfCloseMediaSource
+	
+

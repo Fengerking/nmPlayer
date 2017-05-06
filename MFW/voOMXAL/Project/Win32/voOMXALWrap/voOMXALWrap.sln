@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voOMXALWrap", "voOMXALWrap.vcproj", "{FAD885FC-C709-4FC5-9339-D4D02EE94170}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAD885FC-C709-4FC5-9339-D4D02EE94170}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FAD885FC-C709-4FC5-9339-D4D02EE94170}.Debug|Win32.Build.0 = Debug|Win32
+		{FAD885FC-C709-4FC5-9339-D4D02EE94170}.Release|Win32.ActiveCfg = Release|Win32
+		{FAD885FC-C709-4FC5-9339-D4D02EE94170}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

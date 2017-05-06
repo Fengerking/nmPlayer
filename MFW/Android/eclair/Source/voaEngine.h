@@ -1,0 +1,382 @@
+	/************************************************************************
+	*																		*
+	*		VisualOn, Inc. Confidential and Proprietary, 2003-2009			*
+	*																		*
+	************************************************************************/
+/*******************************************************************************
+	File:		voaMediaPlayer.h
+
+	Contains:	vo MultiMedia Manager Play Engine function define header file
+
+	Written by:	Bangfei Jin
+
+	Change History (most recent first):
+	2009-05-04		JBF			Create file
+
+*******************************************************************************/
+#ifndef __voaMediaPlayer_H__
+#define __voaMediaPlayer_H__
+
+#ifdef __cplusplus
+extern "C" {
+#endif /* __cplusplus */
+
+#ifndef int64_t
+typedef signed long long int64_t;
+#endif // int64_t
+
+#define VOA_TYPE_PLAYER				1
+#define VOA_TYPE_RECORDER			2
+#define VOA_TYPE_METADATA			3
+#define VOA_TYPE_TRANSCODE			4
+#define VOA_TYPE_DATASOURCE			5
+
+#define VOA_MEDIAPLAYER_BASE		0X11000000							//!< The base ID of media player >
+#define VOA_METADATA_BASE			0X12000000							//!< The base ID of metadata >
+#define VOA_MEDIARECORDER_BASE		0X13000000							//!< The base ID of media recorder >
+
+#define VOAP_IDF_onFirstRef			(VOA_MEDIAPLAYER_BASE | 0X0001)		//!< onFirstRef			Set.	Param: No >
+#define VOAP_IDF_initCheck			(VOA_MEDIAPLAYER_BASE | 0X0002)		//!< initCheck			Set.	Param: No >
+#define VOAP_IDF_setDataSourceURL	(VOA_MEDIAPLAYER_BASE | 0X0003)		//!< setDataSource		Set.	Param: const char * >
+#define VOAP_IDF_setDataSourceID	(VOA_MEDIAPLAYER_BASE | 0X0004)		//!< setDataSource		Set.	Param: VOAP_SOURCE * >
+#define VOAP_IDF_prepare			(VOA_MEDIAPLAYER_BASE | 0X0005)		//!< prepare			Set.	Param: No >
+#define VOAP_IDF_prepareAsync		(VOA_MEDIAPLAYER_BASE | 0X0006)		//!< prepareAsync		Set.	Param: No >
+#define VOAP_IDF_start				(VOA_MEDIAPLAYER_BASE | 0X0007)		//!< start				Set.	Param: No >
+#define VOAP_IDF_stop				(VOA_MEDIAPLAYER_BASE | 0X0008)		//!< stop				Set.	Param: No >
+#define VOAP_IDF_seekTo				(VOA_MEDIAPLAYER_BASE | 0X0009)		//!< seekTo				Set.	Param: int * >
+#define VOAP_IDF_pause				(VOA_MEDIAPLAYER_BASE | 0X000A)		//!< pause				Set.	Param: No >
+#define VOAP_IDF_isPlaying			(VOA_MEDIAPLAYER_BASE | 0X000B)		//!< isPlaying			Get.	Param: int * 1 playing, 0 No >
+#define VOAP_IDF_getCurrentPosition	(VOA_MEDIAPLAYER_BASE | 0X000C)		//!< getCurrentPosition Get.	Param: int * (ms) >
+#define VOAP_IDF_getDuration		(VOA_MEDIAPLAYER_BASE | 0X000D)		//!< getDuration		Get.	Param: int * (ms) >
+#define VOAP_IDF_release			(VOA_MEDIAPLAYER_BASE | 0X000E)		//!< release			Set.	Param: No >
+#define VOAP_IDF_reset				(VOA_MEDIAPLAYER_BASE | 0X000F)		//!< reset				Set.	Param: No >
+#define VOAP_IDF_setLooping			(VOA_MEDIAPLAYER_BASE | 0X0010)		//!< setLooping			Set.	Param: int * >
+#define VOAP_IDF_playerType			(VOA_MEDIAPLAYER_BASE | 0X0011)		//!< playerType			Get.	Param: int * >
+#define VOAP_IDF_invoke				(VOA_MEDIAPLAYER_BASE | 0X0012)		//!< playerType			set.	Param: const Parcel& request, Parcel *reply >
+#define VOAP_IDF_getMetadata		(VOA_MEDIAPLAYER_BASE | 0X0013)		//!< playerType			set.	Param: const media::Metadata::Filter& ids, Parcel *records >
+#define VOAP_IDF_setSurface			(VOA_MEDIAPLAYER_BASE | 0X0014)		//!< playerType			set.	Param: ISurface * >
+#define VOAP_IDF_suspend			(VOA_MEDIAPLAYER_BASE | 0X0015)		//!< playerType			set.	Param: no * >
+#define VOAP_IDF_resume				(VOA_MEDIAPLAYER_BASE | 0X0016)		//!< playerType			set.	Param: no * >
+#define VOAP_IDF_ChangeSurface		(VOA_MEDIAPLAYER_BASE | 0X0017)		//!< surface change		set.	Param: 1 Callback, 2 User data >
+
+#define VOAP_IDF_setCallBack		(VOA_MEDIAPLAYER_BASE | 0X0020)		//!< setCallBack		Set.	Param: 1 Callback, 2 Userdata >
+#define VOAP_IDF_setFilePipe		(VOA_MEDIAPLAYER_BASE | 0X0021)		//!< setFilePipe		Set.	Param: 1 void * fFilePipe >
+#define VOAP_IDF_isSeekable         (VOA_MEDIAPLAYER_BASE | 0X0022)     //!< isSeekable         Get     Param: int * 1 seekable, 0 No >
+
+#define VOAP_IDF_setVideoCodec		(VOA_MEDIAPLAYER_BASE | 0X0030)		//!< setVideoData		Set.	Param: 1 OMX_VIDEO_CODINGTYPE >
+#define VOAP_IDF_setAudioCodec		(VOA_MEDIAPLAYER_BASE | 0X0031)		//!< setAudioData		Set.	Param: 1 OMX_AUDIO_CODINGTYPE >
+#define VOAP_IDF_setVideoData		(VOA_MEDIAPLAYER_BASE | 0X0032)		//!< setVideoData		Set.	Param: 1 VOA_DATA_BUFFERTYPE *, 2 int * (time) >
+#define VOAP_IDF_setAudioData		(VOA_MEDIAPLAYER_BASE | 0X0033)		//!< setAudioData		Set.	Param: 1.VOA_DATA_BUFFERTYPE *, 2. int * (time) >
+
+#define VOAP_IDC_notifyEvent		(VOA_MEDIAPLAYER_BASE | 0X0101)		//!< notifyEvent.	Param 1 VOA_NOTIFYEVENT * >
+#define VOAP_IDC_displayText		(VOA_MEDIAPLAYER_BASE | 0X0102)		//!< notifyEvent.	Param 1 const char * >
+
+#define VOAP_IDC_setVideoSize		(VOA_MEDIAPLAYER_BASE | 0X0111)		//!< setVideoSize.	Param 1 int * W , 2 int * H >
+#define VOAP_IDC_getVideoBuffer		(VOA_MEDIAPLAYER_BASE | 0X0112)		//!< getVideoBuffer.Param 1 void ** ppBuffer >
+#define VOAP_IDC_renderVideo		(VOA_MEDIAPLAYER_BASE | 0X0113)		//!< renderVideo.	Param 1 VOA_VIDEO_BUFFERTYPE* pBuffer >
+#define VOAP_IDC_NativeWindowCmd	(VOA_MEDIAPLAYER_BASE | 0x0114)		//!< native window command, Param 1 VOA_VIDEO_BUFFERTYPE* pBuffer >
+#define VOAP_IDC_setVideoRotation	(VOA_MEDIAPLAYER_BASE | 0x0115)		//!< setVideoRatation. Param 1 int (0, 90, 180, 270) >
+#define VOAP_IDC_set3DVideoType		(VOA_MEDIAPLAYER_BASE | 0x0116)		//!< set3DVideoType for init h/w render. Param 1 int  >
+
+#define VOAP_IDC_getAudioInfo		(VOA_MEDIAPLAYER_BASE | 0x0120)		//!< get audio sink info, Param 1 info ID (VOA_AUDIORENDER_INFOID), Param 2 info content >
+#define VOAP_IDC_setAudioFormat		(VOA_MEDIAPLAYER_BASE | 0X0121)		//!< setAudioFormat.Param VOA_AUDIO_FORMAT *  >
+#define VOAP_IDC_setAudioStart		(VOA_MEDIAPLAYER_BASE | 0X0122)		//!< setAudioStart.	Param no  >
+#define VOAP_IDC_setAudioStop		(VOA_MEDIAPLAYER_BASE | 0X0123)		//!< setAudioStop.	Param no  >
+#define VOAP_IDC_setAudioPause		(VOA_MEDIAPLAYER_BASE | 0X0124)		//!< setAudioPause.	Param no  >
+#define VOAP_IDC_setAudioFlush		(VOA_MEDIAPLAYER_BASE | 0X0125)		//!< setAudioFlush.	Param no  >
+#define VOAP_IDC_RenderAudio		(VOA_MEDIAPLAYER_BASE | 0X0126)		//!< renderAudio.	Param 1 unsigned char * pBuffer, 2. int nSize  >
+
+#define VOAP_IDC_setDrmApi			(VOA_MEDIAPLAYER_BASE | 0X0131)		//!< SetDrmApi.	Param 1 VO_DRM_API * >
+
+// metadata retriever ID
+#define VOAM_IDF_setDataSourceURL	(VOA_METADATA_BASE | 0X0001)		//!< setDataSource		Set.	Param: const char * >
+#define VOAM_IDF_setDataSourceID	(VOA_METADATA_BASE | 0X0002)		//!< setDataSource		Set.	Param: VOAP_SOURCE * >
+#define VOAM_IDF_setMode			(VOA_METADATA_BASE | 0X0003)		//!< setMode			Set.	Param: int >
+#define VOAM_IDF_getMode			(VOA_METADATA_BASE | 0X0004)		//!< getMode			get.	Param: int * >
+#define VOAM_IDF_captureFrame		(VOA_METADATA_BASE | 0X0005)		//!< captureFrame		get.	Param: 1, void ** (VideoFrame **) >
+#define VOAM_IDF_extractAlbumArt	(VOA_METADATA_BASE | 0X0006)		//!< extractAlbumArt	get.	Param: void ** (MediaAlbumArt **) >
+#define VOAM_IDF_extractMetadata	(VOA_METADATA_BASE | 0X0007)		//!< extractMetadata	get.	Param: 1, int  2. char ** >
+#define VOAM_IDF_getFrameAtTime		(VOA_METADATA_BASE | 0X0008)		//!< getFrameAtTime		get.	Param: 1, void ** (VideoFrame **); 2, VOA_GETFRAMEATTIME_PARAM* >
+#define VOAM_IDF_setFilePipe		(VOA_METADATA_BASE | 0X0009)		//!< setFilePipe        Set.    Param: 1 void * fFilePipe >
+
+#define VOAM_IDF_setDrmApi			(VOA_METADATA_BASE | 0X000A)		//!< SetDrmApi			Set.	Param: 1 VO_DRM_API * >
+#define VOAM_IDF_setExtDrmApi		(VOA_METADATA_BASE | 0X000B)		//!< SetFileBasedDrmApi	Set.	Param: 1 void *,  2 VO_DRM_API_TYPE* >
+
+// media recorder ID
+#define VOAR_IDF_Init				(VOA_MEDIARECORDER_BASE | 0X0001)		//!< Init					Set.	Param: void  >
+#define VOAR_IDF_setVideoData		(VOA_MEDIARECORDER_BASE | 0X0002)		//!< setVideoData			Set.	Param: 1 VOA_DATA_BUFFERTYPE *, 2 int * (time) >
+#define VOAR_IDF_setAudioData		(VOA_MEDIARECORDER_BASE | 0X0003)		//!< setAudioData			Set.	Param: 1.VOA_DATA_BUFFERTYPE *, 2. int * (time) >
+#define VOAR_IDF_setOutputFormat	(VOA_MEDIARECORDER_BASE | 0X0004)		//!< setOutputFormat		Set.	Param: output_format * >
+#define VOAR_IDF_setAudioEncoder	(VOA_MEDIARECORDER_BASE | 0X0005)		//!< setAudioEncoder		Set.	Param: audio_encoder * >
+#define VOAR_IDF_setAudioFormat		(VOA_MEDIARECORDER_BASE | 0X0006)		//!< setAudioFormat			Set.	Param: VOA_AUDIO_FORMAT *  >
+#define VOAR_IDF_setVideoEncoder	(VOA_MEDIARECORDER_BASE | 0X0007)		//!< setVideoEncoder		Set.	Param: video_encoder  >
+#define VOAR_IDF_setColorType		(VOA_MEDIARECORDER_BASE | 0X0008)		//!< setVideoSize			Set.	Param: 1. int * (VOA_COLORTYPE),  >
+#define VOAR_IDF_setVideoSize		(VOA_MEDIARECORDER_BASE | 0X0009)		//!< setVideoSize			Set.	Param: 1. int * (W), 2. int * (h)  >
+#define VOAR_IDF_setFrameRate		(VOA_MEDIARECORDER_BASE | 0X0010)		//!< setFrameRate			Set.	Param: int *  >
+#define VOAR_IDF_setOutputFile		(VOA_MEDIARECORDER_BASE | 0X0011)		//!< setOutputFile			Set.	Param: char *  >
+#define VOAR_IDF_setOutputFileID	(VOA_MEDIARECORDER_BASE | 0X0012)		//!< setOutputFile			Set.	Param: VOA_SOURCE *  >
+#define VOAR_IDF_setParamters		(VOA_MEDIARECORDER_BASE | 0X0013)		//!< setParamters			Set.	Param: char *  >
+#define VOAR_IDF_setListener		(VOA_MEDIARECORDER_BASE | 0X0014)		//!< setListener			Set.	Param: void *  >
+#define VOAR_IDF_prepare			(VOA_MEDIARECORDER_BASE | 0X0015)		//!< prepare				Set.	Param: void  >
+#define VOAR_IDF_start				(VOA_MEDIARECORDER_BASE | 0X0016)		//!< start					Set.	Param: void  >
+#define VOAR_IDF_stop				(VOA_MEDIARECORDER_BASE | 0X0017)		//!< stop					Set.	Param: void  >
+#define VOAR_IDF_close				(VOA_MEDIARECORDER_BASE | 0X0018)		//!< close					Set.	Param: void  >
+#define VOAR_IDF_reset				(VOA_MEDIARECORDER_BASE | 0X0019)		//!< reset					Set.	Param: void  >
+#define VOAR_IDF_getMaxAmplitude	(VOA_MEDIARECORDER_BASE | 0X0020)		//!< getMaxAmplitude		Set.	Param: int * (max)  >
+#define VOAR_IDF_setVideoSource		(VOA_MEDIARECORDER_BASE | 0X0021)		//!< setVideoSource			Set.	Param: 1 int * (source) >
+#define VOAR_IDF_setAudioSource		(VOA_MEDIARECORDER_BASE | 0X0022)		//!< setAudioSource			Set.	Param: 1.int * (source) >
+#define VOAR_IDF_setDataSource		(VOA_MEDIARECORDER_BASE | 0X0023)		//!< setDataSource			Set.	Param: 1.char * 2. int * >
+#define VOAR_IDF_pause				(VOA_MEDIARECORDER_BASE | 0X0024)		//!< pause					Set.	Param: no >
+
+#define VOAR_IDF_setCallBack		(VOA_MEDIARECORDER_BASE | 0X0040)		//!< setCallBack		Set.	Param: 1 Callback, 2 Userdata >
+#define VOAR_IDF_setFilePipe		(VOA_MEDIARECORDER_BASE | 0X0041)		//!< setFilePipe		Set.	Param: 1 void * fFilePipe >
+
+#define VOAR_IDC_notifyEvent		(VOA_MEDIARECORDER_BASE | 0X0142)		//!< notifyEvent.		Param 1 VOA_NOTIFYEVENT * >
+
+/**
+ * The source structure.
+ */
+typedef struct VOA_SOURCE {
+    int			fd;			/*!< File ID  */
+    int64_t		offset;		/*!< File begin pos  */
+	int64_t		length;		/*!< File length  */
+} VOA_SOURCE;
+
+/**
+ * The source structure.
+ */
+typedef struct VOA_NOTIFYEVENT {
+    int					msg;		/*!< event ID  */
+    int					ext1;		/*!< event param1  */
+    int					ext2;		/*!< event param2  */
+} VOA_NOTIFYEVENT;
+
+/**
+ * Defination of color format
+ */
+typedef enum
+{
+	VOA_COLOR_YUV420			= 0,		/*!< YUV planar mode:420  */
+	VOA_COLOR_NV12				= 1,		/*!< YUV Y planar UV interlace */
+	VOA_COLOR_YUYV422			= 2,		/*!< YUYV422 packet */
+	VOA_COLOR_YVYU422			= 3,		/*!< YVYU422 packet */
+	VOA_COLOR_UYVY422			= 4,		/*!< UYVY422 packet */
+	VOA_COLOR_VYUY422			= 5,		/*!< VYUY422 packet */
+	VOA_COLOR_RGB565			= 10,		/*!< RGB565  */
+	VOA_COLOR_RGB888			= 11,		/*!< RGB888  */
+	VOA_COLOR_RGB8888			= 12,		/*!< RGB8888  */
+	VOA_COLOR_RGBA8888			= 13,		/*!< RGBA8888  */
+	VOA_COLOR_NVIDIA			= 100,		/*!< Nvidia YUV planar mode:420 */
+	VOA_COLOR_TYPE_MAX			= 0X7FFFFFFF
+} VOA_COLORTYPE;
+
+/**
+ * Video data buffer, usually used as iutput video information.
+ */
+typedef struct
+{
+	unsigned char *			virBuffer[3];			/*!< virtual Buffer pointer */
+	unsigned char *			phyBuffer[3];			/*!< physical Buffer pointer */
+	int						nStride[3];				/*!< Buffer stride */
+	VOA_COLORTYPE			nColorType;				/*!< color type  */
+} VOA_VIDEO_BUFFERTYPE;
+
+/**
+ * Data buffer, usually used as iu/out data.
+ */
+typedef struct
+{
+	unsigned char *			pBuffer;				/*!< virtual Buffer pointer */
+	int						nSize;					/*!< Buffer size */
+	int						nFlag;					/*!< flag reserved */
+} VOA_DATA_BUFFERTYPE;
+
+/**
+ * Audio format
+ */
+typedef struct
+{
+	int		nSampleRate;		/*!< Audio Samplerate */
+	int		nChannels;			/*!< Audio Channels */
+	int		nSampleBits;		/*!< Audio Sample Bits */
+} VOA_AUDIO_FORMAT;
+
+typedef enum
+{
+	VOA_AUDIORENDER_INFO_READY			= 1,		// bool*
+	VOA_AUDIORENDER_INFO_REALTIME,					// bool*
+	VOA_AUDIORENDER_INFO_BUFFERSIZE,				// int*
+	VOA_AUDIORENDER_INFO_FRAMECOUNT,				// int*
+	VOA_AUDIORENDER_INFO_CHANNELCOUNT,				// int*
+	VOA_AUDIORENDER_INFO_FRAMESIZE,					// int*
+	VOA_AUDIORENDER_INFO_LATENCY,					// uint32*
+	VOA_AUDIORENDER_INFO_MSECSPERFRAME,				// float*
+	VOA_AUDIORENDER_INFO_POSITION,					// uint32*
+	VOA_AUDIORENDER_INFO_DELAY,						// uint32*
+} VOA_AUDIORENDER_INFOID;
+
+// copy only, for detail information, please refer to vomeAPI.h
+typedef enum
+{
+	VOA_NATIVEWINDOW_AllocBuffers		= 1, 
+	VOA_NATIVEWINDOW_DequeueBuffer		= 2, 
+	VOA_NATIVEWINDOW_CancelBuffer		= 3, 
+	VOA_NATIVEWINDOW_QueueBuffer		= 4, 
+	VOA_NATIVEWINDOW_LockBuffer			= 5, 
+	VOA_NATIVEWINDOW_SetCrop			= 6, 
+	VOA_NATIVEWINDOW_FreeBuffer			= 7, 
+	VOA_NATIVEWINDOW_IsBufferDequeued	= 8, 
+	VOA_NATIVEWINDOW_GetMinUndequeuedBuffers	= 9, 
+} VOA_NATIVEWINDOW_COMMANDID;
+
+typedef struct VOA_NATIVEWINDOWCOMMAND {
+	VOA_NATIVEWINDOW_COMMANDID		nCommand;	// Command ID
+	void*							pParam1;	// Parameter 1
+	void*							pParam2;	// Parameter 2
+	unsigned int					nReserved;	// Reserved for future
+} VOA_NATIVEWINDOWCOMMAND;
+
+typedef int (* VOAUSEGRAPHICBUFFER) (void* pUserData, void* pUseAndroidNativeBufferParams);
+typedef struct VOA_NATIVEWINDOWALLOCBUFFER {
+	unsigned int			nPortIndex;
+	unsigned int			nWidth;
+	unsigned int			nHeight;
+	unsigned int			nColor;
+	void**					ppBufferHeader;
+	unsigned int			nBufferCount;
+	VOAUSEGRAPHICBUFFER		fUseGraphicBuffer;
+	void*					pUserData;
+	unsigned int			nBufferSize;
+	unsigned int            mUsages;                // get this value from the OMX component 
+	unsigned int            mUANBVer;               // OMX.google.android.index.useAndroidNativeBuffer's version
+} VOA_NATIVEWINDOWALLOCBUFFER;
+
+typedef struct VOA_NATIVEWINDOWCROP {
+	int			nLeft;
+	int			nTop;
+	int			nRight;
+	int			nBottom;
+} VOA_NATIVEWINDOWCROP;
+
+typedef struct VOA_NATIVEWINDOWBUFFERHEADERS {
+	unsigned int			nBufferCount;
+	void**					ppBufferHeader;
+} VOA_NATIVEWINDOWBUFFERHEADERS;
+/**
+ * getFrameAtTime parameter
+ */
+// Position Flags
+#define VOA_GETFRAMEATTIME_FLAG_PREVIOUSKEYFRAME	0x0
+#define VOA_GETFRAMEATTIME_FLAG_CURRENTFRAME		0x1
+#define VOA_GETFRAMEATTIME_FLAG_NEXTKEYFRAME		0x2
+#define VOA_GETFRAMEATTIME_FLAG_NEARESTKEYFRAME		0x3
+// Other Flags
+// if set, mean use special width and height for output;
+// otherwise use original width and height
+#define VOA_GETFRAMEATTIME_FLAG_SPECIFYRESOLUTION	0x100
+#define VOA_GETFRAMEATTIME_FLAG_FORBIDBLACKFRAME	0x200
+#define VOA_GETFRAMEATTIME_FLAG_SPECIFYRSIZELIMIT	0x400
+
+typedef struct
+{
+	int		nPosition;			/*!< Media Time Position <ms>, -1 mean random */
+	int		nFlags;				/*!< VOA_GETFRAMEATTIME_FLAG_XXX */
+	int		nWidth;				/*!< Specify Output Width if VOA_GETFRAMEATTIME_FLAG_SPECIFYRESOLUTION */
+	int		nHeight;			/*!< Specify Output Height if VOA_GETFRAMEATTIME_FLAG_SPECIFYRESOLUTION */
+	int		nReserved[4];		/*!< Reserved for future */
+} VOA_GETFRAMEATTIME_PARAM;
+
+typedef void (* VOAUpdateSurfaceCallBack) (void * pUserData);
+
+/**
+ * VisualOn Android Engine Call Back function.
+ * \param pUserData [IN] User data from caller.
+ * \param nID [IN] The call back id.
+ * \param pParam1 [IN/OUT] The call back param 1.
+ * \param pParam2 [IN/OUT] The call back param 2.
+ * \retval 0 succeeded..
+ */
+typedef int (* VOACallBack) (void * pUserData, int nID, void * pParam1, void * pParam2);
+
+
+/**
+ * Init the VisualOn Android Engine
+ * \param nFlag [IN] 1 Player, 2 Recorder, 3 Metadata.
+ * \retval The handle of engine. NULL was failed.
+ */
+void * voaInit (int nFlag);
+
+
+/**
+ * Set the param into engine
+ * \param hEngine [IN] The handle of engine from voaInit.
+ * \param nID [IN] The param ID.
+ * \param pValue [IN] The param value. Depend of the ID.
+ * \retval 0 successful.
+ */
+int voaSetParam (void * hEngine, int nID, void * pValue1 = NULL, void * pValue2 = NULL);
+
+/**
+ * Get the param into engine
+ * \param hEngine [IN] The handle of engine from voaInit.
+ * \param nID [IN] The param ID.
+ * \param pValue [OUT] The param value. Depend of the ID.
+ * \retval 0 successful.
+ */
+int voaGetParam (void * hEngine, int nID, void * pValue1 = NULL, void * pValue2 = NULL);
+
+
+/**
+ * Uninit the engine
+ * \param hEngine [IN] The handle of engine from voaInit.
+ * \param nFlag [IN] 1 Player, 2 Recorder, 3 Metadata.
+ * \retval 0 successful.
+ */
+int voaUninit (void * hEngine, int nFlag);
+
+
+typedef void * (* VOAINIT) (int nFlag);
+typedef int (* VOASETPARAM) (void * hEngine, int nID, void * pValue1, void * pValue2);
+typedef int (* VOAGETPARAM) (void * hEngine, int nID, void * pValue1, void * pValue2);
+typedef int (* VOAUNINIT) (void * hEngine, int nFlag);
+
+#ifdef __cplusplus
+} // extern "C"
+#endif // __cplusplus
+
+namespace android {
+/**
+ * voaEngine structure
+ */
+class voaEngPlayer
+{
+public:
+	voaEngPlayer (void)
+	{
+		fInit = NULL;
+		fSetParam = NULL;
+		fGetParam = NULL;
+		fUninit = NULL;
+		hModule = NULL;
+		hEngine = NULL;
+		pFilePipe = NULL;
+		pVideoRender = NULL;
+		pAudioRender = NULL;
+	}
+	virtual ~voaEngPlayer (void){}
+
+public:
+	VOAINIT			fInit;			/*!< Init function */
+	VOASETPARAM		fSetParam;		/*!< SetParam function */
+	VOAGETPARAM		fGetParam;		/*!< GetParam function */
+	VOAUNINIT		fUninit;		/*!< Uninit function */
+	void *			hModule;		/*!< The handle of module */
+	void *			hEngine;		/*!< The handle of engine */
+	void *			pFilePipe;		/*!< The File Pipe pointer */
+	void *			pVideoRender;	/*!< The Video Render pointer */
+	void *			pAudioRender;	/*!< The Audio Render pointer */
+};
+
+}; // namespace android
+
+#endif // __voaMediaPlayer_H__

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!DOCTYPE PRJ SYSTEM "voffmpeg.Bangfei-MacBook.bangfei.dtd">
+<PRJ>
+  <Open_Files>
+    <File>/Volumes/Data/Project/Numen/trunk/MFW/voffmpegWrap/Source/voffmpegWrap.c</File>
+  </Open_Files>
+  <Open_Lines>
+    <OF Name="/Volumes/Data/Project/Numen/trunk/MFW/voffmpegWrap/Source/voffmpegWrap.c">0</OF>
+  </Open_Lines>
+  <Open_Pos>
+    <OF Name="/Volumes/Data/Project/Numen/trunk/MFW/voffmpegWrap/Source/voffmpegWrap.c">1,29,935,420,0</OF>
+  </Open_Pos>
+  <Project_Information>
+    <Project_Start>0D0000002000000011000000190000000900000070000000040000002A010000000000008070000055B3C802C1</Project_Start>
+    <Working_Time>-2076402311234</Working_Time>
+  </Project_Information>
+  <Active_Settings>
+    <Active_File_Display_Mode>-1</Active_File_Display_Mode>
+  </Active_Settings>
+  <Folder Name="Head Files">
+    <Expand>1</Expand>
+  </Folder>
+  <Folder Name="Source Files">
+    <Expand>1</Expand>
+  </Folder>
+  <Folder Name="Make Files">
+    <Expand>1</Expand>
+  </Folder>
+  <Folder Name="Common Files">
+    <Expand>1</Expand>
+  </Folder>
+</PRJ>

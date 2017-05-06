@@ -1,0 +1,4 @@
+LIBRARY voWebVideoInfos.dll
+
+EXPORTS
+	voGetWebVideoInfosAPI

@@ -1,0 +1,990 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		769CCD541495E4C400D9EFF4 /* voASFFR_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voASFFR_Prefix.pch */; };
+		769CCD551495E4C400D9EFF4 /* CASFMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B67C128A98AB00F53EB8 /* CASFMetaData.h */; };
+		769CCD561495E4C400D9EFF4 /* CBaseMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B67E128A98AB00F53EB8 /* CBaseMetaData.h */; };
+		769CCD571495E4C400D9EFF4 /* cmnFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B684128A98E400F53EB8 /* cmnFile.h */; };
+		769CCD581495E4C400D9EFF4 /* cmnMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B686128A98E400F53EB8 /* cmnMemory.h */; };
+		769CCD591495E4C400D9EFF4 /* CvoBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B688128A98E400F53EB8 /* CvoBaseObject.h */; };
+		769CCD5A1495E4C400D9EFF4 /* CBaseReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B690128A992C00F53EB8 /* CBaseReader.h */; };
+		769CCD5B1495E4C400D9EFF4 /* CBaseStreamFileIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B692128A992C00F53EB8 /* CBaseStreamFileIndex.h */; };
+		769CCD5C1495E4C400D9EFF4 /* CBaseStreamFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B694128A992C00F53EB8 /* CBaseStreamFileReader.h */; };
+		769CCD5D1495E4C400D9EFF4 /* CBaseStreamFileTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B696128A992C00F53EB8 /* CBaseStreamFileTrack.h */; };
+		769CCD5E1495E4C400D9EFF4 /* CBaseTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B698128A992C00F53EB8 /* CBaseTrack.h */; };
+		769CCD5F1495E4C400D9EFF4 /* CGBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B69A128A992C00F53EB8 /* CGBuffer.h */; };
+		769CCD601495E4C400D9EFF4 /* CGFileChunk.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B69C128A992C00F53EB8 /* CGFileChunk.h */; };
+		769CCD611495E4C400D9EFF4 /* CMemPool.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B69E128A992C00F53EB8 /* CMemPool.h */; };
+		769CCD621495E4C400D9EFF4 /* CvoBaseFileOpr.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A0128A992C00F53EB8 /* CvoBaseFileOpr.h */; };
+		769CCD631495E4C400D9EFF4 /* CvoBaseMemOpr.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A2128A992C00F53EB8 /* CvoBaseMemOpr.h */; };
+		769CCD641495E4C400D9EFF4 /* CvoFileParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A4128A992C00F53EB8 /* CvoFileParser.h */; };
+		769CCD651495E4C400D9EFF4 /* fCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A6128A992C00F53EB8 /* fCodec.h */; };
+		769CCD661495E4C400D9EFF4 /* fMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A7128A992C00F53EB8 /* fMacros.h */; };
+		769CCD671495E4C400D9EFF4 /* voFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6C3128A993A00F53EB8 /* voFile.h */; };
+		769CCD681495E4C400D9EFF4 /* AsfFileDataStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6C5128A994900F53EB8 /* AsfFileDataStruct.h */; };
+		769CCD691495E4C400D9EFF4 /* AsfFileGuid.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6C6128A994900F53EB8 /* AsfFileGuid.h */; };
+		769CCD6A1495E4C400D9EFF4 /* CAsfAudioTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6C8128A994900F53EB8 /* CAsfAudioTrack.h */; };
+		769CCD6B1495E4C400D9EFF4 /* CAsfParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6CA128A994900F53EB8 /* CAsfParser.h */; };
+		769CCD6C1495E4C400D9EFF4 /* CAsfReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6CC128A994900F53EB8 /* CAsfReader.h */; };
+		769CCD6D1495E4C400D9EFF4 /* CAsfTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6CE128A994900F53EB8 /* CAsfTrack.h */; };
+		769CCD6E1495E4C400D9EFF4 /* CAsfVideoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6D0128A994900F53EB8 /* CAsfVideoTrack.h */; };
+		769CCD6F1495E4C400D9EFF4 /* CvoBaseDrmCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = F22E4CB3129138DC00726B95 /* CvoBaseDrmCallback.h */; };
+		769CCD701495E4C400D9EFF4 /* fVideoHeadDataInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D50D261484D641001BF2F3 /* fVideoHeadDataInfo.h */; };
+		769CCD721495E4C400D9EFF4 /* CASFMetaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B67B128A98AB00F53EB8 /* CASFMetaData.cpp */; };
+		769CCD731495E4C400D9EFF4 /* CBaseMetaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B67D128A98AB00F53EB8 /* CBaseMetaData.cpp */; };
+		769CCD741495E4C400D9EFF4 /* cmnFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B683128A98E400F53EB8 /* cmnFile.cpp */; };
+		769CCD751495E4C400D9EFF4 /* cmnMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B685128A98E400F53EB8 /* cmnMemory.c */; };
+		769CCD761495E4C400D9EFF4 /* CvoBaseObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B687128A98E400F53EB8 /* CvoBaseObject.cpp */; };
+		769CCD771495E4C400D9EFF4 /* CBaseReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B68F128A992C00F53EB8 /* CBaseReader.cpp */; };
+		769CCD781495E4C400D9EFF4 /* CBaseStreamFileIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B691128A992C00F53EB8 /* CBaseStreamFileIndex.cpp */; };
+		769CCD791495E4C400D9EFF4 /* CBaseStreamFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B693128A992C00F53EB8 /* CBaseStreamFileReader.cpp */; };
+		769CCD7A1495E4C400D9EFF4 /* CBaseStreamFileTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B695128A992C00F53EB8 /* CBaseStreamFileTrack.cpp */; };
+		769CCD7B1495E4C400D9EFF4 /* CBaseTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B697128A992C00F53EB8 /* CBaseTrack.cpp */; };
+		769CCD7C1495E4C400D9EFF4 /* CGBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B699128A992C00F53EB8 /* CGBuffer.cpp */; };
+		769CCD7D1495E4C400D9EFF4 /* CGFileChunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B69B128A992C00F53EB8 /* CGFileChunk.cpp */; };
+		769CCD7E1495E4C400D9EFF4 /* CMemPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B69D128A992C00F53EB8 /* CMemPool.cpp */; };
+		769CCD7F1495E4C400D9EFF4 /* CvoBaseFileOpr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B69F128A992C00F53EB8 /* CvoBaseFileOpr.cpp */; };
+		769CCD801495E4C400D9EFF4 /* CvoBaseMemOpr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6A1128A992C00F53EB8 /* CvoBaseMemOpr.cpp */; };
+		769CCD811495E4C400D9EFF4 /* CvoFileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6A3128A992C00F53EB8 /* CvoFileParser.cpp */; };
+		769CCD821495E4C400D9EFF4 /* fCodec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B6A5128A992C00F53EB8 /* fCodec.c */; };
+		769CCD831495E4C400D9EFF4 /* voFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6A8128A992C00F53EB8 /* voFileReader.cpp */; };
+		769CCD841495E4C400D9EFF4 /* CAsfAudioTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6C7128A994900F53EB8 /* CAsfAudioTrack.cpp */; };
+		769CCD851495E4C400D9EFF4 /* CAsfParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6C9128A994900F53EB8 /* CAsfParser.cpp */; };
+		769CCD861495E4C400D9EFF4 /* CAsfReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6CB128A994900F53EB8 /* CAsfReader.cpp */; };
+		769CCD871495E4C400D9EFF4 /* CAsfTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6CD128A994900F53EB8 /* CAsfTrack.cpp */; };
+		769CCD881495E4C400D9EFF4 /* CAsfVideoTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6CF128A994900F53EB8 /* CAsfVideoTrack.cpp */; };
+		769CCD891495E4C400D9EFF4 /* CvoBaseDrmCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F22E4CB2129138DC00726B95 /* CvoBaseDrmCallback.cpp */; };
+		769CCD8A1495E4C400D9EFF4 /* fVideoHeadDataInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76D50D251484D641001BF2F3 /* fVideoHeadDataInfo.cpp */; };
+		769CCD8C1495E4C400D9EFF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		76D0BC3014ECC6FE0044AC0F /* voASFFR_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voASFFR_Prefix.pch */; };
+		76D0BC3114ECC6FE0044AC0F /* CASFMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B67C128A98AB00F53EB8 /* CASFMetaData.h */; };
+		76D0BC3214ECC6FE0044AC0F /* CBaseMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B67E128A98AB00F53EB8 /* CBaseMetaData.h */; };
+		76D0BC3314ECC6FE0044AC0F /* cmnFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B684128A98E400F53EB8 /* cmnFile.h */; };
+		76D0BC3414ECC6FE0044AC0F /* cmnMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B686128A98E400F53EB8 /* cmnMemory.h */; };
+		76D0BC3514ECC6FE0044AC0F /* CvoBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B688128A98E400F53EB8 /* CvoBaseObject.h */; };
+		76D0BC3614ECC6FE0044AC0F /* CBaseReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B690128A992C00F53EB8 /* CBaseReader.h */; };
+		76D0BC3714ECC6FE0044AC0F /* CBaseStreamFileIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B692128A992C00F53EB8 /* CBaseStreamFileIndex.h */; };
+		76D0BC3814ECC6FE0044AC0F /* CBaseStreamFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B694128A992C00F53EB8 /* CBaseStreamFileReader.h */; };
+		76D0BC3914ECC6FE0044AC0F /* CBaseStreamFileTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B696128A992C00F53EB8 /* CBaseStreamFileTrack.h */; };
+		76D0BC3A14ECC6FE0044AC0F /* CBaseTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B698128A992C00F53EB8 /* CBaseTrack.h */; };
+		76D0BC3B14ECC6FE0044AC0F /* CGBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B69A128A992C00F53EB8 /* CGBuffer.h */; };
+		76D0BC3C14ECC6FE0044AC0F /* CGFileChunk.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B69C128A992C00F53EB8 /* CGFileChunk.h */; };
+		76D0BC3D14ECC6FE0044AC0F /* CMemPool.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B69E128A992C00F53EB8 /* CMemPool.h */; };
+		76D0BC3E14ECC6FE0044AC0F /* CvoBaseFileOpr.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A0128A992C00F53EB8 /* CvoBaseFileOpr.h */; };
+		76D0BC3F14ECC6FE0044AC0F /* CvoBaseMemOpr.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A2128A992C00F53EB8 /* CvoBaseMemOpr.h */; };
+		76D0BC4014ECC6FE0044AC0F /* CvoFileParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A4128A992C00F53EB8 /* CvoFileParser.h */; };
+		76D0BC4114ECC6FE0044AC0F /* fCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A6128A992C00F53EB8 /* fCodec.h */; };
+		76D0BC4214ECC6FE0044AC0F /* fMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A7128A992C00F53EB8 /* fMacros.h */; };
+		76D0BC4314ECC6FE0044AC0F /* voFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6C3128A993A00F53EB8 /* voFile.h */; };
+		76D0BC4414ECC6FE0044AC0F /* AsfFileDataStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6C5128A994900F53EB8 /* AsfFileDataStruct.h */; };
+		76D0BC4514ECC6FE0044AC0F /* AsfFileGuid.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6C6128A994900F53EB8 /* AsfFileGuid.h */; };
+		76D0BC4614ECC6FE0044AC0F /* CAsfAudioTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6C8128A994900F53EB8 /* CAsfAudioTrack.h */; };
+		76D0BC4714ECC6FE0044AC0F /* CAsfParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6CA128A994900F53EB8 /* CAsfParser.h */; };
+		76D0BC4814ECC6FE0044AC0F /* CAsfReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6CC128A994900F53EB8 /* CAsfReader.h */; };
+		76D0BC4914ECC6FE0044AC0F /* CAsfTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6CE128A994900F53EB8 /* CAsfTrack.h */; };
+		76D0BC4A14ECC6FE0044AC0F /* CAsfVideoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6D0128A994900F53EB8 /* CAsfVideoTrack.h */; };
+		76D0BC4B14ECC6FE0044AC0F /* CvoBaseDrmCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = F22E4CB3129138DC00726B95 /* CvoBaseDrmCallback.h */; };
+		76D0BC4C14ECC6FE0044AC0F /* fVideoHeadDataInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D50D261484D641001BF2F3 /* fVideoHeadDataInfo.h */; };
+		76D0BC4E14ECC6FE0044AC0F /* CASFMetaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B67B128A98AB00F53EB8 /* CASFMetaData.cpp */; };
+		76D0BC4F14ECC6FE0044AC0F /* CBaseMetaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B67D128A98AB00F53EB8 /* CBaseMetaData.cpp */; };
+		76D0BC5014ECC6FE0044AC0F /* cmnFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B683128A98E400F53EB8 /* cmnFile.cpp */; };
+		76D0BC5114ECC6FE0044AC0F /* cmnMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B685128A98E400F53EB8 /* cmnMemory.c */; };
+		76D0BC5214ECC6FE0044AC0F /* CvoBaseObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B687128A98E400F53EB8 /* CvoBaseObject.cpp */; };
+		76D0BC5314ECC6FE0044AC0F /* CBaseReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B68F128A992C00F53EB8 /* CBaseReader.cpp */; };
+		76D0BC5414ECC6FE0044AC0F /* CBaseStreamFileIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B691128A992C00F53EB8 /* CBaseStreamFileIndex.cpp */; };
+		76D0BC5514ECC6FE0044AC0F /* CBaseStreamFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B693128A992C00F53EB8 /* CBaseStreamFileReader.cpp */; };
+		76D0BC5614ECC6FE0044AC0F /* CBaseStreamFileTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B695128A992C00F53EB8 /* CBaseStreamFileTrack.cpp */; };
+		76D0BC5714ECC6FE0044AC0F /* CBaseTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B697128A992C00F53EB8 /* CBaseTrack.cpp */; };
+		76D0BC5814ECC6FE0044AC0F /* CGBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B699128A992C00F53EB8 /* CGBuffer.cpp */; };
+		76D0BC5914ECC6FE0044AC0F /* CGFileChunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B69B128A992C00F53EB8 /* CGFileChunk.cpp */; };
+		76D0BC5A14ECC6FE0044AC0F /* CMemPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B69D128A992C00F53EB8 /* CMemPool.cpp */; };
+		76D0BC5B14ECC6FE0044AC0F /* CvoBaseFileOpr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B69F128A992C00F53EB8 /* CvoBaseFileOpr.cpp */; };
+		76D0BC5C14ECC6FE0044AC0F /* CvoBaseMemOpr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6A1128A992C00F53EB8 /* CvoBaseMemOpr.cpp */; };
+		76D0BC5D14ECC6FE0044AC0F /* CvoFileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6A3128A992C00F53EB8 /* CvoFileParser.cpp */; };
+		76D0BC5E14ECC6FE0044AC0F /* fCodec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B6A5128A992C00F53EB8 /* fCodec.c */; };
+		76D0BC5F14ECC6FE0044AC0F /* voFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6A8128A992C00F53EB8 /* voFileReader.cpp */; };
+		76D0BC6014ECC6FE0044AC0F /* CAsfAudioTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6C7128A994900F53EB8 /* CAsfAudioTrack.cpp */; };
+		76D0BC6114ECC6FE0044AC0F /* CAsfParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6C9128A994900F53EB8 /* CAsfParser.cpp */; };
+		76D0BC6214ECC6FE0044AC0F /* CAsfReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6CB128A994900F53EB8 /* CAsfReader.cpp */; };
+		76D0BC6314ECC6FE0044AC0F /* CAsfTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6CD128A994900F53EB8 /* CAsfTrack.cpp */; };
+		76D0BC6414ECC6FE0044AC0F /* CAsfVideoTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6CF128A994900F53EB8 /* CAsfVideoTrack.cpp */; };
+		76D0BC6514ECC6FE0044AC0F /* CvoBaseDrmCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F22E4CB2129138DC00726B95 /* CvoBaseDrmCallback.cpp */; };
+		76D0BC6614ECC6FE0044AC0F /* fVideoHeadDataInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76D50D251484D641001BF2F3 /* fVideoHeadDataInfo.cpp */; };
+		76D0BC6814ECC6FE0044AC0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		76D50D271484D641001BF2F3 /* fVideoHeadDataInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76D50D251484D641001BF2F3 /* fVideoHeadDataInfo.cpp */; };
+		76D50D281484D641001BF2F3 /* fVideoHeadDataInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D50D261484D641001BF2F3 /* fVideoHeadDataInfo.h */; };
+		AA747D9F0F9514B9006C5449 /* voASFFR_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voASFFR_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F22E4CB4129138DC00726B95 /* CvoBaseDrmCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F22E4CB2129138DC00726B95 /* CvoBaseDrmCallback.cpp */; };
+		F22E4CB5129138DC00726B95 /* CvoBaseDrmCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = F22E4CB3129138DC00726B95 /* CvoBaseDrmCallback.h */; };
+		F230B67F128A98AB00F53EB8 /* CASFMetaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B67B128A98AB00F53EB8 /* CASFMetaData.cpp */; };
+		F230B680128A98AB00F53EB8 /* CASFMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B67C128A98AB00F53EB8 /* CASFMetaData.h */; };
+		F230B681128A98AB00F53EB8 /* CBaseMetaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B67D128A98AB00F53EB8 /* CBaseMetaData.cpp */; };
+		F230B682128A98AB00F53EB8 /* CBaseMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B67E128A98AB00F53EB8 /* CBaseMetaData.h */; };
+		F230B689128A98E400F53EB8 /* cmnFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B683128A98E400F53EB8 /* cmnFile.cpp */; };
+		F230B68A128A98E400F53EB8 /* cmnFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B684128A98E400F53EB8 /* cmnFile.h */; };
+		F230B68B128A98E400F53EB8 /* cmnMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B685128A98E400F53EB8 /* cmnMemory.c */; };
+		F230B68C128A98E400F53EB8 /* cmnMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B686128A98E400F53EB8 /* cmnMemory.h */; };
+		F230B68D128A98E400F53EB8 /* CvoBaseObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B687128A98E400F53EB8 /* CvoBaseObject.cpp */; };
+		F230B68E128A98E400F53EB8 /* CvoBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B688128A98E400F53EB8 /* CvoBaseObject.h */; };
+		F230B6A9128A992C00F53EB8 /* CBaseReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B68F128A992C00F53EB8 /* CBaseReader.cpp */; };
+		F230B6AA128A992C00F53EB8 /* CBaseReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B690128A992C00F53EB8 /* CBaseReader.h */; };
+		F230B6AB128A992C00F53EB8 /* CBaseStreamFileIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B691128A992C00F53EB8 /* CBaseStreamFileIndex.cpp */; };
+		F230B6AC128A992C00F53EB8 /* CBaseStreamFileIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B692128A992C00F53EB8 /* CBaseStreamFileIndex.h */; };
+		F230B6AD128A992C00F53EB8 /* CBaseStreamFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B693128A992C00F53EB8 /* CBaseStreamFileReader.cpp */; };
+		F230B6AE128A992C00F53EB8 /* CBaseStreamFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B694128A992C00F53EB8 /* CBaseStreamFileReader.h */; };
+		F230B6AF128A992C00F53EB8 /* CBaseStreamFileTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B695128A992C00F53EB8 /* CBaseStreamFileTrack.cpp */; };
+		F230B6B0128A992C00F53EB8 /* CBaseStreamFileTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B696128A992C00F53EB8 /* CBaseStreamFileTrack.h */; };
+		F230B6B1128A992C00F53EB8 /* CBaseTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B697128A992C00F53EB8 /* CBaseTrack.cpp */; };
+		F230B6B2128A992C00F53EB8 /* CBaseTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B698128A992C00F53EB8 /* CBaseTrack.h */; };
+		F230B6B3128A992C00F53EB8 /* CGBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B699128A992C00F53EB8 /* CGBuffer.cpp */; };
+		F230B6B4128A992C00F53EB8 /* CGBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B69A128A992C00F53EB8 /* CGBuffer.h */; };
+		F230B6B5128A992C00F53EB8 /* CGFileChunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B69B128A992C00F53EB8 /* CGFileChunk.cpp */; };
+		F230B6B6128A992C00F53EB8 /* CGFileChunk.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B69C128A992C00F53EB8 /* CGFileChunk.h */; };
+		F230B6B7128A992C00F53EB8 /* CMemPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B69D128A992C00F53EB8 /* CMemPool.cpp */; };
+		F230B6B8128A992C00F53EB8 /* CMemPool.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B69E128A992C00F53EB8 /* CMemPool.h */; };
+		F230B6B9128A992C00F53EB8 /* CvoBaseFileOpr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B69F128A992C00F53EB8 /* CvoBaseFileOpr.cpp */; };
+		F230B6BA128A992C00F53EB8 /* CvoBaseFileOpr.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A0128A992C00F53EB8 /* CvoBaseFileOpr.h */; };
+		F230B6BB128A992C00F53EB8 /* CvoBaseMemOpr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6A1128A992C00F53EB8 /* CvoBaseMemOpr.cpp */; };
+		F230B6BC128A992C00F53EB8 /* CvoBaseMemOpr.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A2128A992C00F53EB8 /* CvoBaseMemOpr.h */; };
+		F230B6BD128A992C00F53EB8 /* CvoFileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6A3128A992C00F53EB8 /* CvoFileParser.cpp */; };
+		F230B6BE128A992C00F53EB8 /* CvoFileParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A4128A992C00F53EB8 /* CvoFileParser.h */; };
+		F230B6BF128A992C00F53EB8 /* fCodec.c in Sources */ = {isa = PBXBuildFile; fileRef = F230B6A5128A992C00F53EB8 /* fCodec.c */; };
+		F230B6C0128A992C00F53EB8 /* fCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A6128A992C00F53EB8 /* fCodec.h */; };
+		F230B6C1128A992C00F53EB8 /* fMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6A7128A992C00F53EB8 /* fMacros.h */; };
+		F230B6C2128A992C00F53EB8 /* voFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6A8128A992C00F53EB8 /* voFileReader.cpp */; };
+		F230B6C4128A993A00F53EB8 /* voFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6C3128A993A00F53EB8 /* voFile.h */; };
+		F230B6D1128A994900F53EB8 /* AsfFileDataStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6C5128A994900F53EB8 /* AsfFileDataStruct.h */; };
+		F230B6D2128A994900F53EB8 /* AsfFileGuid.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6C6128A994900F53EB8 /* AsfFileGuid.h */; };
+		F230B6D3128A994900F53EB8 /* CAsfAudioTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6C7128A994900F53EB8 /* CAsfAudioTrack.cpp */; };
+		F230B6D4128A994900F53EB8 /* CAsfAudioTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6C8128A994900F53EB8 /* CAsfAudioTrack.h */; };
+		F230B6D5128A994900F53EB8 /* CAsfParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6C9128A994900F53EB8 /* CAsfParser.cpp */; };
+		F230B6D6128A994900F53EB8 /* CAsfParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6CA128A994900F53EB8 /* CAsfParser.h */; };
+		F230B6D7128A994900F53EB8 /* CAsfReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6CB128A994900F53EB8 /* CAsfReader.cpp */; };
+		F230B6D8128A994900F53EB8 /* CAsfReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6CC128A994900F53EB8 /* CAsfReader.h */; };
+		F230B6D9128A994900F53EB8 /* CAsfTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6CD128A994900F53EB8 /* CAsfTrack.cpp */; };
+		F230B6DA128A994900F53EB8 /* CAsfTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6CE128A994900F53EB8 /* CAsfTrack.h */; };
+		F230B6DB128A994900F53EB8 /* CAsfVideoTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F230B6CF128A994900F53EB8 /* CAsfVideoTrack.cpp */; };
+		F230B6DC128A994900F53EB8 /* CAsfVideoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F230B6D0128A994900F53EB8 /* CAsfVideoTrack.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		769CCD911495E4C500D9EFF4 /* libvoASFFR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoASFFR.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D0BC6D14ECC6FE0044AC0F /* libvoASFFR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoASFFR.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D50D251484D641001BF2F3 /* fVideoHeadDataInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fVideoHeadDataInfo.cpp; path = ../../../../Common/fVideoHeadDataInfo.cpp; sourceTree = SOURCE_ROOT; };
+		76D50D261484D641001BF2F3 /* fVideoHeadDataInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fVideoHeadDataInfo.h; path = ../../../../Common/fVideoHeadDataInfo.h; sourceTree = SOURCE_ROOT; };
+		AA747D9E0F9514B9006C5449 /* voASFFR_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voASFFR_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libvoASFFR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoASFFR.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22E4CB2129138DC00726B95 /* CvoBaseDrmCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseDrmCallback.cpp; path = ../../../File/Common/CvoBaseDrmCallback.cpp; sourceTree = SOURCE_ROOT; };
+		F22E4CB3129138DC00726B95 /* CvoBaseDrmCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseDrmCallback.h; path = ../../../File/Common/CvoBaseDrmCallback.h; sourceTree = SOURCE_ROOT; };
+		F230B67B128A98AB00F53EB8 /* CASFMetaData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CASFMetaData.cpp; path = ../../../File/MetaData/CASFMetaData.cpp; sourceTree = SOURCE_ROOT; };
+		F230B67C128A98AB00F53EB8 /* CASFMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CASFMetaData.h; path = ../../../File/MetaData/CASFMetaData.h; sourceTree = SOURCE_ROOT; };
+		F230B67D128A98AB00F53EB8 /* CBaseMetaData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseMetaData.cpp; path = ../../../File/MetaData/CBaseMetaData.cpp; sourceTree = SOURCE_ROOT; };
+		F230B67E128A98AB00F53EB8 /* CBaseMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseMetaData.h; path = ../../../File/MetaData/CBaseMetaData.h; sourceTree = SOURCE_ROOT; };
+		F230B683128A98E400F53EB8 /* cmnFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cmnFile.cpp; path = ../../../../Common/cmnFile.cpp; sourceTree = SOURCE_ROOT; };
+		F230B684128A98E400F53EB8 /* cmnFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmnFile.h; path = ../../../../Common/cmnFile.h; sourceTree = SOURCE_ROOT; };
+		F230B685128A98E400F53EB8 /* cmnMemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cmnMemory.c; path = ../../../../Common/cmnMemory.c; sourceTree = SOURCE_ROOT; };
+		F230B686128A98E400F53EB8 /* cmnMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmnMemory.h; path = ../../../../Common/cmnMemory.h; sourceTree = SOURCE_ROOT; };
+		F230B687128A98E400F53EB8 /* CvoBaseObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseObject.cpp; path = ../../../../Common/CvoBaseObject.cpp; sourceTree = SOURCE_ROOT; };
+		F230B688128A98E400F53EB8 /* CvoBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseObject.h; path = ../../../../Common/CvoBaseObject.h; sourceTree = SOURCE_ROOT; };
+		F230B68F128A992C00F53EB8 /* CBaseReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseReader.cpp; path = ../../../File/Common/CBaseReader.cpp; sourceTree = SOURCE_ROOT; };
+		F230B690128A992C00F53EB8 /* CBaseReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseReader.h; path = ../../../File/Common/CBaseReader.h; sourceTree = SOURCE_ROOT; };
+		F230B691128A992C00F53EB8 /* CBaseStreamFileIndex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseStreamFileIndex.cpp; path = ../../../File/Common/CBaseStreamFileIndex.cpp; sourceTree = SOURCE_ROOT; };
+		F230B692128A992C00F53EB8 /* CBaseStreamFileIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseStreamFileIndex.h; path = ../../../File/Common/CBaseStreamFileIndex.h; sourceTree = SOURCE_ROOT; };
+		F230B693128A992C00F53EB8 /* CBaseStreamFileReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseStreamFileReader.cpp; path = ../../../File/Common/CBaseStreamFileReader.cpp; sourceTree = SOURCE_ROOT; };
+		F230B694128A992C00F53EB8 /* CBaseStreamFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseStreamFileReader.h; path = ../../../File/Common/CBaseStreamFileReader.h; sourceTree = SOURCE_ROOT; };
+		F230B695128A992C00F53EB8 /* CBaseStreamFileTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseStreamFileTrack.cpp; path = ../../../File/Common/CBaseStreamFileTrack.cpp; sourceTree = SOURCE_ROOT; };
+		F230B696128A992C00F53EB8 /* CBaseStreamFileTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseStreamFileTrack.h; path = ../../../File/Common/CBaseStreamFileTrack.h; sourceTree = SOURCE_ROOT; };
+		F230B697128A992C00F53EB8 /* CBaseTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBaseTrack.cpp; path = ../../../File/Common/CBaseTrack.cpp; sourceTree = SOURCE_ROOT; };
+		F230B698128A992C00F53EB8 /* CBaseTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBaseTrack.h; path = ../../../File/Common/CBaseTrack.h; sourceTree = SOURCE_ROOT; };
+		F230B699128A992C00F53EB8 /* CGBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGBuffer.cpp; path = ../../../File/Common/CGBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		F230B69A128A992C00F53EB8 /* CGBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGBuffer.h; path = ../../../File/Common/CGBuffer.h; sourceTree = SOURCE_ROOT; };
+		F230B69B128A992C00F53EB8 /* CGFileChunk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGFileChunk.cpp; path = ../../../File/Common/CGFileChunk.cpp; sourceTree = SOURCE_ROOT; };
+		F230B69C128A992C00F53EB8 /* CGFileChunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGFileChunk.h; path = ../../../File/Common/CGFileChunk.h; sourceTree = SOURCE_ROOT; };
+		F230B69D128A992C00F53EB8 /* CMemPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMemPool.cpp; path = ../../../File/Common/CMemPool.cpp; sourceTree = SOURCE_ROOT; };
+		F230B69E128A992C00F53EB8 /* CMemPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMemPool.h; path = ../../../File/Common/CMemPool.h; sourceTree = SOURCE_ROOT; };
+		F230B69F128A992C00F53EB8 /* CvoBaseFileOpr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseFileOpr.cpp; path = ../../../File/Common/CvoBaseFileOpr.cpp; sourceTree = SOURCE_ROOT; };
+		F230B6A0128A992C00F53EB8 /* CvoBaseFileOpr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseFileOpr.h; path = ../../../File/Common/CvoBaseFileOpr.h; sourceTree = SOURCE_ROOT; };
+		F230B6A1128A992C00F53EB8 /* CvoBaseMemOpr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoBaseMemOpr.cpp; path = ../../../File/Common/CvoBaseMemOpr.cpp; sourceTree = SOURCE_ROOT; };
+		F230B6A2128A992C00F53EB8 /* CvoBaseMemOpr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoBaseMemOpr.h; path = ../../../File/Common/CvoBaseMemOpr.h; sourceTree = SOURCE_ROOT; };
+		F230B6A3128A992C00F53EB8 /* CvoFileParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CvoFileParser.cpp; path = ../../../File/Common/CvoFileParser.cpp; sourceTree = SOURCE_ROOT; };
+		F230B6A4128A992C00F53EB8 /* CvoFileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvoFileParser.h; path = ../../../File/Common/CvoFileParser.h; sourceTree = SOURCE_ROOT; };
+		F230B6A5128A992C00F53EB8 /* fCodec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fCodec.c; path = ../../../File/Common/fCodec.c; sourceTree = SOURCE_ROOT; };
+		F230B6A6128A992C00F53EB8 /* fCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fCodec.h; path = ../../../File/Common/fCodec.h; sourceTree = SOURCE_ROOT; };
+		F230B6A7128A992C00F53EB8 /* fMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fMacros.h; path = ../../../File/Common/fMacros.h; sourceTree = SOURCE_ROOT; };
+		F230B6A8128A992C00F53EB8 /* voFileReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voFileReader.cpp; path = ../../../File/Common/voFileReader.cpp; sourceTree = SOURCE_ROOT; };
+		F230B6C3128A993A00F53EB8 /* voFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voFile.h; path = ../../../../Include/voFile.h; sourceTree = SOURCE_ROOT; };
+		F230B6C5128A994900F53EB8 /* AsfFileDataStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsfFileDataStruct.h; path = ../../../File/ASF/AsfFileDataStruct.h; sourceTree = SOURCE_ROOT; };
+		F230B6C6128A994900F53EB8 /* AsfFileGuid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsfFileGuid.h; path = ../../../File/ASF/AsfFileGuid.h; sourceTree = SOURCE_ROOT; };
+		F230B6C7128A994900F53EB8 /* CAsfAudioTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAsfAudioTrack.cpp; path = ../../../File/ASF/CAsfAudioTrack.cpp; sourceTree = SOURCE_ROOT; };
+		F230B6C8128A994900F53EB8 /* CAsfAudioTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAsfAudioTrack.h; path = ../../../File/ASF/CAsfAudioTrack.h; sourceTree = SOURCE_ROOT; };
+		F230B6C9128A994900F53EB8 /* CAsfParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAsfParser.cpp; path = ../../../File/ASF/CAsfParser.cpp; sourceTree = SOURCE_ROOT; };
+		F230B6CA128A994900F53EB8 /* CAsfParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAsfParser.h; path = ../../../File/ASF/CAsfParser.h; sourceTree = SOURCE_ROOT; };
+		F230B6CB128A994900F53EB8 /* CAsfReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAsfReader.cpp; path = ../../../File/ASF/CAsfReader.cpp; sourceTree = SOURCE_ROOT; };
+		F230B6CC128A994900F53EB8 /* CAsfReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAsfReader.h; path = ../../../File/ASF/CAsfReader.h; sourceTree = SOURCE_ROOT; };
+		F230B6CD128A994900F53EB8 /* CAsfTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAsfTrack.cpp; path = ../../../File/ASF/CAsfTrack.cpp; sourceTree = SOURCE_ROOT; };
+		F230B6CE128A994900F53EB8 /* CAsfTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAsfTrack.h; path = ../../../File/ASF/CAsfTrack.h; sourceTree = SOURCE_ROOT; };
+		F230B6CF128A994900F53EB8 /* CAsfVideoTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAsfVideoTrack.cpp; path = ../../../File/ASF/CAsfVideoTrack.cpp; sourceTree = SOURCE_ROOT; };
+		F230B6D0128A994900F53EB8 /* CAsfVideoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAsfVideoTrack.h; path = ../../../File/ASF/CAsfVideoTrack.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		769CCD8B1495E4C400D9EFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769CCD8C1495E4C400D9EFF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D0BC6714ECC6FE0044AC0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D0BC6814ECC6FE0044AC0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libvoASFFR.a */,
+				769CCD911495E4C500D9EFF4 /* libvoASFFR.a */,
+				76D0BC6D14ECC6FE0044AC0F /* libvoASFFR.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* voASFFR */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = voASFFR;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76D50D241484D62C001BF2F3 /* Common */,
+				F230B5B2128A91C400F53EB8 /* ID3 */,
+				F230B5B1128A919D00F53EB8 /* Common */,
+				F230B5AE128A919500F53EB8 /* ASF */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* voASFFR_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		76D50D241484D62C001BF2F3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				76D50D251484D641001BF2F3 /* fVideoHeadDataInfo.cpp */,
+				76D50D261484D641001BF2F3 /* fVideoHeadDataInfo.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		F230B5AE128A919500F53EB8 /* ASF */ = {
+			isa = PBXGroup;
+			children = (
+				F230B6C5128A994900F53EB8 /* AsfFileDataStruct.h */,
+				F230B6C6128A994900F53EB8 /* AsfFileGuid.h */,
+				F230B6C7128A994900F53EB8 /* CAsfAudioTrack.cpp */,
+				F230B6C8128A994900F53EB8 /* CAsfAudioTrack.h */,
+				F230B6C9128A994900F53EB8 /* CAsfParser.cpp */,
+				F230B6CA128A994900F53EB8 /* CAsfParser.h */,
+				F230B6CB128A994900F53EB8 /* CAsfReader.cpp */,
+				F230B6CC128A994900F53EB8 /* CAsfReader.h */,
+				F230B6CD128A994900F53EB8 /* CAsfTrack.cpp */,
+				F230B6CE128A994900F53EB8 /* CAsfTrack.h */,
+				F230B6CF128A994900F53EB8 /* CAsfVideoTrack.cpp */,
+				F230B6D0128A994900F53EB8 /* CAsfVideoTrack.h */,
+			);
+			name = ASF;
+			sourceTree = "<group>";
+		};
+		F230B5B1128A919D00F53EB8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F22E4CB2129138DC00726B95 /* CvoBaseDrmCallback.cpp */,
+				F22E4CB3129138DC00726B95 /* CvoBaseDrmCallback.h */,
+				F230B6C3128A993A00F53EB8 /* voFile.h */,
+				F230B68F128A992C00F53EB8 /* CBaseReader.cpp */,
+				F230B690128A992C00F53EB8 /* CBaseReader.h */,
+				F230B691128A992C00F53EB8 /* CBaseStreamFileIndex.cpp */,
+				F230B692128A992C00F53EB8 /* CBaseStreamFileIndex.h */,
+				F230B693128A992C00F53EB8 /* CBaseStreamFileReader.cpp */,
+				F230B694128A992C00F53EB8 /* CBaseStreamFileReader.h */,
+				F230B695128A992C00F53EB8 /* CBaseStreamFileTrack.cpp */,
+				F230B696128A992C00F53EB8 /* CBaseStreamFileTrack.h */,
+				F230B697128A992C00F53EB8 /* CBaseTrack.cpp */,
+				F230B698128A992C00F53EB8 /* CBaseTrack.h */,
+				F230B699128A992C00F53EB8 /* CGBuffer.cpp */,
+				F230B69A128A992C00F53EB8 /* CGBuffer.h */,
+				F230B69B128A992C00F53EB8 /* CGFileChunk.cpp */,
+				F230B69C128A992C00F53EB8 /* CGFileChunk.h */,
+				F230B69D128A992C00F53EB8 /* CMemPool.cpp */,
+				F230B69E128A992C00F53EB8 /* CMemPool.h */,
+				F230B69F128A992C00F53EB8 /* CvoBaseFileOpr.cpp */,
+				F230B6A0128A992C00F53EB8 /* CvoBaseFileOpr.h */,
+				F230B6A1128A992C00F53EB8 /* CvoBaseMemOpr.cpp */,
+				F230B6A2128A992C00F53EB8 /* CvoBaseMemOpr.h */,
+				F230B6A3128A992C00F53EB8 /* CvoFileParser.cpp */,
+				F230B6A4128A992C00F53EB8 /* CvoFileParser.h */,
+				F230B6A5128A992C00F53EB8 /* fCodec.c */,
+				F230B6A6128A992C00F53EB8 /* fCodec.h */,
+				F230B6A7128A992C00F53EB8 /* fMacros.h */,
+				F230B6A8128A992C00F53EB8 /* voFileReader.cpp */,
+				F230B683128A98E400F53EB8 /* cmnFile.cpp */,
+				F230B684128A98E400F53EB8 /* cmnFile.h */,
+				F230B685128A98E400F53EB8 /* cmnMemory.c */,
+				F230B686128A98E400F53EB8 /* cmnMemory.h */,
+				F230B687128A98E400F53EB8 /* CvoBaseObject.cpp */,
+				F230B688128A98E400F53EB8 /* CvoBaseObject.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		F230B5B2128A91C400F53EB8 /* ID3 */ = {
+			isa = PBXGroup;
+			children = (
+				F230B67B128A98AB00F53EB8 /* CASFMetaData.cpp */,
+				F230B67C128A98AB00F53EB8 /* CASFMetaData.h */,
+				F230B67D128A98AB00F53EB8 /* CBaseMetaData.cpp */,
+				F230B67E128A98AB00F53EB8 /* CBaseMetaData.h */,
+			);
+			name = ID3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		769CCD531495E4C400D9EFF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769CCD541495E4C400D9EFF4 /* voASFFR_Prefix.pch in Headers */,
+				769CCD551495E4C400D9EFF4 /* CASFMetaData.h in Headers */,
+				769CCD561495E4C400D9EFF4 /* CBaseMetaData.h in Headers */,
+				769CCD571495E4C400D9EFF4 /* cmnFile.h in Headers */,
+				769CCD581495E4C400D9EFF4 /* cmnMemory.h in Headers */,
+				769CCD591495E4C400D9EFF4 /* CvoBaseObject.h in Headers */,
+				769CCD5A1495E4C400D9EFF4 /* CBaseReader.h in Headers */,
+				769CCD5B1495E4C400D9EFF4 /* CBaseStreamFileIndex.h in Headers */,
+				769CCD5C1495E4C400D9EFF4 /* CBaseStreamFileReader.h in Headers */,
+				769CCD5D1495E4C400D9EFF4 /* CBaseStreamFileTrack.h in Headers */,
+				769CCD5E1495E4C400D9EFF4 /* CBaseTrack.h in Headers */,
+				769CCD5F1495E4C400D9EFF4 /* CGBuffer.h in Headers */,
+				769CCD601495E4C400D9EFF4 /* CGFileChunk.h in Headers */,
+				769CCD611495E4C400D9EFF4 /* CMemPool.h in Headers */,
+				769CCD621495E4C400D9EFF4 /* CvoBaseFileOpr.h in Headers */,
+				769CCD631495E4C400D9EFF4 /* CvoBaseMemOpr.h in Headers */,
+				769CCD641495E4C400D9EFF4 /* CvoFileParser.h in Headers */,
+				769CCD651495E4C400D9EFF4 /* fCodec.h in Headers */,
+				769CCD661495E4C400D9EFF4 /* fMacros.h in Headers */,
+				769CCD671495E4C400D9EFF4 /* voFile.h in Headers */,
+				769CCD681495E4C400D9EFF4 /* AsfFileDataStruct.h in Headers */,
+				769CCD691495E4C400D9EFF4 /* AsfFileGuid.h in Headers */,
+				769CCD6A1495E4C400D9EFF4 /* CAsfAudioTrack.h in Headers */,
+				769CCD6B1495E4C400D9EFF4 /* CAsfParser.h in Headers */,
+				769CCD6C1495E4C400D9EFF4 /* CAsfReader.h in Headers */,
+				769CCD6D1495E4C400D9EFF4 /* CAsfTrack.h in Headers */,
+				769CCD6E1495E4C400D9EFF4 /* CAsfVideoTrack.h in Headers */,
+				769CCD6F1495E4C400D9EFF4 /* CvoBaseDrmCallback.h in Headers */,
+				769CCD701495E4C400D9EFF4 /* fVideoHeadDataInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D0BC2F14ECC6FE0044AC0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D0BC3014ECC6FE0044AC0F /* voASFFR_Prefix.pch in Headers */,
+				76D0BC3114ECC6FE0044AC0F /* CASFMetaData.h in Headers */,
+				76D0BC3214ECC6FE0044AC0F /* CBaseMetaData.h in Headers */,
+				76D0BC3314ECC6FE0044AC0F /* cmnFile.h in Headers */,
+				76D0BC3414ECC6FE0044AC0F /* cmnMemory.h in Headers */,
+				76D0BC3514ECC6FE0044AC0F /* CvoBaseObject.h in Headers */,
+				76D0BC3614ECC6FE0044AC0F /* CBaseReader.h in Headers */,
+				76D0BC3714ECC6FE0044AC0F /* CBaseStreamFileIndex.h in Headers */,
+				76D0BC3814ECC6FE0044AC0F /* CBaseStreamFileReader.h in Headers */,
+				76D0BC3914ECC6FE0044AC0F /* CBaseStreamFileTrack.h in Headers */,
+				76D0BC3A14ECC6FE0044AC0F /* CBaseTrack.h in Headers */,
+				76D0BC3B14ECC6FE0044AC0F /* CGBuffer.h in Headers */,
+				76D0BC3C14ECC6FE0044AC0F /* CGFileChunk.h in Headers */,
+				76D0BC3D14ECC6FE0044AC0F /* CMemPool.h in Headers */,
+				76D0BC3E14ECC6FE0044AC0F /* CvoBaseFileOpr.h in Headers */,
+				76D0BC3F14ECC6FE0044AC0F /* CvoBaseMemOpr.h in Headers */,
+				76D0BC4014ECC6FE0044AC0F /* CvoFileParser.h in Headers */,
+				76D0BC4114ECC6FE0044AC0F /* fCodec.h in Headers */,
+				76D0BC4214ECC6FE0044AC0F /* fMacros.h in Headers */,
+				76D0BC4314ECC6FE0044AC0F /* voFile.h in Headers */,
+				76D0BC4414ECC6FE0044AC0F /* AsfFileDataStruct.h in Headers */,
+				76D0BC4514ECC6FE0044AC0F /* AsfFileGuid.h in Headers */,
+				76D0BC4614ECC6FE0044AC0F /* CAsfAudioTrack.h in Headers */,
+				76D0BC4714ECC6FE0044AC0F /* CAsfParser.h in Headers */,
+				76D0BC4814ECC6FE0044AC0F /* CAsfReader.h in Headers */,
+				76D0BC4914ECC6FE0044AC0F /* CAsfTrack.h in Headers */,
+				76D0BC4A14ECC6FE0044AC0F /* CAsfVideoTrack.h in Headers */,
+				76D0BC4B14ECC6FE0044AC0F /* CvoBaseDrmCallback.h in Headers */,
+				76D0BC4C14ECC6FE0044AC0F /* fVideoHeadDataInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* voASFFR_Prefix.pch in Headers */,
+				F230B680128A98AB00F53EB8 /* CASFMetaData.h in Headers */,
+				F230B682128A98AB00F53EB8 /* CBaseMetaData.h in Headers */,
+				F230B68A128A98E400F53EB8 /* cmnFile.h in Headers */,
+				F230B68C128A98E400F53EB8 /* cmnMemory.h in Headers */,
+				F230B68E128A98E400F53EB8 /* CvoBaseObject.h in Headers */,
+				F230B6AA128A992C00F53EB8 /* CBaseReader.h in Headers */,
+				F230B6AC128A992C00F53EB8 /* CBaseStreamFileIndex.h in Headers */,
+				F230B6AE128A992C00F53EB8 /* CBaseStreamFileReader.h in Headers */,
+				F230B6B0128A992C00F53EB8 /* CBaseStreamFileTrack.h in Headers */,
+				F230B6B2128A992C00F53EB8 /* CBaseTrack.h in Headers */,
+				F230B6B4128A992C00F53EB8 /* CGBuffer.h in Headers */,
+				F230B6B6128A992C00F53EB8 /* CGFileChunk.h in Headers */,
+				F230B6B8128A992C00F53EB8 /* CMemPool.h in Headers */,
+				F230B6BA128A992C00F53EB8 /* CvoBaseFileOpr.h in Headers */,
+				F230B6BC128A992C00F53EB8 /* CvoBaseMemOpr.h in Headers */,
+				F230B6BE128A992C00F53EB8 /* CvoFileParser.h in Headers */,
+				F230B6C0128A992C00F53EB8 /* fCodec.h in Headers */,
+				F230B6C1128A992C00F53EB8 /* fMacros.h in Headers */,
+				F230B6C4128A993A00F53EB8 /* voFile.h in Headers */,
+				F230B6D1128A994900F53EB8 /* AsfFileDataStruct.h in Headers */,
+				F230B6D2128A994900F53EB8 /* AsfFileGuid.h in Headers */,
+				F230B6D4128A994900F53EB8 /* CAsfAudioTrack.h in Headers */,
+				F230B6D6128A994900F53EB8 /* CAsfParser.h in Headers */,
+				F230B6D8128A994900F53EB8 /* CAsfReader.h in Headers */,
+				F230B6DA128A994900F53EB8 /* CAsfTrack.h in Headers */,
+				F230B6DC128A994900F53EB8 /* CAsfVideoTrack.h in Headers */,
+				F22E4CB5129138DC00726B95 /* CvoBaseDrmCallback.h in Headers */,
+				76D50D281484D641001BF2F3 /* fVideoHeadDataInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		769CCD521495E4C400D9EFF4 /* voASFFR_v7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769CCD8E1495E4C400D9EFF4 /* Build configuration list for PBXNativeTarget "voASFFR_v7" */;
+			buildPhases = (
+				769CCD531495E4C400D9EFF4 /* Headers */,
+				769CCD711495E4C400D9EFF4 /* Sources */,
+				769CCD8B1495E4C400D9EFF4 /* Frameworks */,
+				769CCD8D1495E4C400D9EFF4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voASFFR_v7;
+			productName = voASFFR;
+			productReference = 769CCD911495E4C500D9EFF4 /* libvoASFFR.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		76D0BC2E14ECC6FE0044AC0F /* voASFFR_v6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D0BC6A14ECC6FE0044AC0F /* Build configuration list for PBXNativeTarget "voASFFR_v6" */;
+			buildPhases = (
+				76D0BC2F14ECC6FE0044AC0F /* Headers */,
+				76D0BC4D14ECC6FE0044AC0F /* Sources */,
+				76D0BC6714ECC6FE0044AC0F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voASFFR_v6;
+			productName = voASFFR;
+			productReference = 76D0BC6D14ECC6FE0044AC0F /* libvoASFFR.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AAC07D0554694100DB518D /* voASFFR_sim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voASFFR_sim" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voASFFR_sim;
+			productName = voASFFR;
+			productReference = D2AAC07E0554694100DB518D /* libvoASFFR.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voASFFR" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* voASFFR */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* voASFFR_sim */,
+				769CCD521495E4C400D9EFF4 /* voASFFR_v7 */,
+				76D0BC2E14ECC6FE0044AC0F /* voASFFR_v6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		769CCD8D1495E4C400D9EFF4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "lipo -create \"../../../../../voRelease/iOS/static/v7/libvoASFFR.a\"  \"../../../../../voRelease/iOS/static/i386/libvoASFFR.a\" -output \"../../../../../voRelease/iOS/static/i386v7/libvoASFFR.a\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		769CCD711495E4C400D9EFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769CCD721495E4C400D9EFF4 /* CASFMetaData.cpp in Sources */,
+				769CCD731495E4C400D9EFF4 /* CBaseMetaData.cpp in Sources */,
+				769CCD741495E4C400D9EFF4 /* cmnFile.cpp in Sources */,
+				769CCD751495E4C400D9EFF4 /* cmnMemory.c in Sources */,
+				769CCD761495E4C400D9EFF4 /* CvoBaseObject.cpp in Sources */,
+				769CCD771495E4C400D9EFF4 /* CBaseReader.cpp in Sources */,
+				769CCD781495E4C400D9EFF4 /* CBaseStreamFileIndex.cpp in Sources */,
+				769CCD791495E4C400D9EFF4 /* CBaseStreamFileReader.cpp in Sources */,
+				769CCD7A1495E4C400D9EFF4 /* CBaseStreamFileTrack.cpp in Sources */,
+				769CCD7B1495E4C400D9EFF4 /* CBaseTrack.cpp in Sources */,
+				769CCD7C1495E4C400D9EFF4 /* CGBuffer.cpp in Sources */,
+				769CCD7D1495E4C400D9EFF4 /* CGFileChunk.cpp in Sources */,
+				769CCD7E1495E4C400D9EFF4 /* CMemPool.cpp in Sources */,
+				769CCD7F1495E4C400D9EFF4 /* CvoBaseFileOpr.cpp in Sources */,
+				769CCD801495E4C400D9EFF4 /* CvoBaseMemOpr.cpp in Sources */,
+				769CCD811495E4C400D9EFF4 /* CvoFileParser.cpp in Sources */,
+				769CCD821495E4C400D9EFF4 /* fCodec.c in Sources */,
+				769CCD831495E4C400D9EFF4 /* voFileReader.cpp in Sources */,
+				769CCD841495E4C400D9EFF4 /* CAsfAudioTrack.cpp in Sources */,
+				769CCD851495E4C400D9EFF4 /* CAsfParser.cpp in Sources */,
+				769CCD861495E4C400D9EFF4 /* CAsfReader.cpp in Sources */,
+				769CCD871495E4C400D9EFF4 /* CAsfTrack.cpp in Sources */,
+				769CCD881495E4C400D9EFF4 /* CAsfVideoTrack.cpp in Sources */,
+				769CCD891495E4C400D9EFF4 /* CvoBaseDrmCallback.cpp in Sources */,
+				769CCD8A1495E4C400D9EFF4 /* fVideoHeadDataInfo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D0BC4D14ECC6FE0044AC0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D0BC4E14ECC6FE0044AC0F /* CASFMetaData.cpp in Sources */,
+				76D0BC4F14ECC6FE0044AC0F /* CBaseMetaData.cpp in Sources */,
+				76D0BC5014ECC6FE0044AC0F /* cmnFile.cpp in Sources */,
+				76D0BC5114ECC6FE0044AC0F /* cmnMemory.c in Sources */,
+				76D0BC5214ECC6FE0044AC0F /* CvoBaseObject.cpp in Sources */,
+				76D0BC5314ECC6FE0044AC0F /* CBaseReader.cpp in Sources */,
+				76D0BC5414ECC6FE0044AC0F /* CBaseStreamFileIndex.cpp in Sources */,
+				76D0BC5514ECC6FE0044AC0F /* CBaseStreamFileReader.cpp in Sources */,
+				76D0BC5614ECC6FE0044AC0F /* CBaseStreamFileTrack.cpp in Sources */,
+				76D0BC5714ECC6FE0044AC0F /* CBaseTrack.cpp in Sources */,
+				76D0BC5814ECC6FE0044AC0F /* CGBuffer.cpp in Sources */,
+				76D0BC5914ECC6FE0044AC0F /* CGFileChunk.cpp in Sources */,
+				76D0BC5A14ECC6FE0044AC0F /* CMemPool.cpp in Sources */,
+				76D0BC5B14ECC6FE0044AC0F /* CvoBaseFileOpr.cpp in Sources */,
+				76D0BC5C14ECC6FE0044AC0F /* CvoBaseMemOpr.cpp in Sources */,
+				76D0BC5D14ECC6FE0044AC0F /* CvoFileParser.cpp in Sources */,
+				76D0BC5E14ECC6FE0044AC0F /* fCodec.c in Sources */,
+				76D0BC5F14ECC6FE0044AC0F /* voFileReader.cpp in Sources */,
+				76D0BC6014ECC6FE0044AC0F /* CAsfAudioTrack.cpp in Sources */,
+				76D0BC6114ECC6FE0044AC0F /* CAsfParser.cpp in Sources */,
+				76D0BC6214ECC6FE0044AC0F /* CAsfReader.cpp in Sources */,
+				76D0BC6314ECC6FE0044AC0F /* CAsfTrack.cpp in Sources */,
+				76D0BC6414ECC6FE0044AC0F /* CAsfVideoTrack.cpp in Sources */,
+				76D0BC6514ECC6FE0044AC0F /* CvoBaseDrmCallback.cpp in Sources */,
+				76D0BC6614ECC6FE0044AC0F /* fVideoHeadDataInfo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F230B67F128A98AB00F53EB8 /* CASFMetaData.cpp in Sources */,
+				F230B681128A98AB00F53EB8 /* CBaseMetaData.cpp in Sources */,
+				F230B689128A98E400F53EB8 /* cmnFile.cpp in Sources */,
+				F230B68B128A98E400F53EB8 /* cmnMemory.c in Sources */,
+				F230B68D128A98E400F53EB8 /* CvoBaseObject.cpp in Sources */,
+				F230B6A9128A992C00F53EB8 /* CBaseReader.cpp in Sources */,
+				F230B6AB128A992C00F53EB8 /* CBaseStreamFileIndex.cpp in Sources */,
+				F230B6AD128A992C00F53EB8 /* CBaseStreamFileReader.cpp in Sources */,
+				F230B6AF128A992C00F53EB8 /* CBaseStreamFileTrack.cpp in Sources */,
+				F230B6B1128A992C00F53EB8 /* CBaseTrack.cpp in Sources */,
+				F230B6B3128A992C00F53EB8 /* CGBuffer.cpp in Sources */,
+				F230B6B5128A992C00F53EB8 /* CGFileChunk.cpp in Sources */,
+				F230B6B7128A992C00F53EB8 /* CMemPool.cpp in Sources */,
+				F230B6B9128A992C00F53EB8 /* CvoBaseFileOpr.cpp in Sources */,
+				F230B6BB128A992C00F53EB8 /* CvoBaseMemOpr.cpp in Sources */,
+				F230B6BD128A992C00F53EB8 /* CvoFileParser.cpp in Sources */,
+				F230B6BF128A992C00F53EB8 /* fCodec.c in Sources */,
+				F230B6C2128A992C00F53EB8 /* voFileReader.cpp in Sources */,
+				F230B6D3128A994900F53EB8 /* CAsfAudioTrack.cpp in Sources */,
+				F230B6D5128A994900F53EB8 /* CAsfParser.cpp in Sources */,
+				F230B6D7128A994900F53EB8 /* CAsfReader.cpp in Sources */,
+				F230B6D9128A994900F53EB8 /* CAsfTrack.cpp in Sources */,
+				F230B6DB128A994900F53EB8 /* CAsfVideoTrack.cpp in Sources */,
+				F22E4CB4129138DC00726B95 /* CvoBaseDrmCallback.cpp in Sources */,
+				76D50D271484D641001BF2F3 /* fVideoHeadDataInfo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voASFFR.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voASFFR_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					_ASF_READER,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../Include,
+					../../../File/Common,
+					../../../File/ASF,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voASFFR;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../../../../voRelease/iOS/static/i386/;
+				DSTROOT = /tmp/voASFFR.dst;
+				EXPORTED_SYMBOLS_FILE = "";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voASFFR_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_ASF_READER,
+					_IOS,
+					"voFROpen=voFROpenAsf",
+					"voFRClose=voFRCloseAsf",
+					"voFRGetFileInfo=voFRGetFileInfoAsf",
+					"voFRGetTrackInfo=voFRGetTrackInfoAsf",
+					"voFRGetSample=voFRGetSampleAsf",
+					"voFRSetPos=voFRSetPosAsf",
+					"voFRSetFileParam=voFRSetFileParamAsf",
+					"voFRGetFileParam=voFRGetFileParamAsf",
+					"voFRSetTrackParam=voFRSetTrackParamAsf",
+					"voFRGetTrackParam=voFRGetTrackParamAsf",
+					"g_dwFRModuleID=g_dwFRModuleIDAsf",
+					"g_hInst=g_hInstAsf",
+					"CBaseReader=CBaseReaderAsf",
+					"CvoBaseFileOpr=CvoBaseFileOprAsf",
+					"CvoBaseMemOpr=CvoBaseMemOprAsf",
+					"CvoBaseDrmCallback=CvoBaseDrmCallbackAsf",
+					"CBaseTrack=CBaseTrackAsf",
+					"CBaseStreamFileReader=CBaseStreamFileReaderAsf",
+					"CBaseStreamFileTrack=CBaseStreamFileTrackAsf",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../Include,
+					../../../../Common,
+					../../../File/Common,
+					../../../File/ASF,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voASFFR;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					IPHONE_OS,
+					_ASF_READER,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../../Include,
+					../../../File/Common,
+					../../../File/ASF,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		769CCD8F1495E4C400D9EFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voASFFR.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voASFFR_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					_ASF_READER,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../Include,
+					../../../File/Common,
+					../../../File/ASF,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voASFFR;
+			};
+			name = Debug;
+		};
+		769CCD901495E4C400D9EFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CONFIGURATION_BUILD_DIR = ../../../../../voRelease/iOS/static/v7/;
+				DSTROOT = /tmp/voASFFR.dst;
+				EXPORTED_SYMBOLS_FILE = "";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voASFFR_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_ASF_READER,
+					_IOS,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../Include,
+					../../../../Common,
+					../../../File/Common,
+					../../../File/ASF,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voASFFR;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		76D0BC6B14ECC6FE0044AC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voASFFR.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voASFFR_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					_ASF_READER,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../Include,
+					../../../File/Common,
+					../../../File/ASF,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voASFFR;
+			};
+			name = Debug;
+		};
+		76D0BC6C14ECC6FE0044AC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../../../../voRelease/iOS/static/v6;
+				DSTROOT = /tmp/voASFFR.dst;
+				EXPORTED_SYMBOLS_FILE = "";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voASFFR_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_ASF_READER,
+					_IOS,
+					"voFROpen=voFROpenAsf",
+					"voFRClose=voFRCloseAsf",
+					"voFRGetFileInfo=voFRGetFileInfoAsf",
+					"voFRGetTrackInfo=voFRGetTrackInfoAsf",
+					"voFRGetSample=voFRGetSampleAsf",
+					"voFRSetPos=voFRSetPosAsf",
+					"voFRSetFileParam=voFRSetFileParamAsf",
+					"voFRGetFileParam=voFRGetFileParamAsf",
+					"voFRSetTrackParam=voFRSetTrackParamAsf",
+					"voFRGetTrackParam=voFRGetTrackParamAsf",
+					"g_dwFRModuleID=g_dwFRModuleIDAsf",
+					"g_hInst=g_hInstAsf",
+					"CBaseReader=CBaseReaderAsf",
+					"CvoBaseFileOpr=CvoBaseFileOprAsf",
+					"CvoBaseMemOpr=CvoBaseMemOprAsf",
+					"CvoBaseDrmCallback=CvoBaseDrmCallbackAsf",
+					"CBaseTrack=CBaseTrackAsf",
+					"CBaseStreamFileReader=CBaseStreamFileReaderAsf",
+					"CBaseStreamFileTrack=CBaseStreamFileTrackAsf",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../../Include,
+					../../../../Common,
+					../../../File/Common,
+					../../../File/ASF,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voASFFR;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voASFFR_sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voASFFR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769CCD8E1495E4C400D9EFF4 /* Build configuration list for PBXNativeTarget "voASFFR_v7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769CCD8F1495E4C400D9EFF4 /* Debug */,
+				769CCD901495E4C400D9EFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76D0BC6A14ECC6FE0044AC0F /* Build configuration list for PBXNativeTarget "voASFFR_v6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D0BC6B14ECC6FE0044AC0F /* Debug */,
+				76D0BC6C14ECC6FE0044AC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

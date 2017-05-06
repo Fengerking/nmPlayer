@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtpsrc", "rtpsrc.vcproj", "{6DC9AE10-A0C8-4296-9F5E-959395AA3946}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DC9AE10-A0C8-4296-9F5E-959395AA3946}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6DC9AE10-A0C8-4296-9F5E-959395AA3946}.Debug|Win32.Build.0 = Debug|Win32
+		{6DC9AE10-A0C8-4296-9F5E-959395AA3946}.Release|Win32.ActiveCfg = Release|Win32
+		{6DC9AE10-A0C8-4296-9F5E-959395AA3946}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

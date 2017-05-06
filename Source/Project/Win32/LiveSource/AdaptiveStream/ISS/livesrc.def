@@ -1,0 +1,4 @@
+LIBRARY voAdaptiveStreamISS.dll
+
+EXPORTS
+	voGetAdaptiveStreamISSAPI

@@ -1,0 +1,37 @@
+/*
+********************************************************************************
+*
+*      GSM AMR-NB speech codec   R98   Version 7.6.0   December 12, 2001
+*                                R99   Version 3.3.0                
+*                                REL-4 Version 4.1.0                
+*
+********************************************************************************
+*
+*      File             : qua_gain.tab
+*      Purpose          : Tables for function Qua_gain()
+*      $Id $
+*
+********************************************************************************
+*/
+
+/* The tables contains the following data:
+
+      g_pitch        (Q14),
+      g_fac          (Q12), (g_code = g_code0*g_fac),
+      qua_ener_MR122 (Q10), (log2(g_fac))
+      qua_ener       (Q10)  (20*log10(g_fac))
+
+      The log2() and log10() values are calculated on the fixed point value
+      (g_fac Q12) and not on the original floating point value of g_fac
+      to make the quantizer/MA predictdor use corresponding values.
+ */
+
+/* table used in 'high' rates: MR67 MR74 */
+#define VQ_SIZE_HIGHRATES 128
+extern const Word16 table_gain_highrates[VQ_SIZE_HIGHRATES*4];
+
+
+/* table used in 'low' rates: MR475, MR515, MR59 */
+#define VQ_SIZE_LOWRATES 64
+extern const Word16 table_gain_lowrates[VQ_SIZE_LOWRATES*4];
+

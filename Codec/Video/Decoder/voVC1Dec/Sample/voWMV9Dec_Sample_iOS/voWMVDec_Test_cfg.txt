@@ -1,0 +1,25 @@
+"D:\Data_Cmp\rcv\VC1_D1_2Mbps.rcv"                  ..inputfile 
+"D:\Data_Cmp\out.yuv"     	..outputfile
+"D:\Data_Cmp\xxx\speed1.txt"  	..speedfile
+100	      ..decodeFrameNumber //the deout_train_1440x576_wmvdeccoded frame number you want
+1		  ..testCount  //for speed test,it is better to set it greater than 3
+0		  ..1 go on testing the next file,0:exit
+"D:\Data_Cmp\RCV\ComebackKoreaMTV_640x480_wmv9_MP_1500Kbps.rcv"             ..inputfile 
+"D:\Data_Cmp\xxx\xxx.yuv"  			 ..outputfile,if you do not want to output yuv for speed test,set it as an invalid directory
+"D:\Data_Cmp\xxx\speed4.txt"  			 ..speedfile
+100	      ..decodeFrameNumber //the decoded frame number you want,if you want to decode all,set it as a big number,say 100000
+1		  ..testCount  //for speed test,it is better to set it greater than 3
+1	      ..1 go on testing the next file,0:exit
+"D:\Data_Cmp\RCV\wmva-640x480.rcv"             ..inputfile 
+"D:\Data_Cmp\xxx\xxx.yuv"  			 ..outputfile,if you do not want to output yuv for speed test,set it as an invalid directory
+"D:\Data_Cmp\xxx\speed4.txt"  			 ..speedfile
+100	      ..decodeFrameNumber //the decoded frame number you want,if you want to decode all,set it as a big number,say 100000
+1		  ..testCount  //for speed test,it is better to set it greater than 3
+0	      ..1 go on testing the next file,0:exit
+"D:\Data_Cmp\RCV\wmva-640x480.rcv"             ..inputfile 
+"D:\Data_Cmp\xxx\xxx.yuv"  			 ..outputfile,if you do not want to output yuv for speed test,set it as an invalid directory
+"D:\Data_Cmp\xxx\speed4.txt"  			 ..speedfile
+10	      ..decodeFrameNumber //the decoded frame number you want,if you want to decode all,set it as a big number,say 100000
+1		  ..testCount  //for speed test,it is better to set it greater than 3
+0	      ..1 go on testing the next file,0:exit
+    

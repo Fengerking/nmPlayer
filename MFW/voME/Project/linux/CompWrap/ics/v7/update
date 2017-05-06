@@ -1,0 +1,8 @@
+#!/bin/sh
+adb push libvoOMXWrap_v7.so /data/data/com.visualon.osmpSamplePlayer/lib
+adb shell sync
+
+pid=$(adb shell ps | grep osmp | awk '{print $2}')
+if [ "$pid" != "" ]; then
+	adb shell kill -9 $pid
+fi

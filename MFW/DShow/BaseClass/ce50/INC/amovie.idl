@@ -1,0 +1,398 @@
+// amovie.idl
+
+#include <olectl.h>
+import "oaidl.idl";
+import "ocidl.idl";
+import "enums.idl";
+
+#include "..\inc\dsdispid.h"
+
+/////////////////////////////////////////////////////////////////////////////
+// ActiveMovie Enums
+
+typedef 
+[
+    helpstring("Direct Show Video Size"),
+    public
+] 
+enum WindowSizeConstants
+{
+    [helpstring("0 - Original size")]           amvOriginalSize,
+    [helpstring("1 - Double original size")]    amvDoubleOriginalSize,
+    [helpstring("2 - 1/16 of screen size")]     amvOneSixteenthScreen,
+    [helpstring("3 - 1/4 of screen size")]      amvOneFourthScreen,
+    [helpstring("4 - 1/2 of screen size")]      amvOneHalfScreen,
+} WindowSizeConstants;
+
+typedef [
+    helpstring("State of ActiveMovie Clip"),
+    public
+]
+enum StateConstants
+{
+    [helpstring("Movie is not loaded")] amvNotLoaded = -1,
+    // These values MUST be the same as the State_ constants in quartz\sdk\include\strmif.h
+    [helpstring("Movie is stopped")] amvStopped,
+    [helpstring("Movie is paused")] amvPaused,
+    [helpstring("Movie is running")] amvRunning
+} StateConstants;
+
+typedef [
+    helpstring("ActiveMovie Display Mode"),
+    public
+]
+enum DisplayModeConstants
+{
+    [helpstring("Time")] amvTime,
+    [helpstring("Frames")] amvFrames
+} DisplayModeConstants;
+
+typedef [
+    helpstring("ActiveMovie Appearance"),
+    public
+]
+enum AppearanceConstants
+{
+    [helpstring("Flat")] amvFlat,
+    [helpstring("3D")] amv3D
+} AppearanceConstants;
+
+typedef [
+    helpstring("ActiveMovie Border Style"),
+    public
+]
+enum BorderStyleConstants
+{
+    [helpstring("None")] amvNone,
+    [helpstring("Fixed Single")] amvFixedSingle
+} BorderStyleConstants;
+
+[
+    object,
+    uuid(05589fa2-c356-11ce-bf01-00aa0055595a),
+    helpstring("ActiveMovie Control"),
+    dual,
+    hidden,
+    pointer_default(unique)
+]
+interface IActiveMovie : IDispatch
+{
+    [id(DISPID_ABOUTBOX)]
+	HRESULT AboutBox();
+
+    // methods
+    [id(DISPID_RUN), helpstring("Puts the multimedia stream into Running state")]
+	HRESULT Run();
+
+    [id(DISPID_AM_PAUSE), helpstring("Puts the multimedia stream into Paused state")]
+	HRESULT Pause();
+
+    [id (DISPID_AM_STOP), helpstring("Puts the multimedia stream into Stopped state")]
+	HRESULT Stop();
+
+    // properties
+    //
+    [id(DISPID_AM_IMAGESOURCEWIDTH),
+     propget, helpstring("Returns the width of the movie image")]
+	HRESULT ImageSourceWidth([out, retval] long* pWidth);
+
+    [id(DISPID_AM_IMAGESOURCEHEIGHT),
+     propget, helpstring("Returns the height of the movie image")]
+	HRESULT ImageSourceHeight([out, retval] long* pHeight);
+
+    [id(DISPID_AM_AUTHOR),
+     propget, helpstring("Returns the name of the author of the movie clip")]
+	HRESULT Author([out, retval] BSTR* pbstrAuthor);
+
+    [id(DISPID_AM_TITLE),
+     propget, helpstring("Returns the title of the movie clip")]
+	HRESULT Title([out, retval] BSTR* pbstrTitle);
+
+    [id(DISPID_AM_COPYRIGHT),
+     propget, helpstring("Returns the copyright statement of the movie clip")]
+	HRESULT Copyright([out, retval] BSTR* pbstrCopyright);
+
+    [id(DISPID_AM_DESCRIPTION),
+     propget, helpstring("Returns the description of the movie clip")]
+	HRESULT Description([out, retval] BSTR* pbstrDescription);
+
+    [id(DISPID_AM_RATING),
+     propget, helpstring("Returns the rating of the movie clip")]
+	HRESULT Rating([out, retval] BSTR* pbstrRating);
+
+    [id(DISPID_AM_FILENAME),
+     propget, helpstring("Returns/sets the current multimedia file")]
+	HRESULT FileName([out, retval] BSTR* pbstrFileName);
+    [id(DISPID_AM_FILENAME),
+     propput, helpstring("Returns/sets the current multimedia file")]
+	HRESULT FileName([in] BSTR bstrFileName);
+
+    [id(DISPID_AM_DURATION),
+     propget, helpstring("Returns the duration of the multimedia stream, if known")]
+	HRESULT Duration([out, retval] double* pValue);
+
+    [id(DISPID_AM_CURRENTPOSITION),
+     propget, helpstring("Returns/sets the current position of the multimedia stream")]
+	HRESULT CurrentPosition([out, retval] double* pValue);
+    [id(DISPID_AM_CURRENTPOSITION),
+     propput, helpstring("Returns/sets the current position of the multimedia stream")]
+	HRESULT CurrentPosition([in] double Value);
+
+    [id(DISPID_AM_PLAYCOUNT),
+     propget, helpstring("Returns/sets the number of times the movie will be played")]
+	HRESULT PlayCount([out, retval] long* pPlayCount);
+	[id(DISPID_AM_PLAYCOUNT),
+     propput, helpstring("Returns/sets the number of times the movie will be played")]
+	HRESULT PlayCount([in] long PlayCount);
+
+    [id(DISPID_SELECTION_START),
+     propget, helpstring("Returns/sets the position where playback will begin")]
+	HRESULT SelectionStart([out, retval] double* pValue);
+	[id(DISPID_SELECTION_START),
+     propput, helpstring("Returns/sets the position where playback will begin")]
+	HRESULT SelectionStart([in] double Value);
+
+    [id(DISPID_SELECTION_END),
+     propget, helpstring("Returns/sets the position where playback will stop")]
+	HRESULT SelectionEnd([out, retval] double* pValue);
+	[id(DISPID_SELECTION_END),
+     propput, helpstring("Returns/sets the position where playback will stop")]
+	HRESULT SelectionEnd([in] double Value);
+
+    [id(DISPID_AM_CURRENTSTATE),
+     propget, helpstring("Returns the current state of the movie clip")]
+	HRESULT CurrentState([out, retval] StateConstants* pState);
+
+    [id(DISPID_AM_RATE),
+     propget, helpstring("Returns/sets the rate of the multimedia stream")]
+	HRESULT Rate([out, retval] double* pValue);
+    [id(DISPID_AM_RATE),
+     propput, helpstring("Returns/sets the rate of the multimedia stream")]
+	HRESULT Rate([in] double Value);
+
+    [id(DISPID_VOLUME),
+     propget, helpstring("Returns/sets the audio volume of the multimedia stream")]
+	HRESULT Volume([out, retval] long* pValue);
+	[id(DISPID_VOLUME),
+     propput, helpstring("Returns/sets the audio volume of the multimedia stream")]
+	HRESULT Volume([in] long Value);
+
+    [id(DISPID_BALANCE),
+     propget, helpstring("Returns/sets the stereo balance of the multimedia stream")]
+	HRESULT Balance([out, retval] long* pValue);
+	[id(DISPID_BALANCE),
+     propput, helpstring("Returns/sets the stereo balance of the multimedia stream")]
+	HRESULT Balance([in] long Value);
+
+    [id(DISPID_AM_ENABLECONTEXTMENU),
+     propget, helpstring("Enables/disables the right-click context menu")]
+	HRESULT EnableContextMenu([out, retval] VARIANT_BOOL* pEnable);
+    [id(DISPID_AM_ENABLECONTEXTMENU),
+     propput, helpstring("Enables/disables the right-click context menu")]
+	HRESULT EnableContextMenu([in] VARIANT_BOOL Enable);
+
+    [id(DISPID_SHOW_DISPLAY),
+     propget, helpstring("Shows/hides the display panel")]
+	HRESULT ShowDisplay([out, retval] VARIANT_BOOL* Show);
+    [id(DISPID_SHOW_DISPLAY),
+     propput, helpstring("Shows/hides the display panel")]
+	HRESULT ShowDisplay([in] VARIANT_BOOL Show);
+
+    [id(DISPID_SHOW_CONTROLS),
+     propget, helpstring("Shows/hides the control panel")]
+	HRESULT ShowControls([out, retval] VARIANT_BOOL* Show);
+    [id(DISPID_SHOW_CONTROLS),
+     propput, helpstring("Shows/hides the control panel")]
+	HRESULT ShowControls([in] VARIANT_BOOL Show);
+
+    [id(DISPID_SHOW_POSITION_CONTROLS),
+     propget, helpstring("Shows/hides the position buttons in the control panel")]
+	HRESULT ShowPositionControls([out, retval] VARIANT_BOOL* Show);
+    [id(DISPID_SHOW_POSITION_CONTROLS),
+     propput, helpstring("Shows/hides the position buttons in the control panel")]
+	HRESULT ShowPositionControls([in] VARIANT_BOOL Show);
+
+    [id(DISPID_SHOW_SELECTION_CONTROLS),
+     propget, helpstring("Shows/hides the selection buttons in the control panel")]
+	HRESULT ShowSelectionControls([out, retval] VARIANT_BOOL* Show);
+    [id(DISPID_SHOW_SELECTION_CONTROLS),
+     propput, helpstring("Shows/hides the selection buttons in the control panel")]
+	HRESULT ShowSelectionControls([in] VARIANT_BOOL Show);
+
+    [id(DISPID_SHOW_TRACKER),
+     propget, helpstring("Shows/hides the tracker bar in the control panel")]
+	HRESULT ShowTracker([out, retval] VARIANT_BOOL* Show);
+    [id(DISPID_SHOW_TRACKER),
+     propput, helpstring("Shows/hides the tracker bar in the control panel")]
+	HRESULT ShowTracker([in] VARIANT_BOOL Show);
+
+    [id(DISPID_ENABLE_POSITION_CONTROLS),
+     propget, helpstring("Enables/disables the position buttons in the control panel")]
+	HRESULT EnablePositionControls([out, retval] VARIANT_BOOL* Enable);
+    [id(DISPID_ENABLE_POSITION_CONTROLS),
+     propput, helpstring("Enables/disables the position buttons in the control panel")]
+	HRESULT EnablePositionControls([in] VARIANT_BOOL Enable);
+
+    [id(DISPID_ENABLE_SELECTION_CONTROLS),
+     propget, helpstring("Enables/disables the selection buttons in the control panel")]
+	HRESULT EnableSelectionControls([out, retval] VARIANT_BOOL* Enable);
+    [id(DISPID_ENABLE_SELECTION_CONTROLS),
+     propput, helpstring("Enables/disables the selection buttons in the control panel")]
+	HRESULT EnableSelectionControls([in] VARIANT_BOOL Enable);
+
+    [id(DISPID_ENABLE_TRACKER),
+     propget, helpstring("Enables/disables the tracker bar in the control panel")]
+	HRESULT EnableTracker([out, retval] VARIANT_BOOL* Enable);
+    [id(DISPID_ENABLE_TRACKER),
+     propput, helpstring("Enables/disables the tracker bar in the control panel")]
+	HRESULT EnableTracker([in] VARIANT_BOOL Enable);
+
+    [id(DISPID_ALLOW_HIDE_DISPLAY),
+     propget, helpstring("Allows/disallows hiding the display panel at run time")]
+	HRESULT AllowHideDisplay([out, retval] VARIANT_BOOL* Show);
+    [id(DISPID_ALLOW_HIDE_DISPLAY),
+     propput, helpstring("Allows/disallows hiding the display panel at run time")]
+	HRESULT AllowHideDisplay([in] VARIANT_BOOL Show);
+
+    [id(DISPID_ALLOW_HIDE_CONTROLS),
+     propget, helpstring("Allows/disallows hiding the control panel at run time")]
+	HRESULT AllowHideControls([out, retval] VARIANT_BOOL* Show);
+    [id(DISPID_ALLOW_HIDE_CONTROLS),
+     propput, helpstring("Allows/disallows hiding the control panel at run time")]
+	HRESULT AllowHideControls([in] VARIANT_BOOL Show);
+
+    [id(DISPID_DISPLAY_MODE),
+     propget, helpstring("Returns/sets the display mode (time or frames)")]
+	HRESULT DisplayMode([out, retval] DisplayModeConstants* pValue);
+    [id(DISPID_DISPLAY_MODE),
+     propput, helpstring("Returns/sets the display mode (time or frames)")]
+	HRESULT DisplayMode([in] DisplayModeConstants Value);
+
+    [id(DISPID_ALLOW_CHANGE_DISPLAY_MODE),
+     propget, helpstring("Allows/disallows changing the display mode at run time")]
+	HRESULT AllowChangeDisplayMode([out, retval] VARIANT_BOOL* fAllow);
+    [id(DISPID_ALLOW_CHANGE_DISPLAY_MODE),
+     propput, helpstring("Allows/disallows changing the display mode at run time")]
+	HRESULT AllowChangeDisplayMode([in] VARIANT_BOOL Allow);
+
+    [id(DISPID_FILTERGRAPH),
+     propget, helpstring("Returns/sets the current filter graph")]
+	HRESULT FilterGraph([out, retval] IUnknown** ppFilterGraph);
+    [id(DISPID_FILTERGRAPH),
+     propput, helpstring("Returns/sets the current filter graph")]
+	HRESULT FilterGraph([in] IUnknown* pFilterGraph);
+
+    [id(DISPID_FILTER_GRAPH_DISPATCH),
+     propget, helpstring("Returns the current filter graph's Dispatch interface")]
+	HRESULT FilterGraphDispatch([out, retval] IDispatch** pDispatch);
+
+    [propget, id(DISPID_DISPLAY_FORE_COLOR),
+     helpstring("Returns/sets the foreground color of the display panel")]
+	HRESULT DisplayForeColor([out, retval] OLE_COLOR* ForeColor);
+    [propput, id(DISPID_DISPLAY_FORE_COLOR),
+     helpstring("Returns/sets the foreground color of the display panel")]
+	HRESULT DisplayForeColor([in] OLE_COLOR ForeColor);
+
+    [id(DISPID_DISPLAY_BACK_COLOR),
+     propget, helpstring("Returns/sets the background color of the display panel")]
+	HRESULT DisplayBackColor([out, retval] OLE_COLOR* BackColor);
+    [id(DISPID_DISPLAY_BACK_COLOR),
+     propput, helpstring("Returns/sets the background color of the display panel")]
+	HRESULT DisplayBackColor([in] OLE_COLOR BackColor);
+
+    [id(DISPID_MOVIE_WINDOW_SIZE),
+     propget, helpstring("Returns/sets the movie window size")]
+	HRESULT MovieWindowSize([out, retval] WindowSizeConstants* WindowSize);
+    [id(DISPID_MOVIE_WINDOW_SIZE),
+     propput, helpstring("Returns/sets the movie window size")]
+	HRESULT MovieWindowSize([in] WindowSizeConstants WindowSize);
+
+    [id(DISPID_FULL_SCREEN_MODE),
+     propget, helpstring("Indicates whether the media clip will run full screen")]
+	HRESULT FullScreenMode([out, retval] VARIANT_BOOL* pEnable);
+    [id(DISPID_FULL_SCREEN_MODE),
+     propput, helpstring("Indicates whether the media clip will run full screen")]
+	HRESULT FullScreenMode([in] VARIANT_BOOL Enable);
+
+    [id(DISPID_AM_AUTOSTART),
+     propget, helpstring("Indicates whether the Control will start playing when activated")]
+	HRESULT AutoStart([out, retval] VARIANT_BOOL* pEnable);
+    [id(DISPID_AM_AUTOSTART),
+     propput, helpstring("Indicates whether the Control will start playing when activated")]
+	HRESULT AutoStart([in] VARIANT_BOOL Enable);
+
+    [id(DISPID_AM_AUTOREWIND),
+     propget, helpstring("Indicates whether the media clip will rewind automatically after playing")]
+	HRESULT AutoRewind([out, retval] VARIANT_BOOL* pEnable);
+    [id(DISPID_AM_AUTOREWIND),
+     propput, helpstring("Indicates whether the media clip will rewind automatically after playing")]
+	HRESULT AutoRewind([in] VARIANT_BOOL Enable);
+
+    [id(DISPID_HWND),
+     propget, helpstring("Returns the handle of the control window")]
+	HRESULT hWnd([out, retval] long* hWnd);
+
+    [id(DISPID_APPEARANCE),
+     propget, helpstring("Returns/sets the appearance")]
+	HRESULT Appearance([out, retval] AppearanceConstants* pAppearance);
+    [id(DISPID_APPEARANCE),
+     propput, helpstring("Returns/sets the appearance")]
+	HRESULT Appearance([in] AppearanceConstants Appearance);
+
+    [id(DISPID_BORDER_STYLE),
+     propget, helpstring("Returns/sets the border style")]
+	HRESULT BorderStyle([out, retval] BorderStyleConstants* pBorderStyle);
+    [id(DISPID_BORDER_STYLE),
+     propput, helpstring("Returns/sets the border style")]
+	HRESULT BorderStyle([in] BorderStyleConstants BorderStyle);
+
+    [id(DISPID_ENABLED),
+     propget, helpstring("Enables/disables the control")]
+	HRESULT Enabled([out, retval] VARIANT_BOOL* pEnabled);
+    [id(DISPID_ENABLED),
+     propput, helpstring("Enables/disables the control")]
+	HRESULT Enabled([in] VARIANT_BOOL Enabled);
+
+    [id(DISPID_INFO), propget, hidden]
+	HRESULT Info([out, retval] long* ppInfo);
+
+};
+
+// primary dispatch interface for CActiveMovie control
+//
+
+[
+    object,
+    uuid(B6CD6554-E9CB-11d0-821F-00A0C91F9CA0),
+    helpstring("ActiveMovie Control"),
+    dual,
+    hidden,
+    pointer_default(unique)
+]
+interface IActiveMovie2 : IActiveMovie
+{
+    //methods
+
+    [id(DISPID_ISSOUNDCARDENABLED), helpstring("Determines whether the sound card is enabled on the machine")]
+	HRESULT IsSoundCardEnabled([out, retval] VARIANT_BOOL *pbSoundCard);
+
+    // properties
+    [id(DISPID_READYSTATE),
+     propget, helpstring("Returns the readiness state of the control")]
+	HRESULT ReadyState([out, retval] ReadyStateConstants* pValue);
+
+};
+
+[
+    object,
+	uuid(265EC140-AE62-11d1-8500-00A0C91F9CA0),
+	helpstring("ActiveMovie Control"),
+	dual,
+    pointer_default(unique)
+]
+interface IActiveMovie3 : IActiveMovie2
+{
+	[propget, id(DISPID_MEDIAPLAYER), helpstring("Returns the Media Player object")]
+	HRESULT MediaPlayer([out, retval] IDispatch **ppDispatch);
+
+};

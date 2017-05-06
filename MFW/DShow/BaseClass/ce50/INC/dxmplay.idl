@@ -1,0 +1,838 @@
+//
+// dxmplay.idl: DS player interfaces
+//
+
+#ifndef UNDER_CE							 
+midl_pragma warning(disable:2362)   // too many methods in the interface
+#endif
+
+#ifdef UNDER_CE
+#define LONG_PTR LONG
+#endif
+
+#include <olectl.h>
+#include "..\inc\dsdispid.h"
+
+import "oaidl.idl";
+import "ocidl.idl";
+import "enums.idl";
+import "mpdvd.idl";
+
+
+// OLE auto has OLE_COLOR typed as a DWORD, and hasn't see fit to change it.
+// VB likes this better
+//
+// NOTE: One day the OLE header will define this and we will break the build because 
+// of the duplicate UUID
+// When that happens just typedef OLE_COLOR VB_OLE_COLOR
+// and delete the next line
+typedef [uuid(66504301-BE0F-101A-8BBB-00AA00300CAB), public] DWORD VB_OLE_COLOR;
+/////////////////////////////////////////////////////////////////////////////
+// Enumerated types
+/////////////////////////////////////////////////////////////////////////////
+
+typedef
+[
+    helpstring("MediaPlayer Display Mode"),
+    public
+] enum MPDisplayModeConstants
+{
+    [helpstring("Time")] mpTime,
+    [helpstring("Frames")] mpFrames
+} MPDisplayModeConstants;
+
+typedef
+[
+    helpstring( "State of playback" ),
+    public
+]
+enum MPPlayStateConstants
+{
+    [ helpstring( "Playback is stopped" ) ]                     mpStopped,
+    [ helpstring( "Playback is paused" ) ]                      mpPaused,
+    [ helpstring( "Stream is playing" ) ]                       mpPlaying,
+    [ helpstring( "Waiting for stream to begin" ) ]             mpWaiting,
+    [ helpstring( "Stream is Scanning forward" ) ]              mpScanForward,
+    [ helpstring( "Stream is Scanning in reverse" ) ]           mpScanReverse,
+    [ helpstring( "Stream has not been opened" ) ]              mpClosed
+} MPPlayStateConstants;
+
+//
+// MPfDialogAvailability are flag definitions returned
+// (OR-ed) by get_DialogAvailability
+//
+typedef
+[
+    helpstring( "Dialog availability" ),
+    public
+]
+enum MPfDialogAvailability
+{
+    [ helpstring( "File Properties dialog is available" ) ]     mpfFilePropertiesDlg = 1,
+    [ helpstring( "Go To dialog is available" ) ]               mpfGotoDlg = 2
+} MPfDialogAvailability;
+
+typedef
+[
+    helpstring( "More Information URL type" ),
+    public
+]
+enum MPMoreInfoType
+{
+    [ helpstring("More Information URL for Show" ) ]            mpShowURL,
+    [ helpstring("More Information URL for Clip")]              mpClipURL,
+    [ helpstring("More Information URL for Banner")]            mpBannerURL
+} MPMoreInfoType;
+
+typedef
+[
+    helpstring( "Media Information String type" ),
+    public
+]
+enum MPMediaInfoType
+{
+    [ helpstring("Show filename" ) ]                            mpShowFilename,
+    [ helpstring("Show Title" ) ]                               mpShowTitle,
+    [ helpstring("Show Author" ) ]                              mpShowAuthor,
+    [ helpstring("Show Copyright" ) ]                           mpShowCopyright,
+    [ helpstring("Show Rating" ) ]                              mpShowRating,
+    [ helpstring("Show Description" ) ]                         mpShowDescription,
+    [ helpstring("Show Logo Icon" ) ]                           mpShowLogoIcon,
+    [ helpstring("Clip filename" ) ]                            mpClipFilename,
+    [ helpstring("Clip Title" ) ]                               mpClipTitle,
+    [ helpstring("Clip Author" ) ]                              mpClipAuthor,
+    [ helpstring("Clip Copyright" ) ]                           mpClipCopyright,
+    [ helpstring("Clip Rating" ) ]                              mpClipRating,
+    [ helpstring("Clip Description" ) ]                         mpClipDescription,
+    [ helpstring("Clip Logo Icon" ) ]                           mpClipLogoIcon,
+    [ helpstring("Current Banner Image" ) ]                     mpBannerImage,
+    [ helpstring("Current Banner MoreInfo" ) ]                  mpBannerMoreInfo,
+    [ helpstring("Current Watermark")]                          mpWatermark
+
+} MPMediaInfoType;
+
+typedef
+[
+    helpstring( "Media Information Display Size type" ),
+    public
+]
+enum MPDisplaySizeConstants
+{
+    [ helpstring( "0 - Default Size" ) ]                        mpDefaultSize,
+    [ helpstring( "1 - Half Size" ) ]                           mpHalfSize,
+    [ helpstring( "2 - Double Size" ) ]                         mpDoubleSize,
+    [ helpstring( "3 - Full Screen" ) ]                         mpFullScreen,
+    [ helpstring( "4 - Fit to Size" ) ]                         mpFitToSize,
+    [ helpstring( "5 - One Sixteenth Screen" ) ]                mpOneSixteenthScreen,
+    [ helpstring( "6 - One Fourth Screen" ) ]                   mpOneFourthScreen,
+    [ helpstring( "7 - One Half Screen" ) ]                     mpOneHalfScreen,
+} MPDisplaySizeConstants;
+
+typedef
+[
+    helpstring( "Readiness State" ),
+    public
+]
+enum MPReadyStateConstants
+{
+    [ helpstring( "0 - Uninitialized" ) ]    mpReadyStateUninitialized,
+    [ helpstring( "1 - Loading" ) ]          mpReadyStateLoading,
+    [ helpstring( "3 - Interactive" ) ]      mpReadyStateInteractive = 3,
+    [ helpstring( "4 - Complete" ) ]         mpReadyStateComplete
+} MPReadyStateConstants;
+
+typedef
+[
+    helpstring( "Show Dialog Constants" ),
+    public
+]
+enum MPShowDialogConstants
+{
+    [ helpstring( "0 - Help" ) ]	    mpShowDialogHelp,
+    [ helpstring( "1 - Statistics" ) ]      mpShowDialogStatistics,
+    [ helpstring( "2 - Options" ) ]	    mpShowDialogOptions,
+    [ helpstring( "3 - Context Menu" ) ]    mpShowDialogContextMenu
+} MPShowDialogConstants;
+
+// Compatibility mode options
+[
+    hidden
+]
+enum PlayerCompatibilityType
+{
+    cmDefault,
+    cmActiveMovie,
+#ifdef WMPV7
+    cmNetShow,
+    cmWMPv7
+#else
+    cmNetShow
+#endif
+};
+
+[
+    object,
+    uuid(920F0DE0-91C5-11d1-828F-00C04FC99D4C),
+    helpstring("IDSPlayerEx Interface"),
+    pointer_default(unique)
+]
+interface IDSPlayerEx : IUnknown
+{
+    // methods
+#ifndef WMPCE
+    HRESULT DoContextMenu();
+#endif
+#ifdef WMPIMG
+    HRESULT DownloadImage( [in] BSTR pbstrURL, [out] LONG_PTR *phBitmap );
+#endif
+#ifdef WMPSTATUS
+    HRESULT PutStatusTextEx( [in] BSTR wszText, [in] BOOL fOverwrite, [in, out] DWORD *pdwCookie );
+    HRESULT FlushStatusBar();
+#endif
+#ifdef WMPURL
+    HRESULT NavigateBrowserToURL([in] BSTR bstrURL, [in] BSTR bstrFrame);
+#endif
+#ifndef WMPCE
+    HRESULT get_Document([out,retval]IDispatch * *);
+#endif
+#ifdef WMPPP
+    HRESULT FilePropertiesDialog();
+#endif
+#ifdef WMPSTAT
+    HRESULT StatisticsDialog();
+#endif
+#ifdef WMPGD
+    HRESULT GotoDialog();
+#endif
+#ifdef WMPFRAME
+    HRESULT Preview();
+#endif
+    HRESULT RestartPlaylist( [in] BOOL fPlay );
+#ifdef WMPPRVW
+    HRESULT PutPreviewModeHelper(VARIANT_BOOL PreviewMode, BOOL fPlayWhenFinished);
+#endif
+#ifdef WMPFRAME
+    HRESULT UpdateVisual([in] BOOL fUpdateVisual);
+    HRESULT RegisterEmbeddedObjects( DWORD dwClsContext );
+	HRESULT RevokeEmbeddedObjects();
+    HRESULT SetNativeFrameFlag();
+	HRESULT ResetNativeFrameFlag();
+#endif
+
+    [propput] HRESULT UserInteraction([in] VARIANT_BOOL bVal);
+
+#ifndef WMPCE
+    HRESULT AddToolTip([in] RECT *prc, [in] LPTSTR lptsr, [out] int * pID);
+    HRESULT RemoveToolTip([in] int ID);
+    HRESULT UpdateToolTipRect([in] RECT *prc, [in] int ID);
+    HRESULT UpdateToolTipText([in] LPTSTR lptsr, [in] int ID);
+
+    HRESULT SaveAs();
+    HRESULT CanSave();
+#endif 
+
+    // properties
+    [propget] HRESULT CurrentPositionInternal( [out, retval] double *pCurrentPosition );
+
+#ifdef WMPFRAME
+    [propget] HRESULT OpenCloseCounter( [out, retval] long *pOpenCloseCounter );
+#endif
+
+    [propput] HRESULT CompatibilityMode([in] long lCompatibilityMode);
+    [propget] HRESULT CompatibilityMode([out, retval] long *plCompatibilityMode);
+
+#ifdef WMPFRAME
+    [propput] HRESULT OnOpenOverride([in] VARIANT_BOOL bVal);
+    [propget] HRESULT OnOpenOverride([out, retval] VARIANT_BOOL *pbVal);
+
+    [propput] HRESULT OnOpenAutoSize([in] VARIANT_BOOL bVal);
+    [propget] HRESULT OnOpenAutoSize([out, retval] VARIANT_BOOL *pbVal);
+
+    [propput] HRESULT OnOpenDisplaySize([in] long lOnOpenDisplaySize);
+    [propget] HRESULT OnOpenDisplaySize([out, retval] long *plOnOpenDisplaySize);
+
+    [propput] HRESULT AutoSizeAudioWidth([in] long lAutoSizeAudioWidth);
+    [propget] HRESULT MinimumWidth([out, retval] long *plMinimumWidth);
+
+    [propget] HRESULT EffectiveDisplaySize([out, retval] long *plEffectiveDisplaySize);
+
+    [propput] HRESULT DisplaySizeInternal([in] long lDisplaySizeInternal);
+    [propget] HRESULT DisplaySizeInternal([out, retval] long *plDisplaySizeInternal);
+#endif
+
+    [propget] HRESULT DurationInternal( [out, retval] double* pDuration );
+
+    [propget] HRESULT SegmentSeek([out, retval] long *plSegmentSeek );
+
+    [propget] HRESULT CanSkip([out, retval] VARIANT_BOOL *pbCanSkip);
+#ifndef WMPCE
+    [propget] HRESULT IEVersion([out, retval] LPTSTR* ppszVersion);
+#endif
+    [propget] HRESULT BrowserIsIE4([out, retval] VARIANT_BOOL *pbCanSkip);
+#ifndef WMPCE
+    [propput] HRESULT URL([in] BSTR pbstrURL);
+    [propget] HRESULT FilterGraph([out, retval] IUnknown** ppFilterGraph);
+
+    [propget] HRESULT InShow([out, retval] VARIANT_BOOL *pbVal);
+    [propget] HRESULT InChannel([out, retval] VARIANT_BOOL *pbVal);
+
+    [propget] HRESULT UpdateVisualCounter([out, retval] LONG *plVal);
+#endif
+#ifdef WMPFRAME
+    [ id( DISPID_DIALOGAVAILABILITY ), propget, helpstring( "Returns which dialogs are available for the currently playing media" ) ]
+    HRESULT DialogAvailability( [out, retval] long *pDialogAvailability );
+#endif
+#ifndef WMPCE
+    HRESULT StopInternal();
+
+    HRESULT IsBannerFixed( BOOL *fFixed );
+    HRESULT StartAnimation();
+	
+    HRESULT LaunchURLInAnyBrowser( HWND hwnd, TCHAR *pszPath );
+#endif 
+#ifdef WMPFS
+    HRESULT GoFullScreen(BOOL bFullScreen);
+#endif
+#ifndef WMPCE
+    HRESULT GetCompleteClipFilename(BSTR *pbstr);
+#endif
+}
+
+[
+    object,
+    uuid(22D6F311-B0F6-11D0-94AB-0080C74C7E95),
+    dual,
+    helpstring("IMediaPlayer Interface"),
+    pointer_default(unique)
+]
+interface IMediaPlayer : IDispatch
+{
+/////////////////////////////////////////////////////////////////////////////
+// Properties
+/////////////////////////////////////////////////////////////////////////////
+
+    // NetShow Properties
+
+    [ id( DISPID_CURRENTPOSITION ), propget, helpstring( "Returns or sets the current position in the file" ) ]
+        HRESULT CurrentPosition( [out, retval] double *pCurrentPosition );
+    [ id( DISPID_CURRENTPOSITION ), propput ]
+        HRESULT CurrentPosition( [in] double CurrentPosition );
+
+    [ id( DISPID_DURATION ), propget, helpstring( "Returns the play duration of the file" ) ]
+        HRESULT Duration( [out, retval] double *pDuration );
+
+    [ id( DISPID_IMAGESOURCEWIDTH ), propget, helpstring( "Returns the original width of the source images" ) ]
+        HRESULT ImageSourceWidth( [out, retval] long *pWidth );
+    [ id( DISPID_IMAGESOURCEHEIGHT ), propget, helpstring( "Returns the original height of the source images" ) ]
+        HRESULT ImageSourceHeight( [out, retval] long *pHeight );
+
+    [ id( DISPID_MARKERCOUNT ), propget, helpstring( "Returns the number of markers in the file" ) ]
+        HRESULT MarkerCount( [out, retval] long *pMarkerCount );
+
+    [ id( DISPID_CANSCAN ), propget, helpstring(  "Returns whether or not the file can be fast forwarded or reversed" ) ]
+        HRESULT CanScan( [out, retval] VARIANT_BOOL *pCanScan );
+
+    [ id( DISPID_CANSEEK ), propget, helpstring( "Returns whether or not the file can be seeked into" ) ]
+        HRESULT CanSeek( [out, retval] VARIANT_BOOL *pCanSeek );
+
+    [ id( DISPID_CANSEEKTOMARKERS ), propget, helpstring( "Returns whether or not the file can be seeked into by markers" ) ]
+        HRESULT CanSeekToMarkers( [out, retval] VARIANT_BOOL *pCanSeekToMarkers );
+
+    [ id( DISPID_CURRENTMARKER ), propget, helpstring( "Returns or sets the current marker number" ) ]
+        HRESULT CurrentMarker( [out, retval] long *pCurrentMarker );
+    [ id( DISPID_CURRENTMARKER ), propput ]
+        HRESULT CurrentMarker( [in] long CurrentMarker );
+
+    [ id( DISPID_FILENAME ), propget, helpstring( "Returns or sets the current file name and path" ) ]
+        HRESULT FileName( [out, retval] BSTR *pbstrFileName );
+    [ id( DISPID_FILENAME ), propput ]
+        HRESULT FileName( [in] BSTR bstrFileName );
+
+    [ id( DISPID_SOURCELINK ), propget, helpstring( "Returns the source path of the file" ) ]
+        HRESULT SourceLink( [out, retval] BSTR *pbstrSourceLink );
+
+    [ id( DISPID_CREATIONDATE ), propget, helpstring( "Returns the creation date of the file" ) ]
+        HRESULT CreationDate( [out, retval] DATE *pCreationDate );
+
+    [ id( DISPID_ERRORCORRECTION ), propget, helpstring( "Returns the error correction type of the file" ) ]
+        HRESULT ErrorCorrection( [out, retval] BSTR *pbstrErrorCorrection );
+
+    [ id( DISPID_BANDWIDTH ), propget, helpstring( "Returns the bandwidth of the file in bits per second" ) ]
+        HRESULT Bandwidth( [out, retval] long *pBandwidth );
+
+    [ id( DISPID_SOURCEPROTOCOL ), propget, helpstring( "Returns the protocol used to receive data" ) ]
+        HRESULT SourceProtocol( [out, retval] long *pSourceProtocol );
+
+    [ id( DISPID_RECEIVEDPACKETS ), propget, helpstring( "Returns the number of packets received" ) ]
+        HRESULT ReceivedPackets( [out, retval] long *pReceivedPackets );
+
+    [ id( DISPID_RECOVEREDPACKETS ), propget, helpstring( "Returns the number of packets recovered" ) ]
+        HRESULT RecoveredPackets( [out, retval] long *pRecoveredPackets );
+
+    [ id( DISPID_LOSTPACKETS ), propget, helpstring( "Returns the number of packets lost" ) ]
+        HRESULT LostPackets( [out, retval] long *pLostPackets );
+
+    [ id( DISPID_RECEPTIONQUALITY ), propget, helpstring( "Returns the percentage of packets received in the last 30 seconds" ) ]
+        HRESULT ReceptionQuality( [out, retval] long *pReceptionQuality );
+
+    [ id( DISPID_BUFFERINGCOUNT ), propget, helpstring( "Returns the number of times buffering occurred during playback" ) ]
+        HRESULT BufferingCount( [out, retval] long *pBufferingCount );
+
+    [ id( DISPID_ISBROADCAST ), propget, helpstring( "Returns whether or not the source is a broadcast" ) ]
+        HRESULT IsBroadcast( [out, retval] VARIANT_BOOL *pIsBroadcast );
+
+    [ id( DISPID_BUFFERINGPROGRESS ), propget, helpstring( "Returns the percentage of buffering completed" ) ]
+        HRESULT BufferingProgress( [out, retval] long *pBufferingProgress );
+
+    [ id( DISPID_CHANNELNAME ), propget, helpstring( "Returns the name of the station" ) ]
+        HRESULT ChannelName( [out, retval] BSTR *pbstrChannelName );
+
+    [ id( DISPID_CHANNELDESCRIPTION ), propget, helpstring( "Returns the description of the station" ) ]
+        HRESULT ChannelDescription( [out, retval] BSTR *pbstrChannelDescription );
+
+    [ id( DISPID_CHANNELURL ), propget, helpstring( "Returns the location of the station metafile" ) ]
+        HRESULT ChannelURL( [out, retval] BSTR *pbstrChannelURL );
+
+    [ id( DISPID_CONTACTADDRESS ), propget, helpstring( "Returns the contact address of the station" ) ]
+        HRESULT ContactAddress( [out, retval] BSTR *pbstrContactAddress );
+
+    [ id( DISPID_CONTACTPHONE ), propget, helpstring( "Returns the contact phone number of the station" ) ]
+        HRESULT ContactPhone( [out, retval] BSTR *pbstrContactPhone );
+
+    [ id( DISPID_CONTACTEMAIL ), propget, helpstring( "Returns the contact e-mail address of the station" ) ]
+        HRESULT ContactEmail( [out, retval] BSTR *pbstrContactEmail );
+
+    [ id( DISPID_BUFFERINGTIME ), propget, helpstring( "Returns the control's buffering time" ) ]
+        HRESULT BufferingTime( [out, retval] double *pBufferingTime );
+    [ id( DISPID_BUFFERINGTIME ), propput ]
+        HRESULT BufferingTime( [in] double BufferingTime );
+
+    [ id( DISPID_AUTOSTART ), propget, helpstring( "Returns or sets whether or not file playback is automatically started" ) ]
+        HRESULT AutoStart( [out, retval] VARIANT_BOOL *pAutoStart );
+    [ id( DISPID_AUTOSTART ), propput ]
+        HRESULT AutoStart( [in] VARIANT_BOOL AutoStart );
+
+    [ id( DISPID_AUTOREWIND ), propget, helpstring( "Returns or sets whether or not a file is rewound at the end of playback" ) ]
+        HRESULT AutoRewind( [out, retval] VARIANT_BOOL *pAutoRewind );
+    [ id( DISPID_AUTOREWIND ), propput ]
+        HRESULT AutoRewind( [in] VARIANT_BOOL AutoRewind );
+
+    [ id( DISPID_RATE ), propget, helpstring( "Returns or sets the current playback rate" ) ]
+        HRESULT Rate( [out, retval] double *pRate );
+    [ id( DISPID_RATE ), propput ]
+        HRESULT Rate( [in] double Rate );
+
+    [ id( DISPID_SENDKEYBOARDEVENTS ), propget, helpstring( "Returns or sets whether or not the control sends keyboard events" ) ]
+        HRESULT SendKeyboardEvents( [out, retval] VARIANT_BOOL *pSendKeyboardEvents );
+    [ id( DISPID_SENDKEYBOARDEVENTS ), propput ]
+        HRESULT SendKeyboardEvents( [in] VARIANT_BOOL SendKeyboardEvents );
+
+    [ id( DISPID_SENDMOUSECLICKEVENTS ), propget, helpstring( "Returns or sets whether or not the control sends mouse click events" ) ]
+        HRESULT SendMouseClickEvents( [out, retval] VARIANT_BOOL *pSendMouseClickEvents );
+    [ id( DISPID_SENDMOUSECLICKEVENTS ), propput ]
+        HRESULT SendMouseClickEvents( [in] VARIANT_BOOL SendMouseClickEvents );
+
+    [ id( DISPID_SENDMOUSEMOVEEVENTS ), propget, helpstring( "Returns or sets whether or not the control sends mouse move events" ) ]
+        HRESULT SendMouseMoveEvents( [out, retval] VARIANT_BOOL *pSendMouseMoveEvents );
+    [ id( DISPID_SENDMOUSEMOVEEVENTS ), propput ]
+        HRESULT SendMouseMoveEvents( [in] VARIANT_BOOL SendMouseMoveEvents );
+
+    [ id( DISPID_PLAYCOUNT ), propget, helpstring( "Returns or sets the number of times a file plays" ) ]
+        HRESULT PlayCount( [out, retval] long *pPlayCount );
+    [ id( DISPID_PLAYCOUNT ), propput ]
+        HRESULT PlayCount( [in] long PlayCount );
+
+    [ id( DISPID_CLICKTOPLAY ), propget, helpstring( "Returns or sets whether or not clicking on the control starts file playback" ) ]
+        HRESULT ClickToPlay( [out, retval] VARIANT_BOOL *pClickToPlay );
+    [ id( DISPID_CLICKTOPLAY ), propput ]
+        HRESULT ClickToPlay( [in] VARIANT_BOOL ClickToPlay );
+
+    [ id( DISPID_ALLOWSCAN ), propget, helpstring( "Returns or sets whether or not scanning is enabled on files that support it" ) ]
+        HRESULT AllowScan( [out, retval] VARIANT_BOOL *pAllowScan );
+    [ id( DISPID_ALLOWSCAN ), propput ]
+        HRESULT AllowScan( [in] VARIANT_BOOL AllowScan );
+
+    [ id( DISPID_ENABLECONTEXTMENU ), propget, helpstring( "Returns or sets whether or not a right mouse click invokes a context menu" ) ]
+        HRESULT EnableContextMenu( [out, retval] VARIANT_BOOL *pEnableContextMenu );
+    [ id( DISPID_ENABLECONTEXTMENU ), propput ]
+        HRESULT EnableContextMenu( [in] VARIANT_BOOL EnableContextMenu );
+
+    [ id( DISPID_CURSORTYPE ), propget, helpstring( "Returns or sets the cursor type" ) ]
+        HRESULT CursorType( [out, retval] long *pCursorType );
+    [ id( DISPID_CURSORTYPE ), propput ]
+        HRESULT CursorType( [in] long CursorType );
+
+    [ id( DISPID_CODECCOUNT ), propget, helpstring( "Returns the number of installable codecs used by the file" ) ]
+        HRESULT CodecCount( [out, retval] long *pCodecCount );
+
+    [ id( DISPID_ALLOWCHANGEDISPLAYSIZE ), propget, helpstring( "Returns or sets whether or not the display size can be set at run time" ) ]
+        HRESULT AllowChangeDisplaySize( [out, retval] VARIANT_BOOL *pAllowChangeDisplaySize );
+    [ id( DISPID_ALLOWCHANGEDISPLAYSIZE ), propput ]
+        HRESULT AllowChangeDisplaySize( [in] VARIANT_BOOL AllowChangeDisplaySize );
+
+    [ id( DISPID_ISDURATIONVALID ), propget, helpstring( "Returns whether or not the duration is known" ) ]
+        HRESULT IsDurationValid( [out, retval] VARIANT_BOOL *pIsDurationValid );
+
+    [ id( DISPID_OPENSTATE ), propget, helpstring( "Returns the open state of the control" ) ]
+        HRESULT OpenState( [out, retval] long *pOpenState );
+
+    [ id( DISPID_SENDOPENSTATECHANGEEVENTS ), propget, helpstring( "Returns or sets whether or not the control sends OpenStateChange events" ) ]
+        HRESULT SendOpenStateChangeEvents( [out, retval] VARIANT_BOOL *pSendOpenStateChangeEvents );
+    [ id( DISPID_SENDOPENSTATECHANGEEVENTS ), propput ]
+        HRESULT SendOpenStateChangeEvents( [in] VARIANT_BOOL SendOpenStateChangeEvents );
+
+    [ id( DISPID_SENDWARNINGEVENTS ), propget, helpstring( "Returns or sets whether or not the control sends Warning events" ) ]
+        HRESULT SendWarningEvents( [out, retval] VARIANT_BOOL *pSendWarningEvents );
+    [ id( DISPID_SENDWARNINGEVENTS ), propput ]
+        HRESULT SendWarningEvents( [in] VARIANT_BOOL SendWarningEvents );
+
+    [ id( DISPID_SENDERROREVENTS ), propget, helpstring( "Returns or sets whether or not the control sends Error events" ) ]
+        HRESULT SendErrorEvents( [out, retval] VARIANT_BOOL *pSendErrorEvents );
+    [ id( DISPID_SENDERROREVENTS ), propput ]
+        HRESULT SendErrorEvents( [in] VARIANT_BOOL SendErrorEvents );
+
+    [ id( DISPID_PLAYSTATE ), propget, helpstring( "Returns the play state of the control" ) ]
+        HRESULT PlayState( [out, retval] MPPlayStateConstants* pPlayState );
+
+    [ id( DISPID_SENDPLAYSTATECHANGEEVENTS ), propget, helpstring( "Returns or sets whether or not the control sends PlayStateChange events" ) ]
+        HRESULT SendPlayStateChangeEvents( [out, retval] VARIANT_BOOL *pSendPlayStateChangeEvents );
+    [ id( DISPID_SENDPLAYSTATECHANGEEVENTS ), propput ]
+        HRESULT SendPlayStateChangeEvents( [in] VARIANT_BOOL SendPlayStateChangeEvents );
+
+    [ id( DISPID_DISPLAYSIZE ), propget, helpstring( "Returns or sets the display size of images" ) ]
+        HRESULT DisplaySize( [out, retval] MPDisplaySizeConstants* pDisplaySize );
+    [ id( DISPID_DISPLAYSIZE ), propput ]
+        HRESULT DisplaySize( [in] MPDisplaySizeConstants DisplaySize );
+
+    [ id( DISPID_INVOKEURLS ), propget, helpstring( "Returns or sets whether or not received URLs are automatically invoked" ) ]
+        HRESULT InvokeURLs( [out, retval] VARIANT_BOOL *pInvokeURLs );
+    [ id( DISPID_INVOKEURLS ), propput ]
+        HRESULT InvokeURLs( [in] VARIANT_BOOL InvokeURLs );
+
+    [ id( DISPID_BASEURL ), propget, helpstring( "Returns or sets the control's base HTTP URL" ) ]
+        HRESULT BaseURL( [out, retval] BSTR *pbstrBaseURL );
+    [ id( DISPID_BASEURL ), propput ]
+        HRESULT BaseURL( [in] BSTR bstrBaseURL );
+
+    [ id( DISPID_DEFAULTFRAME ), propget, helpstring( "Returns or sets the control's default target HTTP frame" ) ]
+        HRESULT DefaultFrame( [out, retval] BSTR *pbstrDefaultFrame );
+    [ id( DISPID_DEFAULTFRAME ), propput ]
+        HRESULT DefaultFrame( [in] BSTR bstrDefaultFrame );
+
+    [ id( DISPID_HASERROR ), propget, helpstring( "Returns whether or not the control currently has an error" ) ]
+        HRESULT HasError( [out, retval] VARIANT_BOOL *pHasError );
+
+    [ id( DISPID_ERRORDESCRIPTION ), propget, helpstring( "Returns the description of the current error state" ) ]
+        HRESULT ErrorDescription( [out, retval] BSTR *pbstrErrorDescription );
+
+    [ id( DISPID_ERRORCODE ), propget, helpstring( "Returns the current error code" ) ]
+        HRESULT ErrorCode( [out, retval] long *pErrorCode );
+
+    [ id( DISPID_ANIMATIONATSTART ), propget, helpstring( "Returns or sets whether or not the control shows its animation during initial file buffering" ) ]
+        HRESULT AnimationAtStart( [out, retval] VARIANT_BOOL *pAnimationAtStart );
+    [ id( DISPID_ANIMATIONATSTART ), propput ]
+        HRESULT AnimationAtStart( [in] VARIANT_BOOL AnimationAtStart );
+
+    [ id( DISPID_TRANSPARENTATSTART ), propget, helpstring( "Returns or sets whether or not the control is transparent before playing" ) ]
+        HRESULT TransparentAtStart( [out, retval] VARIANT_BOOL *pTransparentAtStart );
+    [ id( DISPID_TRANSPARENTATSTART ), propput ]
+        HRESULT TransparentAtStart( [in] VARIANT_BOOL TransparentAtStart );
+
+    // AMovie Properties
+
+    [ id( DISPID_VOLUME), propget, helpstring( "Returns or sets the current volume of the stream" ) ]
+        HRESULT Volume( [out, retval] long *pVolume );
+    [ id( DISPID_VOLUME ), propput ]
+        HRESULT Volume( [in] long Volume);
+
+    [ id( DISPID_BALANCE), propget, helpstring( "Returns or sets the current balance of the stream" ) ]
+        HRESULT Balance( [out, retval] long *pBalance );
+    [ id( DISPID_BALANCE ), propput ]
+        HRESULT Balance( [in] long Balance);
+
+    [id(DISPID_READYSTATE), propget, helpstring("Returns the readiness state of the control")]
+        HRESULT ReadyState([out, retval] MPReadyStateConstants* pValue);
+
+    [id(DISPID_SELECTION_START), propget, helpstring("Returns or sets the position where playback will begin")]
+        HRESULT SelectionStart([out, retval] double* pValue);
+    [id(DISPID_SELECTION_START), propput]
+        HRESULT SelectionStart([in] double Value);
+
+    [id(DISPID_SELECTION_END), propget, helpstring("Returns or sets the position where playback will stop")]
+        HRESULT SelectionEnd([out, retval] double* pValue);
+    [id(DISPID_SELECTION_END), propput]
+        HRESULT SelectionEnd([in] double Value);
+
+    [id(DISPID_SHOW_DISPLAY), propget, helpstring("Shows or hides the display panel")]
+        HRESULT ShowDisplay([out, retval] VARIANT_BOOL* Show);
+    [id(DISPID_SHOW_DISPLAY), propput]
+        HRESULT ShowDisplay([in] VARIANT_BOOL Show);
+
+    [id(DISPID_SHOW_CONTROLS), propget, helpstring("Shows or hides the control panel")]
+        HRESULT ShowControls([out, retval] VARIANT_BOOL* Show);
+    [id(DISPID_SHOW_CONTROLS), propput]
+        HRESULT ShowControls([in] VARIANT_BOOL Show);
+
+    [id(DISPID_SHOW_POSITION_CONTROLS), propget, helpstring("Shows or hides the position buttons in the control panel")]
+        HRESULT ShowPositionControls([out, retval] VARIANT_BOOL* Show);
+    [id(DISPID_SHOW_POSITION_CONTROLS), propput]
+        HRESULT ShowPositionControls([in] VARIANT_BOOL Show);
+
+    [id(DISPID_SHOW_TRACKER), propget, helpstring("Shows or hides the tracker bar in the control panel")]
+        HRESULT ShowTracker([out, retval] VARIANT_BOOL* Show);
+    [id(DISPID_SHOW_TRACKER), propput]
+        HRESULT ShowTracker([in] VARIANT_BOOL Show);
+
+    [id(DISPID_ENABLE_POSITION_CONTROLS), propget, helpstring("Enables or disables the position buttons in the control panel")]
+        HRESULT EnablePositionControls([out, retval] VARIANT_BOOL* Enable);
+    [id(DISPID_ENABLE_POSITION_CONTROLS), propput]
+        HRESULT EnablePositionControls([in] VARIANT_BOOL Enable);
+
+    [id(DISPID_ENABLE_TRACKER), propget, helpstring("Enables or disables the tracker bar in the control panel")]
+        HRESULT EnableTracker([out, retval] VARIANT_BOOL* Enable);
+    [id(DISPID_ENABLE_TRACKER), propput]
+        HRESULT EnableTracker([in] VARIANT_BOOL Enable);
+
+    [id(DISPID_ENABLED), propget, helpstring("Enables or disables the control")]
+        HRESULT Enabled([out, retval] VARIANT_BOOL* pEnabled);
+    [id(DISPID_ENABLED), propput]
+        HRESULT Enabled([in] VARIANT_BOOL Enabled);
+
+    [id(DISPID_DISPLAY_FORE_COLOR), propget, helpstring("Returns or sets the foreground color of the display panel")]
+        HRESULT DisplayForeColor([out, retval] VB_OLE_COLOR* ForeColor);
+    [id(DISPID_DISPLAY_FORE_COLOR), propput]
+        HRESULT DisplayForeColor([in] VB_OLE_COLOR ForeColor);
+
+    [id(DISPID_DISPLAY_BACK_COLOR), propget, helpstring("Returns or sets the background color of the display panel")]
+        HRESULT DisplayBackColor([out, retval] VB_OLE_COLOR* BackColor);
+    [id(DISPID_DISPLAY_BACK_COLOR), propput]
+        HRESULT DisplayBackColor([in] VB_OLE_COLOR BackColor);
+
+    [id(DISPID_DISPLAY_MODE), propget, helpstring("Returns or sets the display mode (time or frames)")]
+        HRESULT DisplayMode([out, retval] MPDisplayModeConstants* pValue);
+    [id(DISPID_DISPLAY_MODE), propput]
+        HRESULT DisplayMode([in] MPDisplayModeConstants Value);
+
+    // new properties
+
+    [id(DISPID_VIDEOBORDER_3D), propget, helpstring("Returns or sets the video border 3D effect")]
+        HRESULT VideoBorder3D([out, retval] VARIANT_BOOL* pVideoBorderWidth);
+    [id(DISPID_VIDEOBORDER_3D), propput]
+        HRESULT VideoBorder3D([in] VARIANT_BOOL VideoBorderWidth);
+
+    [id(DISPID_VIDEOBORDER_WIDTH), propget, helpstring("Returns or sets the video border width")]
+        HRESULT VideoBorderWidth([out, retval] long* pVideoBorderWidth);
+    [id(DISPID_VIDEOBORDER_WIDTH), propput]
+        HRESULT VideoBorderWidth([in] long VideoBorderWidth);
+
+    [id(DISPID_VIDEOBORDER_COLOR), propget, helpstring("Returns or sets the video border color")]
+        HRESULT VideoBorderColor([out, retval] VB_OLE_COLOR * pVideoBorderWidth);
+    [id(DISPID_VIDEOBORDER_COLOR), propput]
+        HRESULT VideoBorderColor([in] VB_OLE_COLOR VideoBorderColor);
+
+    [id(DISPID_SHOWGOTOBAR), propget, helpstring("Show Gotobar")]
+		HRESULT ShowGotoBar([out, retval]VARIANT_BOOL* pbool);
+    [id(DISPID_SHOWGOTOBAR), propput]
+	HRESULT ShowGotoBar([in]VARIANT_BOOL vbool);
+
+    [id(DISPID_SHOWSTATUSBAR), propget, helpstring("Show status bar")]
+	HRESULT ShowStatusBar([out, retval]VARIANT_BOOL* pbool);
+    [id(DISPID_SHOWSTATUSBAR), propput]
+	HRESULT ShowStatusBar([in]VARIANT_BOOL vbool);
+
+    [id(DISPID_SHOWCAPTIONING), propget, helpstring("Show captioning text")]
+	HRESULT ShowCaptioning([out, retval]VARIANT_BOOL* pbool);
+    [id(DISPID_SHOWCAPTIONING), propput]
+	HRESULT ShowCaptioning([in]VARIANT_BOOL pbool);
+
+    [id(DISPID_SHOWAUDIOCONTROLS), propget, helpstring("Show audio controls")]
+	HRESULT ShowAudioControls([out, retval]VARIANT_BOOL* pbool);
+    [id(DISPID_SHOWAUDIOCONTROLS), propput]
+	HRESULT ShowAudioControls([in]VARIANT_BOOL bBool);
+
+    [id(DISPID_CAPTIONING_ID), propget, helpstring("Returns or sets the captioning information")]
+	HRESULT CaptioningID([out, retval]BSTR* pstrText);
+    [id(DISPID_CAPTIONING_ID), propput]
+	HRESULT CaptioningID([in]BSTR strText);
+
+    [ id( DISPID_MUTE), propget, helpstring( "Returns or sets the current mute state of the stream" ) ]
+        HRESULT Mute( [out, retval] VARIANT_BOOL * vbool );
+    [ id( DISPID_MUTE ), propput ]
+        HRESULT Mute( [in] VARIANT_BOOL vbool);
+
+    [ id( DISPID_CANPREVIEW ), propget, helpstring( "Returns whether the control currently has something that can be previewed") ]
+        HRESULT CanPreview( [out, retval] VARIANT_BOOL *pCanPreview );
+
+    [ id( DISPID_PREVIEWMODE ), propget, helpstring( "Returns or sets whether the control is in preview mode" ) ]
+        HRESULT PreviewMode( [out, retval] VARIANT_BOOL *pPreviewMode );
+    [ id( DISPID_PREVIEWMODE ), propput]
+        HRESULT PreviewMode( [in] VARIANT_BOOL PreviewMode );
+
+    [ id( DISPID_HASMULTIPLEITEMS ), propget, helpstring( "Returns whether the control currently has something that contains multiple items") ]
+        HRESULT HasMultipleItems([out, retval] VARIANT_BOOL *pHasMuliItems);
+
+    [ id( DISPID_LANGUAGE ), propget, helpstring( "Returns or sets the current language, using windows LCIDs" ) ]
+        HRESULT Language( [out, retval] long *pLanguage );
+    [ id( DISPID_LANGUAGE ), propput ]
+        HRESULT Language( [in] long Language );
+
+    [ id( DISPID_AUDIOSTREAM ), propget, helpstring( "Returns or sets the current audio stream" ) ]
+        HRESULT AudioStream( [out, retval] long *pStream );
+    [ id( DISPID_AUDIOSTREAM ), propput ]
+        HRESULT AudioStream( [in] long Stream );
+
+    [ id( DISPID_SAMISTYLE ), propget, helpstring( "Returns or sets the closed-captioning style" ) ]
+        HRESULT SAMIStyle( [out, retval] BSTR *pbstrStyle );
+    [ id( DISPID_SAMISTYLE ), propput ]
+        HRESULT SAMIStyle( [in] BSTR bstrStyle );
+
+    [ id( DISPID_SAMILANG ), propget, helpstring( "Returns or sets the closed-captioning language" ) ]
+        HRESULT SAMILang( [out, retval] BSTR *pbstrLang );
+    [ id( DISPID_SAMILANG ), propput ]
+        HRESULT SAMILang( [in] BSTR bstrLang );
+
+    [ id( DISPID_SAMIFILENAME ), propget, helpstring( "Returns or sets the closed-captioning filename" ) ]
+        HRESULT SAMIFileName( [out, retval] BSTR *pbstrFileName );
+    [ id( DISPID_SAMIFILENAME ), propput ]
+        HRESULT SAMIFileName( [in] BSTR bstrFileName );
+
+    [ id( DISPID_STREAMCOUNT ), propget, helpstring( "Returns the number of media streams" ) ]
+        HRESULT StreamCount( [out, retval] long *pStreamCount );
+
+    [id( DISPID_CLIENTID ), propget, helpstring( "Returns a unique id for the player" ) ]
+	HRESULT ClientId( [out, retval] BSTR *pbstrClientId );
+
+    [id(DISPID_CONNECTIONSPEED), propget, helpstring ("Returns the network connection speed of the player")]
+	HRESULT ConnectionSpeed([out, retval] long *plConnectionSpeed);
+
+    [id(DISPID_AUTOSIZE), propget, helpstring("Size the control automatically to the loaded media")]
+	HRESULT AutoSize([out, retval]VARIANT_BOOL* pbool);
+    [id(DISPID_AUTOSIZE), propput]
+	HRESULT AutoSize([in]VARIANT_BOOL vbool);
+
+    [id(DISPID_ENABLEFULLSCREENCONTROLS), propget, helpstring("Enables controls during full screen")]
+        HRESULT EnableFullScreenControls([out, retval] VARIANT_BOOL *pbVal);
+    [id(DISPID_ENABLEFULLSCREENCONTROLS), propput]
+        HRESULT EnableFullScreenControls([in] VARIANT_BOOL bVal);
+
+    [propget, id(DISPID_ACTIVEMOVIE), helpstring("Returns the ActiveMovie player object")]
+	HRESULT ActiveMovie([out, retval] IDispatch **ppdispatch);
+
+    [propget, id(DISPID_NSPLAY), helpstring("Returns the NetShow player object")]
+	HRESULT NSPlay([out, retval] IDispatch **ppdispatch);
+
+
+    [id(DISPID_WINDOWLESSVIDEO), propget, helpstring("Render video without a window")]
+	HRESULT WindowlessVideo([out, retval] VARIANT_BOOL *pbool);
+    [id(DISPID_WINDOWLESSVIDEO), propput]
+	HRESULT WindowlessVideo([in] VARIANT_BOOL vbool);
+		
+/////////////////////////////////////////////////////////////////////////////
+// methods
+/////////////////////////////////////////////////////////////////////////////
+
+    // NetShow methods
+    [ id( DISPID_PLAY ), helpstring( "Begins playing from the current position or marker" ) ]
+        HRESULT Play();
+
+    [ id( DISPID_STOP ), helpstring( "Stops file playback at the current position" ) ]
+        HRESULT Stop();
+
+    [ id( DISPID_PAUSE ), helpstring( "Pauses file playback at the current position" ) ]
+        HRESULT Pause();
+
+    [ id( DISPID_GETMARKERTIME ), helpstring( "Returns the time of a marker" ) ]
+        HRESULT GetMarkerTime( [in] long MarkerNum, [out, retval] double *pMarkerTime );
+
+    [ id( DISPID_GETMARKERNAME ), helpstring( "Returns the name of a marker" ) ]
+        HRESULT GetMarkerName( [in] long MarkerNum, [out, retval] BSTR *pbstrMarkerName );
+
+    [ id( DISPID_ABOUTBOX ), helpstring( "Displays version information dialog box" ) ]
+        HRESULT AboutBox();
+
+    [ id( DISPID_GETCODECINSTALLED ), helpstring( "Returns whether or not a codec is installed" ) ]
+        HRESULT GetCodecInstalled(  [in] long CodecNum, [out, retval] VARIANT_BOOL *pCodecInstalled );
+
+    [ id( DISPID_GETCODECDESCRIPTION ), helpstring( "Returns the descriptive name of a codec" ) ]
+        HRESULT GetCodecDescription([in] long CodecNum, [out, retval] BSTR *pbstrCodecDescription );
+
+    [ id( DISPID_GETCODECURL ), helpstring( "Returns the URL for a codec" ) ]
+        HRESULT GetCodecURL( [in] long CodecNum, [out, retval] BSTR *pbstrCodecURL );
+
+    [ id( DISPID_GETMOREINFOURL ), helpstring( "Returns a More Information URL" ) ]
+        HRESULT GetMoreInfoURL( [in] MPMoreInfoType MoreInfoType, [out, retval] BSTR *pbstrMoreInfoURL );
+
+    [ id( DISPID_GETMEDIAINFOSTRING ), helpstring( "Returns an Information String for the Media" ) ]
+        HRESULT GetMediaInfoString( [in] MPMediaInfoType MediaInfoType, [out, retval] BSTR *pbstrMediaInfo );
+
+    [ id( DISPID_CANCEL ), helpstring( "Cancels the current operation" ) ]
+        HRESULT Cancel();
+
+    [ id( DISPID_OPEN ), helpstring( "Opens the given filename asynchronously" ) ]
+        HRESULT Open( [in] BSTR bstrFileName );
+
+    // ActiveMovie methods
+
+    [id(DISPID_ISSOUNDCARDENABLED), helpstring("Determines whether the sound card is enabled on the machine")]
+        HRESULT IsSoundCardEnabled([out, retval] VARIANT_BOOL *pbSoundCard);
+
+    // new Methods
+
+    [ id( DISPID_NEXT ), helpstring( "Jumps to the next item" ) ]
+        HRESULT Next();
+
+    [ id( DISPID_PREVIOUS ), helpstring( "Jumps to the previous item" ) ]
+        HRESULT Previous();
+
+    [ id( DISPID_STREAMSELECT ), helpstring( "Selects a media stream" ) ]
+        HRESULT StreamSelect( [in] long StreamNum );
+
+    [ id( DISPID_FASTFORWARD ), helpstring( "Fast Forwards the playback" ) ]
+        HRESULT FastForward();
+
+    [ id( DISPID_FASTREVERSE ), helpstring( "Fast Reverses the playback" ) ]
+        HRESULT FastReverse();
+
+    [ id( DISPID_GETSTREAMNAME ), helpstring( "Returns the name of a media stream" ) ]
+        HRESULT GetStreamName( [in] long StreamNum, [out, retval] BSTR *pbstrStreamName );
+
+    [ id( DISPID_GETSTREAMGROUP ), helpstring( "Returns the group of a media stream" ) ]
+        HRESULT GetStreamGroup( [in] long StreamNum, [out, retval] long *pStreamGroup );
+
+    [ id( DISPID_GETSTREAMSELECTED ), helpstring( "Returns whether a media stream is selected" ) ]
+        HRESULT GetStreamSelected( [in] long StreamNum, [out, retval] VARIANT_BOOL *pStreamSelected );
+};
+
+
+/////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
+[
+    object,
+    uuid(20D4F5E0-5475-11d2-9774-0000F80855E6),
+    dual,
+    helpstring("IMediaPlayer2 Interface"),
+    pointer_default(unique)
+]
+interface IMediaPlayer2 : IMediaPlayer
+{
+    [propget, id(DISPID_MPDVD), helpstring("Returns the MediaPlayer DVD interface")]
+    HRESULT DVD([out, retval] IMediaPlayerDvd **ppdispatch);
+
+    [ id( DISPID_GETMEDIAPARAMETER ), helpstring( "Returns the value for a given parameter name and entry number" ) ]
+        HRESULT GetMediaParameter( [in] long EntryNum, [in] BSTR bstrParameterName, [out, retval] BSTR *pbstrParameterValue );
+
+    [ id( DISPID_GETMEDIAPARAMETERNAME ), helpstring( "Returns the name for a given parameter index and entry number" ) ]
+        HRESULT GetMediaParameterName( [in] long EntryNum, [in] long Index, [out, retval] BSTR *pbstrParameterName );
+
+    [ id( DISPID_ENTRYCOUNT ), propget, helpstring( "Returns the number of playlist entries" ) ]
+        HRESULT EntryCount([out, retval] long *pNumberEntries);
+
+    [ id( DISPID_GETCURRENTENTRY ), helpstring( "Returns the current playlist item's entry number" ) ]
+        HRESULT GetCurrentEntry([out, retval] long *pEntryNumber);
+
+    [ id( DISPID_SETCURRENTENTRY ), helpstring( "Sets the current playlist entry" ) ]
+        HRESULT SetCurrentEntry([in] long EntryNumber);
+
+    [ id( DISPID_SHOWDIALOG ), helpstring( "Displays modal dialog box containing WMP options" ) ]
+        HRESULT ShowDialog([in] MPShowDialogConstants mpDialogIndex);
+}

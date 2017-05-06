@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voEQEffectTest", "voEQEffectTest.vcproj", "{1F673A24-637C-4176-B13A-066ED76F701E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F974B778-B7B2-4A18-9DB4-36487BDB6E81} = {F974B778-B7B2-4A18-9DB4-36487BDB6E81}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voEQEffectLib", "..\voEQEffectLib\voEQEffectLib.vcproj", "{F974B778-B7B2-4A18-9DB4-36487BDB6E81}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voEQEffectDll", "..\voEQEffectDll\voEQEffectDll.vcproj", "{28013EE6-7C61-4460-8162-A2D130A7959B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F673A24-637C-4176-B13A-066ED76F701E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F673A24-637C-4176-B13A-066ED76F701E}.Debug|Win32.Build.0 = Debug|Win32
+		{1F673A24-637C-4176-B13A-066ED76F701E}.Release|Win32.ActiveCfg = Release|Win32
+		{1F673A24-637C-4176-B13A-066ED76F701E}.Release|Win32.Build.0 = Release|Win32
+		{F974B778-B7B2-4A18-9DB4-36487BDB6E81}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F974B778-B7B2-4A18-9DB4-36487BDB6E81}.Debug|Win32.Build.0 = Debug|Win32
+		{F974B778-B7B2-4A18-9DB4-36487BDB6E81}.Release|Win32.ActiveCfg = Release|Win32
+		{F974B778-B7B2-4A18-9DB4-36487BDB6E81}.Release|Win32.Build.0 = Release|Win32
+		{28013EE6-7C61-4460-8162-A2D130A7959B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28013EE6-7C61-4460-8162-A2D130A7959B}.Debug|Win32.Build.0 = Debug|Win32
+		{28013EE6-7C61-4460-8162-A2D130A7959B}.Release|Win32.ActiveCfg = Release|Win32
+		{28013EE6-7C61-4460-8162-A2D130A7959B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

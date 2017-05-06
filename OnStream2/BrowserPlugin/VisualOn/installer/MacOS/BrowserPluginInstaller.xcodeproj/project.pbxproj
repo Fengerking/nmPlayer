@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		296EFEEE1717A5DB003269DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296EFEED1717A5DB003269DB /* Cocoa.framework */; };
+		296EFEF81717A5DB003269DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 296EFEF61717A5DB003269DB /* InfoPlist.strings */; };
+		296EFEFA1717A5DB003269DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 296EFEF91717A5DB003269DB /* main.m */; };
+		296EFF011717A5DB003269DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 296EFF001717A5DB003269DB /* AppDelegate.m */; };
+		296EFF041717A5DB003269DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296EFF021717A5DB003269DB /* MainMenu.xib */; };
+		296EFF0C1717D2CF003269DB /* BoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 296EFF0B1717D2CF003269DB /* BoxView.m */; };
+		296EFF0F1717D58C003269DB /* IntroducePage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 296EFF0E1717D58C003269DB /* IntroducePage.mm */; };
+		296EFF111717E31C003269DB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296EFF101717E31C003269DB /* Security.framework */; };
+		296EFF1B1717F148003269DB /* SummaryPage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 296EFF1A1717F148003269DB /* SummaryPage.mm */; };
+		296EFF1E1717F32D003269DB /* SideBar.mm in Sources */ = {isa = PBXBuildFile; fileRef = 296EFF1D1717F32D003269DB /* SideBar.mm */; };
+		29DB999417D71AAC00C68332 /* voBrowserPlugin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29DB999317D71AAC00C68332 /* voBrowserPlugin.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		296EFEEA1717A5DB003269DB /* BrowserPluginInstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowserPluginInstaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		296EFEED1717A5DB003269DB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		296EFEF01717A5DB003269DB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		296EFEF11717A5DB003269DB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		296EFEF21717A5DB003269DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		296EFEF51717A5DB003269DB /* BrowserPluginInstaller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrowserPluginInstaller-Info.plist"; sourceTree = "<group>"; };
+		296EFEF71717A5DB003269DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		296EFEF91717A5DB003269DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		296EFEFB1717A5DB003269DB /* BrowserPluginInstaller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrowserPluginInstaller-Prefix.pch"; sourceTree = "<group>"; };
+		296EFEFF1717A5DB003269DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		296EFF001717A5DB003269DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		296EFF031717A5DB003269DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		296EFF0A1717D2CF003269DB /* BoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxView.h; sourceTree = "<group>"; };
+		296EFF0B1717D2CF003269DB /* BoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxView.m; sourceTree = "<group>"; };
+		296EFF0D1717D58C003269DB /* IntroducePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroducePage.h; sourceTree = "<group>"; };
+		296EFF0E1717D58C003269DB /* IntroducePage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IntroducePage.mm; sourceTree = "<group>"; };
+		296EFF101717E31C003269DB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		296EFF191717F148003269DB /* SummaryPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryPage.h; sourceTree = "<group>"; };
+		296EFF1A1717F148003269DB /* SummaryPage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SummaryPage.mm; sourceTree = "<group>"; };
+		296EFF1C1717F32D003269DB /* SideBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBar.h; sourceTree = "<group>"; };
+		296EFF1D1717F32D003269DB /* SideBar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SideBar.mm; sourceTree = "<group>"; };
+		29DB999317D71AAC00C68332 /* voBrowserPlugin.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = voBrowserPlugin.bundle; path = BrowserPluginInstaller/voBrowserPlugin.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		296EFEE71717A5DB003269DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296EFEEE1717A5DB003269DB /* Cocoa.framework in Frameworks */,
+				296EFF111717E31C003269DB /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		296EFEE11717A5DB003269DB = {
+			isa = PBXGroup;
+			children = (
+				296EFF141717EE8F003269DB /* Resources */,
+				296EFF101717E31C003269DB /* Security.framework */,
+				296EFEF31717A5DB003269DB /* BrowserPluginInstaller */,
+				296EFEEC1717A5DB003269DB /* Frameworks */,
+				296EFEEB1717A5DB003269DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		296EFEEB1717A5DB003269DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				296EFEEA1717A5DB003269DB /* BrowserPluginInstaller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		296EFEEC1717A5DB003269DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				296EFEED1717A5DB003269DB /* Cocoa.framework */,
+				296EFEEF1717A5DB003269DB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		296EFEEF1717A5DB003269DB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				296EFEF01717A5DB003269DB /* AppKit.framework */,
+				296EFEF11717A5DB003269DB /* CoreData.framework */,
+				296EFEF21717A5DB003269DB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		296EFEF31717A5DB003269DB /* BrowserPluginInstaller */ = {
+			isa = PBXGroup;
+			children = (
+				296EFF1C1717F32D003269DB /* SideBar.h */,
+				296EFF1D1717F32D003269DB /* SideBar.mm */,
+				296EFF191717F148003269DB /* SummaryPage.h */,
+				296EFF1A1717F148003269DB /* SummaryPage.mm */,
+				296EFF0D1717D58C003269DB /* IntroducePage.h */,
+				296EFF0E1717D58C003269DB /* IntroducePage.mm */,
+				296EFF0A1717D2CF003269DB /* BoxView.h */,
+				296EFF0B1717D2CF003269DB /* BoxView.m */,
+				296EFEFF1717A5DB003269DB /* AppDelegate.h */,
+				296EFF001717A5DB003269DB /* AppDelegate.m */,
+				296EFF021717A5DB003269DB /* MainMenu.xib */,
+				296EFEF41717A5DB003269DB /* Supporting Files */,
+			);
+			path = BrowserPluginInstaller;
+			sourceTree = "<group>";
+		};
+		296EFEF41717A5DB003269DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				296EFEF51717A5DB003269DB /* BrowserPluginInstaller-Info.plist */,
+				296EFEF61717A5DB003269DB /* InfoPlist.strings */,
+				296EFEF91717A5DB003269DB /* main.m */,
+				296EFEFB1717A5DB003269DB /* BrowserPluginInstaller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		296EFF141717EE8F003269DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29DB999317D71AAC00C68332 /* voBrowserPlugin.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		296EFEE91717A5DB003269DB /* BrowserPluginInstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 296EFF071717A5DB003269DB /* Build configuration list for PBXNativeTarget "BrowserPluginInstaller" */;
+			buildPhases = (
+				296EFEE61717A5DB003269DB /* Sources */,
+				296EFEE71717A5DB003269DB /* Frameworks */,
+				296EFEE81717A5DB003269DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrowserPluginInstaller;
+			productName = BrowserPluginInstaller;
+			productReference = 296EFEEA1717A5DB003269DB /* BrowserPluginInstaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		296EFEE21717A5DB003269DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Shawn;
+			};
+			buildConfigurationList = 296EFEE51717A5DB003269DB /* Build configuration list for PBXProject "BrowserPluginInstaller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 296EFEE11717A5DB003269DB;
+			productRefGroup = 296EFEEB1717A5DB003269DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				296EFEE91717A5DB003269DB /* BrowserPluginInstaller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		296EFEE81717A5DB003269DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296EFEF81717A5DB003269DB /* InfoPlist.strings in Resources */,
+				296EFF041717A5DB003269DB /* MainMenu.xib in Resources */,
+				29DB999417D71AAC00C68332 /* voBrowserPlugin.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		296EFEE61717A5DB003269DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296EFEFA1717A5DB003269DB /* main.m in Sources */,
+				296EFF011717A5DB003269DB /* AppDelegate.m in Sources */,
+				296EFF0C1717D2CF003269DB /* BoxView.m in Sources */,
+				296EFF0F1717D58C003269DB /* IntroducePage.mm in Sources */,
+				296EFF1B1717F148003269DB /* SummaryPage.mm in Sources */,
+				296EFF1E1717F32D003269DB /* SideBar.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		296EFEF61717A5DB003269DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				296EFEF71717A5DB003269DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		296EFF021717A5DB003269DB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				296EFF031717A5DB003269DB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		296EFF051717A5DB003269DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		296EFF061717A5DB003269DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		296EFF081717A5DB003269DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrowserPluginInstaller/BrowserPluginInstaller-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "BrowserPluginInstaller/BrowserPluginInstaller-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		296EFF091717A5DB003269DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrowserPluginInstaller/BrowserPluginInstaller-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "BrowserPluginInstaller/BrowserPluginInstaller-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		296EFEE51717A5DB003269DB /* Build configuration list for PBXProject "BrowserPluginInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				296EFF051717A5DB003269DB /* Debug */,
+				296EFF061717A5DB003269DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		296EFF071717A5DB003269DB /* Build configuration list for PBXNativeTarget "BrowserPluginInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				296EFF081717A5DB003269DB /* Debug */,
+				296EFF091717A5DB003269DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 296EFEE21717A5DB003269DB /* Project object */;
+}

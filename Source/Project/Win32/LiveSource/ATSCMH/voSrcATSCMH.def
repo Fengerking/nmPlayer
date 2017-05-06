@@ -1,0 +1,4 @@
+LIBRARY voSrcATSCMH.dll
+
+EXPORTS
+	voGetLiveSrcAPI

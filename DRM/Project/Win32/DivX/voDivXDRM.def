@@ -1,0 +1,4 @@
+LIBRARY voDivXDRM.dll
+
+EXPORTS
+	voGetDivXDRMAPI

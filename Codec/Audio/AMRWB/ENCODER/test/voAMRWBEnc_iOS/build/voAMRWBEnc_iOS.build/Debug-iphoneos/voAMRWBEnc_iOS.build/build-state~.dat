@@ -1,0 +1,724 @@
+TvoAMRWBEnc_iOS
+v7
+r0
+t354096487.537574
+cCheck dependencies
+cCpResource build/Debug-iphoneos/voAMRWBEnc_iOS.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/Info.plist voAMRWBEnc_iOS-Info.plist
+cCompileXIB /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/MainWindow.xib
+cCompileXIB /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOSViewController.xib
+cProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-dbwmewvedtyxbvcsocszejitberf/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-csdfqpcspdpklyhkfbxdpkkmuaej/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-cbzrlhystwjglzgdtzuwwykczgos/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-budndfaklfeyshewgrzhqmfrsuqm/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/main.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOSAppDelegate.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOSViewController.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/AMRWB_E_SAMPLE.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/main.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOS normal armv6
+cCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOSAppDelegate.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOSViewController.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/AMRWB_E_SAMPLE.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c normal armv7 c com.apple.compilers.gcc.4_2
+cLd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOS normal armv7
+cCreateUniversalBinary /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOS normal "armv6 armv7"
+cGenerateDSYMFile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app.dSYM /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOS
+cProcessProductPackaging "/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision" /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/embedded.mobileprovision
+cTouch /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS.xcent
+cCodeSign /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/dlfcn.h
+c000000004CC104810000000000000B1C
+t1287718017
+s2844
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/pthread.h
+c000000004CB3E4B800000000000038F0
+t1286857912
+s14576
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
+c000000004CB3E4B800000000000040AC
+t1286857912
+s16556
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/time.h
+c000000004CB3E4B8000000000000178E
+t1286857912
+s6030
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../../build/iOS/v6/libvoAMRWBEnc.a
+c000000004F6AC594000000000002D380
+t1332397460
+s185216
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../../build/iOS/v7/libvoAMRWBEnc.a
+c000000004F6AA774000000000002B668
+t1332389748
+s177768
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c
+c000000004F6ADD990000000000001DEC
+t1332403609
+s7660
+i<windows.h>
+i<objbase.h>
+i<Winbase.h>
+i<dlfcn.h>
+i<pthread.h>
+i<stdio.h>
+i<stdlib.h>
+i<time.h>
+i"voAMRWB.h"
+i"cmnMemory.h"
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.h
+c000000004F6ACF2700000000000001FA
+t1332399911
+s506
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.m
+c000000004F6ACF270000000000000AA9
+t1332399911
+s2729
+i"voAMRWBEnc_iOSAppDelegate.h"
+i"voAMRWBEnc_iOSViewController.h"
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.h
+c000000004F6ACF2700000000000000F4
+t1332399911
+s244
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m
+c000000004F6AD95900000000000008C4
+t1332402521
+s2244
+i"voAMRWBEnc_iOSViewController.h"
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/MainWindow.xib
+c000000004F6ACF270000000000004E7D
+t1332399911
+s20093
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app
+t1332403687
+s374
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app.dSYM
+t1332403687
+s102
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/Info.plist
+t1332403685
+s809
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/MainWindow.nib
+t1332403685
+s1137
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/PkgInfo
+t1332403685
+s8
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/ResourceRules.plist
+t1332403685
+s485
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/embedded.mobileprovision
+t1332403687
+s8442
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOS
+t1332403687
+s296320
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOSViewController.nib
+t1332403685
+s795
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/AMRWB_E_SAMPLE.o
+t1332403686
+s12228
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/main.o
+t1332403686
+s6512
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOS
+t1332403686
+s144940
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOS.LinkFileList
+c000000004F6ADDE500000000000002BF
+t1332403685
+s703
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOSAppDelegate.o
+t1332403686
+s50880
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOSViewController.o
+t1332403686
+s41036
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/AMRWB_E_SAMPLE.o
+t1332403687
+s12052
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/main.o
+t1332403686
+s6496
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOS
+t1332403687
+s144768
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOS.LinkFileList
+c000000004F6ADDE500000000000002BF
+t1332403685
+s703
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOSAppDelegate.o
+t1332403687
+s50800
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOSViewController.o
+t1332403687
+s40968
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS.xcent
+t1332403687
+s434
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/main.m
+c000000004F6ACF270000000000000161
+t1332399911
+s353
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOSViewController.xib
+c000000004F6ACF270000000000001A61
+t1332399911
+s6753
+
+N/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch
+c000000004F6ACF2700000000000000C5
+t1332399911
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/lilin/Code4/trunk/Common/cmnMemory.h
+c000000004EE868C90000000000000A43
+t1323854025
+s2627
+i"voMem.h"
+
+N/Users/lilin/Code4/trunk/Include/voAMRWB.h
+c000000004EE091120000000000000C85
+t1323340050
+s3205
+i"voAudio.h"
+
+N/Users/lilin/Code4/trunk/Include/voAudio.h
+c000000004F668E070000000000002B68
+t1332121095
+s11112
+i"voIndex.h"
+i"voMem.h"
+
+N/Users/lilin/Code4/trunk/Include/voIndex.h
+c000000004F45E6B40000000000001D85
+t1329981108
+s7557
+i"voType.h"
+
+N/Users/lilin/Code4/trunk/Include/voMem.h
+c000000004EE0911200000000000006D2
+t1323340050
+s1746
+i"voIndex.h"
+
+N/Users/lilin/Code4/trunk/Include/voType.h
+c000000004F5D9F9200000000000024EE
+t1331535762
+s9454
+i<stdlib.h>
+
+N/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision
+c000000004EBB9D0F00000000000020FA
+t1320918287
+s8442
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-bsceeptefcoxtwdsnryzlxjjksqo/voAMRWBEnc_iOS_Prefix.pch.gch
+t1332402269
+s1261796
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-budndfaklfeyshewgrzhqmfrsuqm/voAMRWBEnc_iOS_Prefix.pch.gch
+t1332403686
+s1716452
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-bxkigbqjifdkaddlipvlhoddsymi/voAMRWBEnc_iOS_Prefix.pch.gch
+t1332402270
+s9983704
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-cbzrlhystwjglzgdtzuwwykczgos/voAMRWBEnc_iOS_Prefix.pch.gch
+t1332403686
+s10446552
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-ccttsfotcsrnmdgemfnqvonmbqai/voAMRWBEnc_iOS_Prefix.pch.gch
+t1332402270
+s10446552
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-csdfqpcspdpklyhkfbxdpkkmuaej/voAMRWBEnc_iOS_Prefix.pch.gch
+t1332403685
+s1261796
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-dbwmewvedtyxbvcsocszejitberf/voAMRWBEnc_iOS_Prefix.pch.gch
+t1332403686
+s9983704
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-eatnwtwpzgmiwebvpjdsqumuhzvt/voAMRWBEnc_iOS_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-eweghqrgsqrormgfaduxuaryeigf/voAMRWBEnc_iOS_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-fkiepzaualwszyeubhirrcadbaqb/voAMRWBEnc_iOS_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-ggvlyvdxwzdhegestqjoctbmqrof/voAMRWBEnc_iOS_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-gqyrwifhzobyorbtjroizpdczhpf/voAMRWBEnc_iOS_Prefix.pch.gch
+t1332402270
+s1716452
+
+NvoAMRWBEnc_iOS-Info.plist
+c000000004F6ACF27000000000000038D
+t1332399911
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies354096485#354096485#0(0"0(0#1#0"8620973984#0"0#
+
+CCodeSign /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app
+s354096487.287176
+e354096487.537526
+r1
+xCodeSign
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app
+lSLF07#2@48"CodeSign build/Debug-iphoneos/voAMRWBEnc_iOS.app354096487#354096487#0(0"0(0#0#110"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app8610307552#807"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Bill Lin (976WAD8FSQ)" --resource-rules=/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/ResourceRules.plist --entitlements /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS.xcent /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app0#
+
+CCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/AMRWB_E_SAMPLE.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c normal armv6 c com.apple.compilers.gcc.4_2
+s354096486.870201
+e354096486.951900
+r1
+xCompileC
+xbuild/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/AMRWB_E_SAMPLE.o
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c: In function 'encode':
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:101: warning: pointer targets in passing argument 1 of 'fopen' differ in signedness
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:107: warning: pointer targets in passing argument 1 of 'fopen' differ in signedness
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:177: warning: implicit declaration of function 'strlen'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:177: warning: incompatible implicit declaration of built-in function 'strlen'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:178: warning: implicit declaration of function 'memcpy'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:178: warning: incompatible implicit declaration of built-in function 'memcpy'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c: In function 'beginTest_amrwbenc':
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:288: warning: pointer targets in assignment differ in signedness
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:289: warning: pointer targets in assignment differ in signedness
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:257: warning: unused variable 'AMREncParams_Reentant'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:256: warning: unused variable 'outFileName'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:256: warning: unused variable 'inFileName'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:255: warning: unused variable 'mode'
+lSLF07#2@98"Compile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096486#354096486#0(2076"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c: In function 'encode':/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:101: warning: pointer targets in passing argument 1 of 'fopen' differ in signedness/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:107: warning: pointer targets in passing argument 1 of 'fopen' differ in signedness/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:177: warning: implicit declaration of function 'strlen'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:177: warning: incompatible implicit declaration of built-in function 'strlen'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:178: warning: implicit declaration of function 'memcpy'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:178: warning: incompatible implicit declaration of built-in function 'memcpy'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c: In function 'beginTest_amrwbenc':/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:288: warning: pointer targets in assignment differ in signedness/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:289: warning: pointer targets in assignment differ in signedness/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:257: warning: unused variable 'AMREncParams_Reentant'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:256: warning: unused variable 'outFileName'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:256: warning: unused variable 'inFileName'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:255: warning: unused variable 'mode'12(22@69"Pointer targets in passing argument 1 of 'fopen' differ in signedness354096486#114#175#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#101#0#101#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@69"Pointer targets in passing argument 1 of 'fopen' differ in signedness354096486#289#175#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#107#0#107#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@41"Implicit declaration of function 'strlen'354096486#464#147#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#177#0#177#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'strlen'354096486#611#169#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#177#0#177#0#0"0(22@41"Implicit declaration of function 'memcpy'354096486#780#147#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#178#0#178#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'memcpy'354096486#927#169#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#178#0#178#0#0"0(22@50"Pointer targets in assignment differ in signedness354096486#1222#156#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#288#0#288#0#0"0(22@50"Pointer targets in assignment differ in signedness354096486#1378#156#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#289#0#289#0#0"0(22@39"Unused variable 'AMREncParams_Reentant'354096486#1534#145#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#257#0#257#0#19"unused variable '*'0(22@29"Unused variable 'outFileName'354096486#1679#135#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#256#0#256#0#19"unused variable '*'0(22@28"Unused variable 'inFileName'354096486#1814#134#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#256#0#256#0#19"unused variable '*'0(22@22"Unused variable 'mode'354096486#1948#128#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#255#0#255#0#19"unused variable '*'0(0#0#90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c8620770560#2291"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-csdfqpcspdpklyhkfbxdpkkmuaej/voAMRWBEnc_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/AMRWB_E_SAMPLE.o0#
+
+CCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/main.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s354096486.750632
+e354096486.844586
+r1
+xCompileC
+xbuild/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/main.o
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/main.m354096486#354096486#0(0"0(0#0#77"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/main.m8617382976#2278"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-dbwmewvedtyxbvcsocszejitberf/voAMRWBEnc_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/main.m -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOSAppDelegate.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s354096486.752524
+e354096486.870079
+r1
+xCompileC
+xbuild/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOSAppDelegate.o
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.m354096486#354096486#0(0"0(0#0#106"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.m8617140256#2328"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-dbwmewvedtyxbvcsocszejitberf/voAMRWBEnc_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.m -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOSAppDelegate.o0#
+
+CCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOSViewController.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s354096486.844702
+e354096486.926439
+r1
+xCompileC
+xbuild/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOSViewController.o
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m: In function '-[voAMRWBEnc_iOSViewController viewDidLoad]':
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:46: warning: initialization discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:50: warning: initialization discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:51: warning: initialization discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:53: warning: implicit declaration of function 'beginTest_amrwbenc'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:51: warning: unused variable 'outSpeedFile'
+lSLF07#2@117"Compile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m354096486#354096486#0(1050"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m: In function '-[voAMRWBEnc_iOSViewController viewDidLoad]':/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:46: warning: initialization discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:50: warning: initialization discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:51: warning: initialization discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:53: warning: implicit declaration of function 'beginTest_amrwbenc'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:51: warning: unused variable 'outSpeedFile'5(22@59"Initialization discards qualifiers from pointer target type354096486#170#183#0(6@109"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m354095321#46#0#46#0#0"0(22@59"Initialization discards qualifiers from pointer target type354096486#353#183#0(6@109"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m354095321#50#0#50#0#0"0(22@59"Initialization discards qualifiers from pointer target type354096486#536#183#0(6@109"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m354095321#51#0#51#0#0"0(22@53"Implicit declaration of function 'beginTest_amrwbenc'354096486#719#177#0(6@109"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m354095321#53#0#53#0#36"implicit declaration of function '*'0(22@30"Unused variable 'outSpeedFile'354096486#896#154#0(6@109"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m354095321#51#0#51#0#19"unused variable '*'0(0#0#109"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m8627119872#2334"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-dbwmewvedtyxbvcsocszejitberf/voAMRWBEnc_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOSViewController.o0#
+
+CCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/AMRWB_E_SAMPLE.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c normal armv7 c com.apple.compilers.gcc.4_2
+s354096487.111451
+e354096487.178375
+r1
+xCompileC
+xbuild/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/AMRWB_E_SAMPLE.o
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c: In function 'encode':
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:101: warning: pointer targets in passing argument 1 of 'fopen' differ in signedness
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:107: warning: pointer targets in passing argument 1 of 'fopen' differ in signedness
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:177: warning: implicit declaration of function 'strlen'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:177: warning: incompatible implicit declaration of built-in function 'strlen'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:178: warning: implicit declaration of function 'memcpy'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:178: warning: incompatible implicit declaration of built-in function 'memcpy'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c: In function 'beginTest_amrwbenc':
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:288: warning: pointer targets in assignment differ in signedness
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:289: warning: pointer targets in assignment differ in signedness
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:257: warning: unused variable 'AMREncParams_Reentant'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:256: warning: unused variable 'outFileName'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:256: warning: unused variable 'inFileName'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:255: warning: unused variable 'mode'
+lSLF07#2@98"Compile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096487#354096487#0(2076"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c: In function 'encode':/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:101: warning: pointer targets in passing argument 1 of 'fopen' differ in signedness/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:107: warning: pointer targets in passing argument 1 of 'fopen' differ in signedness/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:177: warning: implicit declaration of function 'strlen'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:177: warning: incompatible implicit declaration of built-in function 'strlen'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:178: warning: implicit declaration of function 'memcpy'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:178: warning: incompatible implicit declaration of built-in function 'memcpy'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c: In function 'beginTest_amrwbenc':/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:288: warning: pointer targets in assignment differ in signedness/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:289: warning: pointer targets in assignment differ in signedness/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:257: warning: unused variable 'AMREncParams_Reentant'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:256: warning: unused variable 'outFileName'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:256: warning: unused variable 'inFileName'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c:255: warning: unused variable 'mode'12(22@69"Pointer targets in passing argument 1 of 'fopen' differ in signedness354096487#114#175#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#101#0#101#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@69"Pointer targets in passing argument 1 of 'fopen' differ in signedness354096487#289#175#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#107#0#107#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@41"Implicit declaration of function 'strlen'354096487#464#147#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#177#0#177#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'strlen'354096487#611#169#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#177#0#177#0#0"0(22@41"Implicit declaration of function 'memcpy'354096487#780#147#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#178#0#178#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'memcpy'354096487#927#169#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#178#0#178#0#0"0(22@50"Pointer targets in assignment differ in signedness354096487#1222#156#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#288#0#288#0#0"0(22@50"Pointer targets in assignment differ in signedness354096487#1378#156#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#289#0#289#0#0"0(22@39"Unused variable 'AMREncParams_Reentant'354096487#1534#145#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#257#0#257#0#19"unused variable '*'0(22@29"Unused variable 'outFileName'354096487#1679#135#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#256#0#256#0#19"unused variable '*'0(22@28"Unused variable 'inFileName'354096487#1814#134#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#256#0#256#0#19"unused variable '*'0(22@22"Unused variable 'mode'354096487#1948#128#0(6@90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c354096409#255#0#255#0#19"unused variable '*'0(0#0#90"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c8625329984#2291"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-budndfaklfeyshewgrzhqmfrsuqm/voAMRWBEnc_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../AMRWB_E_SAMPLE.c -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/AMRWB_E_SAMPLE.o0#
+
+CCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/main.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s354096486.926557
+e354096487.001957
+r1
+xCompileC
+xbuild/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/main.o
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/main.m354096486#354096487#0(0"0(0#0#77"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/main.m8618064032#2278"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-cbzrlhystwjglzgdtzuwwykczgos/voAMRWBEnc_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/main.m -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOSAppDelegate.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s354096486.996950
+e354096487.136645
+r1
+xCompileC
+xbuild/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOSAppDelegate.o
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.m354096486#354096487#0(0"0(0#0#106"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.m8610479008#2328"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-cbzrlhystwjglzgdtzuwwykczgos/voAMRWBEnc_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSAppDelegate.m -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOSAppDelegate.o0#
+
+CCompileC build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOSViewController.o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s354096487.002068
+e354096487.109894
+r1
+xCompileC
+xbuild/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOSViewController.o
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m: In function '-[voAMRWBEnc_iOSViewController viewDidLoad]':
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:46: warning: initialization discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:50: warning: initialization discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:51: warning: initialization discards qualifiers from pointer target type
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:53: warning: implicit declaration of function 'beginTest_amrwbenc'
+o/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:51: warning: unused variable 'outSpeedFile'
+lSLF07#2@117"Compile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m354096487#354096487#0(1050"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m: In function '-[voAMRWBEnc_iOSViewController viewDidLoad]':/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:46: warning: initialization discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:50: warning: initialization discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:51: warning: initialization discards qualifiers from pointer target type/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:53: warning: implicit declaration of function 'beginTest_amrwbenc'/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m:51: warning: unused variable 'outSpeedFile'5(22@59"Initialization discards qualifiers from pointer target type354096487#170#183#0(6@109"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m354095321#46#0#46#0#0"0(22@59"Initialization discards qualifiers from pointer target type354096487#353#183#0(6@109"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m354095321#50#0#50#0#0"0(22@59"Initialization discards qualifiers from pointer target type354096487#536#183#0(6@109"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m354095321#51#0#51#0#0"0(22@53"Implicit declaration of function 'beginTest_amrwbenc'354096487#719#177#0(6@109"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m354095321#53#0#53#0#36"implicit declaration of function '*'0(22@30"Unused variable 'outSpeedFile'354096487#896#154#0(6@109"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m354095321#51#0#51#0#19"unused variable '*'0(0#0#109"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m8609357888#2334"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -include /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-cbzrlhystwjglzgdtzuwwykczgos/voAMRWBEnc_iOS_Prefix.pch -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/Classes/voAMRWBEnc_iOSViewController.m -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOSViewController.o0#
+
+CCompileXIB /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/MainWindow.xib
+s354096485.054446
+e354096485.539038
+r1
+xCompileXIB
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib354096485#354096485#0(0"0(0#0#85"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/MainWindow.xib8618563136#645"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/MainWindow.nib /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOSViewController.xib
+s354096485.055278
+e354096485.517916
+r1
+xCompileXIB
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOSViewController.xib
+lSLF07#2@43"CompileXIB voAMRWBEnc_iOSViewController.xib354096485#354096485#0(0"0(0#0#103"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOSViewController.xib8618130176#681"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOSViewController.nib /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOSViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/voAMRWBEnc_iOS.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s354096485.045774
+e354096485.053810
+r1
+xCpResource
+xbuild/Debug-iphoneos/voAMRWBEnc_iOS.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist354096485#354096485#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8619771328#565"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app0#
+
+CCreateUniversalBinary /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOS normal "armv6 armv7"
+s354096487.212608
+e354096487.216539
+r1
+xCreateUniversalBinary
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOS
+xnormal
+xarmv6 armv7
+lSLF07#2@97"CreateUniversalBinary build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOS normal "armv6 armv7"354096487#354096487#0(0"0(0#0#82"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/armv6 armv78613173184#702"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOS /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOS -output /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOS0#
+
+CGenerateDSYMFile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app.dSYM /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOS
+s354096487.216646
+e354096487.261424
+r1
+xGenerateDSYMFile
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app.dSYM
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOS
+lSLF07#2@116"GenerateDSYMFile build/Debug-iphoneos/voAMRWBEnc_iOS.app.dSYM build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOS354096487#354096487#0(0"0(0#0#125"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOS8610793888#479"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/voAMRWBEnc_iOS -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app.dSYM0#
+
+CLd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOS normal armv6
+s354096486.952014
+e354096486.996761
+r1
+xLd
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOS
+xnormal
+xarmv6
+lSLF07#2@174"Link /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOS354096486#354096486#0(0"0(0#0#0"8617279520#1258"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -L/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../../build/iOS/v6 -L/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../../build/iOS/v7 -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -filelist /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOS.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -lvoAMRWBEnc -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv6/voAMRWBEnc_iOS0#
+
+CLd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOS normal armv7
+s354096487.178481
+e354096487.212483
+r1
+xLd
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOS
+xnormal
+xarmv7
+lSLF07#2@174"Link /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOS354096487#354096487#0(0"0(0#0#0"8617532416#1258"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -L/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../../build/iOS/v6 -L/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/../../build/iOS/v7 -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -filelist /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOS.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -lvoAMRWBEnc -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/Objects-normal/armv7/voAMRWBEnc_iOS0#
+
+CProcessInfoPlistFile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/Info.plist voAMRWBEnc_iOS-Info.plist
+s354096485.046813
+e354096485.054365
+r1
+xProcessInfoPlistFile
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/Info.plist
+xvoAMRWBEnc_iOS-Info.plist
+lSLF07#2@33"Process voAMRWBEnc_iOS-Info.plist354096485#354096485#0(0"0(0#0#96"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS-Info.plist8619610304#718"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility voAMRWBEnc_iOS-Info.plist -genpkginfo /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/ResourceRules.plist -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/Info.plist0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-bsceeptefcoxtwdsnryzlxjjksqo/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+s354095069.679455
+e354095069.780541
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-bsceeptefcoxtwdsnryzlxjjksqo/voAMRWBEnc_iOS_Prefix.pch.gch
+xvoAMRWBEnc_iOS_Prefix.pch
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile voAMRWBEnc_iOS_Prefix.pch354095069#354095069#0(0"0(0#0#96"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch8620978464#2065"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-bsceeptefcoxtwdsnryzlxjjksqo/voAMRWBEnc_iOS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-budndfaklfeyshewgrzhqmfrsuqm/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+s354096486.649268
+e354096486.750382
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-budndfaklfeyshewgrzhqmfrsuqm/voAMRWBEnc_iOS_Prefix.pch.gch
+xvoAMRWBEnc_iOS_Prefix.pch
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile voAMRWBEnc_iOS_Prefix.pch354096486#354096486#0(0"0(0#0#96"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch8628682368#2127"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-budndfaklfeyshewgrzhqmfrsuqm/voAMRWBEnc_iOS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-bxkigbqjifdkaddlipvlhoddsymi/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s354095069.677957
+e354095070.734769
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-bxkigbqjifdkaddlipvlhoddsymi/voAMRWBEnc_iOS_Prefix.pch.gch
+xvoAMRWBEnc_iOS_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile voAMRWBEnc_iOS_Prefix.pch354095069#354095070#0(0"0(0#0#96"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch8621931328#2075"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-bxkigbqjifdkaddlipvlhoddsymi/voAMRWBEnc_iOS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-cbzrlhystwjglzgdtzuwwykczgos/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s354096485.615132
+e354096486.650958
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-cbzrlhystwjglzgdtzuwwykczgos/voAMRWBEnc_iOS_Prefix.pch.gch
+xvoAMRWBEnc_iOS_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile voAMRWBEnc_iOS_Prefix.pch354096485#354096486#0(0"0(0#0#96"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch8619876960#2137"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-cbzrlhystwjglzgdtzuwwykczgos/voAMRWBEnc_iOS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-ccttsfotcsrnmdgemfnqvonmbqai/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s354095069.780746
+e354095070.892808
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-ccttsfotcsrnmdgemfnqvonmbqai/voAMRWBEnc_iOS_Prefix.pch.gch
+xvoAMRWBEnc_iOS_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile voAMRWBEnc_iOS_Prefix.pch354095069#354095070#0(0"0(0#0#96"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch8620592320#2075"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-ccttsfotcsrnmdgemfnqvonmbqai/voAMRWBEnc_iOS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-csdfqpcspdpklyhkfbxdpkkmuaej/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+s354096485.540475
+e354096485.615014
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-csdfqpcspdpklyhkfbxdpkkmuaej/voAMRWBEnc_iOS_Prefix.pch.gch
+xvoAMRWBEnc_iOS_Prefix.pch
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile voAMRWBEnc_iOS_Prefix.pch354096485#354096485#0(0"0(0#0#96"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch8620308192#2127"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-csdfqpcspdpklyhkfbxdpkkmuaej/voAMRWBEnc_iOS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-dbwmewvedtyxbvcsocszejitberf/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s354096485.539159
+e354096486.648837
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-dbwmewvedtyxbvcsocszejitberf/voAMRWBEnc_iOS_Prefix.pch.gch
+xvoAMRWBEnc_iOS_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile voAMRWBEnc_iOS_Prefix.pch354096485#354096486#0(0"0(0#0#96"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch8621070304#2137"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_IOS -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I../../../../../../Common -I../../../../../../Include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv6 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-dbwmewvedtyxbvcsocszejitberf/voAMRWBEnc_iOS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-eatnwtwpzgmiwebvpjdsqumuhzvt/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-eweghqrgsqrormgfaduxuaryeigf/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-fkiepzaualwszyeubhirrcadbaqb/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-ggvlyvdxwzdhegestqjoctbmqrof/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-gqyrwifhzobyorbtjroizpdczhpf/voAMRWBEnc_iOS_Prefix.pch.gch voAMRWBEnc_iOS_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+s354095070.735097
+e354095070.834005
+r1
+xProcessPCH
+x/var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-gqyrwifhzobyorbtjroizpdczhpf/voAMRWBEnc_iOS_Prefix.pch.gch
+xvoAMRWBEnc_iOS_Prefix.pch
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile voAMRWBEnc_iOS_Prefix.pch354095070#354095070#0(0"0(0#0#96"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch8620105248#2065"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-generated-files.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-own-target-headers.hmap -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-all-target-headers.hmap -iquote /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS-project-headers.hmap -F/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/include -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources/armv7 -I/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/DerivedSources -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/voAMRWBEnc_iOS_Prefix.pch -o /var/folders/7K/7Kc5IVgXFx0jsqOupSaXck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/voAMRWBEnc_iOS_Prefix-gqyrwifhzobyorbtjroizpdczhpf/voAMRWBEnc_iOS_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision" /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/embedded.mobileprovision
+s354096487.261554
+e354096487.263062
+r1
+xProcessProductPackaging
+x/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/embedded.mobileprovision
+lSLF07#2@199"ProcessProductPackaging "/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision" build/Debug-iphoneos/voAMRWBEnc_iOS.app/embedded.mobileprovision354096487#354096487#0(0"0(0#0#135"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/embedded.mobileprovision8609277696#494"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/lilin/Library/MobileDevice/Provisioning Profiles/2FD8BF89-FD33-49EE-8C1E-D0AD4651799B.mobileprovision" -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS.xcent
+s354096487.266510
+e354096487.286992
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS.xcent
+lSLF07#2@196"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS.xcent354096487#354096487#0(0"0(0#0#154"/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS.xcent8602771808#517"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/voAMRWBEnc_iOS.build/Debug-iphoneos/voAMRWBEnc_iOS.build/voAMRWBEnc_iOS.xcent0#
+
+CTouch /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app
+s354096487.263127
+e354096487.266411
+r1
+xTouch
+x/Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app
+lSLF07#2@116"Touch /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app354096487#354096487#0(0"0(0#0#0"8605786176#335"    cd /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/lilin/Code4/trunk/Codec/Audio/AMRWB/ENCODER/test/voAMRWBEnc_iOS/build/Debug-iphoneos/voAMRWBEnc_iOS.app0#
+

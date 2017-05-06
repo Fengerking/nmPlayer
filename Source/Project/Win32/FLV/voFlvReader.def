@@ -1,0 +1,5 @@
+LIBRARY voFLVFR.dll
+
+EXPORTS
+	voGetFLVReadAPI
+	voGetFLV2ReadAPI

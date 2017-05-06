@@ -1,0 +1,18 @@
+/*
+============================================================================
+ Name		: bld.inf
+ Author	  : 
+ Copyright   : VisualOn Coryright 2003 - 2010.
+ Description : This file provides the information required for building the
+				whole of a RealFileReader.
+============================================================================
+*/
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_EXPORTS
+..\..\..\..\..\Include\voRealFile.h
+
+PRJ_MMPFILES
+RealFileReader.mmp

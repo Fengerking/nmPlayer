@@ -1,0 +1,4 @@
+LIBRARY voWVParser.dll
+
+EXPORTS
+	voGetWVParserAPI

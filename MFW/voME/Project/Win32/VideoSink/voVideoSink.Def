@@ -1,0 +1,5 @@
+LIBRARY	voOMXVR.dll
+
+EXPORTS
+	voGetVideoSinkHandle	@1
+			

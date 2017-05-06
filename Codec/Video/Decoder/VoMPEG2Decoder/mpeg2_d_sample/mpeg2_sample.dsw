@@ -1,0 +1,56 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "mpeg2_sample"=.\mpeg2_sample.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VideoCodec/VOIMPEG2/VoMPEG2Decoder/mpeg2_d_sample", EHRBAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name voMPEG2DecLib_VC6
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "voMPEG2DecLib_VC6"=..\lib\voMPEG2DecLib_VC6\voMPEG2DecLib_VC6\voMPEG2DecLib_VC6.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VideoCodec/VOIMPEG2/VoMPEG2Decoder/mpeg2_d_sample", EHRBAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VideoCodec/VOIMPEG2/VoMPEG2Decoder/mpeg2_d_sample", EHRBAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

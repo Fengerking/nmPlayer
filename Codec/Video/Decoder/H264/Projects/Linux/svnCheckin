@@ -1,0 +1,7 @@
+#cd Numen/trunk/Codec/Video/Decoder/H264/Projects/Linux
+#make;make devel
+svn ci ../../../../../../../voRelease/Customer/Google/eclair/so/v4 		 -m "regard repeated pps as normal"
+svn ci ../../../../../../../voRelease/Customer/Google/eclair/so/v6 		 -m "regard repeated pps as normal"
+svn ci ../../../../../../../voRelease/Customer/Google/eclair/so/v7 		 -m "regard repeated pps as normal"
+svn ci ../../../../../../../voRelease/Customer/Google/cupcake/so/v6  -m "regard repeated pps as normal"
+svn ci ../../../../../../../trunk/Codec/Video/Decoder/H264/Sources  -m "regard repeated pps as normal"

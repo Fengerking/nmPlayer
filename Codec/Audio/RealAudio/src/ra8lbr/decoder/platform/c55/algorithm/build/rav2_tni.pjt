@@ -1,0 +1,92 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="RA_TNIv2"
+ProjectDir="C:\helix\src\codec\ra8lbr\fixpt\decoder\platform\c55\algorithm\build\"
+ProjectType=Library
+CPUFamily=TMS320C55XX
+Tool="Archiver"
+Tool="Compiler"
+Tool="DspBiosBuilder"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\src\asm\asm_code.asm"
+Source="..\src\asm\asm_couple.asm"
+Source="..\src\asm\asm_fft.asm"
+Source="..\src\asm\asm_mlt.asm"
+Source="..\src\asm\asm_sqvh.asm"
+Source="..\src\asm\bitpack.asm"
+Source="..\src\asm\bitpeek.asm"
+Source="..\src\asm\byte_swap.asm"
+Source="..\src\asm\category.asm"
+Source="..\src\asm\dma_fft.asm"
+Source="..\src\asm\dma_mlt.asm"
+Source="..\src\asm\dma_sqvh.asm"
+Source="..\src\asm\gainctrl.asm"
+Source="..\src\asm\hufftables.asm"
+Source="..\src\c\assembly.c"
+Source="..\src\c\bitpack.c"
+Source="..\src\c\bitrevtabs.c"
+Source="..\src\c\category.c"
+Source="..\src\c\codemlt.c"
+Source="..\src\c\coder.c"
+Source="..\src\c\couple.c"
+Source="..\src\c\cpl_table_2.c"
+Source="..\src\c\cpl_table_3.c"
+Source="..\src\c\cpl_table_4.c"
+Source="..\src\c\cpl_table_5.c"
+Source="..\src\c\cpl_table_6.c"
+Source="..\src\c\cpl_tables.c"
+Source="..\src\c\cpltrees.c"
+Source="..\src\c\envelope.c"
+Source="..\src\c\fft.c"
+Source="..\src\c\fixtabs.c"
+Source="..\src\c\gainctrl.c"
+Source="..\src\c\huffman.c"
+Source="..\src\c\huffmantable.c"
+Source="..\src\c\hufftrees.c"
+Source="..\src\c\mlt.c"
+Source="..\src\c\power_table.c"
+Source="..\src\c\ra_tni.c"
+Source="..\src\c\ra_tni_ialg.c"
+Source="..\src\c\ra_tni_ialgvt.c"
+Source="..\src\c\ra_tni_idma.c"
+Source="..\src\c\ra_tni_ira.c"
+Source="..\src\c\sqvh.c"
+Source="..\src\c\sqvh_table_0.c"
+Source="..\src\c\sqvh_table_1.c"
+Source="..\src\c\sqvh_table_2.c"
+Source="..\src\c\sqvh_table_3.c"
+Source="..\src\c\sqvh_table_4.c"
+Source="..\src\c\sqvh_table_5.c"
+Source="..\src\c\sqvh_table_6.c"
+Source="..\src\c\sqvh_tables.c"
+Source="..\src\c\tables.c"
+Source="..\src\c\twidtabs.c"
+
+["Archiver" Settings: "Debug"]
+Options=-r -o..\..\Interface\lib\Debug\ra_tni_debug.l55l
+
+["Archiver" Settings: "Release"]
+Options=-r -o..\..\Interface\lib\Release\ra_tni.l55l
+
+["Compiler" Settings: "Debug"]
+Options=-g -mg -pm -ad__OPTIMISE_FIRST_PASS__=1 -adNOPACK=0 -ad__OPTIMISE_SECOND_PASS__=1 -adINTERP_ASM=1 -adUNPACKBIT_ASM=1 -adGAINWINDOW_ASM=1 -adCATEGORIZE_ASM=1 -adPEEKBIT_ASM=1 -adHUFFTABLE_ASM -adDECODECOUPLEINFO_ASM=1 -adDECODEVECTORS_ASM=1 -adCONST_TABLE_DMA=1 -adWORKING_BUF_DMA=1 -al -arR5573 -arR5505 -arR5571 -arR5673 -arR5108 -arR5549 -arR5579 -op0 -o3 -fr"..\..\build\Debug" -ff"..\..\build\Debug" -i"." -i"..\include" -i"..\..\include" -i"..\..\..\interface\include" -i"%TI_DIR\c5500\xdais\include%" -d"__OPTIMISE_FIRST_PASS__" -d"INTERP_ASM" -d"__OPTIMISE_SECOND_PASS__" -d"UNPACKBIT_ASM" -d"GAINWINDOW_ASM" -d"OPT_CATEGORIZE" -d"CATEGORIZE_ASM" -d"XDAIS_IALG" -d"_TI_" -d"PROFILE_TREES_" -d"_HUFFMAN_TABLES_" -d"PEEKBIT_ASM" -d"HUFFTABLE_ASM" -d"DECODECOUPLEINFO_ASM" -d"DECODEVECTORS_NEW" -d"DECODEVECTORS_ASM" -d"CONST_TABLE_DMA" -d"WORKING_BUF_DMA" -d"RA_OMAPS00005636" -d"RA_OMAP1710_MEMTAB" -ml
+
+["Compiler" Settings: "Release"]
+Options=-mg -pm -ad__OPTIMISE_FIRST_PASS__=1 -adNOPACK=0 -ad__OPTIMISE_SECOND_PASS__=1 -adINTERP_ASM=1 -adUNPACKBIT_ASM=1 -adGAINWINDOW_ASM=1 -adCATEGORIZE_ASM=1 -adPEEKBIT_ASM=1 -adHUFFTABLE_ASM -adDECODECOUPLEINFO_ASM=1 -adDECODEVECTORS_ASM=1 -adCONST_TABLE_DMA=1 -adWORKING_BUF_DMA=1 -al -arR5573 -arR5505 -arR5571 -arR5673 -arR5108 -arR5549 -arR5579 -op0 -o3 -fr"..\..\build\Release" -ff"..\..\build\Release" -i"." -i"..\include" -i"..\..\include" -i"..\..\..\interface\include" -i"%TI_DIR\c5500\xdais\include%" -d"__OPTIMISE_FIRST_PASS__" -d"INTERP_ASM" -d"__OPTIMISE_SECOND_PASS__" -d"UNPACKBIT_ASM" -d"GAINWINDOW_ASM" -d"OPT_CATEGORIZE" -d"CATEGORIZE_ASM" -d"XDAIS_IALG" -d"_TI_" -d"PROFILE_TREES_" -d"_HUFFMAN_TABLES_" -d"PEEKBIT_ASM" -d"HUFFTABLE_ASM" -d"DECODECOUPLEINFO_ASM" -d"DECODEVECTORS_NEW" -d"DECODEVECTORS_ASM" -d"CONST_TABLE_DMA" -d"WORKING_BUF_DMA" -d"RA_OMAPS00005636" -d"RA_OMAP1710_MEMTAB" -ml
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-v55
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v55
+
+["..\src\asm\byte_swap.asm" Settings: "Debug"]
+Options="Compiler" -{-mg}
+
+["..\src\asm\byte_swap.asm" Settings: "Release"]
+Options="Compiler" -{-mg}
+

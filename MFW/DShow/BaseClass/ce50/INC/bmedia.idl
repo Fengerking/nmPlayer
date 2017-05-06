@@ -1,0 +1,246 @@
+// bmedia.idl : IDL source for radio
+//
+
+// This file will be included by msdxm.idl and processed by the MIDL tool to
+// produce the type library (msdxm.tlb) and marshalling code.
+//
+//
+
+#include <olectl.h>
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+#include "dsdispid.h"
+#include "dispid.h"
+
+#ifdef UNDER_CE
+#include "servprov.idl"
+#define LONG_PTR LONG
+#endif
+
+[
+    object,
+    uuid(3DA2AA3A-3D96-11D2-9BD2-204C4F4F5020),
+    dual,
+    helpstring("IAsyncPProt Interface"),
+    pointer_default(unique)
+]
+interface IAsyncPProt : IDispatch
+{
+};
+
+[
+	object,
+	uuid(3DA2AA3D-3D96-11D2-9BD2-204C4F4F5020),
+	dual,
+	helpstring("IAsyncMHandler Interface"),
+	pointer_default(unique)
+]
+interface IAsyncMHandler : IDispatch
+{
+};
+[
+	object,
+	uuid(39A2C2A5-4778-11D2-9BDB-204C4F4F5020),
+	dual,
+	helpstring("IDirectControl Interface"),
+	pointer_default(unique)
+]
+interface IDirectControl : IDispatch
+{
+	HRESULT CreateView( BSTR bszClsid );
+
+	HRESULT DestroyAllViews();
+};
+
+[
+	object,
+	uuid(39A2C2FF-4778-11D2-9BDB-204C4F4F5020),
+	dual,
+	helpstring("IDirectControlView Interface"),
+	pointer_default(unique)
+]
+interface IDirectControlView : IDispatch
+{
+	HRESULT IsTimerNeeded();
+
+	HRESULT OnTimer();
+
+	HRESULT put_Visible( VARIANT_BOOL bVisible );
+
+	HRESULT OnFocusChange( VARIANT_BOOL bFocus );
+};
+
+[
+	object,
+	uuid(39A2C2A8-4778-11D2-9BDB-204C4F4F5020),
+	helpstring("IDirectContainer Interface"),
+	pointer_default(unique)
+]
+interface IDirectContainer : IUnknown
+{
+	HRESULT CreateControl( BSTR bszClsid, DWORD dwClsContext, IUnknown **ppunk, DWORD dwWindowStyle );
+
+	HRESULT SetServiceProvider( IServiceProvider *pspSet );
+
+	HRESULT SetIInputObjectSite( IUnknown *pios );
+
+	HRESULT ShowControl();
+
+	HRESULT HideControl();
+
+	HRESULT IsControlCreated();
+
+	HRESULT DestroyControl();
+};
+
+[
+	object,
+	uuid(847B4DF4-4B61-11D2-9BDB-204C4F4F5020),
+	dual,
+	helpstring("IRadioView Interface"),
+	pointer_default(unique)
+]
+interface IRadioView : IDispatch
+{
+};
+
+[
+	object,
+	uuid(9C2263AF-3E3C-11D2-9BD3-204C4F4F5020),
+	dual,
+	helpstring("IRadioPlayer Interface"),
+	pointer_default(unique)
+]
+interface IRadioPlayer : IDispatch
+{
+	[ id( DISPID_RADIO_BINDRADIOMEMORY ) ]
+    HRESULT BindRadioMemory();
+    
+	[ id( DISPID_RADIO_RELEASE ) ]
+    HRESULT ReleaseRadio();
+
+	[ id( DISPID_RADIO_REGISTER_EVENT ) ]
+	HRESULT RegisterEvent( [in] BSTR bszEvent, [out, retval] LONG *plRegister  );
+
+	[ id( DISPID_RADIO_REGISTER_WINDOW ) ]
+#ifdef _WIN64
+	HRESULT RegisterWindow( [in] LONG_PTR lHWND, [in] DWORD dwMessage, [in] DWORD dwCodeSet, [out, retval] LONG_PTR *plRegister );
+#else
+	HRESULT RegisterWindow( [in] LONG lHWND, [in] DWORD dwMessage, [in] DWORD dwCodeSet, [out, retval] LONG *plRegister );
+#endif
+
+	[ id( DISPID_RADIO_GETSECTION ) ]
+	HRESULT GetSection( [out, retval] BSTR *bszSection  );
+
+	[ id( DISPID_RADIO_UNREGISTER ) ]
+#ifdef _WIN64
+	HRESULT Unregister( [in] LONG_PTR lRegister );
+#else
+	HRESULT Unregister( [in] LONG lRegister );
+#endif
+
+   [ id( DISPID_RADIO_GETINSTANCECOUNT ) ]
+   HRESULT GetInstanceCount( [out, retval] LONG *plInstances );
+
+	[ id( DISPID_RADIO_PLAY ) ]
+	HRESULT Play();
+
+	[ id( DISPID_RADIO_STOP ) ]
+	HRESULT Stop();
+
+	[ id( DISPID_RADIO_URL ), propput ]
+	HRESULT Url( [in] BSTR wszUrl );
+
+	[ id( DISPID_RADIO_VOLUME ), propput ]
+	HRESULT Volume( [in] LONG lVolumeSet );
+
+	[ id( DISPID_RADIO_MUTE ), propput ]
+	HRESULT Mute( [in] VARIANT_BOOL fMuteSet );
+
+	[ id( DISPID_RADIO_GETSTATUS ) ]
+	HRESULT GetStatus( [out] LONG *plVolume, [out] LONG *pfMute, [out] LONG *pfPlay, 
+			[out] BSTR *, [out] BSTR *, [out] BSTR *, [out] BSTR *, [out] BSTR *, 
+			[out] BSTR *, [out] BSTR * );
+
+    [ id( DISPID_RADIO_GETSTATE ) ]
+    HRESULT GetState( [out] LONG *plOpenState, [out] LONG *pfBuffering, [out] LONG *plBufferingPercent, [out] LONG *plQuality );
+
+};
+[
+	object,
+	uuid(9C2263A0-3E3C-11D2-9BD3-204C4F4F5020),
+	dual,
+	helpstring("IRadioServer Interface"),
+	pointer_default(unique)
+]
+interface IRadioServer : IDispatch
+{
+           [ id( DISPID_RADIO_BINDTORADIO ) ]		
+	   HRESULT BindToRadio( [in] BSTR wszRadio, [out, retval] IRadioPlayer **ppServer );
+
+           [ id( DISPID_RADIO_ISRADIOEXISTS ) ]
+           HRESULT IsRadioExists( [in] BSTR wszRadio );
+
+           [ id( DISPID_RADIO_LAUNCHSTANDARDURL ) ]
+           HRESULT LaunchStandardUrl( [in] BSTR bszUrl, [in] IUnknown *pBrowser );
+
+};
+
+[
+	object,
+	uuid(8E718889-423F-11D2-876E-00A0C9082467),
+	dual,
+	helpstring("IRadioServerControl Interface"),
+	pointer_default(unique)
+]
+interface IRadioServerControl : IDispatch
+{
+};
+[
+	object,
+	uuid(8E718881-423F-11D2-876E-00A0C9082467),
+	dual,
+	helpstring("IRadioBand Interface"),
+	pointer_default(unique)
+]
+interface IRadioBand : IDispatch
+{
+	HRESULT Create( LONG_PTR *phwnd, LONG_PTR hwndParent );
+
+};
+
+[
+	uuid(920F0DE3-91C5-11d2-828F-00C04FC99D4E),
+	helpstring("IMediaBindStream Interface"),
+	dual,
+	pointer_default(unique)
+]
+interface IMediaBindStream : IDispatch
+{
+	[ id( DISPID_LOADMONIKER ) ] HRESULT LoadMoniker( [in] BSTR bszTransferContext, [in] BSTR bszUrl );
+};
+
+[
+    object,
+    uuid(33222211-5E5E-11d2-9E8E-0000F8085981),
+    helpstring("IMediaPlayerListener"),
+    pointer_default(unique)
+]
+interface IMediaPlayerListener : IUnknown
+{
+    HRESULT PlayStateChanged( [in] long lNewState );
+    HRESULT Buffering( [in] VARIANT_BOOL fStart );
+    HRESULT BufferPercent( [in] long lBufferPercent );
+    HRESULT OpenStateChanged( [in] long lOpenState );
+    HRESULT MediaInfoChanged( [in] BSTR bstrShowTitle, 
+								[in] BSTR bstrClipTitle, 
+								[in] BSTR bstrClipAuthor, 
+								[in] BSTR bstrClipCopyright,
+								[in] BSTR bstrStationURL);
+    HRESULT QualityChanged( [in] long lQuality );
+    HRESULT Error( [in] BSTR bstrError );
+};
+
+

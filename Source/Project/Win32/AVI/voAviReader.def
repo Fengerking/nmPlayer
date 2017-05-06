@@ -1,0 +1,5 @@
+LIBRARY voAviFR.dll
+
+EXPORTS
+	voGetAVIReadAPI
+	voGetAVI2ReadAPI

@@ -1,0 +1,13 @@
+1.打开ARM Workbench IDE v4.0软件，将“Workspace”的路径选择到“build\RVDS4.0”这一层路径。
+2.进入IDE开发环境后，会显示H265Dec的项目及其包含所需要的文件。
+【注意】由于每人的svn在本地的绝对路径不一致，很可能需要再手动更新link的文件夹及文件。方法：
+  2.1 更新文件夹的方法：右击项目文件“H265Dec" ->new->folder->Advanced,
+      选择Link to folder in the file system, Browse选择文件。（此处只认绝对路径，不认相对路径）
+  2.2 更新文件的方法：右击项目文件“H265Dec" ->new->File->Advanced,其他步骤同2.1.
+  
+3.需要修改svn中include文件夹的路径：右击项目文件“H265Dec" -> Properties -> c/c++ build -> Settings -> 
+	Tool setttings ->ARM RealView Compiler 4.0 -> Directory,
+	 添加/修改 User Include Paths中，修改SVN中的路径到"Numen\trunk\Include"一层。
+	 
+	 
+以上项目设置本地只需修改一次即可。

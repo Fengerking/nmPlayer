@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		764C39A213B431F2006E5C36 /* idct_add.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C398E13B431F2006E5C36 /* idct_add.c */; };
+		764C39A313B431F3006E5C36 /* idct_add.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C398F13B431F2006E5C36 /* idct_add.h */; };
+		764C39A413B431F3006E5C36 /* voMpeg2DecGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399013B431F2006E5C36 /* voMpeg2DecGlobal.h */; };
+		764C39A513B431F3006E5C36 /* voMpeg2Decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399113B431F2006E5C36 /* voMpeg2Decoder.c */; };
+		764C39A613B431F3006E5C36 /* voMpeg2Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399213B431F2006E5C36 /* voMpeg2Decoder.h */; };
+		764C39A713B431F3006E5C36 /* voMpeg2DID.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399313B431F2006E5C36 /* voMpeg2DID.h */; };
+		764C39A813B431F3006E5C36 /* voMpeg2Front.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399413B431F2006E5C36 /* voMpeg2Front.c */; };
+		764C39A913B431F3006E5C36 /* voMpeg2MB.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399513B431F2006E5C36 /* voMpeg2MB.c */; };
+		764C39AA13B431F3006E5C36 /* voMpeg2MB.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399613B431F2006E5C36 /* voMpeg2MB.h */; };
+		764C39AB13B431F3006E5C36 /* voMpeg2Parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399713B431F2006E5C36 /* voMpeg2Parser.c */; };
+		764C39AC13B431F3006E5C36 /* voMpeg2Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399813B431F2006E5C36 /* voMpeg2Parser.h */; };
+		764C39AD13B431F3006E5C36 /* voMpeg4DID.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399913B431F2006E5C36 /* voMpeg4DID.h */; };
+		764C39AE13B431F3006E5C36 /* voMpegBuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399A13B431F2006E5C36 /* voMpegBuf.c */; };
+		764C39AF13B431F3006E5C36 /* voMpegBuf.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399B13B431F2006E5C36 /* voMpegBuf.h */; };
+		764C39B013B431F3006E5C36 /* voMpegMC.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399C13B431F2006E5C36 /* voMpegMC.c */; };
+		764C39B113B431F3006E5C36 /* voMpegMC.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399D13B431F2006E5C36 /* voMpegMC.h */; };
+		764C39B213B431F3006E5C36 /* voMpegMem.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399E13B431F2006E5C36 /* voMpegMem.c */; };
+		764C39B313B431F3006E5C36 /* voMpegMem.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399F13B431F2006E5C36 /* voMpegMem.h */; };
+		764C39B413B431F3006E5C36 /* voMpegPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C39A013B431F2006E5C36 /* voMpegPort.h */; };
+		764C39B513B431F3006E5C36 /* voMpegReadbits.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C39A113B431F2006E5C36 /* voMpegReadbits.h */; };
+		76C4E38513B468AB00899DA4 /* idct_arm_V7_ABCDEF.s in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E38213B468AB00899DA4 /* idct_arm_V7_ABCDEF.s */; };
+		76C4E38613B468AB00899DA4 /* mpeg4_MC_arm_V7_4x8.s in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E38313B468AB00899DA4 /* mpeg4_MC_arm_V7_4x8.s */; };
+		76C4E38713B468AB00899DA4 /* mpeg4_MC_arm_V7.s in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E38413B468AB00899DA4 /* mpeg4_MC_arm_V7.s */; };
+		76C4E3AD13B46EA100899DA4 /* voMPEG2Dec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voMPEG2Dec_Prefix.pch */; };
+		76C4E3AE13B46EA100899DA4 /* idct_add.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C398F13B431F2006E5C36 /* idct_add.h */; };
+		76C4E3AF13B46EA100899DA4 /* voMpeg2DecGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399013B431F2006E5C36 /* voMpeg2DecGlobal.h */; };
+		76C4E3B013B46EA100899DA4 /* voMpeg2Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399213B431F2006E5C36 /* voMpeg2Decoder.h */; };
+		76C4E3B113B46EA100899DA4 /* voMpeg2DID.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399313B431F2006E5C36 /* voMpeg2DID.h */; };
+		76C4E3B213B46EA100899DA4 /* voMpeg2MB.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399613B431F2006E5C36 /* voMpeg2MB.h */; };
+		76C4E3B313B46EA100899DA4 /* voMpeg2Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399813B431F2006E5C36 /* voMpeg2Parser.h */; };
+		76C4E3B413B46EA100899DA4 /* voMpeg4DID.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399913B431F2006E5C36 /* voMpeg4DID.h */; };
+		76C4E3B513B46EA100899DA4 /* voMpegBuf.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399B13B431F2006E5C36 /* voMpegBuf.h */; };
+		76C4E3B613B46EA100899DA4 /* voMpegMC.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399D13B431F2006E5C36 /* voMpegMC.h */; };
+		76C4E3B713B46EA100899DA4 /* voMpegMem.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C399F13B431F2006E5C36 /* voMpegMem.h */; };
+		76C4E3B813B46EA100899DA4 /* voMpegPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C39A013B431F2006E5C36 /* voMpegPort.h */; };
+		76C4E3B913B46EA100899DA4 /* voMpegReadbits.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C39A113B431F2006E5C36 /* voMpegReadbits.h */; };
+		76C4E3BB13B46EA100899DA4 /* idct_add.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C398E13B431F2006E5C36 /* idct_add.c */; };
+		76C4E3BC13B46EA100899DA4 /* voMpeg2Decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399113B431F2006E5C36 /* voMpeg2Decoder.c */; };
+		76C4E3BD13B46EA100899DA4 /* voMpeg2Front.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399413B431F2006E5C36 /* voMpeg2Front.c */; };
+		76C4E3BE13B46EA100899DA4 /* voMpeg2MB.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399513B431F2006E5C36 /* voMpeg2MB.c */; };
+		76C4E3BF13B46EA100899DA4 /* voMpeg2Parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399713B431F2006E5C36 /* voMpeg2Parser.c */; };
+		76C4E3C013B46EA100899DA4 /* voMpegBuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399A13B431F2006E5C36 /* voMpegBuf.c */; };
+		76C4E3C113B46EA100899DA4 /* voMpegMC.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399C13B431F2006E5C36 /* voMpegMC.c */; };
+		76C4E3C213B46EA100899DA4 /* voMpegMem.c in Sources */ = {isa = PBXBuildFile; fileRef = 764C399E13B431F2006E5C36 /* voMpegMem.c */; };
+		76C4E3C713B46EA100899DA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		AA747D9F0F9514B9006C5449 /* voMPEG2Dec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* voMPEG2Dec_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		764C398E13B431F2006E5C36 /* idct_add.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = idct_add.c; path = ../../src/idct_add.c; sourceTree = SOURCE_ROOT; };
+		764C398F13B431F2006E5C36 /* idct_add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = idct_add.h; path = ../../src/idct_add.h; sourceTree = SOURCE_ROOT; };
+		764C399013B431F2006E5C36 /* voMpeg2DecGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voMpeg2DecGlobal.h; path = ../../src/voMpeg2DecGlobal.h; sourceTree = SOURCE_ROOT; };
+		764C399113B431F2006E5C36 /* voMpeg2Decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voMpeg2Decoder.c; path = ../../src/voMpeg2Decoder.c; sourceTree = SOURCE_ROOT; };
+		764C399213B431F2006E5C36 /* voMpeg2Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voMpeg2Decoder.h; path = ../../src/voMpeg2Decoder.h; sourceTree = SOURCE_ROOT; };
+		764C399313B431F2006E5C36 /* voMpeg2DID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voMpeg2DID.h; path = ../../src/voMpeg2DID.h; sourceTree = SOURCE_ROOT; };
+		764C399413B431F2006E5C36 /* voMpeg2Front.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voMpeg2Front.c; path = ../../src/voMpeg2Front.c; sourceTree = SOURCE_ROOT; };
+		764C399513B431F2006E5C36 /* voMpeg2MB.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voMpeg2MB.c; path = ../../src/voMpeg2MB.c; sourceTree = SOURCE_ROOT; };
+		764C399613B431F2006E5C36 /* voMpeg2MB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voMpeg2MB.h; path = ../../src/voMpeg2MB.h; sourceTree = SOURCE_ROOT; };
+		764C399713B431F2006E5C36 /* voMpeg2Parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voMpeg2Parser.c; path = ../../src/voMpeg2Parser.c; sourceTree = SOURCE_ROOT; };
+		764C399813B431F2006E5C36 /* voMpeg2Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voMpeg2Parser.h; path = ../../src/voMpeg2Parser.h; sourceTree = SOURCE_ROOT; };
+		764C399913B431F2006E5C36 /* voMpeg4DID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voMpeg4DID.h; path = ../../src/voMpeg4DID.h; sourceTree = SOURCE_ROOT; };
+		764C399A13B431F2006E5C36 /* voMpegBuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voMpegBuf.c; path = ../../src/voMpegBuf.c; sourceTree = SOURCE_ROOT; };
+		764C399B13B431F2006E5C36 /* voMpegBuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voMpegBuf.h; path = ../../src/voMpegBuf.h; sourceTree = SOURCE_ROOT; };
+		764C399C13B431F2006E5C36 /* voMpegMC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voMpegMC.c; path = ../../src/voMpegMC.c; sourceTree = SOURCE_ROOT; };
+		764C399D13B431F2006E5C36 /* voMpegMC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voMpegMC.h; path = ../../src/voMpegMC.h; sourceTree = SOURCE_ROOT; };
+		764C399E13B431F2006E5C36 /* voMpegMem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = voMpegMem.c; path = ../../src/voMpegMem.c; sourceTree = SOURCE_ROOT; };
+		764C399F13B431F2006E5C36 /* voMpegMem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voMpegMem.h; path = ../../src/voMpegMem.h; sourceTree = SOURCE_ROOT; };
+		764C39A013B431F2006E5C36 /* voMpegPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voMpegPort.h; path = ../../src/voMpegPort.h; sourceTree = SOURCE_ROOT; };
+		764C39A113B431F2006E5C36 /* voMpegReadbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voMpegReadbits.h; path = ../../src/voMpegReadbits.h; sourceTree = SOURCE_ROOT; };
+		76C4E38213B468AB00899DA4 /* idct_arm_V7_ABCDEF.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = idct_arm_V7_ABCDEF.s; path = ../../src/asm/arm_mac/armv7/idct_arm_V7_ABCDEF.s; sourceTree = SOURCE_ROOT; };
+		76C4E38313B468AB00899DA4 /* mpeg4_MC_arm_V7_4x8.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = mpeg4_MC_arm_V7_4x8.s; path = ../../src/asm/arm_mac/armv7/mpeg4_MC_arm_V7_4x8.s; sourceTree = SOURCE_ROOT; };
+		76C4E38413B468AB00899DA4 /* mpeg4_MC_arm_V7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = mpeg4_MC_arm_V7.s; path = ../../src/asm/arm_mac/armv7/mpeg4_MC_arm_V7.s; sourceTree = SOURCE_ROOT; };
+		76C4E3CB13B46EA100899DA4 /* libvoMPEG2Dec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoMPEG2Dec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA747D9E0F9514B9006C5449 /* voMPEG2Dec_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voMPEG2Dec_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libvoMPEG2Dec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libvoMPEG2Dec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76C4E3C613B46EA100899DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C4E3C713B46EA100899DA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libvoMPEG2Dec.a */,
+				76C4E3CB13B46EA100899DA4 /* libvoMPEG2Dec.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* voMPEG2Dec */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Source */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = voMPEG2Dec;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				764C3A7413B454B9006E5C36 /* armv7 */,
+				764C398E13B431F2006E5C36 /* idct_add.c */,
+				764C398F13B431F2006E5C36 /* idct_add.h */,
+				764C399013B431F2006E5C36 /* voMpeg2DecGlobal.h */,
+				764C399113B431F2006E5C36 /* voMpeg2Decoder.c */,
+				764C399213B431F2006E5C36 /* voMpeg2Decoder.h */,
+				764C399313B431F2006E5C36 /* voMpeg2DID.h */,
+				764C399413B431F2006E5C36 /* voMpeg2Front.c */,
+				764C399513B431F2006E5C36 /* voMpeg2MB.c */,
+				764C399613B431F2006E5C36 /* voMpeg2MB.h */,
+				764C399713B431F2006E5C36 /* voMpeg2Parser.c */,
+				764C399813B431F2006E5C36 /* voMpeg2Parser.h */,
+				764C399913B431F2006E5C36 /* voMpeg4DID.h */,
+				764C399A13B431F2006E5C36 /* voMpegBuf.c */,
+				764C399B13B431F2006E5C36 /* voMpegBuf.h */,
+				764C399C13B431F2006E5C36 /* voMpegMC.c */,
+				764C399D13B431F2006E5C36 /* voMpegMC.h */,
+				764C399E13B431F2006E5C36 /* voMpegMem.c */,
+				764C399F13B431F2006E5C36 /* voMpegMem.h */,
+				764C39A013B431F2006E5C36 /* voMpegPort.h */,
+				764C39A113B431F2006E5C36 /* voMpegReadbits.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* voMPEG2Dec_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		764C3A7413B454B9006E5C36 /* armv7 */ = {
+			isa = PBXGroup;
+			children = (
+				76C4E38213B468AB00899DA4 /* idct_arm_V7_ABCDEF.s */,
+				76C4E38313B468AB00899DA4 /* mpeg4_MC_arm_V7_4x8.s */,
+				76C4E38413B468AB00899DA4 /* mpeg4_MC_arm_V7.s */,
+			);
+			name = armv7;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76C4E3AC13B46EA100899DA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C4E3AD13B46EA100899DA4 /* voMPEG2Dec_Prefix.pch in Headers */,
+				76C4E3AE13B46EA100899DA4 /* idct_add.h in Headers */,
+				76C4E3AF13B46EA100899DA4 /* voMpeg2DecGlobal.h in Headers */,
+				76C4E3B013B46EA100899DA4 /* voMpeg2Decoder.h in Headers */,
+				76C4E3B113B46EA100899DA4 /* voMpeg2DID.h in Headers */,
+				76C4E3B213B46EA100899DA4 /* voMpeg2MB.h in Headers */,
+				76C4E3B313B46EA100899DA4 /* voMpeg2Parser.h in Headers */,
+				76C4E3B413B46EA100899DA4 /* voMpeg4DID.h in Headers */,
+				76C4E3B513B46EA100899DA4 /* voMpegBuf.h in Headers */,
+				76C4E3B613B46EA100899DA4 /* voMpegMC.h in Headers */,
+				76C4E3B713B46EA100899DA4 /* voMpegMem.h in Headers */,
+				76C4E3B813B46EA100899DA4 /* voMpegPort.h in Headers */,
+				76C4E3B913B46EA100899DA4 /* voMpegReadbits.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* voMPEG2Dec_Prefix.pch in Headers */,
+				764C39A313B431F3006E5C36 /* idct_add.h in Headers */,
+				764C39A413B431F3006E5C36 /* voMpeg2DecGlobal.h in Headers */,
+				764C39A613B431F3006E5C36 /* voMpeg2Decoder.h in Headers */,
+				764C39A713B431F3006E5C36 /* voMpeg2DID.h in Headers */,
+				764C39AA13B431F3006E5C36 /* voMpeg2MB.h in Headers */,
+				764C39AC13B431F3006E5C36 /* voMpeg2Parser.h in Headers */,
+				764C39AD13B431F3006E5C36 /* voMpeg4DID.h in Headers */,
+				764C39AF13B431F3006E5C36 /* voMpegBuf.h in Headers */,
+				764C39B113B431F3006E5C36 /* voMpegMC.h in Headers */,
+				764C39B313B431F3006E5C36 /* voMpegMem.h in Headers */,
+				764C39B413B431F3006E5C36 /* voMpegPort.h in Headers */,
+				764C39B513B431F3006E5C36 /* voMpegReadbits.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		76C4E3AB13B46EA100899DA4 /* voMPEG2Dec_simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C4E3C813B46EA100899DA4 /* Build configuration list for PBXNativeTarget "voMPEG2Dec_simulator" */;
+			buildPhases = (
+				76C4E3AC13B46EA100899DA4 /* Headers */,
+				76C4E3BA13B46EA100899DA4 /* Sources */,
+				76C4E3C613B46EA100899DA4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voMPEG2Dec_simulator;
+			productName = voMPEG2Dec;
+			productReference = 76C4E3CB13B46EA100899DA4 /* libvoMPEG2Dec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AAC07D0554694100DB518D /* voMPEG2Dec_v7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voMPEG2Dec_v7" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voMPEG2Dec_v7;
+			productName = voMPEG2Dec;
+			productReference = D2AAC07E0554694100DB518D /* libvoMPEG2Dec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voMPEG2Dec" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* voMPEG2Dec */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* voMPEG2Dec_v7 */,
+				76C4E3AB13B46EA100899DA4 /* voMPEG2Dec_simulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76C4E3BA13B46EA100899DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C4E3BB13B46EA100899DA4 /* idct_add.c in Sources */,
+				76C4E3BC13B46EA100899DA4 /* voMpeg2Decoder.c in Sources */,
+				76C4E3BD13B46EA100899DA4 /* voMpeg2Front.c in Sources */,
+				76C4E3BE13B46EA100899DA4 /* voMpeg2MB.c in Sources */,
+				76C4E3BF13B46EA100899DA4 /* voMpeg2Parser.c in Sources */,
+				76C4E3C013B46EA100899DA4 /* voMpegBuf.c in Sources */,
+				76C4E3C113B46EA100899DA4 /* voMpegMC.c in Sources */,
+				76C4E3C213B46EA100899DA4 /* voMpegMem.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764C39A213B431F2006E5C36 /* idct_add.c in Sources */,
+				764C39A513B431F3006E5C36 /* voMpeg2Decoder.c in Sources */,
+				764C39A813B431F3006E5C36 /* voMpeg2Front.c in Sources */,
+				764C39A913B431F3006E5C36 /* voMpeg2MB.c in Sources */,
+				764C39AB13B431F3006E5C36 /* voMpeg2Parser.c in Sources */,
+				764C39AE13B431F3006E5C36 /* voMpegBuf.c in Sources */,
+				764C39B013B431F3006E5C36 /* voMpegMC.c in Sources */,
+				764C39B213B431F3006E5C36 /* voMpegMem.c in Sources */,
+				76C4E38513B468AB00899DA4 /* idct_arm_V7_ABCDEF.s in Sources */,
+				76C4E38613B468AB00899DA4 /* mpeg4_MC_arm_V7_4x8.s in Sources */,
+				76C4E38713B468AB00899DA4 /* mpeg4_MC_arm_V7.s in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voMPEG2Dec.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voMPEG2Dec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VOARMv7,
+					_IOS,
+					RVDS,
+					ARM,
+				);
+				HEADER_SEARCH_PATHS = ../../../../../../Include;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = voMPEG2Dec;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../voRelease/iOS/static/v7/;
+				DSTROOT = /tmp/voMPEG2Dec.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voMPEG2Dec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ARM,
+					_IOS,
+					RVDS,
+					VOARMv7,
+				);
+				HEADER_SEARCH_PATHS = ../../../../../../Include;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voMPEG2Dec;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		76C4E3C913B46EA100899DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/voMPEG2Dec.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voMPEG2Dec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					RVDS,
+				);
+				HEADER_SEARCH_PATHS = ../../../../../../Include;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voMPEG2Dec;
+			};
+			name = Debug;
+		};
+		76C4E3CA13B46EA100899DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../../../../../../voRelease/iOS/static/i386/;
+				DSTROOT = /tmp/voMPEG2Dec.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = voMPEG2Dec_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_IOS,
+					RVDS,
+				);
+				HEADER_SEARCH_PATHS = ../../../../../../Include;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = voMPEG2Dec;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "voMPEG2Dec_v7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "voMPEG2Dec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76C4E3C813B46EA100899DA4 /* Build configuration list for PBXNativeTarget "voMPEG2Dec_simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C4E3C913B46EA100899DA4 /* Debug */,
+				76C4E3CA13B46EA100899DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

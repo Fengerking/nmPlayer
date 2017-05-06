@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voH265DecSample", "voH265DecSample.vcxproj", "{5DDB2111-2044-4E66-9941-0EF12CA54618}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C13D83F-BABE-4685-883B-D8838993D389} = {9C13D83F-BABE-4685-883B-D8838993D389}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voH265DecLib", "..\..\build\vc10\voH265DecLib.vcxproj", "{9C13D83F-BABE-4685-883B-D8838993D389}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voH265Dec", "..\..\dll\vc10\voH265Dec.vcxproj", "{46717045-008F-4C65-8908-0861130B6D1F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C13D83F-BABE-4685-883B-D8838993D389} = {9C13D83F-BABE-4685-883B-D8838993D389}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DDB2111-2044-4E66-9941-0EF12CA54618}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5DDB2111-2044-4E66-9941-0EF12CA54618}.Debug|Win32.Build.0 = Debug|Win32
+		{5DDB2111-2044-4E66-9941-0EF12CA54618}.Release|Win32.ActiveCfg = Release|Win32
+		{5DDB2111-2044-4E66-9941-0EF12CA54618}.Release|Win32.Build.0 = Release|Win32
+		{9C13D83F-BABE-4685-883B-D8838993D389}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C13D83F-BABE-4685-883B-D8838993D389}.Debug|Win32.Build.0 = Debug|Win32
+		{9C13D83F-BABE-4685-883B-D8838993D389}.Release|Win32.ActiveCfg = Release|Win32
+		{9C13D83F-BABE-4685-883B-D8838993D389}.Release|Win32.Build.0 = Release|Win32
+		{46717045-008F-4C65-8908-0861130B6D1F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{46717045-008F-4C65-8908-0861130B6D1F}.Debug|Win32.Build.0 = Debug|Win32
+		{46717045-008F-4C65-8908-0861130B6D1F}.Release|Win32.ActiveCfg = Release|Win32
+		{46717045-008F-4C65-8908-0861130B6D1F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

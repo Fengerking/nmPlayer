@@ -1,0 +1,19 @@
+/*
+********************************************************************************
+*
+*      GSM AMR-NB speech codec   R98   Version 7.6.0   December 12, 2001
+*                                R99   Version 3.3.0                
+*                                REL-4 Version 4.1.0                
+*
+********************************************************************************
+*
+*      File             : voAMRNBDecgray.tab
+*      Purpose          : voAMRNBDecgray encoding and decoding tables
+*      $Id $
+*
+*
+********************************************************************************
+*/
+
+extern const Word8 voAMRNBDecgray[8];
+extern const Word8 voAMRNBDecdgray[8];

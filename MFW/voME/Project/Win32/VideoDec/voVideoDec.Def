@@ -1,0 +1,5 @@
+LIBRARY	voOMXVD.dll
+
+EXPORTS
+	voGetVideoDecHandle	@1
+			

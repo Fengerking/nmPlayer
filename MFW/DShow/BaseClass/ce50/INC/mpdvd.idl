@@ -1,0 +1,598 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this source code is subject to the terms of your Microsoft Windows CE
+// Source Alliance Program license form.  If you did not accept the terms of
+// such a license, you are not authorized to use this source code.
+//
+//==========================================================================;
+//==========================================================================;
+// mpdvd.idl
+
+#include <olectl.h>
+#include "..\inc\dsdispid.h"
+
+#define EXCLUDE_DVDEVCODE_ENUMS
+#include <dvdevcod.h>
+
+//#include <wtypes.h>
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+typedef
+[
+    helpstring( "DVD Domain Constants" ),
+    public
+]
+enum DVD_DomainConstants
+{
+    [ helpstring( "doing default initialization of a dvd disc") ]	dvdDomain_FirstPlay=1,       
+    [ helpstring( "displaying menus for whole disc")]				dvdDomain_VideoManagerMenu,  
+    [ helpstring( "displaying menus for current title set")]		dvdDomain_VideoTitleSetMenu, 
+    [ helpstring( "displaying current title")]						dvdDomain_Title,             
+    [ helpstring( "player is in stopped state")]					dvdDomain_Stop               
+} DVD_DomainConstants;
+
+
+typedef
+[
+    helpstring( "DVD Menu ID constants" ),
+    public
+]
+enum DVDMenuIDConstants
+{
+    [ helpstring( "title from any VTS in a DVD-Video volume" ) ]	dvdMenu_Title = 2,     
+    [ helpstring( "main menu for a specific VTS" ) ]				dvdMenu_Root,
+    [ helpstring( "subpicture stream in a VTS" ) ]					dvdMenu_Subpicture,
+    [ helpstring( "audio stream in a VTS" ) ]						dvdMenu_Audio,
+    [ helpstring( "angle num in a VTS" ) ]							dvdMenu_Angle,
+    [ helpstring( "chapter in a VTS" ) ]							dvdMenu_Chapter
+} DVDMenuIDConstants;
+
+typedef
+[
+    helpstring( "DVD Event constants" ),
+    public
+]
+enum DVDEventConstants
+{
+    [ helpstring( "Domain changed" ) ]					
+	dvdEvent_DomainChange = EC_DVD_DOMAIN_CHANGE,     
+
+    [ helpstring( "The current title number changed" ) ]			
+	dvdEvent_TitleChange = EC_DVD_TITLE_CHANGE,
+
+    [ helpstring( "Playback of a new program in the Title domain has started" ) ]			
+	dvdEvent_ChapterStart = EC_DVD_CHAPTER_START,
+
+    [ helpstring( "The current user audio stream number changed for the main title" ) ]
+	dvdEvent_AudioStreamChange = EC_DVD_AUDIO_STREAM_CHANGE,
+
+    [ helpstring( "The current user subpicture stream number changed for the main title" ) ]			
+	dvdEvent_SubPictureStreamChange = EC_DVD_SUBPICTURE_STREAM_CHANGE,
+
+    [ helpstring( "number of available angles changed or current user angle has changed" ) ]
+	dvdEvent_AngleChange = EC_DVD_ANGLE_CHANGE,
+
+    [ helpstring( "The number of available buttons changed or the currently selected button changed" ) ]					
+	dvdEvent_ButtonChange = EC_DVD_BUTTON_CHANGE,
+	
+	[ helpstring( "Signals that the valid set of DVD methods has changed" ) ]
+	dvdEvent_ValidUOPSChange =  EC_DVD_VALID_UOPS_CHANGE,
+
+	[ helpstring( "Signals the beginning of any still (PGC, Cell, or VOBU" ) ]
+	dvdEvent_StillOn = EC_DVD_STILL_ON,
+
+	[ helpstring( "Signals the end of any still (PGC, Cell, or VOBU" ) ]
+	dvdEvent_StillOff = EC_DVD_STILL_OFF,
+
+	[ helpstring( "Signals the beginning of every video object unit (VOBU), which occurs every 0.4 to 1.0 seconds" ) ]
+	dvdEvent_CurrentTime = EC_DVD_CURRENT_TIME,
+
+	[ helpstring( "Signals a DVD error condition" ) ]
+	dvdEvent_Error = EC_DVD_ERROR,
+
+	[ helpstring( "Signals a DVD warning condition" ) ]
+	dvdEvent_Warning = EC_DVD_WARNING,
+
+	[ helpstring( "Playback has stopped as a result of a call to ChapterPlayAutoStop" ) ]
+	dvdEvent_ChapterAutoStop = EC_DVD_CHAPTER_AUTOSTOP,
+
+	[ helpstring( "The DVD disc does not have a FP_PGC (First Play Program Chain)" ) ]
+	dvdEvent_NoFirstPlayPGC = EC_DVD_NO_FP_PGC,
+
+	[ helpstring( "Playback rate has changed" ) ]
+	dvdEvent_RateChange =  EC_DVD_PLAYBACK_RATE_CHANGE,
+
+	[ helpstring( "Parental Level has changed" ) ]
+	dvdEvent_ParentalLevelChange = EC_DVD_PARENTAL_LEVEL_CHANGE,
+	
+	[ helpstring( "Playback has stopped due to program chain completion" ) ]
+	dvdEvent_PlaybackStopped = EC_DVD_PLAYBACK_STOPPED,
+
+	[ helpstring( "Indicates whether an angle block is being played and if angle changes can be performed" ) ]
+	dvdEvent_AnglesAvailable = EC_DVD_ANGLES_AVAILABLE
+
+} DVDEventConstants;
+
+	//
+	// dispatch interface for DVD 
+	//
+	[
+		object,
+		uuid(746EB440-3835-11d2-9774-0000F80855E6),
+		helpstring( "MediaPlayer DVD interface" ),
+		dual
+	]
+	interface IMediaPlayerDvd: IDispatch
+	{
+
+	// Methods  
+	
+	// wrappers for IDVDControl
+
+		// ButtonSelectAndActivate
+		// Selects and then activates the button specified by the user.  
+		// uiButton is intended to be a number entered by a user corresponding
+		// to button numbers currently displayed on screen.  
+		// Button numbers range from 1 to 36.
+		[ id( DISPID_DVD_BUTTONSELECTANDACTIVATE), helpstring( "Selects and activates specified button" ) ]
+		HRESULT ButtonSelectAndActivate
+		( [in]  ULONG   uiButton
+		);      
+
+		// UpperButtonSelect
+		// Selects the button above the current button.
+		// "Selecting" a DVD button simply highlights the button but does
+		// not "Activate" the button.  Selecting is the Windows equivalent 
+		// to tabbing to a button but not pressing the space bar or enter key.
+		// Activating is the Windows equivalent of pressing the space bar or
+		// enter key after tabbing to a button.
+		[ id( DISPID_DVD_UPPERBUTTONSELECT), helpstring( "Selects the button above current button" ) ]
+		HRESULT UpperButtonSelect();        
+
+		// LowerButtonSelect
+		// Selects the button below the current button.
+		[ id( DISPID_DVD_LOWERBUTTONSELECT), helpstring( "Selects the button below current button" ) ]
+		HRESULT LowerButtonSelect();        
+
+		// LeftButtonSelect
+		// Selects the button to the left of the current button.
+		[ id( DISPID_DVD_LEFTBUTTONSELECT), helpstring( "Selects the button to the left of current button" ) ]
+		HRESULT LeftButtonSelect();     
+
+		// RightButtonSelect
+		// Selects the button to the right of the current button.
+		[ id( DISPID_DVD_RIGHTBUTTONSELECT), helpstring( "Selects the button to the right of current button" ) ]
+		HRESULT RightButtonSelect();        
+
+		// ButtonActivate
+		// Activates current button.
+		[ id( DISPID_DVD_BUTTONACTIVATE), helpstring( "Activates the currentlt selected button" ) ]
+		HRESULT ButtonActivate();       
+
+
+		// ForwardScan
+		// Set forward play at the specified speed.  
+		//      dwSpeed == 1 is normal play
+		//      dwSpeed  < 1 is slow play
+		//      dwSpeed  > 1 is fast play
+		// For dwSpeed != 1, audio and subpicture is muted.
+		[ id( DISPID_DVD_FORWARDSCAN), helpstring( "forward play at the specified speed" ) ]
+		HRESULT ForwardScan
+		( [in]  double  dwSpeed
+		);      
+
+		// BackwardScan
+		// Set reverse play at the specified speed.  
+		//      dwSpeed == 1 is normal play speed in reverse
+		//      dwSpeed  < 1 is slow play in reverse
+		//      dwSpeed  > 1 is fast play in reverse
+		// For reverse play, audio and subpicture are always muted.
+		[ id( DISPID_DVD_BACKWARDSCAN), helpstring( "reverse play at the specified speed" ) ]
+		HRESULT BackwardScan
+		( [in]  double  dwSpeed
+		);      
+
+		// PrevPGSearch
+		// Start playing at the beginning of the previous DVD "program".
+		// For One-Sequential_PGC_Titles (which includes most titles) a program 
+		// is equivalent to a chapter, otherwise a program is part of a chapter. 
+		[ id( DISPID_DVD_PREVPGSEARCH), helpstring( "play previous program" ) ]
+		HRESULT PrevPGSearch();     
+
+		// TopPGSearch
+		// Start playing from the beginning of they current program.
+		[ id( DISPID_DVD_TOPPGSEARCH), helpstring( "play current program" ) ]
+		HRESULT TopPGSearch();      
+
+		// NextPGSearch
+		// Start playing from the beginning of the next program.
+		[ id( DISPID_DVD_NEXTPGSEARCH), helpstring( "play next program" ) ]
+		HRESULT NextPGSearch();     
+
+		// TitlePlay 
+		// Start playing the specified title number. 
+		// Title numbers range between 1 and 99.
+		[ id( DISPID_DVD_TITLEPLAY ), helpstring( "Play title number 1-99" ) ]
+		HRESULT TitlePlay
+		( 
+			[in]  ULONG   uiTitle
+		);
+
+		// ChapterPlay
+		// Start playing at the specified chapter (or part-of-title) 
+		// within the specified title.  Chapters range from 1 to 999.
+		[ id( DISPID_DVD_CHAPTERPLAY ), helpstring( "Play chapter number 1-99 of title 1-99" ) ]
+		HRESULT ChapterPlay
+		( 
+			[in]  ULONG   uiTitle, 
+			[in]  ULONG   uiChapter
+		);
+
+		// ChapterSearch
+		// Start playing at the specified chapter (or part-of-title) within
+		// the current title.
+		[ id( DISPID_DVD_CHAPTERSEARCH), helpstring( "play at specified chapter in current title" ) ]
+		HRESULT ChapterSearch
+		( [in]  ULONG   Chapter
+		);      
+
+		// MenuCall
+		// Start playback of the Menu specified by an enum DVD_MENU_ID.
+		[ id( DISPID_DVD_MENUCALL), helpstring( "Play specified menu" ) ]
+		HRESULT MenuCall
+		( 
+			[in]  DVDMenuIDConstants MenuID  
+		);      
+
+		// Resume
+		// Returns to title playback in DVD_DOMAIN_Title. This is typically
+		// done after MenuCall which puts the DVD Navigator in 
+		// DVD_DOMAIN_VideoTitleSetMenu or DVD_DOMAIN_VideoManagerMenu.
+		[ id( DISPID_DVD_RESUME), helpstring( "Resume title playback" ) ]
+		HRESULT ResumeFromMenu( void );
+
+		// TimePlay
+		// Start playing at the specified time within the specified title.
+		// NOTE: the actual start time will be the closest sync point before
+		// or equal to the specified frame number.
+		[ id( DISPID_DVD_TIMEPLAY ), helpstring( "Play at specified time (hh:mm:ss:ff) within specified title" ) ]
+		HRESULT TimePlay
+		( [in]  ULONG   uiTitle,
+		  [in]  BSTR	bstrTime		// hh:mm:ss:ff
+		);
+
+		// TimeSearch
+		// Start playing at the specified time within the current title.
+		// NOTE: the actual start time will be the closest sync point before
+		// or equal to the specified frame number.
+		[ id( DISPID_DVD_TIMESEARCH), helpstring( "play at specified time in current title" ) ]
+		HRESULT TimeSearch
+		( 
+		  [in]  BSTR	bstrTime		// hh:mm:ss:ff
+		);      
+
+		// ChapterPlayAutoStop
+		// Start playing at the specified chapter within the specified title
+		// and play the number of chapters specified by the third parameter.
+		// Chapters range from 1 to 999.
+		[ id( DISPID_DVD_CHAPTERPLAYAUTOSTOP), helpstring( "Playing a sequence of chapters in specified title") ]
+		HRESULT ChapterPlayAutoStop
+		( [in] ULONG ulTitle,           // title number
+		  [in] ULONG ulChapter,         // chapter number to start playback
+		  [in] ULONG ulChaptersToPlay   // number of chapters to play from the start chapter
+		);
+
+		// StillOff
+		// Releases any current still if there are no available buttons.
+		// This includes VOBU stills, Cell stills, and PGC stills, whether the 
+		// still is infinite.  When buttons are available, stills are released by
+		// activating a button.  Note this does not release a Pause.
+		[ id( DISPID_DVD_STILLOFF), helpstring( "Releases any current still if there are no available buttons" ) ]
+		HRESULT StillOff();     
+
+#ifdef ENABLE_FOR_THIS_VERSION
+		// MenuLanguageSelect
+		// Selects the default language for menus.  Languages are specified with
+		// Windows standard LCIDs.  LCIDs can be created from ISO-639 codes with
+		// MAKELCID( MAKELANGID(wISO639LangID ,SUBLANG_DEFAULT ), SORT_DEFAULT )
+		// NOTE: MAKELANGID seems to have an issue so 'jp' may have to be used 
+		// instead of 'ja' for the ISO639 code for Japanese.
+		// MenuLanguageSelect may only called from the DVD Stop state (DVD_DOMAIN_Stop).
+		[ id( DISPID_DVD_MENULANGSEL), helpstring( "Selects the default language for menus" ) ]
+		HRESULT MenuLanguageSelect
+		( [in]  BSTR bstrLanguage
+		);      
+#endif
+		// GoUp
+		// Start playback of the program chain currently authored as the "GoUp_PGCN".
+		[ id( DISPID_DVD_GOUP), helpstring( "play current program chain " ) ]
+		HRESULT GoUp();     
+
+
+		// GetTotalTitleTime
+		// Gets a string containing the total time in the title (hh:mm:ss:ff)
+		[ id( DISPID_DVD_GETTOTALTITLETIME ), propget, helpstring( "Gets a string containing the total time in the title (hh:mm:ss:ff)" ) ]
+		HRESULT TotalTitleTime
+		( 
+		  [out, retval]  BSTR	*bstrTime		// hh:mm:ss:ff
+		);
+
+		// GetNumberOfChapters
+		[ id( DISPID_DVD_NUMBEROFCHAPTERS ), helpstring( "Gets the number of chapters for the specified title" ) ]
+		HRESULT GetNumberOfChapters
+		( 
+			[in]	ULONG	ulTitle,
+			[out, retval]  ULONG * ulNumChapters
+		);
+
+		[ id( DISPID_DVD_GETAUDIOLANGUAGE ), helpstring( "Gets the name of the Audio language") ]
+		HRESULT   GetAudioLanguage
+		( 
+			[in] ULONG ulStream, 
+			[out, retval]  BSTR * bstrAudioLang
+		);        
+
+		[ id( DISPID_DVD_GETSUBPICTURELANG ), helpstring( "Gets the name of the Subpicture language") ]
+		HRESULT   GetSubpictureLanguage
+		( 
+			[in] ULONG ulStream, 
+			[out, retval]  BSTR * bstrSubpictureLang
+		);        
+
+		[ id( DISPID_DVD_GETALLGPRMS ), helpstring( "Gets an array of the DVD General Parameter Registers") ]
+		HRESULT   GetAllGPRMs
+		( 
+			[out, retval]  VARIANT *vtGPRM
+		);        
+
+		[ id( DISPID_DVD_GETALLSPRMS ), helpstring( "Gets an array of the DVD System Parameter Registers") ]
+		HRESULT   GetAllSPRMs
+		( 
+			[out, retval]  VARIANT *vtSPRM
+		);        
+
+		[ id( DISPID_DVD_CURRENTUOPS ), helpstring( "Checks the validity of the UOP") ]
+		HRESULT		UOPValid
+		( 
+			[in]	ULONG ulUOP,
+			[out, retval]  VARIANT_BOOL *bValid
+		);        
+
+#ifdef ENABLE_FOR_THIS_VERSION
+		[ id( DISPID_DVD_GETTITLEPARENTALLEVEL ), helpstring( "Returns the parental levels defined for the title") ]
+		HRESULT   GetTitleParentalLevels
+		( 
+			[in]	ULONG	ulTitle,
+			[out, retval]  ULONG * lParentalLevel
+		);        
+
+#endif
+
+	// Properties
+		[ id( DISPID_DVD_BUTTONSAVAIL ), propget, helpstring( "Gets the number of available buttons" ) ]
+		HRESULT ButtonsAvailable
+		( 
+		  [out, retval]  ULONG *ulButtonsAvailable
+		);
+
+		[ id( DISPID_DVD_CURRENTBUTTON ), propget, helpstring( "Gets the current button number" ) ]
+		HRESULT CurrentButton
+		( 
+		  [out, retval]  ULONG *ulCurrentButton
+		);
+
+		[ id( DISPID_DVD_AUDIOSTREAMSAVAIL ), propget, helpstring( "Gets the number of available Audio streams" ) ]
+		HRESULT AudioStreamsAvailable
+		( 
+		  [out, retval]  ULONG *ulAudioStreamsAvailable
+		);
+
+		[ id( DISPID_DVD_CURRENTAUDIOSTREAM ), propget, helpstring( "Gets the current audio stream" ) ]
+		HRESULT CurrentAudioStream
+		( 
+		  [out, retval]  ULONG *ulAudioStream
+		);
+
+		[ id( DISPID_DVD_CURRENTAUDIOSTREAM ), propput, helpstring( "Sets the current audio stream" ) ]
+		HRESULT CurrentAudioStream
+		( 
+		  [in]  ULONG ulAudioStream
+		);
+
+		[ id( DISPID_DVD_CURRENTSUBPICTURESTREAM ), propget, helpstring( "Gets the current subpicture stream" ) ]
+		HRESULT CurrentSubpictureStream
+		( 
+		  [out, retval]  ULONG *ulSubpictureStream
+		);
+		[ id( DISPID_DVD_CURRENTSUBPICTURESTREAM ), propput, helpstring( "Sets the current subpicture stream" ) ]
+		HRESULT CurrentSubpictureStream
+		( 
+		  [in]  ULONG ulSubpictureStream
+		);
+
+		[ id( DISPID_DVD_SUBPICTURESTREAMSAVAIL ), propget, helpstring( "Gets the number of available subpicture streams" ) ]
+		HRESULT SubpictureStreamsAvailable
+		( 
+		  [out, retval]  ULONG *ulNumSubpictureStreams
+		);
+
+		[ id( DISPID_DVD_SUBPICTUREON ), propget, helpstring( "Gets the state of the Subpicture display" ) ]
+		HRESULT SubpictureOn
+		( 
+		  [out, retval]  VARIANT_BOOL *bSubpictureON
+		);
+
+		[ id( DISPID_DVD_SUBPICTUREON ), propput, helpstring( "Turns on or off the Subpicture display" ) ]
+		HRESULT SubpictureOn
+		( 
+		  [in]  VARIANT_BOOL bSubpictureON
+		);
+
+		[ id( DISPID_DVD_ANGLESAVAILABLE ), propget, helpstring( "Get the number of available Angles" ) ]
+		HRESULT AnglesAvailable
+		( 
+		  [out, retval]  ULONG *ulAnglesAvailable
+		);
+
+		[ id( DISPID_DVD_CURRENTANGLE ), propget, helpstring( "Gets the current Angle" ) ]
+		HRESULT CurrentAngle
+		( 
+		  [out, retval]  ULONG *ulAngle
+		);
+
+		[ id( DISPID_DVD_CURRENTANGLE ), propput, helpstring( "Sets the current Angle" ) ]
+		HRESULT CurrentAngle
+		( 
+		  [in]  ULONG ulAngle
+		);
+
+#ifdef ENABLE_FOR_THIS_VERSION
+		[ id( DISPID_DVD_PARENTALLEVEL ), propget, helpstring( "Gets the current Parental Level" ) ]
+		HRESULT ParentalLevel
+		( 
+		  [out, retval]  ULONG *ulPLevel
+		);
+
+		[ id( DISPID_DVD_PARENTALLEVEL ), propput, helpstring( "Sets the current Parental Level" ) ]
+		HRESULT ParentalLevel
+		( 
+		  [in]  ULONG ulPLevel
+		);
+
+		[ id( DISPID_DVD_PARENTALCOUNTRY ), propget, helpstring( "Gets Parental Country" ) ]
+		HRESULT ParentalCountry
+		( 
+		  [out, retval]  ULONG *wParentalCountry
+		);
+
+		[ id( DISPID_DVD_PARENTALCOUNTRY ), propput, helpstring( "Gets Parental Country" ) ]
+		HRESULT ParentalCountry
+		( 
+		  [in]  ULONG wParentalCountry
+		);
+#endif
+
+		[ id( DISPID_DVD_GETTITLENUM ), propget, helpstring( "Gets the current Title" ) ]
+		HRESULT CurrentTitle
+		( 
+		  [out, retval]  ULONG *ulTitle
+		);
+
+		[ id( DISPID_DVD_GETCHAPTERNUM ), propget, helpstring( "Gets the current Chapter" ) ]
+		HRESULT CurrentChapter
+		( 
+		  [out, retval]  ULONG *ulChapter
+		);
+
+		[ id( DISPID_DVD_CURRENTTIME ), propget, helpstring( "Gets the current Time" ) ]
+		HRESULT CurrentTime
+		( 
+		  [out, retval]  BSTR *bstrTime
+		);
+
+		// Root
+		// Sets the root directory containing the DVD-Video volume. 
+		// Can only be called from the DVD Stop State (DVD_DOMAIN_Stop).
+		// If the root directory is not successfully set before 
+		// IMediaControl::Play is called, the first drive starting from c:
+		// containing a VIDEO_TS directory in the top level directory
+		// will be used as the root.
+		[ id( DISPID_DVD_ROOT), propput, helpstring( "Sets the root directory containing the DVD-Video volume") ]
+		HRESULT Root
+		( 
+			[in]  BSTR bstrPath
+		);        
+		[ id( DISPID_DVD_ROOT), propget, helpstring( "Gets the root directory containing the DVD-Video volume") ]
+		HRESULT Root
+		( 
+			[out, retval]  BSTR *pbstrPath
+		);        
+
+
+		[ id( DISPID_DVD_FRAMESPERSECOND ), propget, helpstring( "Gets the number of frames per second used by the current title") ]
+		HRESULT FramesPerSecond
+		( 
+			[out, retval]  ULONG *ulFps
+		);        
+
+
+		[ id( DISPID_DVD_CURRENTDOMAIN ), propget, helpstring( "Gets the current Domain") ]
+		HRESULT CurrentDomain
+		( 
+			[out, retval]  ULONG *ulDomain
+		);        
+
+
+		[ id( DISPID_DVD_TITLESAVAILABLE ), propget, helpstring( "Gets the number of available titles") ]
+		HRESULT TitlesAvailable
+		( 
+			[out, retval]  ULONG *ulTitles
+		);        
+
+		[ id( DISPID_DVD_VOLUMESAVAILABLE ), propget, helpstring( "Gets the number of available volumes") ]
+		HRESULT     VolumesAvailable
+		( 
+			[out, retval]  ULONG *pulVolumes
+		);        
+
+		[ id( DISPID_DVD_CURRENTVOLUME ), propget, helpstring( "Gets the current volume") ]
+		HRESULT     CurrentVolume
+		( 
+			[out, retval]  ULONG *pulVolume
+		);        
+
+		[ id( DISPID_DVD_CURRENTDISCSIDE ), propget, helpstring( "Gets the current disc side") ]
+		HRESULT     CurrentDiscSide
+		( 
+			[out, retval]  ULONG *pulDiscSide
+		);        
+
+
+		[ id( DISPID_DVD_CCACTIVE ), propget, helpstring( "Gets the active state of the closed captioning service") ]
+		HRESULT		CCActive
+		( 
+			[out, retval]  VARIANT_BOOL *bCCActive
+		);        
+
+		[ id( DISPID_DVD_CCACTIVE ), propput, helpstring( "Sets the active state of the closed captioning service") ]
+		HRESULT   CCActive
+		( 
+			[in]  VARIANT_BOOL bCCActive
+		);        
+
+		[ id( DISPID_DVD_CURRENTCCSERVICE ), propget, helpstring( "Gets the current closed captioning service") ]
+		HRESULT   CurrentCCService
+		( 
+			[out, retval]  ULONG *pulService
+		);        
+
+		[ id( DISPID_DVD_CURRENTCCSERVICE ), propput, helpstring( "Sets current closed captioning service") ]
+		HRESULT   CurrentCCService
+		( 
+			[in]  ULONG ulService
+		);        
+
+		[ id( DISPID_DVD_UNIQUEID ), propget, helpstring( "Gets a Unique identifier for the current DVD-Video disk") ]
+		HRESULT   UniqueID
+		( 
+			[out, retval]  BSTR *	pvtUniqueID
+		);        
+
+		[propget, id(DISPID_DVD_COLORKEY), helpstring("Gets ColorKey for the overlay")] 
+		HRESULT ColorKey
+		(
+			[out, retval] ULONG *pClr
+		);
+
+		[propput, id(DISPID_DVD_COLORKEY), helpstring("Sets ColorKey for the overlay")] 
+		HRESULT ColorKey
+		(
+			[in] ULONG Clr
+		);
+
+}

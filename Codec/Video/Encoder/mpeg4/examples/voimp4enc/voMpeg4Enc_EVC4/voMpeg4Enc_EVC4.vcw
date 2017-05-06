@@ -1,0 +1,59 @@
+Microsoft eMbedded Visual Tools Workspace File, Format Version 4.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "common"=..\..\..\SRC\COMMON\LIB\EVC4\common\common.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "voMpeg4Enc_EVC4"=.\voMpeg4Enc_EVC4.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name voMpeg4Enc_Lib_EVC4
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "voMpeg4Enc_Lib_EVC4"=..\..\..\BUILD\EVC4\voMpeg4Enc_Lib_EVC4\voMpeg4Enc_Lib_EVC4.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name common
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

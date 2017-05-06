@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voPreHTTP", "voPreHTTP.vcproj", "{86DC1404-32FC-4E87-89A8-C2C6EF0093AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|STANDARDSDK_500 (ARMV4I) = Debug|STANDARDSDK_500 (ARMV4I)
+		Debug|Win32 = Debug|Win32
+		Release|STANDARDSDK_500 (ARMV4I) = Release|STANDARDSDK_500 (ARMV4I)
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86DC1404-32FC-4E87-89A8-C2C6EF0093AE}.Debug|STANDARDSDK_500 (ARMV4I).ActiveCfg = Debug|STANDARDSDK_500 (ARMV4I)
+		{86DC1404-32FC-4E87-89A8-C2C6EF0093AE}.Debug|STANDARDSDK_500 (ARMV4I).Build.0 = Debug|STANDARDSDK_500 (ARMV4I)
+		{86DC1404-32FC-4E87-89A8-C2C6EF0093AE}.Debug|STANDARDSDK_500 (ARMV4I).Deploy.0 = Debug|STANDARDSDK_500 (ARMV4I)
+		{86DC1404-32FC-4E87-89A8-C2C6EF0093AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86DC1404-32FC-4E87-89A8-C2C6EF0093AE}.Debug|Win32.Build.0 = Debug|Win32
+		{86DC1404-32FC-4E87-89A8-C2C6EF0093AE}.Release|STANDARDSDK_500 (ARMV4I).ActiveCfg = Release|STANDARDSDK_500 (ARMV4I)
+		{86DC1404-32FC-4E87-89A8-C2C6EF0093AE}.Release|STANDARDSDK_500 (ARMV4I).Build.0 = Release|STANDARDSDK_500 (ARMV4I)
+		{86DC1404-32FC-4E87-89A8-C2C6EF0093AE}.Release|STANDARDSDK_500 (ARMV4I).Deploy.0 = Release|STANDARDSDK_500 (ARMV4I)
+		{86DC1404-32FC-4E87-89A8-C2C6EF0093AE}.Release|Win32.ActiveCfg = Release|Win32
+		{86DC1404-32FC-4E87-89A8-C2C6EF0093AE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MAUDIA_D_IA32_C", "..\build\win32\MAUDIO_D_IA32_C.vcproj", "{6D2EC18D-3936-4393-904B-8E152AF7C710}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minimad", "minimad.vcproj", "{B952B582-110F-441C-8382-9BD2FE469846}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D2EC18D-3936-4393-904B-8E152AF7C710} = {6D2EC18D-3936-4393-904B-8E152AF7C710}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voMP3Dec", "..\BUILD\DLL\WIN32\voMP3Dec.vcproj", "{384D2576-3053-4386-A445-A823093753B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D2EC18D-3936-4393-904B-8E152AF7C710} = {6D2EC18D-3936-4393-904B-8E152AF7C710}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectUniqueName0 = ..\\build\\win32\\MAUDIO_D_IA32_C.vcproj
+		SccLocalPath0 = ..\\build\\win32
+		SccProjectUniqueName1 = minimad.vcproj
+		SccLocalPath1 = .
+		SccProjectName2 = \u0022$/AudioCodec/VOI_MAD/example\u0022,\u0020WQKAAAAA
+		SccLocalPath2 = .
+		SccProvider2 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D2EC18D-3936-4393-904B-8E152AF7C710}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D2EC18D-3936-4393-904B-8E152AF7C710}.Debug|Win32.Build.0 = Debug|Win32
+		{6D2EC18D-3936-4393-904B-8E152AF7C710}.Release|Win32.ActiveCfg = Release|Win32
+		{6D2EC18D-3936-4393-904B-8E152AF7C710}.Release|Win32.Build.0 = Release|Win32
+		{B952B582-110F-441C-8382-9BD2FE469846}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B952B582-110F-441C-8382-9BD2FE469846}.Debug|Win32.Build.0 = Debug|Win32
+		{B952B582-110F-441C-8382-9BD2FE469846}.Release|Win32.ActiveCfg = Release|Win32
+		{B952B582-110F-441C-8382-9BD2FE469846}.Release|Win32.Build.0 = Release|Win32
+		{384D2576-3053-4386-A445-A823093753B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{384D2576-3053-4386-A445-A823093753B4}.Debug|Win32.Build.0 = Debug|Win32
+		{384D2576-3053-4386-A445-A823093753B4}.Release|Win32.ActiveCfg = Release|Win32
+		{384D2576-3053-4386-A445-A823093753B4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

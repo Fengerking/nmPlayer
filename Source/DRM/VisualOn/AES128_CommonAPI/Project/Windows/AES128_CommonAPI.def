@@ -1,0 +1,5 @@
+LIBRARY	"AES128_CommonAPI"
+
+EXPORTS
+	voCreateDRM
+	voDestroyDRM

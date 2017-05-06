@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_decoder", "Test_decoder.vcproj", "{5ADB918F-A389-4BDA-990E-3B7E12C164C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5011FB73-DAD2-4BFA-BD12-0F7ED0E68A51} = {5011FB73-DAD2-4BFA-BD12-0F7ED0E68A51}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jpegdec", "..\..\JPEG_D_API\PC\jpegdec.vcproj", "{5011FB73-DAD2-4BFA-BD12-0F7ED0E68A51}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voJPEGDecDll", "..\..\JPEG_D_DLL\PC\voJPEGDecDll.vcproj", "{C0B781EF-650A-4CAD-8841-DFE6B05225C6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5011FB73-DAD2-4BFA-BD12-0F7ED0E68A51} = {5011FB73-DAD2-4BFA-BD12-0F7ED0E68A51}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ADB918F-A389-4BDA-990E-3B7E12C164C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5ADB918F-A389-4BDA-990E-3B7E12C164C2}.Debug|Win32.Build.0 = Debug|Win32
+		{5ADB918F-A389-4BDA-990E-3B7E12C164C2}.Release|Win32.ActiveCfg = Release|Win32
+		{5ADB918F-A389-4BDA-990E-3B7E12C164C2}.Release|Win32.Build.0 = Release|Win32
+		{5011FB73-DAD2-4BFA-BD12-0F7ED0E68A51}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5011FB73-DAD2-4BFA-BD12-0F7ED0E68A51}.Debug|Win32.Build.0 = Debug|Win32
+		{5011FB73-DAD2-4BFA-BD12-0F7ED0E68A51}.Release|Win32.ActiveCfg = Release|Win32
+		{5011FB73-DAD2-4BFA-BD12-0F7ED0E68A51}.Release|Win32.Build.0 = Release|Win32
+		{C0B781EF-650A-4CAD-8841-DFE6B05225C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C0B781EF-650A-4CAD-8841-DFE6B05225C6}.Debug|Win32.Build.0 = Debug|Win32
+		{C0B781EF-650A-4CAD-8841-DFE6B05225C6}.Release|Win32.ActiveCfg = Release|Win32
+		{C0B781EF-650A-4CAD-8841-DFE6B05225C6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

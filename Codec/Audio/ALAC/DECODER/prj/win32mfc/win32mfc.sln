@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "win32mfc", "win32mfc.vcproj", "{40E23FA2-7D2D-492A-9096-731D60FFF31F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8871C33A-57A3-44CD-A9B4-C54A548B9D52} = {8871C33A-57A3-44CD-A9B4-C54A548B9D52}
+		{D14182AD-7646-4480-9E73-E8BEDEF67EAA} = {D14182AD-7646-4480-9E73-E8BEDEF67EAA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voALACDecLib", "..\voALACDecLib\voALACDecLib.vcproj", "{8871C33A-57A3-44CD-A9B4-C54A548B9D52}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voMemory", "..\voMemory\voMemory.vcproj", "{D14182AD-7646-4480-9E73-E8BEDEF67EAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40E23FA2-7D2D-492A-9096-731D60FFF31F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{40E23FA2-7D2D-492A-9096-731D60FFF31F}.Debug|Win32.Build.0 = Debug|Win32
+		{40E23FA2-7D2D-492A-9096-731D60FFF31F}.Release|Win32.ActiveCfg = Release|Win32
+		{40E23FA2-7D2D-492A-9096-731D60FFF31F}.Release|Win32.Build.0 = Release|Win32
+		{8871C33A-57A3-44CD-A9B4-C54A548B9D52}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8871C33A-57A3-44CD-A9B4-C54A548B9D52}.Debug|Win32.Build.0 = Debug|Win32
+		{8871C33A-57A3-44CD-A9B4-C54A548B9D52}.Release|Win32.ActiveCfg = Release|Win32
+		{8871C33A-57A3-44CD-A9B4-C54A548B9D52}.Release|Win32.Build.0 = Release|Win32
+		{D14182AD-7646-4480-9E73-E8BEDEF67EAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D14182AD-7646-4480-9E73-E8BEDEF67EAA}.Debug|Win32.Build.0 = Debug|Win32
+		{D14182AD-7646-4480-9E73-E8BEDEF67EAA}.Release|Win32.ActiveCfg = Release|Win32
+		{D14182AD-7646-4480-9E73-E8BEDEF67EAA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

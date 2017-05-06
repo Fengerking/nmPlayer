@@ -1,0 +1,4 @@
+LIBRARY voMMAR.dll
+
+EXPORTS
+	voGetAudioRenderAPI

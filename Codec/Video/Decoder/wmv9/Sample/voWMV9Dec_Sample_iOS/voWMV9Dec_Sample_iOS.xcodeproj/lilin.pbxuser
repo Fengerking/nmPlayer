@@ -1,0 +1,217 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* voWMV9Dec_Sample_iOS */ = {
+		activeExec = 0;
+		executables = (
+			F22751AC1358211E00CF4712 /* voWMV9Dec_Sample_iOS */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* voWMV9Dec_Sample_iOSViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 431}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 262}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* voWMV9Dec_Sample_iOSViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 1053}}";
+			sepNavSelRange = "{1603, 9}";
+			sepNavVisRange = "{738, 1324}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv7;
+		activeBuildConfigurationName = Release;
+		activeExecutable = F22751AC1358211E00CF4712 /* voWMV9Dec_Sample_iOS */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* voWMV9Dec_Sample_iOS */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* voWMV9Dec_Sample_iOS */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = F22751BA1358212300CF4712 /* Code sense */;
+		executables = (
+			F22751AC1358211E00CF4712 /* voWMV9Dec_Sample_iOS */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					762,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					722,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 325226587;
+			PBXWorkspaceStateSaveDate = 325226587;
+		};
+		perUserProjectItems = {
+			F22751F5135825AD00CF4712 /* PlistBookmark */ = F22751F5135825AD00CF4712 /* PlistBookmark */;
+			F227521C13582A3300CF4712 /* PBXTextBookmark */ = F227521C13582A3300CF4712 /* PBXTextBookmark */;
+			F2A8D8261362960C00EE6F1D /* PBXTextBookmark */ = F2A8D8261362960C00EE6F1D /* PBXTextBookmark */;
+			F2A8D8E71362ABA500EE6F1D /* PBXTextBookmark */ = F2A8D8E71362ABA500EE6F1D /* PBXTextBookmark */;
+			F2A8D8E81362ABA500EE6F1D /* PBXTextBookmark */ = F2A8D8E81362ABA500EE6F1D /* PBXTextBookmark */;
+			F2A8DABD1362E52000EE6F1D /* PBXTextBookmark */ = F2A8DABD1362E52000EE6F1D /* PBXTextBookmark */;
+		};
+		sourceControlManager = F22751B91358212300CF4712 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	F22751AC1358211E00CF4712 /* voWMV9Dec_Sample_iOS */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = voWMV9Dec_Sample_iOS;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	F22751B91358212300CF4712 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F22751BA1358212300CF4712 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F22751BC1358229200CF4712 /* voWMVDecSample.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 7813}}";
+			sepNavSelRange = "{17634, 0}";
+			sepNavVisRange = "{17232, 778}";
+		};
+	};
+	F22751E61358251F00CF4712 /* voWMVDecSample.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 435}}";
+			sepNavSelRange = "{248, 12}";
+			sepNavVisRange = "{0, 291}";
+		};
+	};
+	F22751F5135825AD00CF4712 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* voWMV9Dec_Sample_iOS-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/lilin/Code/Numen/trunk/Codec/Video/Decoder/wmv9/Sample/voWMV9Dec_Sample_iOS/voWMV9Dec_Sample_iOS-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	F227521C13582A3300CF4712 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F22751E61358251F00CF4712 /* voWMVDecSample.h */;
+		name = "voWMVDecSample.h: 13";
+		rLen = 12;
+		rLoc = 248;
+		rType = 0;
+		vrLen = 291;
+		vrLoc = 0;
+	};
+	F2A8D8261362960C00EE6F1D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* voWMV9Dec_Sample_iOSViewController.h */;
+		name = "voWMV9Dec_Sample_iOSViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 262;
+		vrLoc = 0;
+	};
+	F2A8D8E71362ABA500EE6F1D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* voWMV9Dec_Sample_iOSViewController.m */;
+		name = "voWMV9Dec_Sample_iOSViewController.m: 50";
+		rLen = 9;
+		rLoc = 1603;
+		rType = 0;
+		vrLen = 1324;
+		vrLoc = 738;
+	};
+	F2A8D8E81362ABA500EE6F1D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F22751BC1358229200CF4712 /* voWMVDecSample.c */;
+		rLen = 1;
+		rLoc = 116;
+		rType = 1;
+	};
+	F2A8DABD1362E52000EE6F1D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F22751BC1358229200CF4712 /* voWMVDecSample.c */;
+		name = "voWMVDecSample.c: 362";
+		rLen = 0;
+		rLoc = 11829;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 9949;
+	};
+}

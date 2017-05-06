@@ -1,0 +1,18 @@
+#ifndef _FAST_MEMORY_H_
+#define _FAST_MEMORY_H_
+
+#include "typedefs.h"
+
+
+static inline void fast_memset(void *dst,int value,int width)
+{
+  memset(dst,value,width);
+}
+
+static inline void fast_memcpy(void *dst,void *src,int width)
+{
+  memcpy(dst,src,width);
+}
+
+#endif 
+

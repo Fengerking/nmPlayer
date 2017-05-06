@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="voSDKBase">
+      <UniqueIdentifier>{076f5ac7-355f-45ed-8b5c-654201ef1d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{bab6fb6f-86f7-41e5-a5e4-9ab4c4614c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Subtitle">
+      <UniqueIdentifier>{5926ad74-82f3-4e8f-85fd-c61e092c5886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metro">
+      <UniqueIdentifier>{eead7a66-a5a6-464c-a825-2fa67ada1b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metro\Audio Render">
+      <UniqueIdentifier>{3d351430-f8e3-4574-9363-cad24674d016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metro\Video Render">
+      <UniqueIdentifier>{033fffb8-e8ad-4f1d-bb8d-85fef44c0e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metro\Player">
+      <UniqueIdentifier>{37748559-7656-4f80-bfb4-cd3065b56cd7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\Source\Common\COSBasePlayer.cpp">
+      <Filter>voSDKBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Common\COSVomeEngine.cpp">
+      <Filter>voSDKBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Common\COSVomePlayer.cpp">
+      <Filter>voSDKBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\CBaseConfig.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\CDllLoad.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\cmnFile.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\cmnVOMemory.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\CPtrList.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\CvoBaseObject.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voCMutex.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voHalInfo.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voLog.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voOSFunc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voThread.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\CVideoSubtitle.cpp">
+      <Filter>Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voSubtitleFunc.cpp">
+      <Filter>Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\Buffer\voSourceSubtitleDataBuffer.cpp">
+      <Filter>Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Common\voCSemaphore.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Render\Audio\Source\CBaseAudioRender.cpp">
+      <Filter>Metro\Audio Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Render\Audio\Source\XAudio2\CXAudio2Render.cpp">
+      <Filter>Metro\Audio Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Metro\COSWinAudioRender.cpp">
+      <Filter>Metro\Audio Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Render\Video\Render\Source\CBaseVideoRender.cpp">
+      <Filter>Metro\Video Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Metro\COSWinVideoRender.cpp">
+      <Filter>Metro\Video Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Render\Video\Render\Source\CCCRRRFunc.cpp">
+      <Filter>Metro\Video Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Metro\voOnStreamSDK.cpp">
+      <Filter>Metro\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Metro\COSWinVomePlayer.cpp">
+      <Filter>Metro\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Render\Video\Render\Source\Metro\DirectXBase.cpp">
+      <Filter>Metro\Video Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Render\Video\Render\Source\Metro\CMetroVideoRender.cpp">
+      <Filter>Metro\Video Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Render\Video\Render\Source\Metro\CD2DVideoRender.cpp">
+      <Filter>Metro\Video Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\..\Source\Common\COSBasePlayer.h">
+      <Filter>voSDKBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Common\COSVomeEngine.h">
+      <Filter>voSDKBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Common\COSVomePlayer.h">
+      <Filter>voSDKBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Common\IOSBasePlayer.h">
+      <Filter>voSDKBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\CBaseConfig.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\CDllLoad.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\cmnFile.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\cmnMemory.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\CPtrList.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\CvoBaseObject.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\voCMutex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\voHalInfo.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\voOSFunc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\voThread.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\CVideoSubtitle.h">
+      <Filter>Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\voSubtitleFunc.h">
+      <Filter>Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\Buffer\voSourceSubtitleDataBuffer.h">
+      <Filter>Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\Buffer\SubtitleFunc.h">
+      <Filter>Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\Buffer\vo_allocator.hpp">
+      <Filter>Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\Buffer\vo_singlelink_list.hpp">
+      <Filter>Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Common\voCSemaphore.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Render\Audio\Source\CBaseAudioRender.h">
+      <Filter>Metro\Audio Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Render\Audio\Source\XAudio2\CXAudio2Render.h">
+      <Filter>Metro\Audio Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Metro\COSWinAudioRender.h">
+      <Filter>Metro\Audio Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\CBaseVideoRender.h">
+      <Filter>Metro\Video Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Metro\COSWinVideoRender.h">
+      <Filter>Metro\Video Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\CCCRRRFunc.h">
+      <Filter>Metro\Video Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Metro\COSWinVomePlayer.h">
+      <Filter>Metro\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\Metro\DirectXBase.h">
+      <Filter>Metro\Video Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\Metro\DirectXHelper.h">
+      <Filter>Metro\Video Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\Metro\CMetroVideoRender.h">
+      <Filter>Metro\Video Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Render\Video\Render\Source\Metro\CD2DVideoRender.h">
+      <Filter>Metro\Video Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

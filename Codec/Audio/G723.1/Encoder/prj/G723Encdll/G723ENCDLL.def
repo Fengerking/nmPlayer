@@ -1,0 +1,7 @@
+LIBRARY voG723Enc
+EXPORTS
+voG723EncInit
+voG723EncProcess
+voG723EncUninit
+voG723EncSetParameter
+voG723EncGetParameter

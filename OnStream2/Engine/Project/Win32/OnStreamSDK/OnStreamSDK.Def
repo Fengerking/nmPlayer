@@ -1,0 +1,5 @@
+LIBRARY	OnStreamSDK.dll
+
+EXPORTS
+	voGetOnStreamSDKAPI
+	

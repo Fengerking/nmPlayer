@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<?define ProductVersion = "3.5.20"?>
+<?define ProductUpgradeCode = "12345678-1234-1234-1234-222222222222"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" UpgradeCode="$(var.ProductUpgradeCode)"
+           Name="voBrowserPlugin" Version="$(var.ProductVersion)" Manufacturer="VisualOn Inc." Language="1033">
+    <Package InstallerVersion="200" Compressed="yes" Comments="Windows Installer Package"/>
+    <Media Id="1" Cabinet="product.cab" EmbedCab="yes"/>
+    <!-- <Icon Id="ProductIcon" SourceFile="10.ico"/> -->
+    <Property Id="ARPPRODUCTICON" Value="ProductIcon"/>
+    <Property Id="WixAppFolder" Value="WixPerUserFolder" />
+    <Property Id="ARPNOREPAIR" Value="1"/>
+    <Property Id="ARPNOMODIFY" Value="1"/>
+    <Upgrade Id="$(var.ProductUpgradeCode)">
+      <UpgradeVersion OnlyDetect="yes" Minimum="$(var.ProductVersion)" Property="NEWERVERSIONDETECTED" IncludeMinimum="no" />
+      <UpgradeVersion Minimum="1.0.0" Maximum="$(var.ProductVersion)" IncludeMinimum="yes" Property="OLDPRODUCTFOUND"/>
+    </Upgrade>
+    <Condition Message="A newer version of this software is already installed.">NOT NEWERVERSIONDETECTED</Condition>
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="CommonAppDataFolder" Name="CommonAppDataFolder">
+            <Directory Id="VisualOn" Name="VisualOn">
+              <Directory Id="BrowserPlugin" Name="BrowserPlugin">
+                <Component Id="voBrowserPlugin" Guid="{9B127881-4CB0-4489-B6FF-AA49FEAF44B6}">
+                  <File Id="filA54205C91E3521A3A3AAB64291F72F7A" Source="..\..\Dlls\npvoBrowserPlugin.dll">
+                    <TypeLib Id="{85844E43-0C30-4434-9B61-BEFF727ED925}" Description="voBrowserPlugin 3.5.20 Type Library" Language="0" MajorVersion="3" MinorVersion="5">
+                      <AppId Description="VisualOnPlugin" Id="{A607CAD1-DC29-4972-8563-86F1A9393A8D}" xmlns="http://schemas.microsoft.com/wix/2006/wi">
+                        <Class Id="{0CE49C56-2443-502E-8265-C3056F9B5E5F}" Context="InprocServer32" Description="VisualOn Browser Plugin" ThreadingModel="apartment" Version="1" Programmable="yes" Control="yes">
+                          <ProgId Id="VisualOn.voBrowserPlugin.1" Description="VisualOn Browser Plugin">
+                            <ProgId Id="VisualOn.voBrowserPlugin" Description="VisualOn Browser Plugin" />
+                          </ProgId>
+                        </Class>
+                      </AppId>
+                      <Interface Id="{A0DFB3B2-81BD-4F3C-81A0-A275681E73A7}" Name="IVOComJavascriptObject" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" xmlns="http://schemas.microsoft.com/wix/2006/wi" />
+                      <Interface Id="{59D9ADC7-543B-47FE-A91D-2FADF2D14FB7}" Name="IVOComEventSource" ProxyStubClassId32="{00020420-0000-0000-C000-000000000046}" xmlns="http://schemas.microsoft.com/wix/2006/wi" />
+                      <Interface Id="{035E9B18-128D-4C3E-8C71-49F61B50CB14}" Name="IVOControl" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" xmlns="http://schemas.microsoft.com/wix/2006/wi" />
+                    </TypeLib>
+                  </File>
+                  <RegistryValue Key="AppID\npvoBrowserPlugin.dll" Value="{A607CAD1-DC29-4972-8563-86F1A9393A8D}" Type="string" Action="write" Name="AppID" Root="HKCR" />
+                  <RegistryValue Key="CLSID\{0ce49c56-2443-502e-8265-c3056f9b5e5f}\MiscStatus\1" Value="131473" Type="string" Action="write" Root="HKCR" />
+                  <RegistryValue Key="CLSID\{0ce49c56-2443-502e-8265-c3056f9b5e5f}\MiscStatus" Value="0" Type="string" Action="write" Root="HKCR" />
+                  <RegistryValue Key="MIME\Database\Content Type\application/x-visualon-osmp" Value="VisualOn Browser Plugin" Type="string" Action="write" Root="HKCR" />
+                  <RegistryValue Key="MIME\Database\Content Type\application/x-visualon-osmp" Value="" Type="string" Action="write" Name="Extension" Root="HKCR" />
+                  <RegistryValue Key="MIME\Database\Content Type\application/x-visualon-osmp" Value="{0ce49c56-2443-502e-8265-c3056f9b5e5f}" Type="string" Action="write" Name="CLSID" Root="HKCR" />
+                  <RegistryValue Key="Software\Microsoft\Windows\CurrentVersion\Ext\PreApproved\{0ce49c56-2443-502e-8265-c3056f9b5e5f}" Value="" Type="string" Action="write" Root="HKCU" />
+                  <RegistryValue Key="Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{0ce49c56-2443-502e-8265-c3056f9b5e5f}\iexplore\AllowedDomains\*" Value="" Type="string" Action="write" Root="HKCU" />
+                  <RegistryValue Key="Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{0ce49c56-2443-502e-8265-c3056f9b5e5f}\iexplore" Value="-858993460" Type="integer" Action="write" Name="Count" Root="HKCU" />
+                  <RegistryValue Key="Software\MozillaPlugins\visualon.com/voBrowserPlugin" Value="[#filA54205C91E3521A3A3AAB64291F72F7A]" Type="string" Action="write" Name="Path" Root="HKCU" KeyPath="yes" />
+                </Component>
+                <Component Id="voPlugInIE" Guid="{32A12A74-9F09-400C-843B-AA586126FB56}" >
+                  <File Name="voPlugInIE.dll" Source="..\..\Dlls\voPlugInIE.dll" SelfRegCost="1" />
+                </Component>
+                <Component Id="VisualOnBrowserPluginDependences" DiskId="1" Guid="CED0994E-DD1B-424C-BD05-A6E13D4B0B02"> 
+                  <File Name="voAACDec.dll" Source="..\..\Dlls\voAACDec.dll" />
+                  <File Name="voAudioFR.dll" Source="..\..\Dlls\voAudioFR.dll" />
+                  <File Name="voAdaptiveStreamController.dll" Source="..\..\Dlls\voAdaptiveStreamController.dll" />
+                  <File Name="voAdaptiveStreamHLS.dll" Source="..\..\Dlls\voAdaptiveStreamHLS.dll" />
+                  <File Name="voDRM_VisualOn_AES128.dll" Source="..\..\Dlls\voDRM_VisualOn_AES128.dll" />
+                  <File Name="voCaptionParser.dll" Source="..\..\Dlls\voCaptionParser.dll" />
+                  <File Name="voDVBSubtitleParser.dll" Source="..\..\Dlls\voDVBSubtitleParser.dll" />
+                  <File Name="voH264Dec.dll" Source="..\..\Dlls\voH264Dec.dll" />
+                  <File Name="voMMCCRRS.dll" Source="..\..\Dlls\voMMCCRRS.dll" />
+                  <File Name="voMP4FR.dll" Source="..\..\Dlls\voMP4FR.dll" />
+                  <File Name="vompEngn.Dll" Source="..\..\Dlls\vompEngn.Dll" />
+                  <File Name="voOnStreamMP.dll" Source="..\..\Dlls\voOnStreamMP.dll" />
+                  <File Name="voOSEng.dll" Source="..\..\Dlls\voOSEng.dll" />
+                  <File Name="voOSSource.dll" Source="..\..\Dlls\voOSSource.dll" />
+                  <File Name="voPlugInUI.Dll" Source="..\..\Dlls\voPlugInUI.Dll" />
+                  <File Name="voSourceIO.dll" Source="..\..\Dlls\voSourceIO.dll" />
+                  <File Name="vossl.dll" Source="..\..\Dlls\vossl.dll" />
+                  <File Name="voSubtitleParser.dll" Source="..\..\Dlls\voSubtitleParser.dll" />
+                  <File Name="voTsParser.dll" Source="..\..\Dlls\voTsParser.dll" />
+                  <File Name="voVideoParser.dll" Source="..\..\Dlls\voVideoParser.dll" />
+                  <File Name="voVidDec.dat" Source="..\..\Dlls\voVidDec.dat" />
+                  <File Name="voVidDec.Dll" Source="..\..\Dlls\voVidDec.Dll" />
+                </Component>
+              </Directory>
+            </Directory>
+          </Directory>
+    </Directory>
+      
+    <Feature Id="DefaultFeature" Level="1" >
+      <ComponentRef Id="VisualOnBrowserPluginDependences"/>
+      <ComponentRef Id="voBrowserPlugin" />
+      <ComponentRef Id="voPlugInIE" />
+    </Feature>
+
+    <InstallExecuteSequence>
+    <RemoveExistingProducts After="InstallValidate"/>
+    </InstallExecuteSequence>
+
+  </Product>
+</Wix>

@@ -1,0 +1,7 @@
+LIBRARY voWMV9Dec
+EXPORTS
+voWMV9DecInit
+voWMV9DecProcess
+voWMV9DecUninit
+voWMV9DecSetParameter
+voWMV9DecGetParameter

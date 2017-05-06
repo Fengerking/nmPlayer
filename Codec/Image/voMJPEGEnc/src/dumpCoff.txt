@@ -1,0 +1,82 @@
+file head
+machine  1c0
+number of sections  1
+time date stamp Fri Dec 01 16:47:08 2006   1269843704
+file pointer to symbol table 76
+number of symbols   8
+size of optional header  0
+characteristics   100
+
+
+***************SECTION HEADER #1  *********************
+Name .text
+Characteristics1610612768
+NumberOfLinenumbers 0
+NumberOfRelocations) 0
+PointerToLinenumbers 0
+PointerToRawData  60
+PointerToRelocations 0
+SizeOfRawData 16
+VirtualAddress 0
+&&&&&&&&&&&&&&&&&&&dump_data(.text):
+œ  ÙPËÄÛN»Ûœ Ù
+symbol item0
+name h8f
+SectionNumber 0
+StorageClass 0
+Type 0
+Value 0
+NumberOfAuxSymbols 0
+symbol item1
+name h8f
+SectionNumber 0
+StorageClass 0
+Type 0
+Value 0
+NumberOfAuxSymbols 0
+symbol item2
+name $a
+SectionNumber 1
+StorageClass 3
+Type 0
+Value 0
+NumberOfAuxSymbols 0
+symbol item3
+name h8f
+SectionNumber 0
+StorageClass 0
+Type 0
+Value 0
+NumberOfAuxSymbols 0
+symbol item4
+name .text
+SectionNumber 1
+StorageClass 3
+Type 0
+Value 0
+NumberOfAuxSymbols 0
+symbol item5
+name h8f
+SectionNumber 0
+StorageClass 0
+Type 0
+Value 0
+NumberOfAuxSymbols 0
+symbol item6
+name $v0
+SectionNumber 1
+StorageClass 3
+Type 0
+Value 0
+NumberOfAuxSymbols 0
+symbol item7
+name vogetblock_armv7
+SectionNumber 1
+StorageClass 2
+Type 512
+Value 0
+NumberOfAuxSymbols 0
+String Table Size = 0xCF bytes
+&&&&&&&&&&&&&&&&&&&dump_data(.strTable):
+BuildAttributes$$ARM_ISAv7$X$E$P$J$Z$N$K$B$S$VFPv3$PE$PLD2$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$~IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$EBA8$PRES8$EABIv2getblo
+ck_armv7.asmvogetblock_armv7.text$v0$a

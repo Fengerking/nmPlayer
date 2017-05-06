@@ -1,0 +1,4 @@
+LIBRARY	"voSrcWMSP"
+
+EXPORTS
+	voGetWMSP2ReadAPI

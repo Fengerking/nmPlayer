@@ -1,0 +1,4 @@
+LIBRARY	"TSStreaming"
+
+EXPORTS
+	voGetTSLiveSrcAPI

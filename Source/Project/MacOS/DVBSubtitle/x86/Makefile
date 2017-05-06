@@ -1,0 +1,45 @@
+						#################################################################
+						#				Visualon Makefile Template 					 	#
+						#																#
+						#		(Please Keep Below Options Order Unchanged)				#
+						#################################################################
+
+# target type
+VOTT:=x86
+ 
+
+#top root path
+VOTOP:=../../../../..
+
+VODBG=yes
+IDBG=yes
+
+# module type
+VOMT:=lib
+
+# module macros
+VOMM:=-D_MAC_OS -D_VOMODULEID=0x00520000  -D_VOLOG_ERROR -D_VOLOG_WARNING -D_VOLOG_INFO
+
+# please specify the name of your module
+VOTARGET:=libvoDVBSubtitleParser
+
+#dependent static libraries
+#do not link shared libraries into your library, it should be link by the top application link
+#format: -l+thepath; -l++dependentlibrary(remove the prefix "lib" and suffix "a")
+#e.g. vostclibs:=-l../dir -lvoxxxbase  #means your module depends on $(VOPREBUILTPATH)/libvoxxxbase.a
+
+# please specify where is the vorelease on your pc, relative path is suggested
+# vorelease folder is local on the same level directory with the trunk folder
+VORELDIR:=$(VOTOP)/../voRelease/MacOS/lib/x86
+
+
+# module source
+# please modify here to be sure to see the ms.mk which specifies all source info of your module
+include ../source.mk
+
+# please modify here to be sure to see the eclair.mk
+include $(VOTOP)/build/imac.mk
+
+# please modify here to be sure to see the doit.mk
+include $(VOTOP)/build/macdoit.mk
+

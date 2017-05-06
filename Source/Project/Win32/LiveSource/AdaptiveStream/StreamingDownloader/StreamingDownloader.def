@@ -1,0 +1,6 @@
+LIBRARY voStreamingDownloader.dll
+
+EXPORTS
+	voGetStreamingDownloaderAPI
+	voGetStreamingDownloaderAPI3
+	voGetDownloaderAPI

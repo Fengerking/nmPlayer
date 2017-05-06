@@ -1,0 +1,5 @@
+LIBRARY	"voWMADec.dll"
+
+EXPORTS
+	voGetWMADecAPI	
+	

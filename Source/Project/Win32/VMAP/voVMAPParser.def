@@ -1,0 +1,4 @@
+LIBRARY	"voVMAPParser.dll"
+
+EXPORTS
+		voGetVMAPParserAPI

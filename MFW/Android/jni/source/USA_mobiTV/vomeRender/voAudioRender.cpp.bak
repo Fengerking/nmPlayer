@@ -1,0 +1,183 @@
+
+	/************************************************************************
+	*																		*
+	*		VisualOn, Inc. Confidential and Proprietary, 2003				*
+	*																		*
+	************************************************************************/
+/*******************************************************************************
+	File:		VOAudioRender.cpp
+
+	Contains:	VOAudioRender class file
+
+	Written by:	Bangfei Jin
+
+	Change History (most recent first):
+	2009-11-21		JBF			Create file
+
+*******************************************************************************/
+#include <cutils/properties.h>
+#include <utils/Timers.h>
+
+#include "voAudioRender.h"
+
+#define LOG_TAG "VOAudioSink"
+#include "voLog.h"
+
+namespace android {
+
+VOAudioRender::VOAudioRender()
+	: m_pTrack (NULL)
+{
+	VOLOGI("Standard Audio Render");
+}
+
+VOAudioRender::~VOAudioRender()
+{
+	voCOMXAutoLock lock (&m_tmTrack);
+
+	if (m_pTrack != NULL)
+	{
+		m_pTrack->stop ();
+		delete m_pTrack;
+	}
+
+	m_pTrack = NULL;
+}
+
+status_t VOAudioRender::open(uint32_t sampleRate, int channelCount, int format, int bufferCount)
+{
+	voCOMXAutoLock lock (&m_tmTrack);
+
+	VOLOGI("open samplerate: %d channelcount:%d format:%d buffercount%d",
+		sampleRate, channelCount, format, bufferCount);
+
+	if (m_pTrack != NULL) 
+		close();
+
+	int afSampleRate;
+	int afFrameCount;
+	int frameCount;
+
+	status_t stat = UNKNOWN_ERROR;
+
+	stat = AudioSystem::getOutputFrameCount(&afFrameCount, m_nStreamType);
+	if (stat != NO_ERROR)
+	{
+		VOLOGE ("AudioSystem::getOutputFrameCount error. Result is : %d", stat);
+		return NO_INIT;
+	}
+	VOLOGI ("afFrameCount is %d", afFrameCount);
+
+	if (AudioSystem::getOutputSamplingRate(&afSampleRate, m_nStreamType) != NO_ERROR) 
+	{
+		VOLOGE ("AudioSystem::getOutputSamplingRate error. Result is : %d", stat);
+		return NO_INIT;
+	}
+	VOLOGI ("afSampleRate is %d", afSampleRate);
+
+	frameCount = (sampleRate * afFrameCount * bufferCount) / afSampleRate;
+
+#if defined __VONJ_ECLAIR__ || defined __VONJ_FROYO__
+	m_pTrack = new AudioTrack(m_nStreamType,	sampleRate,	format,
+								(channelCount == 2) ? AudioSystem::CHANNEL_OUT_STEREO : AudioSystem::CHANNEL_OUT_MONO,
+								frameCount);
+#elif defined __VONJ_CUPCAKE__ || defined __VONJ_DONUT__
+	m_pTrack = new AudioTrack(m_nStreamType, sampleRate, format, channelCount, frameCount);
+#endif
+
+	if ((m_pTrack == NULL) || (m_pTrack->initCheck() != NO_ERROR)) 
+	{
+		VOLOGE("Unable to create audio track");
+
+		delete m_pTrack;
+		m_pTrack = NULL;
+
+		return NO_INIT;
+	}
+
+	m_pTrack->setVolume(m_dLeftVolume, m_dRightVolume);
+	m_bOpen = true;
+
+	return NO_ERROR;
+}
+
+void VOAudioRender::start()
+{
+	voCOMXAutoLock lock (&m_tmTrack);
+
+	if (m_pTrack != NULL)
+	{
+		m_pTrack->setVolume(m_dLeftVolume, m_dRightVolume);
+		m_pTrack->start();
+	}
+}
+
+
+ssize_t VOAudioRender::write(const void* buffer, size_t size)
+{
+	voCOMXAutoLock lock (&m_tmTrack);
+
+	if (m_pTrack != NULL)
+	{
+		ssize_t ret = m_pTrack->write(buffer, size);
+
+		// VOLOGI ("Write the buffer: %08X, size %d", buffer, (int)ret);
+
+		return ret;
+	}
+
+	return NO_INIT;
+}
+
+void VOAudioRender::stop()
+{
+	voCOMXAutoLock lock (&m_tmTrack);
+
+	if (m_pTrack != NULL)
+		m_pTrack->stop();
+}
+
+void VOAudioRender::flush()
+{
+	voCOMXAutoLock lock (&m_tmTrack);
+
+	if (m_pTrack != NULL) 
+		m_pTrack->flush();
+}
+
+void VOAudioRender::pause()
+{
+
+	voCOMXAutoLock lock (&m_tmTrack);
+	if (m_pTrack) 
+		m_pTrack->pause();
+
+}
+
+void VOAudioRender::close()
+{
+	voCOMXAutoLock lock (&m_tmTrack);
+
+	if (m_pTrack != NULL)
+	{
+		m_pTrack->stop ();
+		delete m_pTrack;
+	}
+	m_pTrack = NULL;
+
+	m_bOpen = false;
+}
+
+void VOAudioRender::setVolume(float left, float right)
+{
+	voCOMXAutoLock lock (&m_tmTrack);
+
+	m_dLeftVolume = left;
+	m_dRightVolume = right;
+
+	if (m_pTrack != NULL)
+		m_pTrack->setVolume(left, right);
+}
+
+} // namespace android
+

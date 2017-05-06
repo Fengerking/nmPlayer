@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voRTSPEngineVC8", "voRTSPEngineVC8.vcproj", "{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I) = Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I) = Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		X86_TEST|Mixed Platforms = X86_TEST|Mixed Platforms
+		X86_TEST|Win32 = X86_TEST|Win32
+		X86_TEST|Windows Mobile 5.0 Pocket PC SDK (ARMV4I) = X86_TEST|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.Debug|Win32.ActiveCfg = Release|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.Debug|Win32.Build.0 = Release|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Debug|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.Release|Win32.ActiveCfg = Release|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.Release|Win32.Build.0 = Release|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Release|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.X86_TEST|Mixed Platforms.ActiveCfg = X86_TEST|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.X86_TEST|Mixed Platforms.Build.0 = X86_TEST|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.X86_TEST|Win32.ActiveCfg = X86_TEST|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.X86_TEST|Win32.Build.0 = X86_TEST|Win32
+		{1ACB9C39-44D5-4D78-B051-0B8F5AB53EA8}.X86_TEST|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = X86_TEST|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

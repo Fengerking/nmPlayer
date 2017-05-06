@@ -1,0 +1,5 @@
+LIBRARY voMKVFR.dll
+
+EXPORTS
+	voGetMKVReadAPI
+	voGetMKV2ReadAPI

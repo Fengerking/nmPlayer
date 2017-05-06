@@ -1,0 +1,5 @@
+LIBRARY	voOMXClk.dll
+
+EXPORTS
+	voGetClockTimeHandle	@1
+			

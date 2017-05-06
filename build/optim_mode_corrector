@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mklist=`ls *.mk`;
+
+for mk in $mklist;
+do
+	sed -e '/VODBG?=*/a\\VOOPTIM?=unknown\nifeq ($(VOOPTIM),debug)\nVODBG:=yes\nelse\nifeq ($(VOOPTIM),release)\nVODBG:=no\nendif\nendif' -e '/OBJDIR[ :]*=/d'  -e '/VOCFLAGS+=-D_DEBUG -g/a\\OBJDIR:=debug' -e '/[A-Z_]*FLAGS+=[ -_A-Z]*-g/a\\OBJDIR:=debug' -e '/VOCFLAGS+=-DNDEBUG -O3/a\\OBJDIR:=release' -e '/[A-Z_]*FLAGS+=[ -_A-Z]*-O3/a\\OBJDIR:=release' -e 's/LIB_STATIC=$(VOTARGET)/LIB_STATIC=$(OBJDIR)\/$(VOTARGET)'  -e 's/LIB_NAME=$(VOTARGET)/LIB_NAME=$(OBJDIR)\/$(VOTARGET)/g' -i $mk;
+
+done;

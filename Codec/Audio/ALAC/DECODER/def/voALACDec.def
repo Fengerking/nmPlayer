@@ -1,0 +1,5 @@
+LIBRARY	"voALACDec.dll"
+
+EXPORTS
+	voGetALACDecAPI	
+	

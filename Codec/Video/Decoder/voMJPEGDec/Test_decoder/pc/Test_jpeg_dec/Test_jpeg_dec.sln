@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_jpeg_dec", "Test_jpeg_dec.vcproj", "{CEC130A1-3193-4106-8327-55083865132B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E2915FCF-4567-4AAB-B193-CDED59B15BBB} = {E2915FCF-4567-4AAB-B193-CDED59B15BBB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JPEG_D_LIB", "..\..\..\JPEG_D_API\pc\JPEG_D_LIB\JPEG_D_LIB.vcproj", "{E2915FCF-4567-4AAB-B193-CDED59B15BBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEC130A1-3193-4106-8327-55083865132B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CEC130A1-3193-4106-8327-55083865132B}.Debug|Win32.Build.0 = Debug|Win32
+		{CEC130A1-3193-4106-8327-55083865132B}.Release|Win32.ActiveCfg = Release|Win32
+		{CEC130A1-3193-4106-8327-55083865132B}.Release|Win32.Build.0 = Release|Win32
+		{E2915FCF-4567-4AAB-B193-CDED59B15BBB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2915FCF-4567-4AAB-B193-CDED59B15BBB}.Debug|Win32.Build.0 = Debug|Win32
+		{E2915FCF-4567-4AAB-B193-CDED59B15BBB}.Release|Win32.ActiveCfg = Release|Win32
+		{E2915FCF-4567-4AAB-B193-CDED59B15BBB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

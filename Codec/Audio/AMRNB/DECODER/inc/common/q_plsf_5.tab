@@ -1,0 +1,37 @@
+/*
+********************************************************************************
+*
+*      GSM AMR-NB speech codec   R98   Version 7.6.0   December 12, 2001
+*                                R99   Version 3.3.0                
+*                                REL-4 Version 4.1.0                
+*
+********************************************************************************
+*
+*      File             : pow2.c
+*      Purpose          : Quantization tables for split_MQ of 2 sets of 
+*                       : LSFs in a 20 ms frame.
+*                       : See "q_plsf_5.c"   
+*      $Id $
+*
+********************************************************************************
+*/
+/* LSF means ->normalize frequency domain */
+
+extern const Word16 voAMRNBDecmean_lsf[10];
+
+
+#define DICO1_SIZE  128
+#define DICO2_SIZE  256
+#define DICO3_SIZE  256
+#define DICO4_SIZE  256
+#define DICO5_SIZE  64
+
+extern const Word16 voAMRNBDecdico1_lsf[DICO1_SIZE * 4];
+
+extern const Word16 voAMRNBDecdico2_lsf[DICO2_SIZE * 4];
+
+extern const Word16 voAMRNBDecdico3_lsf[DICO3_SIZE * 4];
+
+extern const Word16 voAMRNBDecdico4_lsf[DICO4_SIZE * 4];
+
+extern const Word16 voAMRNBDecdico5_lsf[DICO5_SIZE * 4];

@@ -1,0 +1,4 @@
+LIBRARY	"voCaptionParser.dll"
+
+EXPORTS
+		voGetCaptionParserAPI

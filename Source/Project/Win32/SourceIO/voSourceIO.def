@@ -1,0 +1,4 @@
+LIBRARY voSourceIO.dll
+
+EXPORTS
+	yyGetDataIOFunc

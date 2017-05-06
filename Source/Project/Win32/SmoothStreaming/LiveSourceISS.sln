@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LiveSourceISS", "LiveSourceISS.vcproj", "{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|STANDARDSDK_500 (ARMV4I) = Debug|STANDARDSDK_500 (ARMV4I)
+		Debug|Win32 = Debug|Win32
+		Release|STANDARDSDK_500 (ARMV4I) = Release|STANDARDSDK_500 (ARMV4I)
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Debug|STANDARDSDK_500 (ARMV4I).ActiveCfg = Debug|STANDARDSDK_500 (ARMV4I)
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Debug|STANDARDSDK_500 (ARMV4I).Build.0 = Debug|STANDARDSDK_500 (ARMV4I)
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Debug|STANDARDSDK_500 (ARMV4I).Deploy.0 = Debug|STANDARDSDK_500 (ARMV4I)
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Debug|Win32.Build.0 = Debug|Win32
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Release|STANDARDSDK_500 (ARMV4I).ActiveCfg = Release|STANDARDSDK_500 (ARMV4I)
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Release|STANDARDSDK_500 (ARMV4I).Build.0 = Release|STANDARDSDK_500 (ARMV4I)
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Release|STANDARDSDK_500 (ARMV4I).Deploy.0 = Release|STANDARDSDK_500 (ARMV4I)
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Release|Win32.ActiveCfg = Release|Win32
+		{ED4CAD80-4BD6-4FA6-A7B0-FD1F429D917B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

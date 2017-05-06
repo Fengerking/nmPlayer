@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ISS_TEST", "voAdaptiveStreamISS.vcproj", "{AF158C9F-67D3-4C15-BE7A-2BC9C6ED12CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|STANDARDSDK_500 (ARMV4I) = Debug|STANDARDSDK_500 (ARMV4I)
+		Debug|Win32 = Debug|Win32
+		Release|STANDARDSDK_500 (ARMV4I) = Release|STANDARDSDK_500 (ARMV4I)
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF158C9F-67D3-4C15-BE7A-2BC9C6ED12CF}.Debug|STANDARDSDK_500 (ARMV4I).ActiveCfg = Debug|STANDARDSDK_500 (ARMV4I)
+		{AF158C9F-67D3-4C15-BE7A-2BC9C6ED12CF}.Debug|STANDARDSDK_500 (ARMV4I).Build.0 = Debug|STANDARDSDK_500 (ARMV4I)
+		{AF158C9F-67D3-4C15-BE7A-2BC9C6ED12CF}.Debug|STANDARDSDK_500 (ARMV4I).Deploy.0 = Debug|STANDARDSDK_500 (ARMV4I)
+		{AF158C9F-67D3-4C15-BE7A-2BC9C6ED12CF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF158C9F-67D3-4C15-BE7A-2BC9C6ED12CF}.Debug|Win32.Build.0 = Debug|Win32
+		{AF158C9F-67D3-4C15-BE7A-2BC9C6ED12CF}.Release|STANDARDSDK_500 (ARMV4I).ActiveCfg = Release|STANDARDSDK_500 (ARMV4I)
+		{AF158C9F-67D3-4C15-BE7A-2BC9C6ED12CF}.Release|STANDARDSDK_500 (ARMV4I).Build.0 = Release|STANDARDSDK_500 (ARMV4I)
+		{AF158C9F-67D3-4C15-BE7A-2BC9C6ED12CF}.Release|STANDARDSDK_500 (ARMV4I).Deploy.0 = Release|STANDARDSDK_500 (ARMV4I)
+		{AF158C9F-67D3-4C15-BE7A-2BC9C6ED12CF}.Release|Win32.ActiveCfg = Release|Win32
+		{AF158C9F-67D3-4C15-BE7A-2BC9C6ED12CF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

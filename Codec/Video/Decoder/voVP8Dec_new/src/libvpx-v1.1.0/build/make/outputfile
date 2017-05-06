@@ -1,0 +1,4 @@
+@ This file was created from a .asm file
+@  using the ads2gas.pl script.
+	.equ DO1STROUNDING, 0
+	.section	.note.GNU-stack,"",%progbits

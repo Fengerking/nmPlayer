@@ -1,0 +1,13 @@
+include $(BUILD_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+
+LOCAL_ARM_MODE := arm
+
+LOCAL_MODULE := libyyHEVCDec
+
+
+LOCAL_STATIC_LIBRARIES := libyyHEVCDecLib
+
+
+include $(BUILD_SHARED_LIBRARY)

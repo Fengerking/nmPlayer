@@ -1,0 +1,4 @@
+%define MC_ASM_ENABLED    0
+%define IDCT_ASM_ENABLED		0
+%define DEBLOCK_ASM_ENABLED		0
+%define SAO_ASM_ENABLED			0

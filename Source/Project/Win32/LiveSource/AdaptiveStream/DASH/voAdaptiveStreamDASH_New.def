@@ -1,0 +1,4 @@
+LIBRARY	"voAdaptiveStreamDASH.dll"
+
+EXPORTS
+		voGetAdaptiveStreamDASHAPI

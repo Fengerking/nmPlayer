@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = F2908EA3135C45F9008C0AD1 /* voTsParser_Simulator */;
+		addToTargets = (
+			D2AAC07D0554694100DB518D /* voTsParser_V7 */,
+		);
+		codeSenseManager = F2908CFD135C2F63008C0AD1 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					793,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 324808541;
+			PBXWorkspaceStateSaveDate = 324808541;
+		};
+		perUserProjectItems = {
+			F2908E90135C422E008C0AD1 /* PBXTextBookmark */ = F2908E90135C422E008C0AD1 /* PBXTextBookmark */;
+			F2908E91135C422E008C0AD1 /* PBXTextBookmark */ = F2908E91135C422E008C0AD1 /* PBXTextBookmark */;
+			F2908E92135C422E008C0AD1 /* PBXTextBookmark */ = F2908E92135C422E008C0AD1 /* PBXTextBookmark */;
+			F2908E93135C422E008C0AD1 /* PBXTextBookmark */ = F2908E93135C422E008C0AD1 /* PBXTextBookmark */;
+			F2908E94135C422E008C0AD1 /* PBXTextBookmark */ = F2908E94135C422E008C0AD1 /* PBXTextBookmark */;
+			F2908F96135C46A5008C0AD1 /* PBXTextBookmark */ = F2908F96135C46A5008C0AD1 /* PBXTextBookmark */;
+			F2908F97135C46A5008C0AD1 /* PBXTextBookmark */ = F2908F97135C46A5008C0AD1 /* PBXTextBookmark */;
+			F2908F98135C46A5008C0AD1 /* PBXTextBookmark */ = F2908F98135C46A5008C0AD1 /* PBXTextBookmark */;
+			F2908F99135C46A5008C0AD1 /* PBXBookmark */ = F2908F99135C46A5008C0AD1 /* PBXBookmark */;
+			F2908F9F135C4AC5008C0AD1 /* PBXTextBookmark */ = F2908F9F135C4AC5008C0AD1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F2908CFC135C2F63008C0AD1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D2AAC07D0554694100DB518D /* voTsParser_V7 */ = {
+		activeExec = 0;
+	};
+	F2908CFC135C2F63008C0AD1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F2908CFD135C2F63008C0AD1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F2908D03135C2FDE008C0AD1 /* voCSemaphore.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 936}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1095}";
+		};
+	};
+	F2908D05135C2FDE008C0AD1 /* voOSFunc.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 3263}}";
+			sepNavSelRange = "{5344, 0}";
+			sepNavVisRange = "{4440, 1328}";
+		};
+	};
+	F2908D65135C39F4008C0AD1 /* CAnalyseAAC.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 460}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 226}";
+		};
+	};
+	F2908D6C135C39F4008C0AD1 /* CBaseParser.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 2379}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 579}";
+		};
+	};
+	F2908D76135C39F4008C0AD1 /* voMTVParser.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 1755}}";
+			sepNavSelRange = "{96, 6}";
+			sepNavVisRange = "{0, 444}";
+		};
+	};
+	F2908D98135C3AC4008C0AD1 /* adtsparser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 936}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 457}";
+		};
+	};
+	F2908D9F135C3AC4008C0AD1 /* voitypes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 339}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 297}";
+		};
+	};
+	F2908DAE135C3B0B008C0AD1 /* BaseParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 598}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 564}";
+		};
+	};
+	F2908DC3135C3B0B008C0AD1 /* isomio.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 6058}}";
+			sepNavSelRange = "{4261, 2}";
+			sepNavVisRange = "{4109, 436}";
+		};
+	};
+	F2908DE7135C3B0B008C0AD1 /* tsstruct.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 16640}}";
+			sepNavSelRange = "{1122, 0}";
+			sepNavVisRange = "{1010, 637}";
+		};
+	};
+	F2908DE8135C3B0B008C0AD1 /* tsstruct.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 4355}}";
+			sepNavSelRange = "{1815, 2}";
+			sepNavVisRange = "{1597, 580}";
+		};
+	};
+	F2908E36135C3BCD008C0AD1 /* NSObjCRuntime.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSObjCRuntime.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 4225}}";
+			sepNavSelRange = "{9671, 0}";
+			sepNavVisRange = "{0, 634}";
+		};
+	};
+	F2908E90135C422E008C0AD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2908D65135C39F4008C0AD1 /* CAnalyseAAC.h */;
+		name = "CAnalyseAAC.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 226;
+		vrLoc = 0;
+	};
+	F2908E91135C422E008C0AD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2908E36135C3BCD008C0AD1 /* NSObjCRuntime.h */;
+		name = "NSObjCRuntime.h: 30";
+		rLen = 0;
+		rLoc = 758;
+		rType = 0;
+		vrLen = 1051;
+		vrLoc = 0;
+	};
+	F2908E92135C422E008C0AD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2908D03135C2FDE008C0AD1 /* voCSemaphore.h */;
+		name = "voCSemaphore.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1095;
+		vrLoc = 0;
+	};
+	F2908E93135C422E008C0AD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2908D76135C39F4008C0AD1 /* voMTVParser.cpp */;
+		name = "voMTVParser.cpp: 15";
+		rLen = 0;
+		rLoc = 201;
+		rType = 0;
+		vrLen = 672;
+		vrLoc = 777;
+	};
+	F2908E94135C422E008C0AD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2908D9F135C3AC4008C0AD1 /* voitypes.h */;
+		name = "voitypes.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 297;
+		vrLoc = 0;
+	};
+	F2908EA3135C45F9008C0AD1 /* voTsParser_Simulator */ = {
+		activeExec = 0;
+	};
+	F2908F96135C46A5008C0AD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2908DE7135C3B0B008C0AD1 /* tsstruct.cpp */;
+		name = "tsstruct.cpp: 72";
+		rLen = 0;
+		rLoc = 1122;
+		rType = 0;
+		vrLen = 637;
+		vrLoc = 1010;
+	};
+	F2908F97135C46A5008C0AD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2908D98135C3AC4008C0AD1 /* adtsparser.h */;
+		name = "adtsparser.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 0;
+	};
+	F2908F98135C46A5008C0AD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2908DAE135C3B0B008C0AD1 /* BaseParser.h */;
+		name = "BaseParser.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 564;
+		vrLoc = 0;
+	};
+	F2908F99135C46A5008C0AD1 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F2908D05135C2FDE008C0AD1 /* voOSFunc.mm */;
+	};
+	F2908F9F135C4AC5008C0AD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2908D05135C2FDE008C0AD1 /* voOSFunc.mm */;
+		name = "voOSFunc.mm: 195";
+		rLen = 0;
+		rLoc = 5344;
+		rType = 0;
+		vrLen = 1328;
+		vrLoc = 4440;
+	};
+}
