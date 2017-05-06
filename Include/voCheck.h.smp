@@ -1,0 +1,34 @@
+/* Name map file for voCheck.h */
+/* Auto generated at 19:30:44 11-27-2012 */
+#ifndef _E1F173DA388511E28D28FA33E00B8987
+#define _E1F173DA388511E28D28FA33E00B8987
+#ifndef _VONONMP
+#ifndef voCheckLibCheckAudio
+#define voCheckLibCheckAudio DcAFNgUjsmcyhBWsrzESmeA /*-P-*/
+#endif
+#ifndef voCheckLibCheckImage
+#define voCheckLibCheckImage CfiYpmPlVSfjfGmITmouoXA /*-P-*/
+#endif
+#ifndef voCheckLibCheckVideo
+#define voCheckLibCheckVideo HogAZKvyHjoHGdcNJBFlhG /*-P-*/
+#endif
+#ifndef voCheckLibInit
+#define voCheckLibInit CWpboQKCZfVYfvlkYOpBbwa /*-P-*/
+#endif
+#ifndef voCheckLibReadAudio
+#define voCheckLibReadAudio OQeZWXmERrvfafUuehzNwp /*-P-*/
+#endif
+#ifndef voCheckLibReadVideo
+#define voCheckLibReadVideo GACDWYGJvDfvrwxGUqrRSBD /*-P-*/
+#endif
+#ifndef voCheckLibRenderVideo
+#define voCheckLibRenderVideo EzqyEamHvGwHgsCczqZsnNR /*-P-*/
+#endif
+#ifndef voCheckLibResetVideo
+#define voCheckLibResetVideo ELWZflsMZUCfkIojVuMHfYt /*-P-*/
+#endif
+#ifndef voCheckLibUninit
+#define voCheckLibUninit FmlOnDeZkAVXabwPtmKdcwB /*-P-*/
+#endif
+#endif
+#endif
